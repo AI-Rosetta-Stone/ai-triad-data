@@ -95,7 +95,7 @@ jobs:
       - name: Checkout code repo (AITriad module)
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v6
         with:
-          repository: jpsnover/ai-triad-research   # public — no token needed
+          repository: AI-Rosetta-Stone/ai-triad-research   # public — no token needed
           path: ai-triad-research
           fetch-depth: 1
 
@@ -185,7 +185,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/jpsnover/ai-triad-data.git"
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/AI-Rosetta-Stone/ai-triad-data.git"
           git add taxonomy/Origin/source_index.json
           if git diff --cached --quiet; then
             echo "No index change to commit (byte-identical regen — t/3598 determinism)"

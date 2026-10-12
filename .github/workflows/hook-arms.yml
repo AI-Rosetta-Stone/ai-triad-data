@@ -61,7 +61,7 @@ jobs:
       - name: Checkout code repo (sibling; situation classifier + AITriad module + pov-tags-cli)
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v6
         with:
-          repository: jpsnover/ai-triad-research   # public
+          repository: AI-Rosetta-Stone/ai-triad-research   # public
           path: ai-triad-research
           fetch-depth: 0   # the hooks read origin/main of the code repo
 

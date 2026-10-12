@@ -1,6 +1,6 @@
 # AI Triad Research — Data Repository
 
-This repository contains the research data for the [AI Triad Research](https://github.com/jpsnover/ai-triad-research) project. It is separated from the code repository to keep the tools lightweight and allow independent versioning of code and data.
+This repository contains the research data for the [AI Triad Research](https://github.com/AI-Rosetta-Stone/ai-triad-research) project. It is separated from the code repository to keep the tools lightweight and allow independent versioning of code and data.
 
 ## Structure
 
@@ -20,14 +20,14 @@ Clone this repo as a sibling to the code repo:
 
 ```bash
 cd ~/source/repos
-git clone https://github.com/jpsnover/ai-triad-data.git
-git clone https://github.com/jpsnover/ai-triad-research.git
+git clone https://github.com/AI-Rosetta-Stone/ai-triad-data.git
+git clone https://github.com/AI-Rosetta-Stone/ai-triad-research.git
 ```
 
 The code repo's `.aitriad.json` points to `../ai-triad-data` for all data paths.
 
 ## Requirements
 
-- The code repo ([ai-triad-research](https://github.com/jpsnover/ai-triad-research)) contains the PowerShell module and Electron apps
+- The code repo ([ai-triad-research](https://github.com/AI-Rosetta-Stone/ai-triad-research)) contains the PowerShell module and Electron apps
 - PowerShell 7.0+ for the CLI tools
 - Node.js 18+ for the Taxonomy Editor

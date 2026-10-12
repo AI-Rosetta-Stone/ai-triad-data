@@ -57,7 +57,7 @@ jobs:
       - name: Checkout code repo (AITriad module)
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v6
         with:
-          repository: jpsnover/ai-triad-research   # public — no token needed
+          repository: AI-Rosetta-Stone/ai-triad-research   # public — no token needed
           path: ai-triad-research
           fetch-depth: 1
 
