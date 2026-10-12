@@ -25,6 +25,7 @@
 
 name: Data-Compliance Alert Watchdog
 
+# Schedule re-registered 2026-10-12 after the AI-Rosetta-Stone org move: the cron stopped firing silently (ai-triad-research t/4173).
 on:
   schedule:
     - cron: '41 * * * *'   # hourly at :41 (off the hour; GitHub may still delay under load)
