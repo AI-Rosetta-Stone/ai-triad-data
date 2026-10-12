@@ -1,0 +1,139 @@
+# ─── Large-File Guard (t/4060) ───
+# What:  On every push to main, checks every file the push touched against two thresholds and
+#        warns via the data-compliance issue path (never blocks the push):
+#          1. a tracked file now exceeds TRACKED_FILE_LIMIT_MB;
+#          2. a file already over GROWTH_WATCH_FLOOR_MB grew by more than GROWTH_LIMIT_MB in
+#             this one push.
+#
+# Why:   Large binary/JSON blobs bloat the repo and slow every clone/checkout; a single big push
+#        (a bulk re-harvest, an embeddings regen) is the point where it is cheapest to notice.
+#
+# T0, warn-only: this NEVER fails the job on a detected violation -- opening/updating the
+# data-compliance issue IS the successful completion of the check, same as the sibling
+# data-compliance-watchdog.yml. It fails loudly (non-zero exit, ::error::) only on an internal
+# error (can't diff, can't query/open the issue) -- "could not check" must never read as "clean".
+#
+# Idempotency: one canonical open issue per violation type (title search, reopen+comment if found,
+# else create), same reuse pattern as compliance-live.yml / data-compliance-watchdog.yml, so a
+# string of pushes that keep breaching the threshold does not pile up duplicate issues.
+
+name: Large-File Guard
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  TRACKED_FILE_LIMIT_MB: '80'
+  GROWTH_WATCH_FLOOR_MB: '50'
+  GROWTH_LIMIT_MB: '5'
+  ISSUE_LABEL: 'data-compliance'
+  ISSUE_TITLE: 'Large-file guard: tracked-file size threshold breach'
+
+jobs:
+  large-file-guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v6
+        with:
+          fetch-depth: 0  # need blob access at both BEFORE and AFTER for every file in history
+
+      - name: Check pushed files against size thresholds
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          trap 'echo "::error::large-file-guard failed at line ${LINENO} (exit $?) -- pushed files were NOT checked this run (t/4060). A failed check must never read as clean."' ERR
+
+          TRACKED_LIMIT_BYTES=$((TRACKED_FILE_LIMIT_MB * 1024 * 1024))
+          GROWTH_FLOOR_BYTES=$((GROWTH_WATCH_FLOOR_MB * 1024 * 1024))
+          GROWTH_LIMIT_BYTES=$((GROWTH_LIMIT_MB * 1024 * 1024))
+
+          # A force-push or the branch's first push reports BEFORE as all-zeros -- there is no
+          # "before" tree to diff against, so every file in AFTER is effectively new.
+          ZERO_SHA='0000000000000000000000000000000000000000'
+          if [ "$BEFORE" = "$ZERO_SHA" ] || [ -z "$BEFORE" ]; then
+            CHANGED=$(git ls-tree -r --name-only "$AFTER")
+          else
+            CHANGED=$(git diff --name-only --diff-filter=ACMR "$BEFORE" "$AFTER")
+          fi
+
+          VIOLATIONS=""
+          CHECKED=0
+          while IFS= read -r FILE; do
+            [ -z "$FILE" ] && continue
+            CHECKED=$((CHECKED + 1))
+
+            AFTER_SIZE=$(git cat-file -s "${AFTER}:${FILE}" 2>/dev/null || echo 0)
+            if [ "$BEFORE" = "$ZERO_SHA" ] || [ -z "$BEFORE" ]; then
+              BEFORE_SIZE=0
+            else
+              BEFORE_SIZE=$(git cat-file -s "${BEFORE}:${FILE}" 2>/dev/null || echo 0)
+            fi
+            GROWTH=$((AFTER_SIZE - BEFORE_SIZE))
+
+            if [ "$AFTER_SIZE" -gt "$TRACKED_LIMIT_BYTES" ]; then
+              MB=$(( (AFTER_SIZE + 1048575) / 1048576 ))
+              VIOLATIONS="${VIOLATIONS}- \`${FILE}\`: now **${MB}MB**, over the ${TRACKED_FILE_LIMIT_MB}MB tracked-file limit\n"
+            elif [ "$BEFORE_SIZE" -gt "$GROWTH_FLOOR_BYTES" ] && [ "$GROWTH" -gt "$GROWTH_LIMIT_BYTES" ]; then
+              GROWTH_MB=$(( (GROWTH + 1048575) / 1048576 ))
+              VIOLATIONS="${VIOLATIONS}- \`${FILE}\`: grew **${GROWTH_MB}MB** in this push (already over ${GROWTH_WATCH_FLOOR_MB}MB, growth limit ${GROWTH_LIMIT_MB}MB)\n"
+            fi
+          done <<< "$CHANGED"
+
+          echo "checked=${CHECKED}"
+          {
+            echo "### Large-file guard"
+            echo "- files checked this push: **${CHECKED}**"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ -z "$VIOLATIONS" ]; then
+            echo "No threshold breach. Clean push."
+            exit 0
+          fi
+
+          echo -e "Threshold breach(es) found:\n${VIOLATIONS}"
+          BODY="Push \`${AFTER:0:8}\` to \`main\` breached the large-file guard's thresholds:
+
+          $(echo -e "$VIOLATIONS")
+          Thresholds: tracked-file limit ${TRACKED_FILE_LIMIT_MB}MB; growth limit ${GROWTH_LIMIT_MB}MB on any file already over ${GROWTH_WATCH_FLOOR_MB}MB.
+
+          Run: ${RUN_URL} (t/4060)"
+
+          gh label create "$ISSUE_LABEL" -R "$REPO" --color "e4e669" \
+            --description "Data corpus compliance regression" 2>/dev/null || true
+
+          NUM=$(gh issue list -R "$REPO" --label "$ISSUE_LABEL" --state all --search "$ISSUE_TITLE" \
+            --json number --jq '.[0].number // empty' 2>/dev/null || echo "QUERY_FAILED")
+          if [ "$NUM" = "QUERY_FAILED" ]; then
+            echo "::error::Could not query the data-compliance alarm in $REPO. A real size violation exists but the alarm state is unknown."
+            exit 1
+          fi
+
+          if [ -n "$NUM" ]; then
+            gh issue comment "$NUM" -R "$REPO" --body "$BODY" || true
+            gh issue reopen "$NUM" -R "$REPO" 2>/dev/null || true
+          else
+            # Read the number straight from `gh issue create`'s own URL output (last path segment)
+            # rather than re-querying by --search immediately after: GitHub's issue search index can
+            # lag a freshly created issue by enough to make the very next --search return empty, which
+            # would read as "create failed" even though it succeeded (observed live, t/4060 arm-test).
+            CREATE_URL=$(gh issue create -R "$REPO" --title "$ISSUE_TITLE" --body "$BODY" --label "$ISSUE_LABEL" --assignee jpsnover 2>/dev/null || echo "")
+            NUM="${CREATE_URL##*/}"
+          fi
+
+          STATE=$(gh issue view "$NUM" -R "$REPO" --json state --jq '.state' 2>/dev/null || echo "VIEW_FAILED")
+          if [ "$STATE" != "OPEN" ]; then
+            echo "::error::Failed to open/reopen the large-file-guard alarm in $REPO (num='$NUM' state=$STATE). A real size violation exists but the alarm could NOT be raised."
+            exit 1
+          fi
+          echo "Alarm #$NUM open for the size violation."
