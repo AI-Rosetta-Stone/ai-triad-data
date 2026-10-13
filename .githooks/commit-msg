@@ -18,10 +18,10 @@
 #   sees exactly what will be committed -- a peer's unrelated staged removal is
 #   invisible during a pathspec commit. Verified both paths.
 #
-# WARN-ONLY for now -- prints and exits 0. Per Gate Promotion it stays
-# advisory for >=1 green cycle against the real repo, and the flip to blocking
-# (exit 1) is gated on a mandatory Second Opinion (e/243). DO NOT flip without
-# it. Flip = set WARN_ONLY=0 below and update this header's status line.
+# BLOCKING since 2026-10-13 (t/3851): an unacknowledged removal exits 1 and the
+# commit is refused. Promoted after the warn cycle (69 real runs, 0 violations,
+# 0 unverified, t/3851#17), the SO sign-off (e/243) and PI approval (2026-10-13,
+# in session with the TL). To revert to advisory, set WARN_ONLY=1 below.
 #
 # READ THIS BEFORE FLIPPING -- what the warn-only cycle will NOT have proven
 # (t/3851, e/243#10):
@@ -45,9 +45,11 @@
 #   A CLONE, not a worktree: core.hooksPath lives in .git/config, which
 #   worktrees SHARE -- flipping WARN_ONLY in a worktree flips it for the shared
 #   checkout too.
-#   Status 2026-10-03: probe designed (e/243#10) and NOT run; PI chose to wait
-#   for organic traffic instead. This annotation exists so the flip is not made
-#   on the assumption that an organic green covered the refusal path.
+#   Status 2026-10-13: probe RUN before the flip (TL). With WARN_ONLY=0 in a
+#   depth-1 clone of origin/main, dropping acc-beliefs-139 from
+#   accelerationist.json was REFUSED (exit 1, no new SHA; the message named the
+#   node and printed the paste-ready trailer), and a legitimate commit in the
+#   same clone then succeeded. (2026-10-03: designed, e/243#10, not yet run.)
 #
 #   BUT DO NOT READ THE ABOVE AS "FLIPPING IS RISKY" (e/243#12). The evidence
 #   is incomplete; the risk is low, because this guard's failure direction is
@@ -67,7 +69,7 @@
 # to a guard whose value is being hard to satisfy by accident. The clone above
 # gives the same testability with no production surface.
 #
-# GV status: WARN-ONLY, promotion-ready pending the SO sign-off below.
+# GV status: BLOCKING (2026-10-13). Offline arms below plus the real-corpus probe above.
 #   Predicate: 7/7 arms (taxonomy_node_removal_verdict.py); shared trailer
 #         parser acknowledged_ids 7/7 (t/3870#5: the push-side re-check imports it).
 #   Hook: 15 arms x BOTH WARN_ONLY settings = 30/30 (arms 13-15: UTF-8 BOM in the
@@ -115,7 +117,7 @@
 
 set -euo pipefail
 
-WARN_ONLY=1
+WARN_ONLY=0
 
 MSG_FILE="${1:?commit-msg hook requires the message file path}"
 
