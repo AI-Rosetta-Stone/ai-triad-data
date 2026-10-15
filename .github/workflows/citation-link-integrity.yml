@@ -109,8 +109,14 @@ jobs:
               echo "regen_pending=false" >> "$GITHUB_OUTPUT"
             fi
             # legs a+c read summaries/ and taxonomy/Origin/ (POV files, situations.json, source_index.json)
-            DIFF=$(git diff --name-only "$BEFORE..$AFTER" -- 'summaries/' 'taxonomy/Origin/' 2>/dev/null)
-            if [ -n "$DIFF" ]; then
+            # t/4228: mirrors the RDIFF guard above -- a force-push whose old `before` is
+            # unreachable made this git diff fail with "Invalid revision range" (exit 128),
+            # crashing the whole job under bash -e. Fail-closed to full-set, not red: history
+            # being rewritten is not a reason this run should go red.
+            if ! DIFF=$(git diff --name-only "$BEFORE..$AFTER" -- 'summaries/' 'taxonomy/Origin/' 2>&1); then
+              echo "::warning::citation-inputs check: git diff failed ($DIFF); falling back to full-set validation"
+              echo "inputs_changed=true" >> "$GITHUB_OUTPUT"
+            elif [ -n "$DIFF" ]; then
               echo "citation inputs in push range — running check"
               echo "inputs_changed=true" >> "$GITHUB_OUTPUT"
             else
