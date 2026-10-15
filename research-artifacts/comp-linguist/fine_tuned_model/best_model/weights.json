@@ -1,0 +1,11 @@
+{
+  "_comment": "model.safetensors is no longer stored in git (t/4154: it was 90.9 MB, 9 MB under GitHub's 100 MB push limit). Download it from the release below and place it next to this file. Verify the sha256 before use.",
+  "file": "model.safetensors",
+  "repo": "AI-Rosetta-Stone/ai-triad-data",
+  "release_tag": "comp-linguist-claim-matcher-v1",
+  "asset": "model.safetensors",
+  "bytes": 90864192,
+  "sha256": "e0b41847c0c12efbb7557805255dd473409571a16dd679bde37a197fc6b9c322",
+  "source_data_commit": "706dfdde",
+  "download": "gh release download comp-linguist-claim-matcher-v1 -R AI-Rosetta-Stone/ai-triad-data -p model.safetensors -D research-artifacts/comp-linguist/fine_tuned_model/best_model"
+}
