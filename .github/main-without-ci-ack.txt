@@ -4,3 +4,4 @@
 # something the watchdog itself writes.
 #
 # Format: <after-sha> <free-text reason, should reference a ticket>
+6115aa80a84649e4450f41643221881fc818a34a t/4064#10 -- the probe incident itself. A regen workflow's commit-back pushed with GITHUB_TOKEN under a hardcoded HEAD:main, fast-forwarding main with dd25058a/99ecc405/219a20ee alongside the bot's own regen commit. Root cause fixed in t/4226 (the commit-back now derives its target from the triggering ref and fails closed on anything but refs/heads/*). This ack is the historical record, not a live risk going forward.
