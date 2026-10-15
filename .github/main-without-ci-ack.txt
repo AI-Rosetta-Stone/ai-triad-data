@@ -1,0 +1,6 @@
+# t/4227: acknowledged main ref-updates that the main-without-ci watchdog would otherwise
+# flag. One `after` SHA per line, followed by a reason and a ticket reference. Edited only
+# through a PR — this is a record that a human looked at the update and it's fine, not
+# something the watchdog itself writes.
+#
+# Format: <after-sha> <free-text reason, should reference a ticket>
