@@ -131,23 +131,53 @@ jobs:
         run: |
           set -uo pipefail  # NOT -e: exit 1 here is an expected "findings" signal, not a bug
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          FINDINGS_FILE="/tmp/main-without-ci-findings.json"
+          CHECK_TITLE="$MAIN_WITHOUT_CI_TITLE"
+          COULD_NOT_RUN_TITLE="main-without-ci check could NOT run"
 
-          OUT=$(python3 .github/scripts/main_without_ci_check.py --repo "$REPO" --lookback-days 7 \
-                  --ack-file .github/main-without-ci-ack.txt --git-cwd . 2>&1)
+          # TL review (PR #65): "could not check" must be loud and durable, never silent
+          # behind continue-on-error -- a watchdog that fails silently is invisible.
+          # Findings are read ONLY from --findings-out, never parsed out of mixed
+          # stdout/stderr. Any exit code other than 0 or 1, OR a missing/invalid
+          # findings file even when the process claimed exit 1, is treated as "could not
+          # run" -- the file is the trusted signal, not the process's own exit code.
+          set +e
+          python3 .github/scripts/main_without_ci_check.py --repo "$REPO" --lookback-days 7 \
+            --ack-file .github/main-without-ci-ack.txt --git-cwd . --findings-out "$FINDINGS_FILE"
           CODE=$?
-          echo "$OUT"
-          if [ "$CODE" -eq 2 ]; then
-            echo "::error::main-without-ci check failed to run (API/usage error, not a finding) -- see output above"
-            exit 1
+          set -e
+
+          COULD_NOT_RUN=false
+          if [ "$CODE" != "0" ] && [ "$CODE" != "1" ]; then
+            COULD_NOT_RUN=true
+          elif [ ! -s "$FINDINGS_FILE" ] || ! jq -e 'type == "array"' "$FINDINGS_FILE" >/dev/null 2>&1; then
+            COULD_NOT_RUN=true
           fi
 
-          TITLE="$MAIN_WITHOUT_CI_TITLE"
-          EXISTING=$(gh issue list -R "$REPO" --label data-compliance --state open --search "\"$TITLE\" in:title" --json number,title \
-            | jq -r --arg t "$TITLE" '[.[] | select(.title == $t)][0].number // empty')
+          CNR_EXISTING=$(gh issue list -R "$REPO" --label data-compliance --state open --search "\"$COULD_NOT_RUN_TITLE\" in:title" --json number,title \
+            | jq -r --arg t "$COULD_NOT_RUN_TITLE" '[.[] | select(.title == $t)][0].number // empty')
 
-          if [ "$CODE" -eq 1 ]; then
-            FINDINGS_JSON=$(echo "$OUT" | grep -v '^::error::')
-            echo "$FINDINGS_JSON" | jq -r '.[] | "- \(.before[0:8])..\(.after[0:8]): \(.reason)"' > /tmp/findings-body.txt
+          if [ "$COULD_NOT_RUN" = "true" ]; then
+            BODY="The main-without-ci check (t/4227) did not produce a trustworthy result this run (exit code: ${CODE}). See the run log for the actual error. This does NOT mean main is clean -- it means this run couldn't tell. Run: ${RUN_URL}"
+            if [ -n "$CNR_EXISTING" ]; then
+              gh issue comment "$CNR_EXISTING" -R "$REPO" --body "$BODY"
+            else
+              gh issue create -R "$REPO" --title "$COULD_NOT_RUN_TITLE" --label data-compliance --assignee "$ESCALATE_TO" --body "$BODY"
+            fi
+            echo "::error::main-without-ci check did not produce a trustworthy result (exit ${CODE}) -- filed/updated \"${COULD_NOT_RUN_TITLE}\""
+            exit 0   # continue-on-error already covers this; explicit for clarity
+          fi
+
+          # A trustworthy result landed -- auto-close any open "could not run" issue (recovery).
+          if [ -n "$CNR_EXISTING" ]; then
+            gh issue close "$CNR_EXISTING" -R "$REPO" --comment "A subsequent run produced a trustworthy result (exit ${CODE}). Closing. Run: ${RUN_URL}"
+          fi
+
+          EXISTING=$(gh issue list -R "$REPO" --label data-compliance --state open --search "\"$CHECK_TITLE\" in:title" --json number,title \
+            | jq -r --arg t "$CHECK_TITLE" '[.[] | select(.title == $t)][0].number // empty')
+
+          if [ "$CODE" = "1" ]; then
+            jq -r '.[] | "- \(.before[0:8])..\(.after[0:8]): \(.reason)"' "$FINDINGS_FILE" > /tmp/findings-body.txt
             {
               echo "main ref-update(s) in the last 7 days with no clean explanation:"
               echo ""
@@ -158,7 +188,7 @@ jobs:
             if [ -n "$EXISTING" ]; then
               gh issue comment "$EXISTING" -R "$REPO" --body-file /tmp/findings-full-body.txt
             else
-              gh issue create -R "$REPO" --title "$TITLE" --label data-compliance --assignee "$ESCALATE_TO" --body-file /tmp/findings-full-body.txt
+              gh issue create -R "$REPO" --title "$CHECK_TITLE" --label data-compliance --assignee "$ESCALATE_TO" --body-file /tmp/findings-full-body.txt
             fi
           else
             if [ -n "$EXISTING" ]; then

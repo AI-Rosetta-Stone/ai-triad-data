@@ -44,8 +44,15 @@ STATELESS LOOKBACK
 
 Usage:
   python3 .github/scripts/main_without_ci_check.py --repo <owner/repo> [--lookback-days 7]
-                                                     [--ack-file <path>]
-Exit: 0 = no (unacked) findings; 1 = findings; 2 = usage/API error.
+                                                     [--ack-file <path>] [--findings-out <path>]
+Exit: 0 = no (unacked) findings; 1 = findings; 2 = usage/API error (also: run-list truncated).
+
+OUTPUT CONTRACT (TL review, t/4227 PR #65): findings are JSON, written ONLY to
+`--findings-out <path>` (always, on both exit 0 and exit 1 -- `[]` on 0). Never parsed out
+of stdout/stderr by a caller — that mixes with ::error:: annotations and any stray warning
+line, which breaks a caller's `jq` on exactly the runs most worth catching. A caller should
+treat a missing or invalid findings file as exit 2, even if the process's own exit code
+claimed 1.
 """
 
 import argparse
@@ -114,15 +121,29 @@ def fetch_activity(repo, since_iso):
     return entries
 
 
-def fetch_push_run_shas(repo, limit=300):
+def fetch_push_run_shas(repo, since_iso, limit=300):
     """SHAs with at least one push-event workflow run on main, any conclusion — a run
     that evaluated the commit and failed still means CI looked at it; a MISSING run is
-    the finding, not a failing one (that's a different alert's job)."""
+    the finding, not a failing one (that's a different alert's job).
+
+    `--created` bounds the query to the lookback window (TL should-fix, PR #65 review) --
+    without it, a run count that reaches `limit` is silently truncated and a real run
+    just outside the fetched page reads as "no CI run", a false finding. If the bounded
+    query STILL reaches `limit`, that's still a truncation risk (an unusually busy
+    window) -- raise rather than silently return a possibly-incomplete set; "the query
+    could have answered" must be checked, not assumed."""
+    since_date = since_iso[:10]  # gh's --created takes a date, not a full timestamp
     raw = run_gh([
         "run", "list", "-R", repo, "--branch", "main", "--event", "push",
-        "--limit", str(limit), "--json", "headSha",
+        "--created", f">={since_date}", "--limit", str(limit), "--json", "headSha",
     ])
-    return {row["headSha"] for row in json.loads(raw)}
+    rows = json.loads(raw)
+    if len(rows) >= limit:
+        raise RuntimeError(
+            f"run list for main since {since_date} returned {len(rows)} rows, "
+            f"hitting --limit {limit} -- truncation risk, raise the limit or shrink the window"
+        )
+    return {row["headSha"] for row in rows}
 
 
 def commits_in_range(before, after, cwd=None):
@@ -204,6 +225,7 @@ def main():
     p.add_argument("--lookback-days", type=int, default=7)
     p.add_argument("--ack-file", default=None)
     p.add_argument("--git-cwd", default=None, help="checkout to run `git log` in (default: cwd)")
+    p.add_argument("--findings-out", default=None, help="write findings JSON here (TL review, PR #65) — the only supported way to read findings; never parse stdout/stderr")
     args = p.parse_args()
 
     try:
@@ -211,7 +233,7 @@ def main():
         since_iso = since.strftime("%Y-%m-%dT%H:%M:%SZ")
 
         activity = fetch_activity(args.repo, since_iso)
-        run_shas = fetch_push_run_shas(args.repo)
+        run_shas = fetch_push_run_shas(args.repo, since_iso)
         acked = load_ack_file(args.ack_file)
 
         findings = []
@@ -227,10 +249,13 @@ def main():
             if reason:
                 findings.append({"before": update["before"], "after": update["after"], "reason": reason})
 
+        if args.findings_out:
+            with open(args.findings_out, "w", encoding="utf-8") as fh:
+                json.dump(findings, fh)
+
         if findings:
             for f in findings:
                 print(f"::error::main-without-ci: {f['reason']}")
-            print(json.dumps(findings))
             return 1
 
         print("main-without-ci: no unacked findings in the lookback window")
