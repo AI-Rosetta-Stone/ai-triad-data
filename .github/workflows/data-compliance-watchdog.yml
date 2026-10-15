@@ -48,11 +48,17 @@ env:
   ESCALATE_TO: 'jpsnover'
   LEGA_ISSUE_TITLE: 'Data: citation-link integrity offender(s) on push'
   ORPHAN_TITLE: 'Watchdog: leg-a run failed with no alert issue'
+  MAIN_WITHOUT_CI_TITLE: 'data main advanced without CI'
 
 jobs:
   watchdog:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout (t/4227 needs full history to enumerate bot ref-update ranges)
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v6
+        with:
+          fetch-depth: 0
+
       - name: Flag unrouted data-compliance alerts and orphan red leg-a runs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -111,3 +117,81 @@ jobs:
             echo "- latest citation-link-integrity on \`${CITATION_BRANCH}\`: ${LAST_CONC}; orphan red run flagged: ${ORPHAN}"
           } >> "$GITHUB_STEP_SUMMARY"
           echo "examined=${EXAMINED} newly_flagged=${NEWLY} already_flagged=${ALREADY} lega_latest=${LAST_CONC} orphan=${ORPHAN}"
+
+      # ── Main-without-CI watchdog (t/4227, observability for the t/4064#10 incident) ──
+      # ALERT-ONLY: continue-on-error means a failure here never fails this workflow's
+      # other two checks above. Judges REF UPDATES (not individual commits) via the
+      # repository Activity API -- see main_without_ci_check.py's own docstring for why.
+      - name: Flag main ref-updates that never ran CI (t/4227)
+        id: main_without_ci
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -uo pipefail  # NOT -e: exit 1 here is an expected "findings" signal, not a bug
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          FINDINGS_FILE="/tmp/main-without-ci-findings.json"
+          CHECK_TITLE="$MAIN_WITHOUT_CI_TITLE"
+          COULD_NOT_RUN_TITLE="main-without-ci check could NOT run"
+
+          # TL review (PR #65): "could not check" must be loud and durable, never silent
+          # behind continue-on-error -- a watchdog that fails silently is invisible.
+          # Findings are read ONLY from --findings-out, never parsed out of mixed
+          # stdout/stderr. Any exit code other than 0 or 1, OR a missing/invalid
+          # findings file even when the process claimed exit 1, is treated as "could not
+          # run" -- the file is the trusted signal, not the process's own exit code.
+          set +e
+          python3 .github/scripts/main_without_ci_check.py --repo "$REPO" --lookback-days 7 \
+            --ack-file .github/main-without-ci-ack.txt --git-cwd . --findings-out "$FINDINGS_FILE"
+          CODE=$?
+          set -e
+
+          COULD_NOT_RUN=false
+          if [ "$CODE" != "0" ] && [ "$CODE" != "1" ]; then
+            COULD_NOT_RUN=true
+          elif [ ! -s "$FINDINGS_FILE" ] || ! jq -e 'type == "array"' "$FINDINGS_FILE" >/dev/null 2>&1; then
+            COULD_NOT_RUN=true
+          fi
+
+          CNR_EXISTING=$(gh issue list -R "$REPO" --label data-compliance --state open --search "\"$COULD_NOT_RUN_TITLE\" in:title" --json number,title \
+            | jq -r --arg t "$COULD_NOT_RUN_TITLE" '[.[] | select(.title == $t)][0].number // empty')
+
+          if [ "$COULD_NOT_RUN" = "true" ]; then
+            BODY="The main-without-ci check (t/4227) did not produce a trustworthy result this run (exit code: ${CODE}). See the run log for the actual error. This does NOT mean main is clean -- it means this run couldn't tell. Run: ${RUN_URL}"
+            if [ -n "$CNR_EXISTING" ]; then
+              gh issue comment "$CNR_EXISTING" -R "$REPO" --body "$BODY"
+            else
+              gh issue create -R "$REPO" --title "$COULD_NOT_RUN_TITLE" --label data-compliance --assignee "$ESCALATE_TO" --body "$BODY"
+            fi
+            echo "::error::main-without-ci check did not produce a trustworthy result (exit ${CODE}) -- filed/updated \"${COULD_NOT_RUN_TITLE}\""
+            exit 0   # continue-on-error already covers this; explicit for clarity
+          fi
+
+          # A trustworthy result landed -- auto-close any open "could not run" issue (recovery).
+          if [ -n "$CNR_EXISTING" ]; then
+            gh issue close "$CNR_EXISTING" -R "$REPO" --comment "A subsequent run produced a trustworthy result (exit ${CODE}). Closing. Run: ${RUN_URL}"
+          fi
+
+          EXISTING=$(gh issue list -R "$REPO" --label data-compliance --state open --search "\"$CHECK_TITLE\" in:title" --json number,title \
+            | jq -r --arg t "$CHECK_TITLE" '[.[] | select(.title == $t)][0].number // empty')
+
+          if [ "$CODE" = "1" ]; then
+            jq -r '.[] | "- \(.before[0:8])..\(.after[0:8]): \(.reason)"' "$FINDINGS_FILE" > /tmp/findings-body.txt
+            {
+              echo "main ref-update(s) in the last 7 days with no clean explanation:"
+              echo ""
+              cat /tmp/findings-body.txt
+              echo ""
+              echo "Acknowledge via a PR adding the \`after\` SHA(s) to \`.github/main-without-ci-ack.txt\` with a reason, or investigate. Run: ${RUN_URL} (t/4227)"
+            } > /tmp/findings-full-body.txt
+            if [ -n "$EXISTING" ]; then
+              gh issue comment "$EXISTING" -R "$REPO" --body-file /tmp/findings-full-body.txt
+            else
+              gh issue create -R "$REPO" --title "$CHECK_TITLE" --label data-compliance --assignee "$ESCALATE_TO" --body-file /tmp/findings-full-body.txt
+            fi
+          else
+            if [ -n "$EXISTING" ]; then
+              gh issue close "$EXISTING" -R "$REPO" --comment "All previously flagged main ref-updates are now acked or have aged out of the 7-day lookback window. Closing (t/4227). Run: ${RUN_URL}"
+            fi
+          fi
