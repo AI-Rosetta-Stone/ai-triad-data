@@ -72,7 +72,7 @@ name: Source Index Regeneration
 
 on:
   push:
-    branches: [main]
+    branches: [main, t4064-reprove-b]  # t/4064 probe, remove before merge
   workflow_dispatch:   # manual full-set regen; classifier-blocked for agents, human-dispatchable
 
 permissions:
