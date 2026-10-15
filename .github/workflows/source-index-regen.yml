@@ -9,6 +9,22 @@
 # LOCKED BUILD SPEC: t/3788#4 (DevOps Lead, consolidating TL t/3788#2 + CL t/3788#3).
 # Numbered references below map to that spec's 8 points.
 #
+# SAFE PROBE PROCEDURE (t/4226, prevention for the t/4064#10 incident): the commit-back's
+# push and rebase targets are derived from the triggering ref via
+# .github/scripts/regen-push-target.sh, never a hardcoded "main" literal — a probe run on
+# another branch commits back to THAT branch, never main. To probe this workflow safely:
+#   1. Push a baseline commit to a dedicated probe branch first (establishes real branch
+#      history — github.event.before on a brand-new branch's first push is the zero-SHA,
+#      which both this workflow and citation-link-integrity.yml correctly treat as a
+#      full-set/refresh-pending fallback, not a loop-guard test).
+#   2. Push the real test commit as a SECOND, separate push on that same branch.
+#   3. NEVER force-push a probe branch that has already been used — a force-push abandons
+#      the old tip, which can leave it unreachable for the next push's before/after diff
+#      (observed: "Invalid revision range", exit 128, job failure — a real but separate
+#      robustness gap in the citation workflow's diff step, not this one).
+#   4. Record the target branch's SHA before and after dispatching, confirm the commit-back
+#      landed there (not on main), then delete the probe branch.
+#
 # [1] TRIGGER + LOOP-GUARD: triggers on push to main like the two sibling workflows
 #     (bdi-boundary-check.yml, citation-link-integrity.yml), then an in-job before/after
 #     diff decides whether summaries/ was touched — same pattern as those two, chosen
@@ -204,21 +220,29 @@ jobs:
             echo "No index change to commit (byte-identical regen — t/3598 determinism)"
           else
             git commit -m "chore: regenerate source_index.json (t/3788)"
-            # Push with rebase-and-retry. A push to main landing mid-run used to reject this
-            # commit-back as non-fast-forward, with no retry, stranding a stale index
-            # (run 37679003670, data #49/#54). Rebasing our single index commit onto the
-            # newer main is correct: if the intervening commits changed regen inputs, they
-            # triggered their own push run, which is queued behind this one (the
-            # concurrency group never cancels) and regenerates again. A rebase CONFLICT means
-            # someone else committed source_index.json, so stop loudly rather than overwrite.
+            # t/4226 (prevention for t/4064#10): the push and rebase targets both come from
+            # this ONE predicate, derived from the triggering ref -- never a hardcoded "main"
+            # literal anywhere below. A probe run on another branch used to fast-forward data
+            # main with its own commit-back; this script fails closed (refuses, exit 1) on
+            # anything that isn't refs/heads/<branch>, so there is no silent fallback to main.
+            PUSH_TARGET="$(bash .github/scripts/regen-push-target.sh)"
+            BRANCH="${PUSH_TARGET#HEAD:}"
+            # Push with rebase-and-retry. A push to the target branch landing mid-run used to
+            # reject this commit-back as non-fast-forward, with no retry, stranding a stale
+            # index (run 37679003670, data #49/#54, back when this only ever ran on main).
+            # Rebasing our single index commit onto the newer branch tip is correct: if the
+            # intervening commits changed regen inputs, they triggered their own push run,
+            # which is queued behind this one (the concurrency group never cancels) and
+            # regenerates again. A rebase CONFLICT means someone else committed
+            # source_index.json, so stop loudly rather than overwrite.
             pushed=false
             for attempt in 1 2 3 4 5; do
-              if git push origin HEAD:main; then pushed=true; break; fi
-              echo "::warning::commit-back push rejected (attempt $attempt/5) -- main moved mid-run; rebasing onto origin/main and retrying"
-              git fetch origin main
-              if ! git rebase origin/main; then
+              if git push origin "$PUSH_TARGET"; then pushed=true; break; fi
+              echo "::warning::commit-back push rejected (attempt $attempt/5) -- $BRANCH moved mid-run; rebasing onto origin/$BRANCH and retrying"
+              git fetch origin "$BRANCH"
+              if ! git rebase "origin/$BRANCH"; then
                 git rebase --abort || true
-                echo "::error::commit-back rebase CONFLICT on taxonomy/Origin/source_index.json -- another commit changed the index concurrently; not overwriting it. Re-dispatch source-index-regen after main settles."
+                echo "::error::commit-back rebase CONFLICT on taxonomy/Origin/source_index.json -- another commit changed the index concurrently; not overwriting it. Re-dispatch source-index-regen after $BRANCH settles."
                 exit 1
               fi
               sleep $((attempt * 5))
