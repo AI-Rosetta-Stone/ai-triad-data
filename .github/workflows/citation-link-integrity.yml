@@ -37,7 +37,7 @@ name: Citation-Link Integrity Check (Warn-First)
 
 on:
   push:
-    branches: [main, t4064-reprove-b]  # t/4064 probe, remove before merge
+    branches: [main]
   workflow_dispatch:   # manual full-set run (proof / on-demand); classifier-blocked for agents, human-dispatchable
 
 permissions:
