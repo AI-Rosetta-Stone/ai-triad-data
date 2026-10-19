@@ -3,7 +3,7 @@
   "_doc": "Accelerationist POV taxonomy. One file per POV camp to minimize merge conflicts. Edit nodes, open a PR, bump TAXONOMY_VERSION in the merge commit.",
   "pov": "accelerationist",
   "color_hex": "#27AE60",
-  "last_modified": "2026-09-15",
+  "last_modified": "2026-10-19",
   "nodes": [
     {
       "id": "acc-desires-001",
@@ -13041,7 +13041,7 @@
         "node_scope": "claim",
         "rhetorical_strategy": "techno_optimism, moral_imperative, appeal_to_evidence, analogical_reasoning",
         "emotional_register": "aspirational, optimistic",
-        "steelman_vulnerability": "The strongest counterargument is that engineering systems with superhuman cross-domain adaptability before solving the alignment problem dramatically concentrates catastrophic risk: a genuinely versatile superintelligent system that pursues misspecified objectives across all domains simultaneously could cause irreversible harm at civilizational scale, making this desire not merely premature but existentially dangerous in the accelerationist framing that dismisses governance constraints.",
+        "steelman_vulnerability": "The strongest counterargument is that engineering systems with superhuman cross-domain adaptability before solving the alignment problem dramatically concentrates catastrophic risk: a genuinely versatile super-intelligent system that pursues misspecified objectives across all domains simultaneously could cause irreversible harm at civilizational scale, making this desire not merely premature but existentially dangerous in the accelerationist framing that dismisses governance constraints.",
         "assumes": [
           "Human-level cross-domain generalization represents a meaningful and achievable benchmark for artificial systems.",
           "Superhuman adaptability in AI would produce net positive outcomes for civilization rather than destabilizing it.",
