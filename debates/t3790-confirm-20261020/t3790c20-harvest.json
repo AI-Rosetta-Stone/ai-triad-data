@@ -1,0 +1,210 @@
+{
+  "debate_id": "999f67a5-d7f5-4f82-93ad-12d6528c823a",
+  "debate_title": "Autonomous weapons systems and the future of warfare unde...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether sub-second automated execution loops prevent meaningful human intervention or override before lethal force is applied.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Real-time battlefield monitoring networks and automated circuit breakers can catch and reverse anomalous targeting loops within 200 milliseconds."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Execution speeds under 200 milliseconds physically prevent human commanders from reviewing sensor feeds or executing meaningful interventions."
+        }
+      ],
+      "linkedNodes": [
+        "acc-desires-006",
+        "sit-160",
+        "sit-221",
+        "acc-intentions-115",
+        "skp-beliefs-070",
+        "skp-desires-066",
+        "skp-intentions-146",
+        "acc-beliefs-094",
+        "acc-intentions-111",
+        "sit-224"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether mandatory human oversight and bureaucratic rollback mechanisms serve as vital safety infrastructure or inefficient red tape.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Insisting on legacy bureaucratic reviews and human oversight for multi-billion-dollar software deployments causes preventable delays and increases overall casualties."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Modular rollback mechanisms and named human authorization structures are indispensable safeguards against cascading military escalation."
+        }
+      ],
+      "linkedNodes": [
+        "acc-desires-006",
+        "sit-160",
+        "sit-221",
+        "acc-intentions-115",
+        "saf-beliefs-122",
+        "saf-desires-018",
+        "saf-desires-002",
+        "saf-intentions-140",
+        "acc-beliefs-094",
+        "acc-intentions-111"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-221",
+      "nodeLabel": "Normative Pragmatism in IHL",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-070",
+      "nodeLabel": "Hierarchical Distance Creates Irreducible Information Loss That Technology Cannot Bridge",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-066",
+      "nodeLabel": "Conscience as a Check on Algorithmic Authority",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-122",
+      "nodeLabel": "AI Performs Consequential Acts That No One Bears Responsibility For",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-018",
+      "nodeLabel": "The Human Power to Limit Violence Must Be Preserved",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-224",
+      "nodeLabel": "The Permissive Nature of Warfare Law",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-160",
+      "nodeLabel": "AI in Military and Warfare",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-115",
+      "nodeLabel": "Deploying Dynamic Machine-Speed Defensive AI Over Static Computational Pauses",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-140",
+      "nodeLabel": "Containing the Blast Radius of Autonomous AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-094",
+      "nodeLabel": "Asymmetry Between Reconstructive Burden and Remediation Cost",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-111",
+      "nodeLabel": "Replace Discretionary Human Halt Authority with Pre-Programmed Enforcement Actions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-214",
+      "nodeLabel": "Designing Modular Rollback Mechanisms for Frontier Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-143",
+      "nodeLabel": "Agentic Authority Demarcation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-242",
+      "nodeLabel": "Regulatory Guidance Rollback",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether sub-second automated execution loops prevent meaningful human intervention or override before lethal force is applied.",
+      "prevails": "C4",
+      "criterion": "empirical_evidence",
+      "rationale": "Human cognitive processing limits make sub-second review physically impossible. The skeptic position relies on well-documented neuroscientific limits of human reaction times, whereas the accelerationist claim about automated circuit breakers lacks verified combat telemetry.",
+      "whatWouldChange": "Peer-reviewed operational telemetry from active combat zones proving that human commanders successfully intercept and reverse targeting loops within a 200-millisecond window.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether mandatory human oversight and bureaucratic rollback mechanisms serve as vital safety infrastructure or inefficient red tape.",
+      "prevails": "C5",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for legal liability under the Geneva Conventions and the risk of cascading escalation. The accelerationist argument narrowly frames software deployment as a commercial investment while ignoring international humanitarian law obligations.",
+      "whatWouldChange": "Binding international legal reform that explicitly replaces individual criminal responsibility with corporate or algorithmic liability.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

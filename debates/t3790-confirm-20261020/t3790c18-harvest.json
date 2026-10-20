@@ -1,0 +1,202 @@
+{
+  "debate_id": "16956f20-c807-4c90-9c36-f9bc41842b75",
+  "debate_title": "Alignment research priorities: interpretability versus ca...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether federal research funding allocations should prioritize pre-deployment interpretability verification over capability scaling.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Federal funding under the CHIPS and Science Act and NSF grants must condition compute access on verifiable internal state visibility to prevent unrecoverable catastrophic risks."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Federal research funds must prioritize compute scaling and open-source deployment, as static interpretability mandates stall technological progress and impose severe human costs."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-intentions-202",
+        "saf-desires-033",
+        "acc-beliefs-046",
+        "acc-desires-027",
+        "acc-intentions-009",
+        "saf-beliefs-106",
+        "saf-desires-026",
+        "saf-intentions-231",
+        "saf-intentions-040"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether runtime behavioral telemetry and output-based audits are sufficient for risk control compared to internal state verification.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Post-hoc governance and runtime telemetry fail because uninterpretable internal states hide catastrophic failure modes that cannot be corrected after deployment."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Output-based audits and runtime monitoring achieve high anomaly detection rates without requiring complete symbolic decoding of high-dimensional parameter spaces."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-intentions-202",
+        "saf-desires-033",
+        "acc-beliefs-046",
+        "acc-desires-027",
+        "acc-intentions-009",
+        "saf-beliefs-106",
+        "saf-desires-026",
+        "saf-intentions-231",
+        "saf-intentions-040"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-133",
+      "nodeLabel": "Organizations Fund AI Experiments but Lack Scaling Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-202",
+      "nodeLabel": "Scale AI Safety Requirements Proportionally to Capability Level",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-033",
+      "nodeLabel": "Materiality-Gated Sustainability Reporting for AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-046",
+      "nodeLabel": "Lab Testing Cannot Reveal Real-World AI Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-009",
+      "nodeLabel": "Discredit AI Safety Discourse as Irrational or Faith-Based",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-106",
+      "nodeLabel": "Liability Asymmetry Punishes Regulators for Caution and Rewards Inaction",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-231",
+      "nodeLabel": "Binding AI Accountability to Physical Infrastructure Metrics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-040",
+      "nodeLabel": "Binding Named Officers to Deployment Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-242",
+      "nodeLabel": "Regulatory Guidance Rollback",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-080",
+      "nodeLabel": "Institutionalize Civil Rights Technical Expertise Within AI Regulatory Bodies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-072",
+      "nodeLabel": "Courts Lack the Expertise to Weigh AI's Diffuse Benefits Against Its Visible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-008",
+      "nodeLabel": "Matching AI Oversight Intensity to Decision Stakes",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether federal research funding allocations should prioritize pre-deployment interpretability verification over capability scaling.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions address critical national priorities but optimize for mutually exclusive outcomes. Safety advocates prioritize catastrophic risk mitigation through structural controls, while accelerationists emphasize technological competitiveness and innovation speed. Neither side currently holds decisive evidence proving their preferred allocation strategy avoids systemic failure while preserving national economic interests.",
+      "claimIds": [
+        "C1",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether runtime behavioral telemetry and output-based audits are sufficient for risk control compared to internal state verification.",
+      "prevails": "C6",
+      "criterion": "specificity",
+      "rationale": "Safety advocates provide a more specific critique by identifying concrete failure modes like sandbagging that bypass output-based checks. Accelerationists rely on general high anomaly detection rates without proving those metrics capture deep latent structural flaws in complex parameter spaces. This makes the safety position more rigorous regarding adversarial evasion.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

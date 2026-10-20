@@ -1,0 +1,184 @@
+{
+  "debate_id": "735b1e46-e1e1-4b50-ab54-81b0824160b2",
+  "debate_title": "AI governance frameworks for advanced AI systems",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether the National Institute of Standards and Technology can enforce strict pre-market safety-gated deployment rules for frontier installations exceeding hundred-million-dollar compute thresholds while preserving permissionless access for small-scale open-weight researchers.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Argues that hard compute thresholds provide a bright-line rule that prevents administrative creep and protects open-source innovation while targeting unaligned frontier installations."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Maintains that statutory compute thresholds cannot prevent regulatory agencies from expanding administrative oversight downward through contractual liability chains."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-017",
+        "saf-intentions-160",
+        "saf-intentions-025",
+        "sit-154",
+        "skp-beliefs-196",
+        "skp-intentions-108",
+        "skp-intentions-146",
+        "skp-beliefs-076",
+        "saf-beliefs-131",
+        "saf-beliefs-203"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-intentions-160",
+      "nodeLabel": "Set the Ethical and Legal Ground Rules for AI Governance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-017",
+      "nodeLabel": "AI Deployment Speed Erodes Organizational Visibility and Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-025",
+      "nodeLabel": "Dialing AI Autonomy Up or Down Based on Real-Time Safety Signals",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-154",
+      "nodeLabel": "Challenges in AI Governance and Policy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-076",
+      "nodeLabel": "Open Weights Are a Necessary but Insufficient Condition for Meaningful AI Safety Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-046",
+      "nodeLabel": "Lab Testing Cannot Reveal Real-World AI Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-016",
+      "nodeLabel": "AI Must Not Entrench Injustice or Enable Catastrophe",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-158",
+      "nodeLabel": "Use Voluntary Standards as a Bridge to Mandatory AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-242",
+      "nodeLabel": "Regulatory Guidance Rollback",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-067",
+      "nodeLabel": "Decentralized Markets and Open Development Outperform Central Control in Driving AI Progress",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether the National Institute of Standards and Technology can enforce strict pre-market safety-gated deployment rules for frontier installations exceeding hundred-million-dollar compute thresholds while preserving permissionless access for small-scale open-weight researchers.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The debate balances verifiable training costs against unprovable administrative creep. Safety advocates cite concrete financial thresholds above one hundred million dollars, whereas skeptics point to historical precedent where financial regulations expanded downward. Neither side offers definitive proof regarding whether peer-to-peer distribution channels can permanently evade institutional compliance mandates.",
+      "claimIds": [
+        "C1",
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}
