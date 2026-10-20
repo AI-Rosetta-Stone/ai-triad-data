@@ -1,0 +1,179 @@
+{
+  "debate_id": "ed855bc8-8b6a-40c9-91b5-2e0d950f08c4",
+  "debate_title": "The risks and benefits of releasing powerful AI model wei...",
+  "conflicts": [],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-217",
+      "nodeLabel": "Inadequacy of the Reasonable Person Standard for Algorithmic Negligence",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-206",
+      "nodeLabel": "Scaling AI Without Safeguards Creates a Non-Trivial Path to Irreversible Civilizational Harm",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-202",
+      "nodeLabel": "Scale AI Safety Requirements Proportionally to Capability Level",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-277",
+      "nodeLabel": "Domain Expertise Deficits of Horizontal Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-164",
+      "nodeLabel": "Performance-Gated Safety Investment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-096",
+      "nodeLabel": "Treating AI as Neutral Technology Obscures Its Role in Reproducing Power Structures",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-177",
+      "nodeLabel": "Failure of Static Compute Thresholds Against Sub-Frontier Intrusion Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-074",
+      "nodeLabel": "Civil Rights Parity for Algorithmic Decisions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-361",
+      "nodeLabel": "Pragmatic Mitigation Framing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-106",
+      "nodeLabel": "Technical Methods for AI Safety and Evaluation",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether export controls and safety regulations function as protective moats for incumbent tech firms or necessary guardrails against biological and chemical threats.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The debate weighs two distinct, high-impact risks that rely on different value systems. Skeptics point to historical precedent where compliance costs harmed market entrants, while safety advocates warn that common law tort systems cannot repair catastrophic biological proliferation. Because both risks involve high-consequence outcomes that are difficult to measure in advance, neither side holds a decisive empirical advantage.",
+      "whatWouldChange": "Longitudinal market studies tracking startup survival rates under varying export control regimes alongside empirical measures of model-enabled harm would tip the balance.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether training compute thresholds serve as reliable, neutral technical boundaries or arbitrary administrative compliance floors.",
+      "prevails": "C3",
+      "criterion": "specificity",
+      "rationale": "Scaling laws offer a quantitative metric linking compute to capabilities, giving regulators a concrete threshold to enforce. Skeptics correctly note that these thresholds create high compliance costs, but they provide fewer specific metrics to replace compute-based boundaries.",
+      "whatWouldChange": "Evidence that hardware-based compute limits fail to correlate with capability jumps in real-world deployments would weaken the reliance on compute thresholds.",
+      "claimIds": [
+        "C3",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether open-source model sharing accelerates defensive security research through peer review faster than centralized audits catch dangerous fine-tuning vulnerabilities.",
+      "prevails": "C7",
+      "criterion": "implementation_specificity",
+      "rationale": "Upstream semiconductor controls offer a verifiable enforcement mechanism at physical chokepoints in the supply chain, whereas downstream peer review relies on decentralized actors who cannot easily patch distributed weights once released. Safety advocates demonstrate a clearer path to enforcement through hardware tracking than accelerationists do through open distribution.",
+      "whatWouldChange": "Proof that decentralized peer review consistently finds and patches zero-day vulnerabilities in model weights before malicious actors exploit them would strengthen the open-source case.",
+      "claimIds": [
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

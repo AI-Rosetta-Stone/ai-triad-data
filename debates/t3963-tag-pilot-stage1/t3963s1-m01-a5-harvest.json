@@ -1,0 +1,195 @@
+{
+  "debate_id": "0b5c66a9-2895-4d5f-b971-9ed5b3d93c55",
+  "debate_title": "Should frontier AI developers be legally liable for harms...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-deployment safety audits impose prohibitive compliance costs that eliminate independent developers and entrench enterprise tech monopolies.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Mandatory safety audits create administrative bottlenecks and high compliance costs that lock garage developers out of the market and favor legacy cloud incumbents."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Audited safety cases provide a safe harbor that protects responsible developers while addressing unpriced systemic risks from high-risk deployments."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-028",
+        "acc-beliefs-116",
+        "acc-intentions-114",
+        "acc-intentions-047",
+        "saf-beliefs-213",
+        "saf-beliefs-141",
+        "saf-intentions-005",
+        "saf-desires-023",
+        "acc-desires-039",
+        "acc-intentions-113"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-116",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-141",
+      "nodeLabel": "AI Governance Relies on Policies It Cannot Actually Enforce",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-023",
+      "nodeLabel": "Dissent on AI Safety Must Be Protected, Not Punished",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-040",
+      "nodeLabel": "Hold AI Developers Liable for Designs That Fail Risk-Utility Analysis",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-113",
+      "nodeLabel": "Maximize AI Capability Per Chip Through Software Optimization",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-028",
+      "nodeLabel": "Preserving baseline recovery while calibrating enhanced damages to demonstrated system functional properties",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-054",
+      "nodeLabel": "Responding to Early Warning Signs of Dangerous AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-200",
+      "nodeLabel": "AI Systematically Optimizes Proxy Metrics at the Expense of Intended Outcomes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-019",
+      "nodeLabel": "Foundation Model Capabilities Can Be Systematically Unlocked and Deployed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-278",
+      "nodeLabel": "State-of-the-Art Defense Limitations",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-deployment safety audits impose prohibitive compliance costs that eliminate independent developers and entrench enterprise tech monopolies.",
+      "prevails": "C2",
+      "criterion": "empirical_evidence",
+      "rationale": "Claim 2 provides specific cost ranges spanning tens of thousands to a few hundred thousand euros, whereas Claim 1 relies on abstract assertions without equivalent quantitative backing. This empirical grounding makes the safetyist position more robust against immediate dismissal.",
+      "whatWouldChange": "Audited financial disclosure data showing that small open-source developers face millions in compliance costs per iteration would flip the verdict.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,214 @@
+{
+  "debate_id": "555850ee-2e77-4959-8a74-9cc0e3945830",
+  "debate_title": "Should frontier AI developers be legally liable for harms...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether foundation model developers should face upstream pre-market verification requirements and legal liability, or if liability should rest exclusively with downstream deployers at the point of inference execution.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that upstream pre-market mandates impose an asymmetric compliance tax that crushes open-source developers, and that liability should concentrate exclusively at downstream deployment where actual harms occur."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Maintains that upstream developers must bear strict liability for training decisions and pass dynamic safety-gated verification baselines to prevent systemic risks."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-130",
+        "acc-desires-039",
+        "acc-beliefs-093",
+        "acc-desires-021",
+        "saf-beliefs-206",
+        "saf-desires-016",
+        "saf-intentions-005",
+        "saf-intentions-146",
+        "acc-beliefs-028",
+        "acc-intentions-114"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether imposing strict liability and compliance mandates on upstream developers creates prohibitive barriers for independent and open-source creators or establishes necessary safety baselines comparable to other high-risk industries.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Claims that administrative overhead for frontier model runs easily exceeds twenty million dollars, pricing out independent researchers and small labs."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Argues that compliance costs are manageable and that early aviation and telecommunications industries absorbed strict liability without collapsing their innovation cycles."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-130",
+        "acc-desires-039",
+        "acc-beliefs-093",
+        "acc-desires-021",
+        "skp-beliefs-234",
+        "skp-intentions-108",
+        "skp-beliefs-280",
+        "skp-beliefs-001",
+        "acc-beliefs-028",
+        "acc-intentions-114"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-093",
+      "nodeLabel": "Downstream Liability Bounded by What the Deployer Can Detect and Price",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-234",
+      "nodeLabel": "Withholding Diagnostic Interfaces as Upstream Design Defect",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-016",
+      "nodeLabel": "AI Must Not Entrench Injustice or Enable Catastrophe",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-130",
+      "nodeLabel": "Bifurcating Upstream Interface Access from Downstream Tort Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-021",
+      "nodeLabel": "National Self-Sufficiency in AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-206",
+      "nodeLabel": "Scaling AI Without Safeguards Creates a Non-Trivial Path to Irreversible Civilizational Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-146",
+      "nodeLabel": "Expanding Civil Discovery Rights to Pierce Customer-Held Datasets and Audits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-107",
+      "nodeLabel": "Coupling Pre-Deployment Independent Audits with Algorithmic Disgorgement and Strict Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-200",
+      "nodeLabel": "AI Systematically Optimizes Proxy Metrics at the Expense of Intended Outcomes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether foundation model developers should face upstream pre-market verification requirements and legal liability, or if liability should rest exclusively with downstream deployers.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The debate presents an unresolved trade-off between market openness and systemic risk mitigation. Neither camp provides conclusive empirical proof that their preferred liability point avoids catastrophic failure in the other domain.",
+      "whatWouldChange": "Longitudinal empirical studies showing whether downstream-only liability leaves injured plaintiffs without legal recourse more often than upstream liability stifles open-source innovation.",
+      "claimIds": [
+        "C3",
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether imposing strict liability and compliance mandates on upstream developers creates prohibitive barriers for independent creators or establishes necessary safety baselines.",
+      "prevails": "accelerationist",
+      "criterion": "empirical_evidence",
+      "rationale": "The accelerationist position offers concrete financial estimates for compliance overhead, whereas the skeptic position relies on broad historical analogies that fail to capture the rapid iteration cycle of software neural networks.",
+      "whatWouldChange": "Audited financial reports from independent AI labs demonstrating that compliance verification can be achieved for under one million dollars per model run.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C6",
+        "C9"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

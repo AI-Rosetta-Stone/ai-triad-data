@@ -1,0 +1,210 @@
+{
+  "debate_id": "2ca6d4c0-70aa-48f2-b1bf-edf263f7ef30",
+  "debate_title": "Should AI developers be legally liable for harms caused b...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Foundation model developers deploy trade secrecy and end-user license agreements as structural liability shields, shifting tangible operational risks onto downstream operators and injured plaintiffs.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Developers intentionally use licensing restrictions and trade secrecy to insulate themselves from tort exposure while shifting all legal and financial risk onto downstream deployers and injured plaintiffs."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Trade secrecy protects proprietary intellectual property and enables competitive software markets rather than serving as a malicious liability shield."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-006",
+        "skp-beliefs-273",
+        "skp-desires-078",
+        "skp-intentions-029",
+        "sit-177",
+        "acc-beliefs-028",
+        "acc-desires-039",
+        "acc-intentions-002",
+        "sit-179",
+        "acc-intentions-001"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Upstream liability mandates impose asymmetric fixed costs that choke open-source diffusion, whereas anchoring strict liability at the downstream market-entry act prevents offshore evasion without killing permissionless innovation.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Upstream mandates impose fixed costs that consolidate code ownership among large corporate incumbents and drive open-source developers offshore."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Downstream-only liability leaves enterprise buyers holding entire liability burdens without internal model visibility, creating an enforcement vacuum."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-006",
+        "skp-beliefs-273",
+        "skp-desires-078",
+        "skp-intentions-029",
+        "sit-177",
+        "acc-beliefs-028",
+        "acc-desires-039",
+        "acc-intentions-002",
+        "sit-179",
+        "acc-intentions-001"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-179",
+      "nodeLabel": "Anchoring Data-Provenance Liability at the In-Jurisdiction Deployment Act Rather Than the Relocatable Upstream Join",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-273",
+      "nodeLabel": "Intent-based legal requirements serving as corporate liability shields",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-029",
+      "nodeLabel": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-006",
+      "nodeLabel": "Corporate Opacity as Structural Liability Shield",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-078",
+      "nodeLabel": "Foundational AI as a Public Good",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-141",
+      "nodeLabel": "AI Governance Relies on Policies It Cannot Actually Enforce",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-069",
+      "nodeLabel": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-001",
+      "nodeLabel": "Achieving Capability Leadership Through Open Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-106",
+      "nodeLabel": "Liability Asymmetry Punishes Regulators for Caution and Rewards Inaction",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-172",
+      "nodeLabel": "Giving Victims One Clear Door for AI Liability Claims",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-111",
+      "nodeLabel": "Know What AI You Have Before You Try to Govern It",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Foundation model developers deploy trade secrecy and end-user license agreements as structural liability shields, shifting tangible operational risks onto downstream operators and injured plaintiffs.",
+      "prevails": "C1",
+      "criterion": "empirical_evidence",
+      "rationale": "The skeptic position provides concrete evidence by citing specific practices at firms like OpenAI and Anthropic, whereas the accelerationist claim remains an abstract defense of intellectual property. Developers routinely use end-user license agreements to disclaim operational liabilities while withholding the internal weights necessary for third-party auditing.",
+      "whatWouldChange": "Evidence that standard commercial licensing agreements routinely transfer enforceable indemnification and adequate audit rights to downstream buyers.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Upstream liability mandates impose asymmetric fixed costs that choke open-source diffusion, whereas anchoring strict liability at the downstream market-entry act prevents offshore evasion without killing permissionless innovation.",
+      "prevails": "C5",
+      "criterion": "scope",
+      "rationale": "The skeptic position accounts for the enforcement vacuum created when liability is placed entirely on downstream actors who possess zero internal visibility into model architectures. While upstream mandates do impose compliance costs, downstream-only rules leave injured plaintiffs with no solvent defendant if the downstream deployer is an undercapitalized shell company.",
+      "whatWouldChange": "Proof that mandatory downstream escrow mechanisms can provide adequate technical oversight without requiring upstream developers to disclose proprietary weights.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

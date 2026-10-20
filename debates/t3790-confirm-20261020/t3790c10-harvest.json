@@ -1,0 +1,216 @@
+{
+  "debate_id": "ecdfa06d-7fe1-4dcf-9380-e850ee268e3b",
+  "debate_title": "Autonomous weapons systems and the future of warfare unde...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether automated target selection systems reduce collateral harm or merely compress oversight into rubber stamps that violate distinction principles.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Automated targeting architectures enhance tactical survival and precision under high-speed operational constraints."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Automated targeting systems process large volumes of data with minimal human review, leading to classification errors and civilian casualties."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-031",
+        "skp-desires-066",
+        "skp-intentions-074",
+        "sit-221",
+        "acc-intentions-111",
+        "acc-intentions-060",
+        "acc-beliefs-093",
+        "acc-beliefs-072",
+        "acc-desires-006",
+        "acc-beliefs-083"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether human review of targeting decisions functions as a necessary ethical safeguard or a fatal operational bottleneck.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Preserving human oversight is a core legal requirement that prevents unconstrained automated violence, even if it introduces operational latency."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Mandatory human review creates lethal delays for personnel under hypersonic threat horizons, making automated enforcement necessary."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-093",
+        "saf-desires-018",
+        "sit-221",
+        "acc-intentions-111",
+        "acc-intentions-060",
+        "acc-beliefs-093",
+        "acc-beliefs-072",
+        "saf-beliefs-129",
+        "saf-beliefs-216",
+        "saf-intentions-140"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-221",
+      "nodeLabel": "Normative Pragmatism in IHL",
+      "refCount": 5,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-018",
+      "nodeLabel": "The Human Power to Limit Violence Must Be Preserved",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-111",
+      "nodeLabel": "Replace Discretionary Human Halt Authority with Pre-Programmed Enforcement Actions",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-031",
+      "nodeLabel": "Perfect Enforcement Through AI Removes the Safety Valve of Selective Prosecution",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-066",
+      "nodeLabel": "Conscience as a Check on Algorithmic Authority",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-074",
+      "nodeLabel": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-093",
+      "nodeLabel": "Proxy Optimization Reliably Produces Outcomes Nobody Actually Wanted",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-060",
+      "nodeLabel": "Frame Capitalism and Complex Systems as Information-Processing Entities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-093",
+      "nodeLabel": "Downstream Liability Bounded by What the Deployer Can Detect and Price",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-072",
+      "nodeLabel": "Courts Lack the Expertise to Weigh AI's Diffuse Benefits Against Its Visible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-129",
+      "nodeLabel": "AI Executes the Letter of the Command While Violating Its Spirit",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-216",
+      "nodeLabel": "Functional Mental State Imputation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-140",
+      "nodeLabel": "Containing the Blast Radius of Autonomous AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-070",
+      "nodeLabel": "Hierarchical Distance Creates Irreducible Information Loss That Technology Cannot Bridge",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-014",
+      "nodeLabel": "Human Rights as Constraints on AI Deployment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-143",
+      "nodeLabel": "Agentic Authority Demarcation",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether automated target selection systems reduce collateral harm or merely compress oversight into rubber stamps that violate distinction principles.",
+      "prevails": "skeptic",
+      "criterion": "empirical_evidence",
+      "rationale": "Human rights documentation from Gaza provides concrete, observable data of high-volume automated targeting systems operating with minimal human review. The accelerationist position relies on abstract tactical projections without comparable empirical proof of collateral reduction.",
+      "whatWouldChange": "Peer-reviewed operational data showing that automated targeting systems achieve lower civilian casualty rates than human-led targeting under identical combat conditions.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether human review of targeting decisions functions as a necessary ethical safeguard or a fatal operational bottleneck.",
+      "prevails": "safetyist",
+      "criterion": "implementation_specificity",
+      "rationale": "The safetyist position offers concrete legislative mechanisms, such as stripping sovereign immunity from contractors whose targeting models violate international humanitarian law. The accelerationist position relies on categorical assertions about hypersonic threat horizons without specifying legal accountability frameworks for automated failures.",
+      "whatWouldChange": "The enactment of binding international military frameworks that exempt automated defense systems from standard contractor liability and human halt authority.",
+      "claimIds": [
+        "C2",
+        "C3",
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

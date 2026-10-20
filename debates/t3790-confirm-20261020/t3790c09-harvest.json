@@ -1,0 +1,211 @@
+{
+  "debate_id": "7eaa402c-296d-42f4-8a9c-d578909737aa",
+  "debate_title": "Economic displacement from AI automation: labor policy re...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether state tax authorities can effectively assess and tax software-driven automation assets without causing capital flight.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Digital workloads and AI models execute across decentralized cloud clusters, making them immune to traditional territorial tax assessments and driving capital offshore."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "State tax departments already audit property and can apply machinery valuation rules to automation equipment without triggering widespread corporate flight."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-218",
+        "saf-desires-003",
+        "saf-intentions-115",
+        "saf-desires-012",
+        "acc-beliefs-053",
+        "acc-intentions-074",
+        "acc-intentions-069",
+        "acc-desires-026",
+        "saf-desires-002",
+        "saf-intentions-243"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether state-level capital equipment levies protect municipal budgets or hinder technological progress and infrastructure development.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Lawmakers should prioritize rapid technological iteration and friction-free deployment to drive economic growth and consumer abundance."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Lawmakers must prioritize preventative fiscal guardrails to maintain public infrastructure and internalize the social costs of labor displacement."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-218",
+        "saf-desires-003",
+        "saf-intentions-115",
+        "saf-desires-012",
+        "acc-beliefs-053",
+        "acc-intentions-074",
+        "acc-intentions-069",
+        "acc-desires-026",
+        "saf-desires-002",
+        "saf-intentions-243"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-310",
+      "nodeLabel": "Tax Revenue Lag from Labor Share Compression",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-053",
+      "nodeLabel": "AI Drives Net Economic Expansion Through Cost Deflation and Value Creation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-115",
+      "nodeLabel": "Assign Trust Duties to Every Actor in the AI Supply Chain",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-227",
+      "nodeLabel": "Rent-Dissipating Automation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-069",
+      "nodeLabel": "Accelerate Prosperity Through AI-Driven Abundance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-243",
+      "nodeLabel": "Worker-Led Independent Authority to Assess and Halt Unsafe AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-035",
+      "nodeLabel": "Prevent AI Labor Arbitrage Through Mandatory Wage Equivalence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-067",
+      "nodeLabel": "Decentralized Markets and Open Development Outperform Central Control in Driving AI Progress",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-040",
+      "nodeLabel": "Deploy AI to Defeat Aging and Offset Demographic Decline",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether state tax authorities can effectively assess and tax software-driven automation assets without causing capital flight.",
+      "prevails": "C2",
+      "criterion": "empirical_evidence",
+      "rationale": "The accelerationist claim correctly identifies that cloud workloads execute across decentralized networks, which challenges traditional physical tax valuation rules. The safetyist camp relies on historical property tax precedents that do not capture the mobile nature of modern software. Tax authorities lack clear statutory frameworks to assess distributed artificial intelligence models without risking corporate flight.",
+      "whatWouldChange": "Demonstrating that states can successfully levy software assets without firms moving their server clusters would flip this verdict.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether state-level capital equipment levies protect municipal budgets or hinder technological progress and infrastructure development.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions highlight valid systemic concerns that lack decisive comparative data at the state level. Safetyists point to declining labor shares that justify preventative fiscal guardrails, while accelerationists emphasize that retraining programs show low job placement rates. Neither side proves whether capital levies or market-led capability acquisition yields a superior net economic outcome.",
+      "whatWouldChange": "Longitudinal employment and municipal revenue data comparing states with automation taxes against states relying on wage subsidies would tip the balance.",
+      "claimIds": [
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

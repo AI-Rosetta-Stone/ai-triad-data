@@ -1,0 +1,242 @@
+{
+  "debate_id": "80b19963-a696-45bb-b052-7fddb30ad509",
+  "debate_title": "AI governance frameworks for advanced AI systems",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-market independent audits and safety gating effectively reduce systemic risks versus merely imposing harmful administrative delays.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-market audits impose severe administrative delays that cost thousands of preventable deaths by slowing medical and technical innovation while offering negligible safety gains over decentralized open-source iteration."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Independent pre-market safety reviews are essential to prevent catastrophic system failures and unverified model deployments in high-stakes settings, similar to aviation and pharmaceutical standards."
+        }
+      ],
+      "linkedNodes": [
+        "saf-desires-029",
+        "saf-beliefs-270",
+        "saf-intentions-005",
+        "saf-intentions-002",
+        "acc-beliefs-085",
+        "acc-intentions-100",
+        "acc-desires-011",
+        "acc-intentions-047",
+        "saf-beliefs-141",
+        "saf-beliefs-249"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether existing tort law and discovery rules can adequately address algorithmic opacity without requiring invasive pre-market mandates.",
+      "bdiLayer": "intention",
+      "resolvability": "requires_term_clarification",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Stretching product liability doctrines like Restatement Third of Torts Section 2(b) to cover withheld telemetry is legally untenable without specific statutory discovery rules for proprietary servers."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Withholding diagnostic telemetry from auditors constitutes an actionable design defect under existing product liability standards for complex opaque systems."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-278",
+        "skp-beliefs-277",
+        "skp-desires-088",
+        "skp-intentions-146",
+        "saf-desires-029",
+        "saf-beliefs-270",
+        "saf-intentions-005",
+        "saf-intentions-002",
+        "saf-beliefs-141",
+        "saf-beliefs-249"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-277",
+      "nodeLabel": "Domain Expertise Deficits of Horizontal Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-088",
+      "nodeLabel": "Mandatory Evidence Preservation with Burden-Flipping in Litigation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-270",
+      "nodeLabel": "Withholding Diagnostic Telemetry as an Actionable Design Defect",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-002",
+      "nodeLabel": "Scaling Oversight to Real-Time Remediation Speed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-011",
+      "nodeLabel": "AI That Can Examine and Explain Its Own Reasoning",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-141",
+      "nodeLabel": "AI Governance Relies on Policies It Cannot Actually Enforce",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-369",
+      "nodeLabel": "Non-Convex ROC Curve Strategy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-279",
+      "nodeLabel": "Discovery Obstacles in Algorithmic Accountability Litigation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-178",
+      "nodeLabel": "Demand-Side Privacy Enforcement Fails Against Government Purchasers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-164",
+      "nodeLabel": "Companies Use Narrow Audits to Deflect Meaningful AI Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-075",
+      "nodeLabel": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-063",
+      "nodeLabel": "Regulatory Fragmentation and Cost Burden",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-market independent audits and safety gating effectively reduce systemic risks versus merely imposing harmful administrative delays.",
+      "prevails": "C2",
+      "criterion": "empirical_evidence",
+      "rationale": "The accelerationist position prevails on empirical evidence because compute scaling trends offer verifiable capability benchmarks that are more easily tracked than subjective safety audits. Safety advocates rely on FDA analogies that do not cleanly map to software development cycles. Therefore, static pre-market gates risk lagging behind rapid technological changes.",
+      "whatWouldChange": "Empirical evidence demonstrating that pre-market audits successfully intercept catastrophic risks that escape post-market monitoring.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether existing tort law and discovery rules can adequately address algorithmic opacity without requiring invasive pre-market mandates.",
+      "prevails": "C3",
+      "criterion": "implementation_specificity",
+      "rationale": "The skeptic position prevails on implementation specificity because plaintiffs currently lack the pre-discovery access required to prove causation for black-box algorithmic systems under standard tort rules. Stretching product liability doctrines without statutory backing creates legal uncertainty. Thus, new legislation is necessary before courts can penalize withheld diagnostic telemetry.",
+      "whatWouldChange": "Federal court rulings or new statutes establishing that withholding diagnostic telemetry constitutes a per se design defect under product liability law.",
+      "claimIds": [
+        "C3",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

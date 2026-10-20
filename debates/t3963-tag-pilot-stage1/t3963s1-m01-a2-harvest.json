@@ -1,0 +1,228 @@
+{
+  "debate_id": "bf0901ec-5e7c-4e2f-bf6a-597dca8394bd",
+  "debate_title": "Should frontier AI developers be legally liable for harms...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether upstream pre-market compliance rules and independent audits impose insurmountable fixed costs that crush open-source research or remain targeted exclusively at commercial entities.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Upstream compliance mandates and pre-market approval gates impose multi-million dollar legal overhead that crushes open-source research and independent developers."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Statutory safe harbors below compute thresholds ensure that non-commercial academic developers retain full freedom to distribute and iterate without financial penalties, meaning compliance burdens fall exclusively on commercial entities."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-270",
+        "saf-intentions-215",
+        "saf-desires-023",
+        "sit-177",
+        "acc-beliefs-028",
+        "acc-beliefs-070",
+        "acc-intentions-054",
+        "acc-beliefs-116",
+        "saf-beliefs-213",
+        "saf-desires-006"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether post-deployment runtime telemetry and ex-post liability are sufficient to prevent catastrophic harms compared to mandatory pre-release verification gates.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Observable API telemetry and post-market behavioral monitoring successfully verify software performance without inspecting raw source code, ensuring permissionless software distribution."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Post-deployment runtime telemetry cannot substitute for pre-release verification when frontier capabilities generalize rapidly under distribution shift, failing entirely when an autonomous model executes an irreversible capability jump."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-270",
+        "saf-intentions-215",
+        "saf-desires-023",
+        "sit-177",
+        "acc-beliefs-028",
+        "acc-beliefs-070",
+        "acc-intentions-054",
+        "acc-beliefs-116",
+        "saf-beliefs-213",
+        "saf-desires-006"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-054",
+      "nodeLabel": "Ground AI Safety in Observable Behavior and Real-World Testing",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-270",
+      "nodeLabel": "Withholding Diagnostic Telemetry as an Actionable Design Defect",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-215",
+      "nodeLabel": "Shielding Compliant Open-Weight Releases from Downstream Misuse Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-023",
+      "nodeLabel": "Dissent on AI Safety Must Be Protected, Not Punished",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-279",
+      "nodeLabel": "Discovery Obstacles in Algorithmic Accountability Litigation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-116",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-009",
+      "nodeLabel": "Securing Data Centers and Supply Chains Against Model-Weight Theft",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-110",
+      "nodeLabel": "Higher Compute Implies Higher Legal Responsibility",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-079",
+      "nodeLabel": "Balanced Transparency: Public Interest vs. Trade Secrets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-154",
+      "nodeLabel": "Operationalize Decentralized Participatory Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether upstream pre-market compliance rules and independent audits impose insurmountable fixed costs that crush open-source research or remain targeted exclusively at commercial entities.",
+      "prevails": "C2",
+      "criterion": "specificity",
+      "rationale": "The safetyist position offers greater implementation specificity by tying exemptions to concrete compute thresholds. The accelerationist claim relies on historical medical and software analogies rather than direct empirical data from current AI compute governance proposals.",
+      "whatWouldChange": "Data showing that open-source projects below compute thresholds still face prohibitive legal and administrative costs to verify compliance.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether post-deployment runtime telemetry and ex-post liability are sufficient to prevent catastrophic harms compared to mandatory pre-release verification gates.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions highlight genuine structural tensions without providing a mechanism to verify safety under rapid distribution shift. The accelerationist reliance on telemetry fails to address irreversible capability jumps, while the skeptic view correctly identifies that trade secrecy prevents tort causation proof.",
+      "whatWouldChange": "Empirical demonstrations that runtime monitoring can reliably detect dangerous autonomous capabilities before model execution causes irreversible harm.",
+      "claimIds": [
+        "C1",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

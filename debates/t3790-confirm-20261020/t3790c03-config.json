@@ -1,0 +1,14 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "protocolId": "structured",
+  "pacing": "moderate",
+  "audience": "policymakers",
+  "activePovers": [
+    "accelerationist",
+    "safetyist",
+    "skeptic"
+  ],
+  "topic": "Should AI developers be legally liable for harms caused by their deployed models?",
+  "slug": "t3790c03",
+  "outputDir": "C:\\Users\\jsnov\\repos\\ai-triad-data\\debates\\t3790-confirm-20261020"
+}

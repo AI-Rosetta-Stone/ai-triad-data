@@ -1,0 +1,290 @@
+{
+  "debate_id": "e5ca2851-310f-40ec-9837-74f4d1f40d82",
+  "debate_title": "Mandatory pre-deployment safety evaluations for frontier ...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether static pre-deployment compute thresholds function as effective safety barriers against catastrophic risks or primarily serve as regulatory moats that protect incumbent firms.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Argues that training runs exceeding ten to the twenty-sixth power FLOPs cross an empirical line into irreversible capability jumps that require direct pre-deployment oversight."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that compute thresholds create regulatory moats protecting legacy cloud providers while ignoring how continuous algorithmic efficiency improvements render static compute cutoffs obsolete."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Concurs that fixed compute thresholds fail to capture actual system capabilities due to efficiency gains and serve primarily to crush nimble open-source competition."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-029",
+        "sit-476",
+        "saf-intentions-005",
+        "skp-beliefs-174",
+        "sit-361",
+        "skp-intentions-146",
+        "sit-164",
+        "acc-beliefs-085",
+        "acc-beliefs-046"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether decentralized output-based telemetry at the inference layer can adequately verify safety or if closed R&D labs require pre-market capability checks.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Argues that inference-time telemetry fails to inspect internal capability gains, recursive self-correction, and multi-step reasoning developed in closed training sandboxes."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that continuous output-based telemetry deployed at the inference layer tracks functional competence in real time and outperforms static pre-market checkpoints."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-029",
+        "sit-476",
+        "saf-intentions-005",
+        "acc-beliefs-085",
+        "acc-beliefs-046",
+        "acc-intentions-003",
+        "saf-beliefs-249",
+        "saf-intentions-231",
+        "saf-desires-001"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether the primary regulatory priority should be mitigating speculative catastrophic existential risks or addressing present-day algorithmic harms such as discrimination and labor displacement.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Prioritizes the prevention of irreversible catastrophic outcomes that could result in the permanent loss of human control over advanced systems."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Prioritizes immediate enforcement against observable, present-day algorithmic harms and labor abuses that currently affect vulnerable populations."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Prioritizes rapid open-source innovation and the widespread delivery of life-saving medical breakthroughs over speculative existential risks."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-029",
+        "sit-476",
+        "saf-intentions-005",
+        "skp-beliefs-174",
+        "sit-361",
+        "skp-intentions-146",
+        "sit-164",
+        "acc-beliefs-085",
+        "acc-beliefs-046"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-174",
+      "nodeLabel": "Pass/Fail Audits as Inadequate for Complex AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-361",
+      "nodeLabel": "Pragmatic Mitigation Framing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-164",
+      "nodeLabel": "Performance-Gated Safety Investment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-046",
+      "nodeLabel": "Lab Testing Cannot Reveal Real-World AI Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-003",
+      "nodeLabel": "Adopt Output-Based Evaluation as the Primary AI Safety Methodology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-231",
+      "nodeLabel": "Binding AI Accountability to Physical Infrastructure Metrics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-001",
+      "nodeLabel": "Humanity's Survival Above All Else",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-298",
+      "nodeLabel": "Data Merger Incipiency Standard",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-077",
+      "nodeLabel": "Containment of Software Harms Bounded by Infrastructure Coupling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-001",
+      "nodeLabel": "Achieving Capability Leadership Through Open Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-071",
+      "nodeLabel": "Quantifiable AI Harms Turn Fairness Into a Business Imperative, Not Just an Ethical One",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-255",
+      "nodeLabel": "Political Market for Coercive Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-078",
+      "nodeLabel": "Foundational AI as a Public Good",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether static pre-deployment compute thresholds function as effective safety barriers or primarily serve as regulatory moats.",
+      "prevails": "accelerationist",
+      "criterion": "empirical_evidence",
+      "rationale": "Accelerationists and skeptics demonstrate stronger empirical backing regarding algorithmic efficiency gains that reduce training compute requirements over time. Safety advocates rely on an administrative proxy without proving that fixed hardware cutoffs correlate directly with dangerous capability jumps.",
+      "whatWouldChange": "Empirical proof that models trained just below the ten to the twenty-sixth power FLOP threshold consistently fail to exhibit catastrophic risks while models above it cross a sharp safety boundary.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C4",
+        "C5",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether decentralized output-based telemetry at the inference layer can adequately verify safety or if closed R&D labs require pre-market capability checks.",
+      "prevails": "safetyist",
+      "criterion": "scope",
+      "rationale": "Safety advocates account for internal capability gains, recursive self-correction, and multi-step reasoning that surface within closed training sandboxes before deployment. Accelerationist proposals relying solely on inference-layer telemetry fail to address risks that are intentionally masked during standard API interactions.",
+      "whatWouldChange": "Demonstrable evidence that post-training red-teaming and runtime telemetry can catch hidden recursive self-improvement before a model is widely distributed.",
+      "claimIds": [
+        "C2",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether the primary regulatory priority should be mitigating speculative catastrophic existential risks or addressing present-day algorithmic harms.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "This conflict rests on an unresolvable normative trade-off between infinite-horizon existential risk prevention and near-term quantifiable benefits in biomedical research and economic productivity. Neither camp provides an empirical framework to weigh speculative existential harm against immediate, measurable human welfare gains.",
+      "whatWouldChange": "Quantitative risk-assessment models that can reliably convert low-probability existential threats and high-probability present-day harms into a common metric for comparison.",
+      "claimIds": [
+        "C3",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

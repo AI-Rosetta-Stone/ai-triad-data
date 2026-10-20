@@ -1,0 +1,176 @@
+{
+  "debate_id": "17cc4dee-4bea-4bf5-87d5-16c9c40fdc7c",
+  "debate_title": "AI systems in high-stakes decisions: healthcare triage an...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-market regulatory gatekeeping is necessary to prevent discriminatory harm or functions primarily as an anti-competitive economic barrier.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Pre-market certification modeled on medical device review is essential to intercept discriminatory outcomes before deployment because feedback-contaminated domains prevent effective self-correction."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Mandatory pre-deployment certification creates an administrative moat that protects legacy incumbents and delays the adoption of superior diagnostic tools."
+        }
+      ],
+      "linkedNodes": [
+        "saf-desires-029",
+        "saf-intentions-002",
+        "saf-beliefs-043",
+        "acc-beliefs-094",
+        "acc-beliefs-028",
+        "acc-intentions-001",
+        "saf-beliefs-203",
+        "saf-desires-003",
+        "acc-beliefs-095"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether continuous post-deployment monitoring and iterative updates correct algorithmic drift more effectively than static upfront compliance testing.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Decentralized telemetry and open-source peer review catch statistical drift and security flaws faster than centralized regulatory agencies."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Learned model weights absorb deep-seated historical biases that cannot be reliably excised through post-hoc patching without exposing real users to irreversible harm."
+        }
+      ],
+      "linkedNodes": [
+        "saf-desires-029",
+        "saf-intentions-002",
+        "saf-beliefs-043",
+        "acc-beliefs-094",
+        "acc-beliefs-028",
+        "acc-intentions-001",
+        "saf-beliefs-203",
+        "saf-desires-003",
+        "acc-beliefs-095"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-001",
+      "nodeLabel": "Achieving Capability Leadership Through Open Accountability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-074",
+      "nodeLabel": "Civil Rights Parity for Algorithmic Decisions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-102",
+      "nodeLabel": "Operationalize Pragmatic AI Governance Through Concrete Policy Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-002",
+      "nodeLabel": "Scaling Oversight to Real-Time Remediation Speed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-043",
+      "nodeLabel": "Most Real-World AI Harms Go Unrecorded Because Tracking Relies on Media Reports",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-094",
+      "nodeLabel": "Asymmetry Between Reconstructive Burden and Remediation Cost",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-024",
+      "nodeLabel": "Proxy Variable Selection Is a Primary Driver of Algorithmic Discrimination",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-144",
+      "nodeLabel": "Automated Fairness and Bias Benchmarking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-095",
+      "nodeLabel": "Detection Without Per-Case Attribution Is Surveillance, Not Recourse",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-market regulatory gatekeeping is necessary to prevent discriminatory harm or functions primarily as an anti-competitive economic barrier.",
+      "prevails": "safetyist",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist position prevails because it is grounded in documented empirical evidence showing that commercial health algorithms systematically assigned lower risk scores to Black patients than to white patients with identical chronic illnesses. This demonstrates that feedback-contaminated domains propagate structural disparities through learned model weights, whereas the counterargument relies on theoretical administrative burdens without comparable empirical proof of consumer harm from delays.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

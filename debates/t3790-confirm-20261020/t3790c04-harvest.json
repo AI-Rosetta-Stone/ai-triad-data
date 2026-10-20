@@ -1,0 +1,214 @@
+{
+  "debate_id": "2b789560-652c-4c30-9f2e-750198a67308",
+  "debate_title": "Compute governance as a lever for AI safety: export contr...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether the Bureau of Industry and Security should enforce physical infrastructure metrics like power contracts or silicon-level attestation.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Regulators must couple supply-chain provenance tracking with silicon-level hardware attestation and industrial impact fees to prevent unauthorized capability scaling."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Tracking power contracts creates unfair ratepayer subsidies and fails to catch mobile chips that run in loose oversight spots abroad."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-177",
+        "skp-beliefs-190",
+        "skp-desires-088",
+        "sit-063",
+        "saf-beliefs-120",
+        "saf-desires-006",
+        "saf-intentions-231",
+        "saf-beliefs-274",
+        "skp-beliefs-222",
+        "skp-intentions-034"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether regulatory compliance burdens and deployment delays for medical AI tools outweigh the risks of decentralized AI development.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Regulatory friction is a quantifiable moral failure that delays life-saving diagnostic models and protects incumbent monopolies."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Strict rules are a basic shield for civilization against the risk of losing human control over autonomous systems."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-100",
+        "acc-beliefs-122",
+        "acc-desires-037",
+        "acc-beliefs-025",
+        "saf-beliefs-120",
+        "saf-desires-006",
+        "saf-intentions-231",
+        "saf-beliefs-274",
+        "acc-beliefs-067",
+        "acc-desires-021"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-177",
+      "nodeLabel": "Failure of Static Compute Thresholds Against Sub-Frontier Intrusion Tools",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-025",
+      "nodeLabel": "Computational Power Is the New Measure of National Strength",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-120",
+      "nodeLabel": "Physical Infrastructure Metrics as an Enforcement Anchor",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-231",
+      "nodeLabel": "Binding AI Accountability to Physical Infrastructure Metrics",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-190",
+      "nodeLabel": "Single Points of Control over Compute Hardware Function as Incumbent Capture Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-088",
+      "nodeLabel": "Mandatory Evidence Preservation with Burden-Flipping in Litigation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-063",
+      "nodeLabel": "Regulatory Fragmentation and Cost Burden",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-122",
+      "nodeLabel": "Permission-Scaled Runtime Isolation Qualified by Instruction-Data Conflation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-274",
+      "nodeLabel": "Hardware-Level Interventions Risk Entrenching Corporate Monopolies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-067",
+      "nodeLabel": "Decentralized Markets and Open Development Outperform Central Control in Driving AI Progress",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-021",
+      "nodeLabel": "National Self-Sufficiency in AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-222",
+      "nodeLabel": "Grid Infrastructure Cost-Shifting onto Residential Utility Ratepayers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-078",
+      "nodeLabel": "Foundational AI as a Public Good",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-093",
+      "nodeLabel": "Proxy Optimization Reliably Produces Outcomes Nobody Actually Wanted",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-213",
+      "nodeLabel": "Temporal Mismatch of AI Energy Impacts",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether the Bureau of Industry and Security should enforce physical infrastructure metrics like power contracts or silicon-level attestation.",
+      "prevails": "skeptic",
+      "criterion": "empirical_evidence",
+      "rationale": "The skeptic and accelerationist coalition provides better empirical evidence regarding algorithmic workarounds like mixture-of-experts designs and supply-chain rerouting through intermediary hubs. The safetyist position relies on abstract infrastructure tracking that does not account for software optimization gains or the ease of moving modular chips across international borders.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether regulatory compliance burdens and deployment delays for medical AI tools outweigh the risks of decentralized AI development.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both camps offer valid considerations that fall outside each other's primary scope. Accelerationists and industry groups emphasize quantifiable delays in patient care and market monopolization, while safety advocates point to tail-risk scenarios involving loss of control over autonomous systems. Neither side has provided a risk-assessment framework that reliably commensurates short-term diagnostic benefits against long-term catastrophic AI safety risks.",
+      "claimIds": [],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

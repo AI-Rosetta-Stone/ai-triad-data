@@ -1,0 +1,210 @@
+{
+  "debate_id": "a2dcc7b8-db0e-4707-932c-f306e4e32543",
+  "debate_title": "Should frontier AI developers be legally liable for harms...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether upstream foundation model developers can implement mandatory diagnostic interfaces and telemetry hooks without compromising proprietary security and stifling decentralized developer ecosystems.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Upstream developers can provide diagnostic interfaces and runtime telemetry through protective orders and developer fees without leaking trade secrets or harming decentralized coders."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Mandatory ex-ante compliance audits and upstream pre-deployment requirements create insurmountable financial barriers that eliminate small open-source laboratories and consolidate market power."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-273",
+        "skp-beliefs-234",
+        "skp-desires-088",
+        "sit-177",
+        "acc-desires-039",
+        "acc-intentions-002",
+        "acc-intentions-073",
+        "skp-beliefs-248",
+        "skp-beliefs-284",
+        "skp-desires-087"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether liability should attach primarily to upstream foundation model developers via pre-deployment controls or to downstream commercial deployers via runtime tort liability.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "High-consequence autonomous systems require structural verification gates and parent-company accountability to prevent irreversible systemic harms that post-hoc tort recovery cannot reverse."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Pinning liability at the commercial deployment point preserves open-source proliferation, protects medical research speed, and holds actual deployers accountable for operational misuse."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-200",
+        "saf-desires-012",
+        "saf-intentions-147",
+        "sit-176",
+        "acc-desires-039",
+        "acc-intentions-002",
+        "acc-intentions-073",
+        "saf-beliefs-203",
+        "sit-177",
+        "acc-beliefs-112"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-234",
+      "nodeLabel": "Withholding Diagnostic Interfaces as Upstream Design Defect",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-200",
+      "nodeLabel": "AI Systematically Optimizes Proxy Metrics at the Expense of Intended Outcomes",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-176",
+      "nodeLabel": "Claims-Driven Liability Mechanisms Are Blind to Unlitigated Harms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-273",
+      "nodeLabel": "Intent-based legal requirements serving as corporate liability shields",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-088",
+      "nodeLabel": "Mandatory Evidence Preservation with Burden-Flipping in Litigation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-073",
+      "nodeLabel": "Governing AI Risk Through Telemetry-Enabled Insurance and Post-Deployment Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-248",
+      "nodeLabel": "Algorithmic Disgorgement as Retrospective Remedy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-112",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-130",
+      "nodeLabel": "Bifurcating Upstream Interface Access from Downstream Tort Liability",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether upstream foundation model developers can implement mandatory diagnostic interfaces and telemetry hooks without compromising proprietary security and stifling decentralized developer ecosystems.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both positions rely on theoretical assertions about market dynamics and compliance costs without sufficient empirical data from actual regulatory frameworks. The skeptic perspective assumes protective orders can shield trade secrets, while the accelerationist perspective assumes compliance costs are insurmountable, leaving the current balance of evidence even.",
+      "whatWouldChange": "Peer-reviewed studies of pilot programs where open-source developers comply with mandatory diagnostic standards while maintaining competitive viability.",
+      "claimIds": [
+        "C4",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether liability should attach primarily to upstream foundation model developers via pre-deployment controls or to downstream commercial deployers via runtime tort liability.",
+      "prevails": "C3",
+      "criterion": "scope",
+      "rationale": "The safetyist perspective accounts more effectively for systemic and irreversible harms that post-hoc tort recovery cannot reverse, whereas the accelerationist focus on downstream liability ignores the structural difficulty of recovering damages from judgment-proof commercial deployers. This broader scope makes the upstream verification framework more comprehensive for high-consequence deployment risks.",
+      "whatWouldChange": "Evidence demonstrating that post-hoc tort enforcement against downstream commercial deployers successfully deters systemic upstream failures without bankrupting smaller participants.",
+      "claimIds": [
+        "C3",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

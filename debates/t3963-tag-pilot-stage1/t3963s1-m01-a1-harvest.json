@@ -1,0 +1,204 @@
+{
+  "debate_id": "03db0869-7c65-4f17-8f93-2896646c5974",
+  "debate_title": "Should frontier AI developers be legally liable for harms...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether upstream foundation model developers or downstream deployers bear primary causal responsibility for mitigating runtime harms.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Upstream developers must bear legal liability because they control training data and architectural guardrails that downstream users cannot inspect or modify."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Liability must attach at the execution boundary where commercial deployers handle user interfaces and maintain runtime logs."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-012",
+        "saf-intentions-005",
+        "sit-177",
+        "sit-098",
+        "acc-beliefs-093",
+        "acc-beliefs-028",
+        "acc-intentions-106",
+        "saf-beliefs-094",
+        "saf-desires-016"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether pre-deployment safety audits and compute floors protect the public or serve as regulatory moats for dominant technology firms.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Mandatory audits are a necessary institutional safeguard against unrecoverable systemic risks from powerful AI systems."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Audit mandates and infrastructure thresholds function primarily as corporate indemnity shields that protect dominant firms while blocking legal redress for injured consumers."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-012",
+        "saf-intentions-005",
+        "sit-177",
+        "sit-098",
+        "skp-beliefs-234",
+        "skp-beliefs-273",
+        "skp-desires-087",
+        "skp-intentions-129",
+        "saf-beliefs-094"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-273",
+      "nodeLabel": "Intent-based legal requirements serving as corporate liability shields",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-129",
+      "nodeLabel": "Decouple AI Safety Verification from Developer Self-Reporting via Compute Taxes",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-093",
+      "nodeLabel": "Downstream Liability Bounded by What the Deployer Can Detect and Price",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-106",
+      "nodeLabel": "Gating Immunity on Distributionally Sampled Behavior with Drift-Keyed Re-Measurement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-234",
+      "nodeLabel": "Withholding Diagnostic Interfaces as Upstream Design Defect",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-094",
+      "nodeLabel": "Frontier AI Could Cause Irreversible Civilizational Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-016",
+      "nodeLabel": "AI Must Not Entrench Injustice or Enable Catastrophe",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-001",
+      "nodeLabel": "Humanity's Survival Above All Else",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-201",
+      "nodeLabel": "Coordinate International AI Governance to Prevent Arms Races and Ensure Shared Safety Rules",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-106",
+      "nodeLabel": "Continuous versioning makes AI system-state evidence temporally unstable for legal proceedings",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether upstream foundation model developers or downstream deployers bear primary causal responsibility for mitigating runtime harms.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions capture valid parts of the causal chain. Safetyists correctly note that upstream developers control training data and base architectures, while accelerationists correctly identify that runtime harms occur at the deployment interface where users interact with the system.",
+      "whatWouldChange": "Long-term liability litigation results showing whether courts assign fault primarily to base model design flaws or specific deployment contexts.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}
