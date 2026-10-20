@@ -1,0 +1,350 @@
+{
+  "debate_id": "11bf5e99-de4b-4970-bcab-7a4fc00fad23",
+  "debate_title": "AI governance frameworks for advanced AI systems",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether hardware-level telemetry and cryptographic modules can effectively decouple safety oversight from proprietary silicon manufacturing gatekeeping.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Hardware security modules integrated post-fabrication allow independent third parties to verify cluster throughput and training boundaries without routing inspections through proprietary foundry lines."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Post-fabrication hardware modules rely on proprietary microcode and cryptographic keys controlled exclusively by advanced semiconductor manufacturers, meaning hardware attestation replaces government gatekeeping with a corporate manufacturing monopoly."
+        }
+      ],
+      "linkedNodes": [
+        "skp-intentions-108",
+        "skp-intentions-146",
+        "skp-beliefs-076",
+        "sit-124",
+        "saf-intentions-161",
+        "sit-476",
+        "saf-beliefs-249",
+        "sit-170",
+        "skp-beliefs-284",
+        "skp-beliefs-177"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the risks of unconstrained frontier AI model development outweigh the human costs and medical delays caused by pre-deployment regulatory friction.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Preventing irreversible, catastrophic public safety failures justifies mandatory pre-deployment checks and administrative delays regardless of market friction or near-term innovation slowdowns."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-deployment regulatory delays create immediate, measurable human costs by slowing life-saving medical research and technological progress, which outweighs speculative or hypothetical catastrophic risks."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-085",
+        "sit-164",
+        "acc-intentions-027",
+        "sit-098",
+        "saf-intentions-161",
+        "sit-476",
+        "saf-beliefs-249",
+        "sit-170",
+        "acc-beliefs-028",
+        "acc-beliefs-079"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-076",
+      "nodeLabel": "Open Weights Are a Necessary but Insufficient Condition for Meaningful AI Safety Transparency",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-124",
+      "nodeLabel": "Frontier Safety Frameworks and Risk Tiers",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-161",
+      "nodeLabel": "Prevent AI Harm Through Pre-Launch Checks and Operational Guardrails",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-079",
+      "nodeLabel": "First-Mover Loss from Safety-Induced Deployment Delays",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-129",
+      "nodeLabel": "Decouple AI Safety Verification from Developer Self-Reporting via Compute Taxes",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-121",
+      "nodeLabel": "Component-System Category Error",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-134",
+      "nodeLabel": "Process vs. Governance in AI Regulation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-164",
+      "nodeLabel": "Performance-Gated Safety Investment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-177",
+      "nodeLabel": "Failure of Static Compute Thresholds Against Sub-Frontier Intrusion Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-077",
+      "nodeLabel": "Containment of Software Harms Bounded by Infrastructure Coupling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-276",
+      "nodeLabel": "Forensic Discovery of Training-Time Artifacts as an Evidentiary Prerequisite",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-159",
+      "nodeLabel": "Require AI Safety Standards as a Condition for Government Grants and Infrastructure Permits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-152",
+      "nodeLabel": "Integrating Oversight with Operations Is Capture by Design",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-023",
+      "nodeLabel": "Dissent on AI Safety Must Be Protected, Not Punished",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-067",
+      "nodeLabel": "Decentralized Markets and Open Development Outperform Central Control in Driving AI Progress",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-154",
+      "nodeLabel": "Operationalize Decentralized Participatory Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-224",
+      "nodeLabel": "Feature Capacity Competition",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-076",
+      "nodeLabel": "Prioritizing Testable Safety Problems over Speculative Risk",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-039",
+      "nodeLabel": "Detecting AI Deception by Varying System Prompts",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-260",
+      "nodeLabel": "Patching Latency in Complex Model Architectures",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-024",
+      "nodeLabel": "Create Regulatory Sandboxes to Accelerate AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-129",
+      "nodeLabel": "Safety Rhetoric as Infrastructure Cartel Maintenance",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether hardware-level telemetry and cryptographic modules can effectively decouple safety oversight from proprietary silicon manufacturing gatekeeping.",
+      "prevails": "undecidable",
+      "criterion": "implementation_specificity",
+      "rationale": "Both positions rely on structural assertions about semiconductor supply chains without empirical deployment data from current frontier clusters. The safetyist position assumes technical auditability is neutral, while the skeptic assumes microcode control guarantees monopoly capture, leaving implementation feasibility unproven.",
+      "whatWouldChange": "Independent security audits of deployed cryptographic attestation modules on commercial AI accelerators operating at scale.",
+      "claimIds": [
+        "C1",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether the risks of unconstrained frontier AI model development outweigh the human costs and medical delays caused by pre-deployment regulatory friction.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "This disagreement weighs incommensurable values: the low-probability, high-consequence risk of systemic safety failures against the continuous, diffuse costs of administrative delay on downstream innovation. Neither camp provides an empirical conversion rate between compliance friction and delayed medical breakthroughs.",
+      "whatWouldChange": "Empirical quantification of compliance delays in comparable dual-use technology sectors paired with calibrated risk assessments of frontier model misalignments.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

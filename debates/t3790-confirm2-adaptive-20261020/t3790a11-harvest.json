@@ -1,0 +1,382 @@
+{
+  "debate_id": "ab91f1fd-ef39-4118-8b3d-dadbeacf0c1a",
+  "debate_title": "Mandatory pre-deployment safety evaluations for frontier ...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-deployment capability evaluations for foundation models trained above ten to the twenty-sixth power FLOPs serve as an effective risk reduction measure or function primarily as anticompetitive regulatory capture.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Statutory pre-deployment evaluations provide necessary institutional firewalls that prevent autonomous, self-improving systems from escaping human oversight."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-deployment evaluations create insurmountable regulatory moats that protect corporate incumbents and stifle open-source innovation."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Compliance regimes primarily certify corporate incumbents while failing to address actual deployment-level socioeconomic harms."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-desires-004",
+        "sit-476",
+        "saf-intentions-081",
+        "acc-beliefs-028",
+        "acc-intentions-100",
+        "acc-intentions-111",
+        "skp-beliefs-174",
+        "sit-170",
+        "skp-intentions-135"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether software model weights function as active execution engines that independently lower the barrier for biological synthesis, or whether physical supply chain chokepoints remain sufficient for risk mitigation.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Frontier models can autonomously generate optimized pathogen designs that bypass physical supply chain screening mechanisms."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Software models cannot synthesize pathogens without physical precursors, laboratory equipment, and human operators subject to supply chain screening."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-desires-004",
+        "sit-476",
+        "saf-intentions-081",
+        "skp-beliefs-174",
+        "sit-170",
+        "skp-intentions-135",
+        "sit-098",
+        "saf-beliefs-005",
+        "saf-intentions-005"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-081",
+      "nodeLabel": "Building Adaptive Regulatory Frameworks for AI Development",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-174",
+      "nodeLabel": "Pass/Fail Audits as Inadequate for Complex AI Systems",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-135",
+      "nodeLabel": "Mandate Pre-Committed Shutdown Thresholds for Both Internal and External AI Harms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-206",
+      "nodeLabel": "Scaling AI Without Safeguards Creates a Non-Trivial Path to Irreversible Civilizational Harm",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-278",
+      "nodeLabel": "State-of-the-Art Defense Limitations",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-065",
+      "nodeLabel": "Technological Exceptionalism in AI Policy",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-111",
+      "nodeLabel": "Replace Discretionary Human Halt Authority with Pre-Programmed Enforcement Actions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-005",
+      "nodeLabel": "AI Systems Fail Confidently Outside Their Training Distribution",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-001",
+      "nodeLabel": "Humanity's Survival Above All Else",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-211",
+      "nodeLabel": "Sociotechnical Complexity in AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-108",
+      "nodeLabel": "Domain-specificity of interpretability requirements under products liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-094",
+      "nodeLabel": "Empirical Evidence Documents Pervasive Bias, Discrimination, and Structural Harm in AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-024",
+      "nodeLabel": "Create Regulatory Sandboxes to Accelerate AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-146",
+      "nodeLabel": "AI Risk Emerges from Capability Combinations, Not Raw Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-029",
+      "nodeLabel": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-030",
+      "nodeLabel": "AI Supply Chains Inherit Vulnerabilities from Upstream Components",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-016",
+      "nodeLabel": "AI Must Not Entrench Injustice or Enable Catastrophe",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-202",
+      "nodeLabel": "Scale AI Safety Requirements Proportionally to Capability Level",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-029",
+      "nodeLabel": "Startups Drive Innovation More Than Big Tech",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-044",
+      "nodeLabel": "Technical Challenges and Tradeoffs in Building Safe, Advanced AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-234",
+      "nodeLabel": "Withholding Diagnostic Interfaces as Upstream Design Defect",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-029",
+      "nodeLabel": "Victims of AI Harm Cannot Access the Technical Knowledge Needed to Prove Causation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-168",
+      "nodeLabel": "Preventing AI-Assisted Creation of Dangerous Physical Materials",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-134",
+      "nodeLabel": "Process vs. Governance in AI Regulation",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-deployment capability evaluations for foundation models trained above ten to the twenty-sixth power FLOPs serve as an effective risk reduction measure or function primarily as anticompetitive regulatory capture.",
+      "prevails": "C3",
+      "criterion": "empirical_evidence",
+      "rationale": "The accelerationist position cites documented compliance costs from the European Union Artificial Intelligence Act to show that pre-market audits impose millions of dollars in expenses. The safetyist position relies on abstract risk models without comparable cost-benefit metrics. Therefore, the empirical evidence on startup compliance burdens is stronger.",
+      "whatWouldChange": "Empirical proof that low-cost, automated evaluation tools can verify frontier model safety without imposing prohibitive financial burdens on open-source developers would flip this verdict.",
+      "claimIds": [
+        "C1",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether software model weights function as active execution engines that independently lower the barrier for biological synthesis, or whether physical supply chain chokepoints remain sufficient for risk mitigation.",
+      "prevails": "C4",
+      "criterion": "specificity",
+      "rationale": "The skeptic position names concrete physical chokepoints like oligonucleotide vendor screening and specialized laboratory equipment. The safetyist position asserts autonomous capability risks without detailing how software bypasses physical material requirements. Therefore, the skeptic argument provides superior specificity.",
+      "whatWouldChange": "Demonstrated cases where a foundation model successfully guides an untrained actor to synthesize a dangerous pathogen using unregulated household materials would invalidate the physical supply chain defense.",
+      "claimIds": [
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}
