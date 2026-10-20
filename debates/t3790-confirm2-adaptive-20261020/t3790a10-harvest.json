@@ -1,0 +1,405 @@
+{
+  "debate_id": "1d5ea863-16e5-43ce-b3cc-7425b2151272",
+  "debate_title": "Autonomous weapons systems and the future of warfare unde...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether automated target acquisition systems achieve lower error rates and higher civilian protection metrics than human operators in high-density combat environments.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Simulated benchmarks and operational metrics demonstrate that algorithmic targeting significantly reduces collateral damage compared to fatigued human gunners."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Simulation metrics rely on sanitized synthetic datasets and fail to replicate the unpredictable out-of-distribution conditions of actual combat zones."
+        }
+      ],
+      "linkedNodes": [
+        "sit-224",
+        "acc-desires-006",
+        "acc-intentions-103",
+        "sit-221",
+        "saf-beliefs-203",
+        "saf-desires-018",
+        "saf-intentions-140",
+        "sit-310",
+        "acc-beliefs-094",
+        "acc-intentions-051"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether compliance with Article 36 of Additional Protocol I requires real-time human moral judgment during target engagement or if upstream software design review satisfies the legal standard.",
+      "bdiLayer": "intention",
+      "resolvability": "requires_term_clarification",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "International humanitarian law mandates active human command and control during target selection and proportionality assessments."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Microsecond tactical execution operates downstream of legal compliance, which is fully addressed through upstream programming parameters."
+        }
+      ],
+      "linkedNodes": [
+        "sit-224",
+        "acc-desires-006",
+        "acc-intentions-103",
+        "sit-221",
+        "saf-beliefs-203",
+        "saf-desires-018",
+        "saf-intentions-140",
+        "sit-310",
+        "acc-beliefs-094",
+        "acc-intentions-051"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether pre-deployment software verification and hardware kill switches can effectively constrain autonomous systems without creating unacceptable tactical vulnerabilities.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Hardware-enforced human overrides are mandatory institutional anchors that prevent unchallengeable systemic failures."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Mandating physical override mechanisms imposes impossible latency requirements that sacrifice non-combatant lives to bureaucratic control."
+        }
+      ],
+      "linkedNodes": [
+        "sit-224",
+        "acc-desires-006",
+        "acc-intentions-103",
+        "sit-221",
+        "saf-beliefs-203",
+        "saf-desires-018",
+        "saf-intentions-140",
+        "sit-310",
+        "acc-beliefs-094",
+        "acc-intentions-051"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-221",
+      "nodeLabel": "Normative Pragmatism in IHL",
+      "refCount": 5,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-066",
+      "nodeLabel": "Conscience as a Check on Algorithmic Authority",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-046",
+      "nodeLabel": "AI Safety Rules by Power Level",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-166",
+      "nodeLabel": "AI Accountability and Liability Frameworks",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-224",
+      "nodeLabel": "The Permissive Nature of Warfare Law",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-018",
+      "nodeLabel": "The Human Power to Limit Violence Must Be Preserved",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-140",
+      "nodeLabel": "Containing the Blast Radius of Autonomous AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-310",
+      "nodeLabel": "Alert Fatigue in AI Deployment",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-094",
+      "nodeLabel": "Asymmetry Between Reconstructive Burden and Remediation Cost",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-051",
+      "nodeLabel": "Build an Evolving Catalog of AI Failure Modes",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-055",
+      "nodeLabel": "Operationalize AI Risk Mitigation Through Concrete Technical Practices",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-026",
+      "nodeLabel": "Human-in-the-Loop Safeguards Fail Because Automation Erodes the Skills They Require",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-160",
+      "nodeLabel": "AI in Military and Warfare",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-103",
+      "nodeLabel": "Prohibit Vendors from Imposing Safety Restrictions Beyond the Law on Government AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-072",
+      "nodeLabel": "Courts Lack the Expertise to Weigh AI's Diffuse Benefits Against Its Visible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-248",
+      "nodeLabel": "Algorithmic Disgorgement as Retrospective Remedy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-162",
+      "nodeLabel": "Accelerate Defensive Tech While Slowing Catastrophic Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-046",
+      "nodeLabel": "Lab Testing Cannot Reveal Real-World AI Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-147",
+      "nodeLabel": "Design AI Systems Around Human Cognitive Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-304",
+      "nodeLabel": "Cognitive Impossibility of Low-Latency Autonomous Handover",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-040",
+      "nodeLabel": "Deployers of Autonomous AI Should Be Liable Even for Unintended Outcomes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-074",
+      "nodeLabel": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-473",
+      "nodeLabel": "Linguistic Underspecification of Human Intent",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-129",
+      "nodeLabel": "AI Executes the Letter of the Command While Violating Its Spirit",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-116",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-108",
+      "nodeLabel": "Automating Routine Decisions with Pre-Programmed Safe State Escalation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-082",
+      "nodeLabel": "Scale AI Agents from Pilots to Production",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-031",
+      "nodeLabel": "AI Harm Rooted in Architecture and Training, Not Just Environment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-161",
+      "nodeLabel": "Prevent AI Harm Through Pre-Launch Checks and Operational Guardrails",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-207",
+      "nodeLabel": "AI Dependency Creates a Reinforcing Cycle of Skill Atrophy and Increased Reliance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-273",
+      "nodeLabel": "Intent-based legal requirements serving as corporate liability shields",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-063",
+      "nodeLabel": "AI Development Processes Systematically Encode Human Cognitive Biases",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-143",
+      "nodeLabel": "Agentic Authority Demarcation",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether automated target acquisition systems achieve lower error rates and higher civilian protection metrics than human operators in high-density combat environments.",
+      "prevails": "C3",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist position correctly identifies that closed-loop simulation metrics rely on sanitized synthetic datasets that fail to replicate out-of-distribution combat conditions. Claim C2 provides a specific percentage, but the underlying data lacks real-world validity when transferred to active deployments.",
+      "whatWouldChange": "Peer-reviewed operational data from active combat deployments showing consistent error-rate reductions across unscripted operational environments.",
+      "claimIds": [
+        "C2",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether compliance with Article 36 of Additional Protocol I requires real-time human moral judgment during target engagement or if upstream software design review satisfies the legal standard.",
+      "prevails": "C5",
+      "criterion": "logical_validity",
+      "rationale": "The safetyist position holds greater logical validity because proportionality assessments under international law require real-time contextual evaluation that static upstream programming cannot provide. Claim C6 treats legal compliance as a static engineering milestone rather than an ongoing operational obligation.",
+      "whatWouldChange": "Formal international jurisprudence or treaty consensus establishing that pre-deployment code verification satisfies state obligations under Additional Protocol I.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether pre-deployment software verification and hardware kill switches can effectively constrain autonomous systems without creating unacceptable tactical vulnerabilities.",
+      "prevails": "C4",
+      "criterion": "scope",
+      "rationale": "The skeptic position accounts for broader systemic and legal consequences, specifically the accountability vacuum created when black-box systems cause unauthorized civilian casualties. The opposing view focuses narrowly on tactical efficiency while ignoring the institutional collapse of command responsibility.",
+      "whatWouldChange": "The establishment of a functional international liability framework that successfully assigns criminal negligence to specific human operators or commanders when autonomous systems malfunction.",
+      "claimIds": [
+        "C4",
+        "C1"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

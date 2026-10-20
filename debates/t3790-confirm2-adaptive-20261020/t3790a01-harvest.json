@@ -1,0 +1,364 @@
+{
+  "debate_id": "57a3b6fe-7c29-4619-9a4b-4944a4875a4c",
+  "debate_title": "Mandatory pre-deployment safety evaluations for frontier ...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether static training compute thresholds (such as 10^26 FLOPs) reliably track verifiable dual-use security hazards or become obsolete due to rapid algorithmic efficiency gains.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Compute thresholds track the engineering scale where systemic dual-use hazards materialize, regardless of algorithmic efficiency gains."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Rapid algorithmic efficiency and mixture-of-experts architectures decouple raw compute volume from model capabilities, rendering static training ledgers obsolete."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-029",
+        "saf-intentions-081",
+        "sit-106",
+        "acc-beliefs-085",
+        "acc-beliefs-043",
+        "acc-intentions-099",
+        "acc-intentions-107",
+        "saf-beliefs-120",
+        "saf-desires-016"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether statutory pre-deployment safety gates implemented through public agency rulemaking can successfully prevent institutional capture better than executive memoranda.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Statutory standards enforced by public agencies eliminate backroom negotiation and provide transparent compliance benchmarks superior to executive branch discretion."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Statutory rules and compute thresholds are inevitably captured by incumbent lobbyists and large capital-intensive firms, regardless of whether formulated via statute or executive order."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-029",
+        "saf-intentions-081",
+        "sit-106",
+        "skp-beliefs-280",
+        "sit-098",
+        "sit-046",
+        "skp-intentions-153",
+        "saf-beliefs-120",
+        "saf-desires-016"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-046",
+      "nodeLabel": "AI Safety Rules by Power Level",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-081",
+      "nodeLabel": "Building Adaptive Regulatory Frameworks for AI Development",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-016",
+      "nodeLabel": "AI Must Not Entrench Injustice or Enable Catastrophe",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-054",
+      "nodeLabel": "Responding to Early Warning Signs of Dangerous AI Capabilities",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-104",
+      "nodeLabel": "The Conflict Between Federal and State AI Laws",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-106",
+      "nodeLabel": "Technical Methods for AI Safety and Evaluation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-107",
+      "nodeLabel": "Replace Static AI Rules with Iterative, Drift-Matched Regulatory Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-153",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-120",
+      "nodeLabel": "Physical Infrastructure Metrics as an Enforcement Anchor",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-076",
+      "nodeLabel": "Procuring Dedicated Clean Energy Additionality for High-Density Computing Facilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-174",
+      "nodeLabel": "Pass/Fail Audits as Inadequate for Complex AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-155",
+      "nodeLabel": "Secondary Effects Doctrine for AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-206",
+      "nodeLabel": "Scaling AI Without Safeguards Creates a Non-Trivial Path to Irreversible Civilizational Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-201",
+      "nodeLabel": "Coordinate International AI Governance to Prevent Arms Races and Ensure Shared Safety Rules",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-156",
+      "nodeLabel": "Require AI Outputs to Stay Within Proven-Safe Probability Bounds",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-074",
+      "nodeLabel": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-177",
+      "nodeLabel": "Failure of Static Compute Thresholds Against Sub-Frontier Intrusion Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-044",
+      "nodeLabel": "Technical Challenges and Tradeoffs in Building Safe, Advanced AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-079",
+      "nodeLabel": "First-Mover Loss from Safety-Induced Deployment Delays",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-024",
+      "nodeLabel": "Create Regulatory Sandboxes to Accelerate AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-094",
+      "nodeLabel": "Frontier AI Could Cause Irreversible Civilizational Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-001",
+      "nodeLabel": "Humanity's Survival Above All Else",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-095",
+      "nodeLabel": "Design Safety In Rather Than Patch It On",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-145",
+      "nodeLabel": "Building Public Interest Technologist Pipelines",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-055",
+      "nodeLabel": "Operationalize AI Risk Mitigation Through Concrete Technical Practices",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-093",
+      "nodeLabel": "Proxy Optimization Reliably Produces Outcomes Nobody Actually Wanted",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether static training compute thresholds reliably track verifiable dual-use security hazards or become obsolete due to rapid algorithmic efficiency gains.",
+      "prevails": "C5",
+      "criterion": "empirical_evidence",
+      "rationale": "The accelerationist position relies on documented hardware-software co-design trends showing that mixture-of-experts architectures reduce training compute requirements for equivalent capability levels. The safetyist claim asserts that hazards scale with raw compute, but offers less empirical data to counter the observed decoupling of model performance from training FLOPs.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether statutory pre-deployment safety gates implemented through public agency rulemaking can successfully prevent institutional capture better than executive memoranda.",
+      "prevails": "C8",
+      "criterion": "scope",
+      "rationale": "The skeptic position accounts for regulatory capture dynamics and public choice theory, which show that capital-intensive firms often lobby for compliance frameworks to pull up the ladder behind them. The safetyist position assumes agency enforcement operates in a neutral institutional vacuum without addressing how fixed compliance overhead harms market competition.",
+      "claimIds": [
+        "C7",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

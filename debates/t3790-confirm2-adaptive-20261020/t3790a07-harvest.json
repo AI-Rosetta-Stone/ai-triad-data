@@ -1,0 +1,405 @@
+{
+  "debate_id": "2f8efb92-8239-4064-9432-56d0abd3eac2",
+  "debate_title": "AI systems in high-stakes decisions: healthcare triage an...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-deployment certification serves as a necessary safety barrier against systemic bias or functions as an administrative tollbooth that delays essential care.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that static pre-market certification imposes lethal delays on patient care and protects institutional incumbents, and that rapid deployment with post-market telemetry is superior."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Maintains that mandatory pre-deployment verification is necessary to prevent structural errors from entering clinical and judicial workflows before post-hoc audits can catch them."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-111",
+        "sit-069",
+        "acc-intentions-106",
+        "sit-361",
+        "acc-desires-042",
+        "saf-desires-029",
+        "sit-316",
+        "saf-intentions-147",
+        "sit-134",
+        "saf-beliefs-050"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether open telemetry and decentralized model weights can effectively replace pre-market certification or whether they merely multiply uncorrectable institutional bias across endpoints.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Maintains that open-weight procurement mandates and continuous runtime auditing allow independent auditors to detect and correct demographic drift within 90 days."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that fine-tuning unaligned models strips out telemetry hooks and that decentralized distribution permanently locks systemic discrimination into local operations without central oversight."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-111",
+        "sit-069",
+        "acc-intentions-106",
+        "sit-361",
+        "acc-desires-042",
+        "saf-desires-029",
+        "sit-316",
+        "saf-intentions-147",
+        "sit-134",
+        "saf-beliefs-050"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-069",
+      "nodeLabel": "Quantitative AI Risk Assessment",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-106",
+      "nodeLabel": "Gating Immunity on Distributionally Sampled Behavior with Drift-Keyed Re-Measurement",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-134",
+      "nodeLabel": "Process vs. Governance in AI Regulation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-234",
+      "nodeLabel": "Withholding Diagnostic Interfaces as Upstream Design Defect",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-179",
+      "nodeLabel": "Anchoring Data-Provenance Liability at the In-Jurisdiction Deployment Act Rather Than the Relocatable Upstream Join",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-139",
+      "nodeLabel": "Enforcing Runtime Observability Through Sectoral Safety Regulators",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-061",
+      "nodeLabel": "The Adverse Impact Ratio Cannot Distinguish AI Bias from Genuine Qualification Differences",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-111",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-361",
+      "nodeLabel": "Pragmatic Mitigation Framing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-042",
+      "nodeLabel": "Actionability as Evaluation Metric",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-050",
+      "nodeLabel": "Continuous Distribution Shift as a Foreseeable Operational Reality",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-234",
+      "nodeLabel": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-110",
+      "nodeLabel": "Feedback-Loop Contamination as the Operative Boundary for Pre-Deployment Interpretability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-107",
+      "nodeLabel": "Replace Static AI Rules with Iterative, Drift-Matched Regulatory Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-011",
+      "nodeLabel": "AI That Can Examine and Explain Its Own Reasoning",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-286",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-087",
+      "nodeLabel": "Systematize AI Model Evaluation Through Benchmarking, Auditing, and Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-094",
+      "nodeLabel": "Empirical Evidence Documents Pervasive Bias, Discrimination, and Structural Harm in AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-057",
+      "nodeLabel": "AI Models Carry Unfixable Defects That Resist Detection and Degrade Over Time",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-001",
+      "nodeLabel": "Conditioning Deployment on Infrastructure Telemetry and Proportional Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-001",
+      "nodeLabel": "Humanity's Survival Above All Else",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-020",
+      "nodeLabel": "Scoring AI Bugs to Prioritize Critical Safety Fixes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-139",
+      "nodeLabel": "Procedure Fetish in AI Governance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-074",
+      "nodeLabel": "Liability Law Ignores AI's Diffuse Statistical Benefits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-041",
+      "nodeLabel": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-302",
+      "nodeLabel": "Procedural Telemetry Checklists as Upstream Audit-Washing Shields",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-079",
+      "nodeLabel": "Balanced Transparency: Public Interest vs. Trade Secrets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-128",
+      "nodeLabel": "Correct AI Decision Biases Through Post-Processing Score Calibration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-104",
+      "nodeLabel": "Empirical transaction audit as the mechanism-selection hinge",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-001",
+      "nodeLabel": "Achieving Capability Leadership Through Open Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-046",
+      "nodeLabel": "Lab Testing Cannot Reveal Real-World AI Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-061",
+      "nodeLabel": "Designing Mandatory Human Checkpoints into AI-Driven Processes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-448",
+      "nodeLabel": "Feedback-Loop Contamination of Post-Deployment Evaluation Data",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-075",
+      "nodeLabel": "AI Harm Materializes at Downstream Integration and Execution",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-deployment certification serves as a necessary safety barrier against systemic bias or functions as an administrative tollbooth that delays essential care.",
+      "prevails": "C3",
+      "rationale": "The safetyist position accounts for downstream harms and irreversible structural errors in clinical and judicial workflows. Static pre-market boards provide a vital gatekeeping function that prevents systemic bias from embedding into live patient and inmate data.",
+      "whatWouldChange": "Empirical proof that pre-market delays cause measurable mortality rates that exceed the harms inflicted by unvalidated algorithmic errors.",
+      "claimIds": [
+        "C3",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: undefined"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether open telemetry and decentralized model weights can effectively replace pre-market certification or whether they merely multiply uncorrectable institutional bias across endpoints.",
+      "prevails": "C4",
+      "rationale": "The safetyist undercutter successfully demonstrates that telemetry measuring internal consistency against a biased baseline only stabilizes infected training distributions. Furthermore, proprietary trade secret protections identified by skeptics prevent compliance officers from auditing live model updates effectively.",
+      "whatWouldChange": "Federal legislation compelling software vendors to open all internal model weights and telemetry adjustments to independent auditors without trade secret exemptions.",
+      "claimIds": [
+        "C2",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: undefined"
+      ]
+    }
+  ],
+  "concepts": []
+}

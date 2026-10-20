@@ -1,0 +1,423 @@
+{
+  "debate_id": "bf325e74-f8ab-4ac6-87e6-2228309ab5d9",
+  "debate_title": "The risks and benefits of releasing powerful AI model wei...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether sub-frontier open-weights distribution creates an unrecallable security risk or catastrophic hazard that justifies preemptive export controls.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that no empirical dataset or incident history supports an unrecallable catastrophe from sub-frontier model distributions, rendering containment speculative."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that demanding historical incident data before regulating unrecallable dual-use capabilities relies on a category error that treats irreversible systemic hazards like standard software bugs."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-028",
+        "acc-desires-039",
+        "acc-intentions-078",
+        "saf-beliefs-131",
+        "saf-intentions-009",
+        "saf-intentions-069",
+        "sit-476",
+        "acc-beliefs-085",
+        "acc-intentions-022",
+        "saf-desires-023"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether trade-offs between regulatory administrative delay and technological progress justify prioritizing open-source diffusion over catastrophic risk mitigation.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Prioritizes immediate societal benefits and medical breakthroughs, arguing that administrative restrictions impose quantifiable human costs by delaying innovation."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Prioritizes permanent civilizational survival, arguing that temporary therapeutic delays are morally distinct from unrecallable security catastrophes."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-028",
+        "acc-desires-039",
+        "acc-intentions-078",
+        "saf-beliefs-131",
+        "saf-intentions-009",
+        "saf-intentions-069",
+        "sit-476",
+        "acc-beliefs-085",
+        "acc-intentions-022",
+        "saf-desires-023"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether model weights function as static mathematical matrices or autonomous agents that invalidate historical software export control analogies.",
+      "bdiLayer": "intention",
+      "resolvability": "requires_term_clarification",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Maintains that model weights are static matrices requiring external compute and memory, directly comparable to compiled machine code or cryptographic libraries."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Maintains that frontier models function as autonomous actors capable of executing complex tasks without further human intervention, rendering historical crypto export controls inapplicable."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-028",
+        "acc-desires-039",
+        "acc-intentions-078",
+        "saf-beliefs-131",
+        "saf-intentions-009",
+        "saf-intentions-069",
+        "sit-476",
+        "acc-beliefs-085",
+        "acc-intentions-022",
+        "saf-desires-023"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-269",
+      "nodeLabel": "Enforcement Collapse Across Decentralized Open-Source Model Boundaries",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-009",
+      "nodeLabel": "Securing Data Centers and Supply Chains Against Model-Weight Theft",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-022",
+      "nodeLabel": "Lobby for International Legal Shields for Open-Weight AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-179",
+      "nodeLabel": "Anchoring Data-Provenance Liability at the In-Jurisdiction Deployment Act Rather Than the Relocatable Upstream Join",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-078",
+      "nodeLabel": "Foundational AI as a Public Good",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-069",
+      "nodeLabel": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-260",
+      "nodeLabel": "Patching Latency in Complex Model Architectures",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-023",
+      "nodeLabel": "Dissent on AI Safety Must Be Protected, Not Punished",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-147",
+      "nodeLabel": "AI Threats Are Only Real When Capability, Autonomy, and Persistence Converge",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-177",
+      "nodeLabel": "Failure of Static Compute Thresholds Against Sub-Frontier Intrusion Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-008",
+      "nodeLabel": "Replace Architectural Pre-Clearance with Purpose-Bound Data Licenses",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-092",
+      "nodeLabel": "Monoculture in AI Deployments Amplifies the Blast Radius of Any Flaw",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-145",
+      "nodeLabel": "Giving Engineers Whistleblower Protections and Safety Veto Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-112",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-025",
+      "nodeLabel": "Computational Power Is the New Measure of National Strength",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-236",
+      "nodeLabel": "Prohibitionist Policy Backfire",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-129",
+      "nodeLabel": "Safety Rhetoric as Infrastructure Cartel Maintenance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-154",
+      "nodeLabel": "Operationalize Decentralized Participatory Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-077",
+      "nodeLabel": "Containment of Software Harms Bounded by Infrastructure Coupling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-097",
+      "nodeLabel": "AI's Architectural Complexity Generates Qualitatively New Security Risks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-140",
+      "nodeLabel": "Containing the Blast Radius of Autonomous AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-016",
+      "nodeLabel": "Screening AI Threats for Unrecoverable Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-001",
+      "nodeLabel": "Humanity's Survival Above All Else",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-101",
+      "nodeLabel": "Cross-Border Ingestion Defeats Every Enforcement Instrument at Market Entry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-021",
+      "nodeLabel": "National Self-Sufficiency in AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether sub-frontier open-weights distribution creates an unrecallable security risk or catastrophic hazard that justifies preemptive export controls.",
+      "prevails": "C4",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist position relies on precautionary logic that lacks documented historical examples of sub-frontier open weights causing unrecallable catastrophes. The skeptic position holds greater empirical weight because current open-source deployments operate without catastrophic failures, making hazard models speculative.",
+      "whatWouldChange": "Documented case studies showing that the public release of sub-frontier model weights directly enabled an irreversible biological or cyber disaster.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether trade-offs between regulatory administrative delay and technological progress justify prioritizing open-source diffusion over catastrophic risk mitigation.",
+      "prevails": "C7",
+      "criterion": "scope",
+      "rationale": "The safetyist argument addresses the asymmetry of irreversible outcomes, which outweighs quantifiable timelines for incremental medical delivery. Permanent systemic damage occupies a distinct category from time-bounded innovation delays.",
+      "whatWouldChange": "Definitive evidence that administrative export controls cause systemic, long-term health crises that outweigh the worst-case estimates of uncontained dual-use model misuse.",
+      "claimIds": [
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether model weights function as static mathematical matrices or autonomous agents that invalidate historical software export control analogies.",
+      "prevails": "C10",
+      "criterion": "specificity",
+      "rationale": "The safetyist distinction between passive encryption code and active, task-executing model weights correctly identifies the functional differences in software capabilities. Static encryption requires external protocols to secure data, whereas frontier models execute complex problem-solving workflows independently.",
+      "whatWouldChange": "Technical proof that model weights remain entirely inert data structures requiring the same manual compilation steps as traditional 1990s cryptographic source code.",
+      "claimIds": [
+        "C9",
+        "C10"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

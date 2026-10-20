@@ -1,0 +1,373 @@
+{
+  "debate_id": "448188d3-7ac8-4717-9dde-7339835e929f",
+  "debate_title": "Compute governance as a lever for AI safety: export contr...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether federal agencies can legally and effectively enforce mandatory telemetry, runtime inspections, and trade-secret overrides on advanced AI systems.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Agencies can adapt statutory oversight mechanisms through conditional operating licenses and runtime telemetry, mirroring aviation and financial sector regulations."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Statutory inspection rights and compliance mandates are technically and legally unworkable given distributed cloud architectures and continuous parameter updates."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Horizontal agencies lack the statutory authority and technical workforce to enforce such inspections, turning compliance frameworks into corporate capture tools."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-beliefs-263",
+        "saf-desires-029",
+        "saf-intentions-002",
+        "acc-beliefs-101",
+        "acc-desires-039",
+        "acc-intentions-105",
+        "skp-beliefs-277",
+        "skp-beliefs-278",
+        "skp-intentions-108"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-277",
+      "nodeLabel": "Domain Expertise Deficits of Horizontal Regulators",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-001",
+      "nodeLabel": "Achieving Capability Leadership Through Open Accountability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-087",
+      "nodeLabel": "Replacing Abstract Safety Claims with Testable Engineering Controls",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-278",
+      "nodeLabel": "State-of-the-Art Defense Limitations",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-263",
+      "nodeLabel": "Cloud Infrastructure Enforcement Is Necessary but Insufficient for Reaching Foreign Deployers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-002",
+      "nodeLabel": "Scaling Oversight to Real-Time Remediation Speed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-101",
+      "nodeLabel": "Cross-Border Ingestion Defeats Every Enforcement Instrument at Market Entry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-105",
+      "nodeLabel": "Replace Centralized Safety Audits with Trustless Cryptographic Verification",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-234",
+      "nodeLabel": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-008",
+      "nodeLabel": "Biology and Technology Are Merging into a Single Evolutionary System",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-079",
+      "nodeLabel": "Balanced Transparency: Public Interest vs. Trade Secrets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-170",
+      "nodeLabel": "Requiring Hardware Telemetry as the Price of Liability Immunity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-345",
+      "nodeLabel": "Evaluation-Contractual Lock-in",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-003",
+      "nodeLabel": "Runtime Telemetry Bound by Execution-Gated Telemetry Logging",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-107",
+      "nodeLabel": "Replace Static AI Rules with Iterative, Drift-Matched Regulatory Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-231",
+      "nodeLabel": "Binding AI Accountability to Physical Infrastructure Metrics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-142",
+      "nodeLabel": "AI Compute Should Never Be Able to Reach Its Own Control Plane",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-161",
+      "nodeLabel": "Prevent AI Harm Through Pre-Launch Checks and Operational Guardrails",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-065",
+      "nodeLabel": "Technological Exceptionalism in AI Policy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-111",
+      "nodeLabel": "Know What AI You Have Before You Try to Govern It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-001",
+      "nodeLabel": "Humanity's Survival Above All Else",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-048",
+      "nodeLabel": "Maintaining AI Safety When Human Supervision Cannot Keep Pace",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-190",
+      "nodeLabel": "Single Points of Control over Compute Hardware Function as Incumbent Capture Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-076",
+      "nodeLabel": "Open Weights Are a Necessary but Insufficient Condition for Meaningful AI Safety Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-029",
+      "nodeLabel": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-022",
+      "nodeLabel": "Lobby for International Legal Shields for Open-Weight AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether federal agencies can legally and effectively enforce mandatory telemetry, runtime inspections, and trade-secret overrides on advanced AI systems.",
+      "prevails": "C9",
+      "criterion": "empirical_evidence",
+      "rationale": "The accelerationist critique successfully highlights the functional difference between static physical assets like aircraft and dynamic software systems that undergo continuous iteration. Safetyist analogies to aviation and banking fail to account for the continuous post-deployment fine-tuning characteristic of neural network weights.",
+      "claimIds": [
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

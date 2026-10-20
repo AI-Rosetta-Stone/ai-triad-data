@@ -1,0 +1,414 @@
+{
+  "debate_id": "2a044dbc-3045-4c47-be3a-b0b3b2718802",
+  "debate_title": "AI governance frameworks for advanced AI systems",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-market behavioral audits can be structured without imposing prohibitive compliance burdens on decentralized open-source developers.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Dynamic capability tiers and behavioral hazard thresholds can be enforced to catch catastrophic risks while legally exempting developers whose models remain below hazard lines."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Dynamic compliance standards inevitably expand via administrative creep, functioning as subjective hurdles that concentrate market power and crush smaller independent actors."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-280",
+        "skp-desires-075",
+        "skp-intentions-146",
+        "sit-361",
+        "saf-intentions-215",
+        "sit-476",
+        "saf-beliefs-030",
+        "sit-170",
+        "saf-beliefs-249",
+        "saf-intentions-005"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether regulatory oversight of artificial intelligence should prioritize pre-deployment gatekeeping or post-deployment liability enforcement.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-deployment testing creates fatal administrative delays that withhold beneficial innovations, meaning governance should rely entirely on live telemetry and post-market tort liability."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Post-market liability is insufficient because certain extreme AI risks cause irreversible catastrophic harm before legal remedies can be applied."
+        }
+      ],
+      "linkedNodes": [
+        "saf-intentions-215",
+        "sit-476",
+        "saf-beliefs-030",
+        "sit-170",
+        "acc-beliefs-067",
+        "acc-intentions-100",
+        "acc-desires-026",
+        "acc-intentions-088",
+        "saf-beliefs-249",
+        "saf-intentions-005"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-215",
+      "nodeLabel": "Shielding Compliant Open-Weight Releases from Downstream Misuse Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-067",
+      "nodeLabel": "Decentralized Markets and Open Development Outperform Central Control in Driving AI Progress",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-361",
+      "nodeLabel": "Pragmatic Mitigation Framing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-030",
+      "nodeLabel": "AI Supply Chains Inherit Vulnerabilities from Upstream Components",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-159",
+      "nodeLabel": "Require AI Safety Standards as a Condition for Government Grants and Infrastructure Permits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-243",
+      "nodeLabel": "Proof Privatization",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-029",
+      "nodeLabel": "Victims of AI Harm Cannot Access the Technical Knowledge Needed to Prove Causation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-041",
+      "nodeLabel": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-079",
+      "nodeLabel": "Balanced Transparency: Public Interest vs. Trade Secrets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-017",
+      "nodeLabel": "Close the AI Documentation Gap Through Mandatory Disclosure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-107",
+      "nodeLabel": "Replace Static AI Rules with Iterative, Drift-Matched Regulatory Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-106",
+      "nodeLabel": "Gating Immunity on Distributionally Sampled Behavior with Drift-Keyed Re-Measurement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-063",
+      "nodeLabel": "Regulatory Fragmentation and Cost Burden",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-477",
+      "nodeLabel": "Democratic Failure to Curb Digital Corporate Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-110",
+      "nodeLabel": "Higher Compute Implies Higher Legal Responsibility",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-177",
+      "nodeLabel": "Failure of Static Compute Thresholds Against Sub-Frontier Intrusion Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-003",
+      "nodeLabel": "Runtime Telemetry Bound by Execution-Gated Telemetry Logging",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-017",
+      "nodeLabel": "Dismantle Legacy Structures -- Borders, Markets, Institutions -- to Unlock AI-Driven Progress",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-112",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-014",
+      "nodeLabel": "Post-Training Safety Measures Are Reliably Bypassable",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-202",
+      "nodeLabel": "Scale AI Safety Requirements Proportionally to Capability Level",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-274",
+      "nodeLabel": "Hardware-Level Interventions Risk Entrenching Corporate Monopolies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-076",
+      "nodeLabel": "Open Weights Are a Necessary but Insufficient Condition for Meaningful AI Safety Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-134",
+      "nodeLabel": "Process vs. Governance in AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-109",
+      "nodeLabel": "Component vs System Safety",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-182",
+      "nodeLabel": "Maintenance Debt From AI-Authored Code Compounds in Cost Even When Each Defect Is Reversible",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-153",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-166",
+      "nodeLabel": "AI Accountability and Liability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-231",
+      "nodeLabel": "Deployment-Capability Lag",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-market behavioral audits can be structured without imposing prohibitive compliance burdens on decentralized open-source developers.",
+      "prevails": "C5",
+      "criterion": "empirical_evidence",
+      "rationale": "The accelerationist position succeeds by citing technical evidence about algorithmic compression and mixture-of-experts architectures. This demonstrates that static compute limits fail to capture actual capability risks, whereas the skeptic position relies on historical analogies that do not directly address artificial intelligence model dynamics.",
+      "whatWouldChange": "Empirical data showing that algorithmic compression hits a hard efficiency wall that permanently prevents sub-threshold models from matching frontier safety hazards would flip the verdict.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C4",
+        "C5",
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether regulatory oversight of artificial intelligence should prioritize pre-deployment gatekeeping or post-deployment liability enforcement.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Neither position provides a decisive mechanism to reconcile irreversible catastrophic risks with the economic costs of administrative delay. The safetyist focus on irreversible harm is logically sound but lacks proof of feasible enforcement, while the accelerationist preference for post-market torts ignores the limits of legal remedies after a catastrophic AI failure.",
+      "whatWouldChange": "Empirical demonstration that post-deployment liability regimes can recover damages from decentralized actors after a catastrophic incident at a scale that deters severe harm.",
+      "claimIds": [
+        "C1",
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}
