@@ -3,7 +3,7 @@
   "_doc": "Accelerationist POV taxonomy. One file per POV camp to minimize merge conflicts. Edit nodes, open a PR, bump TAXONOMY_VERSION in the merge commit.",
   "pov": "accelerationist",
   "color_hex": "#27AE60",
-  "last_modified": "2026-10-03",
+  "last_modified": "2026-10-20",
   "nodes": [
     {
       "id": "acc-desires-001",
@@ -17404,7 +17404,7 @@
         "rhetorical_strategy": "techno_optimism, moral_imperative, appeal_to_evidence",
         "audience": "technical_researchers, industry_leaders, academic_community",
         "emotional_register": "aspirational, optimistic",
-        "steelman_vulnerability": "Even granting the technical feasibility, concentrating all of humanity's cultural and epistemic heritage into AI training corpora controlled by a small number of actors creates an unprecedented chokepoint: whoever curates and filters that corpus effectively defines what counts as knowledge, embedding their values at civilizational scale while irrecoverably marginalizing oral traditions, non-digitized cultures, and minority epistemologies. ",
+        "steelman_vulnerability": "Even granting the technical feasibility, concentrating all of humanity's cultural and epistemic heritage into AI training corpora controlled by a small number of actors creates an unprecedented chokepoint: whoever curates and filters that corpus effectively defines what counts as knowledge, embedding their values at civilizational scale while irrecoverably marginalizing oral traditions, non-digitized cultures, and minority epistemologies.  ",
         "assumes": [
           "It is technically feasible to collect, digitize, and integrate the totality of human cultural and scientific material into AI foundation models at scale.",
           "AI models can represent the nuances, contradictions, and context-dependency of diverse human knowledge without catastrophic loss of fidelity.",
