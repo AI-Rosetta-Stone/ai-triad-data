@@ -1,0 +1,218 @@
+{
+  "debate_id": "5ea9e793-72ea-48eb-9dde-d7a08e384d2d",
+  "debate_title": "Autonomous weapons systems and the future of warfare unde...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether continuous telemetry and agile release cycles can adequately substitute for pre-deployment verification of state-space reversibility in autonomous weapons systems.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Agile deployment and continuous telemetry are necessary to prevent strategic obsolescence and maintain defense capabilities against rapid automated threats."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Pre-deployment verification and strict state-space reversibility guarantees are essential to prevent irreversible kinetic and ethical failures in urban combat."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-097",
+        "saf-desires-018",
+        "saf-intentions-173",
+        "sit-160",
+        "acc-intentions-103",
+        "acc-intentions-073",
+        "acc-beliefs-072",
+        "acc-beliefs-083",
+        "sit-177",
+        "saf-beliefs-093"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether federal procurement statutes and statutory indemnification mechanisms effectively shield defense developers from third-party tort claims arising from autonomous software failures.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Federal supply contracts and indemnification statutes effectively shield prime contractors from third-party liability, necessitating legislative reform to ensure accountability."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Operational risk and accountability can be effectively managed through commercial cyber insurance models and telemetry-based pricing without altering foundational procurement indemnification."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-103",
+        "acc-intentions-073",
+        "acc-beliefs-072",
+        "acc-beliefs-083",
+        "sit-177",
+        "skp-beliefs-273",
+        "skp-desires-087",
+        "skp-intentions-164",
+        "acc-beliefs-093",
+        "acc-intentions-027"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-018",
+      "nodeLabel": "The Human Power to Limit Violence Must Be Preserved",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-103",
+      "nodeLabel": "Prohibit Vendors from Imposing Safety Restrictions Beyond the Law on Government AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-273",
+      "nodeLabel": "Intent-based legal requirements serving as corporate liability shields",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-097",
+      "nodeLabel": "AI's Architectural Complexity Generates Qualitatively New Security Risks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-173",
+      "nodeLabel": "Giving Every Nation a Verified Way to Halt Dangerous AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-160",
+      "nodeLabel": "AI in Military and Warfare",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-073",
+      "nodeLabel": "Governing AI Risk Through Telemetry-Enabled Insurance and Post-Deployment Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-072",
+      "nodeLabel": "Courts Lack the Expertise to Weigh AI's Diffuse Benefits Against Its Visible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-164",
+      "nodeLabel": "Coupling Mandatory Audit Discovery with Liability Presumptions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-093",
+      "nodeLabel": "Proxy Optimization Reliably Produces Outcomes Nobody Actually Wanted",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-214",
+      "nodeLabel": "Designing Modular Rollback Mechanisms for Frontier Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-093",
+      "nodeLabel": "Downstream Liability Bounded by What the Deployer Can Detect and Price",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-029",
+      "nodeLabel": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether continuous telemetry and agile release cycles can adequately substitute for pre-deployment verification of state-space reversibility in autonomous weapons systems.",
+      "prevails": "safetyist",
+      "criterion": "scope",
+      "rationale": "The safetyist position prevails under the scope criterion because it addresses the irreversible nature of kinetic force in populated areas. While accelerationists correctly identify human reaction time limits of 300 milliseconds against automated saturation attacks, their reliance on commercial cyber insurance models fails to account for the catastrophic humanitarian cost of unverified targeting errors.",
+      "whatWouldChange": "Empirical evidence proving that commercial telemetry models can reliably reverse autonomous targeting actions mid-execution in contested urban combat would shift the balance toward the accelerationist position.",
+      "claimIds": [
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether federal procurement statutes and statutory indemnification mechanisms effectively shield defense developers from third-party tort claims arising from autonomous software failures.",
+      "prevails": "skeptic",
+      "criterion": "implementation_specificity",
+      "rationale": "The skeptic position is stronger because it accurately identifies existing statutory indemnification mechanisms in defense supply contracts and proposes a clear, actionable legislative fix. The accelerationist counter-argument relies on commercial cyber insurance models that do not override federal procurement law or statutory immunity protections for defense contractors.",
+      "whatWouldChange": "Detailed legal documentation showing that current federal acquisition regulations permit third-party civil suits against prime contractors for autonomous software errors would weaken the skeptic claim.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

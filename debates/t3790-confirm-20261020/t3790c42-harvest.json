@@ -1,0 +1,170 @@
+{
+  "debate_id": "db6e80c9-3b19-43a7-9274-94da0d5f8c6b",
+  "debate_title": "AI governance frameworks for advanced AI systems",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether fixed compute thresholds can effectively separate routine open-source experimentation from dual-use frontier model development without creating enforcement loopholes.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Graduated compute thresholds successfully isolate dangerous dual-use capabilities while exempting smaller open-source developers."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Static compute cutoffs fail because developers can bypass single-model training limits using distributed multi-agent commodity clusters."
+        }
+      ],
+      "linkedNodes": [
+        "saf-desires-029",
+        "saf-desires-026",
+        "saf-intentions-148",
+        "skp-beliefs-196",
+        "skp-beliefs-177",
+        "skp-desires-005",
+        "skp-intentions-108",
+        "saf-beliefs-274",
+        "saf-desires-006",
+        "saf-intentions-215"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-177",
+      "nodeLabel": "Failure of Static Compute Thresholds Against Sub-Frontier Intrusion Tools",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-067",
+      "nodeLabel": "Decentralized Markets and Open Development Outperform Central Control in Driving AI Progress",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-148",
+      "nodeLabel": "Targeting Verifiable Process Failures Instead of Policing Truth",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-274",
+      "nodeLabel": "Hardware-Level Interventions Risk Entrenching Corporate Monopolies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-215",
+      "nodeLabel": "Shielding Compliant Open-Weight Releases from Downstream Misuse Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-263",
+      "nodeLabel": "Governance Drift",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether fixed compute thresholds can effectively separate routine open-source experimentation from dual-use frontier model development without creating enforcement loopholes.",
+      "prevails": "C4",
+      "criterion": "empirical_evidence",
+      "rationale": "The skeptic position rests on documented technical realities regarding distributed computing and parallel processing clusters. Regulators struggle to monitor decentralized hardware pooling, making static compute cutoffs vulnerable to evasion. The safetyist claim relies on administrative assumptions about single-model visibility that ignore modern training techniques.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

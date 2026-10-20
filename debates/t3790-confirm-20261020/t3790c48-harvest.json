@@ -1,0 +1,173 @@
+{
+  "debate_id": "ee75452a-adb5-42b6-bae7-638e96d47c84",
+  "debate_title": "Alignment research priorities: interpretability versus ca...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether centralized pre-deployment licensing boards effectively prevent catastrophic failures or merely create anticompetitive barriers that entrench incumbent monopolies.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Centralized pre-deployment safety gates run by regulatory agencies are necessary to prevent systemic collapse and ensure accountability."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Centralized pre-market licensing acts as an administrative tollbooth that locks out smaller firms and open-weight contributors, favoring incumbents."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-014",
+        "saf-intentions-202",
+        "sit-318",
+        "skp-beliefs-164",
+        "skp-desires-075",
+        "skp-intentions-146",
+        "saf-beliefs-098",
+        "saf-beliefs-203",
+        "saf-desires-016",
+        "saf-intentions-204"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-318",
+      "nodeLabel": "The Performance-Compute Divergence",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-116",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-042",
+      "nodeLabel": "Actionability as Evaluation Metric",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-108",
+      "nodeLabel": "Domain-specificity of interpretability requirements under products liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-014",
+      "nodeLabel": "Post-Training Safety Measures Are Reliably Bypassable",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-202",
+      "nodeLabel": "Scale AI Safety Requirements Proportionally to Capability Level",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-164",
+      "nodeLabel": "Companies Use Narrow Audits to Deflect Meaningful AI Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-072",
+      "nodeLabel": "Courts Lack the Expertise to Weigh AI's Diffuse Benefits Against Its Visible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-018",
+      "nodeLabel": "Build Crisis-Proof Institutions with AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-098",
+      "nodeLabel": "AI Behavior Cannot Be Fully Predicted Due to Emergence, Misspecification, and Formal Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-016",
+      "nodeLabel": "AI Must Not Entrench Injustice or Enable Catastrophe",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-204",
+      "nodeLabel": "Train AI on Constitutional Principles to Generalize Safety Beyond Narrow Rules",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-133",
+      "nodeLabel": "Organizations Fund AI Experiments but Lack Scaling Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-102",
+      "nodeLabel": "Operationalize Pragmatic AI Governance Through Concrete Policy Mechanisms",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [],
+  "concepts": []
+}

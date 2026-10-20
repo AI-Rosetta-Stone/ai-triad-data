@@ -1,0 +1,14 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "protocolId": "structured",
+  "pacing": "moderate",
+  "audience": "policymakers",
+  "activePovers": [
+    "accelerationist",
+    "safetyist",
+    "skeptic"
+  ],
+  "topic": "AI governance frameworks for advanced AI systems",
+  "slug": "t3790c42",
+  "outputDir": "C:\\Users\\jsnov\\repos\\ai-triad-data\\debates\\t3790-confirm-20261020"
+}

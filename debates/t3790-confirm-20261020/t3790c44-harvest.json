@@ -1,0 +1,186 @@
+{
+  "debate_id": "6266017b-dcd6-40d9-90dc-a1c306e52804",
+  "debate_title": "Compute governance as a lever for AI safety: export contr...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether large-scale pre-training clusters exceeding 10 to the 26th power floating-point operations can be effectively monitored without driving open-source developers out of the market.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Large-scale frontier pre-training clusters are physically massive and centralized enough to be regulated at the corporate boundary without capturing everyday hardware or harming open-source developers."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Frontier capabilities can be trained on smaller, distributed commodity clusters or via algorithmic efficiency gains, rendering training-cluster thresholds porous and obsolete."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-083",
+        "acc-beliefs-043",
+        "acc-intentions-100",
+        "saf-beliefs-213",
+        "saf-intentions-231",
+        "saf-desires-006",
+        "acc-beliefs-094",
+        "acc-desires-027",
+        "acc-intentions-003",
+        "sit-086"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-231",
+      "nodeLabel": "Binding AI Accountability to Physical Infrastructure Metrics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-260",
+      "nodeLabel": "Patching Latency in Complex Model Architectures",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-179",
+      "nodeLabel": "Anchoring Data-Provenance Liability at the In-Jurisdiction Deployment Act Rather Than the Relocatable Upstream Join",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-094",
+      "nodeLabel": "Asymmetry Between Reconstructive Burden and Remediation Cost",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-003",
+      "nodeLabel": "Adopt Output-Based Evaluation as the Primary AI Safety Methodology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-086",
+      "nodeLabel": "Automated Red Teaming via AI-vs-AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-087",
+      "nodeLabel": "Replacing Abstract Safety Claims with Testable Engineering Controls",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-361",
+      "nodeLabel": "Pragmatic Mitigation Framing",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether large-scale pre-training clusters exceeding 10 to the 26th power floating-point operations can be effectively monitored without driving open-source developers out of the market.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both sides present valid empirical points that currently lack definitive reconciliation. Safety advocates correctly identify that current frontier models require massive capital investments and physical data centers. Skeptics and accelerationists correctly note that algorithmic gains reduce compute requirements over time, while compliance costs genuinely harm small developers. The dispute remains balanced because neither side has proven whether future algorithmic efficiency will outpace hardware monitoring capabilities.",
+      "whatWouldChange": "Longitudinal data on whether hardware telemetry compliance forces independent AI labs out of business while successfully intercepting malicious frontier training runs.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

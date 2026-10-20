@@ -1,0 +1,281 @@
+{
+  "debate_id": "098c4754-aa05-436d-9ab9-60952fa4a923",
+  "debate_title": "AI systems in high-stakes decisions: healthcare triage an...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether post-deployment API telemetry and vendor liability bonds provide adequate safeguards compared to pre-market transparency gates.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Supports deploying proprietary AI tools rapidly using post-deployment telemetry and strict liability bonds to correct errors and avoid paralyzing delays."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Rejects post-deployment-only models, arguing that high-stakes domains require strict pre-market transparency and independent auditing to prevent hidden structural harms."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-073",
+        "acc-desires-018",
+        "acc-beliefs-115",
+        "sit-361",
+        "saf-beliefs-248",
+        "saf-desires-029",
+        "saf-beliefs-246",
+        "saf-intentions-234",
+        "acc-beliefs-111",
+        "acc-desires-042"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether statistical accuracy in aggregate metrics can justify delegating high-stakes decisions to uninspectable black-box models.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that superior machine performance outweighs opacity concerns, noting that human professionals also function as uninspectable black boxes."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Maintains that professional fiduciary duty requires inspectable internal reasoning and discoverable legal standards that black-box systems cannot provide."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-073",
+        "acc-desires-018",
+        "acc-beliefs-115",
+        "sit-361",
+        "saf-beliefs-248",
+        "saf-desires-029",
+        "saf-beliefs-246",
+        "saf-intentions-234",
+        "acc-beliefs-111",
+        "acc-desires-042"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether feedback loops from historical training data invalidate post-market audit data or whether human baselines are equally compromised.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Maintains that post-deployment audits remain valid because the pre-existing human baseline is already severely contaminated by systemic bias."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Argues that recursive prediction models compound historical bias and corrupt their own evaluation data, preventing accurate post-market assessment."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-073",
+        "acc-desires-018",
+        "acc-beliefs-115",
+        "sit-361",
+        "skp-beliefs-284",
+        "sit-448",
+        "skp-desires-075",
+        "skp-intentions-139",
+        "acc-beliefs-111",
+        "acc-desires-042"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-448",
+      "nodeLabel": "Feedback-Loop Contamination of Post-Deployment Evaluation Data",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-246",
+      "nodeLabel": "Fiduciary Duty Survival Under Algorithmic Delegation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-073",
+      "nodeLabel": "Governing AI Risk Through Telemetry-Enabled Insurance and Post-Deployment Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-018",
+      "nodeLabel": "Build Crisis-Proof Institutions with AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-115",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-361",
+      "nodeLabel": "Pragmatic Mitigation Framing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-139",
+      "nodeLabel": "Enforcing Runtime Observability Through Sectoral Safety Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-234",
+      "nodeLabel": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-111",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-042",
+      "nodeLabel": "Actionability as Evaluation Metric",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-090",
+      "nodeLabel": "Focus AI Misinformation Rules on Checkable Procedures, Not Truth Judgments",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-025",
+      "nodeLabel": "Fiduciary Duty Survives Automation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-044",
+      "nodeLabel": "Preventing AI Use from Lowering Legal Standards of Care",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-041",
+      "nodeLabel": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-286",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether post-deployment API telemetry and vendor liability bonds provide adequate safeguards compared to pre-market transparency gates.",
+      "prevails": "C2",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for irreversible harms in high-stakes legal and medical domains where post-market correction arrives too late. Relying solely on telemetry permits structural errors to propagate before detection occurs.",
+      "whatWouldChange": "Empirical proof that financial liability bonds effectively deter vendor concealment and compensate victims faster than pre-market audits prevent harm.",
+      "claimIds": [
+        "C1",
+        "C3",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether statistical accuracy in aggregate metrics can justify delegating high-stakes decisions to uninspectable black-box models.",
+      "prevails": "C2",
+      "criterion": "logical_validity",
+      "rationale": "Equating human cognitive opacity with algorithmic opacity ignores the distinct legal and ethical standards required of institutional fiduciaries. Inspectable reasoning remains a core requirement for due process and clinical accountability.",
+      "whatWouldChange": "The establishment of a legally recognized standard of algorithmic due process that replaces human interpretability requirements.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether feedback loops from historical training data invalidate post-market audit data or whether human baselines are equally compromised.",
+      "prevails": "C5",
+      "criterion": "specificity",
+      "rationale": "The skeptic position successfully demonstrates the specific mechanism of recursive data corruption where models train on their own biased outputs. Pointing to general human flaws does not refute the compounding math of algorithmic feedback loops.",
+      "whatWouldChange": "Demonstrated filtering techniques that successfully purge feedback loop contamination from continuous deployment data streams.",
+      "claimIds": [
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}
