@@ -1,0 +1,230 @@
+{
+  "debate_id": "c850f59b-922a-417c-9bb7-139dab7dfc63",
+  "debate_title": "International coordination on AI safety standards and tre...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether upstream physical computing thresholds and lithography supply chain controls can effectively prevent catastrophic AI risks without creating insurmountable market monopolies.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "National regulators and the UN must enforce upstream compute caps and lithography supply chain controls because open-weight models are unrecallable once released."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Compute thresholds and lithography access restrictions substitute software red tape with silicon foundry monopolies, protecting legacy conglomerates."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-131",
+        "saf-beliefs-014",
+        "saf-intentions-005",
+        "skp-beliefs-249",
+        "skp-beliefs-196",
+        "skp-beliefs-231",
+        "sit-477",
+        "saf-beliefs-247",
+        "saf-beliefs-249",
+        "saf-intentions-139"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether cryptographic verification methods and zero-knowledge proofs can successfully secure decentralized open-source AI models without relying on central authorities.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Cryptographic telemetry and zero-knowledge proofs enable independent developers to verify safety and training history trustlessly, rendering centralized gatekeepers obsolete."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Post-training safety methods and decentralized checks fail under pressure and lack permanent security against unconstrained model capabilities."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-085",
+        "acc-beliefs-116",
+        "acc-intentions-078",
+        "sit-170",
+        "saf-beliefs-131",
+        "saf-beliefs-014",
+        "saf-intentions-005",
+        "saf-beliefs-247",
+        "saf-beliefs-249",
+        "saf-intentions-139"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-116",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-014",
+      "nodeLabel": "Post-Training Safety Measures Are Reliably Bypassable",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-477",
+      "nodeLabel": "Democratic Failure to Curb Digital Corporate Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-139",
+      "nodeLabel": "Restricting Autonomous Agent Execution via Hardware Disconnects and Blast-Radius Gates",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-201",
+      "nodeLabel": "Coordinate International AI Governance to Prevent Arms Races and Ensure Shared Safety Rules",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-115",
+      "nodeLabel": "Federal Preemption of State AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether upstream physical computing thresholds and lithography supply chain controls can effectively prevent catastrophic AI risks without creating insurmountable market monopolies.",
+      "prevails": "skeptic",
+      "criterion": "implementation_specificity",
+      "rationale": "Skeptics offer a concrete analysis of how statutory machinery restrictions consolidate market power among incumbent firms. Safety advocates rely on abstract compute thresholds that lack robust enforcement mechanisms for decentralized hardware.",
+      "whatWouldChange": "Evidence that upstream compute caps can be enforced without granting market monopolies to incumbent semiconductor fabricators.",
+      "claimIds": [
+        "C2",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether cryptographic verification methods and zero-knowledge proofs can successfully secure decentralized open-source AI models without relying on central authorities.",
+      "prevails": "safetyist",
+      "criterion": "empirical_evidence",
+      "rationale": "Safety advocates demonstrate that post-training safety filters fail under prompt optimization pressure. Accelerationists rely on theoretical zero-knowledge machine learning without empirical proof of scale against determined adversaries.",
+      "whatWouldChange": "Empirical demonstration that zero-knowledge proofs can permanently prevent adversarial prompt optimization on decentralized models without central oversight.",
+      "claimIds": [
+        "C8",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

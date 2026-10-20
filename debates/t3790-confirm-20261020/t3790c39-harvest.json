@@ -1,0 +1,216 @@
+{
+  "debate_id": "0d7dc9b9-9f2f-4795-bc86-103d208d6a64",
+  "debate_title": "Economic displacement from AI automation: labor policy re...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether state workforce development grants should be legally conditioned on mandatory safety standards and named institutional accountability before public funds are disbursed.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Public funds must require strict safety audits and named accountability to prevent capital owners from externalizing the social costs of job displacement."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Conditional compliance rules create bureaucratic bottlenecks that starve regional power grids of capital and delay broader economic productivity gains."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-218",
+        "saf-desires-012",
+        "saf-intentions-159",
+        "acc-beliefs-034",
+        "acc-desires-020",
+        "acc-intentions-002",
+        "sit-120",
+        "acc-beliefs-085",
+        "acc-desires-009",
+        "acc-intentions-103"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether state-level workforce grants should prioritize energy grid expansion and capability scaling over protective labor preservation.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Freezing technological deployment carries a catastrophic human cost by locking regions into low-yield economic baselines, making grid expansion the primary priority."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Unconstrained compute scaling dumps an unsustainable burden onto workers and increases the risk of systemic collapse without strict institutional guardrails."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-218",
+        "saf-desires-012",
+        "saf-intentions-159",
+        "acc-beliefs-034",
+        "acc-desires-020",
+        "acc-intentions-002",
+        "sit-120",
+        "acc-beliefs-085",
+        "acc-desires-009",
+        "acc-intentions-103"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-159",
+      "nodeLabel": "Require AI Safety Standards as a Condition for Government Grants and Infrastructure Permits",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-310",
+      "nodeLabel": "Tax Revenue Lag from Labor Share Compression",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-100",
+      "nodeLabel": "AI's Transformation of the Labor Market",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-136",
+      "nodeLabel": "Structural Labor-Force Churn Disparity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-034",
+      "nodeLabel": "AI Accountability Has a Chicken-and-Egg Problem",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-020",
+      "nodeLabel": "Mandatory AI Education for All",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-120",
+      "nodeLabel": "Federal Infrastructure Funding as Regulatory Leverage",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-053",
+      "nodeLabel": "Reduced Entry-Level Recruitment Is an Early Empirical Signal of AI Labor Displacement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-255",
+      "nodeLabel": "Political Market for Coercive Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-009",
+      "nodeLabel": "Automate Society's Operating System",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-103",
+      "nodeLabel": "Prohibit Vendors from Imposing Safety Restrictions Beyond the Law on Government AI",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether state workforce development grants should be legally conditioned on mandatory safety standards and named institutional accountability before public funds are disbursed.",
+      "prevails": "C2",
+      "criterion": "implementation_specificity",
+      "rationale": "The accelerationist position scores higher on implementation specificity by identifying the direct trade-off between regulatory delays and capital allocation for critical infrastructure. Conditional mandates introduce administrative hurdles that can delay capital deployment in fast-moving technology sectors. However, this position lacks concrete mechanisms to address the near-term social costs of labor displacement.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether state-level workforce grants should prioritize energy grid expansion and capability scaling over protective labor preservation.",
+      "prevails": "C4",
+      "criterion": "scope",
+      "rationale": "The accelerationist claim regarding energy grid expansion accounts for broader macroeconomic dynamics, including marginal generation costs and economies of scale. The safetyist position highlights systemic risks but relies on generalized projections of labor distress rather than measurable grid capacity constraints. Therefore, the infrastructure-first argument encompasses a wider set of verifiable economic variables.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

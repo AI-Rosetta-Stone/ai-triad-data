@@ -1,0 +1,14 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "protocolId": "structured",
+  "pacing": "moderate",
+  "audience": "policymakers",
+  "activePovers": [
+    "accelerationist",
+    "safetyist",
+    "skeptic"
+  ],
+  "topic": "Autonomous weapons systems and the future of warfare under international law",
+  "slug": "t3790c40",
+  "outputDir": "C:\\Users\\jsnov\\repos\\ai-triad-data\\debates\\t3790-confirm-20261020"
+}

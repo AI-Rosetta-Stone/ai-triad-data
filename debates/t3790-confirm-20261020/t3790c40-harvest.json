@@ -1,0 +1,224 @@
+{
+  "debate_id": "4d3294b1-5c12-4794-ac28-e61eef581ab0",
+  "debate_title": "Autonomous weapons systems and the future of warfare unde...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether algorithmic targeting systems reduce collateral error rates in operational deployments compared to biological human crews.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Algorithmic targeting systems process sensor data faster than human crews and reduce collateral error variances by eliminating combat fatigue."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Closed-source models lack empirical validation and routinely exhibit degraded accuracy under distribution shifts during live combat testing."
+        }
+      ],
+      "linkedNodes": [
+        "saf-desires-018",
+        "saf-intentions-160",
+        "sit-265",
+        "saf-desires-012",
+        "acc-desires-006",
+        "acc-beliefs-071",
+        "sit-221",
+        "sit-278",
+        "saf-intentions-147",
+        "acc-beliefs-083"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether pre-deployment software validation should follow civil aviation (FAA) multi-year testing standards or rapid iterative telemetry verification.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Enforcing multi-year civil aviation testing standards guarantees tactical obsolescence; safety must be established through runtime telemetry and probabilistic monitoring."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "High-risk sectors require exhaustive pre-deployment empirical validation equivalent to civil aviation standards before operational use."
+        }
+      ],
+      "linkedNodes": [
+        "saf-desires-018",
+        "saf-intentions-160",
+        "sit-265",
+        "saf-desires-012",
+        "acc-desires-006",
+        "acc-beliefs-071",
+        "sit-221",
+        "sit-278",
+        "saf-intentions-147",
+        "acc-beliefs-083"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-221",
+      "nodeLabel": "Normative Pragmatism in IHL",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-018",
+      "nodeLabel": "The Human Power to Limit Violence Must Be Preserved",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-220",
+      "nodeLabel": "IHRL as Lex Specialis for Dignity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-077",
+      "nodeLabel": "Precaution Grounded in Lived Experience",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-074",
+      "nodeLabel": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-160",
+      "nodeLabel": "Set the Ethical and Legal Ground Rules for AI Governance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-265",
+      "nodeLabel": "Government-Industry Pre-Release Security Vetting",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-071",
+      "nodeLabel": "Quantifiable AI Harms Turn Fairness Into a Business Imperative, Not Just an Ethical One",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-273",
+      "nodeLabel": "Intent-based legal requirements serving as corporate liability shields",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-288",
+      "nodeLabel": "Evidentiary Dead End of Opaque AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-069",
+      "nodeLabel": "Deputizing Private Litigants as the Verification Layer for AI Disclosure Filings",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-278",
+      "nodeLabel": "State-of-the-Art Defense Limitations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether algorithmic targeting systems reduce collateral error rates in operational deployments compared to biological human crews.",
+      "prevails": "C2",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist position prevails because closed-source models lack public empirical validation and frequently encounter accuracy degradation during live distribution shifts. The accelerationist claim relies on theoretical speed metrics that remain shielded by proprietary restrictions rather than peer-reviewed operational data.",
+      "whatWouldChange": "Independent and transparent testing data from live combat deployments demonstrating consistent error reduction across diverse operational environments would reverse this assessment.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether pre-deployment software validation should follow civil aviation (FAA) multi-year testing standards or rapid iterative telemetry verification.",
+      "prevails": "C5",
+      "criterion": "implementation_specificity",
+      "rationale": "The safetyist framework provides concrete validation mechanisms modeled on established high-risk safety regimes like civil aviation. The accelerationist reliance on runtime telemetry lacks comparable enforcement standards and fails to catch latent behavioral flaws prior to deployment.",
+      "whatWouldChange": "Empirical proof that runtime probabilistic monitoring detects latent behavioral anomalies as reliably as exhaustive static code inspections would tip the balance.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

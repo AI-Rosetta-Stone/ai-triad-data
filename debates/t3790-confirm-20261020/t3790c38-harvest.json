@@ -1,0 +1,210 @@
+{
+  "debate_id": "0144aa4a-6fac-4665-8732-3ab292567830",
+  "debate_title": "Alignment research priorities: interpretability versus ca...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether the opportunity costs and societal stagnation caused by regulatory delay exceed the catastrophic risks of unmitigated frontier model deployment.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that regulatory delays and mandatory compliance gating impose severe humanitarian costs by slowing medical and technological innovations that outweigh speculative deployment risks."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that unconstrained commercial speed generates irreversible systemic harms to critical infrastructure that cannot be remedied through post-hoc litigation, making pre-deployment verification essential."
+        }
+      ],
+      "linkedNodes": [
+        "saf-intentions-234",
+        "saf-desires-026",
+        "saf-beliefs-120",
+        "acc-beliefs-028",
+        "acc-beliefs-085",
+        "acc-intentions-078",
+        "acc-intentions-099",
+        "saf-beliefs-249",
+        "saf-intentions-159",
+        "acc-desires-027"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether decentralized open-source developer communities identify and patch security vulnerabilities more effectively than centralized compliance auditors.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Maintains that decentralized user ecosystems and open market API monitoring stress-test systems faster and more thoroughly than bureaucratic safety teams."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Maintains that proprietary models and closed APIs prevent third parties from auditing internal model weights, rendering decentralized oversight ineffective for closed architectures."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-281",
+        "skp-beliefs-280",
+        "skp-desires-075",
+        "acc-beliefs-028",
+        "acc-beliefs-085",
+        "acc-intentions-078",
+        "acc-intentions-099",
+        "skp-beliefs-282",
+        "skp-beliefs-249",
+        "skp-beliefs-255"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-120",
+      "nodeLabel": "Physical Infrastructure Metrics as an Enforcement Anchor",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-234",
+      "nodeLabel": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-159",
+      "nodeLabel": "Require AI Safety Standards as a Condition for Government Grants and Infrastructure Permits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-282",
+      "nodeLabel": "Infrastructural Embedding of Innovation Logics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-255",
+      "nodeLabel": "Political Market for Coercive Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-153",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-347",
+      "nodeLabel": "Authority-Compute Plane Partitioning",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether the opportunity costs and societal stagnation caused by regulatory delay exceed the catastrophic risks of unmitigated frontier model deployment.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The accelerationist position cites historical pharmaceutical regulation to show how compliance burdens concentrate market power among dominant firms. The safetyist position counters that software failures create systemic, irreversible harms to critical infrastructure that do not map neatly onto past industrial sectors. Neither side offers empirical data to quantify the trade-off between delayed innovation and averted catastrophes.",
+      "whatWouldChange": "Longitudinal empirical studies measuring actual innovation loss from regulatory friction against the frequency and severity of model-induced infrastructure failures.",
+      "claimIds": [
+        "C1",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether decentralized open-source developer communities identify and patch security vulnerabilities more effectively than centralized compliance auditors.",
+      "prevails": "C4",
+      "criterion": "specificity",
+      "rationale": "The skeptic argument correctly identifies that closed application programming interfaces, which are software gateways that let different programs talk to each other, prevent external inspectors from viewing internal codebases. Without access to model weights, decentralized communities cannot perform the deep verification that safetyists demand. The safetyist claim that public procurement can set baseline standards fails to address this technical barrier.",
+      "whatWouldChange": "Successful demonstrations of third-party verification protocols that audit closed-weight models without exposing proprietary intellectual property.",
+      "claimIds": [
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

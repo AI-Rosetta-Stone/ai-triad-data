@@ -1,0 +1,242 @@
+{
+  "debate_id": "b45ddb31-6df7-436d-8bfb-dbd939606925",
+  "debate_title": "AI systems in high-stakes decisions: healthcare triage an...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-deployment regulatory review periods serve as necessary structural safety barriers or lethal bottlenecks that delay life-saving medical deployments.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that administrative review periods cause excessive delays and preventable mortality, making speed the primary moral constraint."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that regulatory review periods are essential structural dams preventing irreversible diagnostic and clinical errors."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-217",
+        "saf-beliefs-122",
+        "saf-intentions-160",
+        "saf-desires-009",
+        "sit-398",
+        "acc-intentions-111",
+        "acc-beliefs-110",
+        "acc-intentions-108",
+        "acc-beliefs-072",
+        "saf-beliefs-248"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether automated proxy recalibration pipelines can reliably remove systemic socioeconomic bias from clinical training data without human oversight.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Maintains that automated consistency checks and continuous weight recalibration can strip out corrupted proxy variables in real time."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Maintains that automated checks cannot catch deep structural biases without upfront human gatekeeping and independent pre-market audits."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-217",
+        "saf-beliefs-122",
+        "saf-intentions-160",
+        "saf-desires-009",
+        "sit-398",
+        "acc-intentions-111",
+        "acc-beliefs-110",
+        "acc-intentions-108",
+        "acc-beliefs-072",
+        "saf-beliefs-248"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-286",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Accountability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-080",
+      "nodeLabel": "Institutionalize Civil Rights Technical Expertise Within AI Regulatory Bodies",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-110",
+      "nodeLabel": "Feedback-Loop Contamination as the Operative Boundary for Pre-Deployment Interpretability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-217",
+      "nodeLabel": "Inadequacy of the Reasonable Person Standard for Algorithmic Negligence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-122",
+      "nodeLabel": "AI Performs Consequential Acts That No One Bears Responsibility For",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-160",
+      "nodeLabel": "Set the Ethical and Legal Ground Rules for AI Governance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-009",
+      "nodeLabel": "Doctors Decide, Not Algorithms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-398",
+      "nodeLabel": "Judicial Categorization of AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-103",
+      "nodeLabel": "Recursive Data Dependencies Cause AI Biases to Accumulate Rather Than Self-Correct",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-111",
+      "nodeLabel": "Replace Discretionary Human Halt Authority with Pre-Programmed Enforcement Actions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-108",
+      "nodeLabel": "Automating Routine Decisions with Pre-Programmed Safe State Escalation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-072",
+      "nodeLabel": "Courts Lack the Expertise to Weigh AI's Diffuse Benefits Against Its Visible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-005",
+      "nodeLabel": "No Black Boxes in Ground-Truth-Absent or Feedback-Contaminated Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-161",
+      "nodeLabel": "Prevent AI Harm Through Pre-Launch Checks and Operational Guardrails",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-246",
+      "nodeLabel": "Fiduciary Duty Survival Under Algorithmic Delegation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-285",
+      "nodeLabel": "Relational Theory of Procedural Justice",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-112",
+      "nodeLabel": "Replace Human Alignment Labels with Automated Consistency Checks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-409",
+      "nodeLabel": "Automated Compliance Monitoring",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-361",
+      "nodeLabel": "Pragmatic Mitigation Framing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-112",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-deployment regulatory review periods serve as necessary structural safety barriers or lethal bottlenecks that delay life-saving medical deployments.",
+      "prevails": "C1",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for irreversible clinical outcomes and diagnostic errors, whereas the accelerationist position relies primarily on unverified assumptions regarding speed and mortality. Claim 1 incorporates systemic risks that Claim 2 fails to address.",
+      "whatWouldChange": "Controlled trials showing that unverified algorithms deploy safely without causing clinical harm would flip the verdict.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether automated proxy recalibration pipelines can reliably remove systemic socioeconomic bias from clinical training data without human oversight.",
+      "prevails": "C5",
+      "criterion": "empirical_evidence",
+      "rationale": "Empirical studies, including the Science study cited in Claim 6, demonstrate that historical spending data acts as a flawed proxy for health need. Automated pipelines cannot correct these deep structural distortions without accounting for underlying institutional inputs.",
+      "whatWouldChange": "Demonstrated proof that automated consistency checks successfully strip out socioeconomic proxy distortions without human intervention would tilt the balance.",
+      "claimIds": [
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

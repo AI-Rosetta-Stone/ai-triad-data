@@ -1,0 +1,209 @@
+{
+  "debate_id": "68e45276-d77a-4bd6-8c39-75e770bd7268",
+  "debate_title": "The risks and benefits of releasing powerful AI model wei...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether decentralized open-source developer communities patch security vulnerabilities faster and more effectively than centralized proprietary APIs.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Open-source developer communities deploy parameter-agnostic safety filters and security patches faster than centralized enterprise providers."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Decentralized distribution creates unpatchable vulnerabilities because frozen neural parameters lack the security update mechanisms of traditional software."
+        }
+      ],
+      "linkedNodes": [
+        "acc-desires-039",
+        "acc-intentions-002",
+        "acc-beliefs-019",
+        "sit-274",
+        "saf-beliefs-131",
+        "saf-beliefs-054",
+        "saf-intentions-147",
+        "saf-intentions-215",
+        "saf-beliefs-222",
+        "saf-intentions-143"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the risks of unmitigated downstream model misuse outweigh the societal benefits of open-source technological access.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Regulatory restrictions on open weights impose a severe human toll by delaying medical breakthroughs and technological innovation."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "The irreversible nature of public weight releases permanently shifts unmanaged safety risks onto civil society without adequate recourse."
+        }
+      ],
+      "linkedNodes": [
+        "acc-desires-039",
+        "acc-intentions-002",
+        "acc-beliefs-019",
+        "sit-274",
+        "saf-beliefs-131",
+        "saf-beliefs-054",
+        "saf-intentions-147",
+        "saf-intentions-215",
+        "saf-beliefs-222",
+        "saf-intentions-143"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-274",
+      "nodeLabel": "Data Commons Foreclosure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-179",
+      "nodeLabel": "Anchoring Data-Provenance Liability at the In-Jurisdiction Deployment Act Rather Than the Relocatable Upstream Join",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-260",
+      "nodeLabel": "Patching Latency in Complex Model Architectures",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-076",
+      "nodeLabel": "Public Right to Know What AI Was Trained On",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-142",
+      "nodeLabel": "Guarantee AI Training Data Is Transparent, Ethically Sourced, and Free of Encoded Bias",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-180",
+      "nodeLabel": "Computational Constraints on Model Remediation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-019",
+      "nodeLabel": "Foundation Model Capabilities Can Be Systematically Unlocked and Deployed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-054",
+      "nodeLabel": "Targeted Finetuning Can Extract Long Passages from a Model's Training Set",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-215",
+      "nodeLabel": "Shielding Compliant Open-Weight Releases from Downstream Misuse Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-238",
+      "nodeLabel": "Vulnerability Exchange Security Risks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-005",
+      "nodeLabel": "Training Data Memorization as Structural Privacy Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-003",
+      "nodeLabel": "Privacy as a Non-Negotiable Right in AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-014",
+      "nodeLabel": "Enforce Training Data Provenance Disclosure and Creator Compensation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-222",
+      "nodeLabel": "Algorithmic Shadow Persistence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-143",
+      "nodeLabel": "Governing How AI Models Ingest, Retain, and Protect Data",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-385",
+      "nodeLabel": "Data Laundering in Digital Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-100",
+      "nodeLabel": "Input-Tier Sorting Fails at the Aggregation and Weight-Memorization Boundary",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [],
+  "concepts": []
+}

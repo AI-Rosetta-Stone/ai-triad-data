@@ -1,0 +1,213 @@
+{
+  "debate_id": "f255603e-7f27-4b6a-bdde-a1f096ba3a66",
+  "debate_title": "AI governance frameworks for advanced AI systems",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether upstream training compute thresholds ($10^{26}$ integer operations) effectively prevent downstream operational bias and systemic risks at the inference layer.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Argues that scaling compute creates distinct systemic risks that justify targeting developers above the $10^{26}$ threshold with pre-deployment audits."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Maintains that static upstream training compute thresholds fail to track dynamic fine-tuned behaviors and leave downstream inference bias unaddressed."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-beliefs-203",
+        "saf-desires-029",
+        "saf-intentions-215",
+        "sit-476",
+        "acc-desires-037",
+        "acc-beliefs-043",
+        "acc-intentions-100",
+        "saf-beliefs-120",
+        "saf-intentions-202"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether tiered safe harbor provisions and compute-indexed audits adequately protect open-source and smaller developers from prohibitive regulatory compliance costs.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Claims that tiered safe harbors and exemptions for sub-threshold builders successfully shield garage developers from administrative friction."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Asserts that software supply chain dependencies mean downstream users of base models still inherit compliance burdens, making fixed costs prohibitive regardless of nominal exemptions."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-beliefs-203",
+        "saf-desires-029",
+        "saf-intentions-215",
+        "sit-476",
+        "skp-beliefs-196",
+        "skp-intentions-141",
+        "sit-170",
+        "skp-beliefs-277",
+        "saf-beliefs-120"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-277",
+      "nodeLabel": "Domain Expertise Deficits of Horizontal Regulators",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-215",
+      "nodeLabel": "Shielding Compliant Open-Weight Releases from Downstream Misuse Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-120",
+      "nodeLabel": "Physical Infrastructure Metrics as an Enforcement Anchor",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-202",
+      "nodeLabel": "Scale AI Safety Requirements Proportionally to Capability Level",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-017",
+      "nodeLabel": "AI Deployment Speed Erodes Organizational Visibility and Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-061",
+      "nodeLabel": "Designing Mandatory Human Checkpoints into AI-Driven Processes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-046",
+      "nodeLabel": "Lab Testing Cannot Reveal Real-World AI Harms",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether upstream training compute thresholds ($10^{26}$ integer operations) effectively prevent downstream operational bias and systemic risks at the inference layer.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions track valid dimensions of a complex technical reality. The safetyist position correctly identifies that base model scale creates immutable systemic baselines, while the accelerationist position correctly notes that fine-tuning alters downstream behavior in ways static compute counts fail to capture.",
+      "whatWouldChange": "Longitudinal empirical tracking of model failures showing whether pre-deployment audits catch more systemic harms than post-deployment behavioral monitoring.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether tiered safe harbor provisions and compute-indexed audits adequately protect open-source and smaller developers from prohibitive regulatory compliance costs.",
+      "prevails": "skeptic",
+      "criterion": "implementation_specificity",
+      "rationale": "The skeptic position provides concrete operational details regarding recurring third-party audit costs and cryptographic logging requirements. The safetyist counter-argument relies on nominal exemptions that fail to account for software supply chain inheritance where downstream users depend on upstream base models.",
+      "whatWouldChange": "Empirical cost-accounting studies of compliance expenses across startup cohorts indicating whether safe harbors successfully preserve open-source market entry.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

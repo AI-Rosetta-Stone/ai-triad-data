@@ -1,0 +1,246 @@
+{
+  "debate_id": "72ac2f9b-0746-40fe-891d-10f0071171a9",
+  "debate_title": "Compute governance as a lever for AI safety: export contr...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether algorithmic efficiency gains and decentralized open-weight distribution render static compute thresholds ineffective for governing artificial intelligence safety.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Algorithmic efficiency gains and open-source diffusion successfully decouple frontier model capabilities from massive centralized hardware clusters."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Algorithmic efficiency multipliers compound training capability on top of massive hardware clusters rather than replacing raw compute requirements."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-004",
+        "saf-intentions-231",
+        "saf-beliefs-274",
+        "acc-beliefs-077",
+        "acc-desires-037",
+        "acc-intentions-105",
+        "saf-beliefs-247",
+        "saf-intentions-161",
+        "saf-desires-001"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether restricting unvetted open-source releases protects society from irreversible harms or primarily suppresses beneficial innovation and drives developers offshore.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Open-source growth is essential for maximizing beneficial applications and medical breakthroughs, outweighing the speculative risks of decentralized deployment."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Unconstrained open-source diffusion places destructive capabilities in unvetted hands, making pre-launch verification an absolute priority over rapid deployment."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-004",
+        "saf-intentions-231",
+        "saf-beliefs-274",
+        "acc-beliefs-077",
+        "acc-desires-037",
+        "acc-intentions-105",
+        "saf-beliefs-247",
+        "saf-intentions-161",
+        "saf-desires-001"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-intentions-231",
+      "nodeLabel": "Binding AI Accountability to Physical Infrastructure Metrics",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-274",
+      "nodeLabel": "Hardware-Level Interventions Risk Entrenching Corporate Monopolies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-177",
+      "nodeLabel": "Failure of Static Compute Thresholds Against Sub-Frontier Intrusion Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-077",
+      "nodeLabel": "Precaution Grounded in Lived Experience",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-077",
+      "nodeLabel": "Containment of Software Harms Bounded by Infrastructure Coupling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-105",
+      "nodeLabel": "Replace Centralized Safety Audits with Trustless Cryptographic Verification",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-161",
+      "nodeLabel": "Prevent AI Harm Through Pre-Launch Checks and Operational Guardrails",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-001",
+      "nodeLabel": "Humanity's Survival Above All Else",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-477",
+      "nodeLabel": "Democratic Failure to Curb Digital Corporate Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-269",
+      "nodeLabel": "Enforcement Collapse Across Decentralized Open-Source Model Boundaries",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-009",
+      "nodeLabel": "Thermodynamic and Hydrological Limits of Compute Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-078",
+      "nodeLabel": "Foundational AI as a Public Good",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-154",
+      "nodeLabel": "Operationalize Decentralized Participatory Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-025",
+      "nodeLabel": "Computational Power Is the New Measure of National Strength",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-318",
+      "nodeLabel": "The Performance-Compute Divergence",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether algorithmic efficiency gains and decentralized open-weight distribution render static compute thresholds ineffective for governing artificial intelligence safety.",
+      "prevails": "C2",
+      "criterion": "empirical_evidence",
+      "rationale": "The accelerationist position provides concrete engineering mechanisms like mixture-of-experts routing and post-training quantization. These techniques demonstrably reduce hardware requirements for running advanced models outside centralized facilities. The safetyist position relies on abstract assertions about compound scaling without proving that software optimization cannot bypass hardware choke points.",
+      "whatWouldChange": "Empirical proof that mixture-of-experts routing and quantization fail to recover baseline performance on sub-threshold hardware would flip this verdict.",
+      "claimIds": [
+        "C2",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether restricting unvetted open-source releases protects society from irreversible harms or primarily suppresses beneficial innovation and drives developers offshore.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions present unverified projections about future outcomes. Safetyists assume catastrophic risks from decentralized models are highly probable and irreversible. Accelerationists assume economic suppression and offshore migration of developers are guaranteed consequences of regulation. Neither side offers definitive empirical metrics to weigh these competing risks against one another.",
+      "whatWouldChange": "Longitudinal tracking data on open-source developer migration patterns following past export control implementations would tip the balance.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}
