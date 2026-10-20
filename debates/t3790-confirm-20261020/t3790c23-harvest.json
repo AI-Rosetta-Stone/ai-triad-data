@@ -1,0 +1,170 @@
+{
+  "debate_id": "9b22a48a-ca55-4c75-b0fc-7893fe66b7a4",
+  "debate_title": "Should AI developers be legally liable for harms caused b...",
+  "conflicts": [],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-034",
+      "nodeLabel": "AI Accountability Has a Chicken-and-Egg Problem",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-361",
+      "nodeLabel": "Pragmatic Mitigation Framing",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-234",
+      "nodeLabel": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-164",
+      "nodeLabel": "Companies Use Narrow Audits to Deflect Meaningful AI Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-023",
+      "nodeLabel": "Mobilize Political Campaigns to Hold AI Corporations Accountable",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-106",
+      "nodeLabel": "Liability Asymmetry Punishes Regulators for Caution and Rewards Inaction",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-020",
+      "nodeLabel": "Scoring AI Bugs to Prioritize Critical Safety Fixes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-084",
+      "nodeLabel": "Adversarial AI Threat Modeling Framework",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-069",
+      "nodeLabel": "Red-Teaming AI with AI Produces Correlated Blind Spots, Not Independent Validation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-174",
+      "nodeLabel": "Pass/Fail Audits as Inadequate for Complex AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether to impose strict legal liability and mandatory pre-deployment safety audits on foundation model labs",
+      "prevails": "C2",
+      "criterion": "scope",
+      "rationale": "The accelerationist argument addresses broader second-order consequences, such as market consolidation and the suppression of socially beneficial innovation, which strict liability regimes often overlook. By framing safety audits as potential regulatory bottlenecks, this position captures the economic trade-offs inherent in technology governance.",
+      "whatWouldChange": "Clear empirical evidence showing that mandatory safety audits prevent catastrophic AI failures without significantly reducing the rate of small-firm market entry would weaken this objection.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether computational training thresholds effectively target civilizational hazards while protecting grassroots developers",
+      "prevails": "C4",
+      "criterion": "specificity",
+      "rationale": "The safetyist position offers a concrete numerical boundary at ten to the twenty-sixth power FLOPs, floating point operations per second or the total number of arithmetic calculations a system performs during training, which makes the oversight mechanism testable and enforceable. The counterargument relies on general claims about market capture without specifying alternative boundary markers for high-risk systems.",
+      "whatWouldChange": "Evidence that labs easily circumvent compute thresholds using algorithmic efficiency gains would undermine the utility of this specific metric.",
+      "claimIds": [
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether existing federal agencies possess adequate statutory authority to police foundation model risks",
+      "prevails": "C6",
+      "criterion": "logical_validity",
+      "rationale": "The safetyist critique correctly identifies a statutory mismatch in assigning autonomous capability scaling risks to an agency designed primarily to police commercial fraud and deceptive advertising under current law.",
+      "whatWouldChange": "Judicial rulings or statutory amendments that successfully stretch existing consumer protection authorities to cover autonomous model behavior would validate the skeptic approach.",
+      "claimIds": [
+        "C3",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

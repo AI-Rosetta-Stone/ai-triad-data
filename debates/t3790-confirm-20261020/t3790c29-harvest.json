@@ -1,0 +1,185 @@
+{
+  "debate_id": "f4b478a5-10b2-4d36-8af9-35ed64df19d0",
+  "debate_title": "Economic displacement from AI automation: labor policy re...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-deployment safety certifications and ex ante regulatory gates serve as necessary safeguards against systemic error or primarily function as protective barriers for bureaucratic employment.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-deployment regulatory gates impose unacceptable delays that harm vulnerable populations, making rapid software deployment a higher priority than exhaustive upfront testing."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Rigorous ex ante safety checks are essential to prevent skill decay, institutional deskilling, and the externalization of software errors onto vulnerable citizens."
+        }
+      ],
+      "linkedNodes": [
+        "sit-100",
+        "sit-104",
+        "acc-intentions-074",
+        "acc-intentions-013",
+        "saf-beliefs-218",
+        "saf-desires-029",
+        "saf-beliefs-100",
+        "saf-intentions-086",
+        "acc-beliefs-028",
+        "acc-intentions-056"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-115",
+      "nodeLabel": "Federal Preemption of State AI Regulation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-100",
+      "nodeLabel": "AI's Transformation of the Labor Market",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-104",
+      "nodeLabel": "The Conflict Between Federal and State AI Laws",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-013",
+      "nodeLabel": "Triggering Post-Scarcity by Maximizing Automated Production",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-204",
+      "nodeLabel": "AI-Driven Productivity Ratchet Intensifies Work Without Reducing Labor Burdens",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-008",
+      "nodeLabel": "Precarious Human Labor Behind the Automation Facade",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-174",
+      "nodeLabel": "Legal and Legislative Mechanisms for AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-100",
+      "nodeLabel": "AI Will Erode Skills, Destabilize Economies, and Fracture Social Trust",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-086",
+      "nodeLabel": "Countering AI-Driven Skill Decay and Cognitive Displacement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-086",
+      "nodeLabel": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-227",
+      "nodeLabel": "Rent-Dissipating Automation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-035",
+      "nodeLabel": "Prevent AI Labor Arbitrage Through Mandatory Wage Equivalence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-477",
+      "nodeLabel": "Democratic Failure to Curb Digital Corporate Power",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-deployment safety certifications and ex ante regulatory gates serve as necessary safeguards against systemic error or primarily function as protective barriers for bureaucratic employment.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The debate remains balanced because both sides rely on plausible systemic mechanisms without providing comprehensive comparative data. Accelerationists show that legacy review gates create administrative bottlenecks, but skeptics provide concrete counter-evidence that unvetted software transfers error-correction tasks onto remaining workers. Because both outcomes occur in practice depending on implementation quality, neither position currently prevails on scope or empirical grounds.",
+      "whatWouldChange": "Longitudinal pilot studies tracking both service delivery speed and frontline error-correction workloads across agencies with and without pre-deployment review gates would tip the balance.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

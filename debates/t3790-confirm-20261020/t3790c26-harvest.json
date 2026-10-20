@@ -1,0 +1,218 @@
+{
+  "debate_id": "a284cb55-8529-499b-b0f4-58618efc0da2",
+  "debate_title": "The risks and benefits of releasing powerful AI model wei...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether runtime edge isolation and software sandboxing can adequately mitigate security risks from unaligned open-weight models, or whether pre-market export controls remain necessary.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that runtime edge isolation at enterprise deployment points is both necessary and sufficient for security, rendering upstream publication bans redundant and harmful."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that local hardware access allows malicious actors to strip behavioral guardrails entirely, making runtime edge isolation insufficient and necessitating pre-market export controls."
+        }
+      ],
+      "linkedNodes": [
+        "acc-desires-039",
+        "acc-beliefs-028",
+        "acc-beliefs-122",
+        "acc-intentions-114",
+        "saf-beliefs-131",
+        "saf-desires-006",
+        "saf-intentions-009",
+        "acc-beliefs-101",
+        "acc-intentions-078",
+        "saf-beliefs-237"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether export controls and compliance mandates function primarily as legitimate national security safeguards against dual-use risks or as regulatory moats that protect incumbent corporate monopolies.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Argues that export controls impose regressive compliance costs that crush small open-source developers while shielding dominant technology firms from open competition."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that pre-deployment certification and export controls protect the public from systemic biological and cyber security risks posed by unaligned open models."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-129",
+        "skp-beliefs-268",
+        "skp-intentions-146",
+        "saf-beliefs-131",
+        "saf-desires-006",
+        "saf-intentions-009",
+        "skp-beliefs-196",
+        "skp-beliefs-280",
+        "skp-intentions-108",
+        "skp-beliefs-113"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-122",
+      "nodeLabel": "Permission-Scaled Runtime Isolation Qualified by Instruction-Data Conflation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-009",
+      "nodeLabel": "Securing Data Centers and Supply Chains Against Model-Weight Theft",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-129",
+      "nodeLabel": "Safety Rhetoric as Infrastructure Cartel Maintenance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-268",
+      "nodeLabel": "Inferential Privacy as an Architectural Invariant",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-101",
+      "nodeLabel": "Cross-Border Ingestion Defeats Every Enforcement Instrument at Market Entry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-113",
+      "nodeLabel": "Institutional Inertia From Entrenched Lobbies Prevents Regulatory Frameworks From Evolving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-237",
+      "nodeLabel": "Forensic-Operational Gap in Hardware-Level Attestation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether runtime edge isolation and software sandboxing can adequately mitigate security risks from unaligned open-weight models, or whether pre-market export controls remain necessary.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Neither side provides conclusive empirical data proving that their favored mitigation strategy scales effectively against sophisticated threat actors. Skeptics correctly note the technical reality of peer-to-peer file persistence, but safety advocates emphasize the severity of unmitigated biological and cyber risks. This conflict remains a dead heat pending longitudinal data on post-release model misuse.",
+      "whatWouldChange": "Documented incident rates showing whether enterprise runtime sandboxes successfully prevent malicious fine-tuning compared to the frequency of unauthorized weight proliferation from public repositories.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether export controls and compliance mandates function primarily as legitimate national security safeguards against dual-use risks or as regulatory moats that protect incumbent corporate monopolies.",
+      "prevails": "C3",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for broader systemic externalities, specifically catastrophic biological and cyber security risks, whereas the skeptic position focuses primarily on compliance costs for smaller developers. While regulatory compliance undoubtedly creates financial burdens, preventing extreme catastrophic harms carries a higher priority within standard risk management frameworks.",
+      "whatWouldChange": "Empirical evidence proving that open-source frontier models do not introduce novel catastrophic risks distinct from existing dual-use software, combined with proof that compliance costs permanently crush market competition.",
+      "claimIds": [
+        "C2",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

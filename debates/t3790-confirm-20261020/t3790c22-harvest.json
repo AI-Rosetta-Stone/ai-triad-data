@@ -1,0 +1,212 @@
+{
+  "debate_id": "6e21c2c3-c6ef-4ece-826c-c83fc9865893",
+  "debate_title": "AI governance frameworks for advanced AI systems",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-market registration thresholds and administrative safety cases prevent systemic risk or merely establish compliance barriers that entrench market monopolies.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Argues that pre-market registration at frontier scale provides necessary gatekeeping to verify safety controls before code executes at civilizational scale."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that pre-market registration creates compliance moats that protect incumbent labs and stifle open-source innovation."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-270",
+        "saf-desires-026",
+        "saf-intentions-087",
+        "sit-476",
+        "acc-intentions-078",
+        "acc-desires-027",
+        "acc-intentions-073",
+        "saf-beliefs-122",
+        "saf-intentions-210",
+        "saf-intentions-001"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether post-market liability and dynamic insurance pools can adequately handle catastrophic systemic failures where damages exceed corporate solvency.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Argues that post-market financial penalties and lawsuits fail when damages exceed corporate solvency and destruction occurs instantly across millions of devices."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that dynamic risk-conditioned capital requirements and real-time telemetry-conditioned insurance pools absorb systemic variance better than brittle administrative paperwork."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-270",
+        "saf-desires-026",
+        "saf-intentions-087",
+        "sit-476",
+        "acc-intentions-078",
+        "acc-desires-027",
+        "acc-intentions-073",
+        "saf-beliefs-122",
+        "saf-intentions-210",
+        "saf-intentions-001"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-243",
+      "nodeLabel": "Proof Privatization",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-088",
+      "nodeLabel": "Mandatory Evidence Preservation with Burden-Flipping in Litigation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-073",
+      "nodeLabel": "Governing AI Risk Through Telemetry-Enabled Insurance and Post-Deployment Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-270",
+      "nodeLabel": "Withholding Diagnostic Telemetry as an Actionable Design Defect",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-087",
+      "nodeLabel": "Replacing Abstract Safety Claims with Testable Engineering Controls",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-122",
+      "nodeLabel": "AI Performs Consequential Acts That No One Bears Responsibility For",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-210",
+      "nodeLabel": "Legal and Regulatory Frameworks for AI Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-001",
+      "nodeLabel": "Conditioning Deployment on Infrastructure Telemetry and Proportional Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-001",
+      "nodeLabel": "Humanity's Survival Above All Else",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-260",
+      "nodeLabel": "Patching Latency in Complex Model Architectures",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-008",
+      "nodeLabel": "Replace Architectural Pre-Clearance with Purpose-Bound Data Licenses",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-094",
+      "nodeLabel": "Asymmetry Between Reconstructive Burden and Remediation Cost",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-market registration thresholds and administrative safety cases prevent systemic risk or merely establish compliance barriers that entrench market monopolies.",
+      "prevails": "C2",
+      "criterion": "scope",
+      "rationale": "The accelerationist and skeptic arguments succeed because they identify structural flaws in static administrative oversight. Model weights change continuously, which renders point-in-time safety cases legally and technically brittle.",
+      "whatWouldChange": "Evidence that dynamic compliance frameworks can update continuously without creating prohibitive administrative bottlenecks for smaller developers would overturn this verdict.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether post-market liability and dynamic insurance pools can adequately handle catastrophic systemic failures where damages exceed corporate solvency.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both positions rely on theoretical projections regarding catastrophic tail risk and insurance capacity. Without empirical benchmarks for systemic algorithmic damages exceeding corporate balance sheets, neither mechanism can claim proven reliability.",
+      "whatWouldChange": "Actuarial data from real-world deployments showing that telemetry-conditioned insurance pools can absorb correlated frontier AI failures would resolve the deadlock.",
+      "claimIds": [
+        "C3",
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

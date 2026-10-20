@@ -1,0 +1,230 @@
+{
+  "debate_id": "be637b0f-d579-45bc-b368-ad7200e31ad3",
+  "debate_title": "Autonomous weapons systems and the future of warfare unde...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether algorithmic targeting systems reduce overall civilian casualties compared to human-operated forces under combat stress.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that computer vision systems process data without panic or personal bias, demonstrably reducing false-positive strikes and collateral harm."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that statistical optimization lacks moral understanding and empathy, resulting in unverified error propagation that increases risks to civilians."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-129",
+        "saf-desires-018",
+        "saf-intentions-083",
+        "sit-221",
+        "sit-224",
+        "acc-desires-026",
+        "acc-beliefs-094",
+        "acc-intentions-099",
+        "saf-beliefs-216",
+        "saf-intentions-214"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether accountability for lethal force errors should rely primarily on automated runtime remediation and contractor liability or on retrospective human disciplinary frameworks like courts-martial.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Prioritizes rapid prevention of errors through machine-speed telemetry and algorithmic patches over retrospective human punishment."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Prioritizes moral agency and named human responsibility enforced through the Uniform Code of Military Justice over automated efficiency."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-129",
+        "saf-desires-018",
+        "saf-intentions-083",
+        "sit-221",
+        "sit-224",
+        "acc-desires-026",
+        "acc-beliefs-094",
+        "acc-intentions-099",
+        "saf-beliefs-216",
+        "saf-intentions-214"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-221",
+      "nodeLabel": "Normative Pragmatism in IHL",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-224",
+      "nodeLabel": "The Permissive Nature of Warfare Law",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-018",
+      "nodeLabel": "The Human Power to Limit Violence Must Be Preserved",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-160",
+      "nodeLabel": "AI in Military and Warfare",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-066",
+      "nodeLabel": "Conscience as a Check on Algorithmic Authority",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-129",
+      "nodeLabel": "AI Executes the Letter of the Command While Violating Its Spirit",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-083",
+      "nodeLabel": "Inserting Human Judgment Where Autonomous AI Makes Consequential Choices",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-094",
+      "nodeLabel": "Asymmetry Between Reconstructive Burden and Remediation Cost",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-216",
+      "nodeLabel": "Functional Mental State Imputation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-214",
+      "nodeLabel": "Designing Modular Rollback Mechanisms for Frontier Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-288",
+      "nodeLabel": "Evidentiary Dead End of Opaque AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-342",
+      "nodeLabel": "Operational Falsifiability Framework",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether algorithmic targeting systems reduce overall civilian casualties compared to human-operated forces under combat stress.",
+      "prevails": "C2",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist critique successfully undercuts the accelerationist claim by pointing out that static lab benchmarks do not account for dynamic combat conditions. Furthermore, the skeptic's unrefuted point about closed vendor data leaves the initial 42 percent reduction claim unverified by independent testers.",
+      "whatWouldChange": "Independent third-party audits of target models operating under live combat conditions against active electronic spoofing would validate or invalidate the initial performance claims.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether accountability for lethal force errors should rely primarily on automated runtime remediation or on retrospective human disciplinary frameworks.",
+      "prevails": "C5",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for legal accountability and institutional command structures, whereas the accelerationist view focuses narrowly on technical patch deployment speeds while ignoring the absence of legal liability for machine errors.",
+      "whatWouldChange": "The establishment of a legally binding liability framework that assigns specific criminal or civil penalties to software developers for field targeting errors.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "hn-0",
+      "text": "Courts-martial under the Uniform Code of Military Justice punish human soldiers post-hoc, offering zero comfort to the families of civilians killed while human commanders hesitate or miscalculate under fire.",
+      "speaker": "Accelerationist",
+      "sourceEntryId": "bd2949c3-8eff-41ff-9457-da73db349d6b",
+      "suggestedLabel": "",
+      "suggestedDescription": "",
+      "suggestedPov": "accelerationist",
+      "suggestedCategory": "Intentions",
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hn-1",
+      "text": "Decentralized algorithmic patches deploy across an entire fleet in milliseconds rather than waiting for a congressional hearing or a military inspector general report to wind through the docket.",
+      "speaker": "Accelerationist",
+      "sourceEntryId": "bd2949c3-8eff-41ff-9457-da73db349d6b",
+      "suggestedLabel": "",
+      "suggestedDescription": "",
+      "suggestedPov": "accelerationist",
+      "suggestedCategory": "Intentions",
+      "checked": false,
+      "warnings": []
+    }
+  ]
+}
