@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_commit": "eb384cd30877303ae5c2767414e6fa91a7f4e355",
+  "source_commit": "58ca2fc857cef25ed01d9747e580bd581059b9c6",
   "doc_count": 883,
   "docs": [
     {
@@ -185,7 +185,9 @@
           "id": "https://www.jdsupra.com/legalnews/2026-antitrust-year-in-preview-big-tech-5925037/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "2026-antitrust-year-preview-ai-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g002"
     },
     {
       "id": "2026-antitrust-year-preview-ai-2026-2",
@@ -209,7 +211,9 @@
           "id": "https://www.jdsupra.com/legalnews/2026-antitrust-year-in-preview-big-tech-5925037/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "2026-antitrust-year-preview-ai-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g002"
     },
     {
       "id": "2026-antitrust-year-preview-ai-2026-3",
@@ -233,7 +237,9 @@
           "id": "https://www.jdsupra.com/legalnews/2026-antitrust-year-in-preview-big-tech-5925037/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "2026-antitrust-year-preview-ai-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g002"
     },
     {
       "id": "2026-antitrust-year-preview-ai-wilson-sonsini-2026",
@@ -247,7 +253,9 @@
           "id": "https://www.wsgr.com/en/insights/2026-antitrust-year-in-preview.html",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "2026-antitrust-year-preview-ai-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g002"
     },
     {
       "id": "2026-antitrust-year-preview-ai-wilson-sonsini-2026-1",
@@ -275,7 +283,9 @@
           "id": "https://www.wsgr.com/en/insights/2026-antitrust-year-in-preview.html",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "2026-antitrust-year-preview-ai-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g002"
     },
     {
       "id": "2026-global-intelligence-crisis-2026",
@@ -366,7 +376,9 @@
     {
       "id": "250412170v1-2026",
       "title": "2504.12170v1",
-      "snapshot_sha256": "8366be495833e285fd1f2218093a732f517e570411f2f49aa3e24ab307cc08aa"
+      "snapshot_sha256": "8366be495833e285fd1f2218093a732f517e570411f2f49aa3e24ab307cc08aa",
+      "duplicate_of": "ai-behind-closed-doors-primer-governance-internal-deployment-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g003"
     },
     {
       "id": "250610408v1-2026",
@@ -432,7 +444,9 @@
           "id": "arXiv:2603.05175v1",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "incentive-aware-ai-regulations-credal-characterisation-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g005"
     },
     {
       "id": "260305175v1-2026-1",
@@ -460,7 +474,9 @@
           "id": "arXiv:2603.05175v1",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "incentive-aware-ai-regulations-credal-characterisation-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g005"
     },
     {
       "id": "260312277v6-2026",
@@ -479,7 +495,9 @@
           "id": "arXiv:2603.20004v2",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "revisql-achieving-human-level-text-sql-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g006"
     },
     {
       "id": "a16zs-recommendations-national-ai-action-plan-2026",
@@ -580,7 +598,9 @@
           "id": "https://dash.harvard.edu/bitstreams/7312037e-92c5-6bd4-e053-0100007fdf3b/download",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "accountability-ai-under-law-role-explanation-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g007"
     },
     {
       "id": "accountability-ai-under-law-role-explanation-2026-1",
@@ -705,7 +725,9 @@
         "cybersecurity",
         "regulatory-compliance"
       ],
-      "snapshot_sha256": "60acd5a37c963dcee4c8907656318124c02c9021ddf33bfa8c0714338c4bc83b"
+      "snapshot_sha256": "60acd5a37c963dcee4c8907656318124c02c9021ddf33bfa8c0714338c4bc83b",
+      "duplicate_of": "adult-accounts-child-profiles-compromised-vtech-data-breach-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g008"
     },
     {
       "id": "advancing-deliberative-discourse-measurement-intersection-2026",
@@ -1159,7 +1181,9 @@
           "id": "https://enkiai.com/ai-market-intelligence/ai-chip-supply-chain-risk-2026-your-essential-guide/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-chip-supply-chain-risk-2026-your-essential-guide-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g009"
     },
     {
       "id": "ai-chip-supply-chain-risk-2026-your-essential-guide-2026-1",
@@ -1173,7 +1197,9 @@
           "id": "https://enkiai.com/ai-market-intelligence/ai-chip-supply-chain-risk-2026-your-essential-guide/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-chip-supply-chain-risk-2026-your-essential-guide-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g009"
     },
     {
       "id": "ai-chip-supply-chain-risk-2026-your-essential-guide-2026-2",
@@ -1222,7 +1248,9 @@
     {
       "id": "ai-companies-have-become-democratically-accountable-lse-2026",
       "title": "AI companies have to become democratically accountable   LSE British Politics",
-      "snapshot_sha256": "55930f739fc659cb21022b7a87b84520d24c16a67409fce787dda45170d49f0f"
+      "snapshot_sha256": "55930f739fc659cb21022b7a87b84520d24c16a67409fce787dda45170d49f0f",
+      "duplicate_of": "ai-companies-have-become-democratically-accountable-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g010"
     },
     {
       "id": "ai-companions-reduce-loneliness-2026",
@@ -1391,7 +1419,9 @@
           "id": "https://www.journalofdemocracy.org/authors/david-altman/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-democracy-dilemma-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g011"
     },
     {
       "id": "ai-democracy-dilemma-2026-2",
@@ -1418,7 +1448,9 @@
           "id": "https://www.journalofdemocracy.org/authors/david-altman/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-democracy-dilemma-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g011"
     },
     {
       "id": "ai-democracy-dilemma-2026-3",
@@ -1445,7 +1477,9 @@
           "id": "https://www.journalofdemocracy.org/authors/david-altman/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-democracy-dilemma-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g011"
     },
     {
       "id": "ai-democracy-dilemma-journal-democracy-2026",
@@ -1459,7 +1493,9 @@
           "id": "https://muse.jhu.edu/article/977942/figure/tab01",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-democracy-dilemma-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g011"
     },
     {
       "id": "ai-democracy-dilemma-journal-democracy-2026-1",
@@ -1487,7 +1523,9 @@
           "id": "https://muse.jhu.edu/article/977942/figure/tab01",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-democracy-dilemma-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g011"
     },
     {
       "id": "ai-democracy-mapping-intersections-2026",
@@ -1574,7 +1612,9 @@
           "id": "https://www.jstor.org/stable/resrep77981",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-democracy-mapping-intersections-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g012"
     },
     {
       "id": "ai-democracy-mapping-intersections-2026-3",
@@ -1603,7 +1643,9 @@
           "id": "https://www.jstor.org/stable/resrep77981",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-democracy-mapping-intersections-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g012"
     },
     {
       "id": "ai-democracy-mapping-intersections-carnegie-endowment-2026",
@@ -1617,7 +1659,9 @@
           "id": "https://carnegieendowment.org/collections/featured-research",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-democracy-mapping-intersections-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g012"
     },
     {
       "id": "ai-democracy-mapping-intersections-carnegie-endowment-2026-1",
@@ -1645,7 +1689,9 @@
           "id": "https://carnegieendowment.org/collections/featured-research",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-democracy-mapping-intersections-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g012"
     },
     {
       "id": "ai-deterrence-by-betrayal-2026",
@@ -1791,7 +1837,9 @@
         "vendor-lock-in",
         "risk-management"
       ],
-      "snapshot_sha256": "9bf00c9c11e25c8e1845203476b2cb735606111059373d553b83a4759c315e87"
+      "snapshot_sha256": "9bf00c9c11e25c8e1845203476b2cb735606111059373d553b83a4759c315e87",
+      "duplicate_of": "ai-governance-mirage-72-lack-real-control-d-ai-ly-brief-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g013"
     },
     {
       "id": "ai-governance-mirage-72-lack-real-control-d-ai-ly-brief-2026",
@@ -2070,7 +2118,9 @@
         "tacit-knowledge",
         "automation"
       ],
-      "snapshot_sha256": "4e9ce13927885bb86d064561d04b37244c9986571f02010624d2ce2e34799b57"
+      "snapshot_sha256": "4e9ce13927885bb86d064561d04b37244c9986571f02010624d2ce2e34799b57",
+      "duplicate_of": "ai-last-mile-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g015"
     },
     {
       "id": "ai-last-mile-2026-1",
@@ -2222,7 +2272,9 @@
           "id": "doi:10.1038/s41586-024-07566-y",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "ai-models-collapse-when-trained-recursively-generated-data-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g016"
     },
     {
       "id": "ai-models-collapse-when-trained-recursively-generated-data-2026-1",
@@ -2286,7 +2338,9 @@
           "id": "doi:10.1038/s41586-024-07566-y",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "ai-models-collapse-when-trained-recursively-generated-data-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g016"
     },
     {
       "id": "ai-models-collapse-when-trained-recursively-generated-data-2026-3",
@@ -2318,7 +2372,9 @@
           "id": "doi:10.1038/s41586-024-07566-y",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "ai-models-collapse-when-trained-recursively-generated-data-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g016"
     },
     {
       "id": "ai-now-2023-landscape-confronting-tech-power-2026",
@@ -2415,7 +2471,9 @@
           "id": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-rmf-playbook-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g017"
     },
     {
       "id": "ai-rmf-playbook-2026-1",
@@ -2441,7 +2499,9 @@
           "id": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-rmf-playbook-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g017"
     },
     {
       "id": "ai-rmf-playbook-2026-2",
@@ -2521,7 +2581,9 @@
           "id": "https://www.linkedin.com/posts/leonyang2059_the-ai-safety-debate-needs-ai-skeptics-activity-7384055822328397824-7b45",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "ai-safety-debate-needs-ai-skeptics-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g018"
     },
     {
       "id": "ai-safety-is-category-error-2026",
@@ -2601,7 +2663,9 @@
         "hardware-safeguards",
         "autonomous-agents"
       ],
-      "snapshot_sha256": "de34f64ad285d5a96bc607409396fd6de1cd0848393f2fdba6edbada3e30ca10"
+      "snapshot_sha256": "de34f64ad285d5a96bc607409396fd6de1cd0848393f2fdba6edbada3e30ca10",
+      "duplicate_of": "ai-safetys-false-choice-wait-harm-or-hit-pause-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g019"
     },
     {
       "id": "ai-safetys-false-choice-wait-harm-or-hit-pause-2026-2",
@@ -2618,7 +2682,9 @@
         "existential-risk",
         "international-oversight"
       ],
-      "snapshot_sha256": "de34f64ad285d5a96bc607409396fd6de1cd0848393f2fdba6edbada3e30ca10"
+      "snapshot_sha256": "de34f64ad285d5a96bc607409396fd6de1cd0848393f2fdba6edbada3e30ca10",
+      "duplicate_of": "ai-safetys-false-choice-wait-harm-or-hit-pause-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g019"
     },
     {
       "id": "ai-sandbagging-language-models-can-strategically-2026",
@@ -3269,7 +3335,9 @@
         "alignment",
         "agi-timelines"
       ],
-      "snapshot_sha256": "f8a3675a024bc658e5bd35dd0a434a3bbe67d9510107223edac8d151f570e025"
+      "snapshot_sha256": "f8a3675a024bc658e5bd35dd0a434a3bbe67d9510107223edac8d151f570e025",
+      "duplicate_of": "anthropic-boss-dario-amodei-calls-ai-development-slow-down-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g021"
     },
     {
       "id": "anthropic-identifies-jobs-most-exposed-ai-risksis-your-2026",
@@ -3339,7 +3407,9 @@
         "fair-use",
         "intellectual-property"
       ],
-      "snapshot_sha256": "244f223ee7924173afa19c9cce6f5abd650b441969d4139528b2910f78465708"
+      "snapshot_sha256": "244f223ee7924173afa19c9cce6f5abd650b441969d4139528b2910f78465708",
+      "duplicate_of": "anthropic-pays-authors-15-billion-settle-copyright-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g022"
     },
     {
       "id": "anthropic-pays-authors-15-billion-settle-copyright-2026-1",
@@ -3589,7 +3659,9 @@
     {
       "id": "are-interactive-toys-spying-young-children-2026",
       "title": "Are interactive toys spying on young children ",
-      "snapshot_sha256": "5ad62478554ff4a83fa4d4bf21fe4a8af8419867249ebb0f63335733cfbb29f0"
+      "snapshot_sha256": "5ad62478554ff4a83fa4d4bf21fe4a8af8419867249ebb0f63335733cfbb29f0",
+      "duplicate_of": "are-interactive-toys-spying-young-children-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g023"
     },
     {
       "id": "are-interactive-toys-spying-young-children-2026-1",
@@ -3667,7 +3739,9 @@
           "id": "doi:10.1111/jep.70269",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "artificial-general-intelligence-its-threat-public-health-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g024"
     },
     {
       "id": "artificial-general-intelligence-its-threat-public-health-2026-1",
@@ -4002,7 +4076,9 @@
           "id": "doi:10.3389/fdata.2023.1206139",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "artificial-intelligence-research-strategy-united-states-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g025"
     },
     {
       "id": "artificial-intelligence-systemic-risk-2026",
@@ -4133,7 +4209,9 @@
         "alignment",
         "benchmarking"
       ],
-      "snapshot_sha256": "a962c8633f68ed10ff339f8da5e74e3818770ca1a702582a165b688de51da390"
+      "snapshot_sha256": "a962c8633f68ed10ff339f8da5e74e3818770ca1a702582a165b688de51da390",
+      "duplicate_of": "atria-dawn-dawn-agentic-superintelligence-evolving-roles-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g028"
     },
     {
       "id": "atria-dawn-dawn-agentic-superintelligence-evolving-roles-2026-1",
@@ -4169,7 +4247,9 @@
         "evaluation",
         "oversight"
       ],
-      "snapshot_sha256": "a962c8633f68ed10ff339f8da5e74e3818770ca1a702582a165b688de51da390"
+      "snapshot_sha256": "a962c8633f68ed10ff339f8da5e74e3818770ca1a702582a165b688de51da390",
+      "duplicate_of": "atria-dawn-dawn-agentic-superintelligence-evolving-roles-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g028"
     },
     {
       "id": "atria-dawn-dawn-agentic-superintelligence-evolving-roles-2026-3",
@@ -4187,7 +4267,9 @@
         "evaluation",
         "alignment"
       ],
-      "snapshot_sha256": "a962c8633f68ed10ff339f8da5e74e3818770ca1a702582a165b688de51da390"
+      "snapshot_sha256": "a962c8633f68ed10ff339f8da5e74e3818770ca1a702582a165b688de51da390",
+      "duplicate_of": "atria-dawn-dawn-agentic-superintelligence-evolving-roles-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g028"
     },
     {
       "id": "attention-activism-rallying-cry-fight-commodification-human-2026",
@@ -4303,7 +4385,9 @@
           "id": "doi:10.1177/23794607251320229",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "auditing-large-language-models-race-gender-disparities-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g030"
     },
     {
       "id": "auditing-large-language-models-race-gender-disparities-2026-1",
@@ -4577,7 +4661,9 @@
           "id": "https://dominiccoey.github.io/essays/baumol/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "baumols-cost-disease-ai-economic-growth-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g031"
     },
     {
       "id": "baumols-cost-disease-ai-economic-growth-2026-2",
@@ -4603,7 +4689,9 @@
           "id": "https://dominiccoey.github.io/essays/baumol/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "baumols-cost-disease-ai-economic-growth-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g031"
     },
     {
       "id": "baumols-cost-disease-long-term-economic-implications-where-2026",
@@ -4657,7 +4745,9 @@
           "id": "https://www.unesco.org/en/articles/baumols-cost-disease-long-term-economic-implications-where-machines-cannot-replace-humans",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "baumols-cost-disease-long-term-economic-implications-where-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g032"
     },
     {
       "id": "baumols-cost-disease-long-term-economic-implications-where-2026-2",
@@ -4684,7 +4774,9 @@
           "id": "https://www.unesco.org/en/articles/baumols-cost-disease-long-term-economic-implications-where-machines-cannot-replace-humans",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "baumols-cost-disease-long-term-economic-implications-where-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g032"
     },
     {
       "id": "before-you-deploy-ai-generated-code-production-checklist-2026",
@@ -5152,7 +5244,9 @@
         "governance",
         "accountability"
       ],
-      "snapshot_sha256": "e676284357fc72284042f3a18b741051b825c9d61a0e3fec36644a4f0a10bec3"
+      "snapshot_sha256": "e676284357fc72284042f3a18b741051b825c9d61a0e3fec36644a4f0a10bec3",
+      "duplicate_of": "california-creates-countrys-first-ai-auditor-registry-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g033"
     },
     {
       "id": "california-creates-countrys-first-ai-auditor-registry-2026-1",
@@ -5183,7 +5277,9 @@
         "judicial-policy",
         "labor-displacement"
       ],
-      "snapshot_sha256": "a50ac52d8c27dbe6af44a76d93a64de6c06329e60eee9c78ded22ff2f5ce5da5"
+      "snapshot_sha256": "a50ac52d8c27dbe6af44a76d93a64de6c06329e60eee9c78ded22ff2f5ce5da5",
+      "duplicate_of": "california-lawyers-chatgpt-use-is-why-courts-want-ai-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g034"
     },
     {
       "id": "california-issues-historic-fine-over-lawyers-chatgpt-2026-1",
@@ -5200,7 +5296,9 @@
         "generative-ai",
         "labor-displacement"
       ],
-      "snapshot_sha256": "a50ac52d8c27dbe6af44a76d93a64de6c06329e60eee9c78ded22ff2f5ce5da5"
+      "snapshot_sha256": "a50ac52d8c27dbe6af44a76d93a64de6c06329e60eee9c78ded22ff2f5ce5da5",
+      "duplicate_of": "california-lawyers-chatgpt-use-is-why-courts-want-ai-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g034"
     },
     {
       "id": "california-lawyers-chatgpt-use-is-why-courts-want-ai-2026",
@@ -5422,7 +5520,9 @@
           "id": "https://www.nist.gov/caisi",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "center-ai-standards-innovation-caisi-nist-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g036"
     },
     {
       "id": "center-ai-standards-innovation-caisi-nist-2026-2",
@@ -5445,7 +5545,9 @@
           "id": "https://www.nist.gov/caisi",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "center-ai-standards-innovation-caisi-nist-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g036"
     },
     {
       "id": "certification-labels-trustworthy-ai-2026",
@@ -5532,7 +5634,9 @@
         "deception",
         "oversight"
       ],
-      "snapshot_sha256": "2f481c8b79defbcabc26a6f9fe20a33067c2534a838b29cc204aef9a720ec01d"
+      "snapshot_sha256": "2f481c8b79defbcabc26a6f9fe20a33067c2534a838b29cc204aef9a720ec01d",
+      "duplicate_of": "cheating-behaviour-frontier-model-evaluations-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g037"
     },
     {
       "id": "cheating-behaviour-frontier-model-evaluations-2026-2",
@@ -5547,7 +5651,9 @@
         "oversight",
         "red-teaming"
       ],
-      "snapshot_sha256": "2f481c8b79defbcabc26a6f9fe20a33067c2534a838b29cc204aef9a720ec01d"
+      "snapshot_sha256": "2f481c8b79defbcabc26a6f9fe20a33067c2534a838b29cc204aef9a720ec01d",
+      "duplicate_of": "cheating-behaviour-frontier-model-evaluations-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g037"
     },
     {
       "id": "china-based-artificial-intelligence-companies-conducting-2026",
@@ -5577,7 +5683,9 @@
         "api-abuse",
         "geopolitics"
       ],
-      "snapshot_sha256": "cd34db06a3222aedebdc1ddb40fd92752b2f1ca714dd3503de2dedc7b2abe22d"
+      "snapshot_sha256": "cd34db06a3222aedebdc1ddb40fd92752b2f1ca714dd3503de2dedc7b2abe22d",
+      "duplicate_of": "china-based-artificial-intelligence-companies-conducting-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g038"
     },
     {
       "id": "chinese-room-argument-2026",
@@ -6345,7 +6453,9 @@
           "id": "arXiv:1703.06856v3",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "170306856v3-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g001"
     },
     {
       "id": "counterfactual-fairness-2026-2",
@@ -6572,7 +6682,9 @@
           "id": "https://www.researchgate.net/profile/Michael-Adelusola",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "data-quality-over-model-complexity-rethinking-ai-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g039"
     },
     {
       "id": "data-quality-over-model-complexity-rethinking-ai-2026-1",
@@ -6624,7 +6736,9 @@
           "id": "https://www.researchgate.net/profile/Michael-Adelusola",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "data-quality-over-model-complexity-rethinking-ai-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g039"
     },
     {
       "id": "data-rights-workers-2026",
@@ -6657,7 +6771,9 @@
           "id": "https://www.researchgate.net/publication/390960117_Data-Centric_AI_Prioritizing_Data_Quality_over_Model_Complexity",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "data-quality-over-model-complexity-rethinking-ai-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g039"
     },
     {
       "id": "dead-internet-theory-myth-conspiracy-or-2026-reality-2026",
@@ -7144,7 +7260,9 @@
         "reinforcement-learning",
         "algorithm-optimization"
       ],
-      "snapshot_sha256": "2213c6fa1b8799f9d66a4f7e2255f971565b565f5cc8f887f297e028b8139c59"
+      "snapshot_sha256": "2213c6fa1b8799f9d66a4f7e2255f971565b565f5cc8f887f297e028b8139c59",
+      "duplicate_of": "dream-rsi-recursive-self-improvement-through-evolving-worlds-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g040"
     },
     {
       "id": "dream-rsi-recursive-self-improvement-through-evolving-worlds-2026-2",
@@ -7178,7 +7296,9 @@
         "mathematical-optimization",
         "gpu-kernel-engineering"
       ],
-      "snapshot_sha256": "2213c6fa1b8799f9d66a4f7e2255f971565b565f5cc8f887f297e028b8139c59"
+      "snapshot_sha256": "2213c6fa1b8799f9d66a4f7e2255f971565b565f5cc8f887f297e028b8139c59",
+      "duplicate_of": "dream-rsi-recursive-self-improvement-through-evolving-worlds-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g040"
     },
     {
       "id": "dreyfus-revisited-third-wave-artificial-intelligence-2026",
@@ -7479,7 +7599,9 @@
           "id": "https://www.brookings.edu/articles/artificial-intelligence-and-the-future-of-geopolitics/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "eight-ways-ai-will-shape-geopolitics-2026-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g041"
     },
     {
       "id": "eight-ways-ai-will-shape-geopolitics-2026-2026-1",
@@ -7547,7 +7669,9 @@
           "id": "https://www.brookings.edu/articles/artificial-intelligence-and-the-future-of-geopolitics/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "eight-ways-ai-will-shape-geopolitics-2026-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g041"
     },
     {
       "id": "eight-ways-ai-will-shape-geopolitics-2026-2026-3",
@@ -7581,7 +7705,9 @@
           "id": "https://etcjournal.com/2026/02/05/whither-ai-in-2026-14-insights/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "eight-ways-ai-will-shape-geopolitics-2026-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g041"
     },
     {
       "id": "eight-ways-ai-will-shape-geopolitics-2026-atlantic-council-2026",
@@ -7595,7 +7721,9 @@
           "id": "https://www.atlanticcouncil.org/dispatches/eight-ways-ai-will-shape-geopolitics-in-2026/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "eight-ways-ai-will-shape-geopolitics-2026-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g041"
     },
     {
       "id": "eight-ways-ai-will-shape-geopolitics-2026-atlantic-council-2026-1",
@@ -7623,7 +7751,9 @@
           "id": "https://www.atlanticcouncil.org/dispatches/eight-ways-ai-will-shape-geopolitics-in-2026/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "eight-ways-ai-will-shape-geopolitics-2026-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g041"
     },
     {
       "id": "emotion-concepts-their-function-large-language-model-2026",
@@ -7884,7 +8014,9 @@
           "id": "https://www.esrb.europa.eu/pub/pdf/asc/esrb.ascreport202512_AIandsystemicrisk.en.pdf",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "artificial-intelligence-systemic-risk-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g026"
     },
     {
       "id": "ethical-evolution-ai-voice-gaming-2026-2026",
@@ -8120,7 +8252,9 @@
         "continual-adaptation",
         "reinforcement-learning"
       ],
-      "snapshot_sha256": "086743342831724772fc14a5b185f82789f9350413e01066f11dd8dfcf86e14c"
+      "snapshot_sha256": "086743342831724772fc14a5b185f82789f9350413e01066f11dd8dfcf86e14c",
+      "duplicate_of": "evolving-procedural-memory-from-user-traffic-agentic-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g043"
     },
     {
       "id": "evolving-procedural-memory-from-user-traffic-agentic-2026-1",
@@ -8140,7 +8274,9 @@
         "procedural-memory",
         "automated-evaluation"
       ],
-      "snapshot_sha256": "086743342831724772fc14a5b185f82789f9350413e01066f11dd8dfcf86e14c"
+      "snapshot_sha256": "086743342831724772fc14a5b185f82789f9350413e01066f11dd8dfcf86e14c",
+      "duplicate_of": "evolving-procedural-memory-from-user-traffic-agentic-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g043"
     },
     {
       "id": "evolving-procedural-memory-from-user-traffic-agentic-2026-2",
@@ -8545,7 +8681,9 @@
     {
       "id": "faq-eng20151229-1630-2026",
       "title": "FAQ Eng(20151229 1630)",
-      "snapshot_sha256": "a88141baeb3aca5c95f24b4f1f19bc69e99422958b0c3eb6ec9a5611b1557378"
+      "snapshot_sha256": "a88141baeb3aca5c95f24b4f1f19bc69e99422958b0c3eb6ec9a5611b1557378",
+      "duplicate_of": "vtech-data-breach-frequently-asked-questions-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g044"
     },
     {
       "id": "federal-court-rules-clients-ai-generated-documents-not-2026",
@@ -9522,7 +9660,9 @@
         "incident-reporting",
         "safety-frameworks"
       ],
-      "snapshot_sha256": "87b3c217f9003d683331836b8770e579bae649384bf9d816ee287c1477903b20"
+      "snapshot_sha256": "87b3c217f9003d683331836b8770e579bae649384bf9d816ee287c1477903b20",
+      "duplicate_of": "governor-newsom-issues-executive-order-accelerate-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g046"
     },
     {
       "id": "governor-newsom-issues-executive-order-accelerate-2026-2",
@@ -9719,7 +9859,9 @@
           "id": "https://pubmed.ncbi.nlm.nih.gov/32853499/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "nejmms2004740-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g047"
     },
     {
       "id": "hidden-plain-sight-reconsidering-use-race-correction-2026-1",
@@ -9747,7 +9889,9 @@
           "id": "https://pubmed.ncbi.nlm.nih.gov/32853499/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "nejmms2004740-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g047"
     },
     {
       "id": "hidden-plain-sight-reconsidering-use-race-correction-2026-2",
@@ -9775,7 +9919,9 @@
           "id": "https://pubmed.ncbi.nlm.nih.gov/32853499/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "nejmms2004740-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g047"
     },
     {
       "id": "high-level-summary-ai-act-2026",
@@ -10295,7 +10441,9 @@
           "id": "https://policycommons.net/artifacts/20061853/colleen-mcclain-brian-kennedy-jeffrey-gottfried-monica-anderson-and-giancarlo-pasquini/20962378/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "pi-20250403-us-public-ai-experts-report-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g048"
     },
     {
       "id": "how-us-public-ai-experts-view-artificial-intelligence-2026-1",
@@ -10327,7 +10475,9 @@
           "id": "https://policycommons.net/artifacts/20061853/colleen-mcclain-brian-kennedy-jeffrey-gottfried-monica-anderson-and-giancarlo-pasquini/20962378/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "pi-20250403-us-public-ai-experts-report-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g048"
     },
     {
       "id": "hugging-face-incident-road-ahead-2026",
@@ -10586,7 +10736,9 @@
           "id": "doi:10.21275/SR2562923233041",
           "confidence": "extracted"
         }
-      ]
+      ],
+      "duplicate_of": "imminent-risk-ai-data-dead-loops-model-collapse-content-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g049"
     },
     {
       "id": "imminent-risk-ai-data-dead-loops-model-collapse-content-2026-2",
@@ -10613,7 +10765,9 @@
           "id": "doi:10.21275/SR2562923233041",
           "confidence": "extracted"
         }
-      ]
+      ],
+      "duplicate_of": "imminent-risk-ai-data-dead-loops-model-collapse-content-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g049"
     },
     {
       "id": "impact-data-center-construction-urban-energy-green-2026",
@@ -10664,7 +10818,9 @@
           "id": "arXiv:2603.05175v1",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "incentive-aware-ai-regulations-credal-characterisation-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g005"
     },
     {
       "id": "incentive-aware-ai-regulations-credal-characterisation-2026-1",
@@ -10695,7 +10851,9 @@
           "id": "arXiv:2603.05175v1",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "incentive-aware-ai-regulations-credal-characterisation-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g005"
     },
     {
       "id": "incentive-aware-ai-regulations-credal-characterisation-2026-2",
@@ -10756,7 +10914,9 @@
           "id": "arXiv:2603.05175v1",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "incentive-aware-ai-regulations-credal-characterisation-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g005"
     },
     {
       "id": "incident-report-unsanctioned-agent-behaviour-during-cyber-2026",
@@ -10786,7 +10946,9 @@
         "deception",
         "risk-assessment"
       ],
-      "snapshot_sha256": "047a56b9a63e45bd569941129667cc7455f711e3d72ff5dbbc20160c336b920a"
+      "snapshot_sha256": "047a56b9a63e45bd569941129667cc7455f711e3d72ff5dbbc20160c336b920a",
+      "duplicate_of": "incident-report-unsanctioned-agent-behaviour-during-cyber-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g050"
     },
     {
       "id": "incident-reporting-investigation-under-ai-act-some-insights-2026",
@@ -11062,7 +11224,9 @@
         "information-asymmetry",
         "risk-assessment"
       ],
-      "snapshot_sha256": "8fc0cb0956a5414703788a95ad1d4393e8125fefc00a9ca9bd64d2d64d581896"
+      "snapshot_sha256": "8fc0cb0956a5414703788a95ad1d4393e8125fefc00a9ca9bd64d2d64d581896",
+      "duplicate_of": "260108005v3-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g004"
     },
     {
       "id": "international-ai-safety-report-2026-1-2026",
@@ -11403,7 +11567,9 @@
           "id": "https://muckrack.com/cameron-f-kerry/articles",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "is-ai-sovereignty-possible-balancing-autonomy-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g052"
     },
     {
       "id": "is-artificial-intelligence-great-filter-that-makes-advanced-2026",
@@ -11486,7 +11652,9 @@
         "accountability",
         "autonomous-systems"
       ],
-      "snapshot_sha256": "d907ba0ae057e690a50c3fb5bbbe1afaee3f8f7ee4ac549306fa7d913770deae"
+      "snapshot_sha256": "d907ba0ae057e690a50c3fb5bbbe1afaee3f8f7ee4ac549306fa7d913770deae",
+      "duplicate_of": "is-that-bot-pomeranian-or-wolf-who-sue-when-it-bites-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g053"
     },
     {
       "id": "is-that-bot-pomeranian-or-wolf-who-sue-when-it-bites-2026-2",
@@ -11505,7 +11673,9 @@
         "regulation",
         "alignment"
       ],
-      "snapshot_sha256": "d907ba0ae057e690a50c3fb5bbbe1afaee3f8f7ee4ac549306fa7d913770deae"
+      "snapshot_sha256": "d907ba0ae057e690a50c3fb5bbbe1afaee3f8f7ee4ac549306fa7d913770deae",
+      "duplicate_of": "is-that-bot-pomeranian-or-wolf-who-sue-when-it-bites-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g053"
     },
     {
       "id": "issue-one-its-council-responsible-social-media-call-2026",
@@ -11571,7 +11741,9 @@
           "id": "arXiv:2304.11771",
           "confidence": "extracted"
         }
-      ]
+      ],
+      "duplicate_of": "it-was-never-keyboard-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g054"
     },
     {
       "id": "its-not-just-fcking-sandbox-2026",
@@ -12390,7 +12562,9 @@
         "responsible-ai",
         "governance"
       ],
-      "snapshot_sha256": "686dcc0a7e3435e2cbc0c94e8974d448eda5c2d2c69c26ce36e21fa6c196077d"
+      "snapshot_sha256": "686dcc0a7e3435e2cbc0c94e8974d448eda5c2d2c69c26ce36e21fa6c196077d",
+      "duplicate_of": "mai-models-code-conduct-humanist-ai-safety-principles-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g056"
     },
     {
       "id": "mai-models-code-conduct-humanist-ai-safety-principles-2026",
@@ -12484,7 +12658,9 @@
     {
       "id": "managingrisksfrominternalaisystems-2026",
       "title": "Managing+Risks+from+Internal+AI+Systems",
-      "snapshot_sha256": "4d4bb9e23248111fde2eb717864d0faecaa31c912a5666f11b93a6031b2fd0b4"
+      "snapshot_sha256": "4d4bb9e23248111fde2eb717864d0faecaa31c912a5666f11b93a6031b2fd0b4",
+      "duplicate_of": "managing-risks-from-internal-ai-systems-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g057"
     },
     {
       "id": "mapping-mind-large-language-model-2026",
@@ -12532,7 +12708,9 @@
           "id": "https://www.404media.co/marc-andreesen-manifesto-says-ai-regulation-is-a-form-of-murder/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "marc-andreessen-manifesto-says-ai-regulation-is-form-murder-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g059"
     },
     {
       "id": "marc-andreessen-manifesto-says-ai-regulation-is-form-murder-2026-1",
@@ -12646,7 +12824,9 @@
     {
       "id": "measuring-risk-2-what-eu-risk-assessments-us-litigation-2026",
       "title": "Measuring Risk 2 What EU Risk Assessments and US Litigation Reveal About Snap and YouTube KGI 2026",
-      "snapshot_sha256": "90e35764b014695082fc622c028d909ff3bd7b5f4d6de8be26bab3642a5c7c93"
+      "snapshot_sha256": "90e35764b014695082fc622c028d909ff3bd7b5f4d6de8be26bab3642a5c7c93",
+      "duplicate_of": "measuring-risk-ii-what-eu-risk-assessments-us-litigation-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g060"
     },
     {
       "id": "measuring-risk-ii-what-eu-risk-assessments-us-litigation-2026",
@@ -13252,7 +13432,9 @@
     {
       "id": "not-what-youve-signed-up-2026",
       "title": "Not what you've signed up for",
-      "snapshot_sha256": "feabd8fcd57150d20a9ef6c67be39f15dc0b45972e0f2ccb6aa6aefeafa112c5"
+      "snapshot_sha256": "feabd8fcd57150d20a9ef6c67be39f15dc0b45972e0f2ccb6aa6aefeafa112c5",
+      "duplicate_of": "not-what-youve-signed-up-compromising-real-world-llm-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g063"
     },
     {
       "id": "not-what-youve-signed-up-compromising-real-world-llm-2026",
@@ -13456,7 +13638,9 @@
         "vulnerabilities",
         "incident-response"
       ],
-      "snapshot_sha256": "ae74802a093aea7fe61a7d3f051da8c6c4e97595a534a85d7ace8e6c931e8ab1"
+      "snapshot_sha256": "ae74802a093aea7fe61a7d3f051da8c6c4e97595a534a85d7ace8e6c931e8ab1",
+      "duplicate_of": "openai-hugging-face-partner-address-security-incident-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g065"
     },
     {
       "id": "openais-disconcerting-hack-huggingface-what-we-should-do-2026",
@@ -13492,7 +13676,9 @@
         "ai-regulation",
         "economic-risk"
       ],
-      "snapshot_sha256": "de6019690ceb13d131462d83d61cf1fbe31b7d9d07a3f0e5b6aee79282b80ac3"
+      "snapshot_sha256": "de6019690ceb13d131462d83d61cf1fbe31b7d9d07a3f0e5b6aee79282b80ac3",
+      "duplicate_of": "openais-disconcerting-hack-huggingface-what-we-should-do-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g066"
     },
     {
       "id": "openais-teen-safety-blueprint-what-ai-platforms-should-do-2026",
@@ -13694,7 +13880,9 @@
         "sentience",
         "harm-representation"
       ],
-      "snapshot_sha256": "c7dcb282ea573697aa8dbccab9bccb2ce98326a45429a22b45e64ac858a4f7b8"
+      "snapshot_sha256": "c7dcb282ea573697aa8dbccab9bccb2ce98326a45429a22b45e64ac858a4f7b8",
+      "duplicate_of": "pain-axis-llms-represent-self-directed-harm-act-relieve-it-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g067"
     },
     {
       "id": "pain-axis-llms-represent-self-directed-harm-act-relieve-it-2026-1",
@@ -13788,7 +13976,9 @@
           "id": "doi:10.1126/science.aeb5789",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "paradox-ai-accelerationism-promise-public-interest-ai-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g068"
     },
     {
       "id": "pentagon-went-war-anthropic-whats-really-stake-2026",
@@ -13912,7 +14102,9 @@
           "id": "https://www.pewresearch.org/internet/2025/04/03/how-the-us-public-and-ai-experts-view-artificial-intelligence/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "pi-20250403-us-public-ai-experts-report-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g048"
     },
     {
       "id": "pi-20250403-us-public-ai-experts-report-2026-1",
@@ -13926,7 +14118,9 @@
           "id": "https://www.pewresearch.org/internet/2025/04/03/how-the-us-public-and-ai-experts-view-artificial-intelligence/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "pi-20250403-us-public-ai-experts-report-2026-2",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g048"
     },
     {
       "id": "pi-20250403-us-public-ai-experts-report-2026-2",
@@ -14910,7 +15104,9 @@
           "id": "https://www.pymnts.com/cpi-posts/the-regulatory-tide-goes-out-what-global-ai-governance-retrenchment-means-for-organizations/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "regulatory-tide-goes-out-what-global-ai-governance-2026-3",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g070"
     },
     {
       "id": "regulatory-tide-goes-out-what-global-ai-governance-2026-1",
@@ -14938,7 +15134,9 @@
           "id": "https://www.pymnts.com/cpi-posts/the-regulatory-tide-goes-out-what-global-ai-governance-retrenchment-means-for-organizations/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "regulatory-tide-goes-out-what-global-ai-governance-2026-3",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g070"
     },
     {
       "id": "regulatory-tide-goes-out-what-global-ai-governance-2026-3",
@@ -14996,7 +15194,9 @@
           "id": "https://pymnts-com-develop.go-vip.net?p=3652650",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "regulatory-tide-goes-out-what-global-ai-governance-2026-3",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g070"
     },
     {
       "id": "regulatory-tide-goes-out-what-global-ai-governance-2026-5",
@@ -15025,7 +15225,9 @@
           "id": "https://pymnts-com-develop.go-vip.net?p=3652650",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "regulatory-tide-goes-out-what-global-ai-governance-2026-3",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g070"
     },
     {
       "id": "regulatory-tide-goes-out-what-global-ai-governance-2026-6",
@@ -15053,7 +15255,9 @@
           "id": "https://pymnts-com-develop.go-vip.net?p=3652650",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "regulatory-tide-goes-out-what-global-ai-governance-2026-3",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g070"
     },
     {
       "id": "rep-clarke-sen-markey-introduce-ai-civil-rights-act-2026",
@@ -15109,7 +15313,9 @@
           "id": "https://clarke.house.gov/rep-clarke-sen-markey-introduce-ai-civil-rights-act-to-eliminate-ai-discrimination-and-enact-guardrails-on-use-of-algorithms-in-decisions-impacting-peoples-rights-civil-liberties-livelih/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "rep-clarke-sen-markey-introduce-ai-civil-rights-act-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g071"
     },
     {
       "id": "rep-summer-lee-sen-markey-reintroduce-legislation-mandate-2026",
@@ -15377,7 +15583,9 @@
           "id": "arXiv:2603.20004v2",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "revisql-achieving-human-level-text-sql-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g006"
     },
     {
       "id": "revisql-achieving-human-level-text-sql-2026-1",
@@ -15437,7 +15645,9 @@
           "id": "arXiv:2603.20004v2",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "revisql-achieving-human-level-text-sql-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g006"
     },
     {
       "id": "right-balance-how-fix-european-union-artificial-2026",
@@ -15545,7 +15755,9 @@
           "id": "doi:10.1080/13510347.2025.2579105",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "rise-authoritarian-informationalism-escalating-surveillance-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g073"
     },
     {
       "id": "rise-authoritarian-informationalism-escalating-surveillance-2026-3",
@@ -15573,7 +15785,9 @@
           "id": "doi:10.1080/13510347.2025.2579105",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "rise-authoritarian-informationalism-escalating-surveillance-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g073"
     },
     {
       "id": "rise-authoritarian-informationalism-escalating-surveillance-2026-4",
@@ -15601,7 +15815,9 @@
           "id": "doi:10.1080/13510347.2025.2579105",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "rise-authoritarian-informationalism-escalating-surveillance-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g073"
     },
     {
       "id": "rise-authoritarian-informationalism-escalating-surveillance-2026-5",
@@ -15629,7 +15845,9 @@
           "id": "doi:10.1080/13510347.2025.2579105",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "rise-authoritarian-informationalism-escalating-surveillance-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g073"
     },
     {
       "id": "rise-authoritarian-informationalism-escalating-surveillance-2026-6",
@@ -15657,7 +15875,9 @@
           "id": "doi:10.1080/13510347.2025.2579105",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "rise-authoritarian-informationalism-escalating-surveillance-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g073"
     },
     {
       "id": "risks-not-assumed-against-application-assumption-risk-harms-2026",
@@ -15785,7 +16005,9 @@
           "id": "doi:10.1038/s41586-024-07566-y",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "ai-models-collapse-when-trained-recursively-generated-data-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g016"
     },
     {
       "id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
@@ -16098,7 +16320,9 @@
         "legal-liability",
         "generative-ai"
       ],
-      "snapshot_sha256": "218d46e8ccd04746bbcbf21cc09dc95d1976240a948842e4728c2ce68107898f"
+      "snapshot_sha256": "218d46e8ccd04746bbcbf21cc09dc95d1976240a948842e4728c2ce68107898f",
+      "duplicate_of": "section-230-ai-driven-platforms-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g074"
     },
     {
       "id": "seen-unseen-ai-liability-2026",
@@ -16635,7 +16859,9 @@
           "id": "doi:10.21275/SR2562923233041",
           "confidence": "extracted"
         }
-      ]
+      ],
+      "duplicate_of": "imminent-risk-ai-data-dead-loops-model-collapse-content-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g049"
     },
     {
       "id": "ssrn-5288815-2026",
@@ -16654,7 +16880,9 @@
           "id": "SSRN:5288815",
           "confidence": "extracted"
         }
-      ]
+      ],
+      "duplicate_of": "ai-guidelines-exploring-points-convergence-between-faith-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g014"
     },
     {
       "id": "standards-eu-ai-act-legitimacy-state-play-future-challenges-2026",
@@ -16930,7 +17158,9 @@
           "id": "https://www.linkedin.com/posts/erwinloh_study-finds-nearly-two-thirds-of-ai-generated-activity-7397604150466781186-XZNv",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "study-finds-nearly-two-thirds-ai-generated-citations-are-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g075"
     },
     {
       "id": "study-finds-nearly-two-thirds-ai-generated-citations-are-2026-1",
@@ -16994,7 +17224,9 @@
           "id": "https://www.psypost.org/study-finds-nearly-two-thirds-of-ai-generated-citations-are-fabricated-or-contain-errors/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "study-finds-nearly-two-thirds-ai-generated-citations-are-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g075"
     },
     {
       "id": "study-finds-nearly-two-thirds-ai-generated-citations-are-2026-3",
@@ -17026,7 +17258,9 @@
           "id": "https://www.psypost.org/study-finds-nearly-two-thirds-of-ai-generated-citations-are-fabricated-or-contain-errors",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "study-finds-nearly-two-thirds-ai-generated-citations-are-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g075"
     },
     {
       "id": "superintelligent-agents-pose-catastrophic-risks-can-2026",
@@ -17464,7 +17698,9 @@
           "id": "https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "theres-good-reason-you-cant-concentrate-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g077"
     },
     {
       "id": "thought-purity-defense-framework-chain-thought-attack-2026",
@@ -17871,7 +18107,9 @@
           "id": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "transparency-ai-is-decline-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g079"
     },
     {
       "id": "transparency-ai-is-decline-stanford-report-2026",
@@ -17885,7 +18123,9 @@
           "id": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "transparency-ai-is-decline-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g079"
     },
     {
       "id": "transparency-ai-is-decline-stanford-report-2026-1",
@@ -17899,7 +18139,9 @@
           "id": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "transparency-ai-is-decline-2026",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g079"
     },
     {
       "id": "treat-ai-like-public-utility-2026",
@@ -17980,7 +18222,9 @@
           "id": "doi:10.26188/28822919",
           "confidence": "extracted"
         }
-      ]
+      ],
+      "duplicate_of": "trust-attitudes-use-ai-global-report-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g080"
     },
     {
       "id": "trust-attitudes-use-ai-global-report-2026-1",
@@ -18027,7 +18271,9 @@
           "id": "doi:10.26188/28822919",
           "confidence": "extracted"
         }
-      ]
+      ],
+      "duplicate_of": "trust-attitudes-use-ai-global-report-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g080"
     },
     {
       "id": "trust-attitudes-use-artificial-intelligence-global-study-2026-1",
@@ -18060,7 +18306,9 @@
           "id": "doi:10.26188/28822919",
           "confidence": "extracted"
         }
-      ]
+      ],
+      "duplicate_of": "trust-attitudes-use-ai-global-report-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g080"
     },
     {
       "id": "trust-without-teeth-eu-ai-act-healthcare-limits-voluntary-2026",
@@ -18086,7 +18334,9 @@
           "id": "https://law.stanford.edu/2026/03/01/trust-without-teeth-the-eu-ai-act-healthcare-and-the-limits-of-a-voluntary-bill-of-rights",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "trust-without-teeth-eu-ai-act-healthcare-limits-voluntary-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g081"
     },
     {
       "id": "trust-without-teeth-eu-ai-act-healthcare-limits-voluntary-2026-1",
@@ -18213,7 +18463,9 @@
           "id": "https://www.wgbh.org/news/politics/2025-12-02/unacceptable-markey-reintroduces-legislation-to-combat-bias-in-artificial-intelligence",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "unacceptable-markey-reintroduces-legislation-combat-bias-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g082"
     },
     {
       "id": "unacceptable-markey-reintroduces-legislation-combat-bias-2026-1",
@@ -18340,7 +18592,9 @@
         "curriculum-reform",
         "knowledge-production"
       ],
-      "snapshot_sha256": "f9a2c86f672a53dd5ceb41486f77d09b547b2a77a8c8e87ca8618981f2a8f315"
+      "snapshot_sha256": "f9a2c86f672a53dd5ceb41486f77d09b547b2a77a8c8e87ca8618981f2a8f315",
+      "duplicate_of": "universities-would-prefer-not-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g083"
     },
     {
       "id": "universities-would-prefer-not-2026-1",
@@ -18407,7 +18661,9 @@
           "id": "https://www.goodfire.ai/research/self-correcting-search",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "using-self-correcting-search-accelerate-materials-discovery-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g084"
     },
     {
       "id": "using-self-correcting-search-accelerate-materials-discovery-2026-1",
@@ -18471,7 +18727,9 @@
           "id": "https://www.linkedin.com/posts/josephfkrause_using-self-correcting-search-to-accelerate-activity-7445243603758592001-bJV8",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "using-self-correcting-search-accelerate-materials-discovery-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g084"
     },
     {
       "id": "using-self-correcting-search-accelerate-materials-discovery-2026-3",
@@ -18503,7 +18761,9 @@
           "id": "https://www.linkedin.com/posts/josephfkrause_using-self-correcting-search-to-accelerate-activity-7445243603758592001-bJV8",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "using-self-correcting-search-accelerate-materials-discovery-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g084"
     },
     {
       "id": "verifiable-ai-building-trust-through-transparency-proof-2026",
@@ -19153,7 +19413,9 @@
           "id": "https://www.linkedin.com/posts/holland-knight-llp_artificialintelligence-ai-intellectualproperty-activity-7443413714344566784-aPL8",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "white-house-releases-national-policy-framework-artificial-2026-1",
+      "duplicate_of_ref": "t4337-cleanup-2026-10#g086"
     },
     {
       "id": "white-house-releases-national-policy-framework-artificial-2026-1",
