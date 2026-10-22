@@ -1,0 +1,199 @@
+{
+  "debate_id": "58395647-61a6-48a4-96b9-e6e090746050",
+  "debate_title": "Is current AI progress driven mainly by scaling compute, ...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether software-level cryptographic runtime ledgers can independently and reliably verify AI capability growth without relying on physical infrastructure telemetry.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Cryptographic runtime ledgers on commercial cloud infrastructure verify algorithmic efficiency and capability boundaries without requiring physical power constraints."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Cryptographic ledgers are insufficient alone and must be anchored to physical grid telemetry to prevent evasion through unmonitored software optimization."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-025",
+        "acc-desires-037",
+        "acc-intentions-100",
+        "saf-beliefs-120",
+        "saf-intentions-231",
+        "saf-intentions-253",
+        "acc-beliefs-124",
+        "acc-intentions-069",
+        "sit-037",
+        "saf-beliefs-098"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether trade policy and export control thresholds should incorporate mandatory labor and environmental standards to address local resource extraction and grid strain.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Export controls should prioritize removing regulatory barriers to rapid algorithmic innovation and medical breakthroughs over managing local resource use."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Trade relief and export frameworks must be tied to enforceable labor and environmental benchmarks to prevent community and ecological harm."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-025",
+        "acc-desires-037",
+        "acc-intentions-100",
+        "skp-beliefs-094",
+        "skp-beliefs-042",
+        "sit-170",
+        "acc-beliefs-124",
+        "acc-intentions-069",
+        "sit-037",
+        "skp-beliefs-044"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-094",
+      "nodeLabel": "Empirical Evidence Documents Pervasive Bias, Discrimination, and Structural Harm in AI Systems",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-120",
+      "nodeLabel": "Physical Infrastructure Metrics as an Enforcement Anchor",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-231",
+      "nodeLabel": "Binding AI Accountability to Physical Infrastructure Metrics",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-025",
+      "nodeLabel": "Computational Power Is the New Measure of National Strength",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-253",
+      "nodeLabel": "Physical Grid Interlocks for Infrastructure-Scale AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-124",
+      "nodeLabel": "Frontier Firm Productivity Multipliers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-069",
+      "nodeLabel": "Accelerate Prosperity Through AI-Driven Abundance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-037",
+      "nodeLabel": "Real-World Limits on AI Growth",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-044",
+      "nodeLabel": "AI's True Financial and Environmental Costs Are Systematically Obscured",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-008",
+      "nodeLabel": "Precarious Human Labor Behind the Automation Facade",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-187",
+      "nodeLabel": "Legislating Distinct Causal Categories for AI Output and Resulting Harm Is Technically Unjustified",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-098",
+      "nodeLabel": "AI Behavior Cannot Be Fully Predicted Due to Emergence, Misspecification, and Formal Limits",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether software-level cryptographic runtime ledgers can independently and reliably verify AI capability growth without relying on physical infrastructure telemetry.",
+      "prevails": "C5",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist position relies on verifiable physical metrics like electrical power consumption, which are difficult to spoof. The accelerationist reliance on software runtime ledgers lacks sovereign enforcement authority and leaves major auditing blind spots.",
+      "whatWouldChange": "Independent security audits proving that cryptographic runtime ledgers cannot be bypassed by unmonitored software libraries would shift the verdict.",
+      "claimIds": [
+        "C6",
+        "C2",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether trade policy and export control thresholds should incorporate mandatory labor and environmental standards to address local resource extraction and grid strain.",
+      "prevails": "C1",
+      "criterion": "scope",
+      "rationale": "The accelerationist framework directly addresses the designated Department of Commerce mandate regarding export controls and algorithmic efficiency. The skeptic position broadens the scope into environmental and labor domains that fall outside standard trade enforcement authorities.",
+      "whatWouldChange": "Legislative expansion of the Export Control Reform Act to explicitly mandate environmental and labor impact assessments would tip the balance.",
+      "claimIds": [
+        "C1",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

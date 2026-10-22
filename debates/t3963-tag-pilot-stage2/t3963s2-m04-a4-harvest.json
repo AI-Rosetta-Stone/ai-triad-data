@@ -1,0 +1,161 @@
+{
+  "debate_id": "dff83b26-2a7a-4416-a610-5808775c6368",
+  "debate_title": "Should governments break up vertically integrated AI comp...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether mandatory structural separation of silicon supply, cloud infrastructure, and model training causes insurmountable engineering delays or successfully restores public oversight.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that breaking up vertically integrated tech firms destroys sub-microsecond hardware synchronization in large clusters, causing fatal serialization delays that halt capability scaling."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that structural unbundling is necessary to prevent corporate self-dealing, eliminate single points of failure, and enforce independent pre-deployment safety audits."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-247",
+        "saf-beliefs-091",
+        "sit-458",
+        "sit-298",
+        "acc-desires-037",
+        "acc-intentions-056",
+        "acc-beliefs-083",
+        "saf-beliefs-218",
+        "saf-beliefs-249",
+        "sit-076"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-458",
+      "nodeLabel": "Internal Corporate Power Concentration",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-076",
+      "nodeLabel": "Two-Tiered AI Economy Risk",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-091",
+      "nodeLabel": "Sufficiently Advanced AI Could Let a Small Group Lock In Permanent Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-298",
+      "nodeLabel": "Data Merger Incipiency Standard",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-037",
+      "nodeLabel": "Real-World Limits on AI Growth",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-089",
+      "nodeLabel": "Sovereign Debt Compression via AI Growth",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-017",
+      "nodeLabel": "Dismantle Legacy Structures -- Borders, Markets, Institutions -- to Unlock AI-Driven Progress",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether mandatory structural separation of silicon supply, cloud infrastructure, and model training causes insurmountable engineering delays or successfully restores public oversight.",
+      "prevails": "C1",
+      "criterion": "specificity",
+      "rationale": "The accelerationist position cites specific technical constraints, including 100,000-node clusters and sub-microsecond switching latencies. The safetyist counter-argument relies on broad regulatory goals without detailing how to preserve hardware efficiency across corporate boundaries. Therefore, the technical critique is more concrete.",
+      "whatWouldChange": "Demonstrating that multi-tenant or unbundled hardware architectures can achieve sub-microsecond synchronization without performance loss.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

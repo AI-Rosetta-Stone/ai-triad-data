@@ -1,0 +1,20 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "protocolId": "structured",
+  "audience": "policymakers",
+  "activePovers": [
+    "accelerationist",
+    "safetyist",
+    "skeptic"
+  ],
+  "rounds": 3,
+  "topic": "Should the largest AI model training runs require a government licence?",
+  "seatTags": {
+    "skeptic": {
+      "pov_tag": "institutional",
+      "tag_mode": "prioritize"
+    }
+  },
+  "slug": "t3963s2-m02-a4",
+  "outputDir": "C:\\Users\\jsnov\\repos\\ai-triad-data\\debates\\t3963-tag-pilot-stage2"
+}

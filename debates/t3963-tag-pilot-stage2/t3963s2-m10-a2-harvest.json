@@ -1,0 +1,216 @@
+{
+  "debate_id": "54bd7ab0-9301-4e98-a443-573dd29ab191",
+  "debate_title": "Is the market for frontier AI models becoming more concen...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether antitrust regulators should preserve physical compute concentration as a necessary physical choke point for high-consequence risk mitigation.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Regulators must preserve physical compute concentration because hardware bottlenecks are the only remaining physical choke point for high-consequence risk mitigation."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Regulators must reject compute concentration because hardware moats are tools of incumbent rent-seeking rather than genuine risk management instruments."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-274",
+        "saf-desires-006",
+        "saf-intentions-125",
+        "sit-171",
+        "skp-beliefs-190",
+        "skp-beliefs-231",
+        "skp-desires-005",
+        "skp-intentions-034",
+        "saf-beliefs-131",
+        "saf-desires-004"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether decentralized local fine-tuning and cryptographic verification render upstream software recall frameworks obsolete.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "When enterprises and sovereign entities rapidly deploy unmonitored parameters across fragmented local clusters, that decentralization directly confirms the permanent loss of upstream control."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Edge-level verification and decentralized networks provide superior safety oversight compared to top-down server farm gatekeeping."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-274",
+        "saf-desires-006",
+        "saf-intentions-125",
+        "sit-171",
+        "acc-desires-039",
+        "acc-beliefs-029",
+        "acc-intentions-100",
+        "sit-332",
+        "saf-beliefs-131",
+        "saf-desires-004"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-190",
+      "nodeLabel": "Single Points of Control over Compute Hardware Function as Incumbent Capture Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-332",
+      "nodeLabel": "Hardware-Embedded Governance Readiness Gap",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-274",
+      "nodeLabel": "Hardware-Level Interventions Risk Entrenching Corporate Monopolies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-125",
+      "nodeLabel": "Design Licensing Schemes Where Safer Models Earn More",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-171",
+      "nodeLabel": "Geopolitical AI Strategy and Competition",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-029",
+      "nodeLabel": "Startups Drive Innovation More Than Big Tech",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-139",
+      "nodeLabel": "Restricting Autonomous Agent Execution via Hardware Disconnects and Blast-Radius Gates",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-267",
+      "nodeLabel": "Technical Fragility of Decentralized Attestation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-477",
+      "nodeLabel": "Democratic Failure to Curb Digital Corporate Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether antitrust regulators should preserve physical compute concentration as a necessary physical choke point for high-consequence risk mitigation.",
+      "prevails": "skeptic",
+      "criterion": "scope",
+      "rationale": "The skeptic position accounts for both severe economic rent-seeking and documented negative externalities like heavy electrical grid demands. The safetyist position relies on a single unproven leverage point while ignoring the market distortions created by cloud hyperscaler dominance.",
+      "whatWouldChange": "Empirical evidence proving that centralized hardware gatekeeping successfully stops catastrophic risks without causing systemic economic harm would flip this verdict.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether decentralized local fine-tuning and cryptographic verification render upstream software recall frameworks obsolete.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both camps present compelling theoretical arguments about software control versus edge proliferation without offering definitive deployment data at scale. The debate currently lacks sufficient empirical metrics to prove whether decentralized verification can fully replace centralized upstream recall mechanisms.",
+      "whatWouldChange": "Comprehensive deployment data showing whether sovereign entities and enterprises can successfully bypass upstream hardware controls using local open-weight fine-tuning will resolve this empirical gap.",
+      "claimIds": [
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

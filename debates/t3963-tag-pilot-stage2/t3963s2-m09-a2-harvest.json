@@ -1,0 +1,218 @@
+{
+  "debate_id": "15f51244-26b0-4753-903a-9eb7546ce088",
+  "debate_title": "Do AI benchmark scores predict real-world usefulness?",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether continuous runtime telemetry and decentralized market feedback can effectively catch critical behavioral flaws before irreversible harm occurs in critical infrastructure.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Runtime discovery in complex adaptive systems operates too late to prevent structural failure, necessitating mandatory pre-market containment gates."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "High-frequency runtime telemetry and iterative loop optimization correct behavioral drift faster than pre-deployment audits can."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-200",
+        "sit-232",
+        "saf-desires-003",
+        "acc-beliefs-115",
+        "acc-intentions-054",
+        "acc-intentions-114",
+        "acc-beliefs-070",
+        "saf-beliefs-098",
+        "saf-desires-001",
+        "saf-intentions-031"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the primary mechanism for ensuring AI safety should be centralized pre-market conformity certification or decentralized post-hoc liability enforcement.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Civilizational stability requires prioritizing pre-deployment containment to prevent high-consequence disasters, even if it introduces bureaucratic delays."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-market delays cause immediate, measurable harm by withholding beneficial tools, making open deployment paired with liability the superior governance model."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-200",
+        "sit-232",
+        "saf-desires-003",
+        "acc-beliefs-115",
+        "acc-intentions-054",
+        "acc-intentions-114",
+        "acc-beliefs-070",
+        "saf-beliefs-098",
+        "saf-desires-001",
+        "saf-intentions-031"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-200",
+      "nodeLabel": "AI Systematically Optimizes Proxy Metrics at the Expense of Intended Outcomes",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-232",
+      "nodeLabel": "Evaluation Gap in AI Performance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-054",
+      "nodeLabel": "Ground AI Safety in Observable Behavior and Real-World Testing",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-115",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-260",
+      "nodeLabel": "Patching Latency in Complex Model Architectures",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-087",
+      "nodeLabel": "Systematize AI Model Evaluation Through Benchmarking, Auditing, and Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-098",
+      "nodeLabel": "AI Behavior Cannot Be Fully Predicted Due to Emergence, Misspecification, and Formal Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-001",
+      "nodeLabel": "Humanity's Survival Above All Else",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-031",
+      "nodeLabel": "Testing Whether AI Can Override Its Own Learned Patterns",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-127",
+      "nodeLabel": "Benchmark Saturation and Metric Decay",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-107",
+      "nodeLabel": "Coupling Pre-Deployment Independent Audits with Algorithmic Disgorgement and Strict Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether continuous runtime telemetry and decentralized market feedback can effectively catch critical behavioral flaws before irreversible harm occurs in critical infrastructure.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both positions present valid empirical critiques of existing testing methods but lack definitive comparative deployment data. The safetyist argument relies on aviation and legacy safety precedents, while the accelerationist argument cites modern software deployment practices. Without randomized controlled trials comparing both governance models in critical infrastructure, the debate remains empirically deadlocked.",
+      "whatWouldChange": "Longitudinal incident tracking data from regulated versus open-deployment sectors that isolates the exact failure rates attributable to pre-market certification versus runtime telemetry.",
+      "claimIds": [
+        "C1",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether the primary mechanism for ensuring AI safety should be centralized pre-market conformity certification or decentralized post-hoc liability enforcement.",
+      "prevails": "C6",
+      "criterion": "implementation_specificity",
+      "rationale": "The skeptic argument scores higher on implementation specificity because it identifies concrete economic friction and market entry barriers associated with centralized mandates. The safetyist position relies on abstract appeals to civilizational stability without detailing how a regulatory body would audit rapidly evolving foundational models without creating insurmountable bureaucratic backlogs.",
+      "whatWouldChange": "Empirical evidence showing that a centralized pre-market certification agency can operate without creating anti-competitive market concentration or significantly delaying beneficial deployments.",
+      "claimIds": [
+        "C2",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

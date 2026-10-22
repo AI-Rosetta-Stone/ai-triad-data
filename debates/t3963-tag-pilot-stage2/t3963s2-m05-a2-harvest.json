@@ -1,0 +1,266 @@
+{
+  "debate_id": "ebdf4a1e-0311-48fe-b7a4-b6b0a6b73c92",
+  "debate_title": "Should AI systems be barred from making final decisions i...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether output-based behavioral API testing and multi-armed bandit exploration algorithms can effectively measure and correct algorithmic bias in live markets without pre-deployment gatekeeping.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Active exploration algorithms and dynamic API testing successfully generate missing counterfactual performance data, expanding credit access faster than static manual reviews."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Dynamic market experimentation relies on missing downstream data for rejected cohorts, rendering post-deployment fairness metrics mathematically circular and ineffective."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-217",
+        "saf-beliefs-248",
+        "saf-desires-012",
+        "saf-desires-010",
+        "acc-beliefs-070",
+        "acc-intentions-099",
+        "acc-desires-011",
+        "saf-desires-029",
+        "saf-beliefs-210",
+        "saf-intentions-004"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether federal regulators possess adequate statutory authority under existing laws like the Equal Credit Opportunity Act to penalize biased deployment outcomes without outlawing the underlying software.",
+      "bdiLayer": "intention",
+      "resolvability": "requires_term_clarification",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Existing regulatory enforcement under the Equal Credit Opportunity Act is fully sufficient to penalize discriminatory deployment outcomes without pre-deployment bans."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Existing statutory frameworks fail because trade secrecy protections and opaque adverse action notices prevent plaintiffs and regulators from establishing causation."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-070",
+        "acc-intentions-099",
+        "acc-desires-011",
+        "skp-beliefs-029",
+        "skp-beliefs-286",
+        "skp-desires-074",
+        "skp-intentions-074",
+        "acc-beliefs-110",
+        "acc-intentions-047",
+        "acc-intentions-075"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether economic efficiency and financial inclusion for unserved populations outweigh the risk of uncompensated downstream harms from algorithmic trial-and-error.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Preventing algorithmic automation traps millions of credit-invisible individuals in obsolete legacy scoring systems, imposing unacceptable human costs through administrative delays."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Allowing software to make final economic decisions forces vulnerable households to absorb exploratory financial harms, violating fundamental civil rights parity."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-070",
+        "acc-intentions-099",
+        "acc-desires-011",
+        "skp-beliefs-029",
+        "skp-beliefs-286",
+        "skp-desires-074",
+        "skp-intentions-074",
+        "acc-beliefs-110",
+        "acc-intentions-047",
+        "acc-intentions-075"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-286",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Accountability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-074",
+      "nodeLabel": "Civil Rights Parity for Algorithmic Decisions",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-074",
+      "nodeLabel": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-217",
+      "nodeLabel": "Inadequacy of the Reasonable Person Standard for Algorithmic Negligence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-010",
+      "nodeLabel": "Legal Comprehension as a Core AI Capability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-011",
+      "nodeLabel": "AI That Can Examine and Explain Its Own Reasoning",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-029",
+      "nodeLabel": "Victims of AI Harm Cannot Access the Technical Knowledge Needed to Prove Causation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-210",
+      "nodeLabel": "AI Liability and Legal Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-004",
+      "nodeLabel": "Anchoring AI Accountability in Verifiable Provenance Records",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-409",
+      "nodeLabel": "Automated Compliance Monitoring",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-110",
+      "nodeLabel": "Feedback-Loop Contamination as the Operative Boundary for Pre-Deployment Interpretability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-075",
+      "nodeLabel": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-288",
+      "nodeLabel": "Evidentiary Dead End of Opaque AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether output-based behavioral API testing and multi-armed bandit exploration algorithms can effectively measure and correct algorithmic bias in live markets without pre-deployment gatekeeping.",
+      "prevails": "C6",
+      "criterion": "scope",
+      "rationale": "The safety and skeptic position accounts for concrete downstream harms such as evictions and repossessions, whereas the accelerationist claim regarding live market experimentation lacks verifiable proof that dynamic sampling prevents real-world financial damage for denied applicants.",
+      "claimIds": [
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether federal regulators possess adequate statutory authority under existing laws like the Equal Credit Opportunity Act to penalize biased deployment outcomes without outlawing the underlying software.",
+      "prevails": "C2",
+      "criterion": "specificity",
+      "rationale": "The skeptic position provides concrete operational details regarding how trade secrecy protections obstruct causation analysis, whereas the accelerationist claim assumes existing enforcement mechanisms function despite documented obstacles in accessing internal model weights.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether economic efficiency and financial inclusion for unserved populations outweigh the risk of uncompensated downstream harms from algorithmic trial-and-error.",
+      "prevails": "C6",
+      "criterion": "scope",
+      "rationale": "The skeptic framework incorporates both credit expansion and the tangible fallout of algorithmic errors, providing a broader assessment of systemic risk than the accelerationist focus on credit-invisible population entry.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

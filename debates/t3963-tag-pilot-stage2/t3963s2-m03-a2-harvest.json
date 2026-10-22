@@ -1,0 +1,219 @@
+{
+  "debate_id": "46859362-ee45-4945-be01-2125f21e441f",
+  "debate_title": "Should the weights of the most capable AI models be relea...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether the Bureau of Industry and Security enforcement mechanisms under the Export Control Reform Act of 2018 effectively contain dual-use proliferation or merely function as cartel maintenance for major cloud providers.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Export controls and administrative choke points successfully limit the spread of dangerous model weights and prevent irreversible distribution."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Export controls fail to stop bad actors while imposing prohibitive compliance costs that eliminate small competitors and entrench cloud oligopolies."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-desires-029",
+        "saf-intentions-215",
+        "sit-340",
+        "acc-beliefs-111",
+        "acc-intentions-099",
+        "acc-intentions-088",
+        "acc-beliefs-074",
+        "saf-beliefs-131",
+        "saf-desires-012"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether public model weight releases are permanent deployments that permanently sever upstream control, or whether post-deployment telemetry and open-source peer review mitigate risks faster than central pre-screening.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Once model weights circulate on peer-to-peer networks, central remediation becomes impossible, making pre-market bans essential."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Decentralized telemetry and open peer review patch vulnerabilities faster and more effectively than centralized regulatory gatekeeping."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-desires-029",
+        "saf-intentions-215",
+        "sit-340",
+        "acc-beliefs-111",
+        "acc-intentions-099",
+        "acc-intentions-088",
+        "acc-beliefs-074",
+        "saf-beliefs-131",
+        "saf-desires-012"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-215",
+      "nodeLabel": "Shielding Compliant Open-Weight Releases from Downstream Misuse Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-302",
+      "nodeLabel": "Procedural Telemetry Checklists as Upstream Audit-Washing Shields",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-136",
+      "nodeLabel": "Pinning AI Safety Liability to Commercial Infrastructure Executives",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-111",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-074",
+      "nodeLabel": "Liability Law Ignores AI's Diffuse Statistical Benefits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-129",
+      "nodeLabel": "Safety Rhetoric as Infrastructure Cartel Maintenance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-079",
+      "nodeLabel": "Balanced Transparency: Public Interest vs. Trade Secrets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-055",
+      "nodeLabel": "Operationalize AI Risk Mitigation Through Concrete Technical Practices",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether the Bureau of Industry and Security enforcement mechanisms under the Export Control Reform Act of 2018 effectively contain dual-use proliferation or merely function as cartel maintenance for major cloud providers.",
+      "prevails": "C2",
+      "criterion": "scope",
+      "rationale": "The accelerationist position succeeds because it evaluates both the intended security outcome and the observable market distortion caused by licensing overhead. The safetyist claim relies on statutory authority without demonstrating actual containment efficacy against determined actors who bypass trade controls.",
+      "whatWouldChange": "Empirical evidence showing that export controls successfully block illicit model proliferation without imposing prohibitive compliance costs on small developers would tilt the balance toward the safetyist claim.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether public model weight releases are permanent deployments that permanently sever upstream control, or whether post-deployment telemetry and open-source peer review mitigate risks faster than central pre-screening.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "This empirical dispute remains undecidable because both decentralized peer review and unauthorized proliferation are dynamic phenomena lacking long-term quantitative baselines. Both sides project theoretical risk models without sufficient empirical testing from actual open-source frontier releases.",
+      "whatWouldChange": "Systematic post-release tracking data from past open-weight model deployments that quantifies both malicious exploitation rates and community-led remediation speeds would resolve this conflict.",
+      "claimIds": [],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

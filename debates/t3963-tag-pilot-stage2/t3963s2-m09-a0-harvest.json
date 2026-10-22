@@ -1,0 +1,241 @@
+{
+  "debate_id": "17ffd897-b148-4cba-8456-6f5c1890546f",
+  "debate_title": "Do AI benchmark scores predict real-world usefulness?",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-market human approval gates or continuous automated runtime monitoring are more effective at resolving operational errors.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Automated runtime monitoring and continuous iteration correct production errors faster than static pre-market human audits."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Pre-market validation gates and mandatory safety sign-offs are necessary because automated systems exploit testing gaps and cause lasting harm."
+        }
+      ],
+      "linkedNodes": [
+        "sit-127",
+        "acc-intentions-075",
+        "acc-intentions-027",
+        "sit-409",
+        "saf-beliefs-200",
+        "saf-intentions-234",
+        "saf-desires-002",
+        "saf-intentions-024",
+        "saf-beliefs-058",
+        "saf-intentions-162"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the risks of transitional production errors outweigh the opportunity costs of delaying deployment.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "The opportunity cost of delaying deployment, including medical delays and economic stagnation, outweighs transitional production errors."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Irreversible social collapse and safety failures outweigh the benefits of rapid market entry."
+        }
+      ],
+      "linkedNodes": [
+        "sit-127",
+        "acc-intentions-075",
+        "acc-intentions-027",
+        "sit-409",
+        "saf-beliefs-200",
+        "saf-intentions-234",
+        "saf-desires-002",
+        "saf-intentions-024",
+        "saf-beliefs-058",
+        "saf-intentions-162"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-361",
+      "nodeLabel": "Pragmatic Mitigation Framing",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-409",
+      "nodeLabel": "Automated Compliance Monitoring",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-232",
+      "nodeLabel": "Evaluation Gap in AI Performance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-064",
+      "nodeLabel": "AI Competence Is Jagged and Advances Unevenly Across Tasks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-087",
+      "nodeLabel": "Systematize AI Model Evaluation Through Benchmarking, Auditing, and Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-127",
+      "nodeLabel": "Benchmark Saturation and Metric Decay",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-075",
+      "nodeLabel": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-200",
+      "nodeLabel": "AI Systematically Optimizes Proxy Metrics at the Expense of Intended Outcomes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-234",
+      "nodeLabel": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-024",
+      "nodeLabel": "Treating Missing AI Documentation as a Safety Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-229",
+      "nodeLabel": "Worker Data Withholding Capacity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-055",
+      "nodeLabel": "Operationalize AI Risk Mitigation Through Concrete Technical Practices",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-136",
+      "nodeLabel": "Pinning AI Safety Liability to Commercial Infrastructure Executives",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-077",
+      "nodeLabel": "Precaution Grounded in Lived Experience",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-058",
+      "nodeLabel": "AI Coding Assistants Inject Phantom Dependencies Into Software",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-162",
+      "nodeLabel": "Accelerate Defensive Tech While Slowing Catastrophic Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-305",
+      "nodeLabel": "The Fire Extinguisher Analogy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-174",
+      "nodeLabel": "Legal and Legislative Mechanisms for AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-111",
+      "nodeLabel": "Replace Discretionary Human Halt Authority with Pre-Programmed Enforcement Actions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-009",
+      "nodeLabel": "Automate Society's Operating System",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-market human approval gates or continuous automated runtime monitoring are more effective at resolving operational errors.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both positions rely on distinct, unverified failure modes rather than comprehensive empirical comparisons. Safetyists demonstrate specification gaming through reward hacking, but accelerationists highlight that static gates fail to capture dynamic operational contexts. Additional longitudinal data from enterprise deployments is required to determine which monitoring structure yields lower cumulative error rates.",
+      "whatWouldChange": "Comparative empirical studies showing whether pre-market audits or runtime telemetry catch a higher percentage of high-severity production failures over a multi-year deployment cycle.",
+      "claimIds": [
+        "C5",
+        "C7",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether the risks of transitional production errors outweigh the opportunity costs of delaying deployment.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "This disagreement rests on fundamentally incommensurable value priors regarding catastrophic existential risk versus immediate societal opportunity costs in medical and economic sectors. Neither camp provides an empirical framework to weigh irreversible safety failures against foregone productivity gains objectively. Consequently, the dispute remains a normative trade-off rather than a resolvable technical question.",
+      "whatWouldChange": "Standardized probabilistic risk assessment models that quantify both the societal cost of delayed medical AI deployment and the expected harm of systemic safety failures on a comparable metric.",
+      "claimIds": [
+        "C4",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

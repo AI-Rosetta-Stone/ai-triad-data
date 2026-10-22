@@ -1,0 +1,228 @@
+{
+  "debate_id": "5ccf3786-d51d-49c9-b069-9ed9c6934c5f",
+  "debate_title": "Should AI systems be barred from making final decisions i...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether automated scoring models expand access for underserved populations or primarily reinforce systemic exclusion.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that data-driven underwriting relies on objective risk variables that increase credit access and reduce subjective human bias."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that automated screening creates closed feedback loops that conceal disparate impact and prevent independent post-deployment verification."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-085",
+        "acc-intentions-099",
+        "acc-beliefs-102",
+        "saf-beliefs-248",
+        "saf-beliefs-122",
+        "saf-desires-005",
+        "acc-beliefs-093",
+        "acc-intentions-096",
+        "acc-desires-018",
+        "sit-166"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether mandatory human review and oversight mitigate systemic bias or merely protect incumbent gatekeepers at the expense of efficiency.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Prioritizes human-in-the-loop oversight to ensure legal accountability and protect vulnerable populations from unappealable automated rejections."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Prioritizes speed, market competition, and algorithmic matching to reduce human discretion and expand economic mobility."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-085",
+        "acc-intentions-099",
+        "acc-beliefs-102",
+        "saf-beliefs-248",
+        "saf-beliefs-122",
+        "saf-desires-005",
+        "acc-beliefs-093",
+        "acc-intentions-096",
+        "acc-desires-018",
+        "sit-166"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-122",
+      "nodeLabel": "AI Performs Consequential Acts That No One Bears Responsibility For",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-104",
+      "nodeLabel": "Advance Targeted AI Policies on Environmental Reporting, Pricing Transparency, and Bias Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-102",
+      "nodeLabel": "Broker-aggregation layer as the regulable privacy chokepoint",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-005",
+      "nodeLabel": "No Black Boxes in Ground-Truth-Absent or Feedback-Contaminated Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-093",
+      "nodeLabel": "Downstream Liability Bounded by What the Deployer Can Detect and Price",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-096",
+      "nodeLabel": "Requiring AI Agents to Cryptographically Sign Actions at Execution Gateways",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-018",
+      "nodeLabel": "Build Crisis-Proof Institutions with AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-166",
+      "nodeLabel": "AI Accountability and Liability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-267",
+      "nodeLabel": "Technical Fragility of Decentralized Attestation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-243",
+      "nodeLabel": "Proof Privatization",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-074",
+      "nodeLabel": "Civil Rights Parity for Algorithmic Decisions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-110",
+      "nodeLabel": "Establishing Decentralized User-Controlled Cryptographic Receipts for Algorithmic Discovery",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-083",
+      "nodeLabel": "Inserting Human Judgment Where Autonomous AI Makes Consequential Choices",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-346",
+      "nodeLabel": "Authority-Bound Output Release",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether automated scoring models expand access for underserved populations or primarily reinforce systemic exclusion.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both camps cite plausible mechanisms without conclusive proof. The accelerationist claim relies on federal data showing increased loan approvals in low-income tracts, while the safetyist claim points to theoretical feedback loops and verification hurdles. Neither side provides comprehensive post-deployment audit data that reconciles both trends.",
+      "whatWouldChange": "Independent, longitudinal audits of lending portfolios across multiple institutions that track both approval rates and default outcomes for demographic cohorts over a five-year period.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether mandatory human review and oversight mitigate systemic bias or merely protect incumbent gatekeepers at the expense of efficiency.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "This values conflict weighs legal accountability against market speed. Accelerationists correctly identify that human reviewers exhibit documented cognitive biases, but safetyists accurately note that unverified software prevents legal recourse. Neither position accounts for hybrid models that pair automated scoring with structured human appeals.",
+      "whatWouldChange": "Empirical studies comparing error rates and demographic parity between purely automated decisions, purely human decisions, and structured human-in-the-loop workflows.",
+      "claimIds": [
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

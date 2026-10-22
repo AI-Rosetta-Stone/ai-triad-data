@@ -1,0 +1,220 @@
+{
+  "debate_id": "e571a06c-2872-4e91-8dca-77c0ce99a3e9",
+  "debate_title": "Do AI benchmark scores predict real-world usefulness?",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether live production telemetry serves as an acceptable substitute for pre-market safety testing or merely shifts operational risks onto end users.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that live runtime telemetry provides faster and more effective feedback than pre-market certification, reducing the opportunity costs of delayed deployment."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that relying on live telemetry turns users into uncompensated test subjects and fails to prevent irreversible harm in high-stakes domains."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-070",
+        "acc-desires-028",
+        "acc-intentions-036",
+        "sit-232",
+        "saf-beliefs-005",
+        "saf-intentions-094",
+        "sit-355",
+        "saf-desires-029",
+        "saf-intentions-200",
+        "saf-beliefs-249"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether Congress and regulatory agencies should institute mandatory pre-market audits and statutory stop powers for high-risk AI deployments.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Opposes pre-market certification mandates, asserting they create bureaucratic bottlenecks that protect legacy vendors and stifle innovation."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Supports mandatory independent pre-market audits paired with strict vendor liability to prevent performance gaps between lab tests and deployment."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Supports mandatory pre-market checks managed by regulatory agencies to stop unproven rollouts and protect public safety."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-070",
+        "acc-desires-028",
+        "acc-intentions-036",
+        "sit-232",
+        "skp-beliefs-244",
+        "skp-beliefs-284",
+        "skp-intentions-107",
+        "sit-355",
+        "saf-beliefs-005",
+        "saf-intentions-094"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-107",
+      "nodeLabel": "Coupling Pre-Deployment Independent Audits with Algorithmic Disgorgement and Strict Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-355",
+      "nodeLabel": "Metric-Level vs. Functional Equivalence Gap",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-005",
+      "nodeLabel": "AI Systems Fail Confidently Outside Their Training Distribution",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-036",
+      "nodeLabel": "Replace Static Strategic Plans with AI-Driven Real-Time Steering",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-232",
+      "nodeLabel": "Evaluation Gap in AI Performance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-244",
+      "nodeLabel": "Obfuscating Nature of Aggregate Metrics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-094",
+      "nodeLabel": "Run Prospective Failure Analyses to Catch Risks Metrics Miss",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-080",
+      "nodeLabel": "Algorithmic Transparency as a Democratic Right",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-200",
+      "nodeLabel": "Stack Redundant Safeguards Across the AI Lifecycle",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-092",
+      "nodeLabel": "Instrumented Audit Trails Amortize Remediation Cost Where Reconstructive Burden Compounds",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-011",
+      "nodeLabel": "AI That Can Examine and Explain Its Own Reasoning",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether live production telemetry serves as an acceptable substitute for pre-market safety testing or merely shifts operational risks onto end users.",
+      "prevails": "C2",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for externalized harms and irreversible risks across high-consequence domains, whereas the accelerationist view focuses narrowly on deployment speed while ignoring user exposure.",
+      "whatWouldChange": "Empirical proof that live telemetry catches severe failure modes faster than pre-market testing without causing net harm to users would tip the balance.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether Congress and regulatory agencies should institute mandatory pre-market audits and statutory stop powers for high-risk AI deployments.",
+      "prevails": "C3",
+      "criterion": "empirical_evidence",
+      "rationale": "Skeptics provide concrete empirical evidence showing that AI code generation tools experience significant capability drops when transitioning from synthetic benchmarks to corporate codebases, justifying independent audits.",
+      "whatWouldChange": "Robust data proving that pre-market certification adds prohibitive compliance costs without improving post-deployment safety outcomes would alter this conclusion.",
+      "claimIds": [
+        "C3",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

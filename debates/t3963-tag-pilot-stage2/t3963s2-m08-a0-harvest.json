@@ -1,0 +1,211 @@
+{
+  "debate_id": "71d29640-9cd7-46c4-8a91-d65a4d373cf7",
+  "debate_title": "Has AI measurably increased productivity in the firms tha...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether artificial intelligence functions primarily as a productivity ratchet that intensifies labor demands without reducing working hours.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that AI workflow redesign eliminates redundant handoffs and creates net efficiency gains that reduce operational friction."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Argues that corporate deployments use time savings to raise quotas and increase cognitive loads on remaining staff rather than shorten working hours."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-204",
+        "sit-375",
+        "skp-desires-081",
+        "skp-beliefs-042",
+        "acc-beliefs-089",
+        "acc-desires-008",
+        "skp-beliefs-227",
+        "skp-beliefs-247",
+        "skp-beliefs-169",
+        "skp-beliefs-053"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether eliminating manual sign-off layers generates genuine productivity gains or merely shifts validation debt onto downstream teams.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Maintains that automated verification executes parallel checks rapidly, eliminating departmental handoffs and increasing administrative velocity."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Maintains that removing front-end review gates only conceals downstream validation debt and increases the error-correction burden on frontline workers."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-204",
+        "sit-375",
+        "skp-desires-081",
+        "skp-beliefs-042",
+        "acc-beliefs-089",
+        "acc-desires-008",
+        "skp-beliefs-227",
+        "skp-beliefs-247",
+        "skp-beliefs-169",
+        "skp-beliefs-053"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-375",
+      "nodeLabel": "Amdahl's Law in AI Organizations",
+      "refCount": 6,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-207",
+      "nodeLabel": "AI Dependency Creates a Reinforcing Cycle of Skill Atrophy and Increased Reliance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-204",
+      "nodeLabel": "AI-Driven Productivity Ratchet Intensifies Work Without Reducing Labor Burdens",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-089",
+      "nodeLabel": "Sovereign Debt Compression via AI Growth",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-008",
+      "nodeLabel": "AI That Masters Narrow Tasks at Superhuman Speed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-103",
+      "nodeLabel": "Integrating AI into Business and Management",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-227",
+      "nodeLabel": "Rent-Dissipating Automation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-247",
+      "nodeLabel": "Affective Labor Commodification",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-169",
+      "nodeLabel": "AI Deployment Intensifies Labor by Ratcheting Up Productivity Expectations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-053",
+      "nodeLabel": "Reduced Entry-Level Recruitment Is an Early Empirical Signal of AI Labor Displacement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-094",
+      "nodeLabel": "Asymmetry Between Reconstructive Burden and Remediation Cost",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-053",
+      "nodeLabel": "AI Drives Net Economic Expansion Through Cost Deflation and Value Creation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-061",
+      "nodeLabel": "Designing Mandatory Human Checkpoints into AI-Driven Processes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-083",
+      "nodeLabel": "Inserting Human Judgment Where Autonomous AI Makes Consequential Choices",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether artificial intelligence functions primarily as a productivity ratchet that intensifies labor demands without reducing working hours.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both sides present valid empirical counterpoints without settling the broader systemic question. The accelerationist camp cites hard deployment data from Klarna handling two-thirds of chats, while the skeptic camp notes that ticket containment numbers ignore uncounted human escalation channels. Without longitudinal data tracking total labor hours and error resolution across both automated and manual channels, neither argument decisively proves its case.",
+      "whatWouldChange": "Comprehensive longitudinal time-use studies tracking both automated ticket containment and downstream escalation workloads across multiple enterprise deployments.",
+      "claimIds": [
+        "C1",
+        "C4",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether eliminating manual sign-off layers generates genuine productivity gains or merely shifts validation debt onto downstream teams.",
+      "prevails": "undecidable",
+      "criterion": "specificity",
+      "rationale": "The accelerationist position offers specific post-automation exception ratio drops of thirty-five percent over six months. Conversely, the skeptic position highlights the transfer of cognitive burden onto frontline workers when review gates disappear. The debate remains balanced because specific error reductions in one metric do not rule out the transfer of cognitive burdens to unmeasured escalation paths.",
+      "whatWouldChange": "Audits of frontline employee error-correction frequency and cognitive load metrics following the removal of front-end review gates.",
+      "claimIds": [
+        "C2",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,171 @@
+{
+  "debate_id": "b9fd4245-179e-4c79-b299-ee00b7683e26",
+  "debate_title": "Do AI benchmark scores predict real-world usefulness?",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether federal procurement rules should rely primarily on pre-deployment static compliance gates or continuous post-deployment behavioral monitoring.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Federal rules should strip static benchmark mandates and replace them with continuous behavioral monitoring and automated circuit breakers."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Federal procurement requires mandatory front-end limits, hard execution blocks, and strict legal liability before deployment."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-200",
+        "saf-desires-003",
+        "saf-intentions-020",
+        "sit-157",
+        "acc-beliefs-069",
+        "acc-intentions-054",
+        "acc-desires-026",
+        "sit-127",
+        "saf-desires-004",
+        "saf-beliefs-231"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-069",
+      "nodeLabel": "Output Evidence Suffices Only for Metric-Legible Harm Classes",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-054",
+      "nodeLabel": "Ground AI Safety in Observable Behavior and Real-World Testing",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-200",
+      "nodeLabel": "AI Systematically Optimizes Proxy Metrics at the Expense of Intended Outcomes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-020",
+      "nodeLabel": "Scoring AI Bugs to Prioritize Critical Safety Fixes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-157",
+      "nodeLabel": "AI Evaluation, Performance, and Real-World Impact",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-144",
+      "nodeLabel": "Automated Fairness and Bias Benchmarking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-044",
+      "nodeLabel": "AI's True Financial and Environmental Costs Are Systematically Obscured",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-127",
+      "nodeLabel": "Benchmark Saturation and Metric Decay",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-231",
+      "nodeLabel": "Centralization Without Automated Response Creates Brittle Failure Points",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-083",
+      "nodeLabel": "Inserting Human Judgment Where Autonomous AI Makes Consequential Choices",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-133",
+      "nodeLabel": "Organizations Fund AI Experiments but Lack Scaling Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-145",
+      "nodeLabel": "Model-Graded Benchmarks Mask Hallucination and Error Rates",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-136",
+      "nodeLabel": "AI Scaling Failures Stem from Integration and Infrastructure Gaps",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-009",
+      "nodeLabel": "Automate Society's Operating System",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-029",
+      "nodeLabel": "Build AI World Models to Forecast Outcomes and Inform Strategy",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether federal procurement rules should rely primarily on pre-deployment static compliance gates or continuous post-deployment behavioral monitoring.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both camps cite valid real-world evidence, with accelerationists pointing to 12 to 18-month procurement delays and safetyists pointing to FAA physical testing precedents. Neither side provides empirical proof that their preferred oversight model prevents catastrophic failures while maintaining operational velocity.",
+      "whatWouldChange": "Comparative empirical studies showing whether continuous monitoring catches more operational failures than upfront static compliance gates.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

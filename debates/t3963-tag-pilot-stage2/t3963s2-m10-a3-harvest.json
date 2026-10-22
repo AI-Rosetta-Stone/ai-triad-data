@@ -1,0 +1,222 @@
+{
+  "debate_id": "73fda856-304c-4de2-b701-d06b38bb8aa0",
+  "debate_title": "Is the market for frontier AI models becoming more concen...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether software efficiency gains and open-source distribution neutralize the market power conferred by physical infrastructure bottlenecks.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Software democratization and open-weight distribution bypass physical infrastructure bottlenecks and render centralized hardware control obsolete."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Physical grid constraints, exclusive power purchase agreements, and capital-intensive data center requirements permanently lock out smaller competitors regardless of software efficiency."
+        }
+      ],
+      "linkedNodes": [
+        "acc-desires-037",
+        "acc-desires-039",
+        "acc-intentions-100",
+        "acc-beliefs-124",
+        "skp-beliefs-231",
+        "skp-beliefs-281",
+        "skp-intentions-034",
+        "skp-beliefs-009",
+        "acc-beliefs-025",
+        "acc-intentions-027"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether antitrust and energy regulators should target physical power infrastructure to prevent market consolidation or prioritize rapid AI deployment to accelerate scientific cures.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Regulators must use physical infrastructure checkpoints and interconnection queues to prevent corporate consolidation and unmonitored capability jumps."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Regulators must clear the path for rapid compute scaling and open distribution to avoid preventable human mortality caused by regulatory delay."
+        }
+      ],
+      "linkedNodes": [
+        "acc-desires-037",
+        "acc-desires-039",
+        "acc-intentions-100",
+        "acc-beliefs-124",
+        "saf-beliefs-247",
+        "saf-beliefs-120",
+        "saf-desires-012",
+        "acc-beliefs-025",
+        "acc-intentions-027",
+        "acc-intentions-056"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-120",
+      "nodeLabel": "Physical Infrastructure Metrics as an Enforcement Anchor",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-009",
+      "nodeLabel": "Thermodynamic and Hydrological Limits of Compute Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-124",
+      "nodeLabel": "Frontier Firm Productivity Multipliers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-025",
+      "nodeLabel": "Computational Power Is the New Measure of National Strength",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-067",
+      "nodeLabel": "Decentralized Markets and Open Development Outperform Central Control in Driving AI Progress",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-037",
+      "nodeLabel": "Real-World Limits on AI Growth",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-318",
+      "nodeLabel": "The Performance-Compute Divergence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-212",
+      "nodeLabel": "Carbon-Aware Pricing Models",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-213",
+      "nodeLabel": "Temporal Mismatch of AI Energy Impacts",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether software efficiency gains and open-source distribution neutralize the market power conferred by physical infrastructure bottlenecks.",
+      "prevails": "C5",
+      "criterion": "empirical_evidence",
+      "rationale": "The skeptic position relies on documented physical constraints, such as exclusive power purchase agreements and regional grid capacity limits. These structural factors provide concrete, testable evidence that software optimizations cannot bypass the immediate physical realities of data center construction.",
+      "whatWouldChange": "Empirical proof that decentralized clusters running open-source models can consistently match frontier training throughput at a fraction of the capital cost would overturn this conclusion.",
+      "claimIds": [
+        "C2",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether antitrust and energy regulators should target physical power infrastructure to prevent corporate consolidation or prioritize rapid AI deployment to accelerate scientific cures.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "This conflict balances unquantified risks of corporate market dominance against prospective medical breakthroughs. Neither side provides a definitive calculus to weigh market concentration harms directly against the human costs of delayed scientific deployment.",
+      "whatWouldChange": "Definitive economic modeling that measures the exact mortality rate impact of delayed medical AI deployment versus the long-term consumer welfare losses caused by monopolistic cloud infrastructure control would tip the balance.",
+      "claimIds": [
+        "C3",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

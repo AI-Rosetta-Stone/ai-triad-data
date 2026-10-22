@@ -1,0 +1,289 @@
+{
+  "debate_id": "810e676e-a289-4fe3-baf7-55b92cd660c1",
+  "debate_title": "Will generative AI raise or lower overall employment in o...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether automated document tools cause cognitive collapse in human operators or simply accelerate redundant clerical verification loops.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Automated tools degrade critical oversight skills, resulting in severe drops in human error detection speed."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Observed reductions in manual skimming speed reflect the efficient retirement of clerical drudgery rather than cognitive decay."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-133",
+        "acc-desires-026",
+        "acc-intentions-108",
+        "acc-beliefs-097",
+        "saf-beliefs-207",
+        "saf-desires-029",
+        "saf-intentions-148",
+        "saf-beliefs-240",
+        "acc-intentions-056",
+        "acc-beliefs-105"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether mandatory pre-deployment certification and named officer liability are necessary safeguards against institutional failure or anticompetitive regulatory moats.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Strict certification and executive accountability are non-negotiable prerequisites to prevent irreversible losses of institutional memory."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Strict liability frameworks impose an administrative tax that protects legacy incumbents and stifles innovation."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-133",
+        "acc-desires-026",
+        "acc-intentions-108",
+        "acc-beliefs-097",
+        "saf-beliefs-207",
+        "saf-desires-029",
+        "saf-intentions-148",
+        "saf-beliefs-240",
+        "acc-intentions-056",
+        "acc-beliefs-105"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether enterprise adoption of automated administrative tools constitutes workflow augmentation or structural labor displacement and work intensification.",
+      "bdiLayer": "intention",
+      "resolvability": "requires_term_clarification",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Automation frees workers from repetitive data loops to engage in higher-level advisory and strategy roles."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Automation reduces headcount while intensifying workloads and increasing ambient surveillance on remaining staff."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-133",
+        "acc-desires-026",
+        "acc-intentions-108",
+        "acc-beliefs-097",
+        "skp-desires-081",
+        "sit-134",
+        "skp-intentions-104",
+        "skp-desires-075",
+        "acc-intentions-056",
+        "acc-beliefs-105"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-133",
+      "nodeLabel": "Task Versus Purpose Labor Reallocation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-108",
+      "nodeLabel": "Automating Routine Decisions with Pre-Programmed Safe State Escalation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-097",
+      "nodeLabel": "Asymmetric Remediation Velocity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-134",
+      "nodeLabel": "Process vs. Governance in AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-104",
+      "nodeLabel": "Advance Targeted AI Policies on Environmental Reporting, Pricing Transparency, and Bias Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-207",
+      "nodeLabel": "AI Dependency Creates a Reinforcing Cycle of Skill Atrophy and Increased Reliance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-148",
+      "nodeLabel": "Targeting Verifiable Process Failures Instead of Policing Truth",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-240",
+      "nodeLabel": "Denial-Triggered Recourse Structurally Misses the Never-Rejected Subject",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-105",
+      "nodeLabel": "Denial-triggered recourse misses the never-notified subject",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-166",
+      "nodeLabel": "AI Accountability and Liability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-055",
+      "nodeLabel": "AI-Orchestrated Enterprise Execution",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-026",
+      "nodeLabel": "Human-in-the-Loop Safeguards Fail Because Automation Erodes the Skills They Require",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-075",
+      "nodeLabel": "Employees Experience AI Integration as Something Done to Them, Not With Them",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-040",
+      "nodeLabel": "Binding Named Officers to Deployment Infrastructure",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether automated document tools cause cognitive collapse in human operators or simply accelerate redundant clerical verification loops.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both positions rely on plausible assertions about human-computer interaction without providing controlled longitudinal data on administrative error rates. The accelerationist claim that skimming speed reflects efficient elimination of drudgery lacks empirical support, just as the safetyist claim of cognitive decay lacks baseline measurements of oversight quality.",
+      "whatWouldChange": "Controlled trials measuring error-detection latency and accuracy among administrative staff before and after enterprise tool deployment.",
+      "claimIds": [
+        "C2",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether mandatory pre-deployment certification and named officer liability are necessary safeguards against institutional failure or anticompetitive regulatory moats.",
+      "prevails": "C6",
+      "criterion": "implementation_specificity",
+      "rationale": "The safetyist proposal for graduated regulatory thresholds in claim C6 addresses the valid startup-moat objection raised by accelerationists in claim C5. By scaling compliance burdens to firm size, the safetyist framework preserves individual accountability without crushing early-stage enterprise experimentation.",
+      "whatWouldChange": "Economic modeling demonstrating that even graduated compliance tiers impose fixed overhead costs that disproportionately force small enterprise software vendors out of business.",
+      "claimIds": [
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether enterprise adoption of automated administrative tools constitutes workflow augmentation or structural labor displacement and work intensification.",
+      "prevails": "C7",
+      "criterion": "scope",
+      "rationale": "The skeptic framework accounts for both labor displacement and the workplace conditions of surviving staff through ambient monitoring, whereas the accelerationist position ignores the latter. Drawing on historical WARN Act precedents, the skeptic position also provides a testable mechanism for managing workforce transitions.",
+      "whatWouldChange": "Empirical evidence showing that enterprise automation consistently creates higher-quality advisory roles that absorb displaced administrative headcount without increasing workload intensity.",
+      "claimIds": [
+        "C1",
+        "C7",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,238 @@
+{
+  "debate_id": "f50aac09-b05e-424e-80f6-d32f0e674912",
+  "debate_title": "Is current AI progress driven mainly by scaling compute, ...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether administrative pre-deployment requirements and output verification protocols impose fatal delays on life-saving medical applications or serve as necessary safeguards against systemic hazards.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-deployment gatekeeping creates unacceptable human costs by delaying life-saving automated drug discovery and biological target identification."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Output verification and behavioral audits are essential to prevent catastrophic hazards from autonomous agentic systems before they reach deployment."
+        }
+      ],
+      "linkedNodes": [
+        "sit-318",
+        "saf-beliefs-033",
+        "saf-desires-006",
+        "saf-intentions-113",
+        "acc-intentions-100",
+        "acc-intentions-087",
+        "acc-desires-011",
+        "acc-beliefs-096",
+        "acc-beliefs-029",
+        "acc-desires-037"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the primary constraint on technological deployment and societal benefit is administrative regulation or institutional and physical adoption bottlenecks.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "State oversight and compliance friction are the primary barriers preventing rapid delivery of technological abundance and medical treatments."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Institutional procurement processes, clinical trials, reimbursement timelines, and physical manufacturing constraints dictate the actual speed of societal adoption."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-100",
+        "acc-intentions-087",
+        "acc-desires-011",
+        "acc-beliefs-096",
+        "skp-beliefs-174",
+        "skp-beliefs-177",
+        "skp-intentions-104",
+        "sit-476",
+        "acc-beliefs-029",
+        "acc-desires-037"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-318",
+      "nodeLabel": "The Performance-Compute Divergence",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-174",
+      "nodeLabel": "Pass/Fail Audits as Inadequate for Complex AI Systems",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-033",
+      "nodeLabel": "Society Cannot Absorb AI Capability Shocks at the Pace They Arrive",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-113",
+      "nodeLabel": "Match Oversight Intensity to Agentic AI Risk Tiers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-087",
+      "nodeLabel": "Establish Legal Rights to Train AI on Publicly Available Data",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-011",
+      "nodeLabel": "AI That Can Examine and Explain Its Own Reasoning",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-096",
+      "nodeLabel": "AI Biology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-177",
+      "nodeLabel": "Failure of Static Compute Thresholds Against Sub-Frontier Intrusion Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-104",
+      "nodeLabel": "Advance Targeted AI Policies on Environmental Reporting, Pricing Transparency, and Bias Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-029",
+      "nodeLabel": "Startups Drive Innovation More Than Big Tech",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-113",
+      "nodeLabel": "Maximize AI Capability Per Chip Through Software Optimization",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-146",
+      "nodeLabel": "AI Risk Emerges from Capability Combinations, Not Raw Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-087",
+      "nodeLabel": "Replacing Abstract Safety Claims with Testable Engineering Controls",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-009",
+      "nodeLabel": "Thermodynamic and Hydrological Limits of Compute Infrastructure",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether administrative pre-deployment requirements and output verification protocols impose fatal delays on life-saving medical applications or serve as necessary safeguards against systemic hazards.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions capture valid halves of the regulatory dilemma. Accelerationists correctly identify that compliance friction slows down therapeutic discovery pipelines, while safetyists correctly note that unverified autonomous outputs present systemic risks. Neither side demonstrates how to eliminate administrative delay without simultaneously increasing systemic deployment risk.",
+      "whatWouldChange": "Empirical data from a major jurisdiction implementing streamlined output-verification waivers for medical AI without observing an increase in deployment failures would tip the balance toward the accelerationist framework.",
+      "claimIds": [
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C10"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether the primary constraint on technological deployment and societal benefit is administrative regulation or institutional and physical adoption bottlenecks.",
+      "prevails": "skeptic",
+      "criterion": "empirical_evidence",
+      "rationale": "The skeptic position draws on robust historical analogues, such as the decades-long organizational redesign required during the electrification of American manufacturing between 1890 and 1930. This historical evidence demonstrates that institutional procurement boards, clinical trials, and reimbursement timelines dictate societal adoption speed far more than state regulatory friction alone.",
+      "whatWouldChange": "Evidence showing that removing state pre-deployment compliance mandates immediately accelerates sector-wide adoption regardless of internal corporate procurement rules or physical manufacturing limits would flip the verdict.",
+      "claimIds": [
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

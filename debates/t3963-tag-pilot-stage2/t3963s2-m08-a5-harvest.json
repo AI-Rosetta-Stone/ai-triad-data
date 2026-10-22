@@ -1,0 +1,210 @@
+{
+  "debate_id": "66dfb2da-98b8-41ff-955a-5a69556154db",
+  "debate_title": "Has AI measurably increased productivity in the firms tha...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether retrieval-augmented generation and automated reasoning tools facilitate genuine skill convergence among junior workers or induce severe foundational skill atrophy.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Automated support tools spread capability and enable junior staff to handle complex tasks quickly, accelerating skill development and flattening hierarchies."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Cognitive offloading produces superficial skill convergence where workers mimic automated outputs without acquiring underlying mental models, creating systemic organizational vulnerability."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-207",
+        "saf-beliefs-137",
+        "saf-intentions-112",
+        "sit-103",
+        "acc-beliefs-124",
+        "acc-intentions-111",
+        "acc-intentions-034",
+        "acc-desires-037",
+        "acc-intentions-074",
+        "sit-052"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether corporate adoption of enterprise AI functions primarily as a productivity-enhancing structural transformation or a labor control and wage suppression strategy.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Corporate leadership must prioritize rapid technological deployment and workflow restructuring to maximize output and economic growth, treating regulatory friction as a moral tax."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Corporate leadership deploys AI primarily to capture tacit knowledge, weaken labor leverage, and suppress wages while externalizing long-term risks onto workers."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-intentions-111",
+        "acc-intentions-034",
+        "skp-beliefs-227",
+        "skp-beliefs-229",
+        "skp-desires-081",
+        "sit-393",
+        "acc-desires-037",
+        "acc-intentions-074",
+        "sit-052"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-052",
+      "nodeLabel": "AI-Induced Skill Convergence",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-207",
+      "nodeLabel": "AI Dependency Creates a Reinforcing Cycle of Skill Atrophy and Increased Reliance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-124",
+      "nodeLabel": "Frontier Firm Productivity Multipliers",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-227",
+      "nodeLabel": "Rent-Dissipating Automation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-229",
+      "nodeLabel": "Worker Data Withholding Capacity",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-393",
+      "nodeLabel": "Acceleration Whiplash",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-137",
+      "nodeLabel": "Productivity Metrics Miss the Slow Collapse of Institutional Trust",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-103",
+      "nodeLabel": "Integrating AI into Business and Management",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-111",
+      "nodeLabel": "Replace Discretionary Human Halt Authority with Pre-Programmed Enforcement Actions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-034",
+      "nodeLabel": "Deploy AI as Personalized Workplace Coach and Mentor",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-061",
+      "nodeLabel": "Designing Mandatory Human Checkpoints into AI-Driven Processes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-458",
+      "nodeLabel": "Internal Corporate Power Concentration",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether retrieval-augmented generation and automated reasoning tools facilitate genuine skill convergence among junior workers or induce severe foundational skill atrophy.",
+      "prevails": "C3",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist position is stronger because it rests on documented patterns of cognitive offloading in technical domains, whereas the accelerationist claim relies on short-term troubleshooting speed metrics that fail to measure long-term cognitive retention. Skill convergence requires internalized mental models, but current data indicate that automated reasoning tools frequently substitute for foundational learning rather than accelerate it.",
+      "whatWouldChange": "Controlled longitudinal studies demonstrating that workers who rely on retrieval-augmented generation during training can subsequently perform complex troubleshooting at equal or higher levels without tool access.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether corporate adoption of enterprise AI functions primarily as a productivity-enhancing structural transformation or a labor control and wage suppression strategy.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The debate between structural productivity and labor control is undecidable because both mechanisms occur simultaneously within modern enterprise deployments. Accelerationist metrics track genuine output scaling through agentic workflow redesign, while skeptic analyses correctly identify that these same redesigns capture tacit knowledge and reduce worker bargaining leverage. Neither framework invalidates the other, as corporate actors routinely pursue productivity gains and labor cost control in tandem.",
+      "whatWouldChange": "Firm-level financial disclosures isolating the proportion of productivity gains attributable to algorithmic workflow automation versus the proportion derived from wage suppression and headcount reductions.",
+      "claimIds": [
+        "C1",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

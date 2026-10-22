@@ -1,0 +1,201 @@
+{
+  "debate_id": "15476d2c-8fc1-4918-8ddb-0957ad52e9c6",
+  "debate_title": "Should governments break up vertically integrated AI comp...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether compelling the structural unbundling of proprietary compute and foundational models destroys the scale advantages needed to reach the capability frontier or successfully restores market competition.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that unbundling introduces prohibitive latency penalties across hardware interconnects and destroys the capital scale advantages required for frontier progress."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Argues that hardware physics permits modular separation and that structural unbundling breaks artificial software bottlenecks without impeding raw computational progress."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-067",
+        "acc-beliefs-028",
+        "acc-desires-039",
+        "acc-intentions-078",
+        "skp-beliefs-281",
+        "skp-desires-005",
+        "skp-intentions-138",
+        "acc-desires-037",
+        "acc-intentions-070",
+        "acc-intentions-027"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the primary risk in frontier AI development stems from regulatory delay of technological benefits or from unmonitored infrastructure concentration leading to systemic failure.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Prioritizes rapid technological deployment to accelerate medical cures and economic growth over administrative interventions that slow down development loops."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Prioritizes systemic stability and external verification safeguards over speed, asserting that unverified scaling risks catastrophic collapse."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-067",
+        "acc-beliefs-028",
+        "acc-desires-039",
+        "acc-intentions-078",
+        "saf-beliefs-247",
+        "saf-beliefs-249",
+        "sit-476",
+        "acc-desires-037",
+        "acc-intentions-070",
+        "acc-intentions-027"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-067",
+      "nodeLabel": "Decentralized Markets and Open Development Outperform Central Control in Driving AI Progress",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-138",
+      "nodeLabel": "Secure Contractual Exit Rights to Prevent AI Vendor Data Lock-In",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-070",
+      "nodeLabel": "Shift AI Competition from Software to Physical Infrastructure Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-004",
+      "nodeLabel": "Build Shared-Ownership Structures for AI Production",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-126",
+      "nodeLabel": "Create Curated-Data Baselines to Catch AI-Generated Contamination",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-298",
+      "nodeLabel": "Data Merger Incipiency Standard",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether compelling the structural unbundling of proprietary compute and foundational models destroys scale advantages or successfully restores market competition.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both sides present valid empirical data, with skeptics citing National Institute of Standards and Technology vendor lock-in figures and accelerationists pointing to multi-billion dollar cluster investments by Microsoft and Google. Neither side has demonstrated whether modular separation of compute and models is technically feasible at the 10 to the 26th floating-point operations threshold without destroying training efficiency. Consequently, the debate remains balanced between documented market concentration risks and unproven technological consequences of unbundling.",
+      "whatWouldChange": "Independent engineering benchmarks demonstrating whether partitioned training clusters can achieve parity with monolithic systems would resolve the empirical deadlock.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

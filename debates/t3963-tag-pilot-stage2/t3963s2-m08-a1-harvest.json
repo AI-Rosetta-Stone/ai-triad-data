@@ -1,0 +1,244 @@
+{
+  "debate_id": "ad96064f-e28e-42aa-8463-fcd22bfd0483",
+  "debate_title": "Has AI measurably increased productivity in the firms tha...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether enterprise software rollouts in service firms operate in modular environments where version rollbacks and error logs contain failures locally, or whether they create systemic operational risks across integrated corporate networks.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Enterprise software rollouts operate in modular environments where version rollbacks and error logs contain failures locally without cascading through interconnected networks."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Software adoption builds deep operational dependencies on timescales that outpace post-market fixes, making systemic collapses difficult to reverse once they start."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-137",
+        "saf-beliefs-213",
+        "saf-desires-006",
+        "sit-103",
+        "sit-172",
+        "acc-beliefs-085",
+        "acc-intentions-074",
+        "acc-intentions-111",
+        "sit-476",
+        "saf-beliefs-232"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether enterprise AI deployments primarily reduce administrative drudgery and enhance service delivery, or whether they function as surveillance tools that intensify labor monitoring and increase worker stress.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "AI tools eliminate repetitive administrative toil, freeing knowledge workers to focus on higher-value tasks and increasing overall productivity."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Firms use enterprise AI to track workers and enforce rigid desk-time quotas, increasing reported worker stress and shifting uncompensated verification labor onto staff."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-085",
+        "acc-intentions-074",
+        "acc-intentions-111",
+        "sit-476",
+        "skp-beliefs-094",
+        "skp-desires-082",
+        "skp-intentions-007",
+        "acc-beliefs-060",
+        "acc-intentions-099",
+        "sit-340"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-137",
+      "nodeLabel": "Productivity Metrics Miss the Slow Collapse of Institutional Trust",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-103",
+      "nodeLabel": "Integrating AI into Business and Management",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-172",
+      "nodeLabel": "AI Deployment, Monitoring, and Operations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-111",
+      "nodeLabel": "Replace Discretionary Human Halt Authority with Pre-Programmed Enforcement Actions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-094",
+      "nodeLabel": "Empirical Evidence Documents Pervasive Bias, Discrimination, and Structural Harm in AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-007",
+      "nodeLabel": "Regulate AI by Use Case, Not by Technology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-232",
+      "nodeLabel": "Recognition-Action Gap in AI Agents",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-234",
+      "nodeLabel": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-104",
+      "nodeLabel": "The Conflict Between Federal and State AI Laws",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-060",
+      "nodeLabel": "Markets and Technology Form a Self-Reinforcing Growth Engine",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-169",
+      "nodeLabel": "AI Deployment Intensifies Labor by Ratcheting Up Productivity Expectations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-204",
+      "nodeLabel": "AI-Driven Productivity Ratchet Intensifies Work Without Reducing Labor Burdens",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-477",
+      "nodeLabel": "Democratic Failure to Curb Digital Corporate Power",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether enterprise software rollouts operate in modular environments where version rollbacks contain failures locally, or whether they create systemic operational risks across integrated corporate networks.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both positions rely on plausible analogies rather than empirical metrics regarding failure containment timescales. The accelerationist claim assumes software architecture permits clean rollbacks, while the safetyist claim assumes dependency depth outpaces fixes, but neither provides deployment data from service sector firms.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether enterprise AI deployments primarily reduce administrative drudgery and enhance service delivery, or whether they function as surveillance tools that intensify labor monitoring and increase worker stress.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both outcomes are documented in current workplace case studies without a clear baseline for which effect dominates service sector deployments. Accelerationists point to task completion speedups, while skeptics document increased verification burdens and worker stress metrics.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

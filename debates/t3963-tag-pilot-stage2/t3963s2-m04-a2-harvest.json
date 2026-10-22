@@ -1,0 +1,188 @@
+{
+  "debate_id": "858030aa-2ed1-4360-8435-4340fd74ce59",
+  "debate_title": "Should governments break up vertically integrated AI comp...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether breaking up vertically integrated AI firms by separating silicon design, cloud infrastructure, and model training is necessary to enable effective safety oversight and prevent systemic risks.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that structural separation introduces severe communication and integration bottlenecks that degrade capability growth and delay beneficial medical and scientific applications."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that vertical integration prevents independent verification and external safety audits, necessitating structural unbundling to ensure public accountability and prevent runaway risks."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-040",
+        "saf-desires-006",
+        "saf-intentions-047",
+        "saf-desires-032",
+        "acc-desires-037",
+        "acc-intentions-047",
+        "acc-intentions-078",
+        "saf-beliefs-247",
+        "saf-desires-002",
+        "saf-intentions-160"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-040",
+      "nodeLabel": "AI Deployment Speed Outpaces Security Governance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-047",
+      "nodeLabel": "Overseeing How AI Systems Manage Trade-Offs Across Complex Networks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-032",
+      "nodeLabel": "Corporate Death Penalty for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-112",
+      "nodeLabel": "Break Down Policy Silos to Assess Corporate AI Power Across Regulatory Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-160",
+      "nodeLabel": "Set the Ethical and Legal Ground Rules for AI Governance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-174",
+      "nodeLabel": "Legal and Legislative Mechanisms for AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-008",
+      "nodeLabel": "Matching AI Oversight Intensity to Decision Stakes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-165",
+      "nodeLabel": "Mandate Dual Kill Criteria: Customer Validation Failures and Third-Party Harm Complaints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-410",
+      "nodeLabel": "Capitalist State Instrumentality",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-477",
+      "nodeLabel": "Democratic Failure to Curb Digital Corporate Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-314",
+      "nodeLabel": "Slow Thinking in Law-Making",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether breaking up vertically integrated AI firms by separating silicon design, cloud infrastructure, and model training is necessary to enable effective safety oversight and prevent systemic risks.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The safety argument rests on verifiable market concentration data showing three firms control over sixty percent of cloud capacity. However, the accelerationist argument correctly identifies unproven assumptions regarding whether standardized interface protocols can replace monolithic hardware-software co-design without severe performance penalties.",
+      "whatWouldChange": "Real-world benchmarks comparing the training efficiency of models built on unbundled infrastructure versus vertically integrated systems would resolve the technical dispute.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

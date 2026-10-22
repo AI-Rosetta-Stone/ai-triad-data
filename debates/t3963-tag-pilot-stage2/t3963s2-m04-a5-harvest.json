@@ -1,0 +1,211 @@
+{
+  "debate_id": "e09c9898-350f-479c-a0c6-4e18ea498223",
+  "debate_title": "Should governments break up vertically integrated AI comp...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether hardware-software co-design can be achieved through standardized interface protocols without incurring prohibitive performance penalties.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Mandatory unbundling and decoupled interfaces introduce prohibitive inter-chip communication delays that destroy high-speed capability scaling."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Standardized APIs and open interfaces permit modular co-design without requiring permanent corporate consolidation or market foreclosure."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-231",
+        "skp-beliefs-190",
+        "skp-desires-005",
+        "skp-intentions-108",
+        "acc-desires-037",
+        "acc-intentions-027",
+        "sit-458",
+        "skp-beliefs-044",
+        "skp-intentions-034",
+        "acc-beliefs-043"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the primary risk in AI development stems from capability acceleration or compute concentration and loss of human oversight.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "The primary objective is maximizing capability growth to solve human disease and scarcity, making structural delays unacceptable."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "The primary objective is maintaining safety oversight and preventing unconstrained capabilities, even if structural interventions slow commercial velocity."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-247",
+        "saf-desires-006",
+        "saf-intentions-213",
+        "acc-desires-037",
+        "acc-intentions-027",
+        "sit-458",
+        "saf-beliefs-249",
+        "saf-desires-002",
+        "saf-intentions-204",
+        "sit-476"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-458",
+      "nodeLabel": "Internal Corporate Power Concentration",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-190",
+      "nodeLabel": "Single Points of Control over Compute Hardware Function as Incumbent Capture Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-213",
+      "nodeLabel": "Requiring Layered Accountability Across the AI-Generated NCII Supply Chain",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-204",
+      "nodeLabel": "Train AI on Constitutional Principles to Generalize Safety Beyond Narrow Rules",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-044",
+      "nodeLabel": "AI's True Financial and Environmental Costs Are Systematically Obscured",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-017",
+      "nodeLabel": "Dismantle Legacy Structures -- Borders, Markets, Institutions -- to Unlock AI-Driven Progress",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether hardware-software co-design can be achieved through standardized interface protocols without incurring prohibitive performance penalties.",
+      "prevails": "C1",
+      "criterion": "specificity",
+      "rationale": "The accelerationist position provides a specific and testable metric by quantifying the training latency penalty at forty percent. The skeptic position relies on abstract modularity arguments without offering comparative performance data from large-scale training runs. Therefore, the empirical claim regarding communication overhead currently holds greater technical specificity.",
+      "whatWouldChange": "Public release of training efficiency data from multi-vendor clusters demonstrating parity with vertically integrated systems would overturn this assessment.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether the primary risk in artificial intelligence development stems from capability acceleration or compute concentration and loss of human oversight.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "This disagreement rests on a fundamental normative conflict between maximizing capability growth and enforcing safety oversight. Neither position can be proven superior through empirical evidence alone, as both prioritize different societal outcomes. Consequently, the evaluation remains undecidable without a prior political or ethical consensus on risk tolerance.",
+      "whatWouldChange": "Legislative or regulatory mandate establishing a formal risk threshold for artificial intelligence development would resolve the underlying value conflict.",
+      "claimIds": [
+        "C1",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

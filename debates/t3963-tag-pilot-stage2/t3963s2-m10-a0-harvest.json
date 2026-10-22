@@ -1,0 +1,215 @@
+{
+  "debate_id": "20f33487-6059-499b-a7c1-7db38b287582",
+  "debate_title": "Is the market for frontier AI models becoming more concen...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether exclusive AI infrastructure partnerships and high-density data centers should face public utility oversight or operate under private capital freedom.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that public utility oversight and mandatory compliance gates create debilitating bureaucratic delays that stall technological progress and economic growth."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that unmonitored private control over the compute frontier creates existential governance risks and strips humanity of necessary safety controls."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-247",
+        "saf-beliefs-263",
+        "saf-desires-031",
+        "saf-desires-006",
+        "acc-intentions-070",
+        "acc-desires-037",
+        "acc-beliefs-025",
+        "sit-213",
+        "saf-desires-002",
+        "saf-intentions-231"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether high-density data center deployments shift grid upgrade costs onto residential ratepayers through unfair cost-allocation mechanisms.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Argues that commercial data facilities defer infrastructure obligations and socialize upgrade costs onto residential utility ratepayers."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that energy demands are engineering challenges solved through private capital building new generation capacity rather than moral hazards requiring state rationing."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-181",
+        "skp-beliefs-222",
+        "skp-desires-005",
+        "skp-intentions-034",
+        "acc-intentions-070",
+        "acc-desires-037",
+        "acc-beliefs-025",
+        "sit-213",
+        "acc-beliefs-029",
+        "acc-beliefs-043"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-222",
+      "nodeLabel": "Grid Infrastructure Cost-Shifting onto Residential Utility Ratepayers",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-070",
+      "nodeLabel": "Shift AI Competition from Software to Physical Infrastructure Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-213",
+      "nodeLabel": "Temporal Mismatch of AI Energy Impacts",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-263",
+      "nodeLabel": "Cloud Infrastructure Enforcement Is Necessary but Insufficient for Reaching Foreign Deployers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-031",
+      "nodeLabel": "Bilateral Compute Capping Treaty",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-181",
+      "nodeLabel": "Hyperscaler Cloud Monopolies Extract Compute Windfalls While Shifting Deployment Liabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-025",
+      "nodeLabel": "Computational Power Is the New Measure of National Strength",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-231",
+      "nodeLabel": "Binding AI Accountability to Physical Infrastructure Metrics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-029",
+      "nodeLabel": "Startups Drive Innovation More Than Big Tech",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-154",
+      "nodeLabel": "Challenges in AI Governance and Policy",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether exclusive AI infrastructure partnerships and high-density data centers should face public utility oversight or operate under private capital freedom.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions offer valid frameworks with competing systemic risks. The safetyist position accounts for systemic infrastructure fragility and catastrophic concentration risks, while the accelerationist position accounts for the opportunity costs of delay in a competitive geopolitical market. Neither side provides a mechanism to simultaneously eliminate bureaucratic delay and systemic monopoly risk.",
+      "whatWouldChange": "Quantitative comparative data measuring the exact velocity of innovation under regulated utility frameworks versus unconstrained private markets in foundational technology sectors.",
+      "claimIds": [
+        "C3",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether high-density data center deployments shift grid upgrade costs onto residential ratepayers through unfair cost-allocation mechanisms.",
+      "prevails": "skeptic",
+      "criterion": "specificity",
+      "rationale": "The skeptic position relies on concrete utility rate filings and interconnection queue data showing how transmission upgrade costs are socialized across regional ratepayer bases. The opposing view asserts that private capital will solve energy demands without offering comparable empirical documentation of cost-allocation formulas currently used by regional transmission organizations.",
+      "whatWouldChange": "Audited financial reports from regional transmission organizations demonstrating that commercial data center operators fully fund dedicated substation and high-voltage transmission upgrades without ratepayer subsidization.",
+      "claimIds": [
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

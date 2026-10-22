@@ -1,0 +1,177 @@
+{
+  "debate_id": "4e785b8d-4868-4cd1-9a8d-84e848ff4509",
+  "debate_title": "Should the largest AI model training runs require a gover...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether federal regulatory agencies should enforce pre-training compute licenses and administrative boundaries or rely exclusively on post-deployment liability and enforcement of existing civil rights and labor statutes.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Federal oversight should avoid pre-training compute limits entirely, using modular verification and post-deployment enforcement to support rapid technological iteration and open-source development."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Federal regulators must establish pre-training governance mechanisms and tiered audit requirements to prevent irreversible risks before autonomous capabilities are locked into model weights."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Federal agencies should abandon speculative compute limits and instead enforce strict data provenance, algorithmic accountability, and labor protections against documented present-day harms."
+        }
+      ],
+      "linkedNodes": [
+        "skp-intentions-141",
+        "skp-beliefs-231",
+        "skp-desires-076",
+        "skp-beliefs-047",
+        "acc-beliefs-116",
+        "acc-desires-037",
+        "acc-intentions-008",
+        "saf-intentions-002",
+        "saf-beliefs-247",
+        "saf-beliefs-249"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-116",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-008",
+      "nodeLabel": "Matching AI Oversight Intensity to Decision Stakes",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-076",
+      "nodeLabel": "Public Right to Know What AI Was Trained On",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-002",
+      "nodeLabel": "Scaling Oversight to Real-Time Remediation Speed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-177",
+      "nodeLabel": "Failure of Static Compute Thresholds Against Sub-Frontier Intrusion Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-080",
+      "nodeLabel": "Institutionalize Civil Rights Technical Expertise Within AI Regulatory Bodies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-242",
+      "nodeLabel": "Regulatory Guidance Rollback",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-080",
+      "nodeLabel": "Build Capture-Resistant AI Governance Through Organizational Structure, Not Fines",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-117",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether federal regulatory agencies should enforce pre-training compute licenses and administrative boundaries or rely exclusively on post-deployment liability and enforcement of existing civil rights and labor statutes.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The safetyist position correctly identifies the irreversibility of frontier model weights, but the accelerationist position correctly notes that static compute baselines quickly become obsolete due to algorithmic efficiency gains. Neither camp provides a complete framework that simultaneously prevents catastrophic misuse and preserves open-source innovation without significant regulatory capture.",
+      "whatWouldChange": "Demonstrated empirical evidence that dynamic compute thresholds can successfully track algorithmic efficiency gains without creating insurmountable compliance costs for smaller developers.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

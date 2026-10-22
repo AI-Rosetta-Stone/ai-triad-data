@@ -1,0 +1,189 @@
+{
+  "debate_id": "eb614ae6-e383-4a11-adf1-53c9f6548f78",
+  "debate_title": "Will generative AI raise or lower overall employment in o...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-deployment safety audits or continuous runtime telemetry provide superior protection against cascading systemic errors in multi-agent systems.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Mandatory pre-deployment safety gates are required to evaluate the total blast radius of multi-agent networks because localized metrics miss cumulative compounding errors."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Dynamic runtime telemetry and continuous feedback loops catch operational drift and cascading classification shifts significantly faster than static pre-market reviews."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-207",
+        "saf-beliefs-020",
+        "saf-intentions-112",
+        "saf-desires-003",
+        "acc-beliefs-090",
+        "acc-intentions-086",
+        "acc-intentions-054",
+        "acc-desires-026",
+        "saf-desires-004",
+        "saf-intentions-053"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-207",
+      "nodeLabel": "AI Dependency Creates a Reinforcing Cycle of Skill Atrophy and Increased Reliance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-227",
+      "nodeLabel": "Rent-Dissipating Automation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-103",
+      "nodeLabel": "Integrating AI into Business and Management",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-020",
+      "nodeLabel": "Learned Hazards Propagate Across AI Agent Networks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-229",
+      "nodeLabel": "Worker Data Withholding Capacity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-090",
+      "nodeLabel": "Infrastructure-Bound Option Value Modeling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-086",
+      "nodeLabel": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-054",
+      "nodeLabel": "Ground AI Safety in Observable Behavior and Real-World Testing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-203",
+      "nodeLabel": "Historical Evidence Shows Technology Adoption Lags Capability by Years to Decades",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-053",
+      "nodeLabel": "Building Safety Guardrails into Autonomous AI Agents",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-140",
+      "nodeLabel": "Containing the Blast Radius of Autonomous AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-088",
+      "nodeLabel": "Dynamic Defensive Superiority",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-078",
+      "nodeLabel": "Targeted Real-Time Safety Investment Is More Efficient Than Front-Loading",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-460",
+      "nodeLabel": "Live Certification and Deprecation Protocol",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-deployment safety audits or continuous runtime telemetry provide superior protection against cascading systemic errors in multi-agent systems.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both positions present unverified empirical claims about error detection speeds without citing comparative benchmarks or deployment data from multi-agent enterprise systems. The safetyist claim relies on theoretical compounding risks, while the accelerationist claim assumes runtime telemetry outpaces static reviews without empirical proof of scale.",
+      "whatWouldChange": "Comparative empirical trials measuring error containment rates and detection latency between static pre-deployment gates and continuous runtime telemetry in production environments.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

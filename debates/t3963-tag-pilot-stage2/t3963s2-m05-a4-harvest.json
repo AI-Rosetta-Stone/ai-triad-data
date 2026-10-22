@@ -1,0 +1,207 @@
+{
+  "debate_id": "01770294-4098-41b2-b5f5-bfdcfd7d162b",
+  "debate_title": "Should AI systems be barred from making final decisions i...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether runtime telemetry and post-deployment audits can effectively catch and correct systemic bias before permanent damage occurs, or whether feedback loop contamination renders post-hoc monitoring blind to baseline exclusion.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that continuous output audits catch demographic disparities within hours and outperform slow, static code restrictions."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Maintains that feedback-loop contamination blinds telemetry systems to baseline exclusion in all tested live environments, making post-hoc fixes structurally ineffective."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-085",
+        "acc-beliefs-070",
+        "acc-desires-001",
+        "acc-intentions-078",
+        "sit-170",
+        "saf-desires-029",
+        "saf-beliefs-237",
+        "saf-beliefs-248",
+        "acc-intentions-003",
+        "acc-intentions-027"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether pre-deployment certification serves as a necessary safety barrier against irreversible civil rights violations or functions primarily as an administrative moat protecting legacy institutions from nimble competitors.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Prioritizes rapid market innovation and financial inclusion, asserting that pre-deployment gatekeeping creates insurmountable monopolies that freeze economic mobility."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Prioritizes precautionary protections against irreversible credit destruction, arguing that speed without pre-launch gates leads to institutional collapse and wealth theft."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-085",
+        "acc-beliefs-070",
+        "acc-desires-001",
+        "acc-intentions-078",
+        "sit-170",
+        "saf-desires-029",
+        "saf-beliefs-237",
+        "saf-beliefs-248",
+        "acc-intentions-003",
+        "acc-intentions-027"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-041",
+      "nodeLabel": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-077",
+      "nodeLabel": "Precaution Grounded in Lived Experience",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-237",
+      "nodeLabel": "Forensic-Operational Gap in Hardware-Level Attestation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-106",
+      "nodeLabel": "Workplace Algorithms Systematically Shift Power From Workers to Employers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-017",
+      "nodeLabel": "Close the AI Documentation Gap Through Mandatory Disclosure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-003",
+      "nodeLabel": "Adopt Output-Based Evaluation as the Primary AI Safety Methodology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-169",
+      "nodeLabel": "Automating Safety Checks from Code Commit to Deployment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-286",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-029",
+      "nodeLabel": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether runtime telemetry and post-deployment audits can catch systemic bias before permanent damage occurs, or whether feedback loop contamination renders post-hoc monitoring blind to baseline exclusion.",
+      "prevails": "safetyist",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist position correctly identifies a fundamental data gap where rejected applicants leave no trace in subsequent data streams. Accelerationists assert that telemetry catches errors in hours, but they provide no mechanism to track individuals who never enter the system.",
+      "whatWouldChange": "Controlled empirical studies demonstrating that post-deployment algorithms can successfully impute and correct outcomes for unobserved, rejected populations would alter this verdict.",
+      "claimIds": [
+        "C1",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether pre-deployment certification serves as a necessary safety barrier against irreversible civil rights violations or functions primarily as an administrative moat protecting legacy institutions.",
+      "prevails": "undecidable",
+      "criterion": "implementation_specificity",
+      "rationale": "Both positions highlight valid operational risks without offering complete administrative solutions. Upfront certification boards risk regulatory capture and delayed access to credit, while post-launch financial penalties risk leaving victims with seven-year negative credit marks that fines cannot reverse.",
+      "whatWouldChange": "Pilot data showing whether streamlined, time-bound pre-market audits can prevent disparate impacts without cementing market concentration among legacy institutions would resolve the trade-off.",
+      "claimIds": [
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

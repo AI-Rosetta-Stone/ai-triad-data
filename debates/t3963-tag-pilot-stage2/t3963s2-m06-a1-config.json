@@ -1,0 +1,20 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "protocolId": "structured",
+  "audience": "policymakers",
+  "activePovers": [
+    "accelerationist",
+    "safetyist",
+    "skeptic"
+  ],
+  "rounds": 3,
+  "topic": "Will generative AI raise or lower overall employment in office work over the next decade?",
+  "seatTags": {
+    "skeptic": {
+      "pov_tag": "critical",
+      "tag_mode": "scope"
+    }
+  },
+  "slug": "t3963s2-m06-a1",
+  "outputDir": "C:\\Users\\jsnov\\repos\\ai-triad-data\\debates\\t3963-tag-pilot-stage2"
+}

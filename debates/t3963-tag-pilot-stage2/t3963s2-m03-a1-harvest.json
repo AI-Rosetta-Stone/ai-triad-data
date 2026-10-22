@@ -1,0 +1,185 @@
+{
+  "debate_id": "ce0b137a-6214-4f6a-b783-8f4243a98e26",
+  "debate_title": "Should the weights of the most capable AI models be relea...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "The viability and appropriateness of applying physical hardware tracking models to digital software weights.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Argues that tracking high-end hardware and setting compute floors provides an effective choke point analogous to nuclear and chemical supply chain controls."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Maintains that model weights are infinitely duplicable digital matrices rather than scarce physical substances, rendering physical supply chain controls ineffective."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-intentions-259",
+        "saf-desires-029",
+        "sit-284",
+        "acc-desires-037",
+        "acc-intentions-047",
+        "acc-intentions-100",
+        "acc-intentions-087",
+        "saf-beliefs-247",
+        "saf-desires-012"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether static computational thresholds can remain effective given rapid algorithmic efficiency gains.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Maintains that fixed compute thresholds like 10^25 FLOPs can reliably separate high-risk enterprise training runs from university and open-weight experimentation."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that rapid algorithmic efficiency compression halves required compute every year, turning enterprise thresholds into undergraduate cluster ceilings within three years."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-intentions-259",
+        "saf-desires-029",
+        "sit-284",
+        "acc-desires-037",
+        "acc-intentions-047",
+        "acc-intentions-100",
+        "acc-intentions-087",
+        "saf-beliefs-247",
+        "saf-desires-012"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-087",
+      "nodeLabel": "Establish Legal Rights to Train AI on Publicly Available Data",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-259",
+      "nodeLabel": "Gating Frontier Weight Release at Audited Capability Thresholds",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-284",
+      "nodeLabel": "Capability Lag Monitoring",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-158",
+      "nodeLabel": "Use Voluntary Standards as a Bridge to Mandatory AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-298",
+      "nodeLabel": "Data Merger Incipiency Standard",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-040",
+      "nodeLabel": "Deploy AI to Defeat Aging and Offset Demographic Decline",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-113",
+      "nodeLabel": "Institutional Inertia From Entrenched Lobbies Prevents Regulatory Frameworks From Evolving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-063",
+      "nodeLabel": "Regulatory Fragmentation and Cost Burden",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [],
+  "concepts": []
+}

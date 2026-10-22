@@ -1,0 +1,216 @@
+{
+  "debate_id": "ae99c771-a44f-48aa-bcdf-3d68fb02324a",
+  "debate_title": "Should the weights of the most capable AI models be relea...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether upstream software-level weight restrictions are necessary to prevent biosecurity risks or whether they merely create compliance moats without stopping decentralized peer-to-peer distribution.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Argues that upstream model weight restrictions and pre-release licensing under the Export Control Reform Act are necessary because public release makes containment impossible."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that upstream software restrictions fail because peer-to-peer networks mirror weights instantly, making physical-layer supply chain monitoring the only viable site of intervention."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-043",
+        "acc-intentions-022",
+        "sit-340",
+        "saf-beliefs-090",
+        "saf-desires-006",
+        "saf-intentions-168",
+        "acc-beliefs-083",
+        "acc-desires-021",
+        "saf-beliefs-247",
+        "saf-beliefs-131"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the primary risk to society is the suppression of open-source medical and scientific innovation or the catastrophic destabilization resulting from uncontained biological design capabilities.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Prioritizes immediate public health benefits and open-source innovation, arguing that regulatory delays cost thousands of lives from untreated diseases."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Prioritizes precautionary containment, arguing that a catastrophic biological incident would destroy global institutional stability and outweigh incremental innovation."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-043",
+        "acc-intentions-022",
+        "sit-340",
+        "saf-beliefs-090",
+        "saf-desires-006",
+        "saf-intentions-168",
+        "acc-beliefs-083",
+        "acc-desires-021",
+        "saf-beliefs-247",
+        "saf-beliefs-131"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-168",
+      "nodeLabel": "Preventing AI-Assisted Creation of Dangerous Physical Materials",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-269",
+      "nodeLabel": "Enforcement Collapse Across Decentralized Open-Source Model Boundaries",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-078",
+      "nodeLabel": "Foundational AI as a Public Good",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-022",
+      "nodeLabel": "Lobby for International Legal Shields for Open-Weight AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-090",
+      "nodeLabel": "AI Lowers the Barrier to Designing and Producing WMDs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-277",
+      "nodeLabel": "Domain Expertise Deficits of Horizontal Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-129",
+      "nodeLabel": "Safety Rhetoric as Infrastructure Cartel Maintenance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-055",
+      "nodeLabel": "Operationalize AI Risk Mitigation Through Concrete Technical Practices",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-186",
+      "nodeLabel": "Strategic R&D Offshoring to Exploit Legal Asymmetries",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-021",
+      "nodeLabel": "National Self-Sufficiency in AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether upstream software-level weight restrictions prevent biosecurity risks or create compliance moats without stopping decentralized peer-to-peer distribution.",
+      "prevails": "C1",
+      "criterion": "empirical_evidence",
+      "rationale": "Historical precedent from the 1990s crypto wars demonstrates that digital assets bypass central administrative restrictions through decentralized channels. The skeptic position provides concrete historical evidence of code replication, whereas the safetyist position relies on theoretical compute-gating mechanisms that lack empirical proof of stopping peer-to-peer distribution.",
+      "whatWouldChange": "Empirical proof that modern hardware-level compute-gating can permanently block unauthorized peer-to-peer file sharing of model weights.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether the primary risk to society is the suppression of open-source medical innovation or catastrophic destabilization from uncontained biological design capabilities.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "This conflict balances divergent risk models that weigh high-probability incremental public health gains against low-probability catastrophic systemic collapse. Neither side provides definitive empirical probability estimates for these opposing tail risks, leaving the trade-off fundamentally normative.",
+      "whatWouldChange": "Quantitative risk assessments establishing the precise probability and severity of frontier model misuse in biological synthesis compared to baseline disease progression.",
+      "claimIds": [
+        "C3",
+        "C7",
+        "C8",
+        "C9",
+        "C10"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

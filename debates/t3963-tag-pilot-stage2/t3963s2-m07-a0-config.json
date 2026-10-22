@@ -1,0 +1,14 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "protocolId": "structured",
+  "audience": "policymakers",
+  "activePovers": [
+    "accelerationist",
+    "safetyist",
+    "skeptic"
+  ],
+  "rounds": 3,
+  "topic": "Is current AI progress driven mainly by scaling compute, or by algorithmic advances?",
+  "slug": "t3963s2-m07-a0",
+  "outputDir": "C:\\Users\\jsnov\\repos\\ai-triad-data\\debates\\t3963-tag-pilot-stage2"
+}

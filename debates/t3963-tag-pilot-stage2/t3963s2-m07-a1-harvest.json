@@ -1,0 +1,212 @@
+{
+  "debate_id": "456ffe83-ff83-4af6-bb0b-408bfd819d0b",
+  "debate_title": "Is current AI progress driven mainly by scaling compute, ...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "The net impact of regulatory delays and pre-deployment authorization protocols on technological progress and human welfare.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Regulatory delays impose severe human costs by freezing automated drug discovery and medical research pipelines, which outweighs speculative catastrophic risks."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Unconstrained scaling creates irreversible deployment risks that demand mandatory pre-deployment gates to prevent systemic destabilization."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-desires-006",
+        "saf-intentions-202",
+        "acc-beliefs-039",
+        "acc-desires-037",
+        "acc-intentions-027",
+        "saf-beliefs-131",
+        "saf-desires-004",
+        "saf-intentions-047",
+        "sit-170"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "The appropriate institutional mechanism to govern infrastructural resource limits and data center expansion.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Centralized federal pre-deployment boards inevitably suffer from incumbent lobbying and corporate capture, requiring decentralized local utility and labor union oversight instead."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Centralized authority and binding federal pre-deployment gates are necessary to enforce uniform safety standards across distributed high-compute infrastructure."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-desires-006",
+        "saf-intentions-202",
+        "skp-intentions-108",
+        "skp-beliefs-044",
+        "skp-desires-005",
+        "saf-beliefs-131",
+        "saf-desires-004",
+        "saf-intentions-047",
+        "sit-170"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-039",
+      "nodeLabel": "AI Is on an Exponential Trajectory Toward Superhuman Intelligence Through Recursive Self-Improvement",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-202",
+      "nodeLabel": "Scale AI Safety Requirements Proportionally to Capability Level",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-044",
+      "nodeLabel": "AI's True Financial and Environmental Costs Are Systematically Obscured",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-047",
+      "nodeLabel": "Overseeing How AI Systems Manage Trade-Offs Across Complex Networks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-009",
+      "nodeLabel": "Thermodynamic and Hydrological Limits of Compute Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-078",
+      "nodeLabel": "Foundational AI as a Public Good",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-040",
+      "nodeLabel": "Deploy AI to Defeat Aging and Offset Demographic Decline",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "The net impact of regulatory delays and pre-deployment authorization protocols on technological progress and human welfare.",
+      "prevails": "C2",
+      "criterion": "specificity",
+      "rationale": "The accelerationist position offers more concrete, testable claims regarding drug discovery timelines and immediate research pipelines. The safetyist position relies on speculative catastrophic risks that lack comparable empirical baselines for near-term harm.",
+      "whatWouldChange": "Documented evidence of an irreversible catastrophic failure directly tied to unconstrained frontier model deployment would shift the balance.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "The appropriate institutional mechanism to govern infrastructural resource limits and data center expansion.",
+      "prevails": "C4",
+      "criterion": "political_feasibility",
+      "rationale": "The skeptic position correctly identifies the vulnerability of centralized federal boards to regulatory capture and administrative bottlenecks. Decentralized local utility and labor oversight offers a more enforceable pathway than rigid federal wattage caps.",
+      "whatWouldChange": "Empirical proof that centralized federal boards can operate without industry capture while successfully enforcing uniform safety standards across distributed clusters.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: political_feasibility"
+      ]
+    }
+  ],
+  "concepts": []
+}

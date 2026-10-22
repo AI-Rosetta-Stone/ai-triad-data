@@ -1,0 +1,248 @@
+{
+  "debate_id": "702f97f0-845d-4b90-ad5b-ee6d351c47f1",
+  "debate_title": "Should the weights of the most capable AI models be relea...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-market safety reviews and open-weight release restrictions protect the public from catastrophic misuse or primarily serve to entrench incumbent cloud oligopolies while failing to stop proliferation.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Restrictive gating and upstream liability create administrative tollbooths that protect big tech monopolies, fail to stop bad actors who bypass public repositories, and delay beneficial medical R&D."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Open publication of frontier model weights creates irreversible proliferation risks with dangerous biological or cyber traits, necessitating pre-market safety demonstrations tied to computing resources."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-028",
+        "acc-beliefs-085",
+        "acc-intentions-114",
+        "sit-065",
+        "saf-beliefs-213",
+        "saf-beliefs-131",
+        "saf-desires-012",
+        "saf-intentions-158",
+        "sit-305",
+        "sit-170"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether regulatory compliance burdens on model releases cause measurable delays in clinical drug discovery and patient care compared to downstream institutional procurement bottlenecks.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Bureaucratic compliance delays directly withhold life-saving automated drug discovery tools from patients facing fatal diseases."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Institutional adoption lags, such as hospital IT procurement and clinical trial timelines, far exceed any administrative review period, rendering safety audits neutral regarding patient access speed."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-028",
+        "acc-beliefs-085",
+        "acc-intentions-114",
+        "sit-065",
+        "saf-beliefs-213",
+        "saf-beliefs-131",
+        "saf-desires-012",
+        "saf-intentions-158",
+        "sit-305",
+        "sit-170"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-203",
+      "nodeLabel": "Historical Evidence Shows Technology Adoption Lags Capability by Years to Decades",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-065",
+      "nodeLabel": "Technological Exceptionalism in AI Policy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-158",
+      "nodeLabel": "Use Voluntary Standards as a Bridge to Mandatory AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-305",
+      "nodeLabel": "The Fire Extinguisher Analogy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-129",
+      "nodeLabel": "Safety Rhetoric as Infrastructure Cartel Maintenance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-154",
+      "nodeLabel": "Operationalize Decentralized Participatory Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-067",
+      "nodeLabel": "Decentralized Markets and Open Development Outperform Central Control in Driving AI Progress",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-007",
+      "nodeLabel": "Regulate AI by Use Case, Not by Technology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-044",
+      "nodeLabel": "AI's True Financial and Environmental Costs Are Systematically Obscured",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-059",
+      "nodeLabel": "Solving Wafer Production Exposes New Chokepoints in Assembly and Memory",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-213",
+      "nodeLabel": "Requiring Layered Accountability Across the AI-Generated NCII Supply Chain",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-market safety reviews and open-weight release restrictions protect the public from catastrophic misuse or primarily serve to entrench incumbent cloud oligopolies while failing to stop proliferation.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both sides present valid structural mechanisms but lack definitive empirical proof regarding illicit actor behavior at scale. The safetyist position relies on export control logic from semiconductor supply chains, while the skeptic camp counters with the inherent copy-forward physics of digital weights.",
+      "whatWouldChange": "Long-term data tracking whether state-sponsored actors rely primarily on open-weight models or proprietary APIs to execute cyber attacks and biological synthesis.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether regulatory compliance burdens on model releases cause measurable delays in clinical drug discovery and patient care compared to downstream institutional procurement bottlenecks.",
+      "prevails": "safetyist",
+      "criterion": "specificity",
+      "rationale": "The safetyist position offers concrete operational context by pointing to existing hospital IT procurement timelines and clinical trial requirements as the dominant constraints on deployment speed. The accelerationist claim relies on generalized analogies to Linux and cryptography without quantifying the actual administrative delay of proposed AI safety audits.",
+      "whatWouldChange": "Comparative empirical studies showing that compliance audits add weeks or months to deployment schedules that otherwise outpace institutional adoption cycles.",
+      "claimIds": [
+        "C1",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

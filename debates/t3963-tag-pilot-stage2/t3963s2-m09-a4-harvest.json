@@ -1,0 +1,160 @@
+{
+  "debate_id": "eec8d3a9-0796-46d3-8575-1c857090b7e4",
+  "debate_title": "Do AI benchmark scores predict real-world usefulness?",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether mandatory pre-deployment safety gates enforced through federal procurement rules are required alongside runtime monitoring.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-deployment safety gates and static weight reviews create prohibitive compliance bottlenecks and cannot keep pace with iterative updates, making runtime edge monitoring the superior governance model."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Runtime anomaly detection functions as a symptom-checker that cannot diagnose structural defects embedded in proprietary weights, requiring mandatory pre-deployment gates to prevent irreversible failures."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-200",
+        "saf-desires-026",
+        "sit-157",
+        "acc-beliefs-088",
+        "acc-desires-037",
+        "acc-intentions-027",
+        "sit-296",
+        "sit-340",
+        "saf-intentions-087",
+        "saf-desires-002"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-088",
+      "nodeLabel": "Dynamic Defensive Superiority",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-107",
+      "nodeLabel": "Coupling Pre-Deployment Independent Audits with Algorithmic Disgorgement and Strict Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-200",
+      "nodeLabel": "AI Systematically Optimizes Proxy Metrics at the Expense of Intended Outcomes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-157",
+      "nodeLabel": "AI Evaluation, Performance, and Real-World Impact",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-296",
+      "nodeLabel": "Benchmark Lottery",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-094",
+      "nodeLabel": "Empirical Evidence Documents Pervasive Bias, Discrimination, and Structural Harm in AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-174",
+      "nodeLabel": "Pass/Fail Audits as Inadequate for Complex AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-087",
+      "nodeLabel": "Replacing Abstract Safety Claims with Testable Engineering Controls",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether mandatory pre-deployment safety gates enforced through federal procurement rules are required alongside runtime monitoring.",
+      "prevails": "safetyist",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist position draws on established precedent from commercial aviation where runtime error-checking cannot discover foundational structural flaws. The accelerationist claim relies on assertions about speed without demonstrating that runtime tools can diagnose proprietary weight defects.",
+      "whatWouldChange": "Empirical proof that runtime anomaly detection successfully identifies and stops hidden structural weight defects in deployed models without pre-market blueprint inspections.",
+      "claimIds": [
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

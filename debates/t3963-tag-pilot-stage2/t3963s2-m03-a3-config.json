@@ -1,0 +1,20 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "protocolId": "structured",
+  "audience": "policymakers",
+  "activePovers": [
+    "accelerationist",
+    "safetyist",
+    "skeptic"
+  ],
+  "rounds": 3,
+  "topic": "Should the weights of the most capable AI models be released publicly?",
+  "seatTags": {
+    "skeptic": {
+      "pov_tag": "institutional",
+      "tag_mode": "scope"
+    }
+  },
+  "slug": "t3963s2-m03-a3",
+  "outputDir": "C:\\Users\\jsnov\\repos\\ai-triad-data\\debates\\t3963-tag-pilot-stage2"
+}

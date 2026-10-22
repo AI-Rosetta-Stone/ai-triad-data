@@ -1,0 +1,344 @@
+{
+  "debate_id": "966cd8b7-a802-480e-8ff3-47cfd92b10cb",
+  "debate_title": "Will generative AI raise or lower overall employment in o...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether generative artificial intelligence will produce a net expansion or contraction in total office employment over the coming decade.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Output multipliers and market demand growth will generate new professional roles that offset task automation."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Rapid task automation reduces entry-level professional placement and constricts total employment opportunities."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-desires-025",
+        "sit-052",
+        "sit-100",
+        "saf-beliefs-033",
+        "saf-beliefs-100",
+        "saf-intentions-147",
+        "saf-desires-003",
+        "acc-beliefs-105",
+        "acc-intentions-104"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether historical technological transitions, such as the adoption of spreadsheets, provide a valid model for the current pace of artificial intelligence integration.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Technological shifts consistently create new categories of white-collar work after initial adjustments."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "The velocity of artificial intelligence adoption compresses institutional adaptation windows below historical survival thresholds."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-desires-025",
+        "sit-052",
+        "sit-100",
+        "saf-beliefs-033",
+        "saf-beliefs-100",
+        "saf-intentions-147",
+        "saf-desires-003",
+        "acc-beliefs-105",
+        "acc-intentions-104"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether open-source software development accelerates individual skill acquisition faster than traditional institutional training paths degrade.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Open-weight tools allow junior developers to master complex architectures faster than legacy training queues permit."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Automating junior tasks eliminates the core training grounds necessary to develop senior institutional judgment."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-desires-025",
+        "sit-052",
+        "sit-100",
+        "saf-beliefs-033",
+        "saf-beliefs-100",
+        "saf-intentions-147",
+        "saf-desires-003",
+        "acc-beliefs-105",
+        "acc-intentions-104"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-3",
+      "point": "Whether pre-deployment regulatory controls and strict liability rules are necessary to prevent systemic labor degradation or serve primarily to protect dominant firms.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Regulatory burdens create cost barriers that entrench monopolies and delay beneficial innovations."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Mandatory safeguards and liability rules are required to prevent irreversible human capital loss."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-desires-025",
+        "sit-052",
+        "sit-100",
+        "saf-beliefs-033",
+        "saf-beliefs-100",
+        "saf-intentions-147",
+        "saf-desires-003",
+        "acc-beliefs-105",
+        "acc-intentions-104"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-033",
+      "nodeLabel": "Society Cannot Absorb AI Capability Shocks at the Pace They Arrive",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-124",
+      "nodeLabel": "Frontier Firm Productivity Multipliers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-025",
+      "nodeLabel": "Closing the Talent Gap with AI Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-052",
+      "nodeLabel": "AI-Induced Skill Convergence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-100",
+      "nodeLabel": "AI's Transformation of the Labor Market",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-002",
+      "nodeLabel": "Observable Labor Market Contraction from AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-204",
+      "nodeLabel": "AI-Driven Productivity Ratchet Intensifies Work Without Reducing Labor Burdens",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-458",
+      "nodeLabel": "Internal Corporate Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-100",
+      "nodeLabel": "AI Will Erode Skills, Destabilize Economies, and Fracture Social Trust",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-105",
+      "nodeLabel": "Denial-triggered recourse misses the never-notified subject",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-104",
+      "nodeLabel": "Reframe AI Bias as a Quantifiable Business Risk to Drive Corporate Investment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-059",
+      "nodeLabel": "Markets Are Intelligent Systems That Optimize Resource Allocation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-217",
+      "nodeLabel": "Conditioning the Right to Field High-Stakes AI on a Capitalization and Insurance Floor",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-042",
+      "nodeLabel": "Tech Helps Skilled Workers More",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-086",
+      "nodeLabel": "AI as Structurally Inevitable Economic Transformation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-039",
+      "nodeLabel": "AI Is on an Exponential Trajectory Toward Superhuman Intelligence Through Recursive Self-Improvement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-017",
+      "nodeLabel": "Dismantle Legacy Structures -- Borders, Markets, Institutions -- to Unlock AI-Driven Progress",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether generative artificial intelligence will produce a net expansion or contraction in total office employment over the coming decade.",
+      "prevails": "safetyist",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist position relies on concrete Department of Labor statistics showing a fourteen percent drop in entry-level professional placement within targeted sectors. The accelerationist claim relies on generalized output multipliers without direct proof of net headcount growth.",
+      "whatWouldChange": "Official labor data demonstrating consistent net hiring growth across white-collar sectors that deploy generative tools would reverse this evaluation.",
+      "claimIds": [
+        "C1",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether historical technological transitions, such as the adoption of spreadsheets, provide a valid model for the current pace of artificial intelligence integration.",
+      "prevails": "safetyist",
+      "criterion": "specificity",
+      "rationale": "The safetyist stance cites specific enterprise deployment patterns, such as Klarna replacing customer service staff in 2024 to bank savings rather than hire strategists. The accelerationist argument depends on broad historical analogies that fail to capture the unique velocity of cognitive automation.",
+      "whatWouldChange": "Empirical evidence showing that firms routinely redirect payroll savings from automated customer service into new professional headcount would strengthen the historical analogy.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether open-source software development accelerates individual skill acquisition faster than traditional institutional training paths degrade.",
+      "prevails": "safetyist",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for the systemic destruction of entry-level training grounds where junior staff acquire senior judgment. The accelerationist view focuses narrowly on individual output spikes without addressing enterprise pipeline degradation.",
+      "whatWouldChange": "Data proving that open-weight tools enable junior personnel to achieve senior competency levels faster than legacy apprenticeship models permit would validate the accelerationist view.",
+      "claimIds": [
+        "C3",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-3",
+      "conflict": "Whether pre-deployment regulatory controls and strict liability rules are necessary to prevent systemic labor degradation or serve primarily to protect dominant firms.",
+      "prevails": "undecidable",
+      "criterion": "political_feasibility",
+      "rationale": "Both camps present valid governance risks but lack implementation frameworks that survive standard legislative processes. Strict liability and algorithmic disgorgement face steep constitutional hurdles, while unregulated deployment risks severe human capital loss.",
+      "whatWouldChange": "Draft legislation with demonstrated bipartisan support and clear judicial enforcement mechanisms would break the stalemate.",
+      "claimIds": [
+        "C1",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: political_feasibility"
+      ]
+    }
+  ],
+  "concepts": []
+}

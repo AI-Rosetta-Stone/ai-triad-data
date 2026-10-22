@@ -1,0 +1,17 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "protocolId": "structured",
+  "audience": "policymakers",
+  "activePovers": [
+    "accelerationist",
+    "safetyist",
+    "skeptic"
+  ],
+  "rounds": 3,
+  "topic": "Has AI measurably increased productivity in the firms that have adopted it?",
+  "soulOverrides": {
+    "skeptic": "C:\\Users\\jsnov\\repos\\ai-triad-research\\.worktrees\\cl-rerun\\research\\comp-linguist\\analyses\\t3963-tag-pilot\\old-umbrella-skeptic.soul.json"
+  },
+  "slug": "t3963s2-m08-a5",
+  "outputDir": "C:\\Users\\jsnov\\repos\\ai-triad-data\\debates\\t3963-tag-pilot-stage2"
+}

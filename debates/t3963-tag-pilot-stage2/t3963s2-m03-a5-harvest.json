@@ -1,0 +1,226 @@
+{
+  "debate_id": "b46c62dd-9ac6-49c6-8fdc-37b4d7e98c19",
+  "debate_title": "Should the weights of the most capable AI models be relea...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether upstream pre-export controls and data provenance checks can effectively prevent safety risks without disabling open-source AI development.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Strict pre-export checks and audits are necessary to prevent unrecoverable safety failures caused by releasing frontier model weights."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Upstream controls are ineffective against peer-to-peer distribution and only serve to disadvantage open-source developers relative to entrenched labs."
+        }
+      ],
+      "linkedNodes": [
+        "acc-desires-039",
+        "sit-179",
+        "acc-beliefs-103",
+        "saf-beliefs-213",
+        "saf-intentions-259",
+        "saf-beliefs-131",
+        "saf-intentions-009",
+        "acc-desires-037",
+        "acc-intentions-002",
+        "acc-intentions-027"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the primary policy risk is catastrophic safety failure from uncontrolled model release or economic stagnation from monopolistic gatekeeping.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Public model weight release permanently ends human control, requiring society to prioritize risk containment above all else."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Regulatory delays cost human lives by slowing medical and scientific innovations, making permissionless abundance the overriding moral baseline."
+        }
+      ],
+      "linkedNodes": [
+        "acc-desires-039",
+        "sit-179",
+        "acc-beliefs-103",
+        "saf-beliefs-213",
+        "saf-intentions-259",
+        "saf-beliefs-131",
+        "saf-intentions-009",
+        "acc-desires-037",
+        "acc-intentions-002",
+        "acc-intentions-027"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-076",
+      "nodeLabel": "Open Weights Are a Necessary but Insufficient Condition for Meaningful AI Safety Transparency",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-179",
+      "nodeLabel": "Anchoring Data-Provenance Liability at the In-Jurisdiction Deployment Act Rather Than the Relocatable Upstream Join",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-103",
+      "nodeLabel": "Sale-trigger blindness to fused-weight and downstream-join harm",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-259",
+      "nodeLabel": "Gating Frontier Weight Release at Audited Capability Thresholds",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-009",
+      "nodeLabel": "Securing Data Centers and Supply Chains Against Model-Weight Theft",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-269",
+      "nodeLabel": "Enforcement Collapse Across Decentralized Open-Source Model Boundaries",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-154",
+      "nodeLabel": "Operationalize Decentralized Participatory Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-075",
+      "nodeLabel": "AI Harm Materializes at Downstream Integration and Execution",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-022",
+      "nodeLabel": "Lobby for International Legal Shields for Open-Weight AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-106",
+      "nodeLabel": "Continuous versioning makes AI system-state evidence temporally unstable for legal proceedings",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether upstream pre-export controls and data provenance checks can effectively prevent safety risks without disabling open-source AI development.",
+      "prevails": "undecidable",
+      "criterion": "implementation_specificity",
+      "rationale": "Both sides present plausible structural dynamics but lack definitive empirical tests under current Export Control Reform Act frameworks. Accelerationists correctly identify bureaucratic capture risks, while skeptics accurately highlight the lack of data provenance visibility in current open releases.",
+      "whatWouldChange": "Longitudinal data tracking compliance costs for small developers versus large labs under recent Bureau of Industry and Security export rules.",
+      "claimIds": [
+        "C1",
+        "C3",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether the primary policy risk is catastrophic safety failure from uncontrolled model release or economic stagnation from monopolistic gatekeeping.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "This conflict reduces to an incommensurable trade-off between existential risk minimization and economic liberty. Safety advocates prioritize low-probability high-consequence outcomes, whereas accelerationists focus on immediate scientific utility and market competition.",
+      "whatWouldChange": "Validated evaluation benchmarks that accurately quantify the dangerous capability threshold of open-weight models relative to closed systems.",
+      "claimIds": [
+        "C2",
+        "C5",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

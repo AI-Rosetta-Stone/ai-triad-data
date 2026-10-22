@@ -1,0 +1,186 @@
+{
+  "debate_id": "575983ab-5cd2-44ec-8c83-923bd7aea566",
+  "debate_title": "Should governments break up vertically integrated AI comp...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether vertical integration in artificial intelligence is a necessary technical requirement for cluster performance or a discretionary market enclosure strategy.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Vertical integration is technically required because splitting hardware and software development introduces fatal latencies in large clusters."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Vertical integration is a commercial strategy backed by massive capital expenditures designed to create proprietary moats, not an immutable physical law."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-231",
+        "skp-intentions-034",
+        "skp-desires-081",
+        "skp-beliefs-047",
+        "acc-desires-037",
+        "acc-beliefs-072",
+        "acc-intentions-056",
+        "acc-beliefs-043",
+        "acc-intentions-114",
+        "skp-desires-005"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether structural separation should be mandated to enable independent oversight and prevent systemic risks, or rejected to avoid delaying vital technological progress.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Governments must enforce structural separation and independent audits to maintain control over autonomous systems, even if it introduces friction or slows down scaling."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Governments must preserve integrated compute pipelines to maximize the speed of scientific breakthroughs and medical cures, accepting technical risks to avoid human suffering."
+        }
+      ],
+      "linkedNodes": [
+        "acc-desires-037",
+        "acc-beliefs-072",
+        "acc-intentions-056",
+        "saf-beliefs-033",
+        "saf-desires-004",
+        "saf-intentions-142",
+        "acc-beliefs-043",
+        "acc-intentions-114",
+        "sit-464"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-033",
+      "nodeLabel": "Society Cannot Absorb AI Capability Shocks at the Pace They Arrive",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-142",
+      "nodeLabel": "Diversifying AI Architectures to Break Common Failure Modes",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-464",
+      "nodeLabel": "The Control Plane Integration Paradox",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-072",
+      "nodeLabel": "Courts Lack the Expertise to Weigh AI's Diffuse Benefits Against Its Visible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether vertical integration in artificial intelligence is a necessary technical requirement for cluster performance or a discretionary market enclosure strategy.",
+      "prevails": "C2",
+      "criterion": "empirical_evidence",
+      "rationale": "Financial filings and market reports provide concrete dollar figures proving that major firms spent over one hundred billion dollars on capital expenditures to lock down the pipeline. The accelerationist claim relies on generalized assertions about hardware-software co-design without publicly verifiable data from independent clusters. Therefore, the skeptic position wins on empirical strength.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether structural separation should be mandated to enable independent oversight and prevent systemic risks, or rejected to avoid delaying vital technological progress.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for systemic risks by drawing on historical precedents in aviation safety. The accelerationist position accounts for geopolitical speed and medical discovery timelines. Because both values are incommensurate and neither camp provides a framework for weighing human suffering against systemic risk, the conflict remains undecidable on current evidence.",
+      "claimIds": [
+        "C3",
+        "C7",
+        "C1"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

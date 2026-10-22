@@ -1,0 +1,223 @@
+{
+  "debate_id": "f615d0cc-ab31-4f3d-ae2b-80aab5f4d5ed",
+  "debate_title": "Is the market for frontier AI models becoming more concen...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether open-weight model distribution successfully decentralizes utility and bypasses cloud provider monopolies or merely shifts the burden of upstream capital and safety risks to downstream users.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Open-weight distribution decentralizes model utility to edge hardware, bypassing institutional tollbooths and enabling rapid innovation."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Downloading open weights does not alter upstream capital concentration, as the models require massive centralized funding to create."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-281",
+        "skp-beliefs-231",
+        "skp-desires-005",
+        "skp-intentions-108",
+        "acc-intentions-070",
+        "acc-desires-039",
+        "acc-beliefs-029",
+        "sit-213",
+        "skp-intentions-158",
+        "skp-intentions-034"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether pre-deployment licensing and mandatory containment statutes are necessary public safety safeguards or economic protectionism for incumbent cloud providers.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Pre-deployment licensing and containment regimes are essential to prevent unrecallable hazards and maintain public accountability."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Licensing regimes function as economic protectionism that entrenches incumbent monopolies and paralyzes independent development."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-070",
+        "acc-desires-039",
+        "acc-beliefs-029",
+        "sit-213",
+        "saf-beliefs-213",
+        "sit-458",
+        "saf-beliefs-131",
+        "saf-desires-012",
+        "saf-intentions-213",
+        "saf-desires-027"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-213",
+      "nodeLabel": "Temporal Mismatch of AI Energy Impacts",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-070",
+      "nodeLabel": "Shift AI Competition from Software to Physical Infrastructure Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-029",
+      "nodeLabel": "Startups Drive Innovation More Than Big Tech",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-458",
+      "nodeLabel": "Internal Corporate Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-158",
+      "nodeLabel": "Levying Infrastructure Taxes on Compute Monopolies to Fund Algorithmic Justice",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-243",
+      "nodeLabel": "Cloud Empires as Virtual States",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-213",
+      "nodeLabel": "Requiring Layered Accountability Across the AI-Generated NCII Supply Chain",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-027",
+      "nodeLabel": "Treating Digital Space as a Public Trust",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-025",
+      "nodeLabel": "Computational Power Is the New Measure of National Strength",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether open-weight model distribution successfully decentralizes utility and bypasses cloud provider monopolies or merely shifts the burden of upstream capital and safety risks to downstream users.",
+      "prevails": "skeptic",
+      "criterion": "scope",
+      "rationale": "The skeptic position accounts for both upstream capital formation and downstream infrastructure dependencies, whereas the accelerationist view isolates code distribution from the capital required to produce it. Claim C6 effectively demonstrates that a downloaded parameter file still originates from a two-hundred-billion-dollar infrastructure furnace.",
+      "whatWouldChange": "Evidence that hardware costs are declining rapidly enough to allow independent, non-cloud entities to routinely train frontier-class models from scratch.",
+      "claimIds": [
+        "C2",
+        "C4",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether pre-deployment licensing and mandatory containment statutes are necessary public safety safeguards or economic protectionism for incumbent cloud providers.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions identify genuine risks that currently lack a reconciling mechanism. Safetyists correctly note that public repositories cannot recall hazardous model weights once published, while accelerationists correctly demonstrate that rigid licensing regimes protect incumbent market positions by raising regulatory compliance costs for new entrants.",
+      "whatWouldChange": "Empirical data from controlled deployment regimes showing whether licensing successfully stops severe hazards without crushing independent market entry.",
+      "claimIds": [
+        "C4",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

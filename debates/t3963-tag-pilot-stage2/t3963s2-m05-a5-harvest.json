@@ -1,0 +1,274 @@
+{
+  "debate_id": "33b4fc55-ba08-4ba9-8e21-c429615f0bd0",
+  "debate_title": "Should AI systems be barred from making final decisions i...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether market-based post-hoc correction mechanisms address algorithmic discrimination faster and more effectively than mandatory pre-deployment testing and regulatory gates.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Market incentives and post-hoc impact testing catch and correct model errors faster than bureaucratic pre-deployment rules."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Post-hoc remedies arrive only after victims sustain permanent financial damage, necessitating mandatory pre-launch validation."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-075",
+        "acc-beliefs-034",
+        "acc-desires-001",
+        "saf-beliefs-240",
+        "saf-desires-003",
+        "saf-intentions-069",
+        "sit-170",
+        "acc-beliefs-071",
+        "acc-intentions-047",
+        "acc-beliefs-105"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether restricting final AI determinations protects entrenched human bias or prevents unrecorded automated discrimination from scaling unchecked.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Banning AI final decisions preserves discretionary human gatekeeping that produces wider demographic disparities than automated systems."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Automated systems codify and accelerate bias across millions of transactions, making algorithmic gatekeeping more harmful than localized human prejudice."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-075",
+        "acc-beliefs-034",
+        "acc-desires-001",
+        "skp-beliefs-041",
+        "skp-desires-074",
+        "skp-intentions-074",
+        "acc-beliefs-071",
+        "acc-intentions-047",
+        "acc-beliefs-105",
+        "acc-desires-010"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether established model-risk management frameworks like SR 11-7 can effectively validate complex AI decision engines prior to production release.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Existing federal guidelines prove that financial institutions can successfully validate complex decision engines before deployment."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Static compliance frameworks based on legacy banking rules impose prohibitive delays that protect incumbents rather than consumers."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-075",
+        "acc-beliefs-034",
+        "acc-desires-001",
+        "saf-beliefs-240",
+        "saf-desires-003",
+        "saf-intentions-069",
+        "sit-170",
+        "acc-beliefs-071",
+        "acc-intentions-047",
+        "acc-beliefs-105"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-desires-074",
+      "nodeLabel": "Civil Rights Parity for Algorithmic Decisions",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-075",
+      "nodeLabel": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-034",
+      "nodeLabel": "AI Accountability Has a Chicken-and-Egg Problem",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-041",
+      "nodeLabel": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-074",
+      "nodeLabel": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-240",
+      "nodeLabel": "Denial-Triggered Recourse Structurally Misses the Never-Rejected Subject",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-069",
+      "nodeLabel": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-071",
+      "nodeLabel": "Quantifiable AI Harms Turn Fairness Into a Business Imperative, Not Just an Ethical One",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-105",
+      "nodeLabel": "Denial-triggered recourse misses the never-notified subject",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-010",
+      "nodeLabel": "Absorb All Human Knowledge into AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-286",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-147",
+      "nodeLabel": "Human Costs of AI Deployment Are Unevenly Distributed Across Social Groups",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-080",
+      "nodeLabel": "Institutionalize Civil Rights Technical Expertise Within AI Regulatory Bodies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-449",
+      "nodeLabel": "Mandating Real-Time Individual Contestability for Consequential Automated Decisions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-205",
+      "nodeLabel": "Procedural Compliance Inefficacy Against Strict Design Defect Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-087",
+      "nodeLabel": "Replacing Abstract Safety Claims with Testable Engineering Controls",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-016",
+      "nodeLabel": "AI Must Not Entrench Injustice or Enable Catastrophe",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether market-based post-hoc correction mechanisms address algorithmic discrimination faster and more effectively than mandatory pre-deployment testing and regulatory gates.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both sides cite isolated historical case studies like the Amazon hiring engine rather than broad, systematic datasets covering industry-wide error rates. The empirical record lacks standardized benchmarks to prove whether market feedback loops catch bias faster than regulatory compliance reviews.",
+      "whatWouldChange": "Comprehensive empirical data comparing the time-to-detection and remediation costs of market-corrected models versus pre-deployment certified models across a major industry sector.",
+      "claimIds": [
+        "C2",
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether restricting final AI determinations protects entrenched human bias or prevents unrecorded automated discrimination from scaling unchecked.",
+      "prevails": "C4",
+      "criterion": "scope",
+      "rationale": "The skeptic position accounts for the unique vector of automated systems, which replicate historical bias at transaction speeds that human committees cannot match. Claim C4 addresses the systemic scaling effect, whereas C1 relies primarily on a tu quoque defense of existing human flaws without demonstrating that automation reduces them.",
+      "whatWouldChange": "Longitudinal demographic studies proving that unconstrained algorithmic decision systems produce lower cumulative disparate impact than traditional human review boards.",
+      "claimIds": [
+        "C1",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether established model-risk management frameworks like SR 11-7 can effectively validate complex AI decision engines prior to production release.",
+      "prevails": "undecidable",
+      "criterion": "implementation_specificity",
+      "rationale": "Neither position provides concrete enforcement metrics or validation timelines to demonstrate how legacy risk frameworks scale to modern neural networks. The debate remains theoretical regarding whether existing banking guidelines can constrain opaque machine learning architectures.",
+      "whatWouldChange": "Empirical evaluations of financial institutions applying SR 11-7 guidelines to deep learning credit-scoring models with documented success and minimal compliance delay.",
+      "claimIds": [],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

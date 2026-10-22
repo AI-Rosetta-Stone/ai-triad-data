@@ -1,0 +1,204 @@
+{
+  "debate_id": "ed863c88-3a20-4172-b1f0-3ca123c6f7d6",
+  "debate_title": "Has AI measurably increased productivity in the firms tha...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether frontier firms achieve exponential output multiplication through agentic AI adoption, proving productivity gains are empirical reality rather than corporate hype.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Frontier firms achieve exponential output multiplication through autonomous agents that replace low-leverage tasks."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Reported gains rely on elite, modular codebases and obscure compounding maintenance liabilities in mixed environments."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-intentions-086",
+        "sit-393",
+        "sit-103",
+        "saf-beliefs-207",
+        "saf-desires-012",
+        "sit-458",
+        "sit-170",
+        "acc-beliefs-089",
+        "acc-intentions-056"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether empirical audits of automated pull-request generation show surging merge conflicts and error correction overhead.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Data shows automated code generation increases merge conflicts and error correction work by twenty-four percent within six months."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Throughput gains in high-performing teams dwarf localized debugging interventions."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-intentions-086",
+        "sit-393",
+        "sit-103",
+        "saf-beliefs-207",
+        "saf-desires-012",
+        "sit-458",
+        "sit-170",
+        "acc-beliefs-089",
+        "acc-intentions-056"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-458",
+      "nodeLabel": "Internal Corporate Power Concentration",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-124",
+      "nodeLabel": "Frontier Firm Productivity Multipliers",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-393",
+      "nodeLabel": "Acceleration Whiplash",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-227",
+      "nodeLabel": "Rent-Dissipating Automation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-207",
+      "nodeLabel": "AI Dependency Creates a Reinforcing Cycle of Skill Atrophy and Increased Reliance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-086",
+      "nodeLabel": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-103",
+      "nodeLabel": "Integrating AI into Business and Management",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-204",
+      "nodeLabel": "AI-Driven Productivity Ratchet Intensifies Work Without Reducing Labor Burdens",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-089",
+      "nodeLabel": "Sovereign Debt Compression via AI Growth",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-172",
+      "nodeLabel": "AI Deployment, Monitoring, and Operations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether frontier firms achieve exponential output multiplication through agentic AI adoption or face compounding maintenance liabilities.",
+      "prevails": "C2",
+      "criterion": "specificity",
+      "rationale": "The safetyist position offers more concrete, testable claims regarding error correction overhead and merge conflicts in mixed codebases. The accelerationist claim relies on high-level enterprise case studies that often omit long-term maintenance metrics.",
+      "whatWouldChange": "Comprehensive empirical data showing sustained productivity increases across standard corporate codebases over multi-year cycles would tip the balance toward the accelerationists.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether empirical audits of automated code generation show surging merge conflicts and error correction overhead.",
+      "prevails": "C2",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist argument cites specific error rates and measurable increases in merge conflicts, providing a falsifiable metric. The accelerationist counter-argument dismisses these findings as localized without providing comparable quantitative benchmarks for team-wide throughput.",
+      "whatWouldChange": "Peer-reviewed studies proving that team-level velocity metrics consistently outweigh localized debugging time in diverse development teams would reverse this finding.",
+      "claimIds": [
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

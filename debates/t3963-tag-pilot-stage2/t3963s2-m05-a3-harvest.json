@@ -1,0 +1,224 @@
+{
+  "debate_id": "c05d00e9-7d16-4726-898b-c99f2eb0a0ed",
+  "debate_title": "Should AI systems be barred from making final decisions i...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-market safety evaluation is necessary or merely imposes bureaucratic delays that worsen human harm compared to continuous telemetry.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Pre-market safety gating is mandatory because post-market telemetry treats live applicants as expendable error-correction data and fails to retroactively restore damaged financial or employment standing."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-market gating causes severe human toll by trapping applicants in slower, biased human review systems, whereas real-time telemetry catches bias quickly without operational bottlenecks."
+        }
+      ],
+      "linkedNodes": [
+        "saf-desires-003",
+        "saf-beliefs-141",
+        "saf-intentions-112",
+        "saf-intentions-226",
+        "acc-intentions-088",
+        "acc-beliefs-071",
+        "acc-desires-011",
+        "acc-intentions-075",
+        "sit-170",
+        "saf-beliefs-122"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether population-level automated tripwires provide adequate oversight or constitute ambient surveillance that leaves individual victims without direct remediation.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Population-level metric monitoring without per-case attribution is insufficient because it fails to issue refunds or jobs to specific wrongly denied applicants."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Automated compliance agents and dynamic metric monitoring provide sufficient systemic transparency and speed without choking market access through static gatekeeping."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-174",
+        "skp-beliefs-278",
+        "skp-desires-082",
+        "skp-desires-088",
+        "skp-intentions-153",
+        "sit-059",
+        "sit-170",
+        "acc-intentions-088",
+        "acc-beliefs-071",
+        "acc-desires-011"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 5,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-071",
+      "nodeLabel": "Quantifiable AI Harms Turn Fairness Into a Business Imperative, Not Just an Ethical One",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-075",
+      "nodeLabel": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-174",
+      "nodeLabel": "Pass/Fail Audits as Inadequate for Complex AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-088",
+      "nodeLabel": "Mandatory Evidence Preservation with Burden-Flipping in Litigation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-153",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-059",
+      "nodeLabel": "Fiduciary Accountability for Algorithmic Outputs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-141",
+      "nodeLabel": "AI Governance Relies on Policies It Cannot Actually Enforce",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-226",
+      "nodeLabel": "Sidecar Integration for Auditability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-011",
+      "nodeLabel": "AI That Can Examine and Explain Its Own Reasoning",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-122",
+      "nodeLabel": "AI Performs Consequential Acts That No One Bears Responsibility For",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-061",
+      "nodeLabel": "Designing Mandatory Human Checkpoints into AI-Driven Processes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-245",
+      "nodeLabel": "Population-Level Detection Without Per-Case Attribution Is Surveillance, Not Recourse",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-164",
+      "nodeLabel": "Companies Use Narrow Audits to Deflect Meaningful AI Oversight",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-market safety evaluation is necessary or merely imposes bureaucratic delays that worsen human harm compared to continuous telemetry.",
+      "prevails": "C2",
+      "criterion": "implementation_specificity",
+      "rationale": "The accelerationist position offers a concrete deployment mechanism through forty-eight-hour automated tripwires. The safetyist position relies on abstract assertions about irreversible harm without detailing how pre-market review agencies will process volume without creating backlogs.",
+      "whatWouldChange": "Data showing that pre-market review catches systemic flaws which automated tripwires systematically miss.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether population-level automated tripwires provide adequate oversight or constitute ambient surveillance that leaves individual victims without direct remediation.",
+      "prevails": "C5",
+      "criterion": "scope",
+      "rationale": "The skeptic argument addresses the full legal scope of anti-discrimination statutes by requiring per-case attribution and specific remedies like job placement or financial refunds. Systemic tripwires alone fail to satisfy current statutory requirements for individual victim compensation.",
+      "whatWouldChange": "Statutory reform that replaces individual civil rights claims with class-action regulatory fines funded by systemic metric violations.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

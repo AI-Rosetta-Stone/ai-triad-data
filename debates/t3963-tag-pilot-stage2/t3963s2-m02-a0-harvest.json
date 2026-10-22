@@ -1,0 +1,236 @@
+{
+  "debate_id": "30ec1c7c-6529-4233-b2ca-1d2c7c6191b6",
+  "debate_title": "Should the largest AI model training runs require a gover...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether a publicly funded verification and auditing scheme can effectively eliminate regulatory capture and market consolidation effects.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "A publicly administered verification fund financed by commercial AI taxes and managed by independent public auditors can insulate smaller developers from compliance costs."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Public verification funds and central bureaucratic committees inevitably introduce administrative bottlenecks, gatekeeping, and political capture that disadvantage decentralized innovators."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-043",
+        "acc-desires-027",
+        "acc-intentions-100",
+        "acc-beliefs-083",
+        "saf-beliefs-249",
+        "saf-beliefs-247",
+        "saf-intentions-125",
+        "sit-476",
+        "acc-beliefs-028",
+        "acc-desires-037"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether pre-market licensing requirements for frontier models are necessary to prevent catastrophic risks or primarily function as an unjustified barrier to beneficial technology.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Pre-market verification for frontier training runs above $10^{26}$ integer operations is a necessary systemic defense against unrecoverable catastrophic harms."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Rigid pre-market approval thresholds impose unacceptable human costs by delaying medical and productivity breakthroughs through speculative administrative caution."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-043",
+        "acc-desires-027",
+        "acc-intentions-100",
+        "acc-beliefs-083",
+        "saf-beliefs-249",
+        "saf-beliefs-247",
+        "saf-intentions-125",
+        "sit-476",
+        "acc-beliefs-028",
+        "acc-desires-037"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-125",
+      "nodeLabel": "Design Licensing Schemes Where Safer Models Earn More",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-074",
+      "nodeLabel": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-129",
+      "nodeLabel": "Safety Rhetoric as Infrastructure Cartel Maintenance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-080",
+      "nodeLabel": "Build Capture-Resistant AI Governance Through Organizational Structure, Not Fines",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-019",
+      "nodeLabel": "Foundation Model Capabilities Can Be Systematically Unlocked and Deployed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether a publicly funded verification and auditing scheme can effectively eliminate regulatory capture and market consolidation effects.",
+      "prevails": "undecidable",
+      "criterion": "implementation_specificity",
+      "rationale": "Both positions rely on theoretical projections of bureaucratic behavior rather than empirical data from federal AI auditing programs. The safetyist camp proposes public financing to offset costs, but neither side provides concrete administrative models showing how public funds would scale against private auditing expenses.",
+      "claimIds": [
+        "C1",
+        "C3",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether pre-market licensing requirements for frontier models are necessary to prevent catastrophic risks or primarily function as an unjustified barrier to beneficial technology.",
+      "prevails": "C2",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for systemic tail risks regarding unrecoverable catastrophic harms above the 10^26 integer operations threshold. The accelerationist critique identifies real costs in administrative delay, but offers no comparative mechanism to manage irreversible systemic safety failures.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

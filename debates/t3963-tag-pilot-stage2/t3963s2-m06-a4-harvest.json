@@ -1,0 +1,224 @@
+{
+  "debate_id": "1736e61d-0836-462a-a399-a42226396cf3",
+  "debate_title": "Will generative AI raise or lower overall employment in o...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether generative AI adoption results in net workforce augmentation or net job displacement and increased error-correction burdens.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Deploying generative AI eliminates redundant tasks and shifts human labor to higher-value problem solving, resulting in broader economic augmentation."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Enterprise deployments cut support roles and transfer unverified output onto remaining staff, increasing error-correction burdens and operational risk."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-085",
+        "acc-desires-026",
+        "acc-intentions-088",
+        "acc-beliefs-048",
+        "saf-intentions-077",
+        "saf-beliefs-218",
+        "saf-desires-023",
+        "acc-intentions-027",
+        "acc-intentions-052",
+        "sit-098"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether labor boards and unions should use statutory mechanisms like Section 8(a)(5) of the National Labor Relations Act to govern automated task redesign.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Regulatory oversight and collective bargaining mandates create harmful bottlenecks that delay innovation and critical societal progress."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Existing labor board authorities must govern task-redesign pathways to protect workers from sudden displacement and uncompensated verification labor."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-227",
+        "skp-beliefs-204",
+        "skp-desires-081",
+        "skp-intentions-035",
+        "acc-beliefs-085",
+        "acc-desires-026",
+        "acc-intentions-088",
+        "acc-beliefs-048",
+        "skp-beliefs-042",
+        "skp-beliefs-008"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-227",
+      "nodeLabel": "Rent-Dissipating Automation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-204",
+      "nodeLabel": "AI-Driven Productivity Ratchet Intensifies Work Without Reducing Labor Burdens",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-035",
+      "nodeLabel": "Prevent AI Labor Arbitrage Through Mandatory Wage Equivalence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-048",
+      "nodeLabel": "Near-Term AI Harms Are Acceptable Costs of Long-Term Transformation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-077",
+      "nodeLabel": "Treating AI Deployment as Change Management, Not Just Tech Rollout",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-023",
+      "nodeLabel": "Dissent on AI Safety Must Be Protected, Not Punished",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-008",
+      "nodeLabel": "Precarious Human Labor Behind the Automation Facade",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-173",
+      "nodeLabel": "Governance Frameworks and Institutional Design",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-052",
+      "nodeLabel": "Remove Barriers and Increase Funding to Accelerate AI Progress",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-154",
+      "nodeLabel": "Challenges in AI Governance and Policy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-083",
+      "nodeLabel": "Inserting Human Judgment Where Autonomous AI Makes Consequential Choices",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether generative AI adoption results in net workforce augmentation or net job displacement and increased error-correction burdens.",
+      "prevails": "C2",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist position prevails on empirical evidence because it documents measurable drops in administrative support roles following enterprise deployments. The accelerationist claim relies on generalized assertions about higher-value problem solving without comparable workforce metrics.",
+      "whatWouldChange": "Robust longitudinal employment data showing that firms adopting generative AI experience net job growth and verifiable transitions of displaced staff into higher-value roles would shift the balance.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether labor boards and unions should use statutory mechanisms like Section 8(a)(5) of the National Labor Relations Act to govern automated task redesign.",
+      "prevails": "C4",
+      "criterion": "implementation_specificity",
+      "rationale": "The skeptic position provides concrete implementation specificity by identifying existing statutory mechanisms under the National Labor Relations Act to govern task redesign. The accelerationist position relies on abstract warnings about innovation bottlenecks without detailing alternative enforcement frameworks.",
+      "whatWouldChange": "Empirical evidence demonstrating that labor board oversight systematically halts productivity growth across entire economic sectors would validate the accelerationist concern over regulatory bottlenecks.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

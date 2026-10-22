@@ -1,0 +1,237 @@
+{
+  "debate_id": "1191b43d-1e23-46b5-bf0d-f55e10d3703c",
+  "debate_title": "Has AI measurably increased productivity in the firms tha...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether automated telemetry and feedback loops successfully prevent synthetic error accumulation over long time horizons.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Automated telemetry and real-time tracking successfully detect and repair synthetic errors, preventing long-term data degradation."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Recursive machine training on unverified outputs causes systemic error accumulation and institutional knowledge decay within eighteen months."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-092",
+        "acc-desires-025",
+        "acc-beliefs-059",
+        "acc-desires-010",
+        "saf-beliefs-248",
+        "saf-beliefs-137",
+        "saf-desires-029",
+        "saf-intentions-024",
+        "saf-beliefs-207",
+        "saf-intentions-219"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether pre-deployment safety gates and accountability structures are necessary safeguards or regulatory bottlenecks.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-deployment committees and regulatory mandates impose bureaucratic delay that harms workers and protects legacy vendors."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Verifiable rollback protocols and named institutional accountability are required before deployment to prevent systemic collapse."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-092",
+        "acc-desires-025",
+        "acc-beliefs-059",
+        "acc-desires-010",
+        "saf-beliefs-248",
+        "saf-beliefs-137",
+        "saf-desires-029",
+        "saf-intentions-024",
+        "saf-beliefs-207",
+        "saf-intentions-219"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-204",
+      "nodeLabel": "AI-Driven Productivity Ratchet Intensifies Work Without Reducing Labor Burdens",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-059",
+      "nodeLabel": "Markets Are Intelligent Systems That Optimize Resource Allocation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-133",
+      "nodeLabel": "Organizations Fund AI Experiments but Lack Scaling Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-103",
+      "nodeLabel": "Integrating AI into Business and Management",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-231",
+      "nodeLabel": "Deployment-Capability Lag",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-092",
+      "nodeLabel": "Instrumented Audit Trails Amortize Remediation Cost Where Reconstructive Burden Compounds",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-025",
+      "nodeLabel": "Closing the Talent Gap with AI Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-010",
+      "nodeLabel": "Absorb All Human Knowledge into AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-137",
+      "nodeLabel": "Productivity Metrics Miss the Slow Collapse of Institutional Trust",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-024",
+      "nodeLabel": "Treating Missing AI Documentation as a Safety Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-221",
+      "nodeLabel": "Folk Conception of Work",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-229",
+      "nodeLabel": "Worker Data Withholding Capacity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-207",
+      "nodeLabel": "AI Dependency Creates a Reinforcing Cycle of Skill Atrophy and Increased Reliance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-219",
+      "nodeLabel": "Blind Auditing Game Methodology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-149",
+      "nodeLabel": "Organizational Knowledge Decays Multiplicatively, Not Linearly",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether automated telemetry and feedback loops successfully prevent synthetic error accumulation over long time horizons.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both positions rely on limited or mismatched evidence samples. The accelerationist claim measures short-term sandbox metrics, while the safetyist claim projects long-term systemic failure without empirical proof of inevitability.",
+      "whatWouldChange": "Multi-year enterprise case studies measuring error rates and correction overhead past the eighteen-month mark would tip the balance.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether pre-deployment safety gates and accountability structures are necessary safeguards or regulatory bottlenecks.",
+      "prevails": "C5",
+      "criterion": "implementation_specificity",
+      "rationale": "The safetyist position offers concrete mechanisms like verifiable rollback protocols and named institutional accountability. The accelerationist counter-argument relies on broad assertions of bureaucratic delay without proposing alternative oversight structures.",
+      "whatWouldChange": "Empirical proof that lighter oversight structures achieve equal error mitigation without adding administrative delay would flip this verdict.",
+      "claimIds": [
+        "C3",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

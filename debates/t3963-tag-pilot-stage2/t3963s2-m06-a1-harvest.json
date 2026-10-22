@@ -1,0 +1,196 @@
+{
+  "debate_id": "90e51792-be0a-4eb2-a632-5f9e7d5d6b97",
+  "debate_title": "Will generative AI raise or lower overall employment in o...",
+  "conflicts": [],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-204",
+      "nodeLabel": "AI-Driven Productivity Ratchet Intensifies Work Without Reducing Labor Burdens",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-227",
+      "nodeLabel": "Rent-Dissipating Automation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-238",
+      "nodeLabel": "Swivel Chair Governance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-231",
+      "nodeLabel": "Deployment-Capability Lag",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-033",
+      "nodeLabel": "Society Cannot Absorb AI Capability Shocks at the Pace They Arrive",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-213",
+      "nodeLabel": "Requiring Layered Accountability Across the AI-Generated NCII Supply Chain",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-070",
+      "nodeLabel": "Shift AI Competition from Software to Physical Infrastructure Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-056",
+      "nodeLabel": "AI Dependency Corrodes Trust, Deskills Workers, and Destabilizes Livelihoods",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-181",
+      "nodeLabel": "Hyperscaler Cloud Monopolies Extract Compute Windfalls While Shifting Deployment Liabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-115",
+      "nodeLabel": "Federal Preemption of State AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-036",
+      "nodeLabel": "Some Workers Are Far More Vulnerable to AI Displacement Than Others",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-063",
+      "nodeLabel": "Regulatory Fragmentation and Cost Burden",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether federal labor agencies should pre-screen text-prediction tools that replace more than five percent of a company's workforce",
+      "prevails": "C1",
+      "criterion": "implementation_specificity",
+      "rationale": "Claim C1 offers a concrete numerical threshold of five percent displacement for regulatory intervention, whereas Claim C5 relies on abstract claims about national decline without defining enforcement mechanisms. Lawmakers and congressional staff can operationalize a fixed displacement percentage much more easily than broad economic growth arguments.",
+      "whatWouldChange": "Empirical proof that pre-deployment screening mechanisms routinely cause catastrophic delays in critical software updates would undermine the feasibility of C1.",
+      "claimIds": [
+        "C1",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether enterprise firms deploy text-prediction systems as task-automation mechanisms that shift verification labor onto remaining staff",
+      "prevails": "C2",
+      "criterion": "empirical_evidence",
+      "rationale": "Claim C2 is directly supported by empirical findings from a 2024 National Bureau of Economic Research study cited in Claim C4, which documents a thirty-four percent rise in worker stress scores. This specific evidence grounds the theoretical claim in observable workplace outcomes.",
+      "whatWouldChange": "Replication studies showing that administrative staff experience reduced stress and lower error-checking burdens following software integration would refute C2.",
+      "claimIds": [
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether utility-scale compute investments by cloud monopolists represent neutral engines of growth or extraction infrastructure",
+      "prevails": "C7",
+      "criterion": "empirical_evidence",
+      "rationale": "Claim C7 relies on verifiable financial transactions, specifically billions spent on power purchase agreements and data center real estate. Claim C8 reframes these expenditures as extraction infrastructure, which is a normative interpretation rather than a falsifiable empirical measurement.",
+      "whatWouldChange": "Audit data proving that grid investments exclusively serve monopolistic gatekeeping rather than expanding overall computational capacity would validate C8's framing.",
+      "claimIds": [
+        "C7",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

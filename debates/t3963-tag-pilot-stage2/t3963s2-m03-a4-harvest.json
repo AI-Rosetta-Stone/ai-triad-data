@@ -1,0 +1,229 @@
+{
+  "debate_id": "c980891f-ceee-489c-835b-84fa19d60862",
+  "debate_title": "Should the weights of the most capable AI models be relea...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether automated gradient-based fine-tuning reliably strips safety guardrails from open-weight models faster than decentralized security ecosystems can detect and patch vulnerabilities.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that open-weight inspection allows millions of security researchers to patch flaws faster than malicious actors can exploit them."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that automated fine-tuning rapidly neutralizes post-training guardrails before defensive patches can intervene."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-100",
+        "acc-intentions-002",
+        "acc-desires-037",
+        "acc-beliefs-088",
+        "saf-beliefs-213",
+        "saf-beliefs-014",
+        "saf-desires-006",
+        "acc-beliefs-043",
+        "acc-intentions-061",
+        "saf-beliefs-131"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the Commerce Department can effectively enforce upstream compute thresholds at centralized datacenters despite downstream diffusion.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Maintains that compute limits are unenforceable because models quickly migrate to edge hardware and decentralized networks."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Maintains that upstream training runs require centralized infrastructure and massive power supplies that remain auditable at jurisdictional chokepoints."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-277",
+        "skp-beliefs-269",
+        "skp-desires-005",
+        "skp-desires-078",
+        "skp-intentions-108",
+        "saf-beliefs-213",
+        "saf-beliefs-014",
+        "saf-desires-006",
+        "skp-beliefs-190",
+        "skp-beliefs-017"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-269",
+      "nodeLabel": "Enforcement Collapse Across Decentralized Open-Source Model Boundaries",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-014",
+      "nodeLabel": "Post-Training Safety Measures Are Reliably Bypassable",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-277",
+      "nodeLabel": "Domain Expertise Deficits of Horizontal Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-078",
+      "nodeLabel": "Foundational AI as a Public Good",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-088",
+      "nodeLabel": "Dynamic Defensive Superiority",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-190",
+      "nodeLabel": "Single Points of Control over Compute Hardware Function as Incumbent Capture Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-017",
+      "nodeLabel": "Compute and Energy Costs Impose Hard Ceilings on AI Scaling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-158",
+      "nodeLabel": "Levying Infrastructure Taxes on Compute Monopolies to Fund Algorithmic Justice",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-061",
+      "nodeLabel": "Argue That Scaling General Models Outperforms Building Specialized AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-002",
+      "nodeLabel": "Scaling Oversight to Real-Time Remediation Speed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether automated gradient-based fine-tuning reliably strips safety guardrails from open-weight models faster than decentralized security ecosystems can detect and patch vulnerabilities.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both camps cite plausible mechanisms without providing definitive longitudinal data on the relative speed of automated attacks versus distributed defense. The dispute remains an empirical race condition that current public datasets do not settle conclusively.",
+      "whatWouldChange": "Controlled benchmarking data tracking the average time required for decentralized networks to patch an exploit versus the time required for an automated script to remove safety guardrails.",
+      "claimIds": [
+        "C3",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether the Commerce Department can effectively enforce upstream compute thresholds at centralized datacenters despite downstream diffusion.",
+      "prevails": "C2",
+      "criterion": "specificity",
+      "rationale": "The accelerationist position details concrete mechanisms of algorithmic compression like quantization that enable local execution, whereas the safetyist position relies on abstract assertions about observable power supplies without detailing how to prevent model weights from circulating peer-to-peer.",
+      "whatWouldChange": "Empirical proof that hardware-level attestation and power supply audits can completely interdict unauthorized training runs and weight distribution across global networks.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

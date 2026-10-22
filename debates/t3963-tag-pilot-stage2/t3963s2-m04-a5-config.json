@@ -1,0 +1,17 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "protocolId": "structured",
+  "audience": "policymakers",
+  "activePovers": [
+    "accelerationist",
+    "safetyist",
+    "skeptic"
+  ],
+  "rounds": 3,
+  "topic": "Should governments break up vertically integrated AI companies that own chips, cloud and models?",
+  "soulOverrides": {
+    "skeptic": "C:\\Users\\jsnov\\repos\\ai-triad-research\\.worktrees\\cl-rerun\\research\\comp-linguist\\analyses\\t3963-tag-pilot\\old-umbrella-skeptic.soul.json"
+  },
+  "slug": "t3963s2-m04-a5",
+  "outputDir": "C:\\Users\\jsnov\\repos\\ai-triad-data\\debates\\t3963-tag-pilot-stage2"
+}

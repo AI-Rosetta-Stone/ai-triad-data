@@ -1,0 +1,242 @@
+{
+  "debate_id": "c2418140-9566-4c54-9d09-3b24104e014a",
+  "debate_title": "Is current AI progress driven mainly by scaling compute, ...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether the Bureau of Industry and Security can effectively enforce export controls by targeting software efficiency gains rather than physical hardware scaling thresholds.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Regulating software efficiency is impossible because decentralized developers distribute code updates globally across unmonitored servers faster than federal audits can track them."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Targeting software metrics abandons reliable physical oversight and leaves regulators unable to verify compliance across decentralized endpoints."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-115",
+        "acc-desires-039",
+        "acc-beliefs-025",
+        "acc-intentions-100",
+        "saf-beliefs-120",
+        "saf-desires-002",
+        "saf-intentions-025",
+        "sit-340",
+        "acc-beliefs-087",
+        "acc-beliefs-043"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether physical infrastructure mandates act as protective moats for incumbent monopolies or serve as essential security guardrails against unvetted scaling.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Physical infrastructure requirements disproportionately burden startups with compliance overhead while protecting legacy cloud providers, hindering beneficial technological progress."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Physical facility constraints and power metering are necessary guardrails to maintain institutional oversight and prevent unverified frontier capabilities."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-115",
+        "acc-desires-039",
+        "acc-beliefs-025",
+        "acc-intentions-100",
+        "saf-beliefs-120",
+        "saf-desires-002",
+        "saf-intentions-025",
+        "sit-340",
+        "acc-beliefs-087",
+        "acc-beliefs-043"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-115",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-025",
+      "nodeLabel": "Computational Power Is the New Measure of National Strength",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-009",
+      "nodeLabel": "Thermodynamic and Hydrological Limits of Compute Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-017",
+      "nodeLabel": "Compute and Energy Costs Impose Hard Ceilings on AI Scaling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-190",
+      "nodeLabel": "Single Points of Control over Compute Hardware Function as Incumbent Capture Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-120",
+      "nodeLabel": "Physical Infrastructure Metrics as an Enforcement Anchor",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-025",
+      "nodeLabel": "Dialing AI Autonomy Up or Down Based on Real-Time Safety Signals",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-087",
+      "nodeLabel": "Roundabout Data Production",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-094",
+      "nodeLabel": "Empirical Evidence Documents Pervasive Bias, Discrimination, and Structural Harm in AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-082",
+      "nodeLabel": "Integrate Affected-Community Auditors into Each AI Development Phase",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-213",
+      "nodeLabel": "Requiring Layered Accountability Across the AI-Generated NCII Supply Chain",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-477",
+      "nodeLabel": "Democratic Failure to Curb Digital Corporate Power",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether the Bureau of Industry and Security can effectively enforce export controls by targeting software efficiency gains rather than physical hardware scaling thresholds.",
+      "prevails": "C1",
+      "criterion": "implementation_specificity",
+      "rationale": "Physical power nodes and sub-nanometer foundry locations provide immutable inspection points under the Export Control Reform Act of 2018. Software efficiency gains lack comparable centralized chokepoints, making physical hardware thresholds far more enforceable by federal regulators.",
+      "whatWouldChange": "Empirical proof that federal audit software can reliably track and intercept algorithmic efficiency updates across decentralized global repositories without missing unauthorized training runs would reverse this verdict.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether physical infrastructure mandates act as protective moats for incumbent monopolies or serve as essential security guardrails against unvetted scaling.",
+      "prevails": "C1",
+      "criterion": "scope",
+      "rationale": "While physical infrastructure rules impose compliance costs that disadvantage smaller firms, they remain the only legally viable mechanism under current export control statutes to prevent unvetted frontier capabilities from proliferating.",
+      "whatWouldChange": "Enactment of new legislative authority specifically tailored to audit software efficiency combined with antitrust enforcement that dismantles incumbent cloud monopolies would make software-based controls viable.",
+      "claimIds": [
+        "C1",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

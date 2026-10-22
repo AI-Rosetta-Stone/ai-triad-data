@@ -1,0 +1,211 @@
+{
+  "debate_id": "dfed8a7a-7a73-47b9-8c7a-68f580ad4d91",
+  "debate_title": "Should AI systems be barred from making final decisions i...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether output-based verification and statistical parity audits can effectively replace inspectable internal logic for ensuring civil rights compliance in automated lending and hiring systems.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Output-based verification via statistical parity audits on large live portfolios detects discriminatory drift within hours, making black-box systems accountable without requiring source code transparency."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Statistical parity audits fail because feedback loops contaminate training data, causing models to replicate past exclusions and hiding bias inside un-auditable mathematics."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-217",
+        "saf-beliefs-248",
+        "saf-desires-012",
+        "sit-059",
+        "acc-beliefs-108",
+        "acc-intentions-054",
+        "acc-intentions-002",
+        "acc-beliefs-111",
+        "acc-intentions-120",
+        "saf-desires-005"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether trade secret protections and closed APIs permanently prevent independent external audits of commercial underwriting models.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Decentralized evaluation frameworks, public bug bounties, and open-weight distribution models allow researchers to probe model weights and overcome proprietary barriers."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Commercial lenders deploy closed API endpoints and invoke intellectual property protections during litigation, blocking independent researchers and regulators from accessing underlying feature weights."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-108",
+        "acc-intentions-054",
+        "acc-intentions-002",
+        "skp-beliefs-288",
+        "skp-beliefs-278",
+        "skp-desires-074",
+        "skp-intentions-157",
+        "acc-beliefs-111",
+        "acc-intentions-120",
+        "skp-beliefs-243"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-108",
+      "nodeLabel": "Domain-specificity of interpretability requirements under products liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-074",
+      "nodeLabel": "Civil Rights Parity for Algorithmic Decisions",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-217",
+      "nodeLabel": "Inadequacy of the Reasonable Person Standard for Algorithmic Negligence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-059",
+      "nodeLabel": "Fiduciary Accountability for Algorithmic Outputs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-054",
+      "nodeLabel": "Ground AI Safety in Observable Behavior and Real-World Testing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-288",
+      "nodeLabel": "Evidentiary Dead End of Opaque AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-157",
+      "nodeLabel": "Surfacing Diffuse AI Harms Through a Single Funded Measurer with Referral Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-111",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-120",
+      "nodeLabel": "Data-Centric Human-in-the-Loop Verification",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-005",
+      "nodeLabel": "No Black Boxes in Ground-Truth-Absent or Feedback-Contaminated Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-169",
+      "nodeLabel": "Automating Safety Checks from Code Commit to Deployment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-243",
+      "nodeLabel": "Proof Privatization",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-076",
+      "nodeLabel": "Open Weights Are a Necessary but Insufficient Condition for Meaningful AI Safety Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether output-based verification and statistical parity audits can effectively replace inspectable internal logic for ensuring civil rights compliance in automated lending and hiring systems.",
+      "prevails": "C3",
+      "criterion": "empirical_evidence",
+      "rationale": "Safety advocates provide stronger empirical grounding by demonstrating how feedback loops contaminate training data with historical exclusions. Accelerationists claim output audits detect discriminatory drift within hours, but they fail to prove that output metrics correct the underlying mathematical bias hidden inside black-box models.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether trade secret protections and closed APIs permanently prevent independent external audits of commercial underwriting models.",
+      "prevails": "C4",
+      "criterion": "implementation_specificity",
+      "rationale": "Skeptics offer superior implementation specificity by pointing to current litigation where lenders invoke intellectual property law to block access to feature weights. Accelerationist reliance on decentralized evaluation and bug bounties lacks concrete enforcement mechanisms to override proprietary restrictions in commercial deployment.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}
