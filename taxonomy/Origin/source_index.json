@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
   "builder": "Build-NodeSourceIndex",
-  "builderVersion": "1.0.0",
-  "inputHash": "2193306bacf74a1ad8545bb57e334f8e732af8b2c468f603371103a52d919f58",
+  "builderVersion": "1.2.0",
+  "inputHash": "ff4b049a4b43e61ee81cf95eba75f78c6d4a98e8ed52322053e616f8fa4923e3",
+  "marksHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "totals": {
     "nodes": 987,
-    "entries": 15991,
+    "entries": 15992,
     "byLinkSource": {
-      "key_point": 11268,
+      "key_point": 11269,
       "factual_claim": 4723
     }
   },
@@ -146841,7 +146842,16 @@
         "extraction_confidence": 0.7
       }
     ],
-    "skp-desires-093": [],
+    "skp-desires-093": [
+      {
+        "source_id": "bill-gatess-blunt-warning-ai-2026",
+        "link_source": "key_point",
+        "quote": "",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.7
+      }
+    ],
     "skp-intentions-004": [
       {
         "source_id": "a16zs-recommendations-national-ai-action-plan-2026",
