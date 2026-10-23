@@ -9717,15 +9717,21 @@
     },
     {
       "id": "ent-361",
-      "name": "2024 German federal election",
+      "name": "2025 German federal election",
       "aliases": [
-        "February 2024 elections",
-        "Germany February 2024 elections"
+        "21st Bundestag election",
+        "Bundestagswahl 2025",
+        "February 2025 German federal election"
       ],
       "entity_type": "event",
       "dolce_category": "perdurant",
-      "description": "",
-      "external_refs": [],
+      "description": "The snap federal election to the 21st German Bundestag, held on 23 February 2025.",
+      "external_refs": [
+        {
+          "label": "Bundeswahlleiterin press release 27/25 (election date)",
+          "url": "https://bundeswahlleiterin.de/en/info/presse/mitteilungen/bundestagswahl-2025/27_25_vorlaeufiges-ergebnis.html"
+        }
+      ],
       "source_refs": [
         "rise-authoritarian-informationalism-escalating-surveillance-2026-6"
       ],
@@ -9740,7 +9746,8 @@
         "model": "claude-sonnet-4-6",
         "usage_id": "enrichment.entity-extraction"
       },
-      "confidence": 0.82
+      "confidence": 0.82,
+      "description_provenance": "ai-drafted"
     },
     {
       "id": "ent-362",
