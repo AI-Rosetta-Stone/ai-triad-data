@@ -369,6 +369,16 @@
             "accountability_algorithmic",
             "risk_systemic_structural"
           ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-desires-093",
+          "category": "Desires",
+          "point": "The document outlines a proposal to designate core human-centric fields like child care, elder care, and education as 'human-reserved' zones, akin to nature reserves, to maintain human employment and relational connection despite technological feasibility of automation.",
+          "verbatim": null,
+          "excerpt_context": "unmapped_concept_backfill",
+          "extraction_confidence": 0.7,
+          "vocabulary_terms": []
         }
       ]
     }
