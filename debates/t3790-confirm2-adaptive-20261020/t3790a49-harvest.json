@@ -1,0 +1,360 @@
+{
+  "debate_id": "a7d56c05-3def-4512-9907-27dac5156d33",
+  "debate_title": "Economic displacement from AI automation: labor policy re...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether cloud-based software deployment bypasses historical enterprise adoption lags.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Cloud delivery and remote updates eliminate the multi-year integration lag that historically protected workers from sudden displacement."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Even lightweight software deployment remains constrained by custom data mapping, internal security reviews, and organizational change management lasting months or years."
+        }
+      ],
+      "linkedNodes": [
+        "sit-100",
+        "sit-104",
+        "acc-intentions-074",
+        "acc-intentions-013",
+        "saf-beliefs-218",
+        "saf-desires-002",
+        "saf-intentions-086",
+        "sit-458",
+        "acc-beliefs-043",
+        "acc-intentions-069"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether administrative pre-deployment audits impose prohibitive economic friction or necessary systemic stability.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Mandatory pre-market reviews create bureaucratic bottlenecks that destroy trillions in productivity gains and delay critical innovations."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Pre-deployment verification is an indispensable institutional safeguard against unrecoverable structural failures in administrative and workforce systems."
+        }
+      ],
+      "linkedNodes": [
+        "sit-100",
+        "sit-104",
+        "acc-intentions-074",
+        "acc-intentions-013",
+        "saf-beliefs-218",
+        "saf-desires-002",
+        "saf-intentions-086",
+        "sit-458",
+        "acc-beliefs-043",
+        "acc-intentions-069"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-203",
+      "nodeLabel": "Historical Evidence Shows Technology Adoption Lags Capability by Years to Decades",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-022",
+      "nodeLabel": "Treating AI Like Past Inventions",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-013",
+      "nodeLabel": "Triggering Post-Scarcity by Maximizing Automated Production",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-069",
+      "nodeLabel": "Accelerate Prosperity Through AI-Driven Abundance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-086",
+      "nodeLabel": "AI as Structurally Inevitable Economic Transformation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-227",
+      "nodeLabel": "Rent-Dissipating Automation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-100",
+      "nodeLabel": "AI's Transformation of the Labor Market",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-104",
+      "nodeLabel": "The Conflict Between Federal and State AI Laws",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-093",
+      "nodeLabel": "Human-Reserved Social and Care Sectors",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-096",
+      "nodeLabel": "Treating AI as Neutral Technology Obscures Its Role in Reproducing Power Structures",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-086",
+      "nodeLabel": "Countering AI-Driven Skill Decay and Cognitive Displacement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-458",
+      "nodeLabel": "Internal Corporate Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-008",
+      "nodeLabel": "Precarious Human Labor Behind the Automation Facade",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-050",
+      "nodeLabel": "Defining Clear Authority Limits for Autonomous AI Agents",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-174",
+      "nodeLabel": "Legal and Legislative Mechanisms for AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-075",
+      "nodeLabel": "Employees Experience AI Integration as Something Done to Them, Not With Them",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-029",
+      "nodeLabel": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-089",
+      "nodeLabel": "Sovereign Debt Compression via AI Growth",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-060",
+      "nodeLabel": "Markets and Technology Form a Self-Reinforcing Growth Engine",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-009",
+      "nodeLabel": "Automate Society's Operating System",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-204",
+      "nodeLabel": "AI-Driven Productivity Ratchet Intensifies Work Without Reducing Labor Burdens",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-002",
+      "nodeLabel": "Observable Labor Market Contraction from AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-166",
+      "nodeLabel": "Quantitative Labor Indices Can Capture AI-Driven Workforce Restructuring",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-046",
+      "nodeLabel": "AI Talent Scarcity Constrains Both Development and Safety Efforts",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-140",
+      "nodeLabel": "Containing the Blast Radius of Autonomous AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-053",
+      "nodeLabel": "Reduced Entry-Level Recruitment Is an Early Empirical Signal of AI Labor Displacement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-019",
+      "nodeLabel": "Foundation Model Capabilities Can Be Systematically Unlocked and Deployed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-035",
+      "nodeLabel": "Scale Expert Performance Across Organizations Using AI",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether cloud-based software deployment bypasses historical enterprise adoption lags.",
+      "prevails": "C6",
+      "criterion": "empirical_evidence",
+      "rationale": "The accelerationist position details concrete operational constraints like custom data mapping and security reviews that slow software integration. The safetyist claim relies on a generalized assertion about cloud delivery without accounting for enterprise procurement realities.",
+      "whatWouldChange": "Data showing enterprise software integration cycles shrinking from months to days across major economic sectors.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether administrative pre-deployment audits impose prohibitive economic friction or necessary systemic stability.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions model plausible systemic outcomes without providing a comparative empirical baseline. The safetyist camp highlights unmeasured catastrophic failure risks, while the accelerationist camp assumes unmeasured productivity losses from compliance delays.",
+      "whatWouldChange": "Comparative case studies measuring both the economic cost of compliance bottlenecks and the frequency of unrecoverable structural failures in unregulated systems.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

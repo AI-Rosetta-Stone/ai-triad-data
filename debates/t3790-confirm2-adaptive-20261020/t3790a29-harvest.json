@@ -1,0 +1,272 @@
+{
+  "debate_id": "5e844d42-4488-403e-b804-8a59cf79d5a9",
+  "debate_title": "Economic displacement from AI automation: labor policy re...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether conditioning tax credits on wage insurance and compliance audits prioritizes vital worker protection over economic efficiency and capital deployment speed.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Mandatory workforce protections and administrative compliance checks impose structural friction that delays capital deployment and sacrifices long-term productivity growth."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Unconditioned automation subsidies externalize labor displacement costs onto local municipalities, making mandatory wage insurance and compliance audits essential for institutional stability."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-218",
+        "saf-desires-012",
+        "saf-intentions-159",
+        "sit-100",
+        "acc-beliefs-090",
+        "acc-intentions-069",
+        "acc-intentions-074",
+        "saf-intentions-112",
+        "sit-409",
+        "sit-316"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-100",
+      "nodeLabel": "AI's Transformation of the Labor Market",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-227",
+      "nodeLabel": "Rent-Dissipating Automation",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-310",
+      "nodeLabel": "Tax Revenue Lag from Labor Share Compression",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-076",
+      "nodeLabel": "Two-Tiered AI Economy Risk",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-159",
+      "nodeLabel": "Require AI Safety Standards as a Condition for Government Grants and Infrastructure Permits",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-035",
+      "nodeLabel": "Prevent AI Labor Arbitrage Through Mandatory Wage Equivalence",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-069",
+      "nodeLabel": "Accelerate Prosperity Through AI-Driven Abundance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-004",
+      "nodeLabel": "Build Shared-Ownership Structures for AI Production",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-090",
+      "nodeLabel": "Infrastructure-Bound Option Value Modeling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-409",
+      "nodeLabel": "Automated Compliance Monitoring",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-060",
+      "nodeLabel": "Markets and Technology Form a Self-Reinforcing Growth Engine",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-040",
+      "nodeLabel": "Deploy AI to Defeat Aging and Offset Demographic Decline",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-025",
+      "nodeLabel": "Fiduciary Duty Survives Automation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-115",
+      "nodeLabel": "Assign Trust Duties to Every Actor in the AI Supply Chain",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-056",
+      "nodeLabel": "AI Dependency Corrodes Trust, Deskills Workers, and Destabilizes Livelihoods",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-008",
+      "nodeLabel": "Precarious Human Labor Behind the Automation Facade",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-137",
+      "nodeLabel": "Productivity Metrics Miss the Slow Collapse of Institutional Trust",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-232",
+      "nodeLabel": "Deferred Prosecution Agreement as Regulatory Tool",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-089",
+      "nodeLabel": "Sovereign Debt Compression via AI Growth",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-102",
+      "nodeLabel": "Classify Data as Its Own Economic Input Alongside Capital and Labor",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-048",
+      "nodeLabel": "Near-Term AI Harms Are Acceptable Costs of Long-Term Transformation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-204",
+      "nodeLabel": "AI-Driven Productivity Ratchet Intensifies Work Without Reducing Labor Burdens",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-022",
+      "nodeLabel": "The AI-Human Cost Crossover Point Limits Automation's Reach",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-246",
+      "nodeLabel": "Engels Pause",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-213",
+      "nodeLabel": "Temporal Mismatch of AI Energy Impacts",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-133",
+      "nodeLabel": "Task Versus Purpose Labor Reallocation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-052",
+      "nodeLabel": "Remove Barriers and Increase Funding to Accelerate AI Progress",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether conditioning tax credits on wage insurance and compliance audits prioritizes vital worker protection over economic efficiency and capital deployment speed.",
+      "prevails": "C4",
+      "criterion": "implementation_specificity",
+      "rationale": "The safetyist position provides concrete operational mechanisms through automated compliance monitoring systems that process verifications within a median window of fourteen business days. This specific counter-evidence neutralizes the accelerationist claim of a fourteen-month administrative delay by demonstrating modern administrative capacity. Consequently, worker protection mandates can be enforced without imposing the crippling economic friction claimed by opponents.",
+      "whatWouldChange": "Independent audits of state revenue departments proving that automated compliance systems routinely fail to meet the fourteen-day median processing window would restore the accelerationist objection.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C4",
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

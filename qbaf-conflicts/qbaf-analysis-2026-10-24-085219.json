@@ -1,0 +1,151 @@
+{
+  "generated_at": "2026-10-24T08:52:19.4254998-04:00",
+  "claim_count": 11,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Global AI Agent Deployment Projections",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-intentions-082"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Fortune 500 AI Agent Adoption Rate",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-intentions-082"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Organizational Concern Over Unsanctioned GenAI",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-041"
+      ]
+    },
+    {
+      "id": "qc-4",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Employee Unsanctioned AI Agent Usage",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-041"
+      ]
+    },
+    {
+      "id": "qc-5",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "FIDES Deterministic Enforcement System",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-053",
+        "sit-087"
+      ]
+    },
+    {
+      "id": "qc-6",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Microsoft Entra Agent ID Preview",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-127"
+      ]
+    },
+    {
+      "id": "qc-7",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Uneven Industry Adoption of Security Frameworks",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-120"
+      ]
+    },
+    {
+      "id": "qc-8",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "PyRIT Open Source Release",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-106",
+        "saf-intentions-008"
+      ]
+    },
+    {
+      "id": "qc-9",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Framework Deficiencies for AI Agents",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-017",
+        "skp-beliefs-120"
+      ]
+    },
+    {
+      "id": "qc-10",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "AI Web Referral Growth Metrics",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-intentions-114",
+        "saf-beliefs-017"
+      ]
+    },
+    {
+      "id": "qc-11",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Microsoft Elevate Funding Pledge",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-intentions-082"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

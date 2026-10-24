@@ -1,0 +1,472 @@
+{
+  "doc_id": "traiga-compliance-guide-texas-ai-law-requirements-2026-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-24T08:33:20Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 32768,
+    "extraction_mode": "fire",
+    "taxonomy_filter": "rag",
+    "taxonomy_nodes": 41,
+    "fire_confidence_threshold": 0.7,
+    "fire_stats": {
+      "api_calls": 1,
+      "iterations": 0,
+      "claims_total": 4,
+      "claims_confident": 4,
+      "claims_iterated": 0,
+      "elapsed_seconds": 11.5,
+      "termination_reason": "all_confident"
+    }
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "traiga-compliance-guide-texas-ai-law-requirements-2026-2026",
+    "measured_at": "2026-10-24T08:43:54.5563896-04:00",
+    "stages": [
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 3.0,
+        "out_units": "still_unmapped",
+        "out_count": 0.0,
+        "ratio": 0.0,
+        "flags": {
+          "near_miss_count": 0,
+          "resolved_count": 3,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      },
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 24691.0,
+        "out_units": "items",
+        "out_count": 11.0,
+        "ratio": 0.0004,
+        "flags": {
+          "dedup_claims_removed": 0,
+          "dedup_points_removed": 0,
+          "density_floor_hit": 0,
+          "factual_claims": 4,
+          "null_node_rate": 0.0,
+          "total_points": 7,
+          "unmapped_concepts": 0,
+          "used_fire": 1
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 979.0,
+        "out_units": "nodes",
+        "out_count": 41.0,
+        "ratio": 0.0419,
+        "flags": {
+          "above_threshold": 40,
+          "beliefs_selected": 5,
+          "below_threshold_forced": 1,
+          "desires_selected": 3,
+          "effective_threshold": 0.6052,
+          "intentions_selected": 33,
+          "rerank_applied": false,
+          "rerank_top1_delta": 0,
+          "synthetic_nodes_scored": 866,
+          "threshold_floor": 0.2,
+          "top_k": 40
+        }
+      }
+    ],
+    "cumulative_retention": 0.0419
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-intentions-024",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "The document highlights the establishment of a 36-month regulatory sandbox by the Texas Department of Information Resources, allowing approved participants to test AI systems without standard state licensing requirements or punitive agency action. This mechanism provides a temporary safe zone designed to foster innovation and reduce compliance barriers for emerging technologies. From an accelerationist perspective, regulatory sandboxes are crucial for enabling rapid iteration and testing without the chilling effect of premature regulatory enforcement. However, the document notes that core prohibitions regarding intentional harm or discrimination still apply within the sandbox.",
+          "verbatim": "TRAIGA establishes a 36-month regulatory sandbox administered by the Texas Department of Information Resources. Approved participants can test AI systems without standard state licensing requirements, enforcement actions, or punitive agency action.",
+          "excerpt_context": "The Regulatory Sandbox section",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Achieve rapid AI innovation by establishing regulatory sandboxes that exempt developers from standard licensing requirements.",
+          "attribution_text": "An Intention within accelerationist discourse that establishes temporary regulatory sandboxes to exempt emerging AI systems from standard licensing and punitive enforcement, thereby accelerating commercial deployment and testing. Encompasses: regulatory safe zones, exemption from licensing, innovation-friendly test environments.",
+          "vocabulary_terms": [
+            "governance_adaptive",
+            "risk_innovation"
+          ],
+          "retrieval_confidence": 0.8551,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-024",
+              "label": "Create Regulatory Sandboxes to Accelerate AI Development",
+              "score": 0.8551
+            },
+            {
+              "id": "acc-intentions-047",
+              "label": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+              "score": 0.7991
+            },
+            {
+              "id": "acc-intentions-103",
+              "label": "Prohibit Vendors from Imposing Safety Restrictions Beyond the Law on Government AI",
+              "score": 0.7891
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-158",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The document notes that TRAIGA creates a legal safe harbor for organizations that substantially comply with the NIST AI Risk Management Framework, transforming documented governance into an affirmative legal defense. The reasoning is that aligning with established risk frameworks bridges operational compliance and statutory immunity, encouraging rigorous internal controls. From a safetyist perspective, this incentivizes comprehensive risk management, red-teaming, and auditable evidence generation across the AI lifecycle. The document acknowledges that relying on voluntary framework alignment requires maintaining robust auditable evidence to satisfy legal standards.",
+          "verbatim": "Under TRAIGA, you have an affirmative defense if you substantially comply with the most recent NIST AI RMF (including the Generative AI Profile)",
+          "excerpt_context": "The NIST AI RMF Safe Harbor section",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Establish safe harbor protections by mandating substantial compliance with recognized risk management frameworks like NIST AI RMF.",
+          "attribution_text": "An Intention within safetyist discourse that conditions legal safe harbor protections on substantial compliance with standardized risk management frameworks, transforming internal safety documentation into an affirmative legal defense. Encompasses: risk management framework alignment, auditable safety documentation, statutory safe harbor mechanisms.",
+          "vocabulary_terms": [
+            "accountability_institutional",
+            "governance_oversight"
+          ],
+          "retrieval_confidence": 0.6552,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-234",
+              "label": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+              "score": 0.7821
+            },
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.7092
+            },
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.7045
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-234",
+              "label": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+              "score": 0.7821
+            },
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.7092
+            },
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.7045
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-111",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "The document instructs organizations to immediately inventory all AI systems touching Texas residents, noting TRAIGA's broad definition covering customer-facing chatbots, automated hiring, lending, and risk scoring. The mechanism relies on comprehensive asset tracking to ensure every deployed system is accounted for under governance policies. From a safetyist perspective, knowing what AI systems exist within an organization is a foundational prerequisite for managing downstream risks and ensuring accountability. The document warns that manual spreadsheet tracking creates significant audit risk if organizations cannot prove systematic implementation.",
+          "verbatim": "1. Inventory your AI systems. Document all AI systems that touch Texas residents. TRAIGA's definition is broad: 'any machine-based system that infers from inputs how to generate outputs, including content, decisions, predictions, or recommendations.'",
+          "excerpt_context": "TRAIGA Compliance Checklist - Immediate Actions (Q1 2026)",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Maintain a comprehensive inventory of all deployed AI systems as a foundational governance and compliance prerequisite.",
+          "attribution_text": "An Intention within safetyist discourse that mandates comprehensive asset inventorying of all deployed AI systems across an enterprise to establish baseline visibility for risk management and compliance. Encompasses: AI system inventory, comprehensive asset tracking, foundational governance controls.",
+          "vocabulary_terms": [
+            "transparency_accountability",
+            "accountability_institutional"
+          ],
+          "retrieval_confidence": 0.8906,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-111",
+              "label": "Know What AI You Have Before You Try to Govern It",
+              "score": 0.8906
+            },
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.824
+            },
+            {
+              "id": "saf-intentions-160",
+              "label": "Set the Ethical and Legal Ground Rules for AI Governance",
+              "score": 0.8153
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-141",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that building TRAIGA compliance on static spreadsheets creates severe audit risk when organizations cannot prove systematic implementation of the NIST AI RMF. The mechanism is that manual record-keeping fails to establish the continuous, auditable evidence trail required to substantiate an affirmative legal defense. From a safetyist perspective, written policies alone are decoupled from operational enforcement unless backed by structured, automated governance tooling. The document emphasizes that compliance requires demonstrable, continuous monitoring rather than point-in-time assessments.",
+          "verbatim": "Building TRAIGA compliance on spreadsheets creates audit risk when you can't demonstrate systematic NIST AI RMF implementation.",
+          "excerpt_context": "Resources for TRAIGA Compliance section",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Manual spreadsheet record-keeping fails to prove systematic risk management implementation, creating substantial audit vulnerability.",
+          "attribution_text": "A Belief within safetyist discourse that manual spreadsheet documentation is insufficient to prove systematic compliance with risk management frameworks, leaving organizations vulnerable during regulatory audits. Encompasses: audit risk in manual tracking, decoupling of policy from verifiable implementation, systemic compliance verification.",
+          "vocabulary_terms": [
+            "accountability_institutional",
+            "transparency_accountability"
+          ],
+          "retrieval_confidence": 0.588,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-226",
+              "label": "Sidecar Integration for Auditability",
+              "score": 0.641
+            },
+            {
+              "id": "saf-intentions-024",
+              "label": "Treating Missing AI Documentation as a Safety Liability",
+              "score": 0.6177
+            },
+            {
+              "id": "saf-intentions-234",
+              "label": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+              "score": 0.6129
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-102",
+          "mechanism_type": "governance_body",
+          "category": "Intentions",
+          "point": "The document explains that TRAIGA enforces compliance exclusively through the Texas Attorney General, who holds exclusive enforcement authority and administers a 60-day cure period for violations. The mechanism relies on centralized state-level enforcement paired with structured cure windows rather than allowing private civil lawsuits. From a skeptic perspective, restricting enforcement to the Attorney General while omitting a private right of action limits the avenues through which affected individuals can seek direct redress. The document notes that penalties range from $10,000 to $200,000 per violation depending on curability.",
+          "verbatim": "The Texas Attorney General has exclusive enforcement authority under TRAIGA. [...] Private right of action: None (AG enforcement only)",
+          "excerpt_context": "TRAIGA Enforcement: What to Expect section",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Operationalize AI governance enforcement through centralized state attorney general authority while excluding private rights of action.",
+          "attribution_text": "An Intention within skeptic discourse that vests exclusive enforcement authority for AI governance violations in state attorneys general while denying a private right of action to affected individuals. Encompasses: exclusive state enforcement, absence of private right of action, statutory cure periods.",
+          "vocabulary_terms": [
+            "accountability_algorithmic",
+            "compliance_performative"
+          ],
+          "retrieval_confidence": 0.7436,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-080",
+              "label": "Institutionalize Civil Rights Technical Expertise Within AI Regulatory Bodies",
+              "score": 0.7674
+            },
+            {
+              "id": "skp-beliefs-031",
+              "label": "Perfect Enforcement Through AI Removes the Safety Valve of Selective Prosecution",
+              "score": 0.7583
+            },
+            {
+              "id": "skp-intentions-007",
+              "label": "Regulate AI by Use Case, Not by Technology",
+              "score": 0.7556
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-017",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "The document outlines TRAIGA's requirement to maintain written documentation for each AI system, including intended purpose, guardrails, training data sources, and human review records. The mechanism mandates systematic record-keeping to substantiate intent and risk management compliance. From a skeptic perspective, rigorous documentation requirements help bridge the information asymmetry between powerful AI developers and external regulators or affected populations. The document stresses that documented governance serves as an essential legal defense against enforcement actions.",
+          "verbatim": "For each AI system, maintain written documentation of: Intended purpose and use cases, Guardrails preventing prohibited uses, Data governance and training data sources, Performance metrics and known limitations.",
+          "excerpt_context": "TRAIGA Compliance Checklist - Document intent and purpose",
+          "extraction_confidence": 0.94,
+          "canonical_proposition": "Mandate comprehensive documentation of AI system design, data provenance, and intended use to ensure regulatory transparency.",
+          "attribution_text": "An Intention within skeptic discourse that requires rigorous, auditable documentation of AI system provenance, data sources, and operational guardrails to combat information asymmetries. Encompasses: mandatory documentation of intent, data provenance tracking, audit trail maintenance.",
+          "vocabulary_terms": [
+            "data_provenance",
+            "asymmetry_power"
+          ],
+          "retrieval_confidence": 0.7813,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-017",
+              "label": "Close the AI Documentation Gap Through Mandatory Disclosure",
+              "score": 0.7813
+            },
+            {
+              "id": "skp-intentions-097",
+              "label": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+              "score": 0.7651
+            },
+            {
+              "id": "skp-intentions-065",
+              "label": "Mandate Liability Assumption or Human Escalation at AI Agent Handoff Points",
+              "score": 0.7585
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-242",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document observes that organizations operating across multiple state jurisdictions face multiplying compliance burdens and fragmented regulatory standards without a unified governance approach. The mechanism is that differing state laws impose conflicting legal standards and documentation requirements on national deployers. From a skeptic perspective, regulatory fragmentation creates legal uncertainty and disproportionately penalizes organizations attempting to navigate conflicting mandates. The document highlights that adopting a single control framework mapped to multiple regulations can yield significant operational efficiencies.",
+          "verbatim": "For organizations with exposure to multiple jurisdictions, the compliance burden multiplies without a unified governance approach. Companies report 10x efficiency gains when implementing a single control framework that maps to all applicable regulations versus managing each separately.",
+          "excerpt_context": "How TRAIGA Compares to Other AI Regulations section",
+          "extraction_confidence": 0.93,
+          "canonical_proposition": "Fragmented multi-state AI regulations multiply organizational compliance burdens and create significant legal uncertainty.",
+          "attribution_text": "A Belief within skeptic discourse that conflicting multi-jurisdictional AI regulations create severe compliance burdens and legal uncertainty for organizations operating nationally. Encompasses: multi-state regulatory fragmentation, compliance burden multiplication, unified control framework necessity.",
+          "vocabulary_terms": [
+            "risk_systemic_structural",
+            "compliance_performative"
+          ],
+          "retrieval_confidence": 0.6412,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-156",
+              "label": "AI Providers Strategically Locate in Low-Oversight Jurisdictions to Minimize Compliance Costs",
+              "score": 0.8087
+            },
+            {
+              "id": "sit-104",
+              "label": "The Conflict Between Federal and State AI Laws",
+              "score": 0.7629
+            },
+            {
+              "id": "sit-063",
+              "label": "Regulatory Fragmentation and Cost Burden",
+              "score": 0.7511
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-156",
+              "label": "AI Providers Strategically Locate in Low-Oversight Jurisdictions to Minimize Compliance Costs",
+              "score": 0.8087
+            },
+            {
+              "id": "skp-intentions-094",
+              "label": "Insulate Organizations from Regulatory Volatility Through Durable AI Standards",
+              "score": 0.7349
+            },
+            {
+              "id": "skp-beliefs-031",
+              "label": "Perfect Enforcement Through AI Removes the Safety Valve of Selective Prosecution",
+              "score": 0.7215
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "The Texas Responsible AI Governance Act (TRAIGA) was signed by Governor Greg Abbott in June 2025 and took effect on January 1, 2026.",
+      "claim_label": "TRAIGA Enactment and Effective Date",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2025-06 to 2026-01",
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-158",
+        "skp-intentions-102"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "TRAIGA establishes specific financial penalties for violations, including $10,000 to $12,000 per curable violation, $80,000 to $200,000 per uncurable violation, and $2,000 to $40,000 per day for continuing violations, with a 60-day cure period following Attorney General notice.",
+      "claim_label": "TRAIGA Penalty Structure and Cure Period",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026-10",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-intentions-102"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "TRAIGA requires proof of intent to discriminate and does not establish violations based on disparate impact alone, differing from the EU AI Act and Colorado AI Act.",
+      "claim_label": "TRAIGA Intent-Based Liability Standard",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026-10",
+      "extraction_confidence": 0.97,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-069"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "TRAIGA establishes a 36-month regulatory sandbox administered by the Texas Department of Information Resources for approved participants to test AI systems.",
+      "claim_label": "Texas AI Regulatory Sandbox Duration",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026-10",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "acc-intentions-024"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    }
+  ],
+  "unmapped_concepts": []
+}

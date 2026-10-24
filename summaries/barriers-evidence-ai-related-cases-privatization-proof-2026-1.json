@@ -1,0 +1,1978 @@
+{
+  "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-24T08:33:20Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 65536,
+    "extraction_mode": "single_shot",
+    "taxonomy_filter": "rag_per_chunk",
+    "taxonomy_nodes": 1446,
+    "chunked": true,
+    "chunk_count": 8
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+    "measured_at": "2026-10-24T08:42:41.3773558-04:00",
+    "stages": [
+      {
+        "stage": "chunking",
+        "in_units": "tokens_est",
+        "in_count": 46137,
+        "out_units": "tokens_est",
+        "out_count": 46407,
+        "ratio": 1.0059,
+        "flags": {
+          "chunk_count": 8
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 4311,
+        "out_units": "nodes",
+        "out_count": 60,
+        "ratio": 0.0139,
+        "flags": {
+          "avg_beliefs": 28,
+          "avg_desires": 5,
+          "avg_intentions": 16,
+          "avg_nodes_selected": 60,
+          "chunk_count": 8,
+          "max_nodes_selected": 60,
+          "min_nodes_selected": 60,
+          "total_below_threshold": 0
+        }
+      },
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 318067,
+        "out_units": "items",
+        "out_count": 63,
+        "ratio": 0.0002,
+        "flags": {
+          "chunk_count": 8,
+          "factual_claims": 20,
+          "null_node_rate": 0.0278,
+          "total_points": 36,
+          "unmapped_concepts": 7
+        }
+      },
+      {
+        "stage": "merge_dedup",
+        "in_units": "items",
+        "in_count": 63,
+        "out_units": "items",
+        "out_count": 62,
+        "ratio": 0.9841,
+        "flags": {
+          "claims_deduped": 0,
+          "concepts_deduped": 0,
+          "points_deduped": 1,
+          "used_embeddings": 1
+        }
+      },
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 7,
+        "out_units": "still_unmapped",
+        "out_count": 1,
+        "ratio": 0.1429,
+        "flags": {
+          "near_miss_count": 1,
+          "resolved_count": 6,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      }
+    ],
+    "cumulative_retention": 0.0137
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": [
+        {
+          "stance": "neutral",
+          "taxonomy_node_id": "acc-beliefs-072",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Courts frequently struggle to evaluate technical AI evidence and balance its diffuse societal benefits against visible localized harms. When legal institutions lack this deep technical expertise, they tend to default to denying discovery or relying on high-level methodological claims. This judicial hesitancy reflects a broader institutional mismatch between traditional legal standards and the non-deterministic nature of modern machine learning systems. Consequently, judicial bodies often accept abstract system descriptions rather than compelling implementation-level access, illustrating how legal forums are structurally ill-equipped to adjudicate complex software operations.",
+          "verbatim": "Courts have accepted this argument as a basis for denying discovery of source code in cases involving probabilistic DNA testing software.",
+          "excerpt_context": "Section 2.2.1",
+          "extraction_confidence": 0.85,
+          "canonical_proposition": "Courts lack the institutional competence to weigh the diffuse benefits of AI against visible harms, leading them to deny technical discovery.",
+          "attribution_text": "A Belief within accelerationist discourse that courts lack the institutional competence to weigh the diffuse benefits of AI against visible harms. Encompasses: Judicial restraint, knowledge asymmetries, and the denial of source code discovery.",
+          "vocabulary_terms": [
+            "judicial_restraint",
+            "knowledge_asymmetry"
+          ],
+          "retrieval_confidence": 0.9292,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-beliefs-072",
+              "label": "Courts Lack the Expertise to Weigh AI's Diffuse Benefits Against Its Visible Harms",
+              "score": 0.9292
+            },
+            {
+              "id": "sit-169",
+              "label": "Federal Dismantling of Disparate Impact Liability",
+              "score": 0.7319
+            },
+            {
+              "id": "sit-029",
+              "label": "AI Reading Legal Documents at Scale",
+              "score": 0.7077
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "neutral",
+          "taxonomy_node_id": "acc-beliefs-072",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Courts frequently struggle to evaluate technical AI evidence and rely on conventional legal doctrines that treat AI tools as non-decisional organizational interfaces rather than active decision-makers. This judicial reluctance stems from a lack of technical expertise and institutional competence to assess how automated systems structure human discretion. Consequently, judges default to formalistic distinctions, such as classifying automated risk scoring interfaces as mere visual aids, which insulates complex technological systems from meaningful legal scrutiny. While this judicial restraint protects commercial innovation from intrusive discovery burdens, it simultaneously blinds legal proceedings to systemic algorithmic harms.",
+          "verbatim": "Yet, despite acknowledging these risks, the court’s analysis ultimately stops short of requiring access that would enable litigants to independent evaluate whether those risks are implicated in their own cases and contest the systems use on that basis. ... By defining the tool as a non-decisional interface, the informational environment that structured the officers’ decision making and refusal is deemed irrelevant, and procedural scrutiny narrowed to the final judgement.",
+          "excerpt_context": "Section 2.2, paragraph 1-2",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Courts lack the technical expertise to evaluate AI decision-making systems, defaulting to formalistic classifications that insulate technology from discovery.",
+          "attribution_text": "A Belief within accelerationist discourse that courts lack the institutional competence to evaluate complex AI systems, leading judges to rely on formalistic classifications that treat software as non-decisional interfaces. Encompasses: judicial restraint, technical illiteracy, formalistic legal categorization.",
+          "vocabulary_terms": [
+            "judicial_restraint",
+            "technical_illiteracy"
+          ],
+          "retrieval_confidence": 0.8075,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-beliefs-072",
+              "label": "Courts Lack the Expertise to Weigh AI's Diffuse Benefits Against Its Visible Harms",
+              "score": 0.8075
+            },
+            {
+              "id": "sit-061",
+              "label": "Legal Actor Status for AI",
+              "score": 0.6802
+            },
+            {
+              "id": "sit-174",
+              "label": "Legal and Legislative Mechanisms for AI",
+              "score": 0.6748
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "neutral",
+          "taxonomy_node_id": null,
+          "mechanism_type": "market_mechanism",
+          "category": "Intentions",
+          "point": "The proposed three-part evidentiary test allows producing parties to offer alternative forms of access, such as statistically representative slices or design documentation, that protect sensitive proprietary assets while still satisfying the requesting party's evidentiary needs. This functional exchangeability mechanism prevents litigation from imposing catastrophic disclosure risks that could otherwise chill commercial development. By structuring discovery around benefit-to-risk ratios rather than absolute trade secret overrides, the framework aligns with accelerationist goals of maintaining commercial confidentiality and market velocity. However, the requirement to calculate fine-grained risk-benefit ratios across multiple technical dimensions could introduce procedural friction and legal uncertainty for fast-moving developers.",
+          "verbatim": "For example, rather than producing sensitive datasets in full, a developer might provide structured evaluation sets, statistically representative slices, or controlled log access that enables the requesting party to test the contested proposition. Rather than disclosing full source code, the producing party might provide design and evaluation documentation, model cards, internal test results, or supervised testing access calibrated to the claim at issue.",
+          "excerpt_context": "Section 4, paragraph 1",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Protect commercial trade secrets in AI litigation by substituting full artifact disclosure with structured evaluation sets and design documentation.",
+          "attribution_text": "An Intention within accelerationist discourse that protects commercial trade secrets in AI litigation by substituting full artifact disclosure with structured evaluation sets and design documentation. Encompasses: substituting sensitive datasets with representative slices, providing model cards, and offering supervised testing access.",
+          "vocabulary_terms": [
+            "trade_secret_protection",
+            "model_cards",
+            "structured_evaluation_sets"
+          ]
+        },
+        {
+          "stance": "neutral",
+          "taxonomy_node_id": "acc-beliefs-074",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document details how complex AI systems and predictive algorithms like value-added models evaluate performance jointly across entire populations rather than in isolation, making individual verification exceedingly difficult. This systemic interdependence reflects how algorithmic tools generate diffuse, population-wide efficiencies and risk metrics that cannot be easily isolated into individual components. While plaintiffs demand isolated transparency, doing so often ignores the interconnected nature of distributed computational systems. The text illustrates this through the EVAAS case where correcting a single teacher's score required re-running district-wide analyses, highlighting the tension between systemic optimization and individualized legal discovery.",
+          "verbatim": "Like in many risk assessment models, EVAAS estimated scores jointly across all teachers and students simultaneously and normed the scores against a statewide average that depended on every other teacher’s data/scores. Thus, replicating a single teacher’s predicted score would require access to the teacher’s students’ historical test score data and the scores of other teachers across the district and state.",
+          "excerpt_context": "Section B.3.1",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Complex AI systems evaluate outcomes jointly across populations, making isolated individual verification incompatible with distributed computational architectures.",
+          "attribution_text": "A Belief within accelerationist discourse that complex AI systems evaluate outcomes jointly across populations, making isolated individual verification incompatible with distributed computational architectures. Encompasses: population-wide normalization, systemic interdependence, and joint score estimation.",
+          "vocabulary_terms": [
+            "systemic_interdependence",
+            "population_normalization"
+          ],
+          "retrieval_confidence": 0.4811,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-desires-027",
+              "label": "Defining Who Controls and Distributes AI",
+              "score": 0.6969
+            },
+            {
+              "id": "acc-intentions-004",
+              "label": "Mandating Show-Your-Work Transparency in AI-Driven Science",
+              "score": 0.681
+            },
+            {
+              "id": "acc-desires-028",
+              "label": "Accelerating Core AI Capabilities",
+              "score": 0.6751
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "acc-desires-027",
+              "label": "Defining Who Controls and Distributes AI",
+              "score": 0.6969
+            },
+            {
+              "id": "acc-intentions-004",
+              "label": "Mandating Show-Your-Work Transparency in AI-Driven Science",
+              "score": 0.681
+            },
+            {
+              "id": "acc-desires-028",
+              "label": "Accelerating Core AI Capabilities",
+              "score": 0.6751
+            }
+          ]
+        },
+        {
+          "stance": "neutral",
+          "taxonomy_node_id": "acc-beliefs-072",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Courts face substantial institutional competency limits when handling complex algorithmic systems, as illustrated by judicial reluctance to compel proprietary source code in cases like TrueAllele and COMPAS. Rather than mastering technical source code, judges consistently rely on published validation studies, developer-generated documentation, and out-of-state validation records to establish reliability. While accelerationists welcome the avoidance of judicial overreach into technical software internals, critics note that this institutional restraint risks codifying a house of cards built entirely upon unverified, developer-generated validation metrics.",
+          "verbatim": "Across different state and federal standards, courts have overwhelmingly declined to compel source code disclosure, a pattern that holds across jurisdictions and evidentiary standards, suggesting that privatization of proof in this context is largely standard-invariant.",
+          "excerpt_context": "Section 6, TrueAllele cases",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Courts lack the institutional competence to weigh technical source code against diffuse validation metrics, routinely deferring to developer-generated studies.",
+          "attribution_text": "A Belief within accelerationist discourse that courts lack the institutional competence to evaluate complex algorithmic source code and must rely on developer-generated validation studies. Encompasses: Judicial restraint, source code withholding, validation study reliance.",
+          "vocabulary_terms": [
+            "judicial_restraint",
+            "trade_secrecy",
+            "validation_studies"
+          ],
+          "retrieval_confidence": 0.6586,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-beliefs-072",
+              "label": "Courts Lack the Expertise to Weigh AI's Diffuse Benefits Against Its Visible Harms",
+              "score": 0.6586
+            },
+            {
+              "id": "skp-beliefs-256",
+              "label": "Provenance-Truth Distinction",
+              "score": 0.6082
+            },
+            {
+              "id": "acc-intentions-090",
+              "label": "Focus AI Misinformation Rules on Checkable Procedures, Not Truth Judgments",
+              "score": 0.5995
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-017",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The rapid deployment and commercial adoption of artificial intelligence systems severely erode organizational visibility and control over how decisions are made. Because critical logic and intermediate data artifacts remain locked behind corporate trade secrecy, affected individuals and independent evaluators suffer a total loss of oversight. This systemic opacity prevents stakeholders from verifying whether automated systems operate safely or fairly across diverse real-world populations. Without mandated transparency and access mechanisms, deployment speed outpaces both governance frameworks and legal accountability.",
+          "verbatim": "Yet evidence is difficult to acquire. For a claim to be true is not enough. Supporting information must be observed and captured, often even measured and quantified. Because legal decisions hinge on key evidence, parties who may be harmed by it guard it closely.",
+          "excerpt_context": "Introduction",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Rapid AI deployment erodes organizational visibility and control, creating severe information asymmetries that undermine safety oversight.",
+          "attribution_text": "A Belief within safetyist discourse that the rapid adoption of AI systems undermines security governance by creating a systemic loss of visibility and control over data. Encompasses: Information asymmetry, trade secrecy, and the erosion of oversight.",
+          "vocabulary_terms": [
+            "information_asymmetry",
+            "trade_secrecy",
+            "oversight"
+          ],
+          "retrieval_confidence": 0.8466,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-017",
+              "label": "AI Deployment Speed Erodes Organizational Visibility and Control",
+              "score": 0.8466
+            },
+            {
+              "id": "saf-beliefs-097",
+              "label": "AI's Architectural Complexity Generates Qualitatively New Security Risks",
+              "score": 0.7717
+            },
+            {
+              "id": "saf-beliefs-038",
+              "label": "We Cannot Verify Whether AI Is Being Honest About What It Knows and Does",
+              "score": 0.7589
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-126",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "When complex AI systems cause real-world harms, assigning legal responsibility is exceedingly difficult because fault fragments across software developers, deployers, and end-users. The distributed and probabilistic nature of machine learning means that failures cannot easily be traced to a single human error or a discrete design flaw. This fragmentation is exacerbated when proprietary models are procured rather than built in-house, as nonparty vendors enjoy stronger legal protections against compelled access. Consequently, traditional liability doctrines struggle to apportion blame among the diverse actors involved in an AI system's lifecycle.",
+          "verbatim": "These difficulties are complicated when the AI developer/controller is a nonparty (i.e., neither the plaintiff nor the defendant) and therefore subject to stronger protections against compelled access, occurs when AI is procured rather than developed in-house.",
+          "excerpt_context": "Introduction",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Fault fragments across AI designers, deployers, and third-party vendors when systems fail, complicating traditional liability attribution.",
+          "attribution_text": "A Belief within safetyist discourse that explores the inherent difficulty in assigning clear responsibility when AI systems cause harm. Encompasses: The challenge of distributing blame among various supply chain actors and nonparty vendors.",
+          "vocabulary_terms": [
+            "liability_attribution",
+            "supply_chain"
+          ],
+          "retrieval_confidence": 0.8883,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-126",
+              "label": "Fault Fragments Across Designers, Deployers, and Users When AI Fails",
+              "score": 0.8883
+            },
+            {
+              "id": "saf-beliefs-010",
+              "label": "A Single Malicious Component Can Compromise Thousands of AI Systems",
+              "score": 0.801
+            },
+            {
+              "id": "saf-desires-024",
+              "label": "AI Must Identify Its Principal",
+              "score": 0.7838
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-024",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "Absence of documentation and opaque operational traces should be treated as severe evidentiary liabilities for deploying organizations. When developers fail to maintain or disclose contemporaneous records of system behavior, design decisions, and data ingestion, courts should not reward this informational vacuum by dismissing claims. Instead, systemic opacity must be countered by mandating comprehensive forensic transparency and shifting discovery burdens back onto model providers. Treating missing documentation as a regulatory and legal liability prevents commercial actors from hiding behind trade secrecy to evade accountability.",
+          "verbatim": "Together, these developments indicate that AI developers and deployers can argue that requests for access are infeasible or unduly burdensome, often taking advantage of the court’s lack of technical knowledge. Yet requesting parties can potentially push courts to make AI developers and deployers carry a greater burden, especially with respect to their own systems.",
+          "excerpt_context": "Section 2.3.3, final paragraph",
+          "extraction_confidence": 0.85,
+          "canonical_proposition": "Treat missing AI documentation and opaque operational traces as severe evidentiary liabilities that trigger mandatory disclosure burdens.",
+          "attribution_text": "An Intention within safetyist discourse that treats absent documentation and technical opacity as evidentiary liabilities, holding that deploying organizations must bear the discovery burden when system conduct is contested. Encompasses: forensic transparency, evidentiary burden-shifting, operational trace retention.",
+          "vocabulary_terms": [
+            "forensic_transparency",
+            "burden_shifting"
+          ],
+          "retrieval_confidence": 0.7394,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-024",
+              "label": "Treating Missing AI Documentation as a Safety Liability",
+              "score": 0.7394
+            },
+            {
+              "id": "saf-intentions-238",
+              "label": "Judicial Citation Verification Mandates",
+              "score": 0.6619
+            },
+            {
+              "id": "saf-intentions-234",
+              "label": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+              "score": 0.6588
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-126",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "AI systems actively fragment fault between developers, corporate deployers, and human intermediaries, making traditional assignment of responsibility difficult. Automated tools like risk scoring interfaces or automated claim routers are frequently framed by commercial actors as mere advisory guides that preserve human discretion. However, empirical evidence from immigration adjudication and healthcare management demonstrates that these systems systematically structure, constrain, and override human decision-making. This structural blurring of responsibility allows institutions to exploit legal loopholes, attributing system failures to human operators while denying plaintiffs access to the underlying algorithms.",
+          "verbatim": "The \"role of the tool\" is important, because State Farm calls upon the standard for class certification established in Wal-Mart Stores, Inc. v. Dukes (2011). This ruling establishes that individual discretion is not enough to bind a class together. In short, if State Farm is able to successfully argue that claims were handled at at the discretion of individual human adjudicators, rather than one unified algorithm, they can force Huskey and Wynn to pursue their claims on an individual, rather than class action, basis.",
+          "excerpt_context": "Section 2.2, paragraph 8",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "AI systems fragment fault across designers and deployers, using human intermediaries as liability shields while automation dictates operational outcomes.",
+          "attribution_text": "A Belief within safetyist discourse that AI systems fragment responsibility across designers, deployers, and human intermediaries, creating structural ambiguity that impedes accountability. Encompasses: distributed fault, human-in-the-loop washing, institutional liability shielding.",
+          "vocabulary_terms": [
+            "distributed_fault",
+            "liability_shielding"
+          ],
+          "retrieval_confidence": 0.8715,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-126",
+              "label": "Fault Fragments Across Designers, Deployers, and Users When AI Fails",
+              "score": 0.8715
+            },
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.7934
+            },
+            {
+              "id": "saf-beliefs-098",
+              "label": "AI Behavior Cannot Be Fully Predicted Due to Emergence, Misspecification, and Formal Limits",
+              "score": 0.7924
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-234",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "The three-part test mandates structured pretrial discovery to evaluate informational asymmetry across models, data, documentation, compute, infrastructure, expertise, and downstream information. This approach ensures that high-stakes disputes over AI behavior rely on verified artifact access rather than unverified corporate assertions of trade secrecy. By anchoring evidentiary access to the minimal requirements of the cause of action, the framework prevents developers from concealing safety-critical failures behind confidentiality shields. Nevertheless, relying on judicial balancing tests to resolve technical asymmetries may prove insufficient when complex neural architectures resist standard discovery methods.",
+          "verbatim": "Mirroring the asymmetries given in Section 3, this step can be performed by evaluating each party’s access to relevant (1) models, (2) data, (3) documentation, (4) compute, (5) infrastructure, (6) expertise, and (7) downstream information.",
+          "excerpt_context": "Section 4.1, Step 1",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Mandate structured pre-trial discovery across seven core AI artifact dimensions to overcome informational asymmetry in high-stakes litigation.",
+          "attribution_text": "An Intention within safetyist discourse that mandates structured pre-trial discovery across seven core AI artifact dimensions to overcome informational asymmetry in high-stakes litigation. Encompasses: evaluating party access to models, training data, and compute infrastructure.",
+          "vocabulary_terms": [
+            "informational_asymmetry",
+            "discovery_framework",
+            "artifact_access"
+          ],
+          "retrieval_confidence": 0.5543,
+          "taxonomy_node_candidates": [
+            {
+              "id": "pol-3221",
+              "label": "",
+              "score": 0.6748
+            },
+            {
+              "id": "saf-intentions-037",
+              "label": "Virtual Impact Assessment Before AI Action",
+              "score": 0.6631
+            },
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.6551
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-037",
+              "label": "Virtual Impact Assessment Before AI Action",
+              "score": 0.6631
+            },
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.6551
+            },
+            {
+              "id": "saf-intentions-146",
+              "label": "Expanding Civil Discovery Rights to Pierce Customer-Held Datasets and Audits",
+              "score": 0.6504
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-126",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document highlights extensive evidentiary disputes across multiple cases where liability and operational responsibility fragment among software vendors, institutional deployers, and human intermediaries. In litigation involving tools like Workday, State Farm's claims-routing models, and school district evaluation systems, defendants routinely deflect responsibility by arguing that human decision-makers retained final discretion or that critical data rests with third-party customers. This structural diffusion obscures accountability and impedes comprehensive safety evaluations. The resulting opacity prevents plaintiffs from establishing clear causal chains when algorithmic systems produce discriminatory or harmful outcomes.",
+          "verbatim": "Producing party argues that human decision-makers retained final discretion over outcomes, that the AI system played only a secondary or peripheral role, or that it was not used in the specific workflow that affected the plaintiff, narrowing the scope of discoverable materials",
+          "excerpt_context": "Section B.2, Table 2",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Fault and operational responsibility fragment across designers, deployers, and users when AI systems cause harm, creating significant barriers to accountability.",
+          "attribution_text": "A Belief within safetyist discourse that fault and operational responsibility fragment across designers, deployers, and users when AI systems cause harm, creating significant barriers to accountability. Encompasses: diffusion of responsibility, vendor-deployer information asymmetry, and disputed AI roles.",
+          "vocabulary_terms": [
+            "fault_fragmentation",
+            "information_asymmetry"
+          ],
+          "retrieval_confidence": 0.8446,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-126",
+              "label": "Fault Fragments Across Designers, Deployers, and Users When AI Fails",
+              "score": 0.8446
+            },
+            {
+              "id": "saf-beliefs-098",
+              "label": "AI Behavior Cannot Be Fully Predicted Due to Emergence, Misspecification, and Formal Limits",
+              "score": 0.8082
+            },
+            {
+              "id": "saf-beliefs-040",
+              "label": "AI Deployment Speed Outpaces Security Governance",
+              "score": 0.786
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-beliefs-248",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Post-deployment validation studies and aggregate performance calibration cannot substitute for direct source code review and implementation-level inspection when evaluating probabilistic prediction systems like TrueAllele. Because validation studies are frequently generated by system developers or law enforcement, relying on them creates a circular epistemic feedback loop that obscures implementation errors and silent flaws. True safety requires independent, rigorous auditing of underlying source code rather than uncritical acceptance of aggregate accuracy metrics that fail to verify specific algorithmic operations.",
+          "verbatim": "The Pickett court rejected this, finding that none of this evidence addressed whether TrueAllele’s source code correctly implemented its methods, and that the body of prior rulings constituted an authority “house of cards\", each having relied uncritically on the same developer-generated evidence.",
+          "excerpt_context": "Section 6, TrueAllele cases",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Feedback-loop contamination and developer-generated validation studies destroy the independence needed for post-deployment verification, necessitating direct source code inspection.",
+          "attribution_text": "A Belief within safetyist discourse that post-deployment validation studies are structurally circular when conducted by system developers and cannot substitute for source code inspection. Encompasses: Developer-generated validation, circular evidentiary loops, implementation-level errors.",
+          "vocabulary_terms": [
+            "feedback_loop_contamination",
+            "source_code_inspection",
+            "independent_auditing"
+          ],
+          "retrieval_confidence": 0.5352,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-094",
+              "label": "Run Prospective Failure Analyses to Catch Risks Metrics Miss",
+              "score": 0.6784
+            },
+            {
+              "id": "saf-intentions-169",
+              "label": "Automating Safety Checks from Code Commit to Deployment",
+              "score": 0.6556
+            },
+            {
+              "id": "saf-beliefs-242",
+              "label": "Design-layer documents as version-independent evidence of system functional state",
+              "score": 0.6525
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-094",
+              "label": "Run Prospective Failure Analyses to Catch Risks Metrics Miss",
+              "score": 0.6784
+            },
+            {
+              "id": "saf-intentions-169",
+              "label": "Automating Safety Checks from Code Commit to Deployment",
+              "score": 0.6556
+            },
+            {
+              "id": "saf-beliefs-242",
+              "label": "Design-layer documents as version-independent evidence of system functional state",
+              "score": 0.6525
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-229",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "Legal frameworks must reject overly burdensome, prohibitive protective orders and opaque trade secrecy assertions that render meaningful algorithmic inspection impossible. When corporate vendors condition access to source code on extreme financial liabilities, surveillance, and handwritten-only note-taking under video monitoring, they effectively construct an impenetrable barrier to proof. Regulatory and judicial bodies should condition protective access on reasonable, transparent forensic review standards rather than allowing trade secrecy to entirely defeat due process.",
+          "verbatim": "Cybergenetics invoked trade secrecy throughout, and in Pickett offered access only under an NDA requiring inspection at the prosecutor’s office under video surveillance, handwritten notes only, no electronic devices or internet access, a $1 million automatic liability fine, and $3 million insurance coverage, terms the court found so burdensome as to render meaningful review impossible.",
+          "excerpt_context": "Section 6, TrueAllele cases",
+          "extraction_confidence": 0.97,
+          "canonical_proposition": "Condition limited liability and trade secrecy protections on reasonable forensic transparency by prohibiting excessively burdensome non-disclosure agreements.",
+          "attribution_text": "An Intention within safetyist discourse that structures legal access frameworks to prohibit punitive non-disclosure agreements that render forensic algorithmic review impossible. Encompasses: Burdensome protective orders, trade secrecy waivers, reasonable forensic access.",
+          "vocabulary_terms": [
+            "trade_secrecy",
+            "protective_orders",
+            "forensic_transparency"
+          ],
+          "retrieval_confidence": 0.6189,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-238",
+              "label": "Judicial Citation Verification Mandates",
+              "score": 0.7159
+            },
+            {
+              "id": "saf-intentions-146",
+              "label": "Expanding Civil Discovery Rights to Pierce Customer-Held Datasets and Audits",
+              "score": 0.6879
+            },
+            {
+              "id": "saf-beliefs-141",
+              "label": "AI Governance Relies on Policies It Cannot Actually Enforce",
+              "score": 0.6852
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-238",
+              "label": "Judicial Citation Verification Mandates",
+              "score": 0.7159
+            },
+            {
+              "id": "saf-intentions-146",
+              "label": "Expanding Civil Discovery Rights to Pierce Customer-Held Datasets and Audits",
+              "score": 0.6879
+            },
+            {
+              "id": "saf-beliefs-141",
+              "label": "AI Governance Relies on Policies It Cannot Actually Enforce",
+              "score": 0.6852
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-146",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "Plaintiffs in algorithmic discrimination and liability cases must be granted broad civil discovery rights to pierce customer-held datasets, audit records, and internal technical documentation. In cases such as Huskey v. State Farm and Mobley v. Workday, corporate defendants exploit phased discovery structures and attorney-client privilege claims over internal audits to withhold critical training data and bias-testing metrics. Mandating the production of such records is essential to verify whether algorithmic tools produce disparate impacts or whether human discretion operates as an independent variable. Without robust discovery mechanisms, plaintiffs face insurmountable evidentiary barriers against proprietary AI systems.",
+          "verbatim": "In Huskey, State Farm’s litigation strategy exploited the phased discovery structure in two directions. On access, it successfully obtained denial of vendor contracts and training materials beyond those specific to named tools on proportionality and undue burden grounds. The training materials are particularly significant because without them plaintiffs cannot confirm or rebut State Farm’s assertion that claim handlers exercise independent judgment rather than following tool outputs.",
+          "excerpt_context": "Section 7, Huskey v. State Farm discussion",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Mandate civil discovery rights to compel the production of customer-held algorithmic interaction data, training materials, and independent audit records.",
+          "attribution_text": "An Intention within safetyist discourse that mandates statutory civil discovery rights to compel the production of customer-held algorithmic interaction data and independent audit records. Encompasses: piercing trade secrecy, compelling training material production, overcoming discovery phased restrictions.",
+          "vocabulary_terms": [
+            "civil discovery",
+            "audit records",
+            "information asymmetry"
+          ],
+          "retrieval_confidence": 0.9025,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-146",
+              "label": "Expanding Civil Discovery Rights to Pierce Customer-Held Datasets and Audits",
+              "score": 0.9025
+            },
+            {
+              "id": "skp-beliefs-243",
+              "label": "Proof Privatization",
+              "score": 0.6783
+            },
+            {
+              "id": "saf-intentions-143",
+              "label": "Governing How AI Models Ingest, Retain, and Protect Data",
+              "score": 0.653
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-029",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Parties challenging automated systems face insurmountable evidentiary barriers because plaintiffs lack the necessary technical knowledge and data access to prove causation. Corporate defendants systematically resist disclosure by invoking trade secrecy, contractual restrictions, and user privacy, creating a Catch-22 where plaintiffs cannot compel discovery without first proving their claim. This privatization of proof leaves injured individuals unable to pierce proprietary walls, effectively rendering algorithmic harms legally unaccountable. Without structural interventions in civil discovery rules, private litigation fails to serve as an effective check on AI risks.",
+          "verbatim": "Parties challenging AI-related systems and actions often face barriers to evidence that can be insurmountable in practice because the access, expertise, and resources needed to satisfy them are unevenly distributed.",
+          "excerpt_context": "Introduction",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Victims of AI harm cannot access the technical knowledge and proprietary data needed to prove causation in court.",
+          "attribution_text": "A Belief within skeptic discourse that describes the imbalance of knowledge and technical understanding between AI developers and those harmed by systems, which complicates victims' ability to prove causation. Encompasses: Information asymmetry, trade secrecy barriers, and the privatization of proof.",
+          "vocabulary_terms": [
+            "information_asymmetry",
+            "trade_secrecy",
+            "causation"
+          ],
+          "retrieval_confidence": 0.8669,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-029",
+              "label": "Victims of AI Harm Cannot Access the Technical Knowledge Needed to Prove Causation",
+              "score": 0.8669
+            },
+            {
+              "id": "skp-beliefs-183",
+              "label": "AI Harms and Opacity Drive Public Distrust",
+              "score": 0.8062
+            },
+            {
+              "id": "skp-beliefs-068",
+              "label": "AI Outputs Generate Economic Activity Without Corresponding Social Benefit",
+              "score": 0.7627
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-102",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Conventional legal discovery procedures routinely fail to pierce the corporate trade secrecy walls protecting proprietary neural architectures, training data, and platform logs. Producing parties successfully argue that high-level methodological descriptions or self-serving validation studies are sufficient to satisfy evidentiary requirements, thereby foreclosing independent technical evaluation. Furthermore, courts often accept developer-generated expert testimony without scrutinizing financial conflicts of interest. This judicial deference shields corporate defendants and prevents plaintiffs from uncovering implementation-level flaws that directly cause discriminatory or erroneous outcomes.",
+          "verbatim": "Producing parties frequently challenge the necessity of implementation-level access by asserting that methodological information about the automated systems is sufficient to satisfy the evidentiary requirements of the requesting party’s legal claim.",
+          "excerpt_context": "Section 2.2.1",
+          "extraction_confidence": 0.93,
+          "canonical_proposition": "Conventional legal discovery procedures fail to pierce corporate trade secrecy walls protecting proprietary AI architectures.",
+          "attribution_text": "A Belief within skeptic discourse that conventional legal discovery procedures fail to pierce the corporate trade secrecy walls protecting proprietary neural architectures and training data. Encompasses: Trade secrecy shields, discovery denials, and reliance on high-level methodological descriptions.",
+          "vocabulary_terms": [
+            "trade_secrecy",
+            "discovery",
+            "transparency"
+          ],
+          "retrieval_confidence": 0.8808,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-102",
+              "label": "Evidentiary Failure of Traditional Litigation Against Opaque AI",
+              "score": 0.8808
+            },
+            {
+              "id": "skp-beliefs-243",
+              "label": "Proof Privatization",
+              "score": 0.753
+            },
+            {
+              "id": "skp-beliefs-279",
+              "label": "Discovery Obstacles in Algorithmic Accountability Litigation",
+              "score": 0.7442
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-102",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The text documents that claims regarding automated and algorithmic technologies frequently fail during early pre-trial stages because requesting parties cannot gather clear evidence to support discovery requests. Without access to discovery, plaintiffs cannot produce the specific evidentiary proof required to advance their cases against opaque AI systems. This dynamic creates a self-defeating procedural cycle where defendants retain exclusive control over essential technical information. Consequently, traditional legal discovery procedures fail to pierce the corporate trade secrecy walls protecting proprietary neural architectures and training data. This evidentiary failure undermines legal accountability for algorithmic harms by systematically barring meritorious claims before trial.",
+          "verbatim": "From our case analysis, we identify several key trends. For one, claims about automated, algorithmic, and AI technologies often fail during pre-trial stages, often due to a self-defeating cycle where the requesting party cannot gather clear evidence to support a request for discovery, but without discovery, they cannot produce evidence needed to move forward with the case.",
+          "excerpt_context": "Section 5, Conclusion, Paragraph 1",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Conventional legal discovery procedures fail to pierce corporate trade secrecy walls protecting proprietary neural architectures and training data.",
+          "attribution_text": "A Belief within skeptic discourse that conventional legal discovery procedures fail to pierce the corporate trade secrecy walls protecting proprietary neural architectures and training data. Encompasses: procedural pre-trial failure, information asymmetry, and self-defeating discovery cycles.",
+          "vocabulary_terms": [
+            "trade_secrecy",
+            "discovery",
+            "information_asymmetry"
+          ],
+          "retrieval_confidence": 0.8922,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-102",
+              "label": "Evidentiary Failure of Traditional Litigation Against Opaque AI",
+              "score": 0.8922
+            },
+            {
+              "id": "skp-beliefs-279",
+              "label": "Discovery Obstacles in Algorithmic Accountability Litigation",
+              "score": 0.7661
+            },
+            {
+              "id": "skp-beliefs-243",
+              "label": "Proof Privatization",
+              "score": 0.7651
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-243",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Proof privatization occurs when control over essential verification evidence is concentrated entirely in the hands of private corporate actors who demand rigorous justification for access while ensuring that the necessary evidence remains strictly out of reach. This structural asymmetry is exacerbated by the accumulation of capital, compute, specialized expertise, and proprietary infrastructure by a handful of technology firms. During pre-trial discovery, this dynamic creates an impossible evidentiary Catch-22 where plaintiffs cannot prove their claims without technical access, yet cannot obtain access without first proving their claims. As a result, systemic information asymmetries stall or neutralize meritorious public interest and consumer litigation.",
+          "verbatim": "Proof privatization risks undermining private litigation as a functioning mechanism for AI accountability. The problem extends beyond obtaining information: it affects the ability to support or refute claims, and to reproduce or debunk evidence. In practice, disputes often reach an impasse in which the requesting party asserts that access is relevant and necessary, the producing party insists it is neither and that the materials are protected.",
+          "excerpt_context": "Section 3.1, paragraph 3",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Proof privatization concentrates enforcement-critical evidence in private actors who use procedural barriers and information asymmetry to prevent discovery.",
+          "attribution_text": "A Belief within skeptic discourse that control over enforcement-critical evidence is concentrated in private actors who use procedural barriers and information asymmetry to prevent discovery. Encompasses: proof privatization, structural information asymmetry, procedural obstruction.",
+          "vocabulary_terms": [
+            "proof_privatization",
+            "procedural_barriers"
+          ],
+          "retrieval_confidence": 0.8524,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-243",
+              "label": "Proof Privatization",
+              "score": 0.8524
+            },
+            {
+              "id": "skp-intentions-069",
+              "label": "Deputizing Private Litigants as the Verification Layer for AI Disclosure Filings",
+              "score": 0.7317
+            },
+            {
+              "id": "sit-412",
+              "label": "Privatization of Proof",
+              "score": 0.7193
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-intentions-008",
+          "mechanism_type": "market_mechanism",
+          "category": "Intentions",
+          "point": "Disputes over evidentiary access in AI litigation should not be treated as all-or-nothing binary propositions regarding specific proprietary artifacts, but rather as multidimensional negotiations across functionally exchangeable access types. Because computational resources, documentation, operational logs, model weights, and inference outputs frequently serve overlapping evidentiary functions, denying one form of access can be effectively remedied by providing alternative forms of verification. For instance, restricted model weight access can be mitigated by combining comprehensive system documentation with dedicated compute infrastructure and rigorous operational tracing. Recognizing the functional exchangeability of access enables courts and litigants to structure flexible, tailored discovery solutions that protect legitimate commercial confidentiality while preserving the plaintiff's ability to establish causation.",
+          "verbatim": "One of our central observations is that access is multidimensional; specifically, most types of access can be functionally exchangeable with other types of access. Because they often serve similar functions, denying one form of access does not always foreclose the successful gathering of evidence if other forms of access can be provided.",
+          "excerpt_context": "Section 3.3, paragraph 1",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Incorporate multidimensional, functionally exchangeable access frameworks into legal discovery to bypass trade secrecy blockades without compromising proprietary assets.",
+          "attribution_text": "An Intention within skeptic discourse that advocates for structuring legal discovery around multidimensional, functionally exchangeable access categories to circumvent trade secrecy blockades while preserving evidentiary verification. Encompasses: exchangeable access types, multidimensional discovery, flexible evidentiary negotiation.",
+          "vocabulary_terms": [
+            "exchangeable_access",
+            "multodimensional_discovery"
+          ],
+          "retrieval_confidence": 0.5655,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-243",
+              "label": "Proof Privatization",
+              "score": 0.7034
+            },
+            {
+              "id": "skp-intentions-164",
+              "label": "Coupling Mandatory Audit Discovery with Liability Presumptions",
+              "score": 0.691
+            },
+            {
+              "id": "sit-412",
+              "label": "Privatization of Proof",
+              "score": 0.6877
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-243",
+              "label": "Proof Privatization",
+              "score": 0.7034
+            },
+            {
+              "id": "skp-intentions-164",
+              "label": "Coupling Mandatory Audit Discovery with Liability Presumptions",
+              "score": 0.691
+            },
+            {
+              "id": "skp-intentions-069",
+              "label": "Deputizing Private Litigants as the Verification Layer for AI Disclosure Filings",
+              "score": 0.6668
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-desires-079",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The proposed legal framework seeks to eliminate the evidentiary dead end caused by corporate trade secrecy and mathematical opacity in AI-related litigation. By establishing a structured three-part test that evaluates asymmetry, benefit-to-risk proportionality, and functional substitutes, the framework prevents confidentiality claims from entirely swallowing legitimate requests for proof. This ensures that injured plaintiffs can effectively pierce corporate opacity walls without forcing catastrophic disclosures of proprietary source code. However, the complexity of calculating precise benefit-to-risk ratios may still disadvantage plaintiffs who lack independent technical expertise to frame their discovery requests.",
+          "verbatim": "As discussed above, AI-related cases frequently reach an impasse over access, and this test removes reliance on ad hoc judgments of the arguments. Our test does not create new procedural rules; rather it draws on existing doctrines of relevance, proportionality, necessity, and cost-shifting to give judges a structured framework for assessing whether proof privatization has occurred, to what extent, and whether requested access is reasonable.",
+          "excerpt_context": "Section 4, paragraph 2",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Establish a judicial framework to evaluate proof privatization and balance public evidentiary needs against corporate trade secrets.",
+          "attribution_text": "A Desire within skeptic discourse that establishes a judicial framework to evaluate proof privatization and balance public evidentiary needs against corporate trade secrets. Encompasses: applying proportionality doctrines to algorithmic opacity, overcoming evidentiary impasses, and structuring pretrial discovery.",
+          "vocabulary_terms": [
+            "proof_privatization",
+            "evidentiary_asymmetry",
+            "proportionality_doctrine"
+          ],
+          "retrieval_confidence": 0.7237,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-desires-079",
+              "label": "Balanced Transparency: Public Interest vs. Trade Secrets",
+              "score": 0.7237
+            },
+            {
+              "id": "sit-412",
+              "label": "Privatization of Proof",
+              "score": 0.7151
+            },
+            {
+              "id": "skp-desires-080",
+              "label": "Algorithmic Transparency as a Democratic Right",
+              "score": 0.6993
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-intentions-164",
+          "mechanism_type": "liability_regime",
+          "category": "Intentions",
+          "point": "The third step of the proposed evidentiary test permits producing parties to offer adverse inferences instead of granting direct access to sensitive artifacts when confidentiality is deemed paramount. This mechanism directly addresses situations where corporate trade secrecy or technical hurdles make artifact production impossible, ensuring that plaintiffs are not left entirely remediless due to proof privatization. By allowing factfinders to draw unfavorable conclusions when evidence is withheld, the framework creates a strong economic and legal incentive for developers to cooperate with discovery. Yet, reliance on adverse inferences may fail to provide the technical clarity needed to fully understand systemic algorithmic failures.",
+          "verbatim": "They could even propose to permit adverse inference instead of granting access if the producing party truly believes that confidentiality is paramount and no amount of access protects these interests.",
+          "excerpt_context": "Section 4.1, Step 3",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Permit producing parties to offer adverse inferences in lieu of proprietary AI artifact disclosure during litigation discovery disputes.",
+          "attribution_text": "An Intention within skeptic discourse that permits producing parties to offer adverse inferences in lieu of proprietary AI artifact disclosure during litigation discovery disputes. Encompasses: substituting direct artifact access with adverse inference sanctions and protecting paramount confidentiality interests.",
+          "vocabulary_terms": [
+            "adverse_inference",
+            "proof_privatization",
+            "discovery_sanctions"
+          ],
+          "retrieval_confidence": 0.7541,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-164",
+              "label": "Coupling Mandatory Audit Discovery with Liability Presumptions",
+              "score": 0.7541
+            },
+            {
+              "id": "skp-intentions-069",
+              "label": "Deputizing Private Litigants as the Verification Layer for AI Disclosure Filings",
+              "score": 0.7517
+            },
+            {
+              "id": "skp-beliefs-241",
+              "label": "Discovery Rights Are Asymmetric Across Referents",
+              "score": 0.7317
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-243",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The authors identify the underlying systemic problem as 'proof privatization,' wherein major channels to and control over critical evidence are increasingly concentrated in the hands of private actors. This structural shift moves legal authority and evidentiary power away from the courts and into private corporate hands. Because private developers control training data, design choices, and validation practices, plaintiffs face severe informational blockades. This privatization of proof exacerbates existing power asymmetries between well-resourced technology corporations and injured litigants. Ultimately, it allows private firms to dictate what is knowable and verifiable in AI litigation.",
+          "verbatim": "We pinpoint the underlying problem as one of “proof privatization”: that major channels to and control over evidence are increasingly in the hands of private actors, shifting authority from the court to the private actors.",
+          "excerpt_context": "Section 5, Conclusion, Paragraph 1",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Control over enforcement-critical evidence is concentrated in private actors who use procedural barriers to prevent discovery.",
+          "attribution_text": "A Belief within skeptic discourse that control over enforcement-critical evidence is concentrated in private actors who use procedural barriers to prevent discovery. Encompasses: proof privatization, private control over evidence, and judicial authority erosion.",
+          "vocabulary_terms": [
+            "proof_privatization",
+            "information_asymmetry"
+          ],
+          "retrieval_confidence": 0.8364,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-243",
+              "label": "Proof Privatization",
+              "score": 0.8364
+            },
+            {
+              "id": "sit-412",
+              "label": "Privatization of Proof",
+              "score": 0.7317
+            },
+            {
+              "id": "skp-intentions-069",
+              "label": "Deputizing Private Litigants as the Verification Layer for AI Disclosure Filings",
+              "score": 0.6996
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-047",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The review of background literature highlights that information, resource, and expertise asymmetries allow parties controlling relevant information to unilaterally shape what is knowable in litigation. Repeat-player frameworks demonstrate that well-resourced corporate defendants are systematically advantaged in navigating procedural demands and generating proof over time. Furthermore, pleading standards like plausibility pleading operate as early evidentiary screens that implicitly demand information unavailable to plaintiffs prior to discovery. These procedural mechanisms expose fundamental gaps in legal accountability frameworks by systematically frustrating meaningful contestation.",
+          "verbatim": "Many previous works emphasize that parties who control relevant information can shape what is knowable in litigation, particularly through secrecy claims and institutional deference to confidentiality... At the pleading stage, Dodson argues that plausibility pleading operates as an early evidentiary screen by implicitly demanding information often unavailable pre-discovery.",
+          "excerpt_context": "Appendix A, Background and Related Work",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "AI systems expose fundamental gaps in legal accountability frameworks through persistent information and resource asymmetries.",
+          "attribution_text": "A Belief within skeptic discourse that AI systems expose fundamental gaps in legal accountability frameworks, particularly concerning state power and corporate responsibility. Encompasses: informational asymmetry, repeat-player advantages, and procedural screening barriers.",
+          "vocabulary_terms": [
+            "information_asymmetry",
+            "procedural_barriers"
+          ],
+          "retrieval_confidence": 0.8578,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-047",
+              "label": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+              "score": 0.8578
+            },
+            {
+              "id": "skp-beliefs-040",
+              "label": "Deployers of Autonomous AI Should Be Liable Even for Unintended Outcomes",
+              "score": 0.8041
+            },
+            {
+              "id": "skp-beliefs-031",
+              "label": "Perfect Enforcement Through AI Removes the Safety Valve of Selective Prosecution",
+              "score": 0.7907
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-288",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The survey of case law demonstrates that corporate trade secrecy and technical opacity create insurmountable evidentiary barriers for plaintiffs attempting to prove causation or challenge algorithmic harms. Across numerous disputes—including EVAAS, TrueAllele, CoreLogic, and OpenAI—developers and deployers systematically withhold source codes, training dataset compositions, and internal validation records under the guise of proprietary protection. Even when limited discovery is granted under protective orders, plaintiffs and their experts frequently find themselves unable to replicate outcomes or independently audit system behavior. This systematic withholding privatizes proof and insulates automated decision-making systems from legal scrutiny.",
+          "verbatim": "SAS Institute treated the EVAAS source code as proprietary trade secrets, refusing to disclose them to either the plaintiff teachers or HISD itself. HISD consistently denied discovery requests for this information on the grounds that the source code was “proprietary, trade secret information not in the custody, control, or possession of the District",
+          "excerpt_context": "Section B.3.1",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Corporate trade secrecy and technical opacity combine to create insurmountable evidentiary barriers for plaintiffs seeking to prove causation in algorithmic litigation.",
+          "attribution_text": "A Belief within skeptic discourse that corporate trade secrecy and technical opacity combine to create insurmountable evidentiary barriers for plaintiffs seeking to prove causation in algorithmic litigation. Encompasses: trade secrecy protections, information asymmetry, and evidentiary dead ends.",
+          "vocabulary_terms": [
+            "trade_secrecy",
+            "evidentiary_barrier"
+          ],
+          "retrieval_confidence": 0.8922,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-288",
+              "label": "Evidentiary Dead End of Opaque AI Systems",
+              "score": 0.8922
+            },
+            {
+              "id": "skp-beliefs-102",
+              "label": "Evidentiary Failure of Traditional Litigation Against Opaque AI",
+              "score": 0.7548
+            },
+            {
+              "id": "skp-beliefs-006",
+              "label": "Corporate Opacity as Structural Liability Shield",
+              "score": 0.728
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-178",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The research documents frequent instances where institutional defendants and contractors fail to retain or deliberately destroy critical electronic records, databases, and communication files relevant to algorithmic performance. In cases like MiDAS and New York Times v. Microsoft, internal files, contractor mailboxes, and output logs were deleted either prior to litigation or after the imposition of preservation duties, while training datasets and search indexes were claimed to be non-existent or commercially sensitive. Such actions reflect a liability-motivated suppression and destruction of critical risk information. This procedural spoliation directly impairs plaintiffs' capacity to reconstruct decision trees and establish systemic bias.",
+          "verbatim": "Database files, decision tree documentation, and contractor emails ordered produced after eight months of non-compliance and no privilege log. Only 11 emails voluntarily produced. Multiple contractor employee mailboxes found deleted (some pre-litigation, some post-litigation hold).",
+          "excerpt_context": "Section B.2, Table 3 (MiDAS)",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Companies intentionally limit risk disclosures and fail to preserve electronic records to mitigate legal liability and evade discovery obligations.",
+          "attribution_text": "A Belief within skeptic discourse that companies intentionally limit risk disclosures and fail to preserve electronic records to mitigate legal liability and evade discovery obligations. Encompasses: record spoliation, suppression of risk information, and non-compliance with discovery.",
+          "vocabulary_terms": [
+            "record_spoliation",
+            "liability_mitigation"
+          ],
+          "retrieval_confidence": 0.8116,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-178",
+              "label": "Liability-Motivated Suppression of AI Risk Information",
+              "score": 0.8116
+            },
+            {
+              "id": "skp-intentions-069",
+              "label": "Deputizing Private Litigants as the Verification Layer for AI Disclosure Filings",
+              "score": 0.7385
+            },
+            {
+              "id": "skp-beliefs-243",
+              "label": "Proof Privatization",
+              "score": 0.7002
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-243",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Corporate trade secrecy and aggressive assertions of intellectual property rights effectively privatize proof, creating insurmountable evidentiary barriers for litigants challenging opaque automated systems. Across diverse legal contexts—from probabilistic DNA genotyping in TrueAllele and recidivism risk scoring in COMPAS to automated welfare fraud detection in MiDAS—private vendors and state actors systematically withhold underlying source code, variable weights, and decision logic. This privatization of proof leaves affected individuals incapable of disproving erroneous automated determinations or vindicating fundamental due process and constitutional confrontation rights.",
+          "verbatim": "The court declined to order disclosure of SAS’s proprietary information, reasoning that “when a public agency adopts a policy of making high stakes employment decisions based on secret algorithms incompatible with minimum due process, the proper remedy is to overturn the policy, while leaving the trade secrets intact.",
+          "excerpt_context": "Section 6, Introduction and SAS cases",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Control over enforcement-critical evidence is concentrated in private actors who use trade secrecy and procedural barriers to prevent discovery.",
+          "attribution_text": "A Belief within skeptic discourse that corporate trade secrecy and proprietary control over algorithmic artifacts create systemic barriers to proving causation and challenging automated decisions. Encompasses: Privatization of proof, trade secrecy shielding, information asymmetry.",
+          "vocabulary_terms": [
+            "privatization_of_proof",
+            "trade_secrets",
+            "information_asymmetry",
+            "due_process"
+          ],
+          "retrieval_confidence": 0.7764,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-288",
+              "label": "Evidentiary Dead End of Opaque AI Systems",
+              "score": 0.7938
+            },
+            {
+              "id": "skp-beliefs-243",
+              "label": "Proof Privatization",
+              "score": 0.7764
+            },
+            {
+              "id": "skp-beliefs-172",
+              "label": "Algorithmic Secrecy Clauses in Trade Agreements Undermine Regulatory Oversight",
+              "score": 0.7747
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-187",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Automated systems and software vendors frequently attempt to evade legal accountability by deflecting blame onto machine-driven outputs, arguing that the software rather than any human actor caused the resulting deprivation. Courts, such as the Sixth Circuit in Cahoo v. SAS Analytics, must actively reject this technological novelty defense to prevent state and corporate actors from utilizing automated decision pipelines as automated liability shields. Accepting the premise that automated systems operate autonomously without human responsibility creates an explicit roadmap for constitutional evasion.",
+          "verbatim": "The individual agency defendants also argued, both at the motion to dismiss stage and on appeal, that MiDAS rather than any human decision-maker was responsible for the challenged deprivations, seeking to narrow the scope of their own liability and implicitly the scope of discoverable materials.",
+          "excerpt_context": "Section 6, MiDAS cases",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Legislative and legal attempts to separate machine-output causation from human responsibility function as corporate and state liability shields.",
+          "attribution_text": "A Belief within skeptic discourse that attributing constitutional deprivations to automated software rather than human operators functions as an illegitimate liability shield. Encompasses: Automated displacement of responsibility, qualified immunity via technological novelty, agency accountability.",
+          "vocabulary_terms": [
+            "algorithmic_accountability",
+            "liability_shields",
+            "state_actors"
+          ],
+          "retrieval_confidence": 0.5753,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-desires-087",
+              "label": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+              "score": 0.7034
+            },
+            {
+              "id": "skp-beliefs-144",
+              "label": "Incremental Expansion of AI Legal Status Undermines Human-Centric Law",
+              "score": 0.684
+            },
+            {
+              "id": "skp-beliefs-047",
+              "label": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+              "score": 0.6686
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-desires-087",
+              "label": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+              "score": 0.7034
+            },
+            {
+              "id": "skp-beliefs-144",
+              "label": "Incremental Expansion of AI Legal Status Undermines Human-Centric Law",
+              "score": 0.684
+            },
+            {
+              "id": "skp-beliefs-047",
+              "label": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+              "score": 0.6686
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-279",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Proprietary control over training artifacts, decision trees, and internal model states creates severe discovery obstacles in algorithmic accountability litigation, forcing courts to intervene against obstructionist production tactics. Producing parties frequently exploit their exclusive control over data architecture to propose impossibly burdensome discovery formats, such as navigating screen-by-screen interfaces or asserting exorbitant privilege review costs. Courts must enforce baseline obligations requiring producing parties to execute direct database queries and bear the administrative costs of producing electronic stored information without obstruction.",
+          "verbatim": "The court ultimately held that the entity controlling the data architecture bore the primary obligation to propose custodians and search terms, and that superior knowledge of one’s own data could not be deployed to obstruct good-faith discovery.",
+          "excerpt_context": "Section 6, MiDAS cases",
+          "extraction_confidence": 0.97,
+          "canonical_proposition": "Proprietary control over training artifacts and internal model states creates systemic barriers to proving causation in tort litigation.",
+          "attribution_text": "A Belief within skeptic discourse that corporate control over data architecture and electronic discovery formats is weaponized to obstruct judicial accountability. Encompasses: Discovery obstruction, electronic stored information burdens, proprietary data asymmetry.",
+          "vocabulary_terms": [
+            "discovery_obstacles",
+            "information_asymmetry",
+            "electronic_discovery"
+          ],
+          "retrieval_confidence": 0.5987,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-102",
+              "label": "Evidentiary Failure of Traditional Litigation Against Opaque AI",
+              "score": 0.7087
+            },
+            {
+              "id": "skp-beliefs-243",
+              "label": "Proof Privatization",
+              "score": 0.7087
+            },
+            {
+              "id": "skp-desires-080",
+              "label": "Algorithmic Transparency as a Democratic Right",
+              "score": 0.6898
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-243",
+              "label": "Proof Privatization",
+              "score": 0.7087
+            },
+            {
+              "id": "skp-beliefs-102",
+              "label": "Evidentiary Failure of Traditional Litigation Against Opaque AI",
+              "score": 0.7087
+            },
+            {
+              "id": "skp-desires-080",
+              "label": "Algorithmic Transparency as a Democratic Right",
+              "score": 0.6898
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-288",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Corporate trade secrecy, procedural compartmentalization, and self-serving terminological characterizations create an insurmountable evidentiary barrier for plaintiffs seeking to prove causation and disparate impact in AI-related litigation. Across cases like Cahoo, CoreLogic, Huskey, Anderson v. TikTok, and Mobley v. Workday, defendants successfully conceal internal matching logic, training data, and model validation metrics under claims of trade secrecy, attorney-client privilege, or the assertion that their software constitutes a mere 'algorithm' rather than a trainable 'model.' Consequently, plaintiffs are forced to litigate on the basis of abstract functional descriptions or aggregate statistics that courts deem insufficient under traditional legal standards.",
+          "verbatim": "The matching logic and source code underlying CrimSAFE’s categorization were not among the materials produced. Both courts resolved the question of whether CrimSAFE was a decision-maker as a threshold matter rather than proceeding to merits-level inquiry into the tool’s implementation.",
+          "excerpt_context": "Section 7, Connecticut Fair Housing Center v. CoreLogic discussion",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Corporate trade secrecy and technical opacity combine to create an insurmountable evidentiary barrier for plaintiffs seeking to prove causation in algorithmic litigation.",
+          "attribution_text": "A Belief within skeptic discourse that corporate trade secrecy and mathematical opacity combine to create an insurmountable evidentiary barrier for plaintiffs seeking to prove causation in algorithmic litigation. Encompasses: source code withholding, procedural shielding, evidentiary dead ends.",
+          "vocabulary_terms": [
+            "trade secrecy",
+            "evidentiary barrier",
+            "causation"
+          ],
+          "retrieval_confidence": 0.9054,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-288",
+              "label": "Evidentiary Dead End of Opaque AI Systems",
+              "score": 0.9054
+            },
+            {
+              "id": "skp-desires-079",
+              "label": "Balanced Transparency: Public Interest vs. Trade Secrets",
+              "score": 0.7189
+            },
+            {
+              "id": "skp-beliefs-006",
+              "label": "Corporate Opacity as Structural Liability Shield",
+              "score": 0.7115
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-303",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Corporate defendants strategically deploy procedural maneuvers, phased discovery limitations, and characterizations of human discretion as legal shields to deflect products liability and discrimination claims. In Huskey v. State Farm and Cahoo, defendants argue that human claim handlers or leasing agents exercise independent discretion, thereby severing the causal link between the algorithmic tool and the resulting disparate impact. This doctrinal framing allows corporations to block substantive discovery into internal algorithmic operations while shielding themselves from class certification and jury trials.",
+          "verbatim": "State Farm has consistently advanced the latter position, asserting through corporate witnesses that 'no matter the FAE to which a claim is routed, the actual handling of that claim will depend upon factors unique to that claim and the discretion of the claim representative assigned to handle it.'",
+          "excerpt_context": "Section 7, Huskey v. State Farm discussion",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Corporate defendants deploy human discretion arguments and phased discovery limitations as legal shields to deflect products liability and discrimination claims.",
+          "attribution_text": "A Belief within skeptic discourse that corporate defendants deploy automated safety telemetry logs and discretion arguments as legal indemnity shields to deflect products liability claims and bypass jury trials. Encompasses: human discretion framing, phased discovery shielding, causal severance.",
+          "vocabulary_terms": [
+            "liability shield",
+            "human discretion",
+            "class certification"
+          ],
+          "retrieval_confidence": 0.8878,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-303",
+              "label": "Procedural Compliance Telemetry as Corporate Indemnity Shield",
+              "score": 0.8878
+            },
+            {
+              "id": "skp-beliefs-302",
+              "label": "Procedural Telemetry Checklists as Upstream Audit-Washing Shields",
+              "score": 0.7482
+            },
+            {
+              "id": "skp-intentions-069",
+              "label": "Deputizing Private Litigants as the Verification Layer for AI Disclosure Filings",
+              "score": 0.7037
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-102",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Conventional legal discovery procedures fail to pierce the corporate trade secrecy walls protecting proprietary neural architectures and training data. In Workday, plaintiffs seeking applicant flow data and deployment configurations found themselves trapped between Workday and employer-customers who mutually denied control over cloud-hosted data. Similarly, in Kadrey and New York Times, developers invoked commercial secrecy and competitive withholding to restrict access to training corpora and output logs. These barriers prevent plaintiffs from obtaining the implementation-level evidence necessary to prove causation or disparate impact.",
+          "verbatim": "Applicant flow data across employer customers has been withheld on a dual basis: Workday claims the data is in customers’ possession and custody, while customers have responded to subpoenas by directing plaintiffs back to Workday, leaving plaintiffs caught between two parties each denying control over data stored on Workday’s servers.",
+          "excerpt_context": "Section 8, paragraph 2",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Conventional legal discovery procedures fail to pierce corporate trade secrecy walls protecting proprietary neural architectures and training data.",
+          "attribution_text": "A Belief within skeptic discourse that conventional legal discovery procedures fail to pierce the corporate trade secrecy walls protecting proprietary neural architectures and training data. Encompasses: information asymmetry, trade secrecy defenses, and cloud infrastructure data withholding.",
+          "vocabulary_terms": [
+            "trade_secrecy",
+            "discovery_failure",
+            "information_asymmetry"
+          ],
+          "retrieval_confidence": 0.8686,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-102",
+              "label": "Evidentiary Failure of Traditional Litigation Against Opaque AI",
+              "score": 0.8686
+            },
+            {
+              "id": "skp-beliefs-006",
+              "label": "Corporate Opacity as Structural Liability Shield",
+              "score": 0.746
+            },
+            {
+              "id": "skp-beliefs-243",
+              "label": "Proof Privatization",
+              "score": 0.7351
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-273",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Legal intent standards and developer characterizations function as structural liability shields by allowing courts to accept self-serving descriptions of AI tools as advisory or non-decision-making. In Lokken and Mehrara, courts relied on defendants' characterizations of nH Predict and Chinook as mere guides or information management systems, bracketing inquiry into how AI outputs constrained human discretion. This judicial deference prevents plaintiffs from examining operational override rates and denial patterns across the class.",
+          "verbatim": "The government’s characterization of Chinook as a non-decision-making visual representation tool proved dispositive at every level of the access question: because the court accepted that framing, the informational environment Chinook created was rendered legally immaterial, and no production was required.",
+          "excerpt_context": "Section 8, Mehrara v. Canada analysis",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Legal intent standards and developer characterizations function as structural liability shields by allowing courts to accept self-serving descriptions of AI tools as advisory.",
+          "attribution_text": "A Belief within skeptic discourse that legal intent standards function as structural liability shields for software developers by making causation impossible for injured plaintiffs to prove. Encompasses: judicial deference to developer characterizations, advisory tool framing, and systemic liability shielding.",
+          "vocabulary_terms": [
+            "liability_shield",
+            "judicial_deference",
+            "algorithmic_discretion"
+          ],
+          "retrieval_confidence": 0.9293,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-273",
+              "label": "Intent-based legal requirements serving as corporate liability shields",
+              "score": 0.9293
+            },
+            {
+              "id": "skp-desires-087",
+              "label": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+              "score": 0.7687
+            },
+            {
+              "id": "skp-beliefs-178",
+              "label": "Liability-Motivated Suppression of AI Risk Information",
+              "score": 0.6983
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-288",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Corporate trade secrecy and technical opacity combine to create an insurmountable evidentiary barrier for plaintiffs seeking to prove causation in algorithmic discrimination and copyright cases. Across multiple litigations including Workday, Kadrey, and New York Times, developers systematically withheld training data composition and output logs under commercial pretexts. Courts repeatedly accepted proportionality arguments based on the massive scale of training datasets, effectively converting developer-authored technical papers into legal shields against discovery.",
+          "verbatim": "A notable evidentiary feature of Kadrey is that the record on which the fair use ruling rested was shaped at multiple levels by training data withholding. Meta’s own Llama 2 FAQ stated that data mixes were 'intentionally withheld for competitive reasons,' and plaintiffs alleged this framing served to avoid scrutiny of copyright infringement rather than to protect genuine competitive interests.",
+          "excerpt_context": "Section 8, Kadrey v. Meta Platforms analysis",
+          "extraction_confidence": 0.94,
+          "canonical_proposition": "Corporate trade secrecy and mathematical opacity combine to create an insurmountable evidentiary barrier for plaintiffs seeking to prove causation in algorithmic cases.",
+          "attribution_text": "A Belief within skeptic discourse that corporate trade secrecy and mathematical opacity combine to create an insurmountable evidentiary barrier for plaintiffs seeking to prove causation in algorithmic discrimination and copyright disputes. Encompasses: training data withholding, proportionality arguments, and systemic evidence suppression.",
+          "vocabulary_terms": [
+            "evidentiary_barrier",
+            "trade_secrecy",
+            "causation_proof"
+          ],
+          "retrieval_confidence": 0.8689,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-288",
+              "label": "Evidentiary Dead End of Opaque AI Systems",
+              "score": 0.8689
+            },
+            {
+              "id": "skp-beliefs-279",
+              "label": "Discovery Obstacles in Algorithmic Accountability Litigation",
+              "score": 0.7016
+            },
+            {
+              "id": "skp-beliefs-102",
+              "label": "Evidentiary Failure of Traditional Litigation Against Opaque AI",
+              "score": 0.6995
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-274",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Proving that AI-related documents were destroyed or withheld requires internal access that system opacity itself denies, as demonstrated by recurring retention failures in major litigations. In Kadrey and New York Times, significant torrenting logs, internal hyperlinks to ML Hub databases, and output logs were either unsearched, deleted, or erased during discovery. Plaintiffs only uncovered these retention failures fortuitously through hyperlinks in unrelated documents or external investigations, highlighting the fragility of digital preservation under corporate control.",
+          "verbatim": "First, on November 14, 2024, after plaintiffs had spent over 150 person-hours searching in the sandbox, OpenAI engineers erased all of plaintiffs’ programs and search result data from one of the dedicated virtual machines; while OpenAI recovered much of the underlying data, the folder structure and file names were irretrievably lost...",
+          "excerpt_context": "Section 8, The New York Times Co. v. Microsoft Corp. analysis",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Proving that AI-related documents were withheld or destroyed requires internal access that system opacity itself denies.",
+          "attribution_text": "A Belief within skeptic discourse that proving AI-related documents were withheld or destroyed requires the internal access that opacity itself denies. Encompasses: retention failures, data erasure during discovery, and spoliation proof requirements.",
+          "vocabulary_terms": [
+            "recursive_opacity",
+            "document_destruction",
+            "retention_failure"
+          ],
+          "retrieval_confidence": 0.9188,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-289",
+              "label": "Recursive Opacity in AI Discovery",
+              "score": 0.9188
+            },
+            {
+              "id": "skp-beliefs-274",
+              "label": "Recursive opacity in AI document discovery",
+              "score": 0.9188
+            },
+            {
+              "id": "acc-beliefs-106",
+              "label": "Continuous versioning makes AI system-state evidence temporally unstable for legal proceedings",
+              "score": 0.6379
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-178",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Companies intentionally invoke user privacy interests and regulatory compliance burdens to suppress risk disclosures and block the preservation of inference inputs and outputs. OpenAI resisted preserving ChatGPT output logs by citing global privacy regulations and proposing a novel 'AI privilege' for user conversations. This defense strategy uses compliance obligations as a shield against accountability and discovery obligations.",
+          "verbatim": "OpenAI resisted preservation by invoking user privacy interests and 'numerous privacy laws and regulations throughout the country and the world,' characterizing a broad preservation order as inconsistent with user expectations and contractual commitments.",
+          "excerpt_context": "Section 8, The New York Times Co. v. Microsoft Corp. analysis",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Companies intentionally limit risk disclosures and preservation obligations to mitigate legal liability by invoking user privacy regulations.",
+          "attribution_text": "A Belief within skeptic discourse that companies intentionally limit risk disclosures to mitigate legal liability by invoking user privacy regulations and creating novel legal privileges. Encompasses: privacy-motivated suppression, output log resistance, and liability mitigation.",
+          "vocabulary_terms": [
+            "liability_motivated_suppression",
+            "privacy_shield",
+            "output_log_retention"
+          ],
+          "retrieval_confidence": 0.8559,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-178",
+              "label": "Liability-Motivated Suppression of AI Risk Information",
+              "score": 0.8559
+            },
+            {
+              "id": "skp-beliefs-224",
+              "label": "Privacy Transactionalism",
+              "score": 0.7211
+            },
+            {
+              "id": "skp-intentions-069",
+              "label": "Deputizing Private Litigants as the Verification Layer for AI Disclosure Filings",
+              "score": 0.7167
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-174",
+          "category": "Intentions",
+          "point": "In litigation involving complex automated systems like MiDAS, agencies and private contractors frequently attempt to obstruct discovery by proposing exorbitant manual production methods, such as screen-by-screen navigation and printing. Courts counter this by establishing that the entity controlling the data architecture bears the obligation to perform direct database extractions and cannot leverage technical asymmetry to impose prohibitive discovery burdens.",
+          "verbatim": null,
+          "excerpt_context": "unmapped_concept_backfill",
+          "extraction_confidence": 0.7,
+          "vocabulary_terms": []
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "In People v. Superior Court (Chubbs), the California Court of Appeals denied a criminal defendant's motion to compel discovery of the source code for the proprietary probabilistic DNA analysis system TrueAllele, ruling that high-level methodological documentation was sufficient.",
+      "claim_label": "Chubbs TrueAllele Source Code Denial",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2015",
+      "extraction_confidence": 0.96,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "acc-beliefs-072",
+        "skp-beliefs-102"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "judicial opinion record",
+          "measurement_validity": "verified legal citation",
+          "confound_control": "high"
+        }
+      },
+      "claim_relations": [
+        {
+          "target_claim_label": "Pickett FST Source Code Disclosure",
+          "relation": "attacks",
+          "attack_type": "rebut"
+        }
+      ]
+    },
+    {
+      "claim": "In State v. Pickett, the Superior Court of New Jersey granted implementation-level access to forensic DNA software source code after an external audit revealed hidden design choices that overestimated the likelihood of guilt.",
+      "claim_label": "Pickett FST Source Code Disclosure",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2021",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-desires-088",
+        "skp-beliefs-276"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "judicial opinion and audit record",
+          "measurement_validity": "verified legal citation",
+          "confound_control": "high"
+        }
+      },
+      "claim_relations": [
+        {
+          "target_claim_label": "Chubbs TrueAllele Source Code Denial",
+          "relation": "attacks",
+          "attack_type": "rebut"
+        }
+      ]
+    },
+    {
+      "claim": "An empirical survey of 24 TrueAllele proceedings where source code access was contested reveals that courts declined to compel disclosure in 21 out of 24 cases.",
+      "claim_label": "TrueAllele Discovery Denial Rate",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": null,
+      "extraction_confidence": 0.91,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-102",
+        "acc-beliefs-072"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "case law survey across multiple jurisdictions",
+          "measurement_validity": "quantitative legal review",
+          "confound_control": "moderate"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "In Mehrara v. Canada, Canadian immigration authorities defended the use of the Chinook 3+ software interface by framing it as a non-decisional visual tool that merely displayed applicant information to human officers whose discretion remained unfettered, leading the court to deny plaintiff access to underlying spreadsheets, working notes, and risk indicator scores.",
+      "claim_label": "Chinook Immigration Software Classification",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2024",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "sit-029",
+        "skp-beliefs-102"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "legal case analysis",
+          "measurement_reliability": "high",
+          "confounding_controls": "verified through judicial ruling"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "A 2021 survey cited in litigation against State Farm showed that white homeowners insurance policyholders were nearly a third more likely than Black homeowners to have their claims processed expeditiously in under a month, while Black policyholders were 39% more likely to submit extra paperwork causing months of delay.",
+      "claim_label": "Racial Disparities in Homeowners Insurance Claims Processing",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2021",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-024"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "survey data cited in legal complaint",
+          "measurement_reliability": "moderate",
+          "confounding_controls": "controlled for basic policy attributes"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "In The Estate of Gene B. Lokken v. UnitedHealth Group, plaintiffs challenged the use of the nH predict algorithmic model for determining Medicare Advantage post-acute care, citing public reporting that indicated a roughly 90 percent error rate in overruling attending physicians.",
+      "claim_label": "nH Predict Model Error Rate in Medicare Advantage",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2025",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-beliefs-043",
+        "skp-beliefs-029"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "public reporting and court filings",
+          "measurement_reliability": "moderate",
+          "confounding_controls": "evaluated via patient care outcomes"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "AI-related civil litigation frequently reaches an impasse during pretrial discovery due to severe informational asymmetry and corporate claims of trade secrecy, which conventional legal doctrines address in a fragmented and inconsistent manner.",
+      "claim_label": "Pretrial Discovery Impasse in AI Litigation",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": null,
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-102",
+        "skp-beliefs-279"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "falsifiable": true,
+          "empirical_support": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Different forms of access to AI artifacts, such as model weights, documentation, compute logs, and evaluation sets, are functionally exchangeable and can be substituted to achieve similar evidentiary outcomes while posing varying degrees of disclosure risk.",
+      "claim_label": "Functional Exchangeability of AI Evidence",
+      "doc_position": "supports",
+      "temporal_scope": "timeless",
+      "temporal_bound": null,
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "sit-411"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "falsifiable": true,
+          "empirical_support": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Claims regarding automated, algorithmic, and artificial intelligence technologies frequently fail during pre-trial stages due to a self-defeating procedural cycle. Requesting parties cannot gather clear evidence to support a discovery request without first having discovery, yet without discovery, they cannot produce the evidence required to advance their cases.",
+      "claim_label": "Pre-Trial Failure Due to Discovery Catch-22",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": null,
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-102",
+        "skp-beliefs-243"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observability": "documented in legal case analyses and scholarly literature",
+          "falsifiability": "falsifiable through empirical examination of court docket outcomes and pre-trial dismissal rates in AI litigation",
+          "empirical_support": "supported by cited legal scholarship and case law references"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Major channels to and control over enforcement-critical evidence are increasingly concentrated in the hands of private actors, a phenomenon termed 'proof privatization.' This shift transfers legal authority and evidentiary control away from courts and into private corporate hands.",
+      "claim_label": "Concentration of Evidence in Private Hands",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": null,
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-243"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observability": "observable through the distribution of technical documentation and trade secret protections in litigation",
+          "falsifiability": "falsifiable by demonstrating that plaintiffs routinely access proprietary training internals without private cooperation",
+          "empirical_support": "supported by extensive legal analysis of trade secrecy and corporate information control"
+        }
+      },
+      "claim_relations": [
+        {
+          "target_claim_label": "Pre-Trial Failure Due to Discovery Catch-22",
+          "relation": "supports",
+          "attack_type": null
+        }
+      ]
+    },
+    {
+      "claim": "In the Houston Federation of Teachers v. Houston Independent School District litigation, the school district licensed the proprietary value-added model EVAAS from SAS Institute to make high-stakes personnel decisions. The source code was treated as a trade secret and withheld from both teachers and the school district, and even an independent expert operating under a protective order could not replicate the scoring outputs.",
+      "claim_label": "EVAAS Trade Secrecy and Non-Replicability",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2017",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-288",
+        "acc-beliefs-074"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "Court records and judicial opinions from federal district litigation",
+          "falsifiability": "Verifiable through docket filings and settlement agreements",
+          "generality_scope": "Applies to proprietary educational and algorithmic evaluation tools"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "In the MiDAS unemployment compensation litigation in Michigan, plaintiffs experienced extensive delays and non-compliance regarding discovery, with multiple contractor employee mailboxes found deleted both before and after litigation holds were instituted, and only 11 emails voluntarily produced out of extensive agency and contractor records.",
+      "claim_label": "MiDAS Discovery Non-Compliance and Deletion",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": null,
+      "extraction_confidence": 0.97,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-178"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "Judicial findings and case summaries from litigation dockets",
+          "falsifiability": "Verifiable through court discovery sanctions and records",
+          "generality_scope": "Illustrates institutional resistance in automated government entitlement systems"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "In State v. Pickett, an independent audit of STRmix—a competing probabilistic genotyping software whose source code was disclosed during a federal Daubert hearing—revealed a silent error excluding certain loci from the likelihood ratio calculation that had not been discovered through any prior validation study.",
+      "claim_label": "STRmix Source Code Audit Discovery",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": null,
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-276",
+        "saf-beliefs-248"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "judicial opinion citation of expert testimony and comparative case review",
+          "measurement_validity": "verified through independent forensic audit findings comparing source code inspection against validation studies",
+          "confounder_control": "contrasted directly with closed-source systems that lacked implementation-level review"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Michigan's Unemployment Insurance Agency deployed the MiDAS automated fraud detection system between October 2013 and August 2015, during which time an audit by the Michigan Auditor General revealed that 93 percent of over 22,000 fraud determinations did not involve actual fraud.",
+      "claim_label": "MiDAS False Positive Fraud Rate",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2013-2015",
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-094"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "state auditor general review of 22,000 adjudicated fraud determinations",
+          "measurement_validity": "direct forensic audit of administrative case files and automated penalty assessments",
+          "confounder_control": "comprehensive audit across all automated adjudications issued during the specified operational window"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "In Cahoo v. SAS Analytics Inc., the Michigan Auditor General conducted a retrospective review of 22,000 cases in the MiDAS automated fraud-detection system, revealing a 93 percent error rate that was subsequently incorporated directly into the Sixth Circuit's procedural due process analysis.",
+      "claim_label": "MiDAS System 93 Percent Error Rate",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": null,
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "sit-449"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "empirical": true,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "In Connecticut Fair Housing Center v. CoreLogic Rental Property Solutions, CoreLogic's CrimSAFE tenant screening tool flagged an applicant based on a 2014 shoplifting charge below the level of a misdemeanor that had already been dropped, while withholding the underlying criminal record details from on-site leasing staff.",
+      "claim_label": "CoreLogic CrimSAFE Erroneous Flagging",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2014-2022",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-288"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "empirical": true,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "A 2021 survey of approximately 800 State Farm policyholders found that white claimants were nearly one-third more likely to have their property insurance claims processed within a month, and that Black claimants were 39 percent more likely to be required to submit additional documentation.",
+      "claim_label": "State Farm Racial Disparities Survey",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2021",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-desires-074"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "empirical": true,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "In Kadrey v. Meta Platforms, Inc., Judge Chhabria granted Meta's cross-motion for summary judgment on fair use on June 25, 2025, holding that Meta's training use of copyrighted books from shadow libraries was highly transformative and lacked demonstrated market harm.",
+      "claim_label": "Kadrey Summary Judgment Ruling",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "June 25, 2025",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-102",
+        "skp-beliefs-288"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "falsifiable": true,
+          "methodology_stated": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "An analysis of 24 TrueAllele source code admissibility cases across Frye, Daubert, and hybrid standards revealed that courts declined to compel source code disclosure in 21 of 24 cases, demonstrating that privatization of proof operates independently of formal scientific admissibility standards.",
+      "claim_label": "TrueAllele Disclosure Outcomes",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": null,
+      "extraction_confidence": 0.97,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-102",
+        "skp-beliefs-288"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "falsifiable": true,
+          "methodology_stated": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "In The Estate of Gene B. Lokken v. UnitedHealth Group, plaintiffs alleged that UnitedHealth used the nH Predict AI model to systematically deny post-acute care to Medicare Advantage patients, achieving a 90% error rate while only 0.2% of policyholders filed appeals.",
+      "claim_label": "Lokken UnitedHealth nH Predict Error Rate",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": null,
+      "extraction_confidence": 0.96,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-094",
+        "skp-beliefs-273"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "falsifiable": true,
+          "methodology_stated": true
+        }
+      },
+      "claim_relations": []
+    }
+  ],
+  "unmapped_concepts": [
+    {
+      "suggested_label": "Mandating Database-Level Electronic Discovery Extraction",
+      "suggested_description": "An Intention within skeptic discourse that requires producing parties to extract electronic discovery directly from underlying database architectures rather than utilizing deliberately burdensome manual display formats.\nEncompasses: Native database queries, prohibition of screen-printing obstruction, electronic stored information cost allocation.\nExcludes: Traditional paper-based document production requests and high-level descriptive summaries.",
+      "concept": "In litigation involving complex automated systems like MiDAS, agencies and private contractors frequently attempt to obstruct discovery by proposing exorbitant manual production methods, such as screen-by-screen navigation and printing. Courts counter this by establishing that the entity controlling the data architecture bears the obligation to perform direct database extractions and cannot leverage technical asymmetry to impose prohibitive discovery burdens.",
+      "suggested_pov": "skeptic",
+      "suggested_category": "Intentions",
+      "reason": "This concept targets the specific technical mechanism of electronic discovery compliance in algorithmic litigation, which is distinct from general document disclosure mandates.",
+      "resolved_node_id": "skp-intentions-174"
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "debate_id": "efef7777-2bd8-471f-bff2-307db9aea772",
+  "debate_title": "Should AI developers be legally liable for harms caused b...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "The net impact of upstream strict liability versus downstream tort assignment on safety investments and open-weight innovation.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Upstream strict liability creates prohibitive compliance costs that eliminate independent open-source developers and entrench large cloud providers."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Upstream strict liability is necessary to prevent market dumping of unverified architectures and aligns legal duty with architectural control."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-028",
+        "acc-desires-039",
+        "acc-intentions-130",
+        "sit-177",
+        "saf-beliefs-217",
+        "saf-intentions-172",
+        "saf-desires-012",
+        "acc-beliefs-093",
+        "acc-beliefs-043",
+        "acc-desires-027"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "The appropriate legal locus for tort accountability in multi-tiered model deployments.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Liability must remain anchored at downstream deployment points to preserve permissionless experimentation and reflect operational control."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Liability must attach upstream to commercial entities controlling runtime architecture because enterprise licensing restricts downstream inspection."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-028",
+        "acc-desires-039",
+        "acc-intentions-130",
+        "sit-177",
+        "skp-beliefs-234",
+        "skp-beliefs-164",
+        "skp-intentions-029",
+        "sit-340",
+        "acc-beliefs-093",
+        "acc-beliefs-043"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 7,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-234",
+      "nodeLabel": "Withholding Diagnostic Interfaces as Upstream Design Defect",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-029",
+      "nodeLabel": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-134",
+      "nodeLabel": "Process vs. Governance in AI Regulation",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-130",
+      "nodeLabel": "Bifurcating Upstream Interface Access from Downstream Tort Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-217",
+      "nodeLabel": "Inadequacy of the Reasonable Person Standard for Algorithmic Negligence",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-172",
+      "nodeLabel": "Giving Victims One Clear Door for AI Liability Claims",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-109",
+      "nodeLabel": "Component vs System Safety",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-164",
+      "nodeLabel": "Companies Use Narrow Audits to Deflect Meaningful AI Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-093",
+      "nodeLabel": "Downstream Liability Bounded by What the Deployer Can Detect and Price",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-008",
+      "nodeLabel": "Matching AI Oversight Intensity to Decision Stakes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-246",
+      "nodeLabel": "Fiduciary Duty Survival Under Algorithmic Delegation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-044",
+      "nodeLabel": "Preventing AI Use from Lowering Legal Standards of Care",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-019",
+      "nodeLabel": "Foundation Model Capabilities Can Be Systematically Unlocked and Deployed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-106",
+      "nodeLabel": "Gating Immunity on Distributionally Sampled Behavior with Drift-Keyed Re-Measurement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-302",
+      "nodeLabel": "Procedural Telemetry Checklists as Upstream Audit-Washing Shields",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-040",
+      "nodeLabel": "Deployers of Autonomous AI Should Be Liable Even for Unintended Outcomes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-138",
+      "nodeLabel": "Secure Contractual Exit Rights to Prevent AI Vendor Data Lock-In",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-129",
+      "nodeLabel": "AI Executes the Letter of the Command While Violating Its Spirit",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-200",
+      "nodeLabel": "AI Systematically Optimizes Proxy Metrics at the Expense of Intended Outcomes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-054",
+      "nodeLabel": "Responding to Early Warning Signs of Dangerous AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-273",
+      "nodeLabel": "Intent-based legal requirements serving as corporate liability shields",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-069",
+      "nodeLabel": "Deputizing Private Litigants as the Verification Layer for AI Disclosure Filings",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-091",
+      "nodeLabel": "Duty Attachment and Served Referent Are Separable but Solvency-Constrained",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-079",
+      "nodeLabel": "Balanced Transparency: Public Interest vs. Trade Secrets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-126",
+      "nodeLabel": "Fault Fragments Across Designers, Deployers, and Users When AI Fails",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-069",
+      "nodeLabel": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-106",
+      "nodeLabel": "Liability Asymmetry Punishes Regulators for Caution and Rewards Inaction",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-034",
+      "nodeLabel": "AI Accountability Has a Chicken-and-Egg Problem",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "The net impact of upstream strict liability versus downstream tort assignment on safety investments and open-weight innovation.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both positions rely on unproven economic projections about how litigation risk alters developer behavior. The accelerationist claim (C1) and the safetyist claim (C2) lack empirical validation from mature liability regimes specific to foundation models.",
+      "whatWouldChange": "Empirical studies comparing liability insurance markets and startup survival rates across jurisdictions with differing upstream versus downstream AI tort rules.",
+      "claimIds": [
+        "C1",
+        "C3",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "The appropriate legal locus for tort accountability in multi-tiered model deployments.",
+      "prevails": "C2",
+      "criterion": "logical_validity",
+      "rationale": "Position C2 holds greater logical internal consistency by linking legal duty directly to architectural control over model weights. Position C1 identifies real compliance risks for open-source developers, but fails to demonstrate how downstream-only liability solves the accountability gap when base models are deployed broadly.",
+      "whatWouldChange": "Evidence that downstream fine-tuning and safety guardrails completely sever the causal link between upstream model architecture and downstream misuse.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

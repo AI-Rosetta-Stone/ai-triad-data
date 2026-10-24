@@ -1,0 +1,445 @@
+{
+  "debate_id": "2ebf888a-3098-49dc-8420-c91d56772f12",
+  "debate_title": "AI systems in high-stakes decisions: healthcare triage an...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether automated continuous integration and ninety-day audit cycles can replace common law tort oversight without compromising public safety.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Dynamic escrow pools and automated audit logs provide faster, more reliable restitution and error correction than slow tort lawsuits."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Replacing tort oversight with automated administrative compliance mechanisms removes vital legal deterrents and externalizes catastrophic risk."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-122",
+        "saf-beliefs-217",
+        "saf-desires-009",
+        "saf-intentions-160",
+        "sit-174",
+        "acc-beliefs-094",
+        "acc-intentions-111",
+        "acc-intentions-106",
+        "acc-beliefs-105",
+        "saf-beliefs-228"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether pre-deployment causal validation must serve as a mandatory regulatory gate before deploying high-stakes algorithms.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Independent pre-deployment causal audits must be mandatory to prevent encoding historical bias into black-box systems."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-deployment administrative gating freezes technological progress and perpetuates higher baseline error rates from human decision-makers."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-094",
+        "acc-intentions-111",
+        "acc-intentions-106",
+        "acc-beliefs-105",
+        "skp-beliefs-027",
+        "skp-beliefs-286",
+        "skp-desires-077",
+        "skp-desires-082",
+        "skp-intentions-157",
+        "skp-beliefs-260"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-intentions-106",
+      "nodeLabel": "Gating Immunity on Distributionally Sampled Behavior with Drift-Keyed Re-Measurement",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-217",
+      "nodeLabel": "Inadequacy of the Reasonable Person Standard for Algorithmic Negligence",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-160",
+      "nodeLabel": "Set the Ethical and Legal Ground Rules for AI Governance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-094",
+      "nodeLabel": "Asymmetry Between Reconstructive Burden and Remediation Cost",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-111",
+      "nodeLabel": "Replace Discretionary Human Halt Authority with Pre-Programmed Enforcement Actions",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-166",
+      "nodeLabel": "AI Accountability and Liability Frameworks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-069",
+      "nodeLabel": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-122",
+      "nodeLabel": "AI Performs Consequential Acts That No One Bears Responsibility For",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-009",
+      "nodeLabel": "Doctors Decide, Not Algorithms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-174",
+      "nodeLabel": "Legal and Legislative Mechanisms for AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-105",
+      "nodeLabel": "Denial-triggered recourse misses the never-notified subject",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-027",
+      "nodeLabel": "Humans Systematically Over-Trust AI Outputs Even When Wrong",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-286",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-077",
+      "nodeLabel": "Precaution Grounded in Lived Experience",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-157",
+      "nodeLabel": "Surfacing Diffuse AI Harms Through a Single Funded Measurer with Referral Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-228",
+      "nodeLabel": "Moral Epistemic Justification Gap",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-018",
+      "nodeLabel": "The Human Power to Limit Violence Must Be Preserved",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-260",
+      "nodeLabel": "Patching Latency in Complex Model Architectures",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-156",
+      "nodeLabel": "Surgical Realignment of Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-409",
+      "nodeLabel": "Automated Compliance Monitoring",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-109",
+      "nodeLabel": "Expert-inspectability gap in mechanistic interpretability standards",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-044",
+      "nodeLabel": "Technical Challenges and Tradeoffs in Building Safe, Advanced AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-073",
+      "nodeLabel": "Governing AI Risk Through Telemetry-Enabled Insurance and Post-Deployment Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-001",
+      "nodeLabel": "Achieving Capability Leadership Through Open Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-137",
+      "nodeLabel": "Productivity Metrics Miss the Slow Collapse of Institutional Trust",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-226",
+      "nodeLabel": "Sidecar Integration for Auditability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-058",
+      "nodeLabel": "Building Accountability Frameworks for AI Agents Operating at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-104",
+      "nodeLabel": "Empirical transaction audit as the mechanism-selection hinge",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-173",
+      "nodeLabel": "Governance Frameworks and Institutional Design",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-132",
+      "nodeLabel": "AI Obeys a Broad Range of Commands with No Internal Scrutiny",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-023",
+      "nodeLabel": "Dissent on AI Safety Must Be Protected, Not Punished",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-107",
+      "nodeLabel": "Coupling Pre-Deployment Independent Audits with Algorithmic Disgorgement and Strict Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-028",
+      "nodeLabel": "The Proof-Before-Policy Problem",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-071",
+      "nodeLabel": "Quantifiable AI Harms Turn Fairness Into a Business Imperative, Not Just an Ethical One",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-206",
+      "nodeLabel": "Scaling AI Without Safeguards Creates a Non-Trivial Path to Irreversible Civilizational Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-229",
+      "nodeLabel": "Conditioning Limited Liability on Forensic Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-279",
+      "nodeLabel": "Discovery Obstacles in Algorithmic Accountability Litigation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-170",
+      "nodeLabel": "AI Corporations Systematically Evade Effective Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-088",
+      "nodeLabel": "Mandatory Evidence Preservation with Burden-Flipping in Litigation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-164",
+      "nodeLabel": "Coupling Mandatory Audit Discovery with Liability Presumptions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-448",
+      "nodeLabel": "Feedback-Loop Contamination of Post-Deployment Evaluation Data",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-019",
+      "nodeLabel": "Acting Now vs. Waiting For Proof",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether automated continuous integration and ninety-day audit cycles can replace common law tort oversight without compromising public safety.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The debate lacks comparative empirical data across both software engineering and the legal system. Both positions operate on incompatible frameworks for measuring safety and harm.",
+      "whatWouldChange": "Long-term comparative data tracking error rates and victim compensation outcomes across hospitals using continuous audit logs versus those operating under traditional tort liability.",
+      "claimIds": [
+        "C1",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether pre-deployment causal validation must serve as a mandatory regulatory gate before deploying high-stakes algorithms.",
+      "prevails": "skeptic",
+      "criterion": "implementation_specificity",
+      "rationale": "The skeptic position provides a concrete regulatory mechanism, whereas the accelerationist position relies on abstract claims about innovation speed. This makes the skeptic framework more actionable for legislative drafting.",
+      "whatWouldChange": "Demonstrated evidence that post-deployment monitoring catches and corrects severe algorithmic bias faster and more reliably than pre-deployment gates.",
+      "claimIds": [
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

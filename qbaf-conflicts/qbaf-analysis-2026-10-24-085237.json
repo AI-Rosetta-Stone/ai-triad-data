@@ -1,0 +1,267 @@
+{
+  "generated_at": "2026-10-24T08:52:37.4293321-04:00",
+  "claim_count": 20,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Chubbs TrueAllele Source Code Denial",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-beliefs-072",
+        "skp-beliefs-102"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Pickett FST Source Code Disclosure",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-desires-088",
+        "skp-beliefs-276"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "TrueAllele Discovery Denial Rate",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102",
+        "acc-beliefs-072"
+      ]
+    },
+    {
+      "id": "qc-4",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Chinook Immigration Software Classification",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-029",
+        "skp-beliefs-102"
+      ]
+    },
+    {
+      "id": "qc-5",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Racial Disparities in Homeowners Insurance Claims Processing",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-024"
+      ]
+    },
+    {
+      "id": "qc-6",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "nH Predict Model Error Rate in Medicare Advantage",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-043",
+        "skp-beliefs-029"
+      ]
+    },
+    {
+      "id": "qc-7",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Pretrial Discovery Impasse in AI Litigation",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102",
+        "skp-beliefs-279"
+      ]
+    },
+    {
+      "id": "qc-8",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Functional Exchangeability of AI Evidence",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-411"
+      ]
+    },
+    {
+      "id": "qc-9",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Pre-Trial Failure Due to Discovery Catch-22",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102",
+        "skp-beliefs-243"
+      ]
+    },
+    {
+      "id": "qc-10",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Concentration of Evidence in Private Hands",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-243"
+      ]
+    },
+    {
+      "id": "qc-11",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "EVAAS Trade Secrecy and Non-Replicability",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-288",
+        "acc-beliefs-074"
+      ]
+    },
+    {
+      "id": "qc-12",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "MiDAS Discovery Non-Compliance and Deletion",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-178"
+      ]
+    },
+    {
+      "id": "qc-13",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "STRmix Source Code Audit Discovery",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-276",
+        "saf-beliefs-248"
+      ]
+    },
+    {
+      "id": "qc-14",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "MiDAS False Positive Fraud Rate",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-094"
+      ]
+    },
+    {
+      "id": "qc-15",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "MiDAS System 93 Percent Error Rate",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-449"
+      ]
+    },
+    {
+      "id": "qc-16",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "CoreLogic CrimSAFE Erroneous Flagging",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-288"
+      ]
+    },
+    {
+      "id": "qc-17",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "State Farm Racial Disparities Survey",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-desires-074"
+      ]
+    },
+    {
+      "id": "qc-18",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Kadrey Summary Judgment Ruling",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102",
+        "skp-beliefs-288"
+      ]
+    },
+    {
+      "id": "qc-19",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "TrueAllele Disclosure Outcomes",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102",
+        "skp-beliefs-288"
+      ]
+    },
+    {
+      "id": "qc-20",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Lokken UnitedHealth nH Predict Error Rate",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-094",
+        "skp-beliefs-273"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

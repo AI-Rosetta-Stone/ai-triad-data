@@ -1,0 +1,434 @@
+{
+  "debate_id": "14efd529-4cb3-44cb-abd3-baccfb5e0c30",
+  "debate_title": "AI systems in high-stakes decisions: healthcare triage an...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-deployment safety verification gates prevent systemic harm or merely freeze out-of-date biases into permanent institutional concrete while delaying beneficial software updates.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Pre-deployment safety verification prevents unverified diagnostic errors from harming vulnerable patient populations and protects institutional integrity."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-deployment gatekeeping creates multi-year bureaucratic bottlenecks that freeze historical billing-code biases into permanent institutional concrete by blocking algorithmic updates."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-122",
+        "saf-beliefs-217",
+        "saf-desires-009",
+        "saf-intentions-160",
+        "sit-398",
+        "acc-beliefs-108",
+        "acc-desires-011",
+        "acc-intentions-078",
+        "acc-intentions-099",
+        "acc-beliefs-085"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether post-deployment runtime telemetry successfully corrects physiological misallocations faster than static boards or merely logs failures after harm has occurred while perpetuating training data contamination.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Deployer-side runtime telemetry combined with pre-programmed safe-state escalation mechanisms catch physiological misallocations faster than any central inspection board."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Post-market telemetry acts as a passive recorder of harm rather than an active barrier against it, logging errors only after incorrect treatment has been administered."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-122",
+        "saf-beliefs-217",
+        "saf-desires-009",
+        "saf-intentions-160",
+        "sit-398",
+        "acc-beliefs-108",
+        "acc-desires-011",
+        "acc-intentions-078",
+        "acc-intentions-099",
+        "acc-beliefs-085"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-019",
+      "nodeLabel": "Acting Now vs. Waiting For Proof",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-009",
+      "nodeLabel": "Doctors Decide, Not Algorithms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-160",
+      "nodeLabel": "Set the Ethical and Legal Ground Rules for AI Governance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-083",
+      "nodeLabel": "Inserting Human Judgment Where Autonomous AI Makes Consequential Choices",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-166",
+      "nodeLabel": "AI Accountability and Liability Frameworks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-109",
+      "nodeLabel": "Component vs System Safety",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-122",
+      "nodeLabel": "AI Performs Consequential Acts That No One Bears Responsibility For",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-217",
+      "nodeLabel": "Inadequacy of the Reasonable Person Standard for Algorithmic Negligence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-398",
+      "nodeLabel": "Judicial Categorization of AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-108",
+      "nodeLabel": "Domain-specificity of interpretability requirements under products liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-011",
+      "nodeLabel": "AI That Can Examine and Explain Its Own Reasoning",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-136",
+      "nodeLabel": "AI Scaling Failures Stem from Integration and Infrastructure Gaps",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-139",
+      "nodeLabel": "Enforcing Runtime Observability Through Sectoral Safety Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-007",
+      "nodeLabel": "Regulate AI by Use Case, Not by Technology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-172",
+      "nodeLabel": "Algorithmic Secrecy Clauses in Trade Agreements Undermine Regulatory Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-094",
+      "nodeLabel": "Asymmetry Between Reconstructive Burden and Remediation Cost",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-107",
+      "nodeLabel": "Replace Static AI Rules with Iterative, Drift-Matched Regulatory Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-041",
+      "nodeLabel": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-080",
+      "nodeLabel": "Institutionalize Civil Rights Technical Expertise Within AI Regulatory Bodies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-240",
+      "nodeLabel": "Denial-Triggered Recourse Structurally Misses the Never-Rejected Subject",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-087",
+      "nodeLabel": "Replacing Abstract Safety Claims with Testable Engineering Controls",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-003",
+      "nodeLabel": "Adopt Output-Based Evaluation as the Primary AI Safety Methodology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-172",
+      "nodeLabel": "Giving Victims One Clear Door for AI Liability Claims",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-002",
+      "nodeLabel": "Scaling Oversight to Real-Time Remediation Speed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-106",
+      "nodeLabel": "Technical Methods for AI Safety and Evaluation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-246",
+      "nodeLabel": "Fiduciary Duty Survival Under Algorithmic Delegation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-025",
+      "nodeLabel": "Fiduciary Duty Survives Automation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-136",
+      "nodeLabel": "Enforcing Runtime Safety Rules Through Domain-Specific Sectoral Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-093",
+      "nodeLabel": "Downstream Liability Bounded by What the Deployer Can Detect and Price",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-046",
+      "nodeLabel": "Lab Testing Cannot Reveal Real-World AI Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-108",
+      "nodeLabel": "Automating Routine Decisions with Pre-Programmed Safe State Escalation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-207",
+      "nodeLabel": "AI Dependency Creates a Reinforcing Cycle of Skill Atrophy and Increased Reliance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-109",
+      "nodeLabel": "Safety Boundaries Are Defined by Acknowledged Gaps, Not Guarantees",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-016",
+      "nodeLabel": "AI Must Not Entrench Injustice or Enable Catastrophe",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-158",
+      "nodeLabel": "Use Voluntary Standards as a Bridge to Mandatory AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-044",
+      "nodeLabel": "Preventing AI Use from Lowering Legal Standards of Care",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-211",
+      "nodeLabel": "Governance Enforcement and Institutional Design",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-034",
+      "nodeLabel": "AI Accountability Has a Chicken-and-Egg Problem",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-003",
+      "nodeLabel": "Runtime Telemetry Bound by Execution-Gated Telemetry Logging",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-054",
+      "nodeLabel": "Ground AI Safety in Observable Behavior and Real-World Testing",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-deployment safety verification prevents systemic harm or merely freezes out-of-date biases into permanent institutional concrete while delaying beneficial software updates.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both sides present valid empirical risks backed by documented pilot failures and administrative delays, but neither provides comparative longitudinal data proving which approach yields lower net patient harm.",
+      "whatWouldChange": "Longitudinal studies comparing patient mortality and resource misallocation rates across jurisdictions with strict pre-market clearance versus those relying solely on post-market telemetry.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether post-deployment runtime telemetry successfully corrects physiological misallocations faster than static boards or merely logs failures after harm has occurred while perpetuating training data contamination.",
+      "prevails": "C3",
+      "criterion": "specificity",
+      "rationale": "Claim C3 relies on specific 2023 hospital pilot records demonstrating exact failure modes driven by billing-code training, whereas the opposing telemetry claim offers a generalized mechanism without documented remediation timelines.",
+      "whatWouldChange": "Audited deployment logs showing that decentralized post-market telemetry successfully identifies and corrects demographic error rates within days rather than years.",
+      "claimIds": [
+        "C3",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

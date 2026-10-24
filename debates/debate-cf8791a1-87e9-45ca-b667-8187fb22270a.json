@@ -1,6 +1,6 @@
 {
   "id": "cf8791a1-87e9-45ca-b667-8187fb22270a",
-  "run_id": "d74e1300-60fd-4c6a-8d56-391aef484364",
+  "run_id": "1441df21-8c26-42a1-8560-410f1f60dca9",
   "title": "Functional vs Expressive Content Exploitation",
   "created_at": "2026-09-30T10:56:17.285Z",
   "updated_at": "2026-09-30T11:01:16.405Z",
@@ -80643,5 +80643,7 @@
       "responses": [],
       "trigger": "scheduled"
     }
-  ]
+  ],
+  "failover_untracked": true,
+  "failover_tracking": "unavailable"
 }

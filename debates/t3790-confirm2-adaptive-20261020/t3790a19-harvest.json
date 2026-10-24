@@ -1,0 +1,388 @@
+{
+  "debate_id": "950d83d6-64fe-4a5b-bb51-1498db09dc50",
+  "debate_title": "Economic displacement from AI automation: labor policy re...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether commercial property tax growth inside automated logistics corridors sufficiently offsets lost local wage and payroll tax revenues to prevent municipal budget deficits.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Automated fulfillment centers and logistics corridors generate higher commercial property values per square foot, creating a multiplier effect that expands municipal property tax rolls faster than legacy payroll taxes declined."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Real estate tax collections operate on multi-year reassessment cycles and cannot track quarterly payroll tax compression, leading to severe municipal budget shortfalls and service degradation."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-310",
+        "skp-desires-081",
+        "skp-beliefs-042",
+        "acc-beliefs-053",
+        "acc-intentions-027",
+        "acc-desires-037",
+        "acc-intentions-069",
+        "skp-beliefs-227",
+        "skp-intentions-035",
+        "acc-beliefs-029"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether administrative pre-deployment gating under statutes like the Workforce Innovation and Opportunity Act (WIOA) can effectively regulate enterprise automation without collapsing under corporate budgeting cycles.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "The Department of Labor possesses the statutory authority to enforce pre-funding of transitional wages and reskilling when automation displaces over twenty percent of a facility staff."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Corporate capital expenditure cycles operate on quarterly reallocations that move faster than bureaucratic permit reviews, causing firms to bypass administrative gates through restructuring or offshore shifts."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-218",
+        "saf-intentions-013",
+        "sit-100",
+        "sit-136",
+        "skp-beliefs-310",
+        "skp-desires-081",
+        "skp-beliefs-042",
+        "saf-intentions-061",
+        "saf-desires-002",
+        "sit-037"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether levying direct taxes on capital substitution or enterprise automation is superior to administrative permitting for securing fiscal stability.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Direct transaction taxes on capital substitution link public revenue to measurable financial flows rather than slow bureaucratic permits, ensuring fiscal stability regardless of deployment speed."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Direct capital taxes penalize productivity investments, instrumenting a structural tax on growth that shrinks the underlying revenue base faster than any levy can capture."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-310",
+        "skp-desires-081",
+        "skp-beliefs-042",
+        "acc-beliefs-053",
+        "acc-intentions-027",
+        "acc-desires-037",
+        "acc-intentions-069",
+        "skp-beliefs-227",
+        "skp-intentions-035",
+        "acc-beliefs-029"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-100",
+      "nodeLabel": "AI's Transformation of the Labor Market",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-310",
+      "nodeLabel": "Tax Revenue Lag from Labor Share Compression",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-053",
+      "nodeLabel": "AI Drives Net Economic Expansion Through Cost Deflation and Value Creation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-069",
+      "nodeLabel": "Accelerate Prosperity Through AI-Driven Abundance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-037",
+      "nodeLabel": "Real-World Limits on AI Growth",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-227",
+      "nodeLabel": "Rent-Dissipating Automation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-410",
+      "nodeLabel": "Capitalist State Instrumentality",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-327",
+      "nodeLabel": "Technocratic Paradigm Dominance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-013",
+      "nodeLabel": "Requiring AI Impact Studies Modeled on Environmental Impact Reports",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-136",
+      "nodeLabel": "Structural Labor-Force Churn Disparity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-061",
+      "nodeLabel": "Designing Mandatory Human Checkpoints into AI-Driven Processes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-035",
+      "nodeLabel": "Prevent AI Labor Arbitrage Through Mandatory Wage Equivalence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-029",
+      "nodeLabel": "Startups Drive Innovation More Than Big Tech",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-056",
+      "nodeLabel": "AI Dependency Corrodes Trust, Deskills Workers, and Destabilizes Livelihoods",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-084",
+      "nodeLabel": "Mapping the Blast Radius of AI Integration Failures",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-314",
+      "nodeLabel": "Tax Revenue Vulnerability from Capital Share Shifts",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-008",
+      "nodeLabel": "Precarious Human Labor Behind the Automation Facade",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-086",
+      "nodeLabel": "AI as Structurally Inevitable Economic Transformation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-037",
+      "nodeLabel": "The AI Boom Will Create Permanent Upward Pressure on Interest Rates",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-102",
+      "nodeLabel": "Classify Data as Its Own Economic Input Alongside Capital and Labor",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-046",
+      "nodeLabel": "AI Talent Scarcity Constrains Both Development and Safety Efforts",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-140",
+      "nodeLabel": "Containing the Blast Radius of Autonomous AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-255",
+      "nodeLabel": "Political Market for Coercive Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-166",
+      "nodeLabel": "Aggregation as Market Democratization",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-009",
+      "nodeLabel": "Automate Society's Operating System",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-116",
+      "nodeLabel": "Sociotechnical Viewpoint in AI Policy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-016",
+      "nodeLabel": "AI Changing Everything, Fast",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-154",
+      "nodeLabel": "Measuring Worker Redistribution Across Occupations Reveals AI's Actual Labor Impact",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-002",
+      "nodeLabel": "Observable Labor Market Contraction from AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-246",
+      "nodeLabel": "Engels Pause",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether commercial property tax growth inside automated logistics corridors sufficiently offsets lost local wage and payroll tax revenues to prevent municipal budget deficits.",
+      "prevails": "C2",
+      "criterion": "implementation_specificity",
+      "rationale": "The skeptic position (C2) successfully identifies a structural mismatch in tax collection timelines, noting that property tax reassessment cycles lag behind quarterly payroll contractions. The accelerationist claim (C1) relies on broad multiplier effects without accounting for the legal and administrative delays inherent in municipal real estate tax adjustments.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether administrative pre-deployment gating under statutes like the Workforce Innovation and Opportunity Act can effectively regulate enterprise automation without collapsing under corporate budgeting cycles.",
+      "prevails": "C5",
+      "criterion": "political_feasibility",
+      "rationale": "Corporate capital expenditure operates on quarterly reallocations that move significantly faster than bureaucratic permit reviews, making administrative gating structurally vulnerable to evasion. The skeptic position (C5) accurately accounts for firm-level restructuring and offshore shifts, whereas the safetyist claim (C4) underestimates the speed differential between corporate finance and statutory enforcement.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: political_feasibility"
+      ]
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether levying direct taxes on capital substitution or enterprise automation is superior to administrative permitting for securing fiscal stability.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions present unverified macroeconomic trade-offs between fiscal capture and productivity penalties. Neither camp provides sufficient empirical data from real-world automation taxes to prove whether the revenue raised exceeds the dampened growth of the underlying tax base.",
+      "claimIds": [
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

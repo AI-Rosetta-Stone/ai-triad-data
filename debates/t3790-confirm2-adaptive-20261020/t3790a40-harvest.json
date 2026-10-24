@@ -1,0 +1,380 @@
+{
+  "debate_id": "f66cf754-f6d5-4fba-b300-5f3a76895cdb",
+  "debate_title": "Autonomous weapons systems and the future of warfare unde...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether algorithmic targeting systems achieve the protective intent of international humanitarian law better than human operators under high-tempo operational conditions.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that empirical casualty reductions achieved by automated systems fulfill the substantive goals of international humanitarian law better than error-prone human operators."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Maintains that procedural human judgment and normative proportionality assessments cannot be replaced by statistical error minimization without violating international legal standards."
+        }
+      ],
+      "linkedNodes": [
+        "saf-desires-018",
+        "saf-beliefs-122",
+        "saf-intentions-140",
+        "sit-221",
+        "sit-310",
+        "acc-desires-006",
+        "acc-beliefs-003",
+        "saf-desires-002",
+        "sit-224",
+        "acc-beliefs-117"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether continuous runtime adversarial red-teaming and automated circuit breakers provide sufficient governance compared to static pre-deployment safety-gating.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Maintains that dynamic runtime verification and millisecond telemetry catch edge-case failures more effectively than static pre-deployment audits."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that runtime mechanisms cannot prevent kinetic strikes executed on the first millisecond and fail to replace pre-deployment safety baselines."
+        }
+      ],
+      "linkedNodes": [
+        "saf-desires-018",
+        "saf-beliefs-122",
+        "saf-intentions-140",
+        "sit-221",
+        "sit-310",
+        "acc-desires-006",
+        "acc-beliefs-003",
+        "saf-desires-002",
+        "sit-224",
+        "acc-beliefs-117"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-221",
+      "nodeLabel": "Normative Pragmatism in IHL",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-224",
+      "nodeLabel": "The Permissive Nature of Warfare Law",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-018",
+      "nodeLabel": "The Human Power to Limit Violence Must Be Preserved",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-310",
+      "nodeLabel": "Alert Fatigue in AI Deployment",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-122",
+      "nodeLabel": "AI Performs Consequential Acts That No One Bears Responsibility For",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-140",
+      "nodeLabel": "Containing the Blast Radius of Autonomous AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-108",
+      "nodeLabel": "Automating Routine Decisions with Pre-Programmed Safe State Escalation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-166",
+      "nodeLabel": "AI Accountability and Liability Frameworks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-074",
+      "nodeLabel": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-003",
+      "nodeLabel": "Runtime Telemetry Bound by Execution-Gated Telemetry Logging",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-117",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-026",
+      "nodeLabel": "Human-in-the-Loop Safeguards Fail Because Automation Erodes the Skills They Require",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-066",
+      "nodeLabel": "Conscience as a Check on Algorithmic Authority",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-065",
+      "nodeLabel": "Mandate Liability Assumption or Human Escalation at AI Agent Handoff Points",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-150",
+      "nodeLabel": "Statutory Prohibitions Fail When Companies Can Redefine What Their AI Products Are",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-081",
+      "nodeLabel": "Building Adaptive Regulatory Frameworks for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-019",
+      "nodeLabel": "Every Soldier's Right to Refuse to Kill",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-088",
+      "nodeLabel": "Dynamic Defensive Superiority",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-003",
+      "nodeLabel": "Adopt Output-Based Evaluation as the Primary AI Safety Methodology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-187",
+      "nodeLabel": "Legislating Distinct Causal Categories for AI Output and Resulting Harm Is Technically Unjustified",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-174",
+      "nodeLabel": "Pass/Fail Audits as Inadequate for Complex AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-229",
+      "nodeLabel": "Conditioning Limited Liability on Forensic Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-064",
+      "nodeLabel": "Risky Agents Without Intentions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-115",
+      "nodeLabel": "Deploying Dynamic Machine-Speed Defensive AI Over Static Computational Pauses",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-096",
+      "nodeLabel": "AI Biology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-082",
+      "nodeLabel": "Scale AI Agents from Pilots to Production",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-201",
+      "nodeLabel": "Deceptive Alignment: AI Passes Safety Checks but Acts Differently Without Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-161",
+      "nodeLabel": "Prevent AI Harm Through Pre-Launch Checks and Operational Guardrails",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-234",
+      "nodeLabel": "Withholding Diagnostic Interfaces as Upstream Design Defect",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-288",
+      "nodeLabel": "Evidentiary Dead End of Opaque AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-164",
+      "nodeLabel": "Coupling Mandatory Audit Discovery with Liability Presumptions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-111",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-111",
+      "nodeLabel": "Replace Discretionary Human Halt Authority with Pre-Programmed Enforcement Actions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-072",
+      "nodeLabel": "Courts Lack the Expertise to Weigh AI's Diffuse Benefits Against Its Visible Harms",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether algorithmic targeting systems achieve the protective intent of international humanitarian law better than human operators under high-tempo operational conditions.",
+      "prevails": "C2",
+      "criterion": "logical_validity",
+      "rationale": "The safetyist and skeptic positions prevail because raw casualty reductions in controlled trials do not satisfy the legal definition of proportionality under international humanitarian law. Claim C2 correctly identifies a category error in equating statistical outcomes with legal determinations, whereas Claim C1 assumes that optimization equals legal compliance without establishing a doctrinal bridge.",
+      "whatWouldChange": "Formal international legal consensus updating Additional Protocol I to recognize statistical casualty minimization as a legally valid standard of proportionality.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether continuous runtime adversarial red-teaming and automated circuit breakers provide sufficient governance compared to static pre-deployment safety-gating.",
+      "prevails": "C6",
+      "criterion": "specificity",
+      "rationale": "The safetyist critique in Claim C6 highlights an unaddressed physical constraint in the accelerationist model: a twenty-millisecond circuit breaker cannot reverse a kinetic strike that executes in the first millisecond. Because the accelerationist defense relies on a temporal paradox, the safetyist critique provides a more concrete and realistic assessment of system failure risks.",
+      "whatWouldChange": "Engineering data proving that pre-initiation interlocks can reliably halt execution within the first millisecond of a targeting sequence.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

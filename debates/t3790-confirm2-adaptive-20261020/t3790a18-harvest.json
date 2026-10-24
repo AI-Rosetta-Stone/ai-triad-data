@@ -1,0 +1,420 @@
+{
+  "debate_id": "e1d6a7cf-2fc7-43b9-bfab-ede98c8fae79",
+  "debate_title": "Alignment research priorities: interpretability versus ca...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether capability scaling and real-time output telemetry provide sufficient safety or if pre-market interpretability audits and safety gates are required before deployment.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that output-based verification, modular hardware filters, and rapid iteration are sufficient to manage risks while maximizing societal benefits."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that pre-market mechanistic interpretability and strict capability gating are necessary because post-deployment failures in complex systems can be irreversible."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-130",
+        "acc-beliefs-108",
+        "acc-desires-042",
+        "acc-intentions-110",
+        "acc-intentions-001",
+        "saf-beliefs-001",
+        "saf-beliefs-120",
+        "saf-intentions-008",
+        "sit-318",
+        "acc-beliefs-025"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether decentralized open-weight distribution and algorithmic democratization render centralized pre-market governance obsolete or create unmonitored systemic vulnerabilities.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Maintains that democratization and decentralized fine-tuning shatter administrative choke points and accelerate beneficial innovation."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Contends that decentralized weights allow actors to bypass pre-training behavioral constraints and externalize safety verification costs onto users."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-130",
+        "acc-beliefs-108",
+        "acc-desires-042",
+        "acc-intentions-110",
+        "acc-intentions-001",
+        "skp-beliefs-175",
+        "skp-beliefs-131",
+        "skp-desires-079",
+        "skp-intentions-146",
+        "skp-beliefs-281"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-134",
+      "nodeLabel": "Process vs. Governance in AI Regulation",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-120",
+      "nodeLabel": "Physical Infrastructure Metrics as an Enforcement Anchor",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-025",
+      "nodeLabel": "Computational Power Is the New Measure of National Strength",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-130",
+      "nodeLabel": "Normative Code as Alignment North Star",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-108",
+      "nodeLabel": "Domain-specificity of interpretability requirements under products liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-042",
+      "nodeLabel": "Actionability as Evaluation Metric",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-110",
+      "nodeLabel": "Balance Competing AI Quality Metrics to Prevent Single-Metric Optimization Traps",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-001",
+      "nodeLabel": "Achieving Capability Leadership Through Open Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-175",
+      "nodeLabel": "Multi-Layer Activation Probing for Model Behavior Classification",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-131",
+      "nodeLabel": "The Capability-Deployment Gap in AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-079",
+      "nodeLabel": "Balanced Transparency: Public Interest vs. Trade Secrets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-001",
+      "nodeLabel": "Today's Alignment Methods Break Down as Models Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-008",
+      "nodeLabel": "Testing Models for Power-Seeking, Deception, and Situational Awareness",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-318",
+      "nodeLabel": "The Performance-Compute Divergence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-017",
+      "nodeLabel": "Compute and Energy Costs Impose Hard Ceilings on AI Scaling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-006",
+      "nodeLabel": "Deflecting Safety Concerns by Questioning Critics' Motives",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-063",
+      "nodeLabel": "Regulatory Fragmentation and Cost Burden",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-242",
+      "nodeLabel": "Design-layer documents as version-independent evidence of system functional state",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-003",
+      "nodeLabel": "Limits of Mechanistic Interpretability at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-024",
+      "nodeLabel": "Treating Missing AI Documentation as a Safety Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-096",
+      "nodeLabel": "AI Biology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-003",
+      "nodeLabel": "Adopt Output-Based Evaluation as the Primary AI Safety Methodology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-029",
+      "nodeLabel": "Startups Drive Innovation More Than Big Tech",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-229",
+      "nodeLabel": "Worker Data Withholding Capacity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-035",
+      "nodeLabel": "AI Systems Fail When Deployed Outside Their Training Conditions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-145",
+      "nodeLabel": "Model-Graded Benchmarks Mask Hallucination and Error Rates",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-107",
+      "nodeLabel": "Coupling Pre-Deployment Independent Audits with Algorithmic Disgorgement and Strict Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-008",
+      "nodeLabel": "AI That Masters Narrow Tasks at Superhuman Speed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-070",
+      "nodeLabel": "Shift AI Competition from Software to Physical Infrastructure Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-206",
+      "nodeLabel": "Scaling AI Without Safeguards Creates a Non-Trivial Path to Irreversible Civilizational Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-043",
+      "nodeLabel": "Giving AI Legal Duties Without Granting It Legal Rights",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-121",
+      "nodeLabel": "Component-System Category Error",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-046",
+      "nodeLabel": "AI Safety Rules by Power Level",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-092",
+      "nodeLabel": "Instrumented Audit Trails Amortize Remediation Cost Where Reconstructive Burden Compounds",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-075",
+      "nodeLabel": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-010",
+      "nodeLabel": "Speed of AI Development vs. Safety Caution",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-158",
+      "nodeLabel": "Use Voluntary Standards as a Bridge to Mandatory AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-202",
+      "nodeLabel": "Scale AI Safety Requirements Proportionally to Capability Level",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-009",
+      "nodeLabel": "Thermodynamic and Hydrological Limits of Compute Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-026",
+      "nodeLabel": "Human-in-the-Loop Safeguards Fail Because Automation Erodes the Skills They Require",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-170",
+      "nodeLabel": "AI Corporations Systematically Evade Effective Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-115",
+      "nodeLabel": "Federal Preemption of State AI Regulation",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether capability scaling and real-time output telemetry provide sufficient safety or if pre-market interpretability audits and safety gates are required before deployment.",
+      "prevails": "C4",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for irreversible tail-risk scenarios that output-based verification cannot capture after deployment occurs. The accelerationist focus on output telemetry addresses operational speed but lacks a mechanism to prevent unmonitored systemic harms in complex systems. Therefore, pre-market interpretability and capability gating provide a broader and more prudent risk framework.",
+      "whatWouldChange": "Empirical proof that post-deployment output filtering reliably catches novel failure modes in autonomous systems before irreversible harm occurs.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether decentralized open-weight distribution and algorithmic democratization render centralized pre-market governance obsolete or create unmonitored systemic vulnerabilities.",
+      "prevails": "C3",
+      "criterion": "specificity",
+      "rationale": "The skeptic position specifically identifies the externality problem where decentralized weights bypass pre-training behavioral constraints and shift verification costs onto users. The accelerationist claim that democratization shatters administrative bottlenecks is logically consistent with lower compute thresholds, but it fails to specify how safety verification is maintained once weights are distributed.",
+      "whatWouldChange": "The development of effective, decentralized cryptographic verification tools that allow end-users to enforce safety constraints on open-weight models without central authority.",
+      "claimIds": [
+        "C2",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

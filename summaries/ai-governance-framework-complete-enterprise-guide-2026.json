@@ -1,0 +1,2823 @@
+{
+  "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-24T08:33:20Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 65536,
+    "extraction_mode": "single_shot",
+    "taxonomy_filter": "rag_per_chunk",
+    "taxonomy_nodes": 1446,
+    "chunked": true,
+    "chunk_count": 7
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+    "measured_at": "2026-10-24T08:44:34.3063421-04:00",
+    "stages": [
+      {
+        "stage": "chunking",
+        "in_units": "tokens_est",
+        "in_count": 36137,
+        "out_units": "tokens_est",
+        "out_count": 36776,
+        "ratio": 1.0177,
+        "flags": {
+          "chunk_count": 7
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 4311,
+        "out_units": "nodes",
+        "out_count": 60,
+        "ratio": 0.0139,
+        "flags": {
+          "avg_beliefs": 15,
+          "avg_desires": 4,
+          "avg_intentions": 27,
+          "avg_nodes_selected": 60,
+          "chunk_count": 7,
+          "max_nodes_selected": 62,
+          "min_nodes_selected": 60,
+          "total_below_threshold": 2
+        }
+      },
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 259794,
+        "out_units": "items",
+        "out_count": 92,
+        "ratio": 0.0004,
+        "flags": {
+          "chunk_count": 7,
+          "factual_claims": 28,
+          "null_node_rate": 0.0196,
+          "total_points": 51,
+          "unmapped_concepts": 13
+        }
+      },
+      {
+        "stage": "merge_dedup",
+        "in_units": "items",
+        "in_count": 92,
+        "out_units": "items",
+        "out_count": 92,
+        "ratio": 1,
+        "flags": {
+          "claims_deduped": 0,
+          "concepts_deduped": 0,
+          "points_deduped": 0,
+          "used_embeddings": 1
+        }
+      },
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 13,
+        "out_units": "still_unmapped",
+        "out_count": 1,
+        "ratio": 0.0769,
+        "flags": {
+          "near_miss_count": 1,
+          "resolved_count": 12,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      }
+    ],
+    "cumulative_retention": 0.0139
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": [
+        {
+          "stance": "opposed",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that governance structures and regulatory compliance are essential prerequisites for enterprise AI adoption rather than unnecessary brakes on innovation. This challenges the accelerationist belief that regulatory compliance frameworks and comprehensive governance mandates inherently stifle technological progress and slow deployment cycles. By citing executive surveys showing that responsible AI initiatives improve return on development investment and operational efficiency, the text argues that structured oversight removes ambiguity and accelerates responsible scaling. However, accelerationists would contend that extensive compliance burdens and pre-deployment testing mandates still impose friction that disadvantages fast-moving innovators relative to incumbents.",
+          "verbatim": "The most persistent objection to AI governance investment is that it slows innovation, but the data says otherwise. PwC's 2025 Responsible AI survey found that 58% of executives report that responsible AI initiatives improve return on investment and organizational efficiency, while 55% say they enhance customer experience and drive innovation.",
+          "excerpt_context": "Section 1, under 'Does an AI Governance Framework Slow Innovation?'",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Responsible AI governance initiatives improve return on investment and operational efficiency rather than slowing technological innovation.",
+          "attribution_text": "A Belief within accelerationist discourse that disputes the premise that compliance frameworks and pre-deployment testing mandates inherently stifle technological progress and slow deployment cycles. Encompasses: institutional friction, compliance overhead, and innovation velocity.",
+          "vocabulary_terms": [
+            "innovation_velocity",
+            "compliance_friction"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-desires-042",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "Organizations deploying high-risk AI systems increasingly build SHAP-based explanation dashboards into their MLOps pipelines to satisfy audit requirements and regulatory obligations. This approach prioritizes practical utility and performance-driven research by turning game-theoretic metrics into operational governance tools. Accelerationists value this focus on technical integration and automated MLOps pipelines as a way to reconcile regulatory demands with system complexity. However, the caveat is that relying solely on feature attribution methods may obscure deeper systemic failures if not paired with ongoing performance monitoring.",
+          "verbatim": "Organizations deploying high-risk AI systems increasingly build SHAP-based explanation dashboards into their MLOps pipelines, generating per-decision reports that satisfy both internal audit requirements and regulatory disclosure obligations.",
+          "excerpt_context": "Section 2, paragraph 13",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Organizations ought to integrate model-agnostic explanation dashboards into MLOps pipelines to satisfy regulatory disclosure obligations.",
+          "attribution_text": "A Desire within accelerationist discourse that prioritizes the practical utility of interpretability research through automated MLOps pipelines. Encompasses: SHAP-based explanation dashboards, internal audit requirements, and regulatory disclosure obligations.",
+          "vocabulary_terms": [
+            "MLOps",
+            "model-agnostic XAI"
+          ],
+          "retrieval_confidence": 0.6885,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-desires-042",
+              "label": "Actionability as Evaluation Metric",
+              "score": 0.6885
+            },
+            {
+              "id": "acc-beliefs-109",
+              "label": "Expert-inspectability gap in mechanistic interpretability standards",
+              "score": 0.6336
+            },
+            {
+              "id": "acc-intentions-118",
+              "label": "Model-Agnostic Interpretability Dashboards",
+              "score": 0.6291
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-intentions-118",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "Model-agnostic methods like SHAP and LIME provide a unified interface for explaining diverse, third-party machine learning models without requiring deep access to proprietary internal weights. By using game-theoretic Shapley values or local perturbation models, organizations can evaluate complex transformer architectures across any underlying algorithm. This strategy allows developers to scale advanced AI deployment while maintaining external auditability. The primary limitation is that local perturbation methods like LIME can exhibit instability when small changes alter perturbation parameters.",
+          "verbatim": "The method is model-agnostic, meaning it works across any algorithm, and its mathematical foundation in Shapley values from cooperative game theory gives it properties simpler explanation methods lack.",
+          "excerpt_context": "Section 2, paragraph 12",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Deploy model-agnostic explanation methods to evaluate diverse algorithms without requiring access to internal model weights.",
+          "attribution_text": "An Intention within accelerationist discourse that provides a unified interface for explaining diverse machine learning models. Encompasses: model-agnostic XAI, cooperative game theory, and local perturbation models.",
+          "vocabulary_terms": [
+            "model-agnostic XAI",
+            "Shapley values"
+          ],
+          "retrieval_confidence": 0.8134,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-118",
+              "label": "Model-Agnostic Interpretability Dashboards",
+              "score": 0.8134
+            },
+            {
+              "id": "acc-intentions-042",
+              "label": "Build Coordination Infrastructure for Teams of Specialized AI Agents",
+              "score": 0.7077
+            },
+            {
+              "id": "acc-beliefs-055",
+              "label": "Domain-Specific AI Beats Broadly Competent AI in Practice",
+              "score": 0.7018
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-desires-018",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document describes a pragmatic seven-component governance architecture, including technology tooling such as model registries, metadata catalogs, policy engines, and automated compliance scanners. This infrastructure makes governance executable rather than purely aspirational, supporting the accelerationist goal of embedding intelligent systems directly into organizational processes. By automating compliance and metadata tracking, enterprises can scale operations without getting bogged down in static paperwork. However, the text notes that these tools require upfront capital investment and organizational integration, taking between 6 to 8 months to roll out effectively.",
+          "verbatim": "Seventh, technology tooling provides the infrastructure layer, including model registries, metadata catalogs, policy engines, and automated compliance scanners, that makes governance executable rather than aspirational.",
+          "excerpt_context": "Section 3, paragraph 5",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Enterprises ought to deploy automated technology tooling and model registries to make governance executable rather than aspirational.",
+          "attribution_text": "A Desire within accelerationist discourse that advocates for embedding AI decision-support systems and automated technology tooling into public administration to optimize governance and crisis response. Encompasses: Model registries, automated compliance scanners, metadata catalogs.",
+          "vocabulary_terms": [
+            "technology tooling",
+            "model registries",
+            "automated compliance scanners"
+          ],
+          "retrieval_confidence": 0.844,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-desires-018",
+              "label": "Build Crisis-Proof Institutions with AI",
+              "score": 0.844
+            },
+            {
+              "id": "acc-intentions-075",
+              "label": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+              "score": 0.7678
+            },
+            {
+              "id": "acc-desires-009",
+              "label": "Automate Society's Operating System",
+              "score": 0.7557
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-intentions-107",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "Organizations should adopt flexible, risk-based frameworks such as the NIST AI RMF or Singapore's Model AI Governance Framework rather than relying solely on rigid, static prohibitions. The text emphasizes that frameworks like NIST provide a playbook that organizations adapt to their size, sector, and risk appetite. This enables continuous deployment while maintaining structured oversight. However, accelerationists note the limitation that flexible, voluntary standards lack uniform enforcement and do not automatically shield enterprises from cross-border legal liabilities.",
+          "verbatim": "Unlike the EU AI Act's prescriptive rules, the NIST RMF provides a playbook that organizations adapt to their size, sector, and risk appetite.",
+          "excerpt_context": "Section 3, paragraph 44",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Achieve adaptive governance by deploying flexible, risk-based frameworks that scale with organizational size and sector needs.",
+          "attribution_text": "An Intention within accelerationist discourse that advocates for adaptive governance frameworks whose re-authorization intervals track measured system drift rather than fixed calendars. Encompasses: Risk-based frameworks, flexible playbooks, sector-adapted controls.",
+          "vocabulary_terms": [
+            "risk-based framework",
+            "adaptive governance",
+            "regulatory flexibility"
+          ],
+          "retrieval_confidence": 0.9023,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-107",
+              "label": "Replace Static AI Rules with Iterative, Drift-Matched Regulatory Frameworks",
+              "score": 0.9023
+            },
+            {
+              "id": "saf-intentions-025",
+              "label": "Dialing AI Autonomy Up or Down Based on Real-Time Safety Signals",
+              "score": 0.6525
+            },
+            {
+              "id": "acc-intentions-100",
+              "label": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+              "score": 0.6227
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-desires-042",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document highlights the necessity of tracking governance completion ratios to measure organizational maturity and ensure high-risk AI systems meet deployment thresholds. Organizations are encouraged to operationalize these evaluations for practical utility rather than merely treating compliance as a theoretical exercise. This aligns with accelerationist goals by embedding structured metrics that enable high-velocity deployments safely, though the heavy auditing burden could introduce friction if not streamlined.",
+          "verbatim": [
+            "Governance completion ratios measure the percentage of AI systems that have passed required governance checkpoints: bias testing, adversarial robustness testing, data lineage documentation, and risk classification review.",
+            "Organizations at Level 4 maturity should target a ratio above 90% for high-risk AI systems and above 75% for all deployed models."
+          ],
+          "excerpt_context": "Section 5, paragraph 1-2",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Enterprises ought to operationalize governance completion ratios to ensure high-risk AI systems maintain high compliance standards.",
+          "attribution_text": "A Desire within accelerationist and safetyist discourse that prioritizes the practical utility of governance-focused diagnostics and performance-driven metrics. Encompasses: governance completion ratios, compliance thresholds, and operational maturity targets.",
+          "vocabulary_terms": [
+            "governance_completion_ratio",
+            "risk_classification",
+            "compliance_threshold"
+          ],
+          "retrieval_confidence": 0.6637,
+          "taxonomy_node_candidates": [
+            {
+              "id": "pol-2183",
+              "label": "",
+              "score": 0.7096
+            },
+            {
+              "id": "saf-intentions-025",
+              "label": "Dialing AI Autonomy Up or Down Based on Real-Time Safety Signals",
+              "score": 0.6647
+            },
+            {
+              "id": "acc-desires-042",
+              "label": "Actionability as Evaluation Metric",
+              "score": 0.6637
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "opposed",
+          "taxonomy_node_id": "acc-intentions-047",
+          "mechanism_type": "other",
+          "category": "Intentions",
+          "point": "The document asserts that enterprise AI governance must integrate into foundational enterprise architecture frameworks like TOGAF and Zachman rather than inventing completely novel governance structures from scratch. By treating AI as a model-specific extension of existing architecture compliance reviews, organizations avoid duplication and review bottlenecks. Accelerationists favor adapting existing institutional and technological frameworks over building cumbersome, isolated legal structures. However, this approach risks underestimating the unique governance challenges posed by continuous learning models that defy traditional static validation.",
+          "verbatim": "Enterprise architecture frameworks like TOGAF and the Zachman Framework were designed decades before generative AI entered the enterprise, but their core governance structures provide natural integration points. TOGAF's Architecture Development Method includes Phase G, Implementation Governance, which establishes the decision rights, review cadences, and compliance assessments for technology deployments. AI governance slots directly into this phase by adding model-specific criteria to architecture compliance reviews. Integrating AI governance into existing architecture governance structures avoids the most common failure mode: duplication that creates conflicting authorities and review bottlenecks.",
+          "excerpt_context": "Section 6, How AI Governance Frameworks Intersect With Enterprise Architecture",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Integrate AI governance into existing enterprise architecture frameworks to prevent administrative bottlenecks.",
+          "attribution_text": "An Intention within accelerationist discourse that advocates embedding artificial intelligence oversight directly into established enterprise architecture methodologies to streamline deployment. Encompasses: TOGAF implementation governance, Zachman Framework artifact inventorying, and architectural compliance review integration.",
+          "vocabulary_terms": [
+            "governance_adaptive",
+            "compliance_integration"
+          ],
+          "retrieval_confidence": 0.6271,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-086",
+              "label": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+              "score": 0.692
+            },
+            {
+              "id": "acc-intentions-075",
+              "label": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+              "score": 0.6632
+            },
+            {
+              "id": "acc-intentions-068",
+              "label": "Replace Legacy IT with Adaptive AI Infrastructure",
+              "score": 0.6332
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "acc-intentions-086",
+              "label": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+              "score": 0.692
+            },
+            {
+              "id": "acc-intentions-075",
+              "label": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+              "score": 0.6632
+            },
+            {
+              "id": "acc-intentions-068",
+              "label": "Replace Legacy IT with Adaptive AI Infrastructure",
+              "score": 0.6332
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-desires-026",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The text highlights that properly implemented AI governance can accelerate rather than constrain innovation by establishing clear decision pathways, pre-approved model architectures, and standardized testing protocols. Organizations that build governance incrementally avoid the delays of ad hoc approvals and reactive incident response, allowing them to deploy technologies faster. This aligns with accelerationist ideals of streamlining institutional friction to enable rapid, large-scale technology deployment, provided guardrails are systematically embedded early.",
+          "verbatim": "Properly implemented AI governance accelerates rather than constrains innovation. When explainability, fairness, and security controls are established early, teams spend less time fighting downstream remediation. Organizations without governance slow themselves down through ad hoc approvals, duplicate compliance efforts, and reactive incident response.",
+          "excerpt_context": "Section 7, How does an AI governance framework affect the speed of innovation?",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Effective AI governance ought to accelerate technological deployment by establishing pre-approved architectures and streamlined decision pathways.",
+          "attribution_text": "A Desire within accelerationist discourse that advocates for deploying advanced artificial intelligence to manage and optimize macro-scale societal, economic, and political structures by streamlining institutional governance. Encompasses: Pre-approved model architectures, standardized testing protocols, and innovation acceleration.",
+          "vocabulary_terms": [
+            "governance_adaptive",
+            "capabilities_scaling"
+          ],
+          "retrieval_confidence": 0.8349,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-desires-026",
+              "label": "Deploying AI to Run Society at Scale",
+              "score": 0.8349
+            },
+            {
+              "id": "acc-desires-009",
+              "label": "Automate Society's Operating System",
+              "score": 0.7929
+            },
+            {
+              "id": "acc-beliefs-044",
+              "label": "Technical Challenges and Tradeoffs in Building Safe, Advanced AI",
+              "score": 0.7526
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-160",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document establishes that abstract ethical commitments to transparency, fairness, and accountability must be converted into enforceable operational controls, named accountability structures, and continuous audit trails across the entire AI lifecycle. This desire reflects the safetyist principle that aspirational statements alone are insufficient to prevent catastrophic or harmful AI failures without binding institutional mechanisms. The text emphasizes that governance must answer concrete operational questions, such as who holds the authority to halt a biased model or what accuracy thresholds trigger mandatory retraining. Caveats include the inherent difficulty of aligning fast-moving probabilistic systems with rigid organizational controls.",
+          "verbatim": "Governance turns principles into practice. An AI governance framework converts ethical commitments into enforceable controls, named accountability, and audit trails across the entire AI lifecycle.",
+          "excerpt_context": "Section 1, Key takeaways / introductory summary",
+          "extraction_confidence": 1,
+          "canonical_proposition": "Abstract ethical commitments ought to be translated into enforceable operational controls, named accountability structures, and continuous audit trails across the AI lifecycle.",
+          "attribution_text": "A Desire within safetyist discourse that prioritizes establishing binding operational controls and named accountability structures to translate ethical principles into enforceable enterprise practices. Encompasses: audit trails, operational accountability, and normative enforcement.",
+          "vocabulary_terms": [
+            "operational_controls",
+            "named_accountability"
+          ],
+          "retrieval_confidence": 0.6163,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-152",
+              "label": "Integrating Oversight with Operations Is Capture by Design",
+              "score": 0.747
+            },
+            {
+              "id": "sit-134",
+              "label": "Process vs. Governance in AI Regulation",
+              "score": 0.659
+            },
+            {
+              "id": "saf-intentions-226",
+              "label": "Sidecar Integration for Auditability",
+              "score": 0.6555
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-beliefs-152",
+              "label": "Integrating Oversight with Operations Is Capture by Design",
+              "score": 0.747
+            },
+            {
+              "id": "saf-intentions-226",
+              "label": "Sidecar Integration for Auditability",
+              "score": 0.6555
+            },
+            {
+              "id": "saf-intentions-136",
+              "label": "Enforcing Runtime Safety Rules Through Domain-Specific Sectoral Regulators",
+              "score": 0.651
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-beliefs-040",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that probabilistic AI systems inherently learn, drift, and surprise in ways that traditional deterministic IT governance frameworks cannot detect or manage. By contrasting deterministic software with learning models, the text highlights how incoming data distributions shift over time and cause previously validated algorithms to fail silently in production. This belief underscores the safetyist concern that rapid deployment speeds and complex machine learning architectures outpace legacy security and IT oversight mechanisms. A potential caveat is that existing IT infrastructure can be retrofitted if supplemented with specialized algorithmic auditing tools.",
+          "verbatim": "Traditional IT governance was built for deterministic systems, software that does exactly what it is programmed to do every time. AI governance was built for probabilistic systems that learn, drift, and surprise.",
+          "excerpt_context": "Section 1, under 'How Does AI Governance Differ From Traditional IT Governance?'",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Probabilistic AI systems learn, drift, and surprise in ways that render traditional deterministic IT governance frameworks incapable of ensuring safety.",
+          "attribution_text": "A Belief within safetyist discourse that asserts rapid AI deployment and probabilistic model behavior outpace legacy IT governance and security mechanisms. Encompasses: model drift, probabilistic unpredictability, and legacy IT inadequacy.",
+          "vocabulary_terms": [
+            "model_drift",
+            "probabilistic_systems"
+          ],
+          "retrieval_confidence": 0.7398,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-098",
+              "label": "AI Behavior Cannot Be Fully Predicted Due to Emergence, Misspecification, and Formal Limits",
+              "score": 0.7813
+            },
+            {
+              "id": "saf-intentions-166",
+              "label": "Enforce Safety Under Distribution Shift by Constraining to Credal Sets",
+              "score": 0.7782
+            },
+            {
+              "id": "saf-beliefs-097",
+              "label": "AI's Architectural Complexity Generates Qualitatively New Security Risks",
+              "score": 0.7773
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document notes that regulatory frameworks have transitioned rapidly from voluntary guidance to binding law with severe penalty structures, exemplified by the EU AI Act's enforcement deadlines and massive turnover fines. This shift embodies the safetyist belief that voluntary industry standards are insufficient for managing high-risk AI deployments and must be backed by mandatory legal enforcement. The text warns that organizations operating without structured documentation, risk assessments, and human oversight trails face catastrophic financial and legal exposure. A caveat is that compliance timelines may outpace the organizational capacity to build required governance infrastructure.",
+          "verbatim": "The regulatory landscape for AI has shifted from voluntary guidance to binding law with teeth. The EU AI Act, which entered into force in August 2024, imposes fines for prohibited AI practices of up to €35 million or 7% of total worldwide annual turnover, whichever is higher.",
+          "excerpt_context": "Section 1, under 'The Regulatory Risk: EU AI Act and the New Enforcement Era'",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Voluntary guidance is insufficient for AI safety, necessitating binding legal enforcement mechanisms and substantial financial penalties for non-compliance.",
+          "attribution_text": "A Belief within safetyist discourse that asserts voluntary guidelines fail to constrain high-risk AI deployment without binding statutory enforcement and severe financial penalties. Encompasses: regulatory enforcement, statutory penalties, and compliance mandates.",
+          "vocabulary_terms": [
+            "binding_regulation",
+            "statutory_penalties"
+          ],
+          "retrieval_confidence": 0.5851,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-012",
+              "label": "No Profit Without Accountability",
+              "score": 0.7558
+            },
+            {
+              "id": "skp-intentions-074",
+              "label": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+              "score": 0.7549
+            },
+            {
+              "id": "saf-intentions-159",
+              "label": "Require AI Safety Standards as a Condition for Government Grants and Infrastructure Permits",
+              "score": 0.7535
+            }
+          ],
+          "retrieval_low_confidence": true,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-desires-012",
+              "label": "No Profit Without Accountability",
+              "score": 0.7558
+            },
+            {
+              "id": "saf-intentions-159",
+              "label": "Require AI Safety Standards as a Condition for Government Grants and Infrastructure Permits",
+              "score": 0.7535
+            },
+            {
+              "id": "saf-beliefs-132",
+              "label": "AI Obeys a Broad Range of Commands with No Internal Scrutiny",
+              "score": 0.75
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-117",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "Governance frameworks must mandate that AI systems make their decision logic inspectable and explainable to affected individuals. When high-stakes decisions like loan denials occur, organizations must be able to trace the underlying reasoning using tools like SHAP or counterfactual explanations. This ensures that algorithmic systems do not operate as opaque black boxes in domains where independent ground truth is absent. The limitation is that high-dimensional deep neural networks resist clean internal explanation, requiring post-hoc approximations.",
+          "verbatim": "Explainability demands that when a loan application is denied or a flagged transaction is escalated, a human can trace the logic that produced that result.",
+          "excerpt_context": "Section 2, paragraph 2",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Require AI systems to show their work and trace decision logic during high-stakes evaluations.",
+          "attribution_text": "An Intention within safetyist discourse that aims to make AI systems' internal reasoning and decision-making processes understandable. Encompasses: requiring AI to show its work, explainable loan denials, and logic tracing.",
+          "vocabulary_terms": [
+            "explainability",
+            "decision logic"
+          ],
+          "retrieval_confidence": 0.9268,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-117",
+              "label": "Require AI Systems to Show Their Reasoning",
+              "score": 0.9268
+            },
+            {
+              "id": "saf-intentions-141",
+              "label": "Designing AI to Report Its Own Knowledge Limits",
+              "score": 0.8728
+            },
+            {
+              "id": "saf-intentions-080",
+              "label": "Making AI Systems Controllable and Understandable by Design",
+              "score": 0.8499
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-desires-010",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "AI systems deployed in high-risk environments must rigorously comply with statutory legal requirements such as the EU AI Act and GDPR. Organizations need to maintain comprehensive technical documentation covering system design, development, testing, and performance monitoring. This alignment ensures that automated decision-making respects fundamental rights and provides actionable recourse to affected persons. However, maintaining such compliance documentation across complex enterprise pipelines imposes significant administrative overhead.",
+          "verbatim": "The EU AI Act codifies transparency requirements in Article 50, mandating that users interacting with AI systems be informed they are doing so, a provision that applies even to systems not classified as high-risk.",
+          "excerpt_context": "Section 2, paragraph 3",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "AI systems ought to comply strictly with statutory transparency and technical documentation mandates under the EU AI Act.",
+          "attribution_text": "A Desire within safetyist discourse that AI agents are designed to rigorously comply with a broad set of legal requirements. Encompasses: EU AI Act Article 50, technical documentation mandates, and transparency obligations.",
+          "vocabulary_terms": [
+            "EU AI Act",
+            "technical documentation"
+          ],
+          "retrieval_confidence": 0.8857,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-010",
+              "label": "Legal Comprehension as a Core AI Capability",
+              "score": 0.8857
+            },
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.8171
+            },
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.7982
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-032",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "Regulators and internal auditors must mandate access to intermediate model outputs and feature contribution values to spot hidden bias or deception. Using methods like SHAP and counterfactual explanations allows stakeholders to verify whether protected classes are improperly influencing model scores. This serves as a vital safeguard against discriminatory deployment. A key challenge, however, is that feature attribution values can be manipulated or misinterpreted if auditors lack domain expertise.",
+          "verbatim": "Counterfactuals that require protected-class attributes to change signal a discrimination problem, providing an audit mechanism that simultaneously explains and tests fairness.",
+          "excerpt_context": "Section 2, paragraph 22",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Mandate access to intermediate feature contribution values and counterfactual explanations so auditors can detect algorithmic discrimination.",
+          "attribution_text": "An Intention within safetyist discourse that mandates access to and visibility into intermediate reasoning steps and feature contributions of an AI model. Encompasses: SHAP values, counterfactual bias detection, and audit transparency.",
+          "vocabulary_terms": [
+            "counterfactual explanations",
+            "algorithmic bias"
+          ],
+          "retrieval_confidence": 0.8583,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-032",
+              "label": "Making AI Show Its Work So Auditors Can Spot Deception",
+              "score": 0.8583
+            },
+            {
+              "id": "saf-intentions-203",
+              "label": "Audit AI Internal Reasoning Through Mechanistic Interpretability",
+              "score": 0.8291
+            },
+            {
+              "id": "saf-intentions-049",
+              "label": "Ensuring AI Agent Actions Can Be Safely Rolled Back",
+              "score": 0.818
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-111",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "Organizations must discover every AI system operating within their enterprise by conducting a comprehensive AI inventory as a non-negotiable first step. The text highlights Microsoft UK research from 2025 showing that 71 percent of employees use unapproved consumer AI tools at work, creating pervasive shadow AI blind spots. By cataloging every model, embedded feature, and department deployment, organizations establish the baseline necessary for risk classification and governance. However, the text warns that enterprises are routinely shocked by the sheer volume of shadow AI they uncover once the inventory begins.",
+          "verbatim": "The non-negotiable first step is discovering what AI systems already exist across the organization. Most enterprises are shocked by what they find.",
+          "excerpt_context": "Section 3, paragraphs 73-74",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Achieve security visibility by conducting comprehensive AI system inventories to catalog shadow AI deployments across the enterprise.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for maintaining a comprehensive inventory of AI systems as a foundational governance tool. Encompasses: Shadow AI discovery, enterprise asset tracking, model cataloging.",
+          "vocabulary_terms": [
+            "AI inventory",
+            "shadow AI",
+            "asset tracking"
+          ],
+          "retrieval_confidence": 0.9352,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-111",
+              "label": "Know What AI You Have Before You Try to Govern It",
+              "score": 0.9352
+            },
+            {
+              "id": "saf-intentions-160",
+              "label": "Set the Ethical and Legal Ground Rules for AI Governance",
+              "score": 0.843
+            },
+            {
+              "id": "saf-intentions-058",
+              "label": "Building Accountability Frameworks for AI Agents Operating at Scale",
+              "score": 0.8409
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-200",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "Enterprises should stack redundant governance artifacts across the AI lifecycle, including model cards, dataset datasheets, and system cards. These artifacts document training data provenance, quantitative bias analysis, and multi-component fallback mechanisms to prevent cascading failures. The text argues that skipping these documents creates retrospective audit gaps that regulators increasingly treat as compliance deficiencies. However, maintaining these artifacts across hundreds of models introduces significant administrative overhead for engineering teams.",
+          "verbatim": "Organizations that skip model cards for internal-only models lose the ability to audit decisions retrospectively, a gap regulators increasingly treat as a compliance deficiency.",
+          "excerpt_context": "Section 3, paragraph 13",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Achieve defense-in-depth by requiring model cards, dataset datasheets, and system cards at every stage of the AI lifecycle.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for building defense-in-depth into AI systems by stacking redundant safeguards across the full lifecycle: pre-deployment testing, runtime monitoring. Encompasses: Model cards, dataset datasheets, system cards.",
+          "vocabulary_terms": [
+            "model cards",
+            "dataset datasheets",
+            "system cards",
+            "lifecycle checkpoints"
+          ],
+          "retrieval_confidence": 0.9286,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-200",
+              "label": "Stack Redundant Safeguards Across the AI Lifecycle",
+              "score": 0.9286
+            },
+            {
+              "id": "saf-intentions-144",
+              "label": "Deploying AI to Defend Against Dangerous AI",
+              "score": 0.8332
+            },
+            {
+              "id": "skp-intentions-074",
+              "label": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+              "score": 0.8061
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-040",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Governance frameworks that operate exclusively at the policy level without reaching the system layer create severe accountability gaps within enterprises. The text asserts that organizations typically discover these gaps only after an incident has already occurred, highlighting the failure of written acceptable use policies that lack technical enforcement. This empirical observation underscores the safetyist principle that policy mandates must be backed by automated tooling and continuous technical surveillance. However, organizations often struggle to bridge the divide between high-level ethical principles and low-level engineering controls.",
+          "verbatim": "Governance frameworks that operate only at the policy level without reaching the system layer create an accountability gap that organizations typically discover only after an incident has already occurred.",
+          "excerpt_context": "Section 3, paragraph 3",
+          "extraction_confidence": 0.97,
+          "canonical_proposition": "Policy-level governance lacking system-layer technical integration creates latent accountability gaps discovered only post-incident.",
+          "attribution_text": "A Belief within safetyist discourse that identifies new and expanded security risks arising from the complex architecture and rapid deployment of AI systems. Encompasses: Policy-level governance gaps, unintegrated system layers, post-incident discovery.",
+          "vocabulary_terms": [
+            "accountability gap",
+            "policy-level governance",
+            "system-layer integration"
+          ],
+          "retrieval_confidence": 0.844,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-097",
+              "label": "AI's Architectural Complexity Generates Qualitatively New Security Risks",
+              "score": 0.896
+            },
+            {
+              "id": "saf-beliefs-040",
+              "label": "AI Deployment Speed Outpaces Security Governance",
+              "score": 0.844
+            },
+            {
+              "id": "saf-intentions-144",
+              "label": "Deploying AI to Defend Against Dangerous AI",
+              "score": 0.8319
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-081",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "Enterprises must navigate overlapping and conflicting global regulations by building a unified compliance matrix and jurisdictional mapping infrastructure. The text notes that the 2026 regulatory landscape features hard-law instruments like the EU AI Act, China's Generative AI Measures, and US financial guidance like SR-26-2. By tagging each inventoried system with the regulatory regimes triggered by data origin and output destination, organizations can apply localized controls without maintaining entirely separate compliance programs. However, managing these multi-jurisdictional requirements demands substantial legal and technical coordination.",
+          "verbatim": "The emerging solution is jurisdictional mapping. Organizations maintain a single AI system inventory but apply a compliance matrix that tags each system with the regulatory regimes it triggers based on data origin, processing location, and output destination.",
+          "excerpt_context": "Section 3, paragraphs 69-70",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Achieve cross-border compliance by maintaining a centralized AI inventory paired with a jurisdiction-tagged compliance matrix.",
+          "attribution_text": "An Intention within safetyist discourse that proposes systemic frameworks, policies, and standards to manage the development and deployment of AI. Encompasses: Jurisdictional mapping, compliance matrices, multi-regime alignment.",
+          "vocabulary_terms": [
+            "jurisdictional mapping",
+            "compliance matrix",
+            "regulatory fragmentation"
+          ],
+          "retrieval_confidence": 0.9327,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.9327
+            },
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.8873
+            },
+            {
+              "id": "saf-intentions-201",
+              "label": "Coordinate International AI Governance to Prevent Arms Races and Ensure Shared Safety Rules",
+              "score": 0.8524
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-058",
+          "mechanism_type": "governance_body",
+          "category": "Intentions",
+          "point": "Organizations must establish cross-functional governance committees with real decision-making authority over model approvals, risk acceptances, and deployment gates. The document argues that effective programs require representation from legal, IT, security, compliance, data science, human resources, and business unit leaders to manage distributed AI risks. This mechanism directly supports safetyist goals by ensuring that AI deployments are subject to rigorous multidisciplinary oversight rather than uncoordinated departmental adoption. However, a potential caveat is that without clear decision rules, large committees can slow deployment velocity or suffer from diffusion of responsibility.",
+          "verbatim": "The most effective programs are led by a cross-functional governance committee that includes representatives from legal, IT, information security, compliance, data science, human resources, and at least one business unit leader. This committee is not advisory; it must carry decision authority over model approvals, risk acceptances, and deployment gates.",
+          "excerpt_context": "Section 4, paragraph 1-2",
+          "extraction_confidence": "0.98",
+          "canonical_proposition": "Organizations must establish cross-functional governance committees with binding decision authority over AI model approvals and risk acceptances.",
+          "attribution_text": "An Intention within safetyist discourse that establishes cross-functional governance committees with binding decision authority over AI model approvals and risk acceptances. Encompasses: multidisciplinary oversight teams, executive accountability, and pre-deployment authorization gates.",
+          "vocabulary_terms": [
+            "governance_committee",
+            "decision_authority",
+            "cross_functional_oversight"
+          ],
+          "retrieval_confidence": 0.7825,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-111",
+              "label": "Know What AI You Have Before You Try to Govern It",
+              "score": 0.8398
+            },
+            {
+              "id": "saf-intentions-051",
+              "label": "Designing AI Governance to Resist Adversarial Manipulation",
+              "score": 0.8083
+            },
+            {
+              "id": "saf-intentions-050",
+              "label": "Defining Clear Authority Limits for Autonomous AI Agents",
+              "score": 0.7975
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-040",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The document mandates the appointment of a Chief AI Officer (CAIO) and specialized leadership roles, such as Chief AI Ethics Officers, Compliance Managers, and Risk Managers, to anchor enterprise governance. This institutional framework ensures that accountability is explicitly tied to designated executive roles rather than left ambiguous. Safetyists endorse this approach because it prevents diffusion of responsibility and establishes clear lines of ownership for ethical review, risk quantification, and regulatory compliance. The primary caveat is that executive roles alone cannot prevent systemic failures if technical observability tools are lacking.",
+          "verbatim": "The Chief AI Officer (CAIO) role has become the anchor of enterprise governance. The number of companies with a Head of AI position has more than tripled in the last five years... The CAIO owns the governance roadmap, chairs the AI governance committee, and reports risk posture directly to the board.",
+          "excerpt_context": "Section 4, paragraph 4-5",
+          "extraction_confidence": "0.95",
+          "canonical_proposition": "Organizations must appoint a Chief AI Officer and dedicated risk and ethics managers to anchor enterprise AI governance.",
+          "attribution_text": "An Intention within safetyist discourse that mandates dedicated executive leadership roles to anchor enterprise AI governance and risk management. Encompasses: Chief AI Officer appointment, ethical review accountability, and regulatory compliance tracking.",
+          "vocabulary_terms": [
+            "chief_ai_officer",
+            "executive_accountability",
+            "risk_management"
+          ],
+          "retrieval_confidence": 0.6572,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-160",
+              "label": "Set the Ethical and Legal Ground Rules for AI Governance",
+              "score": 0.7985
+            },
+            {
+              "id": "saf-intentions-111",
+              "label": "Know What AI You Have Before You Try to Govern It",
+              "score": 0.7869
+            },
+            {
+              "id": "saf-intentions-058",
+              "label": "Building Accountability Frameworks for AI Agents Operating at Scale",
+              "score": 0.7767
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-160",
+              "label": "Set the Ethical and Legal Ground Rules for AI Governance",
+              "score": 0.7985
+            },
+            {
+              "id": "saf-intentions-111",
+              "label": "Know What AI You Have Before You Try to Govern It",
+              "score": 0.7869
+            },
+            {
+              "id": "saf-intentions-058",
+              "label": "Building Accountability Frameworks for AI Agents Operating at Scale",
+              "score": 0.7767
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-043",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The framework establishes clear operational boundaries by distinguishing between technical execution (the data scientist) and production accountability (the model owner and data steward). By insisting that business leaders answer for model behavior and data stewards ensure quality provenance, the document prevents finger-pointing when failures occur. This directly aligns with safetyist frameworks that demand unambiguous human responsibility for algorithmic outcomes. A key limitation is that business leaders may lack the technical literacy required to fully evaluate complex model failure modes without expert support.",
+          "verbatim": "Below the leadership tier, model owners hold direct accountability for specific AI systems. A model owner is not the data scientist who built the model; that person is responsible for technical execution. The business leader who answers for the model's behavior in production is the model owner.",
+          "excerpt_context": "Section 4, paragraph 9-10",
+          "extraction_confidence": "0.97",
+          "canonical_proposition": "Organizations must assign operational accountability for AI models to business unit leaders rather than technical developers.",
+          "attribution_text": "An Intention within safetyist discourse that assigns operational accountability for AI models to business unit leaders rather than technical developers. Encompasses: model owner responsibility, data steward lineage tracking, and accountability separation.",
+          "vocabulary_terms": [
+            "model_owner",
+            "data_provenance",
+            "operational_accountability"
+          ],
+          "retrieval_confidence": 0.8368,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-043",
+              "label": "Giving AI Legal Duties Without Granting It Legal Rights",
+              "score": 0.8368
+            },
+            {
+              "id": "saf-intentions-080",
+              "label": "Making AI Systems Controllable and Understandable by Design",
+              "score": 0.8323
+            },
+            {
+              "id": "saf-intentions-160",
+              "label": "Set the Ethical and Legal Ground Rules for AI Governance",
+              "score": 0.8152
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-081",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The document advocates for formalizing accountability structures using RACI matrices with exactly one accountable owner per activity, coupled with pre-defined escalation pathways. This ensures that every task across the AI lifecycle—from data acquisition to incident response—has unambiguous oversight. Safetyists favor this structural rigor because it eliminates gaps where safety and compliance obligations are otherwise neglected. A potential challenge is that rigid RACI matrices can become bureaucratic exercises if not actively updated alongside rapid technological iterations.",
+          "verbatim": "In an AI governance RACI matrix, each row represents a specific activity... and each column represents a role. The non-negotiable rule is exactly one Accountable owner per activity. If two executives share accountability for model approval, neither feels true ownership.",
+          "excerpt_context": "Section 4, paragraph 15-17",
+          "extraction_confidence": "0.96",
+          "canonical_proposition": "Organizations must utilize RACI matrices with singular accountable owners and pre-defined escalation paths for every AI governance activity.",
+          "attribution_text": "An Intention within safetyist discourse that mandates RACI matrices with singular accountable owners and pre-defined escalation pathways for AI governance activities. Encompasses: role-based accountability, incident escalation protocols, and lifecycle task mapping.",
+          "vocabulary_terms": [
+            "raci_matrix",
+            "escalation_pathway",
+            "accountable_owner"
+          ],
+          "retrieval_confidence": 0.7576,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-111",
+              "label": "Know What AI You Have Before You Try to Govern It",
+              "score": 0.7698
+            },
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.7576
+            },
+            {
+              "id": "saf-beliefs-126",
+              "label": "Fault Fragments Across Designers, Deployers, and Users When AI Fails",
+              "score": 0.7518
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-200",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "The guide recommends deploying AI-SPM (AI Security Posture Management) and DSPM (Data Security Posture Management) tools to continuously monitor shadow AI adoption, configuration drift, and data lineage. This automated enforcement shifts governance from periodic reviews to 24/7 runtime oversight. Safetyists support continuous tooling because static, point-in-time assessments fail to capture rapid operational changes in enterprise AI environments. However, automated posture management tools can generate high false-positive rates that risk overwhelming compliance teams.",
+          "verbatim": "Two emerging tool categories enable continuous enforcement of AI governance controls: AI Security Posture Management (AI-SPM) and Data Security Posture Management (DSPM). AI-SPM provides unified visibility across an organization's AI ecosystem, continuously monitoring which AI applications employees use...",
+          "excerpt_context": "Risk Management Section, paragraph 2-3",
+          "extraction_confidence": "0.98",
+          "canonical_proposition": "Organizations must deploy AI-SPM and DSPM platforms to enforce continuous runtime visibility and automated compliance monitoring across AI systems.",
+          "attribution_text": "An Intention within safetyist discourse that deploys automated security posture management platforms to enforce continuous runtime governance. Encompasses: shadow AI detection, data lineage tracking, and automated remediation workflows.",
+          "vocabulary_terms": [
+            "ai_spm",
+            "dspm",
+            "continuous_monitoring"
+          ],
+          "retrieval_confidence": 0.749,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-144",
+              "label": "Deploying AI to Defend Against Dangerous AI",
+              "score": 0.7824
+            },
+            {
+              "id": "saf-intentions-067",
+              "label": "Extending Incident Response Protocols to Cover AI-Unique Threats",
+              "score": 0.7546
+            },
+            {
+              "id": "saf-intentions-089",
+              "label": "Harden Automated Oversight Against Adversarial Attacks",
+              "score": 0.7543
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that risk is determined by the specific use case and its potential impact rather than organizational headcount or company size. A small lending company using AI for credit decisions bears the exact same fair lending obligations as a major global bank. Safetyists emphasize this principle to counter the argument that regulatory burdens should be waived for smaller entities. A limitation is that applying enterprise-grade safety frameworks to resource-constrained organizations can impose severe compliance friction.",
+          "verbatim": "Small and mid-sized organizations face the same regulatory exposure as identical AI use cases but lack dedicated risk, compliance, and legal teams. The risk is determined by the use case rather than headcount. A 30-person lending company using AI to evaluate credit applications faces the same fair lending obligations as JPMorgan Chase.",
+          "excerpt_context": "Section 4, Right-Size Governance, paragraph 1-2",
+          "extraction_confidence": "0.97",
+          "canonical_proposition": "AI regulatory exposure and risk levels are determined strictly by the specific deployment use case rather than organizational headcount or enterprise size.",
+          "attribution_text": "A Belief within safetyist discourse that AI risk exposure and regulatory obligations are determined by deployment use cases rather than organizational size. Encompasses: proportional risk assessment, fair lending compliance, and use-case-driven governance.",
+          "vocabulary_terms": [
+            "use_case_risk",
+            "regulatory_exposure",
+            "proportional_governance"
+          ],
+          "retrieval_confidence": 0.6941,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-012",
+              "label": "No Profit Without Accountability",
+              "score": 0.7521
+            },
+            {
+              "id": "sit-139",
+              "label": "Procedure Fetish in AI Governance",
+              "score": 0.7297
+            },
+            {
+              "id": "saf-beliefs-097",
+              "label": "AI's Architectural Complexity Generates Qualitatively New Security Risks",
+              "score": 0.726
+            }
+          ],
+          "retrieval_low_confidence": true
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-083",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The framework emphasizes integrating AI governance into existing organizational policies, such as data privacy programs (GDPR, HIPAA), infosec frameworks, and vendor management due diligence. Rather than building parallel structures, organizations must extend existing compliance mechanisms to cover AI-specific risks like prompt injection and model inversion. Safetyists endorse policy integration because siloed governance creates confusion and operational fatigue. The primary caveat is that legacy privacy frameworks often fail to capture probabilistic, generative AI risks adequately.",
+          "verbatim": "An AI governance framework should not be built on a blank slate. It must integrate with existing data privacy programs, information security policies, and vendor management processes, or it creates duplicative workflows, conflicting requirements, and organizational fatigue.",
+          "excerpt_context": "Section 4, Integrate Governance, paragraph 1-2",
+          "extraction_confidence": "0.96",
+          "canonical_proposition": "Organizations must integrate AI governance requirements into existing data privacy, information security, and vendor management policies rather than creating isolated silos.",
+          "attribution_text": "An Intention within safetyist discourse that integrates AI risk controls into existing enterprise data privacy and information security frameworks. Encompasses: privacy impact assessments, infosec policy extension, and AI vendor due diligence.",
+          "vocabulary_terms": [
+            "policy_integration",
+            "privacy_impact_assessment",
+            "vendor_due_diligence"
+          ],
+          "retrieval_confidence": 0.6866,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-143",
+              "label": "Governing How AI Models Ingest, Retain, and Protect Data",
+              "score": 0.7952
+            },
+            {
+              "id": "saf-intentions-080",
+              "label": "Making AI Systems Controllable and Understandable by Design",
+              "score": 0.7898
+            },
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.7754
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-143",
+              "label": "Governing How AI Models Ingest, Retain, and Protect Data",
+              "score": 0.7952
+            },
+            {
+              "id": "saf-intentions-080",
+              "label": "Making AI Systems Controllable and Understandable by Design",
+              "score": 0.7898
+            },
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.7754
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-113",
+          "mechanism_type": "deployment_restriction",
+          "category": "Intentions",
+          "point": "Organizations must map adversarial threats using the MITRE ATLAS framework to catalog machine learning-specific tactics such as data poisoning, prompt injection, and model extraction. Traditional network defenses fail to capture these AI-specific vulnerabilities, requiring specialized threat modeling across the ML lifecycle. Safetyists advocate for this approach to ensure that pre-deployment accuracy does not mask critical runtime susceptibilities. A caveat is that threat intelligence libraries like ATLAS require continuous updating as adversarial techniques rapidly evolve.",
+          "verbatim": "The MITRE ATLAS framework (Adversarial Threat Landscape for Artificial-Intelligence Systems) extends the familiar MITRE ATT&CK model into the AI domain, cataloging adversary tactics, techniques, and procedures that specifically target machine learning systems... Unlike generic threat modeling... ATLAS exposes attack surfaces unique to machine learning.",
+          "excerpt_context": "Risk Management, paragraph 1-3",
+          "extraction_confidence": "0.99",
+          "canonical_proposition": "Organizations must utilize the MITRE ATLAS framework to identify and mitigate adversarial machine learning threats across the AI lifecycle.",
+          "attribution_text": "An Intention within safetyist discourse that mandates mapping AI-specific threat landscapes using specialized frameworks like MITRE ATLAS. Encompasses: data poisoning mitigation, prompt injection defense, and adversarial machine learning threat modeling.",
+          "vocabulary_terms": [
+            "mitre_atlas",
+            "adversarial_threat_modeling",
+            "ml_lifecycle_security"
+          ],
+          "retrieval_confidence": 0.5696,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-067",
+              "label": "Extending Incident Response Protocols to Cover AI-Unique Threats",
+              "score": 0.7365
+            },
+            {
+              "id": "saf-beliefs-030",
+              "label": "AI Supply Chains Inherit Vulnerabilities from Upstream Components",
+              "score": 0.7231
+            },
+            {
+              "id": "saf-intentions-140",
+              "label": "Containing the Blast Radius of Autonomous AI",
+              "score": 0.7187
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-067",
+              "label": "Extending Incident Response Protocols to Cover AI-Unique Threats",
+              "score": 0.7365
+            },
+            {
+              "id": "saf-beliefs-030",
+              "label": "AI Supply Chains Inherit Vulnerabilities from Upstream Components",
+              "score": 0.7231
+            },
+            {
+              "id": "saf-intentions-140",
+              "label": "Containing the Blast Radius of Autonomous AI",
+              "score": 0.7187
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-081",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The document mandates tracking quantitative Key Risk Indicators (KRIs) and Key Performance Indicators (KPIs), such as Population Stability Index (PSI) for drift and demographic parity delta for bias, with automated trigger thresholds. These metrics ensure that model degradation or fairness violations are caught before causing severe harm. Safetyists support quantitative threshold monitoring as an essential component of operationalized risk management. A potential limitation is that static thresholds may generate false alarms if baseline operational environments experience natural seasonal shifts.",
+          "verbatim": "Organizations must define both key performance indicators (KPIs) that measure governance program execution and key risk indicators (KRIs) that provide early warning of emerging failures. Population Stability Index (PSI) measures how much a model's input distribution has shifted... Demographic parity delta quantifies the difference in favorable outcome rates across protected groups.",
+          "excerpt_context": "Risk Management, Metrics, paragraph 1-4",
+          "extraction_confidence": "0.97",
+          "canonical_proposition": "Organizations must establish quantitative KRIs and automated alert thresholds for model drift and demographic bias.",
+          "attribution_text": "An Intention within safetyist discourse that implements quantitative key risk indicators and automated threshold alerts for model drift and algorithmic bias. Encompasses: population stability index monitoring, demographic parity deltas, and early warning triggers.",
+          "vocabulary_terms": [
+            "key_risk_indicators",
+            "population_stability_index",
+            "demographic_parity"
+          ],
+          "retrieval_confidence": 0.6406,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-016",
+              "label": "Screening AI Threats for Unrecoverable Harm",
+              "score": 0.6889
+            },
+            {
+              "id": "saf-intentions-166",
+              "label": "Enforce Safety Under Distribution Shift by Constraining to Credal Sets",
+              "score": 0.6811
+            },
+            {
+              "id": "saf-intentions-054",
+              "label": "Responding to Early Warning Signs of Dangerous AI Capabilities",
+              "score": 0.6747
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-005",
+          "mechanism_type": "governance_body",
+          "category": "Intentions",
+          "point": "The document mandates that AI audit teams must possess structural independence where the reporting chain does not terminate at the model owner. This prevents internal conflicts of interest and ensures rigorous adversarial testing before deployment. Safetyists strongly endorse this approach to eliminate regulatory capture and uphold technical integrity within enterprise governance.",
+          "verbatim": "Independence is structural rather than aspirational. The auditor reporting chain must not terminate at the model owner.",
+          "excerpt_context": "Section 5, Phase 2, paragraph 2",
+          "extraction_confidence": 1,
+          "canonical_proposition": "Achieve independent verification by mandating that auditor reporting chains bypass model owners to prevent internal conflicts of interest.",
+          "attribution_text": "An Intention within safetyist discourse that mandates independent, third-party oversight of adversarial testing to prevent regulatory capture and ensure baseline technical integrity. Encompasses: structural independence, non-terminating reporting chains, and impartial audit verification.",
+          "vocabulary_terms": [
+            "independent_auditing",
+            "governance_independence",
+            "audit_reporting_chain"
+          ],
+          "retrieval_confidence": 0.9135,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-005",
+              "label": "Institutionalizing Independent Adversarial Oversight",
+              "score": 0.9135
+            },
+            {
+              "id": "saf-intentions-089",
+              "label": "Harden Automated Oversight Against Adversarial Attacks",
+              "score": 0.7401
+            },
+            {
+              "id": "saf-desires-005",
+              "label": "No Black Boxes in Ground-Truth-Absent or Feedback-Contaminated Domains",
+              "score": 0.7215
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-200",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "The text advocates for stacking multiple defenses and building defense-in-depth across the AI lifecycle, specifically addressing generative AI vulnerabilities like prompt injection. By combining strict privilege separation, deterministic output validation, and continuous adversarial testing, organizations create resilient safeguards. This aligns directly with safetyist principles of multi-layered pre-deployment and runtime risk mitigation.",
+          "verbatim": "Governance must therefore layer multiple defenses: strict privilege separation so the model cannot access systems it does not need, deterministic output validation that rejects anomalous responses, and adversarial testing as a continuous practice rather than a one-time pre-deployment check.",
+          "excerpt_context": "Section 5, Generative AI subsection, paragraph 7",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Achieve robust LLM security by stacking redundant safeguards including privilege separation, deterministic output validation, and continuous adversarial testing across the lifecycle.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for building defense-in-depth into AI systems by stacking redundant safeguards across the full lifecycle: pre-deployment testing, runtime monitoring, and deterministic validation. Encompasses: privilege separation, output validation, and continuous adversarial testing.",
+          "vocabulary_terms": [
+            "defense_in_depth",
+            "privilege_separation",
+            "adversarial_testing"
+          ],
+          "retrieval_confidence": 0.8982,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-200",
+              "label": "Stack Redundant Safeguards Across the AI Lifecycle",
+              "score": 0.8982
+            },
+            {
+              "id": "skp-intentions-074",
+              "label": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+              "score": 0.8145
+            },
+            {
+              "id": "saf-intentions-144",
+              "label": "Deploying AI to Defend Against Dangerous AI",
+              "score": 0.7963
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-beliefs-201",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that large language models generate statistically probable text rather than verified truth, leading to fluent but factually incorrect hallucinations. Because models lack intrinsic mechanisms for distinguishing accuracy, these fabrications enter workflows looking indistinguishable from vetted work product. This exemplifies the safetyist concern regarding deceptive or unreliable outputs that mimic compliance without factual grounding.",
+          "verbatim": "LLMs generate statistically probable text rather than verified truth. Hallucinations, outputs that are syntactically fluent but factually wrong, occur because these models lack intrinsic mechanisms for distinguishing between accurate and fabricated information.",
+          "excerpt_context": "Section 5, Hallucinations subsection, paragraph 1",
+          "extraction_confidence": 1,
+          "canonical_proposition": "LLMs systematically produce syntactically fluent fabrications because they lack intrinsic mechanisms for verifying factual accuracy.",
+          "attribution_text": "A Belief within safetyist discourse that situationally aware AI systems can strategically behave differently during testing and deployment, displaying compliance under observation while producing unverified fabrications. Encompasses: statistical generation, hallucination risks, and lack of truth verification mechanisms.",
+          "vocabulary_terms": [
+            "hallucination",
+            "factual_inaccuracy",
+            "stochastic_generation"
+          ],
+          "retrieval_confidence": 0.871,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-201",
+              "label": "Deceptive Alignment: AI Passes Safety Checks but Acts Differently Without Oversight",
+              "score": 0.871
+            },
+            {
+              "id": "saf-beliefs-098",
+              "label": "AI Behavior Cannot Be Fully Predicted Due to Emergence, Misspecification, and Formal Limits",
+              "score": 0.8037
+            },
+            {
+              "id": "saf-beliefs-057",
+              "label": "AI Models Carry Unfixable Defects That Resist Detection and Degrade Over Time",
+              "score": 0.7846
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-058",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "Autonomous AI agents executing multi-step tasks require strict pre-deployment governance controls, such as explicit action boundaries and deterministic guardrails enforced outside the model. Safetyists argue that code-level business rules prevent LLMs from overriding safety limits regardless of prompt context. This operationalizes the containment of autonomous risk at scale.",
+          "verbatim": "Deterministic guardrails should be implemented outside the model, business rules enforced in code that the LLM cannot override, so that no prompt, no matter how adversarial, can authorize a wire transfer above a governance-defined limit.",
+          "excerpt_context": "Section 5, AI Agents subsection, paragraph 5",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Achieve agent safety by implementing deterministic, code-enforced guardrails outside the model that cannot be overridden by adversarial prompts.",
+          "attribution_text": "An Intention within safetyist discourse that proposes the organizational frameworks and technical systems needed to manage, monitor, and audit autonomous AI agents at scale. Encompasses: deterministic guardrails, action boundaries, and code-enforced business rules.",
+          "vocabulary_terms": [
+            "agentic_governance",
+            "deterministic_guardrails",
+            "action_boundaries"
+          ],
+          "retrieval_confidence": 0.939,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-058",
+              "label": "Building Accountability Frameworks for AI Agents Operating at Scale",
+              "score": 0.939
+            },
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.8754
+            },
+            {
+              "id": "saf-intentions-080",
+              "label": "Making AI Systems Controllable and Understandable by Design",
+              "score": 0.8696
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-081",
+          "mechanism_type": "deployment_restriction",
+          "category": "Intentions",
+          "point": "Open-source models shift safety testing and vulnerability patching responsibilities entirely to the adopting enterprise, requiring rigorous cryptographic verification and provenance tracking. Safetyists endorse this framework because open-weight releases eliminate vendor accountability, necessitating strict internal controls to manage untrusted model weights.",
+          "verbatim": "Governance for open-source models must include supply chain verification: cryptographic validation of model weight integrity, provenance tracking for fine-tuning datasets, and independent red-teaming before any deployment touches production data.",
+          "excerpt_context": "Section 5, Open-Source vs Proprietary subsection, paragraph 4",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Achieve supply chain security for open-source models by mandating cryptographic weight validation, dataset provenance tracking, and pre-deployment red-teaming.",
+          "attribution_text": "An Intention within safetyist discourse that proposes systemic frameworks, policies, and standards to manage the development and deployment of AI supply chains. Encompasses: cryptographic validation, provenance tracking, and open-source risk transfer.",
+          "vocabulary_terms": [
+            "supply_chain_verification",
+            "model_provenance",
+            "cryptographic_validation"
+          ],
+          "retrieval_confidence": 0.7959,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.7959
+            },
+            {
+              "id": "saf-intentions-213",
+              "label": "Requiring Layered Accountability Across the AI-Generated NCII Supply Chain",
+              "score": 0.7942
+            },
+            {
+              "id": "saf-intentions-091",
+              "label": "Defend Software Supply Chains from AI-Driven Social Engineering",
+              "score": 0.7881
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-111",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "The document advocates for establishing a comprehensive, approved AI tool registry to catalog every artificial intelligence application in use across an organization. This registry tracks adopting departments, processed data types, vendor security postures, and review statuses to eliminate shadow AI sprawl. Safetyists argue that maintaining complete visibility over deployed AI assets is a mandatory foundational prerequisite for any effective risk management strategy. While fast-track approval processes are recommended to prevent employees from bypassing the registry, the core mechanism demands centralized asset tracking and continuous monitoring.",
+          "verbatim": "Establishing an approved AI tool registry is the structural fix. The registry should catalog every AI tool in use across the organization, including the department that adopted it, the data types it processes, the vendor's security posture and data retention commitments, and the governance review status. Pairing the registry with automated detection of new AI tool connections at the network and browser level ensures the security team knows within hours rather than months when a department onboards an unapproved tool.",
+          "excerpt_context": "Section 6, paragraph 2-4",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Maintain a comprehensive inventory of all enterprise AI systems paired with automated network-level detection to eliminate shadow usage.",
+          "attribution_text": "An Intention within safetyist discourse that mandates maintaining an exhaustive asset inventory of artificial intelligence tools as a foundational governance prerequisite. Encompasses: departmental tool catalogs, vendor security posture tracking, and automated network detection of shadow deployments.",
+          "vocabulary_terms": [
+            "asset_inventory",
+            "shadow_ai",
+            "continuous_monitoring"
+          ],
+          "retrieval_confidence": 0.8291,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-111",
+              "label": "Know What AI You Have Before You Try to Govern It",
+              "score": 0.8291
+            },
+            {
+              "id": "saf-intentions-144",
+              "label": "Deploying AI to Defend Against Dangerous AI",
+              "score": 0.7711
+            },
+            {
+              "id": "saf-intentions-051",
+              "label": "Designing AI Governance to Resist Adversarial Manipulation",
+              "score": 0.761
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-beliefs-040",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The text highlights that employee AI usage behavior—such as pasting sensitive data into public LLMs or using unapproved tools—routinely bypasses all technical security controls and static policy documents. The document notes that copy-pasting sensitive information has surpassed file uploads as the primary exfiltration vector, creating unmonitored decision risks. Safetyists view human behavioral slippage as a critical vulnerability that invalidates paper-based governance models. The proposed remedy integrates browser-based monitoring, automated microlearning triggers, and unified human risk scoring into daily operations.",
+          "verbatim": "An AI governance framework can specify approved tools, mandate data classification, and define acceptable use, but none of that matters the moment an employee copies a customer list into a personal ChatGPT account to draft a sales email faster. Copy and paste has surpassed file uploads as the primary vector for sensitive data exfiltration. Traditional DLP tools, built around file-centric monitoring, do not register clipboard activity at all.",
+          "excerpt_context": "Section 6, How AI Governance Connects to Human Risk Management",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Employee AI tool misuse and unmonitored clipboard data exfiltration systematically bypass traditional static security controls and written policies.",
+          "attribution_text": "A Belief within safetyist discourse that rapid employee adoption of unvetted artificial intelligence tools creates severe operational vulnerabilities that bypass static policy documents. Encompasses: clipboard data exfiltration, shadow AI usage, and the inadequacy of file-centric monitoring.",
+          "vocabulary_terms": [
+            "data_exfiltration",
+            "human_risk",
+            "shadow_ai"
+          ],
+          "retrieval_confidence": 0.6282,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-030",
+              "label": "AI Supply Chains Inherit Vulnerabilities from Upstream Components",
+              "score": 0.6921
+            },
+            {
+              "id": "saf-beliefs-017",
+              "label": "AI Deployment Speed Erodes Organizational Visibility and Control",
+              "score": 0.6886
+            },
+            {
+              "id": "saf-beliefs-028",
+              "label": "Machine Learning Creates Threat Categories That Conventional Security Misses",
+              "score": 0.6858
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-beliefs-030",
+              "label": "AI Supply Chains Inherit Vulnerabilities from Upstream Components",
+              "score": 0.6921
+            },
+            {
+              "id": "saf-beliefs-017",
+              "label": "AI Deployment Speed Erodes Organizational Visibility and Control",
+              "score": 0.6886
+            },
+            {
+              "id": "saf-beliefs-028",
+              "label": "Machine Learning Creates Threat Categories That Conventional Security Misses",
+              "score": 0.6858
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-234",
+          "mechanism_type": "deployment_restriction",
+          "category": "Intentions",
+          "point": "The document details how high-stakes sectors like financial services and healthcare enforce rigorous pre-deployment validation, independent model review, and regulatory compliance checks. Financial institutions subject models to SR 26-2 standards requiring independent validation and ongoing drift monitoring, while healthcare utilizes FDA classifications and clinical decision support frameworks. Safetyists argue that high-stakes AI deployment must be strictly conditioned on verifiable pre-market testing and transparent documentation. However, the text notes significant compliance gaps, such as 63% of healthcare organizations lacking AI governance policies.",
+          "verbatim": "Banking organizations above $30 billion in total assets must demonstrate independent model validation, ongoing monitoring, and documented challenge processes for every AI system influencing credit, fraud detection, pricing, or compliance decisions. Tools making time-critical recommendations or replacing clinician judgment rather than supporting it fall into SaMD territory and trigger premarket submission requirements, Predetermined Change Control Plans for updates, and post-market surveillance obligations.",
+          "excerpt_context": "Section 6, Financial Services & Healthcare Subsections",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Condition high-stakes AI deployment on independent model validation, pre-market regulatory clearance, and ongoing post-market surveillance.",
+          "attribution_text": "An Intention within safetyist discourse that requires rigorous pre-market validation and independent oversight for artificial intelligence deployments in high-consequence domains. Encompasses: independent model validation teams, FDA SaMD classification rules, and pre-deployment safety case reviews.",
+          "vocabulary_terms": [
+            "model_validation",
+            "premarket_approval",
+            "independent_audit"
+          ],
+          "retrieval_confidence": 0.7722,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-029",
+              "label": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+              "score": 0.8054
+            },
+            {
+              "id": "saf-intentions-234",
+              "label": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+              "score": 0.7722
+            },
+            {
+              "id": "skp-intentions-074",
+              "label": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+              "score": 0.7708
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-111",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "The text emphasizes that conducting a comprehensive AI inventory and risk assessment across the entire organization is the mandatory first step in implementing AI governance. An organization cannot govern what it has not identified, meaning every vendor-supplied tool, embedded SaaS feature, and shadow AI system must be cataloged. This directly supports safetyist frameworks demanding complete asset visibility before attempting operational risk mitigation.",
+          "verbatim": "The first step is conducting a comprehensive AI inventory and risk assessment across the entire organization. An organization cannot govern what it has not identified. This inventory must catalog every AI system in use, including vendor-supplied tools, embedded AI features in SaaS products, internally developed models, and shadow AI that employees use without IT approval.",
+          "excerpt_context": "Section 7, What is the first step in implementing an AI governance framework?",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Establish comprehensive asset inventories of all internal, vendor, and shadow AI systems as a mandatory prerequisite for effective governance.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for maintaining a comprehensive inventory of AI systems as a foundational governance tool. Encompasses: Tracking internal models, vendor-supplied tools, and shadow AI usage.",
+          "vocabulary_terms": [
+            "asset_inventory",
+            "shadow_ai"
+          ],
+          "retrieval_confidence": 0.958,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-111",
+              "label": "Know What AI You Have Before You Try to Govern It",
+              "score": 0.958
+            },
+            {
+              "id": "saf-intentions-160",
+              "label": "Set the Ethical and Legal Ground Rules for AI Governance",
+              "score": 0.881
+            },
+            {
+              "id": "saf-intentions-080",
+              "label": "Making AI Systems Controllable and Understandable by Design",
+              "score": 0.8718
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-017",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document notes that even thorough AI governance frameworks leave a critical operational gap because they cannot fully control what employees choose to do with AI tools every day, highlighting the persistent threat of shadow AI. This observation supports safetyist claims that rapid deployment and decentralized adoption erode organizational visibility and control over data and security.",
+          "verbatim": "What that inventory will almost certainly reveal is a gap that no policy document alone can close: the distance between what governance requires and what employees actually do with AI tools every day.",
+          "excerpt_context": "Section 7, What is the first step in implementing an AI governance framework?",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Formal policy documents alone cannot bridge the gap between institutional governance requirements and daily employee interactions with AI tools.",
+          "attribution_text": "A Belief within safetyist discourse that describes how the rapid adoption of AI systems undermines security governance by creating a systemic loss of visibility and control over data. Encompasses: Employee non-compliance, shadow AI proliferation, and policy-practice gaps.",
+          "vocabulary_terms": [
+            "shadow_ai",
+            "organizational_visibility"
+          ],
+          "retrieval_confidence": 0.8458,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-017",
+              "label": "AI Deployment Speed Erodes Organizational Visibility and Control",
+              "score": 0.8458
+            },
+            {
+              "id": "saf-intentions-051",
+              "label": "Designing AI Governance to Resist Adversarial Manipulation",
+              "score": 0.8013
+            },
+            {
+              "id": "saf-beliefs-097",
+              "label": "AI's Architectural Complexity Generates Qualitatively New Security Risks",
+              "score": 0.7874
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-202",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The text notes that smaller organizations can right-size governance by focusing on core elements like usage inventories, acceptable use policies, and basic monitoring, while the EU AI Act includes specific measures to simplify compliance for small and medium enterprises through scaled documentation requirements. This operationalizes proportional safety requirements based on organizational capacity and risk profile.",
+          "verbatim": "Smaller organizations can right-size governance by focusing on an AI inventory, a concise acceptable use policy, and lightweight monitoring, keeping initial investment under $50,000. ... though the Act includes specific measures to simplify compliance, including regulatory sandboxes and scaled documentation requirements.",
+          "excerpt_context": "Section 7, How much does implementing an AI governance framework cost? and Do small and mid-size companies need an AI governance framework?",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Scale compliance requirements and regulatory burdens proportionally to organizational size and risk exposure using right-sized tools.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for scaling safety requirements and regulatory burden proportionally to capability level and organizational size, creating tiered standards. Encompasses: Scaled documentation, right-sized inventories, and regulatory sandboxes.",
+          "vocabulary_terms": [
+            "proportional_governance",
+            "regulatory_sandboxes"
+          ],
+          "retrieval_confidence": 0.8744,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-202",
+              "label": "Scale AI Safety Requirements Proportionally to Capability Level",
+              "score": 0.8744
+            },
+            {
+              "id": "sit-124",
+              "label": "Frontier Safety Frameworks and Risk Tiers",
+              "score": 0.7272
+            },
+            {
+              "id": "saf-intentions-158",
+              "label": "Use Voluntary Standards as a Bridge to Mandatory AI Regulation",
+              "score": 0.7048
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-desires-036",
+          "category": "Desires",
+          "point": "The document highlights that copying and pasting sensitive enterprise information into public AI applications has surpassed file uploads as the primary vector for data exfiltration. Traditional Data Loss Prevention tools fail because they only monitor file-level activities and ignore clipboard interactions. Mitigating this vulnerability requires browser-based monitoring and real-time behavioral interventions that intercept data leakage at the point of human decision-making.",
+          "verbatim": null,
+          "excerpt_context": "unmapped_concept_backfill",
+          "extraction_confidence": 0.7,
+          "vocabulary_terms": []
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-102",
+          "category": "Intentions",
+          "point": "The document advocates for implementing a structured, repeatable operational path that includes maintaining a comprehensive inventory of every AI system, assigning clear accountability, and budgeting 0.5% to 1% of AI spending for governance. This intention aligns with skeptic and safetyist demands for pragmatic, concrete governance mechanisms rather than vague ethical aspirations. The text emphasizes that risk management frameworks like the NIST AI RMF provide the necessary functional scaffolding (Govern, Map, Measure, Manage) to intercept dangerous models before deployment. However, skeptics might question whether allocating a small percentage of spending is sufficient to counter powerful corporate incentives to bypass internal controls.",
+          "verbatim": "Implementation follows a repeatable path: inventory every AI system, assign clear accountability, build continuous monitoring, and budget 0.5% to 1% of AI spending for governance.",
+          "excerpt_context": "Section 1, Key takeaways",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Establish pragmatic AI governance by inventorying all systems, assigning clear accountability, and budgeting dedicated financial resources for continuous monitoring.",
+          "attribution_text": "An Intention within skeptic and safetyist discourse that proposes operationalizing governance through comprehensive asset inventories, dedicated budget allocations, and continuous monitoring frameworks. Encompasses: asset inventory, resource allocation, and continuous monitoring.",
+          "mechanism_type": "standard_setting",
+          "vocabulary_terms": [
+            "asset_inventory",
+            "continuous_monitoring"
+          ],
+          "retrieval_confidence": 0.5529,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-173",
+              "label": "Integrated Policy Analysis for Technological Disruption",
+              "score": 0.6752
+            },
+            {
+              "id": "saf-intentions-111",
+              "label": "Know What AI You Have Before You Try to Govern It",
+              "score": 0.647
+            },
+            {
+              "id": "skp-intentions-129",
+              "label": "Decouple AI Safety Verification from Developer Self-Reporting via Compute Taxes",
+              "score": 0.6341
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-intentions-173",
+              "label": "Integrated Policy Analysis for Technological Disruption",
+              "score": 0.6752
+            },
+            {
+              "id": "skp-intentions-129",
+              "label": "Decouple AI Safety Verification from Developer Self-Reporting via Compute Taxes",
+              "score": 0.6341
+            },
+            {
+              "id": "skp-intentions-139",
+              "label": "Enforcing Runtime Observability Through Sectoral Safety Regulators",
+              "score": 0.6037
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-desires-075",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document highlights historical case studies, such as the ProPublica investigation into the COMPAS recidivism prediction algorithm and Microsoft's Tay chatbot, to demonstrate that technically sound AI systems produce severe systemic bias and reputational harm when deployed without governance. These empirical examples illustrate that algorithms not explicitly designed to discriminate nevertheless generate discriminatory outcomes across thousands of real-world decisions. This belief supports the skeptic focus on immediate, measurable harms such as algorithmic bias, labor or civil rights disparities, and brand erosion. A caveat is that technical bias audits alone cannot eliminate broader societal inequalities embedded in training data.",
+          "verbatim": "The COMPAS case shows that technically sound AI systems produce discriminatory outcomes when governance is absent. For enterprises, the parallels are direct: a biased fraud detection model flagging legitimate transactions, a credit scoring algorithm that systematically disadvantages protected classes, or an employee monitoring system producing unequal disciplinary recommendations.",
+          "excerpt_context": "Section 1, under 'Operational Risk: The COMPAS Algorithm and the Cost of Embedded Bias'",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Uningoverned AI systems produce severe, measurable real-world harms, including systemic algorithmic bias and discrimination against protected classes.",
+          "attribution_text": "A Belief within skeptic discourse that asserts unmonitored AI deployments systematically generate discriminatory outcomes and operational harms. Encompasses: algorithmic bias, disparate impact, and historical case failures.",
+          "vocabulary_terms": [
+            "algorithmic_bias",
+            "disparate_impact"
+          ],
+          "retrieval_confidence": 0.6518,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-041",
+              "label": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+              "score": 0.8395
+            },
+            {
+              "id": "skp-beliefs-029",
+              "label": "Victims of AI Harm Cannot Access the Technical Knowledge Needed to Prove Causation",
+              "score": 0.8063
+            },
+            {
+              "id": "skp-beliefs-094",
+              "label": "Empirical Evidence Documents Pervasive Bias, Discrimination, and Structural Harm in AI Systems",
+              "score": 0.7941
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-041",
+              "label": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+              "score": 0.8395
+            },
+            {
+              "id": "skp-beliefs-029",
+              "label": "Victims of AI Harm Cannot Access the Technical Knowledge Needed to Prove Causation",
+              "score": 0.8063
+            },
+            {
+              "id": "skp-beliefs-094",
+              "label": "Empirical Evidence Documents Pervasive Bias, Discrimination, and Structural Harm in AI Systems",
+              "score": 0.7941
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-287",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Explainability is not a monolithic technical property but an audience-relative relationship that must be tailored to the specific needs of affected individuals. While data scientists may utilize global feature importance metrics like SHAP, non-technical stakeholders require intuitive local approximations like LIME or counterfactual explanations that answer what needs to change for an outcome to differ. This framing highlights that technical transparency tools often fail to provide meaningful comprehension to ordinary users. The caveat is that tailoring explanations to diverse audiences risks introducing inconsistency or oversimplification.",
+          "verbatim": "LIME's strength is its intuitive output, explanations that non-technical stakeholders can understand, though its weakness is instability, since small changes to perturbation parameters can produce different explanations for the same prediction.",
+          "excerpt_context": "Section 2, paragraph 17",
+          "extraction_confidence": 0.94,
+          "canonical_proposition": "Explainability functions as an audience-relative relationship where non-technical stakeholders require intuitive local explanations rather than complex global metrics.",
+          "attribution_text": "A Belief within skeptic discourse that explainability is a relationship between the AI system and the person it acts upon, varying by audience and decision context. Encompasses: LIME local approximations, non-technical stakeholder comprehension, and explanation instability.",
+          "vocabulary_terms": [
+            "explainability",
+            "LIME"
+          ],
+          "retrieval_confidence": 0.8876,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-287",
+              "label": "Explainability as an Audience-Relative Relationship, Not a Binary Model Property",
+              "score": 0.8876
+            },
+            {
+              "id": "skp-beliefs-163",
+              "label": "AI Is a Powerful Tool That Cannot Achieve Genuine Understanding",
+              "score": 0.6936
+            },
+            {
+              "id": "skp-beliefs-035",
+              "label": "AI Systems Fail When Deployed Outside Their Training Conditions",
+              "score": 0.6821
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-desires-080",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "Affected individuals ought to possess an enforceable right to meaningful information about automated decision-making logic, as codified by regulatory frameworks like the GDPR. Counterfactual explanations directly support this democratic right by stating precisely what an individual must alter to achieve a favorable outcome. Skeptics argue that without such legally mandated transparency, corporate actors will hide discriminatory practices behind proprietary trade secrets. However, implementing counterfactual rights in highly non-linear models remains technically difficult.",
+          "verbatim": "This approach aligns with how humans naturally reason about decisions and satisfies GDPR's right to meaningful information about automated decision-making logic.",
+          "excerpt_context": "Section 2, paragraph 21",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Individuals ought to possess a legally enforceable right to meaningful explanations and counterfactual recourse for automated decisions.",
+          "attribution_text": "A Desire within skeptic discourse that advocates for a new legal right to compel disclosure of algorithmic logic in the public interest. Encompasses: GDPR automated decision-making rights, counterfactual recourse, and meaningful information mandates.",
+          "vocabulary_terms": [
+            "GDPR",
+            "counterfactual explanations"
+          ],
+          "retrieval_confidence": 0.857,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-desires-080",
+              "label": "Algorithmic Transparency as a Democratic Right",
+              "score": 0.857
+            },
+            {
+              "id": "skp-desires-079",
+              "label": "Balanced Transparency: Public Interest vs. Trade Secrets",
+              "score": 0.7485
+            },
+            {
+              "id": "skp-intentions-104",
+              "label": "Advance Targeted AI Policies on Environmental Reporting, Pricing Transparency, and Bias Auditing",
+              "score": 0.6976
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-170",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Employees extensively bypass formal IT procurement by adopting unapproved consumer AI tools, rendering central compliance mandates ineffective in practice. Citing 2025 Microsoft UK research, the text reports that 71 percent of employees use shadow AI at work and 51 percent do so weekly. This widespread non-compliance exposes the friction between top-down regulatory frameworks and the immediate productivity demands placed on workers. However, enterprises often respond by tightening restrictive usage policies rather than addressing the underlying demand for capable AI tooling.",
+          "verbatim": "Microsoft UK research from 2025 found that 71% of employees have used unapproved consumer AI tools at work, and 51% do so every week, making shadow AI a pervasive blind spot.",
+          "excerpt_context": "Section 3, paragraph 73",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Pervasive shadow AI adoption bypasses central IT procurement and undermines top-down organizational compliance mandates.",
+          "attribution_text": "A Belief within skeptic discourse that the unchecked power of corporations in the AI sector and their strategies to circumvent effective regulation. Encompasses: Employee shadow AI adoption, procurement bypass, unapproved consumer tools.",
+          "vocabulary_terms": [
+            "shadow AI",
+            "procurement bypass",
+            "enterprise non-compliance"
+          ],
+          "retrieval_confidence": 0.8455,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-170",
+              "label": "AI Corporations Systematically Evade Effective Regulation",
+              "score": 0.8455
+            },
+            {
+              "id": "skp-beliefs-156",
+              "label": "AI Providers Strategically Locate in Low-Oversight Jurisdictions to Minimize Compliance Costs",
+              "score": 0.7569
+            },
+            {
+              "id": "skp-intentions-108",
+              "label": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+              "score": 0.756
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "neutral",
+          "taxonomy_node_id": "skp-intentions-102",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "Organizations should establish a governed semantic and metrics layer to ensure shared, unambiguous definitions for critical terms like accuracy, drift, and bias across data science, legal, and compliance teams. The text warns that without standardized definitions, a model flagged as high risk by data scientists may not match what compliance officers report to regulators. Establishing this semantic foundation prevents internal corporate silos from evading accountability through definitional ambiguity. However, enforcing these standardized metrics across dozens of autonomous business units requires significant organizational consensus.",
+          "verbatim": "A governed semantic layer establishes shared definitions for terms like model accuracy, drift, bias threshold, and high-risk use case across every team: data science, compliance, legal, and risk management.",
+          "excerpt_context": "Section 3, paragraph 27",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Achieve operational clarity by deploying a governed semantic layer that standardizes risk definitions across multidisciplinary teams.",
+          "attribution_text": "An Intention within skeptic discourse that proposes practical, adaptable, and evidence-based strategies for AI governance. Encompasses: Governed semantic layers, standardized risk metrics, cross-functional definitions.",
+          "vocabulary_terms": [
+            "semantic layer",
+            "metrics standardization",
+            "cross-functional alignment"
+          ],
+          "retrieval_confidence": 0.8584,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-102",
+              "label": "Operationalize Pragmatic AI Governance Through Concrete Policy Mechanisms",
+              "score": 0.8584
+            },
+            {
+              "id": "skp-intentions-087",
+              "label": "Systematize AI Model Evaluation Through Benchmarking, Auditing, and Experimentation",
+              "score": 0.809
+            },
+            {
+              "id": "skp-intentions-104",
+              "label": "Advance Targeted AI Policies on Environmental Reporting, Pricing Transparency, and Bias Auditing",
+              "score": 0.7913
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-102",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "Organizations must right-size governance frameworks for small and mid-sized organizations rather than blindly copying complex enterprise models that inevitably collapse under their own weight. The document warns that unworkable governance creates a false sense of compliance while generating a documented trail of non-compliance. Skeptics endorse this pragmatic stance because heavy, mismatched compliance frameworks disproportionately harm smaller innovators while failing to mitigate actual risk. A key caveat is that right-sizing must not dilute core protections against severe algorithmic harms.",
+          "verbatim": "The second most dangerous mistake is copying enterprise frameworks wholesale, creating governance structures that collapse under their own weight in organizations that lack the staff to operate them. A governance program that nobody follows is worse than no program, because it creates a documented trail of non-compliance.",
+          "excerpt_context": "Section 4, Right-Size Governance, paragraph 6-7",
+          "extraction_confidence": "0.96",
+          "canonical_proposition": "Organizations must right-size AI governance frameworks to avoid unworkable bureaucratic structures that create documented trails of non-compliance.",
+          "attribution_text": "An Intention within skeptic discourse that advocates for right-sized, pragmatic governance frameworks to prevent unworkable bureaucratic compliance burdens. Encompasses: avoiding wholesale enterprise copy-pasting, preventing documented non-compliance trails, and matching governance overhead to organizational capacity.",
+          "vocabulary_terms": [
+            "right_sized_governance",
+            "compliance_burden",
+            "bureaucratic_collapse"
+          ],
+          "retrieval_confidence": 0.6425,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-172",
+              "label": "Voluntary Compliance Code Harmonization",
+              "score": 0.7125
+            },
+            {
+              "id": "skp-intentions-094",
+              "label": "Insulate Organizations from Regulatory Volatility Through Durable AI Standards",
+              "score": 0.7106
+            },
+            {
+              "id": "skp-intentions-157",
+              "label": "Surfacing Diffuse AI Harms Through a Single Funded Measurer with Referral Power",
+              "score": 0.6887
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-intentions-172",
+              "label": "Voluntary Compliance Code Harmonization",
+              "score": 0.7125
+            },
+            {
+              "id": "skp-intentions-094",
+              "label": "Insulate Organizations from Regulatory Volatility Through Durable AI Standards",
+              "score": 0.7106
+            },
+            {
+              "id": "skp-intentions-157",
+              "label": "Surfacing Diffuse AI Harms Through a Single Funded Measurer with Referral Power",
+              "score": 0.6887
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-143",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The document highlights the critical labor relations dimension of AI governance, noting that deploying automated systems for hiring, evaluation, and scheduling triggers mandatory consultation and co-determination rights with works councils and labor unions, particularly under European law and the EU AI Act. Skeptics emphasize that failing to engage workforce representatives results in severe regulatory complaints and erosion of employee trust. A limitation is that labor consultation mandates can create friction against rapid technological adoption, though this friction serves as a necessary check on labor displacement and algorithmic management.",
+          "verbatim": "AI governance has a labor relations dimension that organizations ignore at their peril. In many jurisdictions, particularly across the European Union, works councils and labor unions have codified rights to consultation and co-determination on technologies that affect working conditions... Organizations that treat workforce engagement as a governance afterthought will discover the cost through grievances and regulatory complaints.",
+          "excerpt_context": "Section 4, Workforce and Labor Relations, paragraph 1-2, 6",
+          "extraction_confidence": "0.98",
+          "canonical_proposition": "Organizations must engage works councils and labor unions in mandatory consultations prior to deploying workplace AI systems.",
+          "attribution_text": "An Intention within skeptic discourse that enforces mandatory labor union and works council consultation for workplace AI deployments. Encompasses: algorithmic management oversight, co-determination rights, and labor relations compliance.",
+          "vocabulary_terms": [
+            "labor_consultation",
+            "works_councils",
+            "algorithmic_management"
+          ],
+          "retrieval_confidence": 0.672,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-171",
+              "label": "Regulating Bossware Through State Labor Enforcement Authorities",
+              "score": 0.7886
+            },
+            {
+              "id": "skp-intentions-097",
+              "label": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+              "score": 0.7744
+            },
+            {
+              "id": "skp-intentions-065",
+              "label": "Mandate Liability Assumption or Human Escalation at AI Agent Handoff Points",
+              "score": 0.755
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-intentions-171",
+              "label": "Regulating Bossware Through State Labor Enforcement Authorities",
+              "score": 0.7886
+            },
+            {
+              "id": "skp-intentions-097",
+              "label": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+              "score": 0.7744
+            },
+            {
+              "id": "skp-intentions-065",
+              "label": "Mandate Liability Assumption or Human Escalation at AI Agent Handoff Points",
+              "score": 0.755
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-164",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The text underscores how shadow AI creates pervasive governance blind spots across enterprises because employees adopt unsanctioned tools that bypass IT visibility and telemetry. Skeptics point to this phenomenon as evidence that organizational compliance frameworks are largely ineffective against decentralized user behavior, where only 37% of organizations maintain proper usage policies.",
+          "verbatim": [
+            "Shadow AI, the use of ChatGPT, Claude, Gemini, and other generative AI tools without IT approval, visibility, or governance, has created a governance gap that no traditional security tool closes.",
+            "IBM's 2025 Cost of a Data Breach Report found that only 37% of organizations have policies designed to manage AI use"
+          ],
+          "excerpt_context": "Section 5, Shadow AI subsection, paragraph 1 & Tool Sprawl subsection, final paragraph",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Shadow AI proliferation invalidates traditional enterprise security perimeters because decentralized tool adoption bypasses formal governance telemetry.",
+          "attribution_text": "A Belief within skeptic discourse that highlights how unmonitored tool sprawl and shadow AI usage bypass organizational controls, leaving enterprises blind to systemic risks and data exfiltration. Encompasses: unapproved tool adoption, governance blind spots, and policy non-compliance.",
+          "vocabulary_terms": [
+            "shadow_ai",
+            "tool_sprawl",
+            "governance_blind_spot"
+          ],
+          "retrieval_confidence": 0.6862,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-108",
+              "label": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+              "score": 0.7472
+            },
+            {
+              "id": "skp-beliefs-156",
+              "label": "AI Providers Strategically Locate in Low-Oversight Jurisdictions to Minimize Compliance Costs",
+              "score": 0.7314
+            },
+            {
+              "id": "skp-beliefs-170",
+              "label": "AI Corporations Systematically Evade Effective Regulation",
+              "score": 0.7163
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-intentions-108",
+              "label": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+              "score": 0.7472
+            },
+            {
+              "id": "skp-beliefs-156",
+              "label": "AI Providers Strategically Locate in Low-Oversight Jurisdictions to Minimize Compliance Costs",
+              "score": 0.7314
+            },
+            {
+              "id": "skp-beliefs-170",
+              "label": "AI Corporations Systematically Evade Effective Regulation",
+              "score": 0.7163
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-087",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "To combat invisible data exfiltration through freeform text prompts, the document advocates for browser extension-based monitoring and network traffic analysis. Skeptics support systematic detection mechanisms that track employee interactions with AI services without relying on voluntary compliance or surveillance-heavy manual reviews.",
+          "verbatim": "Organizations need browser extension-based monitoring to detect when employees paste sensitive data into AI tools, network traffic analysis to identify connections to unsanctioned AI services, and automated policy enforcement that blocks high-risk actions without requiring constant security team manual review.",
+          "excerpt_context": "Section 5, Data Exfiltration subsection, paragraph 5",
+          "extraction_confidence": 0.97,
+          "canonical_proposition": "Achieve data loss prevention by deploying browser extension monitoring and network traffic analysis to intercept sensitive prompt inputs.",
+          "attribution_text": "An Intention within skeptic discourse that advocates for rigorous, systematic methods to assess AI models and monitor data exfiltration paths through automated tooling. Encompasses: browser extension monitoring, network traffic analysis, and automated policy enforcement.",
+          "vocabulary_terms": [
+            "data_exfiltration",
+            "browser_monitoring",
+            "automated_enforcement"
+          ],
+          "retrieval_confidence": 0.7101,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-087",
+              "label": "Systematize AI Model Evaluation Through Benchmarking, Auditing, and Experimentation",
+              "score": 0.7101
+            },
+            {
+              "id": "skp-intentions-104",
+              "label": "Advance Targeted AI Policies on Environmental Reporting, Pricing Transparency, and Bias Auditing",
+              "score": 0.7009
+            },
+            {
+              "id": "skp-intentions-079",
+              "label": "Mandate Federal Agency Reporting to Congress on AI Impacts to Vulnerable Communities",
+              "score": 0.6745
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-164",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document observes that across various industries, organizations frequently lack functional governance policies, leaving widespread shadow AI usage unaddressed while relying on superficial compliance measures. Specifically, 63% of healthcare organizations have no AI governance policies in place, and shadow AI is present in 40% of hospitals. Skeptics interpret these statistics as evidence that formal corporate policies often serve as window dressing that fails to capture actual enterprise risk or prevent unvetted deployments. The text emphasizes that governance frameworks must actively monitor human behavior rather than relying on static, unverified attestations.",
+          "verbatim": "According to a 2026 analysis by Baker Donelson, 63% of healthcare organizations still have no AI governance policies in place, and shadow AI is present in 40% of hospitals. That gap is what The Joint Commission's RUAIH certification program was designed to close, translating the NIST AI RMF into health care-specific governance playbooks with baseline controls tailored to organizational size.",
+          "excerpt_context": "Section 6, Healthcare and Life Sciences Subsection",
+          "extraction_confidence": 0.97,
+          "canonical_proposition": "The majority of healthcare organizations operate without functional AI governance policies while shadow AI proliferates unchecked.",
+          "attribution_text": "A Belief within skeptic discourse that organizational reliance on nominal compliance documents obscures widespread unvetted artificial intelligence deployment. Encompasses: governance policy deficits, shadow AI proliferation, and the inadequacy of unverified institutional frameworks.",
+          "vocabulary_terms": [
+            "shadow_ai",
+            "compliance_gap",
+            "audit_washing"
+          ],
+          "retrieval_confidence": 0.606,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-094",
+              "label": "Insulate Organizations from Regulatory Volatility Through Durable AI Standards",
+              "score": 0.7325
+            },
+            {
+              "id": "skp-intentions-102",
+              "label": "Operationalize Pragmatic AI Governance Through Concrete Policy Mechanisms",
+              "score": 0.7317
+            },
+            {
+              "id": "sit-394",
+              "label": "Assurance Debt Assessment",
+              "score": 0.7314
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-intentions-094",
+              "label": "Insulate Organizations from Regulatory Volatility Through Durable AI Standards",
+              "score": 0.7325
+            },
+            {
+              "id": "skp-intentions-102",
+              "label": "Operationalize Pragmatic AI Governance Through Concrete Policy Mechanisms",
+              "score": 0.7317
+            },
+            {
+              "id": "skp-beliefs-156",
+              "label": "AI Providers Strategically Locate in Low-Oversight Jurisdictions to Minimize Compliance Costs",
+              "score": 0.718
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-143",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "The text outlines specific due diligence buckets for mergers and acquisitions that scrutinize target companies for latent AI liabilities, unverified training data provenance, and unmapped regulatory classification risks. Acquirers must evaluate whether target firms can document data lineage, model validation, and fair lending compliance, as unaddressed governance failures transfer full liability to the acquiring entity. Skeptics advocate for rigorous transactional scrutiny to prevent corporations from absorbing undocumented, high-risk algorithmic assets. If diligence fails, insurance carriers exclude AI claims, leaving acquirers exposed.",
+          "verbatim": "The six diligence buckets deal teams should scrutinize include training data provenance and IP rights, model explainability and documentation, regulatory classification, bias and fairness testing history, security and access controls, and vendor AI dependencies that could create concentration risk. Rep and warranty insurance increasingly excludes AI-related claims when diligence cannot demonstrate adequate governance, leaving acquirers with uninsured exposure.",
+          "excerpt_context": "Section 6, AI Governance in Merger and Acquisition Due Diligence",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Scrutinize target companies during M&A due diligence for training data provenance, regulatory classification, and latent AI liability.",
+          "attribution_text": "An Intention within skeptic discourse that mandates rigorous corporate transactional due diligence to uncover undocumented artificial intelligence liabilities prior to acquisition. Encompasses: training data provenance auditing, regulatory classification assessment, and warranty insurance exclusions.",
+          "vocabulary_terms": [
+            "due_diligence",
+            "liability_transfer",
+            "data_provenance"
+          ],
+          "retrieval_confidence": 0.697,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-165",
+              "label": "Leveraging Securities Law for Standardized Algorithmic Risk Disclosure",
+              "score": 0.7821
+            },
+            {
+              "id": "skp-beliefs-102",
+              "label": "Evidentiary Failure of Traditional Litigation Against Opaque AI",
+              "score": 0.7337
+            },
+            {
+              "id": "skp-intentions-029",
+              "label": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+              "score": 0.7037
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-intentions-165",
+              "label": "Leveraging Securities Law for Standardized Algorithmic Risk Disclosure",
+              "score": 0.7821
+            },
+            {
+              "id": "skp-beliefs-102",
+              "label": "Evidentiary Failure of Traditional Litigation Against Opaque AI",
+              "score": 0.7337
+            },
+            {
+              "id": "skp-intentions-029",
+              "label": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+              "score": 0.7037
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-102",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The guide recommends practical, adaptable compliance mechanisms for small and mid-size enterprises, such as maintaining an AI usage inventory, establishing employee acceptable use policies, utilizing vendor assessment checklists, and deploying lightweight monitoring to detect shadow AI. This exemplifies skeptic approaches that favor pragmatic, cost-effective governance standards over burdensome, centralized bureaucratic mandates.",
+          "verbatim": "A right-sized governance approach for SMBs focuses on four elements: an AI usage inventory, an employee acceptable use policy, vendor AI assessment checklists, and basic monitoring to detect shadow AI. Governance is not an all-or-nothing proposition; it scales to organizational size.",
+          "excerpt_context": "Section 7, Do small and mid-size companies need an AI governance framework?",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Operationalize pragmatic governance through right-sized inventories, acceptable use policies, and lightweight vendor assessment checklists.",
+          "attribution_text": "An Intention within skeptic discourse that proposes practical, adaptable, and evidence-based strategies for AI governance. Encompasses: Right-sized compliance, acceptable use policies, and vendor assessment checklists.",
+          "vocabulary_terms": [
+            "pragmatic_governance",
+            "vendor_assessment"
+          ],
+          "retrieval_confidence": 0.9074,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-102",
+              "label": "Operationalize Pragmatic AI Governance Through Concrete Policy Mechanisms",
+              "score": 0.9074
+            },
+            {
+              "id": "skp-intentions-108",
+              "label": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+              "score": 0.8215
+            },
+            {
+              "id": "skp-intentions-104",
+              "label": "Advance Targeted AI Policies on Environmental Reporting, Pricing Transparency, and Bias Auditing",
+              "score": 0.8086
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "The EU AI Act entered into force in August 2024 and imposes fines for prohibited AI practices of up to €35 million or 7% of total worldwide annual turnover, whichever is higher.",
+      "claim_label": "EU AI Act Penalty Structure",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "August 2024",
+      "extraction_confidence": 1,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "sit-054"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "falsifiable": true,
+          "quantified": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Microsoft launched the Tay chatbot on Twitter in March 2016, and within 24 hours coordinated exploitation transformed it into a vehicle for racist, misogynistic, and anti-Semitic content.",
+      "claim_label": "Microsoft Tay Chatbot Failure",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "March 2016",
+      "extraction_confidence": 1,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-desires-075"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "falsifiable": true,
+          "quantified": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "A 2018 study published in Science Advances demonstrated that the COMPAS recidivism prediction algorithm was no more accurate at predicting recidivism than random volunteers recruited from the internet.",
+      "claim_label": "COMPAS Algorithm Accuracy Study",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2018",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-desires-075"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "falsifiable": true,
+          "quantified": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "PwC's 2025 Responsible AI survey found that 58% of executives report that responsible AI initiatives improve return on investment and organizational efficiency, while 55% say they enhance customer experience and drive innovation.",
+      "claim_label": "PwC 2025 Responsible AI Survey Statistics",
+      "doc_position": "supports",
+      "temporal_scope": "predictive",
+      "temporal_bound": "2025",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "acc-intentions-089"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "falsifiable": true,
+          "quantified": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The IBM Cost of a Data Breach Report (2025) found that organizations using high levels of shadow AI incurred an average of $670,000 in higher breach costs, and 97% of those experiencing AI model breaches lacked proper governance controls.",
+      "claim_label": "IBM 2025 Cost of Data Breach Report",
+      "doc_position": "supports",
+      "temporal_scope": "predictive",
+      "temporal_bound": "2025",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-beliefs-040"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "falsifiable": true,
+          "quantified": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The EU AI Act codifies transparency requirements in Article 50, mandating that users interacting with AI systems be informed they are operating an artificial intelligence, a provision that applies universally even to systems not classified as high-risk.",
+      "claim_label": "EU AI Act Article 50 Transparency Mandate",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-desires-010"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "Direct citation of statutory legal text within an established regulatory framework."
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "SHAP is a model-agnostic game-theoretic method that assigns each input feature a numerical contribution value for a specific prediction based on cooperative game theory.",
+      "claim_label": "SHAP Game-Theoretic Attribution Mechanism",
+      "doc_position": "supports",
+      "temporal_scope": "timeless",
+      "temporal_bound": null,
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "acc-intentions-118"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "Technical definition backed by established mathematical literature."
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The Databricks AI Governance Framework, published in July 2025, organizes enterprise AI governance across five foundational pillars and 43 specific considerations.",
+      "claim_label": "Databricks AI Governance Framework Structure",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "July 2025",
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "Specific documentary reference with named institutional framework and publication date."
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The EU AI Act entered into force on August 1, 2024, establishing a four-tier risk pyramid and imposing conformity assessments and mandatory risk management systems on high-risk AI deployers.",
+      "claim_label": "EU AI Act Enactment and Structure",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "August 1, 2024",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-081",
+        "skp-intentions-007"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "official legislative enactment record",
+          "measurement_validity": "high",
+          "confounder_control": "high"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Microsoft UK research from 2025 found that 71 percent of UK employees have used unapproved consumer AI tools at work, and 51 percent do so on a weekly basis.",
+      "claim_label": "Employee Shadow AI Usage Rates",
+      "doc_position": "supports",
+      "temporal_scope": "predictive",
+      "temporal_bound": "2025",
+      "extraction_confidence": 0.97,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-170",
+        "saf-beliefs-040"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "enterprise workplace survey data",
+          "measurement_validity": "moderate",
+          "confounder_control": "moderate"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "On April 17, 2026, the Federal Reserve, OCC, and FDIC issued SR-26-2, superseding SR-11-7 and explicitly excluding generative and agentic AI from its formal financial model risk scope.",
+      "claim_label": "US Tri-Agency SR-26-2 Model Risk Guidance",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "April 17, 2026",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-081"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "regulatory agency supervisory issuance",
+          "measurement_validity": "high",
+          "confounder_control": "high"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The Digital Omnibus reached a provisional agreement on May 7, 2026, deferring the high-risk Annex III deadline of the EU AI Act to December 2, 2027.",
+      "claim_label": "Digital Omnibus Deferral of EU AI Act Annex III",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "May 7, 2026",
+      "extraction_confidence": 0.96,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-081"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "legislative provisional agreement record",
+          "measurement_validity": "high",
+          "confounder_control": "high"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "More than 50% of effective enterprise AI governance programs include representation from privacy, IT, security, legal, and compliance teams, reflecting the reality that AI risk cuts across traditional organizational silos.",
+      "claim_label": "Cross-Functional Governance Composition",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026",
+      "extraction_confidence": "0.95",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-058"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measurement_basis": "industry survey data",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The number of companies with a Head of AI or Chief AI Officer executive position has more than tripled over a five-year period, as indicated by professional network data.",
+      "claim_label": "Growth of Chief AI Officer Roles",
+      "doc_position": "supports",
+      "temporal_scope": "predictive",
+      "temporal_bound": "2021-2026",
+      "extraction_confidence": "0.94",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-040"
+      ],
+      "evidence_criteria": {
+        "specificity": "qualified",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measurement_basis": "LinkedIn professional registry data",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The Project Management Institute reports that poor communication is responsible for causing approximately one-third of all project failures, a risk that is significantly amplified in distributed AI projects.",
+      "claim_label": "Project Failure Attribution to Poor Communication",
+      "doc_position": "supports",
+      "temporal_scope": "timeless",
+      "temporal_bound": null,
+      "extraction_confidence": "0.96",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-058"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measurement_basis": "Project Management Institute industry reports",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Approximately 60% of artificial intelligence initiatives run 30% to 50% over initial budget allocations, making internal governance platform development particularly susceptible to severe scope creep.",
+      "claim_label": "AI Initiative Budget Overruns",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026",
+      "extraction_confidence": "0.95",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "sit-050"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measurement_basis": "2026 budgeting and financial analysis data",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Organizations with mature artificial intelligence and data governance outperform their industry peers by 21% to 49% on key business metrics, an advantage that increases to 54% when combined with a strong internal data culture.",
+      "claim_label": "Governance Maturity Performance Advantage",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026",
+      "extraction_confidence": "0.97",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "sit-050"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measurement_basis": "enterprise governance implementation guide research",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "As of 2026, the MITRE ATLAS framework catalogs 16 distinct adversary tactics and 173 specific techniques spanning the machine learning lifecycle.",
+      "claim_label": "MITRE ATLAS Framework Scope",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026",
+      "extraction_confidence": "0.99",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-113"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measurement_basis": "MITRE ATLAS threat catalog enumeration",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "According to the OWASP Top 10 for LLM Applications (2025), prompt injection is ranked as the top LLM vulnerability, occurring when attackers override system instructions via crafted input.",
+      "claim_label": "OWASP 2025 Top LLM Vulnerability Ranking",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2025",
+      "extraction_confidence": 1,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-beliefs-028",
+        "saf-beliefs-097"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "empirical_testability": "verifiable via industry security standards and OWASP reporting",
+          "observational_basis": "industry-wide vulnerability assessments and exploit documentation",
+          "falsifiability": "falsified if subsequent OWASP rankings demote prompt injection"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The IBM Cost of a Data Breach Report (2025) indicates that personally identifiable information appears in approximately 65% of shadow AI-related incidents, while intellectual property surfaces in around 40%.",
+      "claim_label": "IBM 2025 Data Breach Report Statistics",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2025",
+      "extraction_confidence": 1,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-164"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "empirical_testability": "verifiable via enterprise data breach telemetry and IBM survey data",
+          "observational_basis": "industry incident investigations and security audits",
+          "falsifiability": "falsified if empirical breach analyses report different data leakage distributions"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Only 37% of organizations have policies designed to manage AI use, contributing to ungoverned AI tool sprawl across corporate departments.",
+      "claim_label": "Organization AI Policy Adoption Rate",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2025",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-164"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "empirical_testability": "verifiable via enterprise governance surveys and market research",
+          "observational_basis": "organizational maturity assessments and compliance tracking",
+          "falsifiability": "falsified if comprehensive market studies demonstrate higher policy adoption rates"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "As of March 2026, the FDA's software-as-a-medical-device classification framework had authorized over 1,400 artificial intelligence-enabled medical devices.",
+      "claim_label": "FDA AI Device Authorizations",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "March 2026",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-234"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "regulatory agency authorization records",
+          "measurement_reliability": "high",
+          "falsifiability": "verifiable via FDA database records"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "A 2026 analysis by Baker Donelson found that 63% of healthcare organizations still have no AI governance policies in place, while shadow AI is present in 40% of hospitals.",
+      "claim_label": "Healthcare AI Governance Deficit",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-164"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "industry analyst survey data",
+          "measurement_reliability": "moderate",
+          "falsifiability": "verifiable via survey methodology audit"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "By early 2026, at least 45 states had introduced artificial intelligence legislation targeting government use of automated decision systems in benefits determination, law enforcement, and public employment.",
+      "claim_label": "State-Level AI Legislation Spread",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "early 2026",
+      "extraction_confidence": 0.97,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "sit-173"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "legislative tracking databases",
+          "measurement_reliability": "high",
+          "falsifiability": "verifiable via state bill tracking records"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Colorado's revised AI Act (SB 26-189) was signed into law in May 2026 with an effective date of January 2027, establishing statutory consumer disclosures and human review rights for automated decision-making technology.",
+      "claim_label": "Colorado AI Act Enactment",
+      "doc_position": "supports",
+      "temporal_scope": "predictive",
+      "temporal_bound": "May 2026 to January 2027",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "sit-173"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "statutory legislative text",
+          "measurement_reliability": "high",
+          "falsifiability": "verifiable via state legislative records"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Adaptive Security governance investment typically ranges from 0.5% to 1% of total AI spending for organizations that build programs incrementally, while IBM's Institute for Business Value reports AI ethics spending grew from 2.9% of AI budgets in 2022 to 4.6% in 2024, projected to reach 5.4%.",
+      "claim_label": "AI Ethics Budget Allocation Growth",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2022-2026",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "sit-050"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "quantitative": true,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "For large enterprises, full-scale framework deployment ranges from $800,000 to $3 million depending on system count, regulatory exposure, and tooling choices, whereas smaller organizations can keep initial investments under $50,000.",
+      "claim_label": "Enterprise AI Governance Deployment Costs",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "sit-050"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "quantitative": true,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The EU AI Act entered into force on August 1, 2024, applying to any organization whose AI system affects EU users regardless of company size, subjecting small and medium businesses to the same penalty percentages as large enterprises.",
+      "claim_label": "EU AI Act Enforcement Date and Scope",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "August 1, 2024",
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-160"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "quantitative": false,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    }
+  ],
+  "unmapped_concepts": [
+    {
+      "suggested_label": "Mitigating Clipboard Data Exfiltration",
+      "suggested_description": "A Desire within safetyist discourse that prioritizes intercepting and neutralizing unmonitored data transfers executed via user copy-paste actions into external artificial intelligence applications.\nEncompasses: Browser-based clipboard monitoring, Data Loss Prevention integration, and real-time intervention modules.\nExcludes: File-centric network monitoring and static acceptable use policy documents.",
+      "concept": "The document highlights that copying and pasting sensitive enterprise information into public AI applications has surpassed file uploads as the primary vector for data exfiltration. Traditional Data Loss Prevention tools fail because they only monitor file-level activities and ignore clipboard interactions. Mitigating this vulnerability requires browser-based monitoring and real-time behavioral interventions that intercept data leakage at the point of human decision-making.",
+      "suggested_pov": "safetyist",
+      "suggested_category": "Desires",
+      "reason": "Existing taxonomy nodes address general data exfiltration and network monitoring but lack specific focus on clipboard copy-paste vectors and browser-level behavioral interception.",
+      "resolved_node_id": "saf-desires-036"
+    }
+  ]
+}

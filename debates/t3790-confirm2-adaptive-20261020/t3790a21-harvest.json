@@ -1,0 +1,425 @@
+{
+  "debate_id": "b782d322-1725-4fa0-a123-60939a3f612a",
+  "debate_title": "Mandatory pre-deployment safety evaluations for frontier ...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-market safety audits for frontier labs trade away active civil rights enforcement for speculative existential threats.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Pre-market compliance audits divert resources away from documented algorithmic discrimination under Title VII and the Fair Housing Act toward speculative existential theater."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Unchecked frontier AI deployments introduce systemic risks that intersect with and undermine civil rights protections, requiring robust upstream technical oversight."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-beliefs-093",
+        "saf-intentions-005",
+        "saf-desires-004",
+        "sit-098",
+        "skp-beliefs-041",
+        "skp-intentions-007",
+        "skp-beliefs-174",
+        "skp-intentions-074",
+        "saf-beliefs-206"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether real-time production telemetry can catch anomalous model behavior or whether pre-market static testing is necessary for irreversible dual-use risks.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Real-time production telemetry catches anomalous behavior and vulnerabilities within hours, making static pre-market evaluation gates obsolete."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Production telemetry cannot catch rapid, irreversible harms such as autonomous cyber-attacks or biological agent synthesis executed in milliseconds before human intervention."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-beliefs-093",
+        "saf-intentions-005",
+        "saf-desires-004",
+        "sit-098",
+        "acc-intentions-003",
+        "acc-beliefs-111",
+        "acc-beliefs-094",
+        "saf-beliefs-206",
+        "saf-intentions-234"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether safe-harbor provenance frameworks and compute thresholds can effectively protect open-source ecosystems from regulatory capture.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "High metadata stripping rates and algorithmic efficiency workarounds like mixture-of-experts render compute thresholds and provenance frameworks ineffective, leaving independent developers trapped in costly compliance queues."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Behavioral output-based evaluation gates combined with compute-threshold exemptions can target systemic risks while preserving open-source developer access."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-beliefs-093",
+        "saf-intentions-005",
+        "saf-desires-004",
+        "sit-098",
+        "acc-intentions-003",
+        "acc-beliefs-111",
+        "acc-beliefs-094",
+        "saf-beliefs-206",
+        "saf-intentions-234"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-093",
+      "nodeLabel": "Proxy Optimization Reliably Produces Outcomes Nobody Actually Wanted",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-206",
+      "nodeLabel": "Scaling AI Without Safeguards Creates a Non-Trivial Path to Irreversible Civilizational Harm",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-234",
+      "nodeLabel": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-215",
+      "nodeLabel": "Shielding Compliant Open-Weight Releases from Downstream Misuse Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-159",
+      "nodeLabel": "Require AI Safety Standards as a Condition for Government Grants and Infrastructure Permits",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-003",
+      "nodeLabel": "Adopt Output-Based Evaluation as the Primary AI Safety Methodology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-111",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-094",
+      "nodeLabel": "Asymmetry Between Reconstructive Burden and Remediation Cost",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-041",
+      "nodeLabel": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-007",
+      "nodeLabel": "Regulate AI by Use Case, Not by Technology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-174",
+      "nodeLabel": "Pass/Fail Audits as Inadequate for Complex AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-074",
+      "nodeLabel": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-023",
+      "nodeLabel": "Dissent on AI Safety Must Be Protected, Not Punished",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-074",
+      "nodeLabel": "Civil Rights Parity for Algorithmic Decisions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-200",
+      "nodeLabel": "AI Systematically Optimizes Proxy Metrics at the Expense of Intended Outcomes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-116",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-079",
+      "nodeLabel": "First-Mover Loss from Safety-Induced Deployment Delays",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-094",
+      "nodeLabel": "Frontier AI Could Cause Irreversible Civilizational Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-016",
+      "nodeLabel": "AI Must Not Entrench Injustice or Enable Catastrophe",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-156",
+      "nodeLabel": "Require AI Outputs to Stay Within Proven-Safe Probability Bounds",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-232",
+      "nodeLabel": "Provenance Metadata Chain-of-Custody Failure Between Generation and Distribution Layers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-129",
+      "nodeLabel": "Safety Rhetoric as Infrastructure Cartel Maintenance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-029",
+      "nodeLabel": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-117",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-074",
+      "nodeLabel": "Liability Law Ignores AI's Diffuse Statistical Benefits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-091",
+      "nodeLabel": "Regulate AI Distribution Channels Like Critical Infrastructure",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-market safety audits for frontier labs trade away active civil rights enforcement for speculative existential threats.",
+      "prevails": "C2",
+      "criterion": "scope",
+      "rationale": "The skeptic position accounts for documented, immediate harms under Title VII and the Fair Housing Act. The safetyist position relies on speculative existential scenarios that lack equivalent historical precedent.",
+      "whatWouldChange": "Empirical evidence showing that frontier artificial intelligence models cause systemic civil rights violations at a scale comparable to traditional corporate discrimination.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether real-time production telemetry can catch anomalous model behavior or whether pre-market static testing is necessary for irreversible dual-use risks.",
+      "prevails": "C3",
+      "criterion": "implementation_specificity",
+      "rationale": "Biological synthesis and automated cyber-offense execute in milliseconds, a window too narrow for post-deployment telemetry and human intervention to prevent irreversible catastrophe.",
+      "whatWouldChange": "Technical demonstrations of automated kill-switches or real-time filters that successfully halt high-consequence biological or cyber threats post-deployment within milliseconds.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether safe-harbor provenance frameworks and compute thresholds can effectively protect open-source ecosystems from regulatory capture.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both sides present plausible mechanisms regarding metadata stripping and mixture-of-experts efficiency workarounds, but neither provides definitive empirical data from implemented regulatory regimes.",
+      "whatWouldChange": "Longitudinal compliance data from jurisdictions enforcing compute thresholds that measures the exact impact on independent open-source developer survival rates.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

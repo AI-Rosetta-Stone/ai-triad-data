@@ -1,0 +1,408 @@
+{
+  "doc_id": "documentation-paradox-ai-corporate-duty-record-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-24T08:33:20Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 32768,
+    "extraction_mode": "fire",
+    "taxonomy_filter": "rag",
+    "taxonomy_nodes": 40,
+    "fire_confidence_threshold": 0.7,
+    "fire_stats": {
+      "api_calls": 1,
+      "iterations": 0,
+      "claims_total": 5,
+      "claims_confident": 5,
+      "claims_iterated": 0,
+      "elapsed_seconds": 12.6,
+      "termination_reason": "all_confident"
+    }
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "documentation-paradox-ai-corporate-duty-record-2026",
+    "measured_at": "2026-10-24T08:37:40.0754417-04:00",
+    "stages": [
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 25367,
+        "out_units": "items",
+        "out_count": 12,
+        "ratio": 0.0005,
+        "flags": {
+          "dedup_claims_removed": 0,
+          "dedup_points_removed": 0,
+          "density_floor_hit": 0,
+          "factual_claims": 5,
+          "null_node_rate": 0.5,
+          "total_points": 6,
+          "unmapped_concepts": 1,
+          "used_fire": 1
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 979,
+        "out_units": "nodes",
+        "out_count": 40,
+        "ratio": 0.0409,
+        "flags": {
+          "above_threshold": 40,
+          "beliefs_selected": 21,
+          "below_threshold_forced": 0,
+          "desires_selected": 5,
+          "effective_threshold": 0.5623,
+          "intentions_selected": 14,
+          "rerank_applied": false,
+          "rerank_top1_delta": 0,
+          "synthetic_nodes_scored": 866,
+          "threshold_floor": 0.2,
+          "top_k": 40
+        }
+      },
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 3,
+        "out_units": "still_unmapped",
+        "out_count": 1,
+        "ratio": 0.3333,
+        "flags": {
+          "near_miss_count": 1,
+          "resolved_count": 2,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      }
+    ],
+    "cumulative_retention": 0.0409
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "The document proposes that organizations can address recordkeeping challenges by treating information curation as a governance function organized around records minimization by design, configuring workflows so tools create less durable records and dispose of unneeded artifacts by default. This strategy avoids adding manual human labor that would otherwise forfeit productivity gains, leveraging automation to manage the byproducts of enterprise AI tools. From an accelerationist perspective, this automated governance approach ensures that administrative friction does not slow down the deployment of productive technologies or impose excessive compliance costs on businesses. The document acknowledges that aggressive disposal is risky and must be bounded by legal retention schedules and hold obligations.",
+          "verbatim": "A problem created by automation is best met with automation rather than added human labor, so the tools should be configured to create less durable record and to dispose of what they do create by default, within what the law requires the company to keep.",
+          "excerpt_context": "Section: A Governance Response",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Manage AI-generated corporate records through automated minimization by design rather than increased manual compliance labor.",
+          "attribution_text": "An Intention within accelerationist discourse that utilizes automated workflow configuration to implement records minimization by design, reducing administrative compliance friction while maintaining legal retention compliance. Encompasses: automated record disposition, productivity preservation, workflow configuration.",
+          "vocabulary_terms": [
+            "governance_adaptive"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The document suggests an alternative record management strategy where companies make the AI output the official corporate record by having a designated person review and formally adopt one version while letting the raw substrate expire. This approach applies the traditional records-management concept of a single system of record to machine-generated outputs, removing contradictions at the source by locking an approved version. From an accelerationist perspective, integrating AI-generated summaries directly into the official record stream preserves operational velocity and leverages machine efficiency without requiring cumbersome manual transcription. The document notes that this discipline relies entirely on consistent adoption and hold-aware expiry schedules for the underlying substrate.",
+          "verbatim": "Rather than keep the minutes as the record and discard the machine’s output, a company can make the AI output the record. A named person reviews and formally adopts one version, which is locked, while the raw substrate is allowed to expire.",
+          "excerpt_context": "Section: A Governance Response (Alternative approach)",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Establish AI-generated outputs as the official corporate record through formal review and adoption while purging raw machine substrates.",
+          "attribution_text": "An Intention within accelerationist discourse that establishes AI-generated outputs as the primary system of record through formal human adoption, streamlining operational workflows while managing raw data expiry. Encompasses: single system of record, AI output adoption, raw substrate expiration.",
+          "vocabulary_terms": [
+            "oversight_audit"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-intentions-140",
+          "category": "Intentions",
+          "point": "The document introduces records minimization by design as a core governance strategy where automated workflows are configured to dispose of non-essential AI artifacts by default, aligning information curation with legal retention requirements without adding manual labor.",
+          "verbatim": null,
+          "excerpt_context": "unmapped_concept_backfill",
+          "extraction_confidence": 0.7,
+          "vocabulary_terms": []
+        }
+      ]
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-111",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "The document advocates designating official records and deciding in advance what counts as corporate records versus disposable items, noting this decision must be recorded in the AI inventory the company already maintains. This four-step governance framework requires companies to maintain a clear inventory of their AI assets and workflows to properly manage discoverable data and legal risk. From a safetyist perspective, maintaining comprehensive asset inventories and structured retention schedules is foundational to ensuring institutional oversight and preventing unmonitored liabilities from accumulating across enterprise workflows. The document cautions that existing retention schedules and legal holds were written for email and do not adequately address prompts, logs, or machine transcripts.",
+          "verbatim": "For each AI-enabled workflow, decide in advance what counts as the official record and what is disposable and note the decision in the AI inventory the company already keeps.",
+          "excerpt_context": "Section: Four steps (Step 1)",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Maintain comprehensive AI inventories to designate official records and govern disposable workflow outputs in advance.",
+          "attribution_text": "An Intention within safetyist discourse that mandates comprehensive AI inventory maintenance and pre-workflow record designation to establish baseline organizational oversight. Encompasses: AI asset inventory, record designation, workflow classification.",
+          "vocabulary_terms": [
+            "governance_oversight"
+          ],
+          "retrieval_confidence": 0.721,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.7258
+            },
+            {
+              "id": "saf-intentions-111",
+              "label": "Know What AI You Have Before You Try to Govern It",
+              "score": 0.721
+            },
+            {
+              "id": "saf-intentions-061",
+              "label": "Designing Mandatory Human Checkpoints into AI-Driven Processes",
+              "score": 0.7134
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": "governance_body",
+          "category": "Intentions",
+          "point": "The document argues that the board's oversight task, well within existing audit- and risk-committee remits, is to confirm the recordkeeping architecture exists and to answer who decides what the record is, how long it is kept, and who stands behind it. This governance approach directs the board to oversee system design and architectural policies rather than reviewing individual AI outputs or routine communications. From a safetyist perspective, board-level accountability ensures that systemic risks arising from automated record generation are systematically managed without overburdening human operators with manual review tasks. The document stresses that building this discipline directly into system architecture prevents unauthorized and uncurated data from becoming a hidden corporate liability.",
+          "verbatim": "The board’s task, well within existing audit- and risk-committee remits, is to confirm the architecture exists and to be able to answer one question: when AI creates corporate records, who has decided what the record is, how long it is kept, and who stands behind it.",
+          "excerpt_context": "Section: Four steps (Step 4)",
+          "extraction_confidence": 0.94,
+          "canonical_proposition": "Assign board audit and risk committees responsibility for overseeing AI recordkeeping architecture and governance structures.",
+          "attribution_text": "An Intention within safetyist discourse that integrates AI recordkeeping oversight into existing board audit and risk committee remits to ensure structural accountability. Encompasses: board committee oversight, architectural compliance, institutional accountability.",
+          "vocabulary_terms": [
+            "accountability_institutional",
+            "governance_oversight"
+          ]
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-178",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that automated AI tools in ordinary corporate workflows generate persistent, searchable, and discoverable records automatically and at scale, creating severe legal exposures regarding contradiction, privilege waiver, and spoliation. A verbatim transcript or machine summary captures asides that a careful minute-taker would omit, which litigation can recast out of context as evidence of corporate knowledge. From a skeptic perspective, this uncurated machine record exacerbates corporate legal vulnerability and power asymmetries, as plaintiffs probe everyday logs that companies never intended to create. The document observes that while older records were selectively created by human choice, machine records multiply versions and attribute statements speakers never adopted.",
+          "verbatim": "The older record was made by a person who chose to create it and could choose not to; the machine record is made by default, at a volume no one curates, attributing statements the speaker never adopted and multiplying the versions of a single event.",
+          "excerpt_context": "Section: The Machine’s Record",
+          "extraction_confidence": 0.97,
+          "canonical_proposition": "Default-generated uncurated AI records multiply litigation risks, evidence contradictions, and legal liability exposure for corporations.",
+          "attribution_text": "A Belief within skeptic discourse that automated, default-generated AI records create pervasive litigation exposure through uncurated transcripts, inaccurate attribution, and contradictory accounts. Encompasses: automated record creation, evidentiary contradictions, litigation exposure.",
+          "vocabulary_terms": [
+            "documented_present_harm",
+            "risk_systemic_structural"
+          ],
+          "retrieval_confidence": 0.5362,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-090",
+              "label": "Focus AI Misinformation Rules on Checkable Procedures, Not Truth Judgments",
+              "score": 0.7361
+            },
+            {
+              "id": "skp-beliefs-098",
+              "label": "Generative AI Lowers the Cost and Skill Barrier for Producing Targeted Malicious Content",
+              "score": 0.7176
+            },
+            {
+              "id": "skp-beliefs-045",
+              "label": "AI-Generated Content Causes Direct, Documented Harm to Individuals",
+              "score": 0.6905
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-098",
+              "label": "Generative AI Lowers the Cost and Skill Barrier for Producing Targeted Malicious Content",
+              "score": 0.7176
+            },
+            {
+              "id": "skp-beliefs-045",
+              "label": "AI-Generated Content Causes Direct, Documented Harm to Individuals",
+              "score": 0.6905
+            },
+            {
+              "id": "skp-beliefs-041",
+              "label": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+              "score": 0.6861
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-047",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document highlights that legal regimes like Caremark oversight duties, securities due diligence, and statutory safe harbors condition legal protection on contemporaneous records, creating a documentation imperative that now collides directly with automatic AI-generated record production. Courts and enforcement bodies punish companies that cannot produce records while rewarding those that can, tying compliance directly to paper trails. From a skeptic perspective, legal frameworks create rigid evidentiary hurdles that force organizations into precarious compliance postures when confronted with the overwhelming volume of machine-generated data. The document notes that existing legal rules and retention schedules were written for email and fail to account for prompts, logs, or machine transcripts.",
+          "verbatim": "The law, in short, is pressing companies to document more at the very moment their tools have begun to produce records of their own, and that second, machine-made record, the one no one decided to create, can become a liability.",
+          "excerpt_context": "Section: Introduction / The Documentation Imperative",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Existing legal regimes condition liability protection on recordkeeping standards, creating a severe tension with automatic AI record generation.",
+          "attribution_text": "A Belief within skeptic discourse that traditional legal compliance and liability frameworks enforce a documentation imperative that clashes with unmanaged AI record generation. Encompasses: documentation imperative, legal protection contingencies, compliance friction.",
+          "vocabulary_terms": [
+            "risk_systemic_structural"
+          ],
+          "retrieval_confidence": 0.6255,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-desires-088",
+              "label": "Mandatory Evidence Preservation with Metadata-Only Discovery and Burden-Flipping in Litigation",
+              "score": 0.6978
+            },
+            {
+              "id": "skp-intentions-097",
+              "label": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+              "score": 0.6926
+            },
+            {
+              "id": "skp-beliefs-144",
+              "label": "Incremental Expansion of AI Legal Status Undermines Human-Centric Law",
+              "score": 0.6674
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-desires-088",
+              "label": "Mandatory Evidence Preservation with Metadata-Only Discovery and Burden-Flipping in Litigation",
+              "score": 0.6978
+            },
+            {
+              "id": "skp-intentions-097",
+              "label": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+              "score": 0.6926
+            },
+            {
+              "id": "skp-beliefs-144",
+              "label": "Incremental Expansion of AI Legal Status Undermines Human-Centric Law",
+              "score": 0.6674
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "Delaware jurisprudence established the duty of oversight as a duty of loyalty rather than care through In re Caremark International Inc. Derivative Litigation in 1996, which was subsequently sharpened in Marchand v. Barnhill in 2019 and In re Boeing Co. Derivative Litigation in 2021.",
+      "claim_label": "Delaware Caremark Oversight Jurisprudence",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "1996-2021",
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-beliefs-111",
+        "skp-beliefs-047"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "referenced"
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "The Securities and Exchange Commission issued enforcement orders against Delphia and Global Predictions in 2024 focusing on AI washing and the accuracy of corporate disclosures.",
+      "claim_label": "SEC AI Washing Enforcement Actions",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2024",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-170"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "referenced"
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "The Texas Responsible AI Governance Act, effective January 2026, provides a legal safe harbor to companies that can demonstrate adherence to the NIST AI Risk Management Framework.",
+      "claim_label": "Texas Responsible AI Governance Act",
+      "doc_position": "supports",
+      "temporal_scope": "predictive",
+      "temporal_bound": "January 2026",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-111"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "referenced"
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "Recent federal court decisions regarding AI discovery and privilege include United States v. Heppner in the Southern District of New York (2026), Warner v. Gilbarco, Inc. in the Eastern District of Michigan (2026), and Morgan v. V2X, Inc. in the District of Colorado (2026).",
+      "claim_label": "Recent AI Discovery Case Law",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026",
+      "extraction_confidence": 0.97,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-047"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "referenced"
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "The Department of Justice and Federal Trade Commission off-channel enforcement sweep has resulted in more than $2 billion in penalties since 2021 regarding business recordkeeping compliance.",
+      "claim_label": "DOJ and FTC Recordkeeping Penalties",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2021-2026",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-170"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "referenced"
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    }
+  ],
+  "unmapped_concepts": [
+    {
+      "suggested_label": "Automated Records Minimization by Design",
+      "suggested_description": "An Intention within accelerationist discourse that configures enterprise AI tools to automatically execute defensible disposition of unneeded artifacts by default. Encompasses: automated data purging, default retention policies, workflow minimization configuration. Excludes: manual record retention, static document archiving.",
+      "concept": "The document introduces records minimization by design as a core governance strategy where automated workflows are configured to dispose of non-essential AI artifacts by default, aligning information curation with legal retention requirements without adding manual labor.",
+      "suggested_pov": "accelerationist",
+      "suggested_category": "Intentions",
+      "reason": "No existing node specifically addresses the technical implementation of automated records minimization by design for generative AI byproducts.",
+      "resolved_node_id": "acc-intentions-140"
+    }
+  ]
+}

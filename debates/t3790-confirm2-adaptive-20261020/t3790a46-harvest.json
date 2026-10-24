@@ -1,0 +1,281 @@
+{
+  "debate_id": "78373fb5-dfd3-42ee-b10f-0e35737c1803",
+  "debate_title": "The risks and benefits of releasing powerful AI model wei...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether releasing frontier model weights permanently creates an uncontainable civilizational hazard that outweighs the benefits of decentralized medical and scientific innovation.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that permissionless open-source distribution is essential for rapid biomedical discovery and that the human cost of regulatory delays outweighs speculative misuse risks."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Maintains that dual-use biological and cyber capabilities pose irreversible existential risks that make uncontained weight dissemination unacceptable regardless of scientific utility."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-028",
+        "acc-desires-039",
+        "acc-intentions-114",
+        "acc-beliefs-085",
+        "saf-beliefs-213",
+        "saf-desires-006",
+        "saf-intentions-009",
+        "sit-179",
+        "saf-intentions-202",
+        "sit-476"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-269",
+      "nodeLabel": "Enforcement Collapse Across Decentralized Open-Source Model Boundaries",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-009",
+      "nodeLabel": "Securing Data Centers and Supply Chains Against Model-Weight Theft",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-179",
+      "nodeLabel": "Anchoring Data-Provenance Liability at the In-Jurisdiction Deployment Act Rather Than the Relocatable Upstream Join",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-032",
+      "nodeLabel": "Sovereign AI as Strategic Independence. This concept refers to the requirement f",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-129",
+      "nodeLabel": "Safety Rhetoric as Infrastructure Cartel Maintenance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-190",
+      "nodeLabel": "Single Points of Control over Compute Hardware Function as Incumbent Capture Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-202",
+      "nodeLabel": "Scale AI Safety Requirements Proportionally to Capability Level",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-017",
+      "nodeLabel": "Compute and Energy Costs Impose Hard Ceilings on AI Scaling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-288",
+      "nodeLabel": "Evidentiary Dead End of Opaque AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-129",
+      "nodeLabel": "Decouple AI Safety Verification from Developer Self-Reporting via Compute Taxes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-063",
+      "nodeLabel": "Regulatory Fragmentation and Cost Burden",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-101",
+      "nodeLabel": "Cross-Border Ingestion Defeats Every Enforcement Instrument at Market Entry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-279",
+      "nodeLabel": "Discovery Obstacles in Algorithmic Accountability Litigation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-215",
+      "nodeLabel": "Shielding Compliant Open-Weight Releases from Downstream Misuse Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-229",
+      "nodeLabel": "Privacy-Constrained Scaling Law Inflection",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-022",
+      "nodeLabel": "Lobby for International Legal Shields for Open-Weight AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-104",
+      "nodeLabel": "Empirical transaction audit as the mechanism-selection hinge",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-159",
+      "nodeLabel": "Require AI Safety Standards as a Condition for Government Grants and Infrastructure Permits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-141",
+      "nodeLabel": "AI Governance Relies on Policies It Cannot Actually Enforce",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-067",
+      "nodeLabel": "Decentralized Markets and Open Development Outperform Central Control in Driving AI Progress",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [],
+  "concepts": []
+}

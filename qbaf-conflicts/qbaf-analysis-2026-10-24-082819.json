@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-24T08:28:19.2237720-04:00",
+  "claim_count": 3,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "documentation-paradox-ai-corporate-duty-record-2026",
+      "label": "Caremark Duty of Oversight Standard",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-025"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "documentation-paradox-ai-corporate-duty-record-2026",
+      "label": "Texas Responsible AI Governance Act Safe Harbor",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-111"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "documentation-paradox-ai-corporate-duty-record-2026",
+      "label": "DOJ and FTC Off-Channel Enforcement Penalties",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-170"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

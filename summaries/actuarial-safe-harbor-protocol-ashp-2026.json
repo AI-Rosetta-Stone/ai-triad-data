@@ -1,0 +1,437 @@
+{
+  "doc_id": "actuarial-safe-harbor-protocol-ashp-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-24T08:33:20Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 32768,
+    "extraction_mode": "fire",
+    "taxonomy_filter": "rag",
+    "taxonomy_nodes": 43,
+    "fire_confidence_threshold": 0.7,
+    "fire_stats": {
+      "api_calls": 2,
+      "iterations": 1,
+      "claims_total": 3,
+      "claims_confident": 2,
+      "claims_iterated": 1,
+      "elapsed_seconds": 11.6,
+      "termination_reason": "all_confident"
+    }
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "actuarial-safe-harbor-protocol-ashp-2026",
+    "measured_at": "2026-10-24T08:37:47.2680628-04:00",
+    "stages": [
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 27930,
+        "out_units": "items",
+        "out_count": 11,
+        "ratio": 0.0004,
+        "flags": {
+          "dedup_claims_removed": 0,
+          "dedup_points_removed": 0,
+          "density_floor_hit": 0,
+          "factual_claims": 3,
+          "null_node_rate": 0,
+          "total_points": 5,
+          "unmapped_concepts": 3,
+          "used_fire": 1
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 979,
+        "out_units": "nodes",
+        "out_count": 43,
+        "ratio": 0.0439,
+        "flags": {
+          "above_threshold": 40,
+          "beliefs_selected": 10,
+          "below_threshold_forced": 3,
+          "desires_selected": 3,
+          "effective_threshold": 0.4434,
+          "intentions_selected": 30,
+          "rerank_applied": false,
+          "rerank_top1_delta": 0,
+          "synthetic_nodes_scored": 866,
+          "threshold_floor": 0.2,
+          "top_k": 40
+        }
+      },
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 3,
+        "out_units": "still_unmapped",
+        "out_count": 3,
+        "ratio": 1,
+        "flags": {
+          "near_miss_count": 3,
+          "resolved_count": 0,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      }
+    ],
+    "cumulative_retention": 0.0439
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-intentions-116",
+          "mechanism_type": "liability_regime",
+          "category": "Intentions",
+          "point": "The document proposes conditioning liability protection and statutory damage caps for high-stakes AI deployment on mandatory financial capitalization floors and structured insurance backing. The mechanism relies on actuarial safe harbor protocols that replace open-ended tort exposure with capped, parameterizable risk layers backed by collateralized warranties and solvency reserves. From an accelerationist perspective, this legal framework provides regulatory certainty and manageable capital requirements that enable enterprises to deploy frontier AI agents into high-stakes workflows without facing infinite tail-risk liabilities. The document acknowledges that establishing these actuarial frameworks requires rigorous standardization of cross-architecture correlation matrices and process variance parameters.",
+          "verbatim": "This monograph establishes the Actuarial Safe Harbor Protocol (ASHP): an operationally enforceable, mathematically rigorous framework that transforms open-ended stochastic tail exposure into a capped, parameterizable, and fully insurable risk layer.",
+          "excerpt_context": "Executive Summary",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Condition high-stakes AI deployment liability protection on mandatory capitalization floors and collateralized risk-transfer mechanisms.",
+          "attribution_text": "An Intention within accelerationist discourse that conditions liability protection and damage caps for deployed AI entities on mandatory capitalization floors and collateralized risk-transfer instruments. Encompasses: statutory liability capping, solvency-backed risk transfer, actuarial safe harbor protocols.",
+          "vocabulary_terms": [
+            "liability_strict",
+            "safe_harbor_regulatory"
+          ],
+          "retrieval_confidence": 0.7391,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-217",
+              "label": "Conditioning the Right to Field High-Stakes AI on a Capitalization and Insurance Floor",
+              "score": 0.7487
+            },
+            {
+              "id": "acc-intentions-116",
+              "label": "Condition AI Duty-Bearing Status on Mandatory Uncapped-Backstop Capitalization",
+              "score": 0.7391
+            },
+            {
+              "id": "acc-intentions-073",
+              "label": "Governing AI Risk Through Telemetry-Enabled Insurance and Post-Deployment Liability",
+              "score": 0.7317
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-217",
+          "mechanism_type": "liability_regime",
+          "category": "Intentions",
+          "point": "The document requires a solvency, capitalization, and insurance threshold as a mandatory precondition for fielding autonomous AI agents in covered high-stakes decision domains. The mechanism implements a two-tier loss truncation structure that caps non-economic damages at $250,000 and restricts economic losses to a policy aggregate stop-loss limit, conditional on verifiable containment boundaries and streaming zero-knowledge telemetry. From a safetyist perspective, this approach subjects high-stakes AI deployment to rigorous solvency and oversight requirements, mitigating catastrophic tail risks and ensuring financial accountability. The document notes that upstream model warranties must be backed by bankruptcy-remote collateral, such as AAA Treasury trusts, to prevent vendor insolvency during systemic foundation model failures.",
+          "verbatim": "The Actuarial Safe Harbor Protocol functions as a conditional risk transfer instrument. By satisfying verifiable engineering boundaries and streaming telemetry, the insured entity receives a statutory cap on non-economic damages and an aggregate stop-loss limit on economic exposure.",
+          "excerpt_context": "2. Safe Harbor as a Two-Tier Loss Truncation Mechanism",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Condition the right to deploy high-stakes AI systems on verified containment, streaming telemetry, and capitalization floors.",
+          "attribution_text": "An Intention within safetyist discourse that requires solvency, capitalization, and verified telemetry thresholds as conditions for fielding AI systems in high-stakes domains. Encompasses: statutory damage capping, zero-knowledge telemetry streaming, engineered containment boundaries.",
+          "vocabulary_terms": [
+            "liability_strict",
+            "governance_oversight",
+            "deployment_gated"
+          ],
+          "retrieval_confidence": 0.7209,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-170",
+              "label": "Requiring Hardware Telemetry as the Price of Liability Immunity",
+              "score": 0.8012
+            },
+            {
+              "id": "saf-intentions-231",
+              "label": "Binding AI Accountability to Physical Infrastructure Metrics",
+              "score": 0.7977
+            },
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.7407
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-170",
+              "label": "Requiring Hardware Telemetry as the Price of Liability Immunity",
+              "score": 0.8012
+            },
+            {
+              "id": "saf-intentions-231",
+              "label": "Binding AI Accountability to Physical Infrastructure Metrics",
+              "score": 0.7977
+            },
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.7407
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-200",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The document advocates for building defense-in-depth into autonomous AI systems by stacking redundant safeguards across the full lifecycle, including microsecond schema enforcement, continuous zero-knowledge telemetry, and velocity-indexed circuit breakers. The mechanism coordinates these safeguards to bound failure distributions and continuously scale credibility weights as operational epochs accumulate without boundary breaches. From a safetyist perspective, this lifecycle defense framework ensures that technical verification and monitoring mechanisms directly constrain operational risk and reduce solvency capital charges. The document acknowledges that systemic common shock correlations across foundation model providers can introduce non-factorable contagion that standard diversification models fail to capture.",
+          "verbatim": "Actuarial Safe Harbor Cycle: Engineered Boundaries (microsecond rate limits & schema enforcement) → Zero-Knowledge Telemetry (streaming zk-SNARK logs under ASOP No. 56) → Dual-Capped Shield (statutory caps on economic & non-economic damages) → Finite Expected Loss & Process Variance.",
+          "excerpt_context": "Executive Summary",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Stack redundant safeguards across the AI lifecycle from engineering boundaries to continuous zero-knowledge telemetry and circuit breakers.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for defense-in-depth by stacking redundant safeguards across the AI lifecycle, combining rate limits, telemetry, and capital rules. Encompasses: engineered containment boundaries, zero-knowledge telemetry, velocity-indexed circuit breakers.",
+          "vocabulary_terms": [
+            "behavioral_guardrails",
+            "adversarial_robustness",
+            "governance_oversight"
+          ],
+          "retrieval_confidence": 0.8378,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-200",
+              "label": "Stack Redundant Safeguards Across the AI Lifecycle",
+              "score": 0.8378
+            },
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.8023
+            },
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.7962
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-206",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that the rapid integration of autonomous AI agents into high-stakes economic workflows exposes a structural failure in traditional risk pricing because probabilistic software introduces unbounded, unpriceable tail risk driven by emergent behaviors and prompt drift. The reasoning is grounded in the observation that stochastic neural networks invalidate traditional homogeneity assumptions, exhibit heavy-tailed Pareto-type behavior with undefined higher-order moments, and create systemic common-shock correlations across portfolios. From a safetyist perspective, this unquantifiable tail uncertainty threatens catastrophic economic and civilizational harm unless strictly bounded by cryptographic telemetry and actuarial safe harbor protocols. The document acknowledges that severe market concentration around a small number of foundation model API providers exacerbates this systemic contagion.",
+          "verbatim": "Probabilistic software introduces unbounded, unpriceable tail risk: systems fail not through isolated coding errors, but through emergent behaviors, prompt drift, non-stationary weight shifts, and catastrophic common-shock dependencies.",
+          "excerpt_context": "Executive Summary",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Probabilistic software introduces unbounded and unpriceable tail risk driven by emergent behaviors and systemic common-shock dependencies.",
+          "attribution_text": "A Belief within safetyist discourse that unconstrained probabilistic software introduces heavy-tailed, unpriceable tail risk and systemic common-shock dependencies. Encompasses: emergent behaviors, non-stationary loss distributions, systemic common shock correlation.",
+          "vocabulary_terms": [
+            "risk_existential",
+            "speculative_future_harm",
+            "capabilities_hazard"
+          ],
+          "retrieval_confidence": 0.5352,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-050",
+              "label": "Continuous Distribution Shift as a Foreseeable Operational Reality",
+              "score": 0.6057
+            },
+            {
+              "id": "saf-intentions-166",
+              "label": "Enforce Safety Under Distribution Shift by Constraining to Credal Sets",
+              "score": 0.5902
+            },
+            {
+              "id": "sit-305",
+              "label": "The Fire Extinguisher Analogy",
+              "score": 0.5845
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-beliefs-050",
+              "label": "Continuous Distribution Shift as a Foreseeable Operational Reality",
+              "score": 0.6057
+            },
+            {
+              "id": "saf-intentions-166",
+              "label": "Enforce Safety Under Distribution Shift by Constraining to Credal Sets",
+              "score": 0.5902
+            },
+            {
+              "id": "saf-beliefs-094",
+              "label": "Frontier AI Could Cause Irreversible Civilizational Harm",
+              "score": 0.583
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-desires-034",
+          "category": "Desires",
+          "point": "The document establishes the Actuarial Safe Harbor Protocol to transform open-ended stochastic tail exposure into a capped and insurable risk layer via engineered boundaries and zero-knowledge telemetry. This mechanism uses two-tier loss truncation to cap non-economic and economic damages, enabling precise solvency capital allocation under modern regulatory regimes.",
+          "verbatim": null,
+          "excerpt_context": "unmapped_concept_backfill",
+          "extraction_confidence": 0.7,
+          "vocabulary_terms": []
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-102",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The document proposes practical, evidence-based strategies for AI governance by operationalizing compliance through established actuarial standards, ASOP frameworks, and parametric indices. The mechanism converts open-ended stochastic risk into structured compliance requirements, combining Bühlmann-Straub credibility scaling with zero-knowledge telemetry logs and bankruptcy-remote collateral. From a skeptic perspective, this pragmatic governance framework replaces vague liability discussions with enforceable, measurable operational standards that hold deploying enterprises accountable without relying on unproven regulatory bodies. The document notes that a mandatory 36-month prospective data-gathering sandbox is necessary to establish empirical loss distributions before granting full capital relief.",
+          "verbatim": "This monograph establishes the Actuarial Safe Harbor Protocol (ASHP): an operationally enforceable, mathematically rigorous framework that transforms open-ended stochastic tail exposure into a capped, parameterizable, and fully insurable risk layer.",
+          "excerpt_context": "Executive Summary",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Operationalize pragmatic AI governance through verifiable actuarial standards, credibility scaling, and parametric risk transfer mechanisms.",
+          "attribution_text": "An Intention within skeptic discourse that operationalizes pragmatic AI governance through verifiable actuarial standards, credibility scaling, and structured risk transfer mechanisms. Encompasses: actuarial credibility procedures, parametric governance triggers, verifiable telemetry compliance.",
+          "vocabulary_terms": [
+            "accountability_algorithmic",
+            "compliance_performative",
+            "governance_participatory"
+          ],
+          "retrieval_confidence": 0.7804,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-065",
+              "label": "Mandate Liability Assumption or Human Escalation at AI Agent Handoff Points",
+              "score": 0.7826
+            },
+            {
+              "id": "skp-intentions-102",
+              "label": "Operationalize Pragmatic AI Governance Through Concrete Policy Mechanisms",
+              "score": 0.7804
+            },
+            {
+              "id": "skp-intentions-154",
+              "label": "Operationalize Decentralized Participatory Auditing",
+              "score": 0.7387
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-175",
+          "category": "Intentions",
+          "point": "The protocol implements a Three-Tier Loss Architecture utilizing 100% parametric triggers, such as base model hash revocations and demographic parity gaps, to automatically release liquidity and compensate claimants without claims adjustment discretion or legal discovery.",
+          "verbatim": null,
+          "excerpt_context": "unmapped_concept_backfill",
+          "extraction_confidence": 0.7,
+          "vocabulary_terms": []
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "Non-economic damages are statutorily capped at $250,000 per occurrence under the Actuarial Safe Harbor Protocol to eliminate moral hazard and jury drift in AI liability cases.",
+      "claim_label": "Non-Economic Damage Statutory Cap",
+      "doc_position": "supports",
+      "temporal_scope": "predictive",
+      "temporal_bound": "2026",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-217",
+        "acc-intentions-116"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "values_grounded": true,
+          "tradeoff_acknowledged": true,
+          "precedent_cited": true
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "Commercial property and casualty reinsurance markets are experiencing a withdrawal of capacity for autonomous artificial intelligence operations, driven specifically by the lack of empirical loss development triangles for probabilistic software systems.",
+      "claim_label": "Reinsurance Capacity Withdrawal",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-beliefs-206",
+        "acc-beliefs-074"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.85
+    },
+    {
+      "claim": "A mandatory 36-month prospective data-gathering sandbox initializes capital relief at zero percent credit for the first twelve months, unlocking partial and full Bühlmann credibility weighting in subsequent periods based on empirical process variance.",
+      "claim_label": "36-Month Credibility Sandbox Structure",
+      "doc_position": "supports",
+      "temporal_scope": "predictive",
+      "temporal_bound": "2026",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-217",
+        "skp-intentions-102"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "values_grounded": true,
+          "tradeoff_acknowledged": true,
+          "precedent_cited": true
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    }
+  ],
+  "unmapped_concepts": [
+    {
+      "suggested_label": "Actuarial Safe Harbor and Tail Risk Capping",
+      "suggested_description": "A Desire within safetyist discourse that converts unbounded stochastic AI tail risk into a capped, parameterizable, and fully insurable risk layer through actuarial protocols. Encompasses: dual-tier loss truncation, statutory damage caps, aggregate stop-loss limits. Excludes: unconstrained tort liability, post-hoc damage litigation.",
+      "concept": "The document establishes the Actuarial Safe Harbor Protocol to transform open-ended stochastic tail exposure into a capped and insurable risk layer via engineered boundaries and zero-knowledge telemetry. This mechanism uses two-tier loss truncation to cap non-economic and economic damages, enabling precise solvency capital allocation under modern regulatory regimes.",
+      "suggested_pov": "safetyist",
+      "suggested_category": "Desires",
+      "reason": "No existing node captures the specific actuarial mechanism of transforming AI tail risk into an insurable layer via loss truncation and capital safe harbors.",
+      "resolved_node_id": "saf-desires-034"
+    },
+    {
+      "suggested_label": "Parametric Systemic Contagion Backstops",
+      "suggested_description": "An Intention within skeptic discourse that isolates non-diversifiable macroeconomic and algorithmic risks using 100% parametric index triggers to bypass civil tort litigation. Encompasses: sovereign contagion backstops, public bias buffers, automated liquidity releases. Excludes: traditional judicial discovery, case-by-case tort claims.",
+      "concept": "The protocol implements a Three-Tier Loss Architecture utilizing 100% parametric triggers, such as base model hash revocations and demographic parity gaps, to automatically release liquidity and compensate claimants without claims adjustment discretion or legal discovery.",
+      "suggested_pov": "skeptic",
+      "suggested_category": "Intentions",
+      "reason": "The taxonomy lacks a node addressing parametric index triggers for systemic AI failures that bypass traditional tort litigation.",
+      "resolved_node_id": "skp-intentions-175"
+    },
+    {
+      "suggested_label": "Velocity-Indexed Time-at-Risk Scaling",
+      "suggested_description": "A situation concept that computes effective exposure duration by factoring operational execution velocity and schema enforcement into solvency capital requirements.\nEncompasses: high-frequency transaction batch limits, sub-hourly remediation windows, velocity-indexed solvency adjustments.\nExcludes: static annual policy duration assumptions, unadjusted capital reserve calculations.",
+      "concept": "For high-frequency applications executing over 10,000 transactions per second, the protocol incorporates operational velocity directly into the effective time-at-risk horizon, drastically reducing solvency capital charges by recognizing that sub-hourly exposure durations eliminate long-term parameter uncertainty.",
+      "suggested_pov": "situations",
+      "suggested_category": "Beliefs",
+      "reason": "This technical formulation linking execution velocity to actuarial time-at-risk scaling is entirely absent from the current taxonomy.",
+      "Accelerationist Interpretation": "Accelerationists view velocity-indexed time-at-risk scaling as a vital mechanism that prevents capital requirements from penalizing high-frequency algorithmic execution, ensuring that automated trading and high-throughput agents remain economically viable under modern solvency regimes.",
+      "Safetyist Interpretation": "Safetyists interpret velocity-indexed time-at-risk scaling as a rigorous mathematical approach that couples high-frequency operational speed with strict schema enforcement and rapid circuit breaker windows, ensuring that rapid agentic workflows do not accumulate unmonitored systemic risk.",
+      "Skeptic Interpretation": "Skeptics view velocity-indexed scaling through a pragmatic lens, noting that while it aligns capital charges with actual exposure windows, it relies heavily on automated telemetry and rate-limiting assumptions that must be independently audited to prevent performative compliance."
+    }
+  ]
+}

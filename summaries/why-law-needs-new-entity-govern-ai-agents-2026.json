@@ -1,0 +1,272 @@
+{
+  "doc_id": "why-law-needs-new-entity-govern-ai-agents-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-23T14:09:03Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 32768,
+    "extraction_mode": "fire",
+    "taxonomy_filter": "rag",
+    "taxonomy_nodes": 40,
+    "fire_confidence_threshold": 0.7,
+    "fire_stats": {
+      "api_calls": 2,
+      "iterations": 1,
+      "claims_total": 2,
+      "claims_confident": 1,
+      "claims_iterated": 1,
+      "elapsed_seconds": 9.3,
+      "termination_reason": "all_confident"
+    }
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "why-law-needs-new-entity-govern-ai-agents-2026",
+    "measured_at": "2026-10-23T14:14:55.1145397-04:00",
+    "stages": [
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 25589.0,
+        "out_units": "items",
+        "out_count": 7.0,
+        "ratio": 0.0003,
+        "flags": {
+          "dedup_claims_removed": 0,
+          "dedup_points_removed": 0,
+          "density_floor_hit": 0,
+          "factual_claims": 2,
+          "null_node_rate": 0.25,
+          "total_points": 4,
+          "unmapped_concepts": 1,
+          "used_fire": 1
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 977.0,
+        "out_units": "nodes",
+        "out_count": 40.0,
+        "ratio": 0.0409,
+        "flags": {
+          "above_threshold": 40,
+          "beliefs_selected": 18,
+          "below_threshold_forced": 0,
+          "desires_selected": 4,
+          "effective_threshold": 0.5968,
+          "intentions_selected": 18,
+          "rerank_applied": false,
+          "rerank_top1_delta": 0,
+          "synthetic_nodes_scored": 866,
+          "threshold_floor": 0.2,
+          "top_k": 40
+        }
+      },
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 3.0,
+        "out_units": "still_unmapped",
+        "out_count": 1.0,
+        "ratio": 0.3333,
+        "flags": {
+          "near_miss_count": 1,
+          "resolved_count": 2,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      }
+    ],
+    "cumulative_retention": 0.0409
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": "market_mechanism",
+          "category": "Intentions",
+          "point": "The document argues that market pressures and private counterparties will naturally drive demand for A-corps without requiring heavy-handed government intervention. Counterparties will want to verify that an AI agent is authorized to transact, that its A-corp is solvent, and that someone is accountable if things go wrong. From an accelerationist perspective, leveraging market demand rather than bureaucratic pre-clearance prevents innovation bottlenecks while establishing functional commercial relationships. The authors note that an AI agent operating entirely outside a structured corporate vehicle cannot hold property, make contracts, or be sued effectively.",
+          "verbatim": "Market pressures will drive much of the initial demand. Counterparties will want to verify that an AI agent is authorized to transact, that its A-corp is solvent, and that someone is accountable if things go wrong. An AI agent outside an A-corp cannot hold property, make contracts, or be sued. If you want an AI to do work and you want legal recourse if something goes wrong, your contract is with the A-corp.",
+          "excerpt_context": "The A-Corp section, paragraph 8",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Drive A-corp adoption through market demand and commercial counterparty verification rather than heavy-handed bureaucratic pre-clearance.",
+          "attribution_text": "An Intention within accelerationist discourse that leverages commercial counterparty demand and market verification mechanisms to drive A-corp adoption, avoiding bureaucratic pre-clearance while ensuring contractual accountability. Encompasses: commercial counterparty verification, market-driven adoption, solvent corporate structures."
+        }
+      ]
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-111",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "The document asserts that governing autonomous AI agents requires maintaining a comprehensive public digital registry and enforcing strict beneficial-ownership disclosure. The authors point out that Argentina's proposed automated company bill fails because it mandates a label rather than a leash, lacking registries, secure digital keys, or beneficial-ownership disclosure. From a safetyist perspective, establishing transparent registries and asset-linking mechanisms is a vital prerequisite to ensure accountability before autonomous agents proliferate across high-stakes sectors like finance and healthcare. The authors acknowledge that while some legislation is needed, it should be modest and focused precisely on legibility rather than preemptive capability bans.",
+          "verbatim": "To be sure, the A-corp requires some new legislation: a public digital registry, mandatory registration in high-stakes domains like finance and healthcare, and certain KYC requirements. These demands are modest relative to the problem. They are also exactly what Argentina’s bill leaves out.",
+          "excerpt_context": "The A-Corp section, paragraph 10",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Establish mandatory public digital registries and beneficial-ownership disclosure requirements to ensure accountability before deploying autonomous AI agents.",
+          "attribution_text": "An Intention within safetyist discourse that mandates public digital registries, beneficial-ownership disclosure, and know-your-customer requirements to establish foundational legibility for autonomous AI agents. Encompasses: public digital registries, beneficial-ownership disclosure, high-stakes domain registration.",
+          "vocabulary_terms": [
+            "transparency_accountability",
+            "governance_oversight"
+          ],
+          "retrieval_confidence": 0.6989,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-043",
+              "label": "Giving AI Legal Duties Without Granting It Legal Rights",
+              "score": 0.7439
+            },
+            {
+              "id": "saf-intentions-127",
+              "label": "Give AI Agents Stable Identities So They Can Be Held Accountable",
+              "score": 0.7355
+            },
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.7197
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-239",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that governing AI agents requires solving two distinct identification problems, termed thin identity and thick identity, which address human principal liability and autonomous agent goal differentiation respectively. The authors explain that thin identity connects blurry AI activity to accountable human principals, while thick identity distinguishes among multiple autonomous copies and coordinating subagents. From a safetyist perspective, failing to solve these identity problems prevents the legal system from attributing liability and deterring actual wrongdoers within sprawling swarms. The authors acknowledge that AIs break traditional legal intuitions because they lack persistent bodies, copy instantly, and jump across GPUs and data centers mid-sentence.",
+          "verbatim": "We argue that governing AI agents requires solving two distinct identification problems. Thin Identity. When AI causes harm, thin identity answers: Which human principal is (potentially) on the hook? ... Thick Identity. But that only deepens the identity challenge, because law must also distinguish among agents. Punishing Claude to deter Qwen would do no good.",
+          "excerpt_context": "Two Kinds of AI Identity section",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Governing autonomous AI agents requires solving thin identity and thick identity challenges to attribute liability and deter wrongdoers.",
+          "attribution_text": "A Belief within safetyist discourse that effective AI governance depends on resolving thin and thick identity problems to link autonomous agent actions to human principals and distinguish among individual agents. Encompasses: human principal accountability, agent individuation, liability attribution.",
+          "vocabulary_terms": [
+            "accountability_institutional",
+            "transparency_accountability"
+          ],
+          "retrieval_confidence": 0.4101,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-127",
+              "label": "Give AI Agents Stable Identities So They Can Be Held Accountable",
+              "score": 0.8514
+            },
+            {
+              "id": "saf-beliefs-126",
+              "label": "Fault Fragments Across Designers, Deployers, and Users When AI Fails",
+              "score": 0.8172
+            },
+            {
+              "id": "saf-intentions-058",
+              "label": "Building Accountability Frameworks for AI Agents Operating at Scale",
+              "score": 0.7906
+            }
+          ],
+          "retrieval_low_confidence": true
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-047",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document claims that AI agents break traditional legal intuitions because they have no persistent body, can be copied instantly, and jump across GPUs, data centers, and continents mid-sentence. The authors explain that traditional legal frameworks rely on identifying human actors with persistent physical bodies and distinct entities, which fails when applied to swarming, merging, and dissolving AI swarms. From a skeptic perspective, this breakdown exposes fundamental gaps in existing legal accountability frameworks that threaten to leave victims without recourse. The authors acknowledge that solving this legibility crisis requires creating new legal structures like the A-corp rather than relying solely on legacy doctrines.",
+          "verbatim": "AIs have no persistent body; a single conversation can jump among GPUs, data centers, and continents mid-sentence. They can be copied instantly, and each copy can diverge. A single task may involve dozens of coordinating copies, and a choice has to be made whether to treat those as a single agent or many agents.",
+          "excerpt_context": "Why the Problem Is Hard section, paragraph 1",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Artificial intelligence systems expose fundamental gaps in legal accountability by operating without persistent physical bodies and copying instantly across jurisdictions.",
+          "attribution_text": "A Belief within skeptic discourse that autonomous AI systems undermine existing legal frameworks by operating without persistent physical bodies, copying instantly, and distributing tasks across multiple jurisdictions. Encompasses: absence of persistent physical bodies, instant replication, jurisdictional distribution.",
+          "vocabulary_terms": [
+            "documented_present_harm",
+            "risk_systemic_structural"
+          ],
+          "retrieval_confidence": 0.7286,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-031",
+              "label": "Perfect Enforcement Through AI Removes the Safety Valve of Selective Prosecution",
+              "score": 0.7547
+            },
+            {
+              "id": "skp-beliefs-040",
+              "label": "Deployers of Autonomous AI Should Be Liable Even for Unintended Outcomes",
+              "score": 0.7542
+            },
+            {
+              "id": "skp-beliefs-047",
+              "label": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+              "score": 0.7286
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "On May 29, Argentina's government sent Congress a bill that would create Automated Companies run entirely by AI agents, which was defended by President Milei in the Financial Times and criticized by Prof. Yuval Noah Harari.",
+      "claim_label": "Argentina Automated Company Bill",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2026-05-29",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-111"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "The claim regarding AI agents executing specific malicious financial schemes like pump-and-dump operations is inferred rather than directly stated as an empirical observation in the text.",
+      "claim_label": "Autonomous Economic Actions of AI Agents",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-047"
+      ],
+      "evidence_criteria": {
+        "specificity": "qualified",
+        "has_warrant": false,
+        "internally_consistent": true
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.1
+    }
+  ],
+  "unmapped_concepts": [
+    {
+      "suggested_label": "Algorithmic Corporation Entity",
+      "suggested_description": "A situation concept that designates a novel corporate form owned by humans and operated autonomously by AI agents to hold property, make contracts, and solve AI identity challenges. Encompasses: A-corp legal structure, secure digital key authentication, asset-backed liability frameworks. Excludes: traditional corporate personhood for human-run businesses, unincorporated AI swarms.",
+      "concept": "The algorithmic corporation, or A-corp, is a proposed corporate vehicle owned by humans and run by AI agents that can hold property, make enforceable contracts, and sue or be sued in its own name. Secured by digital keys and public registries, it solves both thin and thick identity problems by anchoring autonomous AI swarms to identifiable assets and legal liabilities.",
+      "suggested_pov": "situations",
+      "suggested_category": "Beliefs",
+      "reason": "The A-corp represents a distinct institutional and legal design proposal that bridges corporate law and AI autonomy, currently unrepresented as a specific situation node.",
+      "Accelerationist Interpretation": "Accelerationists view the A-corp as an elegant market-enabling mechanism that provides necessary legal personhood and contractual stability for autonomous economic agents without stifling rapid deployment or innovation.",
+      "Safetyist Interpretation": "Safetyists view the A-corp as a vital regulatory leash that couples AI legal personhood with mandatory registries, secure digital keys, and beneficial ownership disclosure to prevent unmonitored existential and operational hazards.",
+      "Skeptic Interpretation": "Skeptics view the A-corp with caution, questioning whether corporate forms might shield human beneficiaries and capital owners from liability or whether registration burdens will disproportionately advantage dominant incumbents."
+    }
+  ]
+}

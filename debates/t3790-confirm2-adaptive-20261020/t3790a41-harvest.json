@@ -1,0 +1,384 @@
+{
+  "debate_id": "bddf93b1-8a90-4da9-85eb-e3768288cedd",
+  "debate_title": "Mandatory pre-deployment safety evaluations for frontier ...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether post-deployment telemetry and open-ecosystem iteration can substitute for pre-market containment in preventing irreversible civilizational or biological failures.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Post-release telemetry is inadequate because certain catastrophic risks, such as autonomous replication or novel bioweapon synthesis, feature irreversible failure modes that leave no room for iterative patch cycles."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-market containment is an epistemic impossibility that sacrifices verifiable human benefits in medicine and logistics today to manage speculative tail risks."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-029",
+        "saf-desires-006",
+        "saf-intentions-200",
+        "acc-beliefs-028",
+        "acc-beliefs-085",
+        "acc-beliefs-046",
+        "acc-intentions-047",
+        "saf-intentions-159",
+        "saf-desires-023"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether administrative compliance burdens and institutional capture are immutable consequences of federal pre-market oversight or correctable design flaws.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Federal pre-market vetting boards inherently function as protective regulatory moats for dominant technology firms because administrative processes are inevitably co-opted by resource-rich incumbents."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Institutional capture is a correctable design flaw that can be prevented by decoupling safety validation from corporate balance sheets through direct federal subsidization of third-party verification infrastructure."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-029",
+        "saf-desires-006",
+        "saf-intentions-200",
+        "skp-beliefs-280",
+        "skp-beliefs-136",
+        "skp-intentions-146",
+        "saf-intentions-159",
+        "saf-desires-023",
+        "saf-intentions-005"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-046",
+      "nodeLabel": "Lab Testing Cannot Reveal Real-World AI Harms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-159",
+      "nodeLabel": "Require AI Safety Standards as a Condition for Government Grants and Infrastructure Permits",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-023",
+      "nodeLabel": "Dissent on AI Safety Must Be Protected, Not Punished",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-174",
+      "nodeLabel": "Pass/Fail Audits as Inadequate for Complex AI Systems",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-206",
+      "nodeLabel": "Scaling AI Without Safeguards Creates a Non-Trivial Path to Irreversible Civilizational Harm",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-158",
+      "nodeLabel": "Use Voluntary Standards as a Bridge to Mandatory AI Regulation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-093",
+      "nodeLabel": "Proxy Optimization Reliably Produces Outcomes Nobody Actually Wanted",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-200",
+      "nodeLabel": "Stack Redundant Safeguards Across the AI Lifecycle",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-136",
+      "nodeLabel": "AI Scaling Failures Stem from Integration and Infrastructure Gaps",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-131",
+      "nodeLabel": "The Capability-Deployment Gap in AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-164",
+      "nodeLabel": "Performance-Gated Safety Investment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-094",
+      "nodeLabel": "Asymmetry Between Reconstructive Burden and Remediation Cost",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-079",
+      "nodeLabel": "First-Mover Loss from Safety-Induced Deployment Delays",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-007",
+      "nodeLabel": "Build AI That Surpasses Human Versatility",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-094",
+      "nodeLabel": "Frontier AI Could Cause Irreversible Civilizational Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-001",
+      "nodeLabel": "Humanity's Survival Above All Else",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-162",
+      "nodeLabel": "Accelerate Defensive Tech While Slowing Catastrophic Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-177",
+      "nodeLabel": "Failure of Static Compute Thresholds Against Sub-Frontier Intrusion Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-065",
+      "nodeLabel": "Technological Exceptionalism in AI Policy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-071",
+      "nodeLabel": "Quantifiable AI Harms Turn Fairness Into a Business Imperative, Not Just an Ethical One",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-003",
+      "nodeLabel": "Adopt Output-Based Evaluation as the Primary AI Safety Methodology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-448",
+      "nodeLabel": "Feedback-Loop Contamination of Post-Deployment Evaluation Data",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-182",
+      "nodeLabel": "Maintenance Debt From AI-Authored Code Compounds in Cost Even When Each Defect Is Reversible",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-022",
+      "nodeLabel": "The AI-Human Cost Crossover Point Limits Automation's Reach",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-074",
+      "nodeLabel": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-027",
+      "nodeLabel": "Should Federal AI Law Override States?",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-010",
+      "nodeLabel": "Speed of AI Development vs. Safety Caution",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-046",
+      "nodeLabel": "AI Safety Rules by Power Level",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether post-deployment telemetry and open-ecosystem iteration can substitute for pre-market containment in preventing irreversible civilizational or biological failures.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions rely on distinct risk models that cannot be verified without observing a catastrophic failure. The safety advocates highlight historical precedents in aviation, while skeptics correctly note that software systems lack the fixed physical boundaries of airframes.",
+      "whatWouldChange": "Documented instances of unpatchable, autonomous harm escaping from a deployed model that post-release telemetry failed to catch would validate the safety position.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether administrative compliance burdens and institutional capture are immutable consequences of federal pre-market oversight or correctable design flaws.",
+      "prevails": "skeptic",
+      "criterion": "implementation_specificity",
+      "rationale": "Skeptics cite empirical research from the Stanford Digital Economy Lab showing that administrative overhead locks out market entrants. Safety advocates propose public subsidies for testing infrastructure, but they lack a concrete implementation plan that prevents regulatory capture by dominant firms.",
+      "whatWouldChange": "A functional federal testing framework that successfully processes open-source models without creating bureaucratic delays or financial barriers for small developers would shift this verdict.",
+      "claimIds": [
+        "C3",
+        "C5",
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

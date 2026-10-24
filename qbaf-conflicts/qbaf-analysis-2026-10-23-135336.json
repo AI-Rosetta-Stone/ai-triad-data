@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-23T13:53:36.8166070-04:00",
+  "claim_count": 3,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "milei-promises-tech-firms-new-laws-unregulated-ai-argentina-2026",
+      "label": "Financial Times Op-Ed Publication",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-intentions-056",
+        "skp-beliefs-156"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "milei-promises-tech-firms-new-laws-unregulated-ai-argentina-2026",
+      "label": "Dutch East India Company Historical Precedent",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-beliefs-086"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "milei-promises-tech-firms-new-laws-unregulated-ai-argentina-2026",
+      "label": "Non-Human Corporation Legislative Proposal",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-intentions-047"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

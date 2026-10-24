@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-10-24T07:56:29.0502444-04:00",
+  "claim_count": 17,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "TrueAllele Source Code Discovery Denial Rate",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102",
+        "acc-beliefs-072"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Pre-Trial Settlement Stalling in AI Litigation",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102",
+        "skp-beliefs-288"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Mehrara v. Canada Chinook Tool Ruling",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102",
+        "saf-beliefs-126"
+      ]
+    },
+    {
+      "id": "qc-4",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Racial Disparities in Homeowners Insurance Processing",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-024"
+      ]
+    },
+    {
+      "id": "qc-5",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "UnitedHealth nH Predict Error Rate",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-043",
+        "skp-beliefs-029"
+      ]
+    },
+    {
+      "id": "qc-6",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "OpenAI Virtual Machine Sandbox Data Deletion",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-289",
+        "skp-beliefs-243"
+      ]
+    },
+    {
+      "id": "qc-7",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Evidentiary Asymmetry Across Seven Dimensions",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-288",
+        "skp-beliefs-279"
+      ]
+    },
+    {
+      "id": "qc-8",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Three-Part Test for AI Evidence Proportionality",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-desires-088",
+        "saf-intentions-234"
+      ]
+    },
+    {
+      "id": "qc-9",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Pre-Trial Failure of AI Litigation",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-243",
+        "skp-beliefs-102"
+      ]
+    },
+    {
+      "id": "qc-10",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Proof Privatization in AI Cases",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-243"
+      ]
+    },
+    {
+      "id": "qc-11",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "EVAAS Unverifiability and Trade Secrecy in Houston",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-029",
+        "saf-beliefs-126"
+      ]
+    },
+    {
+      "id": "qc-12",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Evidentiary Access Disputes and Coded Elements in AI Litigation",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-243",
+        "sit-174"
+      ]
+    },
+    {
+      "id": "qc-13",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Pickett Source Code Production Order",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        -1
+      ]
+    },
+    {
+      "id": "qc-14",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "Loomis COMPAS Adquistion and Advisement Remedy",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        -1
+      ]
+    },
+    {
+      "id": "qc-15",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "MiDAS Error Rate and Automation Scale",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        -1
+      ]
+    },
+    {
+      "id": "qc-16",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "TrueAllele Source Code Disclosure Outcomes",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102",
+        "skp-beliefs-288"
+      ]
+    },
+    {
+      "id": "qc-17",
+      "doc_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "label": "UnitedHealth nH Predict Error and Appeal Rates",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-008",
+        "skp-beliefs-041"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

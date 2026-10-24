@@ -1,6 +1,6 @@
 {
   "id": "b1e170be-6067-4d97-8c60-f87fe0281e80",
-  "run_id": "9610bb80-f1a2-4fb9-958f-e4bc08a95ef5",
+  "run_id": "46215d4d-0563-48c5-a37c-f23652618a93",
   "title": "\"The United States Congress should establish a National A...",
   "created_at": "2026-09-29T17:29:25.656Z",
   "updated_at": "2026-09-29T17:36:21.968Z",
@@ -90609,5 +90609,7 @@
     "frame_survival": null,
     "drift_telemetry_series": null,
     "aif_b5_metrics": null
-  }
+  },
+  "failover_untracked": true,
+  "failover_tracking": "unavailable"
 }

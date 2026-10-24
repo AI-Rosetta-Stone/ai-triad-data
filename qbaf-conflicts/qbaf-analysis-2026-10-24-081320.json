@@ -1,0 +1,163 @@
+{
+  "generated_at": "2026-10-24T08:13:20.6517145-04:00",
+  "claim_count": 12,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Global AI Agent Deployment Projection by 2029",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-intentions-082"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Fortune 500 Active AI Agent Adoption Rate",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-intentions-082"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Enterprise Concerns Regarding Unsanctioned Generative AI",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-041"
+      ]
+    },
+    {
+      "id": "qc-4",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Employee Adoption of Unsanctioned AI Agents",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-017"
+      ]
+    },
+    {
+      "id": "qc-5",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Microsoft Entra Agent ID Public Preview",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-127",
+        "saf-intentions-068"
+      ]
+    },
+    {
+      "id": "qc-6",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "FIDES Multi-Agent Security Enforcement",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-053",
+        "saf-intentions-140"
+      ]
+    },
+    {
+      "id": "qc-7",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Startup Security Under-Indexing",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-097"
+      ]
+    },
+    {
+      "id": "qc-8",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Microsoft Open-Sources PyRIT Tool",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-008",
+        "sit-106"
+      ]
+    },
+    {
+      "id": "qc-9",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "NIST SP 800-61 Lacks AI Incident Procedures",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-067"
+      ]
+    },
+    {
+      "id": "qc-10",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Open-Source vs Closed-Source Security Tradeoffs",
+      "category": "Intentions",
+      "base_strength": 0.43,
+      "computed_strength": 0.43,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-215"
+      ]
+    },
+    {
+      "id": "qc-11",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "AI Web Referral Growth Metrics",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-intentions-114",
+        "saf-beliefs-017"
+      ]
+    },
+    {
+      "id": "qc-12",
+      "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+      "label": "Microsoft Elevate Upskilling Pledge",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-intentions-082"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

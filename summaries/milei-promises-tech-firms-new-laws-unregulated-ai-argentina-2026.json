@@ -1,0 +1,414 @@
+{
+  "doc_id": "milei-promises-tech-firms-new-laws-unregulated-ai-argentina-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-23T14:09:03Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 32768,
+    "extraction_mode": "fire",
+    "taxonomy_filter": "rag",
+    "taxonomy_nodes": 42,
+    "fire_confidence_threshold": 0.7,
+    "fire_stats": {
+      "api_calls": 2,
+      "iterations": 1,
+      "claims_total": 3,
+      "claims_confident": 2,
+      "claims_iterated": 1,
+      "elapsed_seconds": 9.7,
+      "termination_reason": "all_confident"
+    }
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "milei-promises-tech-firms-new-laws-unregulated-ai-argentina-2026",
+    "measured_at": "2026-10-23T14:11:47.8792437-04:00",
+    "stages": [
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 2.0,
+        "out_units": "still_unmapped",
+        "out_count": 0.0,
+        "ratio": 0.0,
+        "flags": {
+          "near_miss_count": 0,
+          "resolved_count": 2,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      },
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 20070.0,
+        "out_units": "items",
+        "out_count": 9.0,
+        "ratio": 0.0004,
+        "flags": {
+          "dedup_claims_removed": 0,
+          "dedup_points_removed": 0,
+          "density_floor_hit": 0,
+          "factual_claims": 3,
+          "null_node_rate": 0.0,
+          "total_points": 6,
+          "unmapped_concepts": 0,
+          "used_fire": 1
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 977.0,
+        "out_units": "nodes",
+        "out_count": 42.0,
+        "ratio": 0.043,
+        "flags": {
+          "above_threshold": 40,
+          "beliefs_selected": 24,
+          "below_threshold_forced": 2,
+          "desires_selected": 3,
+          "effective_threshold": 0.451,
+          "intentions_selected": 15,
+          "rerank_applied": false,
+          "rerank_top1_delta": 0,
+          "synthetic_nodes_scored": 866,
+          "threshold_floor": 0.2,
+          "top_k": 40
+        }
+      }
+    ],
+    "cumulative_retention": 0.043
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": [
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "acc-intentions-047",
+          "mechanism_type": "other",
+          "category": "Intentions",
+          "point": "The document argues that emerging technologies such as autonomous AI agents require entirely new legal frameworks, specifically proposing a 'non-human corporation' category of corporate entity, rather than relying on adapted existing laws. The mechanism proposed is the creation of a special legal and fiscal environment designed for entities operated entirely by AI agents or robots, paralleling the introduction of the limited liability company by the Dutch East India Company in 1602. From an accelerationist perspective, this legal innovation provides the necessary institutional architecture for AI agents to develop, experiment, and drive capital formation without legacy constraints. The document acknowledges that this requires unprecedented legal imagination to match the technological moment.",
+          "verbatim": "Companies run by new technologies such as AI agents require the same legal framework that has underpinned capitalism for over four centuries, one suitable for development and experimentation.",
+          "excerpt_context": "Financial Times opinion piece",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Emerging AI agent technologies require entirely new corporate legal frameworks rather than adapted existing laws.",
+          "attribution_text": "An Intention within accelerationist discourse that advocates establishing novel corporate legal frameworks, such as non-human corporations, to facilitate the unconstrained operation and experimentation of autonomous AI agents. Encompasses: non-human corporate entities, legal innovation for AI agents, institutional architecture for autonomous systems.",
+          "vocabulary_terms": [
+            "governance_adaptive",
+            "autonomy_machine"
+          ],
+          "retrieval_confidence": 0.7247,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-086",
+              "label": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+              "score": 0.7885
+            },
+            {
+              "id": "acc-intentions-103",
+              "label": "Prohibit Vendors from Imposing Safety Restrictions Beyond the Law on Government AI",
+              "score": 0.7639
+            },
+            {
+              "id": "acc-intentions-075",
+              "label": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+              "score": 0.7378
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "acc-intentions-086",
+              "label": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+              "score": 0.7885
+            },
+            {
+              "id": "acc-intentions-103",
+              "label": "Prohibit Vendors from Imposing Safety Restrictions Beyond the Law on Government AI",
+              "score": 0.7639
+            },
+            {
+              "id": "acc-intentions-075",
+              "label": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+              "score": 0.7378
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "acc-intentions-056",
+          "mechanism_type": "deployment_restriction",
+          "category": "Intentions",
+          "point": "The document advocates for keeping the artificial intelligence sector entirely unregulated to let AI develop freely and realise its full potential without the deadly hand of premature and poorly understood regulation. The reasoning is that minimal regulatory intervention serves as a central pillar to attract foreign investment and position Argentina as a regional hub for AI development and data-centre investment. From an accelerationist perspective, this pre-emption of precautionary rules prevents regulatory bottlenecks from stifling technological progress and productivity gains. The document notes that this hands-off approach contrasts sharply with conventional governance models.",
+          "verbatim": "In an opinion piece published in British newspaper the Financial Times, the President pitched Argentina as a tech giants, vowing to let AI develop freely and realise its full potential 'without the deadly hand of premature and poorly understood regulation.'",
+          "excerpt_context": "Financial Times opinion piece",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Preemptively regulate artificial intelligence to avoid stifling innovation and capital investment in emerging technologies.",
+          "attribution_text": "An Intention within accelerationist discourse that challenges precautionary regulatory frameworks and advocates keeping the artificial intelligence sector entirely unregulated to maximize innovation and attract foreign investment. Encompasses: unregulated AI development, preemption of premature rules, economic attractiveness for tech giants.",
+          "vocabulary_terms": [
+            "regulation_adaptive",
+            "risk_innovation"
+          ],
+          "retrieval_confidence": 0.7588,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-052",
+              "label": "Remove Barriers and Increase Funding to Accelerate AI Progress",
+              "score": 0.8487
+            },
+            {
+              "id": "acc-intentions-005",
+              "label": "Letting Free Markets Steer Technological Advancement",
+              "score": 0.8452
+            },
+            {
+              "id": "acc-intentions-074",
+              "label": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+              "score": 0.8301
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "acc-intentions-052",
+              "label": "Remove Barriers and Increase Funding to Accelerate AI Progress",
+              "score": 0.8487
+            },
+            {
+              "id": "acc-intentions-005",
+              "label": "Letting Free Markets Steer Technological Advancement",
+              "score": 0.8452
+            },
+            {
+              "id": "acc-intentions-074",
+              "label": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+              "score": 0.8301
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "acc-beliefs-086",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that artificial intelligence will free humanity from the constraints of the human brain, pushing productivity beyond wildest dreams just as the industrial revolution freed humans from the constraints of physical muscle. The mechanism described is a structural economic transformation driven by breakthrough AI capabilities that unlock exponential productivity growth. From an accelerationist perspective, this validates the core belief in AI as a revolutionary force for abundance and civilizational advancement. The document acknowledges that realizing this vision requires bold policy commitments to unconstrained technological development.",
+          "verbatim": "As much as the industrial revolution freed us from the constraints of the human muscle, AI will free us from the constraints of the human brain, pushing productivity beyond our wildest dreams...",
+          "excerpt_context": "Financial Times opinion piece",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Artificial intelligence will structurally transform the economy by overcoming cognitive constraints and driving unprecedented productivity growth.",
+          "attribution_text": "A Belief within accelerationist discourse that artificial intelligence functions as a civilizational transformation capable of eliminating cognitive constraints and generating unprecedented productivity growth. Encompasses: cognitive liberation, economic productivity explosion, historical parallels to the industrial revolution.",
+          "vocabulary_terms": [
+            "capabilities_scaling",
+            "capability_frontier"
+          ],
+          "retrieval_confidence": 0.7033,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-beliefs-041",
+              "label": "AI Capabilities Emerge From Tuning, Context, and Compression -- Not Just Training Data",
+              "score": 0.7485
+            },
+            {
+              "id": "acc-desires-029",
+              "label": "Engineering New Forms of Consciousness",
+              "score": 0.7415
+            },
+            {
+              "id": "acc-intentions-060",
+              "label": "Frame Capitalism and Complex Systems as Information-Processing Entities",
+              "score": 0.7344
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "opposed",
+          "taxonomy_node_id": "saf-intentions-160",
+          "mechanism_type": "deployment_restriction",
+          "category": "Intentions",
+          "point": "The document rejects establishing pre-deployment ethical and legal safety guardrails, instead promising to keep artificial intelligence completely unregulated and free from premature rules. The reasoning is that government oversight and regulatory burdens act as deadly constraints on technological experimentation and foreign investment. From a safetyist perspective, abandoning foundational guardrails and safety evaluations creates severe risks of unmonitored deployments and governance failures. The document acknowledges that this approach deliberately bypasses standard oversight mechanisms.",
+          "verbatim": "President Javier Milei promised the world’s tech firms on Thursday that Argentina will create a special legal framework to foster the development of Artificial Intelligence (AI) in Argentina, reaffirming his commitment to keeping the sector “unregulated.”",
+          "excerpt_context": "Opening paragraph",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Set foundational safety and ethical ground rules for artificial intelligence governance prior to widespread commercial deployment.",
+          "attribution_text": "An Intention within safetyist discourse that prioritizes establishing robust pre-deployment safety ground rules and ethical oversight frameworks for artificial intelligence systems. Encompasses: safety guardrails, pre-deployment evaluation, regulatory oversight.",
+          "vocabulary_terms": [
+            "deployment_gated",
+            "governance_oversight"
+          ],
+          "retrieval_confidence": 0.7832,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.8296
+            },
+            {
+              "id": "skp-intentions-074",
+              "label": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+              "score": 0.819
+            },
+            {
+              "id": "saf-intentions-085",
+              "label": "Removing Punitive Barriers to Raising AI Safety Concerns",
+              "score": 0.8163
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-047",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document observes that Argentina has yet to develop a comprehensive framework addressing critical issues such as data protection, transparency, and liability amidst rapid AI promotion. The mechanism highlighted is the regulatory vacuum created when governments prioritize foreign investment and tech sector attraction over institutional safeguards. From a skeptic perspective, this omission exposes fundamental gaps in legal accountability frameworks and leaves society vulnerable to unmitigated corporate power. The document acknowledges that academics and civil society groups actively criticize this deregulatory approach for ignoring public protections.",
+          "verbatim": "The approach has drawn criticism from some academics and civil society groups, who say Argentina has yet to develop a comprehensive framework addressing issues such as data protection, transparency and liability.",
+          "excerpt_context": "Concluding paragraphs",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Rapid promotion of unregulated artificial intelligence exposes fundamental gaps in legal accountability, data protection, and transparency frameworks.",
+          "attribution_text": "A Belief within skeptic discourse that aggressive deregulation and foreign investment promotion in the AI sector leaves critical governance vacuums in data protection, transparency, and legal liability. Encompasses: regulatory vacuums, lack of data protection, absence of liability frameworks.",
+          "vocabulary_terms": [
+            "documented_present_harm",
+            "accountability_algorithmic"
+          ],
+          "retrieval_confidence": 0.7021,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-170",
+              "label": "AI Corporations Systematically Evade Effective Regulation",
+              "score": 0.761
+            },
+            {
+              "id": "skp-intentions-108",
+              "label": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+              "score": 0.7292
+            },
+            {
+              "id": "skp-intentions-102",
+              "label": "Operationalize Pragmatic AI Governance Through Concrete Policy Mechanisms",
+              "score": 0.7183
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-156",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document notes that Argentina's government is actively positioning the nation as a haven for tech giants by offering an attractive legal and fiscal environment devoid of regulation. The reasoning is that governments can utilize regulatory arbitrage and lax oversight to attract multinational corporations and foreign investment. From a skeptic perspective, this strategy exemplifies how jurisdictions lower compliance standards to compete for corporate capital at the expense of public welfare. The document acknowledges that this pitch is explicitly targeted at global tech firms seeking low-friction operating environments.",
+          "verbatim": "In an opinion piece published in British newspaper the Financial Times, the President pitched Argentina as a tech giants, vowing to let AI develop freely and realise its full potential...",
+          "excerpt_context": "Financial Times opinion piece summary",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "AI providers strategically target low-oversight jurisdictions offering favorable legal and fiscal environments to minimize compliance costs.",
+          "attribution_text": "A Belief within skeptic discourse that artificial intelligence corporations seek out and exploit jurisdictions offering minimal regulatory oversight and favorable fiscal environments. Encompasses: regulatory arbitrage, tax and legal havens for tech firms, jurisdictional shopping.",
+          "vocabulary_terms": [
+            "asymmetry_power",
+            "capture_institutional"
+          ],
+          "retrieval_confidence": 0.7974,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-156",
+              "label": "AI Providers Strategically Locate in Low-Oversight Jurisdictions to Minimize Compliance Costs",
+              "score": 0.7974
+            },
+            {
+              "id": "skp-beliefs-170",
+              "label": "AI Corporations Systematically Evade Effective Regulation",
+              "score": 0.7682
+            },
+            {
+              "id": "skp-beliefs-031",
+              "label": "Perfect Enforcement Through AI Removes the Safety Valve of Selective Prosecution",
+              "score": 0.7557
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "President Javier Milei and Deregulation & State Transformation Minister Federico Sturzenegger co-authored an opinion piece in the British newspaper the Financial Times on October 23, 2026, pitching Argentina as a haven for tech giants and promising to keep artificial intelligence unregulated.",
+      "claim_label": "Financial Times Op-Ed Publication",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2026-10-23",
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "acc-intentions-056",
+        "acc-beliefs-086"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "The Argentine government announced plans to create a new category of corporate entity in legislation called the non-human corporation, designed specifically for entities operated entirely by AI agents or robots.",
+      "claim_label": "Non-Human Corporation Proposal",
+      "doc_position": "supports",
+      "temporal_scope": "predictive",
+      "temporal_bound": "2026-10-23 onwards",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "acc-intentions-047"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "mechanism_specified": true,
+          "scope_bounded": true,
+          "failure_mode_addressed": false
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "The source document does not contain explicit commentary from academics or civil society groups regarding Argentina's deregulatory approach and data protection frameworks.",
+      "claim_label": "Civil Society Regulatory Critique",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026-10",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-047"
+      ],
+      "evidence_criteria": {
+        "specificity": "vague",
+        "has_warrant": false,
+        "internally_consistent": true
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.1
+    }
+  ],
+  "unmapped_concepts": []
+}

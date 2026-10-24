@@ -1,0 +1,408 @@
+{
+  "debate_id": "9d5ec114-9c94-453e-8be3-ee9f51319bdc",
+  "debate_title": "Autonomous weapons systems and the future of warfare unde...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether real-time runtime telemetry logs can satisfy the qualitative legal requirements of distinction and proportionality under international humanitarian law.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Real-time verification telemetry and continuous monitoring provide a more reliable and auditable check on software execution than static compliance paperwork."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Runtime telemetry records execution events after the fact but cannot evaluate the qualitative cognitive and legal intent required by international humanitarian law."
+        }
+      ],
+      "linkedNodes": [
+        "sit-221",
+        "saf-beliefs-273",
+        "saf-desires-004",
+        "saf-intentions-140",
+        "acc-desires-006",
+        "acc-intentions-027",
+        "acc-intentions-103",
+        "acc-beliefs-083",
+        "saf-beliefs-152",
+        "saf-desires-018"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether removing bureaucratic compliance gates and procurement friction empowers agile developers or merely insulates legacy prime contractors.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Streamlining acquisition pathways and reducing multi-year certification gates allows innovative software developers to field critical updates faster."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Relaxing procurement rules without mandatory transparency grants legal immunity and market protection to legacy prime contractors who hide model weights behind trade secrets."
+        }
+      ],
+      "linkedNodes": [
+        "acc-desires-006",
+        "acc-intentions-027",
+        "acc-intentions-103",
+        "acc-beliefs-083",
+        "skp-beliefs-047",
+        "skp-beliefs-174",
+        "skp-desires-014",
+        "skp-intentions-007",
+        "acc-beliefs-116",
+        "acc-intentions-047"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-014",
+      "nodeLabel": "Human Rights as Constraints on AI Deployment",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-152",
+      "nodeLabel": "Integrating Oversight with Operations Is Capture by Design",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-018",
+      "nodeLabel": "The Human Power to Limit Violence Must Be Preserved",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-210",
+      "nodeLabel": "Aviation-to-AI Regulatory Transfer",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-221",
+      "nodeLabel": "Normative Pragmatism in IHL",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-273",
+      "nodeLabel": "Identity-Plane Vulnerabilities Bypass Perimeter Hardware Isolation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-140",
+      "nodeLabel": "Containing the Blast Radius of Autonomous AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-103",
+      "nodeLabel": "Prohibit Vendors from Imposing Safety Restrictions Beyond the Law on Government AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-174",
+      "nodeLabel": "Pass/Fail Audits as Inadequate for Complex AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-007",
+      "nodeLabel": "Regulate AI by Use Case, Not by Technology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-214",
+      "nodeLabel": "Designing Modular Rollback Mechanisms for Frontier Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-116",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-273",
+      "nodeLabel": "Intent-based legal requirements serving as corporate liability shields",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-065",
+      "nodeLabel": "Mandate Liability Assumption or Human Escalation at AI Agent Handoff Points",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-016",
+      "nodeLabel": "AI Must Not Entrench Injustice or Enable Catastrophe",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-081",
+      "nodeLabel": "Building Adaptive Regulatory Frameworks for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-224",
+      "nodeLabel": "The Permissive Nature of Warfare Law",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-288",
+      "nodeLabel": "Evidentiary Dead End of Opaque AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-135",
+      "nodeLabel": "Mandate Pre-Committed Shutdown Thresholds for Both Internal and External AI Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-031",
+      "nodeLabel": "Perfect Enforcement Through AI Removes the Safety Valve of Selective Prosecution",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-008",
+      "nodeLabel": "Matching AI Oversight Intensity to Decision Stakes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-182",
+      "nodeLabel": "Maintenance Debt From AI-Authored Code Compounds in Cost Even When Each Defect Is Reversible",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-059",
+      "nodeLabel": "Counterintuitive Legal Terminology in National Security Statutes Creates Compliance Traps",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-066",
+      "nodeLabel": "Conscience as a Check on Algorithmic Authority",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-055",
+      "nodeLabel": "Operationalize AI Risk Mitigation Through Concrete Technical Practices",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-093",
+      "nodeLabel": "Downstream Liability Bounded by What the Deployer Can Detect and Price",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-117",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-206",
+      "nodeLabel": "Scaling AI Without Safeguards Creates a Non-Trivial Path to Irreversible Civilizational Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-019",
+      "nodeLabel": "Every Soldier's Right to Refuse to Kill",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-169",
+      "nodeLabel": "Automating Safety Checks from Code Commit to Deployment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-025",
+      "nodeLabel": "Dialing AI Autonomy Up or Down Based on Real-Time Safety Signals",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-109",
+      "nodeLabel": "Component vs System Safety",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-234",
+      "nodeLabel": "Withholding Diagnostic Interfaces as Upstream Design Defect",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-302",
+      "nodeLabel": "Procedural Telemetry Checklists as Upstream Audit-Washing Shields",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-164",
+      "nodeLabel": "Coupling Mandatory Audit Discovery with Liability Presumptions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-231",
+      "nodeLabel": "Binding AI Accountability to Physical Infrastructure Metrics",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether real-time runtime telemetry logs can satisfy the qualitative legal requirements of distinction and proportionality under international humanitarian law.",
+      "prevails": "safetyist",
+      "criterion": "logical_validity",
+      "rationale": "The safetyist position holds a logical advantage because automated telemetry records execution events after the fact without evaluating the cognitive and legal intent required by international law. Telemetry measures software behavior, but it cannot perform the qualitative balancing test mandated for proportionality.",
+      "whatWouldChange": "Peer-reviewed technical standards demonstrating that automated logs can successfully map execution events to the qualitative legal intent standards of international humanitarian law would tip the balance.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether removing bureaucratic compliance gates and procurement friction empowers agile developers or merely insulates legacy prime contractors.",
+      "prevails": "undecidable",
+      "criterion": "specificity",
+      "rationale": "Both positions present plausible market outcomes without definitive empirical proof of which effect dominates defense procurement reform. The accelerationist claim assumes that removing multi-year certification gates benefits new market entrants, while the skeptic claim argues that without strict transparency rules, such waivers protect incumbent contractors who rely on trade secrets.",
+      "whatWouldChange": "Comprehensive market data tracking the contract win rates and speed-to-field metrics of non-traditional software vendors versus legacy prime contractors following regulatory waiver programs would resolve the dispute.",
+      "claimIds": [
+        "C7",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

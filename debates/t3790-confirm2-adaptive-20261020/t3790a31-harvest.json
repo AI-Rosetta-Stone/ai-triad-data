@@ -1,0 +1,357 @@
+{
+  "debate_id": "8ea76ca8-0f9b-4f2e-bb42-acf3525d1cf7",
+  "debate_title": "Mandatory pre-deployment safety evaluations for frontier ...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether federal pre-deployment safety evaluations and compute thresholds are necessary and effective mechanisms to prevent catastrophic dual-use risks, or whether they primarily constitute ineffective and burdensome regulatory hurdles.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Pre-deployment safety evaluations and compute thresholds above 10^26 floating-point operations are essential technical firebreaks against irreversible dual-use hazards such as automated biological or cyber threats."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Static compute thresholds and certification gates fail to stop bad actors who bypass them, while starving decentralized research and critical medical development of necessary resources."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Static compliance checklists fail technically against distributed open-weight models and serve primarily as legal liability shields for corporate deployers."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-116",
+        "acc-beliefs-085",
+        "acc-intentions-074",
+        "sit-106",
+        "sit-115",
+        "skp-beliefs-196",
+        "skp-beliefs-242",
+        "skp-intentions-094",
+        "saf-beliefs-203",
+        "saf-desires-006"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether post-market strict tort liability and transparency mechanisms are sufficient to address systemic AI risks, or if ex-ante administrative gatekeeping remains mandatory for unrecoverable threats.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Post-market tort liability and strict accountability for concrete operational harms provide the only enforceable oversight framework, replacing ineffective pre-market paperwork."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Post-market liability is inadequate for catastrophic, irreversible civilizational failures where post-hoc remediation is impossible."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-196",
+        "skp-beliefs-242",
+        "skp-intentions-094",
+        "saf-beliefs-203",
+        "saf-desires-006",
+        "saf-intentions-081",
+        "saf-desires-002",
+        "saf-desires-004",
+        "sit-098",
+        "skp-beliefs-158"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-106",
+      "nodeLabel": "Technical Methods for AI Safety and Evaluation",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-242",
+      "nodeLabel": "Regulatory Guidance Rollback",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-094",
+      "nodeLabel": "Insulate Organizations from Regulatory Volatility Through Durable AI Standards",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-081",
+      "nodeLabel": "Building Adaptive Regulatory Frameworks for AI Development",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-024",
+      "nodeLabel": "Create Regulatory Sandboxes to Accelerate AI Development",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-174",
+      "nodeLabel": "Legal and Legislative Mechanisms for AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-292",
+      "nodeLabel": "Regulatory Blind Spot of Legislative Gridlock in AI Policy",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-174",
+      "nodeLabel": "Pass/Fail Audits as Inadequate for Complex AI Systems",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-116",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-115",
+      "nodeLabel": "Federal Preemption of State AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-158",
+      "nodeLabel": "AI Is Deployed as a Technical Fix for Problems That Are Fundamentally Social and Political",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-155",
+      "nodeLabel": "Secondary Effects Doctrine for AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-145",
+      "nodeLabel": "Building Public Interest Technologist Pipelines",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-070",
+      "nodeLabel": "Vigilant Pragmatism Toward AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-029",
+      "nodeLabel": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-206",
+      "nodeLabel": "Scaling AI Without Safeguards Creates a Non-Trivial Path to Irreversible Civilizational Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-016",
+      "nodeLabel": "AI Must Not Entrench Injustice or Enable Catastrophe",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-009",
+      "nodeLabel": "Securing Data Centers and Supply Chains Against Model-Weight Theft",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-095",
+      "nodeLabel": "Design Safety In Rather Than Patch It On",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-029",
+      "nodeLabel": "Startups Drive Innovation More Than Big Tech",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-076",
+      "nodeLabel": "Procuring Dedicated Clean Energy Additionality for High-Density Computing Facilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-107",
+      "nodeLabel": "Replace Static AI Rules with Iterative, Drift-Matched Regulatory Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-007",
+      "nodeLabel": "Regulate AI by Use Case, Not by Technology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-166",
+      "nodeLabel": "AI Accountability and Liability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-134",
+      "nodeLabel": "Process vs. Governance in AI Regulation",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether federal pre-deployment safety evaluations and compute thresholds are necessary and effective mechanisms to prevent catastrophic dual-use risks, or whether they primarily constitute ineffective and burdensome regulatory hurdles.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both sides present valid empirical concerns without decisive real-world data from large-scale frontier model deployments under federal mandates. The safetyist argument relies on risk management precedent from aviation and nuclear energy, while the accelerationist and skeptic arguments point to the technical realities of decentralized open-weight distribution and prompt engineering bypasses.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether post-market strict tort liability and transparency mechanisms are sufficient to address systemic AI risks, or if ex-ante administrative gatekeeping remains mandatory for unrecoverable threats.",
+      "prevails": "C2",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for irreversible civilizational failures where post-hoc tort remediation is impossible by definition. The skeptic reliance on post-market liability fails to address scenarios where the initial release of a catastrophic dual-use capability causes unrecallable harm.",
+      "claimIds": [
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

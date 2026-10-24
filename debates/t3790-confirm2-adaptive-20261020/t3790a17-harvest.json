@@ -1,0 +1,385 @@
+{
+  "debate_id": "a960f8a2-b2db-41b5-98d1-e9d36fe0e03a",
+  "debate_title": "AI systems in high-stakes decisions: healthcare triage an...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether decentralized open-weight distribution and post-market product liability provide an effective alternative to centralized pre-market administrative oversight.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Open-weight models empower local clinics to audit code rapidly, while strict product liability forces developers to internalize disparate impact costs more effectively than static agency reviews."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Community hospitals lack the technical staff and infrastructure to audit complex models, and unverified decentralized deployments multiply systemic failure points."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-002",
+        "acc-beliefs-111",
+        "acc-desires-001",
+        "acc-intentions-078",
+        "saf-desires-005",
+        "sit-448",
+        "saf-desires-009",
+        "saf-intentions-004",
+        "acc-beliefs-098",
+        "acc-desires-018"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether trade secret protections and anti-circumvention laws create insurmountable evidentiary barriers for plaintiffs in post-market civil litigation.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Public release of model parameter weights dissolves corporate trade secrecy and eliminates evidentiary hurdles for plaintiffs and independent researchers."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Enterprise licensing agreements, trade secret laws, and DMCA restrictions legally block local users from inspecting proprietary weights or proving causation in court."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-286",
+        "skp-beliefs-001",
+        "skp-desires-082",
+        "skp-intentions-080",
+        "acc-intentions-002",
+        "acc-beliefs-111",
+        "acc-desires-001",
+        "acc-intentions-078",
+        "acc-beliefs-098",
+        "acc-desires-018"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-286",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Accountability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-111",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-005",
+      "nodeLabel": "No Black Boxes in Ground-Truth-Absent or Feedback-Contaminated Domains",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-448",
+      "nodeLabel": "Feedback-Loop Contamination of Post-Deployment Evaluation Data",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-009",
+      "nodeLabel": "Doctors Decide, Not Algorithms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-288",
+      "nodeLabel": "Evidentiary Dead End of Opaque AI Systems",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-041",
+      "nodeLabel": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-079",
+      "nodeLabel": "Balanced Transparency: Public Interest vs. Trade Secrets",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-095",
+      "nodeLabel": "Apply Causal Modeling to Ensure AI Decisions Are Independent of Protected Characteristics",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-080",
+      "nodeLabel": "Institutionalize Civil Rights Technical Expertise Within AI Regulatory Bodies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-004",
+      "nodeLabel": "Anchoring AI Accountability in Verifiable Provenance Records",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-098",
+      "nodeLabel": "Inferential Privacy Asymmetry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-018",
+      "nodeLabel": "Build Crisis-Proof Institutions with AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-103",
+      "nodeLabel": "Prohibit Vendors from Imposing Safety Restrictions Beyond the Law on Government AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-234",
+      "nodeLabel": "Withholding Diagnostic Interfaces as Upstream Design Defect",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-040",
+      "nodeLabel": "Hold AI Developers Liable for Designs That Fail Risk-Utility Analysis",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-246",
+      "nodeLabel": "Fiduciary Duty Survival Under Algorithmic Delegation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-108",
+      "nodeLabel": "Domain-specificity of interpretability requirements under products liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-200",
+      "nodeLabel": "AI Systematically Optimizes Proxy Metrics at the Expense of Intended Outcomes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-119",
+      "nodeLabel": "AI Amplifies the Repressive Power of Autocratic States",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-099",
+      "nodeLabel": "Uninsurability of correlated systemic leakage",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-279",
+      "nodeLabel": "Discovery Obstacles in Algorithmic Accountability Litigation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-006",
+      "nodeLabel": "Corporate Opacity as Structural Liability Shield",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-276",
+      "nodeLabel": "Forensic Discovery of Training-Time Artifacts as an Evidentiary Prerequisite",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-164",
+      "nodeLabel": "Coupling Mandatory Audit Discovery with Liability Presumptions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-234",
+      "nodeLabel": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-148",
+      "nodeLabel": "Not All Legacy Code Complexity Is Accidental -- Some Is Inherent",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-080",
+      "nodeLabel": "Algorithmic Transparency as a Democratic Right",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-105",
+      "nodeLabel": "Require Public Oversight Bodies to Verify AI Alignment via Mechanistic Interpretability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-274",
+      "nodeLabel": "Recursive opacity in AI document discovery",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether decentralized open-weight distribution and post-market product liability provide an effective alternative to centralized pre-market administrative oversight.",
+      "prevails": "safetyist",
+      "criterion": "implementation_specificity",
+      "rationale": "The safetyist position accounts for the institutional reality that community hospitals lack the specialized IT staff required to deconstruct complex models locally. Furthermore, software licensing agreements and trade secret laws create legal barriers that prevent downstream operators from inspecting internal code. Pre-market review avoids these structural limitations by evaluating safety before deployment.",
+      "whatWouldChange": "Evidence that community hospitals routinely execute independent code audits and successfully mitigate algorithmic bias without dedicated engineering teams would reverse this finding.",
+      "claimIds": [
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether trade secret protections and anti-circumvention laws create insurmountable evidentiary barriers for plaintiffs in post-market civil litigation.",
+      "prevails": "skeptic",
+      "criterion": "empirical_evidence",
+      "rationale": "The skeptic position aligns with existing intellectual property law and Digital Millennium Copyright Act restrictions that legally prohibit users from inspecting proprietary weight files. Accelerationist claims regarding the total dissolution of proprietary moats ignore commercial licensing practices and enterprise enforcement mechanisms.",
+      "whatWouldChange": "Legislative reforms that explicitly mandate open-source weight releases and nullify non-disclosure agreements for deployed public sector algorithms would alter this assessment.",
+      "claimIds": [
+        "C5",
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

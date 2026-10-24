@@ -1,0 +1,18 @@
+{
+  "id": "04df9860-7e99-40a4-a3a9-d2f15cbccf4c",
+  "title": "What requirements should communities place on datacenters...",
+  "created_at": "2026-10-15T19:56:28.524Z",
+  "updated_at": "2026-10-15T19:56:34.728Z",
+  "mode": "brainstorm",
+  "topic": "What requirements should communities place on datacenters to ensure that it is a net benefit to the community (e.g. water, power, jobs, etc)?",
+  "pover": "skeptic",
+  "transcript": [
+    {
+      "id": "4ec568e2-bf82-4851-b3cd-14b2d8425929",
+      "timestamp": "2026-10-15T19:56:34.728Z",
+      "speaker": "skeptic",
+      "content": "{\n  \"response\": \"Yes, let's blow this wide open and look past the corporate PR talking points about local prosperity! Communities should stop treating AI datacenters like polite tech campuses and start treating them like the heavy industrial resource extraction sites they actually are. If a single facility is going to slurp up millions of gallons of municipal water and tap the local grid dry while employing fewer people than a suburban Home Depot, we need a complete overhaul of how local leverage works. \n\nHere are three angles we should map out right now:\\n\\n1. **The Sovereign Wealth Infrastructure Model:** What if every locality forced hyperscalers to issue municipal equity shares, meaning towns don't just collect property taxes, but take a permanent dividend on the compute revenue generated from their local resources?\\n\\n2. **The Hard Resource Caps and Disconnection Triggers:** Let's design ironclad community benefit agreements that automatically divert grid power back to residential neighborhoods during peak heatwaves or deep freezes, treating the datacenter as a load-shedding battery of last resort.\\n\\n3. **The Retrofit-First Mandate:** Instead of greenfield bulldozing, let's brainstorm zoning laws that require tech firms to colocate inside dead shopping malls and shuttered coal plants, forcing them to absorb brownfield remediation costs before they touch a single drop of fresh watershed.\",\n  \"taxonomy_refs\": []\n}",
+      "taxonomy_refs": []
+    }
+  ]
+}

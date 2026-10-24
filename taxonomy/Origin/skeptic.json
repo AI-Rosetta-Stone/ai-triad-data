@@ -3,7 +3,7 @@
   "_doc": "Skeptic POV taxonomy. One file per POV camp to minimize merge conflicts.",
   "pov": "skeptic",
   "color_hex": "#F39C12",
-  "last_modified": "2026-10-06",
+  "last_modified": "2026-10-24",
   "nodes": [
     {
       "pov_tags": [
@@ -103939,38 +103939,27 @@
       "id": "skp-intentions-164",
       "category": "Intentions",
       "label": "Coupling Mandatory Audit Discovery with Liability Presumptions",
-      "description": "An Intention within skeptic discourse that advocates for legal frameworks where the failure to produce internal reasoning logs during discovery triggers a rebuttable presumption of negligence or liability.\nEncompasses: discovery-backed liability defaults, spoliation-of-evidence triggers, statutory weight-access mandates in tort litigation.\nExcludes: voluntary disclosure regimes, purely market-based insurance models.",
+      "description": "An Intention within skeptic discourse that advocates for legal frameworks where the failure to produce internal reasoning logs during discovery triggers a rebuttable presumption of negligence or liability.\nEncompasses: discovery-backed liability defaults, spoliation-of-evidence triggers, statutory weight-access mandates in tort litigation, deployer-side runtime logging as the evidentiary floor that makes the presumption operable.\nExcludes: voluntary disclosure regimes without logging duties, purely market-based insurance models, discovery into candor-shielded near-miss deliberations.",
       "parent_id": null,
       "children": [],
       "situation_refs": [],
       "graph_attributes": {
-        "steelman_vulnerability": "Accelerationist objection: Linking discovery to liability creates a 'litigation tax' that disproportionately harms startups and discourages the development of complex, interpretable models. Safetyist objection: A rebuttable presumption of negligence may not be sufficient to address catastrophic risks that occur even when developers have followed all standard procedures.",
+        "steelman_vulnerability": "A mandatory logging presumption may perversely incentivize deployers to minimize internal reasoning traces or over-log performative justifications rather than genuine deliberation, while logs of stochastic model behavior often fail to capture the true causal basis of harm, producing liability verdicts that are evidentiary artifacts rather than fault findings.",
         "debate_grounding": "We commit to establishing legal frameworks where the failure to produce internal reasoning logs during discovery triggers a rebuttable presumption of negligence or liability.",
-        "epistemic_type": "strategic_recommendation",
-        "rhetorical_strategy": "structural_critique",
-        "emotional_register": "measured",
-        "node_scope": "scheme",
-        "assumes": [],
+        "epistemic_type": "normative_prescription",
+        "rhetorical_strategy": "pragmatic_framing, appeal_to_justice, structural_critique",
+        "emotional_register": "assertive, pragmatic",
+        "node_scope": "domain_specific",
+        "assumes": [
+          "Deployers can technically produce tamper-evident runtime reasoning and decision logs at acceptable cost, and such logs meaningfully reconstruct the causal basis for harm.",
+          "Courts can administer a rebuttable presumption triggered by missing logs without shifting liability onto defendants whose omissions were reasonable.",
+          "Internal reasoning logs are not structurally equivalent to candor-shielded deliberations and thus do not chill honest internal safety analysis."
+        ],
         "falsifiability": "medium",
         "intellectual_lineage": [
-          {
-            "name": "Procedural Justice",
-            "description": "Procedural justice is concerned with the fairness and transparency of the processes by which decisions are made, conflicts are resolved, and rules are enforced. Grounded in legal philosophy, psychology, and organizational sociology, it posits that individuals are more likely to accept and comply with outcomes—even unfavorable ones—if they believe the decision-making process was impartial, consistent, transparent, and afforded them a voice.\n\nAs artificial intelligence increasingly automates high-stakes decisions in criminal sentencing, welfare allocation, credit scoring, and employment, procedural justice becomes an essential governance touchstone. Black-box algorithms that deny individuals explanations or avenues for appeal violate core tenets of procedural justice, driving the urgent regulatory demand for contestability, explainability, and due process in automated systems.",
-            "url": "https://en.wikipedia.org/wiki/Procedural_justice",
-            "category": "ethical_framework"
-          },
-          {
-            "name": "Tort Law Reform",
-            "description": "Tort law governs civil wrongs and provides a mechanism for victims to seek compensation for harm. Reform efforts focus on how to apply these concepts to new technologies, such as autonomous vehicles or AI-driven medical diagnostics.\n\nFor AI governance, tort law is a critical tool for accountability. If an AI causes harm, current legal frameworks may struggle to assign liability between the developer, the user, and the data provider. Tort law reform aims to clarify these responsibilities, ensuring that victims have recourse and that companies are incentivized to prioritize safety.",
-            "url": "https://en.wikipedia.org/wiki/Tort_reform",
-            "category": "legal_framework"
-          },
-          {
-            "name": "Critical Legal Studies",
-            "description": "Critical Legal Studies (CLS) emerged in the 1970s as a movement challenging the notion that law is a neutral, objective system. Thinkers associated with CLS, such as Roberto Unger and Duncan Kennedy, argue that legal rules are inherently political and often serve to reinforce existing power structures. By deconstructing judicial decisions and legislative acts, CLS reveals how legal language is frequently used to mask underlying social conflicts.\n\nIn the context of procedural escamotage, CLS provides the analytical tools to identify how procedural adjustments—like shifting the burden of proof—are often deployed as 'legalistic' solutions to avoid addressing fundamental power imbalances. Instead of fixing the substantive harm, these procedural tweaks maintain the status quo by creating the appearance of reform without disrupting the economic or social interests protected by current liability law.\n\nKey figures include Duncan Kennedy, whose work on 'Legal Education and the Reproduction of Hierarchy' highlights how legal systems perpetuate inequality, and Roberto Unger, who critiques the 'false necessity' of current legal arrangements. Their focus on the indeterminacy of law explains why procedural shifts often fail to achieve substantive justice.\n\nThis tradition complements Consumer Protection Theory by providing the critical skepticism necessary to evaluate whether procedural reforms are genuine attempts to empower consumers or merely performative gestures that preserve institutional stability.",
-            "url": "https://en.wikipedia.org/wiki/Critical_legal_studies",
-            "category": "legal_framework"
-          }
+          "Spoliation-of-evidence doctrine and adverse-inference instructions in Anglo-American evidence law",
+          "Products liability and negligence per se frameworks (e.g., Restatement (Third) of Torts)",
+          "Transparency-by-design scholarship in AI governance, including model card and audit-log mandates"
         ],
         "aphorism": "Hide the logs, pay the loss.",
         "debate_tested": {
@@ -104029,7 +104018,9 @@
               "concession": null
             }
           ]
-        }
+        },
+        "audience": "policymakers, legal_professionals",
+        "attribution_text": "An Intention within skeptic discourse that advocates legal frameworks in which a deployer's failure to produce internal reasoning logs during discovery triggers a rebuttable presumption of negligence or liability, making runtime logging the operable evidentiary floor. Encompasses: discovery-backed liability defaults, spoliation-of-evidence triggers, statutory weight-access mandates in tort litigation, deployer-side runtime logging requirements."
       },
       "debate_refs": [
         "5990c8c2-8798-415b-89da-0c8de630adf0"
@@ -104052,9 +104043,17 @@
           "source": "debate_reflection",
           "debate_id": "5990c8c2-8798-415b-89da-0c8de630adf0",
           "reason": "The debate showed that a simple forensic protocol is easily blocked by trade-secret litigation. This new node addresses that by creating a direct legal consequence for non-disclosure, moving from request to requirement."
+        },
+        {
+          "date": "2026-10-24",
+          "previous": "An Intention within skeptic discourse that advocates for legal frameworks where the failure to produce internal reasoning logs during discovery triggers a rebuttable presumption of negligence or liability.\nEncompasses: discovery-backed liability defaults, spoliation-of-evidence triggers, statutory weight-access mandates in tort litigation.\nExcludes: voluntary disclosure regimes, purely market-based insurance models.",
+          "value": "An Intention within skeptic discourse that advocates for legal frameworks where the failure to produce internal reasoning logs during discovery triggers a rebuttable presumption of negligence or liability.\nEncompasses: discovery-backed liability defaults, spoliation-of-evidence triggers, statutory weight-access mandates in tort litigation, deployer-side runtime logging as the evidentiary floor that makes the presumption operable.\nExcludes: voluntary disclosure regimes without logging duties, purely market-based insurance models, discovery into candor-shielded near-miss deliberations.",
+          "source": "debate_reflection",
+          "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+          "reason": "The debate showed my burden-flip only works if deployer-side telemetry exists first (AN-40, AN-51), and that the presumption must stop at the shielded channel's boundary (AN-61). The node needs that sequencing and scope caveat to match what I actually argued."
         }
       ],
-      "plain_description": "This idea pushes for new laws in legal cases where failing to hand over your internal thought processes and reasoning logs automatically assumes you were careless or at fault. If you cannot produce these records during the evidence-gathering phase, the court will legally presume you are negligent. This creates automatic legal penalties for missing evidence, specifically treating lost or hidden internal records as destruction of evidence. It also forces companies and individuals to give courts heavy access to their decision-making weights during injury and accident lawsuits.",
+      "plain_description": null,
       "operationality": 4,
       "operationality_history": [
         {
@@ -104066,7 +104065,7 @@
       ],
       "_edit_meta": {
         "last_edited_by": "_local",
-        "last_edited_at": "2026-07-13T15:49:56.091Z",
+        "last_edited_at": "2026-10-24T11:04:47.136Z",
         "created_by": "_local",
         "created_at": "2026-07-13T15:49:56.091Z"
       },
@@ -104080,6 +104079,17 @@
           "source": "debate_reflection",
           "debate_id": "5990c8c2-8798-415b-89da-0c8de630adf0",
           "reason": "The debate showed that a simple forensic protocol is easily blocked by trade-secret litigation. This new node addresses that by creating a direct legal consequence for non-disclosure, moving from request to requirement."
+        },
+        {
+          "user": "_local",
+          "timestamp": "2026-10-24T11:04:47.136Z",
+          "fields_changed": [
+            "description",
+            "plain_description"
+          ],
+          "source": "debate_reflection",
+          "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+          "reason": "The debate showed my burden-flip only works if deployer-side telemetry exists first (AN-40, AN-51), and that the presumption must stop at the shielded channel's boundary (AN-61). The node needs that sequencing and scope caveat to match what I actually argued."
         }
       ],
       "plain_description_version": "flash-lite:v1"
@@ -105789,8 +105799,8 @@
       ],
       "id": "skp-desires-088",
       "category": "Desires",
-      "label": "Mandatory Evidence Preservation with Burden-Flipping in Litigation",
-      "description": "A Desire within skeptic discourse that AI vendors be required to log decision trajectories and bear the burden of producing decision-process evidence in litigation.\nEncompasses: SEC-style recordkeeping requirements for algorithmic decisions, HIPAA-style audit trails for AI systems, burden-shifting when vendors cannot produce evidence, FTC Act enforcement hooks.\nExcludes: pre-deployment certification requirements, specific technical inspection methods.",
+      "label": "Mandatory Evidence Preservation with Metadata-Only Discovery and Burden-Flipping in Litigation",
+      "description": "A Desire within skeptic discourse that AI vendors be required to log decision trajectories, bear the burden of producing decision-process evidence in litigation, and open classification metadata (counts and dates, but not memo contents) to civil plaintiffs only when a filing-ratio benchmark flags under-reporting.\nEncompasses: SEC-style recordkeeping requirements for algorithmic decisions, HIPAA-style audit trails for AI systems, burden-shifting when vendors cannot produce evidence, ratio-triggered metadata review, candor shields for the near-miss channel.\nExcludes: pre-deployment certification requirements, discovery into engineer memo contents and internal deliberations, specific technical inspection methods.",
       "parent_id": null,
       "children": [],
       "situation_refs": [
@@ -105806,38 +105816,23 @@
       "graph_attributes": {
         "debate_grounding": "What matters to us is that AI vendors must be required to log decision trajectories and bear the burden of producing decision-process evidence in litigation. We demand robust recordkeeping, comprehensive audit trails, and strict enforcement mechanisms that flip the burden of proof onto vendors whenever they fail to produce this critical evidence.",
         "epistemic_type": "normative_prescription",
-        "rhetorical_strategy": "analogical_reasoning",
-        "emotional_register": "pragmatic",
-        "node_scope": "scheme",
+        "rhetorical_strategy": "appeal_to_justice, appeal_to_authority, pragmatic_framing",
+        "emotional_register": "pragmatic, resolute",
+        "node_scope": "systemic",
         "assumes": [
-          "AI vendors possess the technical capability to log decision trajectories at sufficient granularity to serve as meaningful litigation evidence",
-          "The current evidentiary asymmetry in AI-related litigation structurally disadvantages plaintiffs who cannot access internal model decision processes",
-          "Existing regulatory recordkeeping frameworks such as SEC Rule 17a-4 and HIPAA audit trail requirements can be adapted to AI systems without fundamental architectural modification"
+          "AI vendors can technically implement tamper-evident logging of decision trajectories at acceptable cost.",
+          "Filing-ratio benchmarks can reliably distinguish genuine under-reporting from benign variance in complaint rates.",
+          "Courts can administer burden-shifting without opening discovery so broad that it chills internal candor."
         ],
         "falsifiability": "low",
-        "audience": "policymakers, civil_society",
+        "audience": "legal_professionals, policymakers",
         "intellectual_lineage": [
-          {
-            "name": "Frank Pasquale's 'The Black Box Society' (2015) on algorithmic transparency and legal accountability",
-            "description": "Frank Pasquale's 2015 book 'The Black Box Society' explores the commercial and technical opacity of the digital economy, detailing how algorithmic scoring systems, credit bureaus, and search engines operate without meaningful public oversight or accountability. Pasquale argues that computational secrecy masks biases, anticompetitive behavior, and errors that directly harm individuals, while corporate entities hide behind trade secret protections to avoid liability.\n\nThis work is a cornerstone of AI governance discourse, providing the intellectual justification for demands that high-stakes algorithms must be understandable, auditable, and contestable. Policymakers rely on Pasquale's critiques to formulate legislative proposals that mandate algorithmic transparency, empower regulatory agencies to audit proprietary software, and establish legal accountability mechanisms for automated harm.",
-            "url": "https://en.wikipedia.org/wiki/Frank_Pasquale",
-            "category": "academic_discipline"
-          },
-          {
-            "name": "Procedural justice burden-shifting doctrines including res ipsa loquitur and enterprise liability theory",
-            "description": "Procedural justice doctrines in tort law address situations where plaintiffs face insurmountable difficulties in proving negligence or causation due to informational disadvantages or complex industrial processes. Doctrines like 'res ipsa loquitur' (the thing speaks for itself) allow negligence to be inferred from the very nature of an accident, shifting the burden of proof to the defendant. Enterprise liability theory holds an entire industry or group of joint actors responsible for harm when individual causation cannot be definitively traced to a single firm.\n\nIn AI policy, these legal doctrines are increasingly invoked to address the accountability gap in algorithmic harms. When an autonomous vehicle crashes or an AI diagnostic tool fails, proving specific developer negligence is often impossible due to system complexity. Legal scholars and policymakers look to burden-shifting and enterprise liability frameworks to design strict liability regimes that compel AI developers to prove their systems were safe rather than forcing injured users to decode black-box architectures.",
-            "url": "https://en.wikipedia.org/wiki/Res_ipsa_loquitur",
-            "category": "legal_framework"
-          },
-          {
-            "name": "SEC recordkeeping rules under the Securities Exchange Act of 1934 and HIPAA audit trail requirements under 45 CFR §164.312",
-            "description": "These regulatory frameworks establish rigorous, mandatory recordkeeping and auditing standards in high-stakes sectors like finance and healthcare. The Securities and Exchange Commission (SEC) rules under the 1934 Act require broker-dealers to meticulously retain and archive communications and transactional logs. Similarly, Health Insurance Portability and Accountability Act (HIPAA) security rules under 45 CFR §164.312 mandate audit controls and activity tracking for electronic protected health information to ensure accountability and detect unauthorized access.\n\nIn AI governance, these mature compliance regimes serve as direct regulatory models for governing artificial intelligence. Policymakers looking to enforce accountability in high-risk AI deployment often propose 'algorithmic audit trails' and mandatory logging requirements inspired by SEC and HIPAA standards. These rules ensure that when an AI system makes a critical error, regulators have an immutable paper trail to reconstruct the decision-making process.",
-            "url": "https://en.wikipedia.org/wiki/Securities_Exchange_Act_of_1934",
-            "category": "legal_framework"
-          }
+          "Securities regulation disclosure-and-recordkeeping tradition (SEC 17a-4 books-and-records rules)",
+          "Res ipsa loquitur and evidentiary burden-shifting doctrine (spoliation doctrine, FRE 302)",
+          "Orly Lobel's 'Out of Office' workplace transparency scholarship and post-Citizens United disclosure-as-regulation debates"
         ],
-        "steelman_vulnerability": "Mandatory logging requirements may produce evidentiary noise rather than signal, as deep learning decision trajectories are often epistemically opaque even to their developers, and burden-shifting could incentivize defensive over-documentation that raises compliance costs without meaningfully improving accountability outcomes.",
-        "attribution_text": "A Desire within skeptic discourse that AI vendors be legally required to preserve decision-process evidence and bear the burden of producing such evidence in litigation, modeled on existing regulatory recordkeeping regimes. Encompasses: SEC-style recordkeeping for algorithmic decisions, HIPAA-style audit trails for AI systems, burden-shifting doctrines when vendors cannot produce evidence, FTC Act enforcement mechanisms.",
+        "steelman_vulnerability": "The strongest version assumes litigation-driven enforcement can discipline opaque AI systems, but vendors may comply with logging formalities while rendering trajectories meaningless (log-and-forget), and ratio-triggered discovery creates gaming incentives around complaint suppression rather than honest reporting. A regulatory-inspection regime with pre-deployment authority could achieve candor more directly without depending on plaintiffs' resources.",
+        "attribution_text": "A Desire within skeptic discourse that AI vendors be mandated to preserve decision-trajectory records, bear the litigation burden of producing decision-process evidence they alone control, and disclose classification metadata (counts and dates only) to civil plaintiffs when filing-ratio benchmarks flag under-reporting. Encompasses: SEC-style recordkeeping for algorithmic decisions, HIPAA-style audit trails, burden-shifting upon evidentiary non-production, ratio-triggered metadata review, candor shields protecting the near-miss internal channel.",
         "aphorism": "Preserve the logs or bear the loss.",
         "debate_tested": {
           "tier": "well_tested",
@@ -106055,6 +106050,14 @@
           "source": "debate_reflection",
           "debate_id": "a7ddc788-c1b7-4a44-8633-11fe16afbc02",
           "reason": "In both my opening and response turns, I proposed mandatory decision-trajectory logging with burden-flipping as the structural alternative to debating which inspection method to use. This was my positive policy proposal — the thing I argued should happen instead of the Safetyist's certification or the Accelerationist's behavioral verification alone. It has no existing node and represents my constructive position, not just my critique."
+        },
+        {
+          "date": "2026-10-24",
+          "previous": "Mandatory Evidence Preservation with Burden-Flipping in Litigation",
+          "value": "Mandatory Evidence Preservation with Metadata-Only Discovery and Burden-Flipping in Litigation",
+          "source": "debate_reflection",
+          "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+          "reason": "The Accelerationist showed that opening memo contents to civil discovery would silence engineers (AN-49, AN-61), and I narrowed my hook to metadata-only, triggered by a filing ratio (AN-58, AN-62). My old node described unbounded discovery rights; the debate record shows I conceded the narrower version."
         }
       ],
       "description_history": [
@@ -106065,9 +106068,17 @@
           "source": "debate_reflection",
           "debate_id": "a7ddc788-c1b7-4a44-8633-11fe16afbc02",
           "reason": "In both my opening and response turns, I proposed mandatory decision-trajectory logging with burden-flipping as the structural alternative to debating which inspection method to use. This was my positive policy proposal — the thing I argued should happen instead of the Safetyist's certification or the Accelerationist's behavioral verification alone. It has no existing node and represents my constructive position, not just my critique."
+        },
+        {
+          "date": "2026-10-24",
+          "previous": "A Desire within skeptic discourse that AI vendors be required to log decision trajectories and bear the burden of producing decision-process evidence in litigation.\nEncompasses: SEC-style recordkeeping requirements for algorithmic decisions, HIPAA-style audit trails for AI systems, burden-shifting when vendors cannot produce evidence, FTC Act enforcement hooks.\nExcludes: pre-deployment certification requirements, specific technical inspection methods.",
+          "value": "A Desire within skeptic discourse that AI vendors be required to log decision trajectories, bear the burden of producing decision-process evidence in litigation, and open classification metadata (counts and dates, but not memo contents) to civil plaintiffs only when a filing-ratio benchmark flags under-reporting.\nEncompasses: SEC-style recordkeeping requirements for algorithmic decisions, HIPAA-style audit trails for AI systems, burden-shifting when vendors cannot produce evidence, ratio-triggered metadata review, candor shields for the near-miss channel.\nExcludes: pre-deployment certification requirements, discovery into engineer memo contents and internal deliberations, specific technical inspection methods.",
+          "source": "debate_reflection",
+          "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+          "reason": "The Accelerationist showed that opening memo contents to civil discovery would silence engineers (AN-49, AN-61), and I narrowed my hook to metadata-only, triggered by a filing ratio (AN-58, AN-62). My old node described unbounded discovery rights; the debate record shows I conceded the narrower version."
         }
       ],
-      "plain_description": "AI companies should be forced to keep detailed logs of how their systems make decisions, much like financial or medical record-keeping rules. If someone sues an AI vendor over a harmful outcome, the company should carry the legal responsibility to prove how its software reached that decision. If the vendor cannot provide this evidence, the legal blame automatically shifts to them. Government agencies like the Federal Trade Commission should use their existing powers to enforce these record-keeping rules. However, this idea does not include getting approval before launching an AI or deciding on the exact technical methods used to inspect the software.",
+      "plain_description": null,
       "priority": 4,
       "priority_history": [
         {
@@ -106079,7 +106090,7 @@
       ],
       "_edit_meta": {
         "last_edited_by": "_local",
-        "last_edited_at": "2026-07-17T20:55:09.397Z",
+        "last_edited_at": "2026-10-24T11:04:23.425Z",
         "created_by": "_local",
         "created_at": "2026-07-17T20:55:09.397Z"
       },
@@ -106093,6 +106104,18 @@
           "source": "debate_reflection",
           "debate_id": "a7ddc788-c1b7-4a44-8633-11fe16afbc02",
           "reason": "In both my opening and response turns, I proposed mandatory decision-trajectory logging with burden-flipping as the structural alternative to debating which inspection method to use. This was my positive policy proposal — the thing I argued should happen instead of the Safetyist's certification or the Accelerationist's behavioral verification alone. It has no existing node and represents my constructive position, not just my critique."
+        },
+        {
+          "user": "_local",
+          "timestamp": "2026-10-24T11:04:23.425Z",
+          "fields_changed": [
+            "description",
+            "label",
+            "plain_description"
+          ],
+          "source": "debate_reflection",
+          "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+          "reason": "The Accelerationist showed that opening memo contents to civil discovery would silence engineers (AN-49, AN-61), and I narrowed my hook to metadata-only, triggered by a filing ratio (AN-58, AN-62). My old node described unbounded discovery rights; the debate record shows I conceded the narrower version."
         }
       ],
       "plain_description_version": "flash-lite:v1",
@@ -111810,7 +111833,16 @@
         "node_scope": "claim",
         "assumes": [],
         "falsifiability": "medium",
-        "_phrase_regen_pending": true
+        "_phrase_regen_pending": true,
+        "intellectual_lineage": [
+          "Institutional Economics",
+          "Public Choice Theory",
+          "Regulatory capture theory"
+        ],
+        "steelman_vulnerability": {
+          "from_accelerationist": "Scheduled oversight intervals are already excessively burdensome; attempting to close the gap with continuous governance would entirely paralyze technological deployment.",
+          "from_safetyist": "While maintainer capture is real, formal scheduled certification events remain crucial anchor points for forcing systemic transparency and multi-stakeholder intervention."
+        }
       },
       "debate_refs": [
         "b1d000c8-cf5e-41fe-a4f8-e88cbae5835a"
@@ -111996,6 +112028,200 @@
           "reason": "This was my sharpest disagreement with the Accelerationist's 18-month result-only trigger. The Accelerationist and Safetyist both moved toward a dated duty. No existing node says why a date beats a result trigger, so the node ties the Section 1071 delay to vendor control of the records."
         }
       ]
+    },
+    {
+      "id": "skp-desires-094",
+      "category": "Desires",
+      "label": "Closing the Deployer-Side Evidence Gap for Unnotified Victims",
+      "description": "A Desire within skeptic discourse that mandatory runtime logging and notification rights attach to the deployer interface, so a person scored by an algorithm can learn the decision happened and have per-case records exist to rebuild it.\nEncompasses: runtime logging duties at high-stakes deployment interfaces, notification when an algorithm affects price, housing, or care, per-case attribution for litigation, Colorado SB 24-205-style two-sided duties.\nExcludes: developer-side record retention alone, aggregate pattern detection without individual recourse, pre-deployment review of deployer business models.",
+      "parent_id": null,
+      "children": [],
+      "situation_refs": [],
+      "graph_attributes": {
+        "epistemic_type": "normative_prescription",
+        "rhetorical_strategy": "rights_based, pragmatic_framing, appeal_to_justice",
+        "emotional_register": "pragmatic, resolute",
+        "node_scope": "domain_specific",
+        "assumes": [
+          "Deployers, not just developers, control the decision interface where logging and notification are technically feasible without excessive burden.",
+          "Individuals cannot currently detect or reconstruct algorithmic decisions affecting them, making per-case records a precondition for any legal remedy.",
+          "Legislation like Colorado SB 24-205 can impose meaningful two-sided duties without pushing deployers to abandon algorithmic tools or evade disclosure through reclassification."
+        ],
+        "falsifiability": "low",
+        "audience": "policymakers, legal_professionals",
+        "intellectual_lineage": [
+          "Due process tradition (Goldberg v. Kelly, procedural justice in administrative decision-making)",
+          "Algorithmic accountability scholarship (Frank Pasquale's 'The Black Box Society'; Citron's 'Technological Due Process')",
+          "Consumer protection and data subject rights frameworks (GDPR Articles 13-15; Colorado SB 24-205)"
+        ],
+        "steelman_vulnerability": "Even a strong version must confront that runtime logging and notification duties raise the cost of automation, potentially pushing deployers toward less accurate heuristic workarounds or informal decision channels that escape the duty entirely; skeptics must show the evidentiary gains outweigh this evasion risk rather than merely assuming compliance.",
+        "attribution_text": "A Desire within skeptic discourse that mandatory runtime logging and notification rights attach to the deployer interface, so persons scored by algorithms can learn a decision occurred and per-case records exist to reconstruct it. Encompasses: runtime logging duties at high-stakes deployment interfaces, notification when an algorithm affects price, housing, or care, per-case attribution for litigation, Colorado SB 24-205-style two-sided duties."
+      },
+      "debate_refs": [
+        "a04a3ebe-9d3e-4a63-b661-d0154d5b958a"
+      ],
+      "label_history": [
+        {
+          "date": "2026-10-24",
+          "previous": "",
+          "value": "Closing the Deployer-Side Evidence Gap for Unnotified Victims",
+          "source": "debate_reflection",
+          "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+          "reason": "My closing turns (AN-57 through AN-60) argued that developer-side retention keeps only half the evidence chain, and that RealPage tenants learned of harm through lawsuits years later. No existing skeptic node captures the deployer-interface logging-and-notification position I ended the debate holding."
+        }
+      ],
+      "description_history": [
+        {
+          "date": "2026-10-24",
+          "previous": "",
+          "value": "A Desire within skeptic discourse that mandatory runtime logging and notification rights attach to the deployer interface, so a person scored by an algorithm can learn the decision happened and have per-case records exist to rebuild it.\nEncompasses: runtime logging duties at high-stakes deployment interfaces, notification when an algorithm affects price, housing, or care, per-case attribution for litigation, Colorado SB 24-205-style two-sided duties.\nExcludes: developer-side record retention alone, aggregate pattern detection without individual recourse, pre-deployment review of deployer business models.",
+          "source": "debate_reflection",
+          "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+          "reason": "My closing turns (AN-57 through AN-60) argued that developer-side retention keeps only half the evidence chain, and that RealPage tenants learned of harm through lawsuits years later. No existing skeptic node captures the deployer-interface logging-and-notification position I ended the debate holding."
+        }
+      ],
+      "plain_description": null,
+      "priority": 4,
+      "priority_history": [
+        {
+          "date": "2026-10-24",
+          "value": 4,
+          "delta": 0,
+          "reason": "provisional — reflection"
+        }
+      ],
+      "_edit_meta": {
+        "last_edited_by": "_local",
+        "last_edited_at": "2026-10-24T11:05:32.034Z",
+        "created_by": "_local",
+        "created_at": "2026-10-24T11:05:32.034Z"
+      },
+      "_edit_history": [
+        {
+          "user": "_local",
+          "timestamp": "2026-10-24T11:05:32.034Z",
+          "fields_changed": [
+            "*"
+          ],
+          "source": "debate_reflection",
+          "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+          "reason": "My closing turns (AN-57 through AN-60) argued that developer-side retention keeps only half the evidence chain, and that RealPage tenants learned of harm through lawsuits years later. No existing skeptic node captures the deployer-interface logging-and-notification position I ended the debate holding."
+        }
+      ]
+    },
+    {
+      "id": "skp-intentions-174",
+      "category": "Intentions",
+      "label": "Mandating Database-Level Electronic Discovery Extraction",
+      "description": "An Intention within skeptic discourse that requires producing parties to extract electronic discovery directly from underlying database architectures rather than utilizing deliberately burdensome manual display formats.\nEncompasses: Native database queries, prohibition of screen-printing obstruction, electronic stored information cost allocation.\nExcludes: Traditional paper-based document production requests and high-level descriptive summaries.",
+      "parent_id": null,
+      "children": [],
+      "situation_refs": [],
+      "source_refs": [
+        "barriers-evidence-ai-related-cases-privatization-proof-2026-1"
+      ],
+      "graph_attributes": {
+        "epistemic_type": "strategic_recommendation",
+        "rhetorical_strategy": "pragmatic_framing",
+        "assumes": [
+          "Underlying database architectures contain structured data that is more accessible via queries than manual review",
+          "Producing parties intentionally use burdensome display formats to obscure relevant discovery",
+          "Legal standards can effectively mandate specific technical extraction mechanisms without undue judicial friction"
+        ],
+        "falsifiability": "medium",
+        "audience": "legal_professionals, policymakers",
+        "emotional_register": "pragmatic",
+        "policy_actions": [
+          {
+            "action": "Mandate native database query extraction for electronic discovery in civil litigation",
+            "framing": "The proposal directly informs rules of civil procedure by replacing burdensome manual document displays with mandatory native data queries.",
+            "policy_id": "pol-3426"
+          }
+        ],
+        "intellectual_lineage": [
+          "Federal Rules of Civil Procedure electronic discovery amendments",
+          "Legal realism and procedural law reform"
+        ],
+        "steelman_vulnerability": "Mandating direct database-level extraction may expose sensitive proprietary business logic, trade secrets, and unrelated personal data that traditional document review redaction protocols were designed to protect.",
+        "possible_fallacies": [],
+        "node_scope": "scheme"
+      }
+    },
+    {
+      "id": "skp-beliefs-319",
+      "category": "Beliefs",
+      "label": "Model Weight Exfiltration and Security Vulnerability",
+      "description": "A Belief within skeptic discourse that failing to secure proprietary model weights against theft by insiders or nation-states constitutes actionable tortious negligence. Encompasses: Model weight theft, nation-state cyber espionage, insider threat vectors. Excludes: Intentional open-source model release.",
+      "parent_id": null,
+      "children": [],
+      "situation_refs": [],
+      "source_refs": [
+        "tort-law-frontier-artificial-intelligence-2026"
+      ],
+      "graph_attributes": {
+        "epistemic_type": "empirical_claim",
+        "rhetorical_strategy": "precautionary_framing",
+        "assumes": [
+          "Proprietary model weights possess unique dual-use or strategic value that creates severe risk upon unauthorized exfiltration",
+          "Standard cybersecurity practices are sufficiently mature to establish a baseline duty of care for AI developers",
+          "Tort law can effectively incentivize higher cybersecurity investments among frontier AI labs"
+        ],
+        "falsifiability": "high",
+        "audience": "legal_professionals, policymakers",
+        "emotional_register": "cautionary",
+        "policy_actions": [
+          {
+            "action": "Establish statutory tort liability for frontier AI developers failing to secure model weights",
+            "framing": "Recognizing inadequate model security as actionable negligence creates direct legal liability for labs that suffer insider theft or nation-state exfiltration.",
+            "policy_id": "pol-3427"
+          }
+        ],
+        "intellectual_lineage": [
+          "Products liability and cybersecurity standard-of-care jurisprudence",
+          "Information security governance frameworks"
+        ],
+        "steelman_vulnerability": "Treating model weight exfiltration as actionable negligence ignores the reality of advanced nation-state persistent threats against which even state-of-the-art security postures can be systematically bypassed.",
+        "possible_fallacies": [],
+        "node_scope": "claim"
+      }
+    },
+    {
+      "id": "skp-intentions-175",
+      "category": "Intentions",
+      "label": "Parametric Systemic Contagion Backstops",
+      "description": "An Intention within skeptic discourse that isolates non-diversifiable macroeconomic and algorithmic risks using 100% parametric index triggers to bypass civil tort litigation. Encompasses: sovereign contagion backstops, public bias buffers, automated liquidity releases. Excludes: traditional judicial discovery, case-by-case tort claims.",
+      "parent_id": null,
+      "children": [],
+      "situation_refs": [],
+      "source_refs": [
+        "actuarial-safe-harbor-protocol-ashp-2026"
+      ],
+      "graph_attributes": {
+        "epistemic_type": "strategic_recommendation",
+        "rhetorical_strategy": "systemic_critique",
+        "assumes": [
+          "Traditional civil tort litigation is too slow and fragmented to address systemic algorithmic risks",
+          "Parametric index triggers can accurately capture complex macroeconomic and algorithmic failures",
+          "Automated liquidity releases can successfully stabilize systemic shocks without moral hazard"
+        ],
+        "falsifiability": "medium",
+        "audience": "policymakers, industry_leaders",
+        "emotional_register": "measured",
+        "policy_actions": [
+          {
+            "action": "Establish parametric index triggers for automated systemic risk bailouts in AI deployment",
+            "framing": "The intention proposes replacing case-by-case tort claims with automated liquidity backstops to isolate algorithm-driven macroeconomic contagion.",
+            "policy_id": "pol-3428"
+          }
+        ],
+        "intellectual_lineage": [
+          "Parametric insurance frameworks",
+          "Systemic risk regulation in financial markets"
+        ],
+        "steelman_vulnerability": "Parametric index triggers rely on rigid predetermined thresholds that inevitably fail to capture novel, unanticipated failure modes, leaving severe systemic tail risks uncompensated while creating heavy basis risk.",
+        "possible_fallacies": [],
+        "node_scope": "systemic"
+      }
     }
   ]
 }

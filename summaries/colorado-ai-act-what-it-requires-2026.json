@@ -1,0 +1,419 @@
+{
+  "doc_id": "colorado-ai-act-what-it-requires-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-24T08:33:20Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 32768,
+    "extraction_mode": "fire",
+    "taxonomy_filter": "rag",
+    "taxonomy_nodes": 40,
+    "fire_confidence_threshold": 0.7,
+    "fire_stats": {
+      "api_calls": 1,
+      "iterations": 0,
+      "claims_total": 2,
+      "claims_confident": 2,
+      "claims_iterated": 0,
+      "elapsed_seconds": 9.7,
+      "termination_reason": "all_confident"
+    }
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "colorado-ai-act-what-it-requires-2026",
+    "measured_at": "2026-10-24T08:38:01.2919195-04:00",
+    "stages": [
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 30175,
+        "out_units": "items",
+        "out_count": 8,
+        "ratio": 0.0003,
+        "flags": {
+          "dedup_claims_removed": 0,
+          "dedup_points_removed": 0,
+          "density_floor_hit": 0,
+          "factual_claims": 2,
+          "null_node_rate": 0,
+          "total_points": 5,
+          "unmapped_concepts": 1,
+          "used_fire": 1
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 979,
+        "out_units": "nodes",
+        "out_count": 40,
+        "ratio": 0.0409,
+        "flags": {
+          "above_threshold": 40,
+          "beliefs_selected": 10,
+          "below_threshold_forced": 0,
+          "desires_selected": 4,
+          "effective_threshold": 0.5368,
+          "intentions_selected": 26,
+          "rerank_applied": false,
+          "rerank_top1_delta": 0,
+          "synthetic_nodes_scored": 866,
+          "threshold_floor": 0.2,
+          "top_k": 40
+        }
+      },
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 3,
+        "out_units": "still_unmapped",
+        "out_count": 1,
+        "ratio": 0.3333,
+        "flags": {
+          "near_miss_count": 1,
+          "resolved_count": 2,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      }
+    ],
+    "cumulative_retention": 0.0409
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": [
+        {
+          "stance": "opposed",
+          "taxonomy_node_id": "acc-intentions-047",
+          "mechanism_type": null,
+          "category": "Intentions",
+          "point": "The document contrasts Colorado's approach with frontier-model safety laws, noting that Colorado regulates automated decision-making technology based on use case rather than training compute thresholds. Accelerationist perspectives generally resist regulatory fragmentation and compliance burdens that do not align with capability scaling or innovation velocity. The document shows that Colorado chose a functional deployer-developer framework instead of targeting the largest foundational models. However, this sector-specific approach creates separate regulatory tracks for companies operating across jurisdictions.",
+          "verbatim": "Unlike California’s SB 53 or New York’s RAISE Act, Colorado’s law was never a frontier-model safety statute. It does not use a training-compute threshold and does not regulate the handful of labs building the largest general-purpose models.",
+          "excerpt_context": "Page 2",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Regulate AI systems based on functional deployment use cases rather than training compute thresholds.",
+          "attribution_text": "An Intention within accelerationist discourse that rejects training-compute thresholds in favor of use-case agnostic regulatory frameworks. Encompasses: compute threshold exemptions, functional deployment models, regulatory fragmentation.",
+          "vocabulary_terms": [
+            "regulation_adaptive",
+            "risk_innovation"
+          ],
+          "retrieval_confidence": 0.6627,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-128",
+              "label": "Tying Open-Weight Safe Harbors to a Capability-Indexed, Re-Measured Threshold",
+              "score": 0.7311
+            },
+            {
+              "id": "acc-intentions-122",
+              "label": "Pairing Post-Market Telemetry with Empirically-Triggered Sunset Clauses",
+              "score": 0.7044
+            },
+            {
+              "id": "acc-beliefs-116",
+              "label": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+              "score": 0.6969
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "acc-intentions-128",
+              "label": "Tying Open-Weight Safe Harbors to a Capability-Indexed, Re-Measured Threshold",
+              "score": 0.7311
+            },
+            {
+              "id": "acc-intentions-122",
+              "label": "Pairing Post-Market Telemetry with Empirically-Triggered Sunset Clauses",
+              "score": 0.7044
+            },
+            {
+              "id": "acc-beliefs-117",
+              "label": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+              "score": 0.6969
+            }
+          ]
+        }
+      ]
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-111",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "Developers must provide technical documentation describing the automated decision-making technology's intended uses, training data categories, known limitations, and instructions for use, while retaining records for at least three years. This documentation requirement operationalizes institutional accountability by ensuring that foundational technical parameters and operational boundaries are recorded. From a safetyist perspective, maintaining comprehensive system inventories and technical documentation is essential for pre-deployment assessment and risk visibility. The document notes that these developer duties take effect on January 1, 2027 under SB 26-189.",
+          "verbatim": "Developers must provide technical documentation describing the ADMT’s intended uses, the categories of data used to train it, its known limitations, and instructions for use; notify deployers of material updates or modifications; and retain compliance records for at least three years.",
+          "excerpt_context": "Page 3",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Mandate technical documentation and compliance record retention for automated decision-making technology developers.",
+          "attribution_text": "An Intention within safetyist discourse that mandates technical documentation and record retention for automated decision systems to ensure baseline operational visibility. Encompasses: technical documentation, training data categories, compliance record retention.",
+          "vocabulary_terms": [
+            "accountability_institutional",
+            "transparency_accountability"
+          ],
+          "retrieval_confidence": 0.5408,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-024",
+              "label": "Treating Missing AI Documentation as a Safety Liability",
+              "score": 0.7105
+            },
+            {
+              "id": "saf-intentions-169",
+              "label": "Automating Safety Checks from Code Commit to Deployment",
+              "score": 0.6488
+            },
+            {
+              "id": "saf-intentions-238",
+              "label": "Judicial Citation Verification Mandates",
+              "score": 0.6392
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-024",
+              "label": "Treating Missing AI Documentation as a Safety Liability",
+              "score": 0.7105
+            },
+            {
+              "id": "saf-intentions-169",
+              "label": "Automating Safety Checks from Code Commit to Deployment",
+              "score": 0.6488
+            },
+            {
+              "id": "saf-intentions-238",
+              "label": "Judicial Citation Verification Mandates",
+              "score": 0.6392
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-desires-010",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The reenacted Colorado law applies when automated decision-making technology processes personal data and uses computation to generate outputs used in consequential decisions regarding education, employment, housing, financial services, insurance, healthcare, or government benefits. This scope ensures that high-stakes domains involving individual rights and economic security are subject to binding operational rules. Safetyist frameworks emphasize rigorous oversight in domains where automated systems directly impact human welfare and legal standing. The document specifies that general-purpose tools outside these domains remain exempt.",
+          "verbatim": "The obligations only attach when that technology is used in a consequential decision: a decision relating to an individual’s access to, eligibility for, or compensation related to education, employment, housing, financial or lending services, insurance, health-care services, or essential government services and public benefits.",
+          "excerpt_context": "Pages 3-4",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Automated decision systems deployed in consequential high-stakes domains ought to be subject to strict legal compliance duties.",
+          "attribution_text": "A Desire within safetyist discourse that high-stakes automated decision systems governing essential human access be subjected to rigorous legal compliance standards. Encompasses: consequential decision domains, high-stakes algorithmic deployment, legal compliance duties.",
+          "vocabulary_terms": [
+            "governance_oversight",
+            "deployment_gated"
+          ],
+          "retrieval_confidence": 0.6817,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.6983
+            },
+            {
+              "id": "saf-intentions-087",
+              "label": "Replacing Abstract Safety Claims with Testable Engineering Controls",
+              "score": 0.6826
+            },
+            {
+              "id": "saf-desires-010",
+              "label": "Legal Comprehension as a Core AI Capability",
+              "score": 0.6817
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-263",
+          "category": "Intentions",
+          "point": "The document notes that under Colorado SB 26-189, the state Attorney General must provide a 60-day notice and an opportunity to cure alleged violations before bringing an enforcement action prior to January 1, 2030.",
+          "verbatim": null,
+          "excerpt_context": "unmapped_concept_backfill",
+          "extraction_confidence": 0.7,
+          "vocabulary_terms": []
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-141",
+          "mechanism_type": "governance_body",
+          "category": "Intentions",
+          "point": "Colorado’s law targets immediate, verifiable harms in consequential decisions such as employment, lending, and healthcare, rather than regulating speculative science-fiction frontier risks. The legislation establishes concrete deployer and developer duties, including consumer notice and adverse decision explanations, backed by Attorney General enforcement. From a skeptic perspective, focusing governance on documented, present harms in specific economic sectors is preferable to abstract existential risk frameworks. The document highlights that Colorado's statute avoids training-compute thresholds and instead governs real-world impacts on individuals.",
+          "verbatim": "It regulates any developer or deployer — of any size — whose automated system is used to make or influence decisions about individual people in specific high-stakes contexts. That is a fundamentally different regulatory model, even though the three laws are often discussed together as “state AI laws.”",
+          "excerpt_context": "Page 2",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Direct regulatory enforcement toward documented consequential decisions rather than speculative frontier risks.",
+          "attribution_text": "An Intention within skeptic discourse that prioritizes regulating verifiable high-stakes deployment impacts over speculative future risks. Encompasses: consequential decision regulation, sectoral compliance oversight, documented harm mitigation.",
+          "vocabulary_terms": [
+            "documented_present_harm",
+            "speculative_risk_critique"
+          ],
+          "retrieval_confidence": 0.6237,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-124",
+              "label": "Replacing Pre-Market Gates with Revenue-Scaled Post-Market Liability",
+              "score": 0.715
+            },
+            {
+              "id": "skp-intentions-097",
+              "label": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+              "score": 0.6992
+            },
+            {
+              "id": "skp-beliefs-178",
+              "label": "Liability-Motivated Suppression of AI Risk Information",
+              "score": 0.6968
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-intentions-097",
+              "label": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+              "score": 0.6992
+            },
+            {
+              "id": "skp-beliefs-178",
+              "label": "Liability-Motivated Suppression of AI Risk Information",
+              "score": 0.6968
+            },
+            {
+              "id": "skp-intentions-107",
+              "label": "Coupling Pre-Deployment Independent Audits with Algorithmic Disgorgement and Strict Liability",
+              "score": 0.6937
+            }
+          ]
+        },
+        {
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "SB 26-189 removed the standalone defined term 'algorithmic discrimination' from SB 24-205, opting instead to allocate fault between developers and deployers under existing state anti-discrimination laws. The document explains that discrimination arising from automated decision-making technology is now litigated through general civil anti-discrimination frameworks. This shift demonstrates how emerging technologies expose gaps in legal accountability and force lawmakers to adapt traditional liability mechanisms. The document notes that exclusive enforcement authority rests with the Colorado Attorney General with no private right of action.",
+          "verbatim": "Instead, the reenacted law addresses discrimination by allocating fault between developers and deployers in civil actions alleging unlawful discrimination under Colorado’s existing discrimination law, rather than by creating a free-standing “algorithmic discrimination” prohibition of its own.",
+          "excerpt_context": "Pages 4-5",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Algorithmic discrimination claims are integrated into existing state anti-discrimination liability frameworks rather than governed by standalone statutes.",
+          "attribution_text": "A Belief within skeptic discourse that algorithmic discrimination is effectively addressed through the allocation of fault under existing statutory anti-discrimination frameworks. Encompasses: developer-deployer fault allocation, existing anti-discrimination law, statutory enforcement gaps.",
+          "vocabulary_terms": [
+            "accountability_algorithmic",
+            "bias_systemic"
+          ],
+          "retrieval_confidence": 0.637,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-desires-074",
+              "label": "Civil Rights Parity for Algorithmic Decisions",
+              "score": 0.7389
+            },
+            {
+              "id": "skp-beliefs-029",
+              "label": "Victims of AI Harm Cannot Access the Technical Knowledge Needed to Prove Causation",
+              "score": 0.6819
+            },
+            {
+              "id": "skp-desires-082",
+              "label": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+              "score": 0.6678
+            }
+          ],
+          "retrieval_low_confidence": true,
+          "stance_pre_gate": "aligned",
+          "stance": "strongly_opposed",
+          "stance_polarity_flag": true,
+          "stance_polarity_confidence": 6.4473,
+          "stance_polarity_source": "attribution_text",
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-desires-074",
+              "label": "Civil Rights Parity for Algorithmic Decisions",
+              "score": 0.7389
+            },
+            {
+              "id": "skp-beliefs-029",
+              "label": "Victims of AI Harm Cannot Access the Technical Knowledge Needed to Prove Causation",
+              "score": 0.6819
+            },
+            {
+              "id": "skp-desires-082",
+              "label": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+              "score": 0.6678
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "Colorado's original AI Act, SB 24-205, was signed into law on May 17, 2024, but was never implemented because its effective date was first delayed from February 1, 2026 to June 30, 2026 via SB 25B-004, and subsequently repealed and reenacted under SB 26-189 on May 14, 2026.",
+      "claim_label": "Colorado AI Act Legislative History and Repeal",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2024-05-17 to 2026-05-14",
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-188",
+        "skp-beliefs-242"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "SB 26-189 establishes an operative enforcement and compliance date of January 1, 2027, granting the Colorado Attorney General exclusive enforcement authority under the Colorado Consumer Protection Act with a mandatory 60-day cure period for violations prior to January 1, 2030.",
+      "claim_label": "Colorado SB 26-189 Enforcement Date and Authority",
+      "doc_position": "supports",
+      "temporal_scope": "predictive",
+      "temporal_bound": "2027-01-01",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-111",
+        "skp-intentions-139"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    }
+  ],
+  "unmapped_concepts": [
+    {
+      "suggested_label": "Mandatory Attorney General Cure Period",
+      "suggested_description": "An Intention within safetyist discourse that regulatory enforcement statutes mandate a statutory cure window before state authorities initiate legal action for compliance failures. Encompasses: pre-enforcement cure periods, Attorney General notice requirements, phased regulatory compliance. Excludes: strict immediate penalty enforcement regimes.",
+      "concept": "The document notes that under Colorado SB 26-189, the state Attorney General must provide a 60-day notice and an opportunity to cure alleged violations before bringing an enforcement action prior to January 1, 2030.",
+      "suggested_pov": "safetyist",
+      "suggested_category": "Intentions",
+      "reason": "Existing taxonomy nodes cover enforcement and liability but do not specifically address mandatory pre-enforcement cure periods as a statutory governance instrument.",
+      "resolved_node_id": "saf-intentions-263"
+    }
+  ]
+}

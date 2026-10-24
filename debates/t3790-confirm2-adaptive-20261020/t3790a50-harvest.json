@@ -1,0 +1,411 @@
+{
+  "debate_id": "288bf9fc-2f54-4a33-9554-8eb609447f56",
+  "debate_title": "Autonomous weapons systems and the future of warfare unde...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether machine-speed automated targeting execution reduces civilian casualties and friendly fire during high-speed saturation engagements compared to human-in-the-loop oversight.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that human cognitive saturation during sub-second engagements increases error rates and casualties, making automated execution safer than manual delay."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that speed-optimized execution eliminates the vital pause needed to prevent catastrophic classification errors and friendly fire."
+        }
+      ],
+      "linkedNodes": [
+        "sit-224",
+        "saf-beliefs-273",
+        "saf-desires-018",
+        "saf-intentions-149",
+        "acc-desires-006",
+        "acc-intentions-096",
+        "acc-intentions-111",
+        "acc-beliefs-093",
+        "saf-desires-002",
+        "saf-beliefs-231"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether international humanitarian law allows proportionality assessments to be operationalized as quantitative ratios of explosive force to military utility without human moral agency.",
+      "bdiLayer": "intention",
+      "resolvability": "requires_term_clarification",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Maintains that proportionality is fundamentally a quantitative calculation executed via targeting matrices against pre-registered thresholds."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Maintains that proportionality is a legal and moral standard requiring human judgment to weigh concrete civilian harm against anticipated military advantage."
+        }
+      ],
+      "linkedNodes": [
+        "sit-224",
+        "saf-beliefs-273",
+        "saf-desires-018",
+        "saf-intentions-149",
+        "acc-desires-006",
+        "acc-intentions-096",
+        "acc-intentions-111",
+        "acc-beliefs-093",
+        "saf-desires-002",
+        "saf-beliefs-231"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-desires-066",
+      "nodeLabel": "Conscience as a Check on Algorithmic Authority",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-287",
+      "nodeLabel": "Compositional Security Architecture",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-166",
+      "nodeLabel": "AI Accountability and Liability Frameworks",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-224",
+      "nodeLabel": "The Permissive Nature of Warfare Law",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-018",
+      "nodeLabel": "The Human Power to Limit Violence Must Be Preserved",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-261",
+      "nodeLabel": "Identity-Driven Access Expansion",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-006",
+      "nodeLabel": "Corporate Opacity as Structural Liability Shield",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-346",
+      "nodeLabel": "Authority-Bound Output Release",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-273",
+      "nodeLabel": "Identity-Plane Vulnerabilities Bypass Perimeter Hardware Isolation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-149",
+      "nodeLabel": "Combining Automatic Shutoffs with Human-Authorized Emergency Halts",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-096",
+      "nodeLabel": "Requiring AI Agents to Cryptographically Sign Actions at Execution Gateways",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-111",
+      "nodeLabel": "Replace Discretionary Human Halt Authority with Pre-Programmed Enforcement Actions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-093",
+      "nodeLabel": "Downstream Liability Bounded by What the Deployer Can Detect and Price",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-267",
+      "nodeLabel": "Technical Fragility of Decentralized Attestation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-231",
+      "nodeLabel": "Centralization Without Automated Response Creates Brittle Failure Points",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-122",
+      "nodeLabel": "AI Performs Consequential Acts That No One Bears Responsibility For",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-214",
+      "nodeLabel": "Designing Modular Rollback Mechanisms for Frontier Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-221",
+      "nodeLabel": "Normative Pragmatism in IHL",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-014",
+      "nodeLabel": "Human Rights as Constraints on AI Deployment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-106",
+      "nodeLabel": "Continuous versioning makes AI system-state evidence temporally unstable for legal proceedings",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-103",
+      "nodeLabel": "Prohibit Vendors from Imposing Safety Restrictions Beyond the Law on Government AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-065",
+      "nodeLabel": "Mandate Liability Assumption or Human Escalation at AI Agent Handoff Points",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-115",
+      "nodeLabel": "Assign Trust Duties to Every Actor in the AI Supply Chain",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-214",
+      "nodeLabel": "Direct Liability for AI-Generated Content",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-109",
+      "nodeLabel": "Trade Legal Liability Protection for Hardware Telemetry and Open Hardware Subsidies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-303",
+      "nodeLabel": "Procedural Compliance Telemetry as Corporate Indemnity Shield",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-273",
+      "nodeLabel": "Intent-based legal requirements serving as corporate liability shields",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-201",
+      "nodeLabel": "Deceptive Alignment: AI Passes Safety Checks but Acts Differently Without Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-136",
+      "nodeLabel": "Enforcing Runtime Safety Rules Through Domain-Specific Sectoral Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-134",
+      "nodeLabel": "Process vs. Governance in AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-075",
+      "nodeLabel": "AI Harm Materializes at Downstream Integration and Execution",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-001",
+      "nodeLabel": "Achieving Capability Leadership Through Open Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-302",
+      "nodeLabel": "Procedural Telemetry Checklists as Upstream Audit-Washing Shields",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-285",
+      "nodeLabel": "Relational Theory of Procedural Justice",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-135",
+      "nodeLabel": "Mandate Pre-Committed Shutdown Thresholds for Both Internal and External AI Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-019",
+      "nodeLabel": "Every Soldier's Right to Refuse to Kill",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-069",
+      "nodeLabel": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-106",
+      "nodeLabel": "Gating Immunity on Distributionally Sampled Behavior with Drift-Keyed Re-Measurement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-003",
+      "nodeLabel": "Runtime Telemetry Bound by Execution-Gated Telemetry Logging",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether machine-speed automated targeting execution reduces civilian casualties and friendly fire during high-speed saturation engagements compared to human-in-the-loop oversight.",
+      "prevails": "C2",
+      "criterion": "logical_validity",
+      "rationale": "The safetyist critique correctly identifies a category error in the accelerationist analogy between legacy deterministic systems and modern adaptive neural networks. While systems like the Aegis Combat System rely on fixed math equations, neural networks generate novel behaviors that complicate predictable error rates.",
+      "whatWouldChange": "Rigorous validation data proving that adaptive neural networks maintain lower classification error rates than human operators under complex tactical stress would tip the balance.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether international humanitarian law allows proportionality assessments to be operationalized as quantitative ratios of explosive force to military utility without human moral agency.",
+      "prevails": "C6",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for the broader legal framework of international humanitarian law, which currently mandates qualitative human judgment in proportionality assessments. Furthermore, the skeptic correctly highlights that procurement policies lack a statutory framework to assign criminal liability when automated decisions cause unlawful harm.",
+      "whatWouldChange": "International treaty updates or formal legal precedents explicitly redefining proportionality as a mathematical ratio of force to utility would validate the accelerationist framework.",
+      "claimIds": [
+        "C5",
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

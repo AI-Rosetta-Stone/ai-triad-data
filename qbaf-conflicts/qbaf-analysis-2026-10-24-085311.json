@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-10-24T08:53:11.5109975-04:00",
+  "claim_count": 3,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "actuarial-safe-harbor-protocol-ashp-2026",
+      "label": "Non-Economic Damage Statutory Cap",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-217",
+        "acc-intentions-116"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "actuarial-safe-harbor-protocol-ashp-2026",
+      "label": "Reinsurance Capacity Withdrawal",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-206",
+        "acc-beliefs-074"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "actuarial-safe-harbor-protocol-ashp-2026",
+      "label": "36-Month Credibility Sandbox Structure",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-217",
+        "skp-intentions-102"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

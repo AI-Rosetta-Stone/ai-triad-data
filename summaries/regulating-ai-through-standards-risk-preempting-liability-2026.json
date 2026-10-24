@@ -1,0 +1,525 @@
+{
+  "doc_id": "regulating-ai-through-standards-risk-preempting-liability-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-24T08:33:20Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 32768,
+    "extraction_mode": "fire",
+    "taxonomy_filter": "rag",
+    "taxonomy_nodes": 41,
+    "fire_confidence_threshold": 0.7,
+    "fire_stats": {
+      "api_calls": 1,
+      "iterations": 0,
+      "claims_total": 4,
+      "claims_confident": 4,
+      "claims_iterated": 0,
+      "elapsed_seconds": 12.9,
+      "termination_reason": "all_confident"
+    }
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "regulating-ai-through-standards-risk-preempting-liability-2026",
+    "measured_at": "2026-10-24T08:41:18.0094795-04:00",
+    "stages": [
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 60551.0,
+        "out_units": "items",
+        "out_count": 12.0,
+        "ratio": 0.0002,
+        "flags": {
+          "dedup_claims_removed": 0,
+          "dedup_points_removed": 0,
+          "density_floor_hit": 0,
+          "factual_claims": 4,
+          "null_node_rate": 0.0,
+          "total_points": 7,
+          "unmapped_concepts": 1,
+          "used_fire": 1
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 979.0,
+        "out_units": "nodes",
+        "out_count": 41.0,
+        "ratio": 0.0419,
+        "flags": {
+          "above_threshold": 40,
+          "beliefs_selected": 15,
+          "below_threshold_forced": 1,
+          "desires_selected": 3,
+          "effective_threshold": 0.6679,
+          "intentions_selected": 23,
+          "rerank_applied": false,
+          "rerank_top1_delta": 0,
+          "synthetic_nodes_scored": 866,
+          "threshold_floor": 0.2,
+          "top_k": 40
+        }
+      },
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 3.0,
+        "out_units": "still_unmapped",
+        "out_count": 1.0,
+        "ratio": 0.3333,
+        "flags": {
+          "near_miss_count": 1,
+          "resolved_count": 2,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      }
+    ],
+    "cumulative_retention": 0.0419
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-intentions-047",
+          "mechanism_type": "other",
+          "category": "Intentions",
+          "point": "The document highlights that the EU Artificial Intelligence Act subjects AI systems to ex-ante safety regulation by treating them as products and requiring conformity to harmonized standards. The mechanism relies on delegating technical rulemaking power to European Standardization Organizations to establish baseline safety requirements. From an accelerationist perspective, while standardized compliance can streamline deployment, the author warns that rigid ex-ante frameworks risk creating a safe harbor that preempts tort law. The document notes that applying industrial-era standardization models directly to the digital economy creates significant regulatory compliance burdens.",
+          "verbatim": "The AIA consists of an ex-ante safety regulation for AI systems. It considers AI systems as products and makes them subject to safety requirements, primarily documentary ones, prescribing the adoption of certain obligations to put them on the market.",
+          "excerpt_context": "Section 2, Ex-Ante and Ex-Post Regulation for AI",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Regulate AI products through ex-ante standards while managing the risk of preempting tort liability.",
+          "attribution_text": "An Intention within accelerationist discourse that establishes ex-ante regulatory frameworks and standardization processes for AI systems while addressing the legal mechanics of preemption. Encompasses: ex-ante safety regulation, product standardization compliance, regulatory compliance burdens.",
+          "vocabulary_terms": [
+            "regulation_adaptive",
+            "risk_innovation"
+          ],
+          "retrieval_confidence": 0.7511,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-074",
+              "label": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+              "score": 0.7916
+            },
+            {
+              "id": "acc-intentions-075",
+              "label": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+              "score": 0.7734
+            },
+            {
+              "id": "acc-intentions-103",
+              "label": "Prohibit Vendors from Imposing Safety Restrictions Beyond the Law on Government AI",
+              "score": 0.7727
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-122",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that compliance with ex-ante regulatory regimes like the EU Artificial Intelligence Act may inadvertently preempt tort claims, creating a safe harbor that shields defendants from the consequences of their acts. The reasoning is that without a harmonized liability framework, such as the withdrawn Artificial Intelligence Liability Directive, plaintiffs face insurmountable hurdles under traditional fault-based rules due to AI opacity and complexity. From a safetyist perspective, this accountability void undermines victim compensation and removes essential deterrence against reckless deployment. The document notes that the withdrawal of the AILD leaves national fault-based rules ill-equipped to handle AI-specific harms.",
+          "verbatim": "As this article concludes, faced with an ex-ante regulation, such as the AIA, there is a serious risk of making ex-post liability far more problematic to affirm, with the effect of sheltering defendants from the consequences of their acts.",
+          "excerpt_context": "Section 1, Introduction",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Ex-ante regulatory compliance under the AIA risks creating a safe harbor that preempts post-hoc tort liability for AI harms.",
+          "attribution_text": "A Belief within safetyist discourse that ex-ante regulatory compliance under comprehensive statutory frameworks creates structural legal preemption that shields AI developers from post-hoc accountability. Encompasses: regulatory preemption of tort law, accountability voids, ex-post liability impediments.",
+          "vocabulary_terms": [
+            "accountability_institutional",
+            "liability_strict",
+            "speculative_future_harm"
+          ],
+          "retrieval_confidence": 0.6498,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-078",
+              "label": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+              "score": 0.7637
+            },
+            {
+              "id": "sit-134",
+              "label": "Process vs. Governance in AI Regulation",
+              "score": 0.7163
+            },
+            {
+              "id": "acc-beliefs-085",
+              "label": "Regulatory Structures as Barriers to Competitive AI Innovation",
+              "score": 0.7083
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.7001
+            },
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.6993
+            },
+            {
+              "id": "saf-desires-012",
+              "label": "No Profit Without Accountability",
+              "score": 0.6944
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-239",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The article observes that European standardization organizations are tasked with embedding complex ethical and fundamental rights considerations into technical standards without adequate institutional legitimacy. The mechanism involves delegating normative value choices regarding trustworthy AI to private standardization bodies rather than democratically elected legislatures. From a safetyist perspective, technical bodies are ill-equipped to perform this balancing act, leading to declamatory human rights rhetoric that fails to protect underrepresented victims. The document acknowledges that while standardization is necessary to keep pace with technology, it lacks mechanisms to account for local, real-life conditions.",
+          "verbatim": "This delegation of rule-making power to non-governmental standardization bodies in the digital field has already raised concerns for their lack of legitimacy and accountability, due to restricted publicity and the limited and complex nature of judicial review over harmonized standards.",
+          "excerpt_context": "Section 5, The Case of the European Union. Preemption on Steroids",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Delegating normative value choices to private standardization bodies undermines democratic legitimacy and accountability in AI governance.",
+          "attribution_text": "A Belief within safetyist discourse that delegating normative rule-making authority to private standardization bodies compromises democratic legitimacy and produces inadequate safety protections. Encompasses: standardization body delegation, democratic legitimacy deficits, fundamental rights integration failures.",
+          "vocabulary_terms": [
+            "governance_oversight",
+            "transparency_accountability"
+          ],
+          "retrieval_confidence": 0.4291,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-158",
+              "label": "Use Voluntary Standards as a Bridge to Mandatory AI Regulation",
+              "score": 0.6979
+            },
+            {
+              "id": "saf-intentions-136",
+              "label": "Enforcing Runtime Safety Rules Through Domain-Specific Sectoral Regulators",
+              "score": 0.6532
+            },
+            {
+              "id": "saf-beliefs-106",
+              "label": "Liability Asymmetry Punishes Regulators for Caution and Rewards Inaction",
+              "score": 0.6337
+            }
+          ],
+          "retrieval_low_confidence": true,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-158",
+              "label": "Use Voluntary Standards as a Bridge to Mandatory AI Regulation",
+              "score": 0.6979
+            },
+            {
+              "id": "saf-intentions-136",
+              "label": "Enforcing Runtime Safety Rules Through Domain-Specific Sectoral Regulators",
+              "score": 0.6532
+            },
+            {
+              "id": "saf-beliefs-106",
+              "label": "Liability Asymmetry Punishes Regulators for Caution and Rewards Inaction",
+              "score": 0.6337
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-201",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The author examines how the European Union strategically uses technical standards to project regulatory influence globally and secure digital sovereignty. The strategy involves leveraging the Brussels Effect by harmonizing internal technical standards with broader geopolitical ambitions for trustworthy AI. From a safetyist perspective, this global harmonization push exacerbates the difficulty of tailoring safety rules to local, real-life conditions where harms actually materialize. The document notes that the ambition to create global standards creates tension with the need for rigorous ex-post tort remedies.",
+          "verbatim": "The EU is openly attempting to shape the rules for the digital environment by 'strategically using standards to leverage influence at the global level'; in her 'Closing Statement' Speech of 2022, the Commissioner Vestager explicitly highlighted the 'need to influence global standards so that they reflect democratic values'.",
+          "excerpt_context": "Section 5, The Case of the European Union. Preemption on Steroids",
+          "extraction_confidence": 0.94,
+          "canonical_proposition": "Leverage technical standardization as a geopolitical instrument to project European regulatory influence globally.",
+          "attribution_text": "An Intention within safetyist discourse that utilizes technical standardization as an instrument of geopolitical strategy to establish global regulatory benchmarks for trustworthy AI. Encompasses: global standard harmonization, digital sovereignty promotion, extraterritorial regulatory influence.",
+          "vocabulary_terms": [
+            "governance_oversight",
+            "transparency_accountability"
+          ],
+          "retrieval_confidence": 0.7477,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.7591
+            },
+            {
+              "id": "saf-intentions-201",
+              "label": "Coordinate International AI Governance to Prevent Arms Races and Ensure Shared Safety Rules",
+              "score": 0.7477
+            },
+            {
+              "id": "saf-intentions-069",
+              "label": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+              "score": 0.7421
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-047",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The article points out that AI systems exhibit complexity, autonomy, and opacity, which make it excessively difficult for injured plaintiffs to meet ordinary fault-based burdens of proof in tort litigation. The mechanism at play is the 'black box' effect, where internal operations are inscrutable to outsiders and victims cannot identify wrongful acts or establish causation. From a skeptic perspective, this evidentiary asymmetry dismantles traditional consumer protection unless complemented by robust ex-post liability rules or burden-shifting mechanisms like the withdrawn AILD. The document notes that current national fault-based rules are fundamentally unsuited to handle AI-enabled harms.",
+          "verbatim": "The specific characteristics of AI, including complexity, autonomy and opacity (the so-called 'black box' effect), may make it difficult or prohibitively expensive for victims to identify the liable person and prove the requirements for a successful liability claim.",
+          "excerpt_context": "Section 2, Ex-Ante and Ex-Post Regulation for AI",
+          "extraction_confidence": 0.97,
+          "canonical_proposition": "AI opacity and complexity create insurmountable evidentiary barriers for plaintiffs under traditional fault-based liability rules.",
+          "attribution_text": "A Belief within skeptic discourse that algorithmic opacity and technical complexity create severe information asymmetries that prevent injured parties from satisfying traditional legal burdens of proof. Encompasses: black box opacity, evidentiary burdens in tort law, causal chain obscurity.",
+          "vocabulary_terms": [
+            "asymmetry_power",
+            "documented_present_harm",
+            "fairness_procedural"
+          ],
+          "retrieval_confidence": 0.554,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-288",
+              "label": "Evidentiary Dead End of Opaque AI Systems",
+              "score": 0.7666
+            },
+            {
+              "id": "skp-beliefs-289",
+              "label": "Recursive Opacity in AI Discovery",
+              "score": 0.7256
+            },
+            {
+              "id": "skp-beliefs-274",
+              "label": "Recursive opacity in AI document discovery",
+              "score": 0.7256
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-288",
+              "label": "Evidentiary Dead End of Opaque AI Systems",
+              "score": 0.7666
+            },
+            {
+              "id": "skp-beliefs-289",
+              "label": "Recursive Opacity in AI Discovery",
+              "score": 0.7256
+            },
+            {
+              "id": "skp-beliefs-274",
+              "label": "Recursive opacity in AI document discovery",
+              "score": 0.7256
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-196",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The author discusses how compliance with complex ex-ante regulations and GDPR-style mandates imposes disproportionate administrative overhead on smaller firms. The mechanism involves regulatory compliance costs that function effectively as a regressive tax, reducing profits for smaller technology developers by up to twelve percent. From a skeptic perspective, excessive administrative burdens entrench dominant market players while stifling innovative startups and decentralized developers. The document notes that regulatory compliance costs must be balanced against the risk of hindering productivity gains and economic growth.",
+          "verbatim": "The costs of complying with GDPR, for example, are estimated to have reduced profits for small European tech firms by up to 12 per cent.",
+          "excerpt_context": "Section 7, Conclusions",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Centralized ex-ante regulatory compliance burdens impose regressive economic costs that disadvantage smaller firms.",
+          "attribution_text": "A Belief within skeptic discourse that complex ex-ante compliance mandates impose disproportionate administrative costs that function as regressive taxes on smaller market participants. Encompasses: regressive compliance burdens, administrative overhead, small firm profitability reduction.",
+          "vocabulary_terms": [
+            "asymmetry_power",
+            "compliance_performative",
+            "risk_systemic_structural"
+          ],
+          "retrieval_confidence": 0.6651,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-124",
+              "label": "Replacing Pre-Market Gates with Revenue-Scaled Post-Market Liability",
+              "score": 0.6747
+            },
+            {
+              "id": "skp-beliefs-196",
+              "label": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+              "score": 0.6651
+            },
+            {
+              "id": "saf-beliefs-253",
+              "label": "Flat Compliance Fees Create Anti-Competitive Incumbent Moats",
+              "score": 0.6468
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-141",
+          "mechanism_type": "other",
+          "category": "Intentions",
+          "point": "The article advocates for maintaining and strengthening ex-post tort remedies alongside ex-ante rules to ensure that actual injuries suffered by affected individuals are properly redressed. The method proposed is to combine administrative safety standards with robust civil liability that responds to real-life harm rather than relying solely on abstract regulatory compliance. From a skeptic perspective, tort law is essential because it uncovers unknown risks, gathers vital information, and incentivizes providers to take utmost care. The document notes that relying exclusively on ex-ante standardisation leaves victims uncompensated and creates market failures.",
+          "verbatim": "Tort law not only performs a compensatory function. It also helps to uncover unknown risks, gather information, give the right incentives to providers, and 'provid[es] an incentive to manufacturers to use the utmost care in the business of distributing inherently dangerous items'.",
+          "excerpt_context": "Section 7, Conclusions",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Retain robust ex-post tort remedies alongside ex-ante regulation to ensure compensation and uncover unknown risks.",
+          "attribution_text": "An Intention within skeptic discourse that preserves and enforces robust ex-post tort remedies to complement ex-ante regulation, ensuring victim compensation and organizational accountability. Encompasses: ex-post tort enforcement, risk information gathering, manufacturer care incentives.",
+          "vocabulary_terms": [
+            "accountability_algorithmic",
+            "documented_present_harm",
+            "oversight_democratic"
+          ],
+          "retrieval_confidence": 0.4269,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-124",
+              "label": "Replacing Pre-Market Gates with Revenue-Scaled Post-Market Liability",
+              "score": 0.6593
+            },
+            {
+              "id": "skp-intentions-133",
+              "label": "Prevent Regulatory Capture by Diversifying AI Audit Methodologies",
+              "score": 0.653
+            },
+            {
+              "id": "skp-intentions-172",
+              "label": "Voluntary Compliance Code Harmonization",
+              "score": 0.6321
+            }
+          ],
+          "retrieval_low_confidence": true,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-intentions-133",
+              "label": "Prevent Regulatory Capture by Diversifying AI Audit Methodologies",
+              "score": 0.653
+            },
+            {
+              "id": "skp-intentions-172",
+              "label": "Voluntary Compliance Code Harmonization",
+              "score": 0.6321
+            },
+            {
+              "id": "skp-intentions-097",
+              "label": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+              "score": 0.6262
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "The European Union adopted the Artificial Intelligence Act (AIA) as Regulation (EU) 2024/1689 on June 13, 2024, establishing ex-ante safety requirements and harmonized standards for AI systems.",
+      "claim_label": "Adoption of EU Artificial Intelligence Act",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2024-06-13",
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "acc-intentions-047",
+        "saf-beliefs-122"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "The European Union enacted Directive (EU) 2024/2853 on October 23, 2024, on liability for defective products, replacing Directive 85/374/EEC and establishing strict liability rules for defective products.",
+      "claim_label": "Enactment of Product Liability Directive",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2024-10-23",
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-beliefs-122"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "The European Commission formally withdrew the proposed Directive on adapting non-contractual civil liability rules to artificial intelligence (AI Liability Directive) in 2025.",
+      "claim_label": "Withdrawal of AI Liability Directive Draft",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2025",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-beliefs-122",
+        "skp-beliefs-047"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "Compliance costs associated with data privacy regulations such as the GDPR have been estimated to reduce profits for small European technology firms by up to 12 percent.",
+      "claim_label": "GDPR Compliance Cost Impact on Small Firms",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2022",
+      "extraction_confidence": 0.92,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-196"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "referenced"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    }
+  ],
+  "unmapped_concepts": [
+    {
+      "suggested_label": "Ex-Ante Versus Ex-Post Enforcement Tradeoffs",
+      "suggested_description": "A situation concept that evaluates the optimal institutional mix between preventive ex-ante administrative regulation and retrospective ex-post judicial tort enforcement in managing technological risk. Encompasses: regulatory enforcement costs, litigation error rates, risk allocation mechanisms. Excludes: pure self-regulation, unconstrained free market allocation.",
+      "concept": "The document frames the core institutional dilemma around whether to govern AI through centralized ex-ante administrative standards or decentralized ex-post court litigation. It explores how these two law enforcement mechanisms interact, allocate risks between creators and victims, and generate systemic economic trade-offs.",
+      "suggested_pov": "situations",
+      "suggested_category": "Beliefs",
+      "reason": "Provides a fundamental governance framework comparing ex-ante and ex-post enforcement mechanisms that spans multiple POV camps without a dedicated node.",
+      "Accelerationist Interpretation": "Accelerationists view ex-ante standard setting as essential for market predictability and rapid deployment, arguing that unpredictable ex-post tort litigation creates excessive legal uncertainty and stalls innovation.",
+      "Safetyist Interpretation": "Safetyists emphasize that ex-ante rules alone are insufficient to capture all operational risks and advocate for robust ex-post tort remedies to ensure accountability when preventive measures fail.",
+      "Skeptic Interpretation": "Skeptics argue that relying solely on ex-ante standardization captures regulatory bodies and disenfranchises affected communities, making accessible ex-post tort mechanisms vital for addressing documented harms."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "1792520452422-z36wso6p",
+  "timestamp": "2026-10-20T18:20:52.424Z",
+  "error": {
+    "name": "TypeError",
+    "message": "Cannot read properties of null (reading 'useState')",
+    "stack": "TypeError: Cannot read properties of null (reading 'useState')\n    at exports.useState (http://localhost:5173/@fs/C:/Users/jsnov/repos/ai-triad-research/taxonomy-editor/node_modules/.vite/deps/react-D7VN48G7.js?v=ef7fc62d:769:30)\n    at App (http://localhost:5173/App.tsx?t=1792520444692:275:26)\n    at Object.react_stack_bottom_frame (http://localhost:5173/@fs/C:/Users/jsnov/repos/ai-triad-research/taxonomy-editor/node_modules/.vite/deps/react-dom_client.js?v=13a8d3a9:14142:12)\n    at renderWithHooks (http://localhost:5173/@fs/C:/Users/jsnov/repos/ai-triad-research/taxonomy-editor/node_modules/.vite/deps/react-dom_client.js?v=13a8d3a9:4400:19)\n    at updateFunctionComponent (http://localhost:5173/@fs/C:/Users/jsnov/repos/ai-triad-research/taxonomy-editor/node_modules/.vite/deps/react-dom_client.js?v=13a8d3a9:5775:16)\n    at beginWork (http://localhost:5173/@fs/C:/Users/jsnov/repos/ai-triad-research/taxonomy-editor/node_modules/.vite/deps/react-dom_client.js?v=13a8d3a9:6391:20)\n    at runWithFiberInDEV (http://localhost:5173/@fs/C:/Users/jsnov/repos/ai-triad-research/taxonomy-editor/node_modules/.vite/deps/react-dom_client.js?v=13a8d3a9:944:66)\n    at performUnitOfWork (http://localhost:5173/@fs/C:/Users/jsnov/repos/ai-triad-research/taxonomy-editor/node_modules/.vite/deps/react-dom_client.js?v=13a8d3a9:9148:92)\n    at workLoopSync (http://localhost:5173/@fs/C:/Users/jsnov/repos/ai-triad-research/taxonomy-editor/node_modules/.vite/deps/react-dom_client.js?v=13a8d3a9:9044:37)\n    at renderRootSync (http://localhost:5173/@fs/C:/Users/jsnov/repos/ai-triad-research/taxonomy-editor/node_modules/.vite/deps/react-dom_client.js?v=13a8d3a9:9028:6)"
+  },
+  "context": {
+    "trigger": "uncaught_error",
+    "url": "http://localhost:5173/",
+    "deploymentMode": "electron-dev"
+  }
+}

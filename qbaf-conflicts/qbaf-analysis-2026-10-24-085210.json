@@ -1,0 +1,352 @@
+{
+  "generated_at": "2026-10-24T08:52:10.6579991-04:00",
+  "claim_count": 28,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "EU AI Act Penalty Structure",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-054"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "Microsoft Tay Chatbot Failure",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-desires-075"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "COMPAS Algorithm Accuracy Study",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-desires-075"
+      ]
+    },
+    {
+      "id": "qc-4",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "PwC 2025 Responsible AI Survey Statistics",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-intentions-089"
+      ]
+    },
+    {
+      "id": "qc-5",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "IBM 2025 Cost of Data Breach Report",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-040"
+      ]
+    },
+    {
+      "id": "qc-6",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "EU AI Act Article 50 Transparency Mandate",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-010"
+      ]
+    },
+    {
+      "id": "qc-7",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "SHAP Game-Theoretic Attribution Mechanism",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-intentions-118"
+      ]
+    },
+    {
+      "id": "qc-8",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "Databricks AI Governance Framework Structure",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-9",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "EU AI Act Enactment and Structure",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-081",
+        "skp-intentions-007"
+      ]
+    },
+    {
+      "id": "qc-10",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "Employee Shadow AI Usage Rates",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-170",
+        "saf-beliefs-040"
+      ]
+    },
+    {
+      "id": "qc-11",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "US Tri-Agency SR-26-2 Model Risk Guidance",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-081"
+      ]
+    },
+    {
+      "id": "qc-12",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "Digital Omnibus Deferral of EU AI Act Annex III",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-081"
+      ]
+    },
+    {
+      "id": "qc-13",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "Cross-Functional Governance Composition",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-058"
+      ]
+    },
+    {
+      "id": "qc-14",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "Growth of Chief AI Officer Roles",
+      "category": "Intentions",
+      "base_strength": 0.43,
+      "computed_strength": 0.43,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-040"
+      ]
+    },
+    {
+      "id": "qc-15",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "Project Failure Attribution to Poor Communication",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-058"
+      ]
+    },
+    {
+      "id": "qc-16",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "AI Initiative Budget Overruns",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-050"
+      ]
+    },
+    {
+      "id": "qc-17",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "Governance Maturity Performance Advantage",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-050"
+      ]
+    },
+    {
+      "id": "qc-18",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "MITRE ATLAS Framework Scope",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-113"
+      ]
+    },
+    {
+      "id": "qc-19",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "OWASP 2025 Top LLM Vulnerability Ranking",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-028",
+        "saf-beliefs-097"
+      ]
+    },
+    {
+      "id": "qc-20",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "IBM 2025 Data Breach Report Statistics",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-164"
+      ]
+    },
+    {
+      "id": "qc-21",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "Organization AI Policy Adoption Rate",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-164"
+      ]
+    },
+    {
+      "id": "qc-22",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "FDA AI Device Authorizations",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-234"
+      ]
+    },
+    {
+      "id": "qc-23",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "Healthcare AI Governance Deficit",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-164"
+      ]
+    },
+    {
+      "id": "qc-24",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "State-Level AI Legislation Spread",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-173"
+      ]
+    },
+    {
+      "id": "qc-25",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "Colorado AI Act Enactment",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-173"
+      ]
+    },
+    {
+      "id": "qc-26",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "AI Ethics Budget Allocation Growth",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-050"
+      ]
+    },
+    {
+      "id": "qc-27",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "Enterprise AI Governance Deployment Costs",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-050"
+      ]
+    },
+    {
+      "id": "qc-28",
+      "doc_id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "label": "EU AI Act Enforcement Date and Scope",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-160"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

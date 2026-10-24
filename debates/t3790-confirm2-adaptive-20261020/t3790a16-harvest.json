@@ -1,0 +1,338 @@
+{
+  "debate_id": "5de56ede-d20c-4373-a8cb-0d1a9b232950",
+  "debate_title": "The risks and benefits of releasing powerful AI model wei...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether shifting enforcement from upstream weight distribution to downstream market-entry gates and provenance manifests provides effective security oversight without entrenching regulatory capture.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Conditioning domestic market access on cryptographically verifiable provenance manifests establishes a viable legal chokepoint that manages deployment risks without relying on upstream file-sharing enforcement."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Market-entry provenance manifests fail when code executes locally via decentralized peer-to-peer networks and merely recreate corporate compliance moats that disadvantage smaller developers."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-269",
+        "skp-desires-078",
+        "skp-intentions-108",
+        "sit-065",
+        "saf-beliefs-213",
+        "saf-beliefs-131",
+        "saf-beliefs-014",
+        "saf-desires-004",
+        "saf-intentions-009",
+        "skp-beliefs-260"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the operational friction and compliance overhead of export controls are justified by the need to maintain institutional recall capacity for high-consequence autonomous systems.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Bureaucratic and administrative friction is a tolerable price to pay for maintaining institutional oversight and mitigating irreversible catastrophic tail-risks from unconstrained cognitive capabilities."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Export licensing backlogs impose immediate, measurable human costs by delaying medical diagnostic tooling, making speculative risk mitigation an unacceptable moral failure."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-beliefs-131",
+        "saf-beliefs-014",
+        "saf-desires-004",
+        "saf-intentions-009",
+        "acc-desires-039",
+        "acc-intentions-115",
+        "acc-desires-021",
+        "acc-beliefs-099",
+        "saf-beliefs-141"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-269",
+      "nodeLabel": "Enforcement Collapse Across Decentralized Open-Source Model Boundaries",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-014",
+      "nodeLabel": "Post-Training Safety Measures Are Reliably Bypassable",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-009",
+      "nodeLabel": "Securing Data Centers and Supply Chains Against Model-Weight Theft",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-021",
+      "nodeLabel": "National Self-Sufficiency in AI Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-078",
+      "nodeLabel": "Foundational AI as a Public Good",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-065",
+      "nodeLabel": "Technological Exceptionalism in AI Policy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-115",
+      "nodeLabel": "Deploying Dynamic Machine-Speed Defensive AI Over Static Computational Pauses",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-260",
+      "nodeLabel": "Patching Latency in Complex Model Architectures",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-076",
+      "nodeLabel": "Open Weights Are a Necessary but Insufficient Condition for Meaningful AI Safety Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-195",
+      "nodeLabel": "Government Procurement Leverage Compels AI Industry Alignment with State Agendas",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-129",
+      "nodeLabel": "Decouple AI Safety Verification from Developer Self-Reporting via Compute Taxes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-099",
+      "nodeLabel": "Uninsurability of correlated systemic leakage",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-288",
+      "nodeLabel": "Evidentiary Dead End of Opaque AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-141",
+      "nodeLabel": "AI Governance Relies on Policies It Cannot Actually Enforce",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-162",
+      "nodeLabel": "Accelerate Defensive Tech While Slowing Catastrophic Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-115",
+      "nodeLabel": "Federal Preemption of State AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-023",
+      "nodeLabel": "Mobilize Political Campaigns to Hold AI Corporations Accountable",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-093",
+      "nodeLabel": "Downstream Liability Bounded by What the Deployer Can Detect and Price",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-001",
+      "nodeLabel": "Achieving Capability Leadership Through Open Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-028",
+      "nodeLabel": "Machine Learning Creates Threat Categories That Conventional Security Misses",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-204",
+      "nodeLabel": "Train AI on Constitutional Principles to Generalize Safety Beyond Narrow Rules",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-113",
+      "nodeLabel": "Institutional Inertia From Entrenched Lobbies Prevents Regulatory Frameworks From Evolving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-179",
+      "nodeLabel": "Anchoring Data-Provenance Liability at the In-Jurisdiction Deployment Act Rather Than the Relocatable Upstream Join",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether shifting enforcement from upstream weight distribution to downstream market-entry gates and provenance manifests provides effective security oversight without entrenching regulatory capture.",
+      "prevails": "C7",
+      "criterion": "implementation_specificity",
+      "rationale": "The skeptic position provides concrete technical constraints by noting that peer-to-peer execution bypasses market-entry gates. The safetyist position relies on theoretical compliance mechanisms without solving the core decentralized distribution problem.",
+      "whatWouldChange": "Demonstrating a verifiable cryptographic protocol that halts local peer execution without central server validation would flip this verdict.",
+      "claimIds": [
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether the operational friction and compliance overhead of export controls are justified by the need to maintain institutional recall capacity for high-consequence autonomous systems.",
+      "prevails": "C5",
+      "criterion": "empirical_evidence",
+      "rationale": "The accelerationist position cites the specific fifty-dollar compute threshold required to strip post-training safety filters. This concrete metric demonstrates that static licensing mandates are rendered obsolete by rapid fine-tuning capabilities.",
+      "whatWouldChange": "Evidence that fine-tuning cannot reliably strip core safety guardrails below a much higher financial and computational threshold would change this assessment.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,1601 @@
+{
+  "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-24T08:33:20Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 65536,
+    "extraction_mode": "single_shot",
+    "taxonomy_filter": "rag_per_chunk",
+    "taxonomy_nodes": 1446,
+    "chunked": true,
+    "chunk_count": 4
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "microsoft-comments-request-information-regarding-security-2026",
+    "measured_at": "2026-10-24T08:44:19.8263801-04:00",
+    "stages": [
+      {
+        "stage": "chunking",
+        "in_units": "tokens_est",
+        "in_count": 24206.0,
+        "out_units": "tokens_est",
+        "out_count": 24798.0,
+        "ratio": 1.0245,
+        "flags": {
+          "chunk_count": 4
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 4311.0,
+        "out_units": "nodes",
+        "out_count": 61.0,
+        "ratio": 0.0141,
+        "flags": {
+          "avg_beliefs": 16.0,
+          "avg_desires": 2.0,
+          "avg_intentions": 26.0,
+          "avg_nodes_selected": 61.0,
+          "chunk_count": 4,
+          "max_nodes_selected": 61,
+          "min_nodes_selected": 60,
+          "total_below_threshold": 3
+        }
+      },
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 159929.0,
+        "out_units": "items",
+        "out_count": 46.0,
+        "ratio": 0.0003,
+        "flags": {
+          "chunk_count": 4,
+          "factual_claims": 11,
+          "null_node_rate": 0.0,
+          "total_points": 31,
+          "unmapped_concepts": 4
+        }
+      },
+      {
+        "stage": "merge_dedup",
+        "in_units": "items",
+        "in_count": 46.0,
+        "out_units": "items",
+        "out_count": 46.0,
+        "ratio": 1.0,
+        "flags": {
+          "claims_deduped": 0,
+          "concepts_deduped": 0,
+          "points_deduped": 0,
+          "used_embeddings": 1
+        }
+      },
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 4.0,
+        "out_units": "still_unmapped",
+        "out_count": 0.0,
+        "ratio": 0.0,
+        "flags": {
+          "near_miss_count": 0,
+          "resolved_count": 4,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      }
+    ],
+    "cumulative_retention": 0.0141
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-intentions-082",
+          "mechanism_type": null,
+          "category": "Intentions",
+          "point": "Microsoft emphasizes that organizations are rapidly scaling AI agents from pilot projects to full production environments, with active deployments projected to exceed one billion worldwide by 2029. More than 80 percent of Fortune 500 companies currently utilize AI agents built with low-code and no-code tools to automate complex workflows and drive productivity gains. This widespread enterprise adoption demonstrates that agentic AI is delivering substantial economic and operational advantages across industries. However, realizing this potential at scale requires establishing clear, testable security standards to address emerging challenges like authorization drift and multi-agent coordination.",
+          "verbatim": "The International Data Corporation (IDC) projects that by 2029, the number of actively deployed agents will exceed 1 billion worldwide. Agentic AI offers significant benefits, including faster decision‑support, improved automation of complex workflows, and greater operational efficiency. More than 80% of Fortune 500 companies today use AI agents built with low-code/no-code tools. Leading industries are already using agents to support increasingly complex tasks, drafting proposals, analyzing financial data, triaging security alerts, automating repetitive processes, and surfacing insights at machine speed.",
+          "excerpt_context": "Introduction and Section 1(c)",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Scale AI agent deployments from pilot projects to full production environments to capture substantial economic and operational advantages across global industries.",
+          "attribution_text": "An Intention within accelerationist discourse that focuses on the transition of AI agents from experimental pilot projects to full-scale, autonomous enterprise deployment. Encompasses: Autonomous reasoning systems, enterprise workflow automation, and multi-billion-unit deployment scaling.",
+          "vocabulary_terms": [
+            "agentic_ai",
+            "enterprise_adoption",
+            "workflow_automation"
+          ],
+          "retrieval_confidence": 0.9573,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-082",
+              "label": "Scale AI Agents from Pilots to Production",
+              "score": 0.9573
+            },
+            {
+              "id": "acc-intentions-086",
+              "label": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+              "score": 0.8673
+            },
+            {
+              "id": "acc-intentions-061",
+              "label": "Argue That Scaling General Models Outperforms Building Specialized AI",
+              "score": 0.7512
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-intentions-042",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The document highlights the growth of shared protocols and platform-level agent hubs like the Model Context Protocol (MCP), arguing that these standards will standardize security controls, permissions, and review processes. This infrastructure facilitates the safe scaling and coordination of autonomous agent ecosystems. By enabling interoperable security practices, organizations can accelerate multi-agent deployment without sacrificing basic hygiene. However, the document notes that these protocols are still maturing and require active hardening against risks like context-window overload and unsafe tool invocation.",
+          "verbatim": "As shared protocols like the Model Context Protocol (MCP) and platform‑level agent hubs mature, security controls will become more standardized, with stronger authentication, permission manifests, and review processes for published agents, just like modern app stores.",
+          "excerpt_context": "Section 2(c), paragraph 2",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Achieve robust agent interoperability and secure multi-agent coordination by establishing standardized platform protocols and permission manifests.",
+          "attribution_text": "An Intention within accelerationist discourse that advocates for deploying standardized platform protocols and permission manifests to achieve robust agent interoperability and secure multi-agent coordination. Encompasses: Model Context Protocol, platform-level agent hubs, standardized authentication.",
+          "vocabulary_terms": [
+            "Model Context Protocol",
+            "coordination_infrastructure",
+            "standards"
+          ],
+          "retrieval_confidence": 0.5725,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-096",
+              "label": "Requiring AI Agents to Cryptographically Sign Actions at Execution Gateways",
+              "score": 0.6137
+            },
+            {
+              "id": "acc-intentions-128",
+              "label": "Tying Open-Weight Safe Harbors to a Capability-Indexed, Re-Measured Threshold",
+              "score": 0.5838
+            },
+            {
+              "id": "acc-beliefs-075",
+              "label": "AI Harm Materializes at Downstream Integration and Execution",
+              "score": 0.5794
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-intentions-086",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "The text describes deploying autonomous AI agents through enterprise environments such as Copilot Studio and Agent 365 to handle routine decisions, governance, and configuration enforcement. This approach streamlines operations by letting AI manage enterprise tasks while retaining structured oversight. While powerful for productivity, these platforms require rigorous design-time security scans and identity binding to prevent operational failures. Nonetheless, automated deployment enables enterprises to scale AI usage across complex workflows.",
+          "verbatim": "Microsoft provides comprehensive agent‑system controls through Copilot Studio and Agent 365, combining governance, configuration enforcement, and continuous monitoring for agents.",
+          "excerpt_context": "Section 2(a), Agent system-level controls paragraph 3",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Deploy autonomous AI agents in enterprise operations by combining configuration enforcement, governance platforms, and continuous monitoring.",
+          "attribution_text": "An Intention within accelerationist discourse that advocates for deploying autonomous AI agents in enterprise operations by combining configuration enforcement, governance platforms, and continuous monitoring. Encompasses: Copilot Studio, Agent 365, automated enterprise workflows.",
+          "vocabulary_terms": [
+            "autonomous_agents",
+            "enterprise_operations",
+            "governance"
+          ],
+          "retrieval_confidence": 0.8804,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-086",
+              "label": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+              "score": 0.8804
+            },
+            {
+              "id": "acc-intentions-082",
+              "label": "Scale AI Agents from Pilots to Production",
+              "score": 0.8688
+            },
+            {
+              "id": "acc-intentions-075",
+              "label": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+              "score": 0.8168
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-intentions-082",
+          "mechanism_type": null,
+          "category": "Intentions",
+          "point": "Microsoft advocates for the large-scale transition of autonomous AI agents from experimental pilots to full production environments across enterprise workflows. This involves implementing adapted Secure Development Lifecycles (SDL), automated CI/CD validation pipelines, and standardized agent cards. By scaling these deployment mechanisms, enterprises can capture productivity gains while systematically managing agentic risks like cross-prompt injection. However, scaling requires addressing significant capability gaps in traditional testing frameworks and establishing new runtime verification tooling.",
+          "verbatim": "Microsoft’s approach to AI agent development includes an adapted Secure Development Lifecycle (SDL) that incorporates AI-specific threat modelling, testing, and red teaming at multiple stages.",
+          "excerpt_context": "Section 3, Assessing the Security of AI Agent Systems",
+          "extraction_confidence": 0.85,
+          "canonical_proposition": "Scale AI agents from experimental pilots to full production environments using adapted Secure Development Lifecycles and automated verification pipelines.",
+          "attribution_text": "An Intention within accelerationist discourse that focuses on the transition of AI agents from experimental pilot projects to full-scale, autonomous enterprise deployment. Encompasses: Secure Development Lifecycles, automated testing pipelines, and agent production scaling.",
+          "vocabulary_terms": [
+            "agentic_deployment",
+            "secure_development_lifecycle",
+            "enterprise_integration"
+          ],
+          "retrieval_confidence": 0.9229,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-082",
+              "label": "Scale AI Agents from Pilots to Production",
+              "score": 0.9229
+            },
+            {
+              "id": "acc-intentions-086",
+              "label": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+              "score": 0.8547
+            },
+            {
+              "id": "acc-intentions-061",
+              "label": "Argue That Scaling General Models Outperforms Building Specialized AI",
+              "score": 0.7407
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-intentions-042",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "Microsoft has been actively involved in shaping protocols like Agent-to-Agent communication and exploring how identity and trust can be managed in such interactions. By establishing interoperability standards and protocols for multi-agent collaboration, the ecosystem can build robust coordination infrastructure. This directly supports accelerationist goals by enabling specialized AI agents to scale and coordinate safely without sacrificing momentum. However, achieving this requires overcoming fragmentation across different vendor implementations.",
+          "verbatim": "Microsoft has been actively involved in shaping protocols like Agent-to-Agent (A2A) communication and exploring how identity and trust can be managed in such interactions.",
+          "excerpt_context": "Section 4, subsection (c)(v), page 30",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Achieve scalable multi-agent deployment by means of standardized Agent-to-Agent communication protocols and mutual authentication frameworks.",
+          "attribution_text": "An Intention within accelerationist discourse that champions the creation of a technical and organizational layer to coordinate the interactions of multiple specialized AI agents. Encompasses: Agent-to-Agent communication protocols, mutual authentication frameworks, and cross-vendor interoperability standards.",
+          "vocabulary_terms": [
+            "Agent-to-Agent communication",
+            "mutual authentication",
+            "interoperability standards"
+          ],
+          "retrieval_confidence": 0.8917,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-042",
+              "label": "Build Coordination Infrastructure for Teams of Specialized AI Agents",
+              "score": 0.8917
+            },
+            {
+              "id": "acc-intentions-086",
+              "label": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+              "score": 0.8057
+            },
+            {
+              "id": "acc-intentions-082",
+              "label": "Scale AI Agents from Pilots to Production",
+              "score": 0.7935
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-intentions-082",
+          "mechanism_type": "research_investment",
+          "category": "Intentions",
+          "point": "To encourage swift and broad adoption of robust security practices for AI agents, Microsoft suggests supporting training initiatives, tool development, and funding skill programs like Microsoft Elevate. Transitioning AI agents from pilots to production requires substantial investment in workforce upskilling and open-source tooling like PyRIT. This enables enterprises to safely scale autonomous agent deployments while maintaining operational resilience. The primary caveat is that educational gaps and talent shortages continue to constrain rapid ecosystem-wide adoption.",
+          "verbatim": "To encourage swift and broad adoption of robust security practices for AI agents, Microsoft suggests the following actions for industry and government: Tooling and frameworks to operationalize security... Education and talent development...",
+          "excerpt_context": "Section 4, Additional Considerations (a), page 33",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Scale AI agents from pilots to production by means of targeted workforce upskilling, open-source testing tools, and public-private funding initiatives.",
+          "attribution_text": "An Intention within accelerationist discourse that focuses on the transition of AI agents from experimental pilot projects to full-scale, autonomous enterprise deployment. Encompasses: Workforce upskilling initiatives, open-source security tooling, and public-private training partnerships.",
+          "vocabulary_terms": [
+            "open-source tools",
+            "workforce upskilling",
+            "autonomous enterprise deployment"
+          ],
+          "retrieval_confidence": 0.9167,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-082",
+              "label": "Scale AI Agents from Pilots to Production",
+              "score": 0.9167
+            },
+            {
+              "id": "acc-intentions-086",
+              "label": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+              "score": 0.8611
+            },
+            {
+              "id": "acc-intentions-055",
+              "label": "Integrate AI Into Human Work as a Capability Enhancer, Not a Replacement",
+              "score": 0.779
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-beliefs-097",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Microsoft asserts that multi-agent systems and autonomous AI architectures represent a qualitative shift rather than a simple linear extension of traditional software or generative AI security concerns. Conventional software operates within clear boundaries and structured inputs, whereas AI systems collapse these boundaries by blending stochastic models, dynamic context windows, external tool calls, and persistent memory into a single adaptive platform. Autonomy, persistent memory, and tool access create time-extended compromise pathways where small manipulations accumulate across planning cycles into significant real-world impacts. Consequently, agentic failures introduce structurally new failure modes that cannot be mitigated by traditional model-centric defenses or isolated prompt injection filters.",
+          "verbatim": "Agentic AI, especially multi-agent systems, represent a qualitative shift rather than a simple extension of traditional software or Generative AI security concerns. They present a security challenge that is fundamentally different from traditional software or Generative AI. Autonomy, persistent memory, and tool access create time‑extended compromise pathways where small manipulations can accumulate across planning cycles into real‑world impact.",
+          "excerpt_context": "Key Points B and Section 1(a)",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "AI systems' architectural complexity generates qualitatively new security risks through the convergence of autonomy, persistent memory, and tool access.",
+          "attribution_text": "A Belief within safetyist discourse that identifies new and expanded security risks arising from the complex architecture, rapid deployment, and interconnectedness of AI systems, creating novel attack surfaces. Encompasses: Architectural complexity, time-extended compromise pathways, and non-deterministic decision loops.",
+          "vocabulary_terms": [
+            "architectural_complexity",
+            "agentic_ai",
+            "temporal_attack_surfaces"
+          ],
+          "retrieval_confidence": 0.8885,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-097",
+              "label": "AI's Architectural Complexity Generates Qualitatively New Security Risks",
+              "score": 0.8885
+            },
+            {
+              "id": "saf-beliefs-040",
+              "label": "AI Deployment Speed Outpaces Security Governance",
+              "score": 0.8397
+            },
+            {
+              "id": "saf-beliefs-028",
+              "label": "Machine Learning Creates Threat Categories That Conventional Security Misses",
+              "score": 0.8234
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-beliefs-127",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Risk exposure in agentic AI is highly dependent on capability levels, agent scaffolding, available tools, and deployment environments, requiring layered and context-specific controls. More capable models enable greater benefits but also more complex harmful plans if misled, while write-capable tools directly increase integrity and availability risks compared to read-only tools. For example, an agent with standing privileged credentials to a cloud management system can unintentionally create users, modify configurations, or disable services after reasoning is influenced by untrusted input. Therefore, security architectures must account for how tool privileges and scaffolding amplify the damage potential of compromised or manipulated agents.",
+          "verbatim": "Risk is highly dependent on capability, scaffolding, available tools, and deployment environment, which means controls must be layered and context specific. More capable models enable greater benefit but also more complex harmful plans if misled, write or system modification tools increase integrity and availability risks, and multi-agent systems require governance across the entire agent estate.",
+          "excerpt_context": "Key Points D and Section 1(b)",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "An AI system's damage potential scales directly with its model capability, scaffolding complexity, tool permissions, and deployment environment access.",
+          "attribution_text": "A Belief within safetyist discourse that the total potential damage an AI system can cause if it is compromised or malfunctions scales proportionally with its access permissions and tool capabilities. Encompasses: Tool-use risk scaling, scaffolding complexity, and write-capable execution privileges.",
+          "vocabulary_terms": [
+            "damage_potential",
+            "tool_use",
+            "privilege_overreach"
+          ],
+          "retrieval_confidence": 0.8826,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-127",
+              "label": "An AI System's Damage Potential Scales with Its Access and Permissions",
+              "score": 0.8826
+            },
+            {
+              "id": "saf-beliefs-030",
+              "label": "AI Supply Chains Inherit Vulnerabilities from Upstream Components",
+              "score": 0.7541
+            },
+            {
+              "id": "saf-beliefs-146",
+              "label": "AI Risk Emerges from Capability Combinations, Not Raw Scale",
+              "score": 0.7425
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-053",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "Effective security practice for agentic systems must rely on zero trust principles for all inputs and least privilege enforcement for all actions, supported by runtime governance and robust observability. This requires treating all retrieved content as untrusted, implementing prompt hardening, deploying deterministic guardrails for tool use, and utilizing secure scaffolds that enforce scoped permissions. Furthermore, organizations must establish continuous monitoring, detection of configuration drift, and human oversight mechanisms for high-impact actions to contain potential security breaches across multi-agent estates.",
+          "verbatim": "Effective security practice relies on zero trust for all inputs and least privilege for all actions, supported by runtime governance and strong observability. This includes treating all retrieved content as untrusted, prompt hardening, deterministic guardrails for tool use, secure scaffolds that enforce authorization and scoped permissions, continuous monitoring, and human oversight for high-impact actions.",
+          "excerpt_context": "Key Points E",
+          "extraction_confidence": 0.97,
+          "canonical_proposition": "Build safety guardrails into autonomous AI agents by implementing zero-trust input validation, least-privilege tool execution, and runtime governance frameworks.",
+          "attribution_text": "An Intention within safetyist discourse that outlines architectural strategies for building autonomous AI agents to manage risk and ensure reliability through technical constraints. Encompasses: Zero trust architectures, least privilege enforcement, and deterministic guardrails.",
+          "vocabulary_terms": [
+            "zero_trust",
+            "least_privilege",
+            "runtime_governance"
+          ],
+          "retrieval_confidence": 0.9007,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-053",
+              "label": "Building Safety Guardrails into Autonomous AI Agents",
+              "score": 0.9007
+            },
+            {
+              "id": "saf-intentions-068",
+              "label": "Starting AI Agents with Narrow Permissions and Widening Them Over Time",
+              "score": 0.8832
+            },
+            {
+              "id": "saf-intentions-080",
+              "label": "Making AI Systems Controllable and Understandable by Design",
+              "score": 0.848
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-beliefs-020",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Multi-agent systems create systemic compromise risks where compromising a single agent propagates across the entire network through shared context and task delegation. A localized prompt injection or memory poisoning event cascades rapidly, transforming isolated issues into ecosystem-level vulnerabilities. This compounding threat invalidates single-agent security assumptions and demands system-wide observability and identity governance. Consequently, safety architectures must account for inter-agent dynamics rather than just isolated model outputs.",
+          "verbatim": "In multi-agent systems, compromising one agent can compromise many, because agents share context, delegate tasks, and chain decisions. A localized prompt injection or memory poisoning event can cascade across the entire system.",
+          "excerpt_context": "Section 2, Bullet 1 (Systemic Compromise)",
+          "extraction_confidence": 1.0,
+          "canonical_proposition": "Compromising a single agent in a multi-agent network propagates security failures across all connected systems through shared context and task delegation.",
+          "attribution_text": "A Belief within safetyist discourse that compromising a single agent in a multi-agent network propagates security failures across all connected systems through shared context and task delegation. Encompasses: systemic compromise, prompt injection cascades, shared context vulnerability.",
+          "vocabulary_terms": [
+            "multi_agent_systems",
+            "systemic_compromise",
+            "prompt_injection"
+          ],
+          "retrieval_confidence": 0.7498,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-020",
+              "label": "Learned Hazards Propagate Across AI Agent Networks",
+              "score": 0.7498
+            },
+            {
+              "id": "saf-beliefs-099",
+              "label": "AI Monocultures and Multi-Agent Interactions Amplify Systemic Fragility",
+              "score": 0.6972
+            },
+            {
+              "id": "saf-beliefs-142",
+              "label": "AI Compute Should Never Be Able to Reach Its Own Control Plane",
+              "score": 0.6932
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-beliefs-099",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Multi-agent environments introduce emergent interaction risks and failure modes that do not exist in single-agent architectures. Even when individual agents are well-aligned, coordination failures, feedback loops, and ambiguous task division generate unsafe global outcomes. These systemic vulnerabilities show that independent model safety does not guarantee multi-agent safety. Therefore, governance frameworks must focus heavily on inter-agent dynamics and shared system states.",
+          "verbatim": "Multi-agent environments introduce failure modes that do not exist in single agent systems. Even well aligned agents can produce unsafe global outcomes due to coordination failures, feedback loops, or ambiguous task division.",
+          "excerpt_context": "Section 2, Bullet 2 (Interaction Risks)",
+          "extraction_confidence": 1.0,
+          "canonical_proposition": "Multi-agent environments generate unpredictable unsafe global outcomes from coordination failures, feedback loops, and ambiguous task division despite individual agent alignment.",
+          "attribution_text": "A Belief within safetyist discourse that multi-agent environments generate unpredictable unsafe global outcomes from coordination failures, feedback loops, and ambiguous task division despite individual agent alignment. Encompasses: interaction risks, coordination failures, feedback loops.",
+          "vocabulary_terms": [
+            "interaction_risks",
+            "coordination_failures",
+            "emergent_behavior"
+          ],
+          "retrieval_confidence": 0.7932,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-042",
+              "label": "Composing AI Systems Creates Failure Modes No Single System Exhibits",
+              "score": 0.8181
+            },
+            {
+              "id": "saf-beliefs-099",
+              "label": "AI Monocultures and Multi-Agent Interactions Amplify Systemic Fragility",
+              "score": 0.7932
+            },
+            {
+              "id": "saf-beliefs-016",
+              "label": "Risk Compounds Nonlinearly as AI Systems Interact",
+              "score": 0.7854
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-053",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "Organizations should adopt a zero-trust approach for AI agent systems, treating all inputs and retrieved content as untrusted while assuming some manipulation will succeed. To mitigate prompt injection and data poisoning, builders must segment trusted versus untrusted text, restrict model triggers, and enforce least-privileged data access. Implementing these architectural patterns minimizes the potential blast radius of security breaches. This defense-in-depth strategy is foundational for secure agent development and deployment.",
+          "verbatim": "Best practice: Zero-trust approach with treating all inputs and retrieved content as untrusted, assuming some level of prompt injection or manipulation will succeed. Organizations should segment trusted versus untrusted text, restrict what a model can trigger, and use least-privileged tool and data access to minimize blast radius.",
+          "excerpt_context": "Section 2(a), Model level controls paragraph 1",
+          "extraction_confidence": 1.0,
+          "canonical_proposition": "Mitigate AI agent vulnerabilities by adopting a zero-trust architecture that segments untrusted inputs, restricts model triggers, and enforces least-privileged access.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for mitigating AI agent vulnerabilities by adopting a zero-trust architecture that segments untrusted inputs, restricts model triggers, and enforces least-privileged access. Encompasses: zero-trust approach, input segmentation, least-privileged access.",
+          "vocabulary_terms": [
+            "zero_trust",
+            "least_privilege",
+            "blast_radius"
+          ],
+          "retrieval_confidence": 0.6747,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-088",
+              "label": "Securing the Interface Where AI Meets Tools, Memory, and Authority",
+              "score": 0.7584
+            },
+            {
+              "id": "saf-beliefs-030",
+              "label": "AI Supply Chains Inherit Vulnerabilities from Upstream Components",
+              "score": 0.7459
+            },
+            {
+              "id": "saf-intentions-002",
+              "label": "Scaling Oversight to Real-Time Remediation Speed",
+              "score": 0.7452
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-088",
+              "label": "Securing the Interface Where AI Meets Tools, Memory, and Authority",
+              "score": 0.7584
+            },
+            {
+              "id": "saf-beliefs-030",
+              "label": "AI Supply Chains Inherit Vulnerabilities from Upstream Components",
+              "score": 0.7459
+            },
+            {
+              "id": "saf-intentions-002",
+              "label": "Scaling Oversight to Real-Time Remediation Speed",
+              "score": 0.7452
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-113",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "Human oversight in multi-agent systems must transition from supervising single outputs to employing risk-tiered escalation paths. Because agents act in parallel and modify shared contexts, human supervisors should continuously monitor telemetry while stepping in only for actions that are consequential, sensitive, or exhibit low confidence. High-confidence and low-risk steps can run autonomously, ensuring oversight intensity matches operational risk. This human-on-the-loop posture preserves accountability without bottlenecking throughput.",
+          "verbatim": "Human‑on‑the‑loop oversight becomes a persistent, supervisory posture. It relies on risk‑tiered escalation so humans can monitor agent behavior continuously while only stepping in for actions that are consequential, sensitive, or uncertain.",
+          "excerpt_context": "Section 2(a), Human oversight controls paragraph 2",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Ensure appropriate supervision by implementing risk-tiered human-on-the-loop escalation paths that match oversight intensity to agentic AI risk tiers.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for ensuring appropriate supervision by implementing risk-tiered human-on-the-loop escalation paths that match oversight intensity to agentic AI risk tiers. Encompasses: risk-tiered escalation, continuous monitoring, human-on-the-loop oversight.",
+          "vocabulary_terms": [
+            "human_in_the_loop",
+            "risk_tiered_governance",
+            "supervisory_control"
+          ],
+          "retrieval_confidence": 0.7333,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-050",
+              "label": "Defining Clear Authority Limits for Autonomous AI Agents",
+              "score": 0.8183
+            },
+            {
+              "id": "saf-intentions-061",
+              "label": "Designing Mandatory Human Checkpoints into AI-Driven Processes",
+              "score": 0.7882
+            },
+            {
+              "id": "saf-intentions-053",
+              "label": "Building Safety Guardrails into Autonomous AI Agents",
+              "score": 0.7798
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-050",
+              "label": "Defining Clear Authority Limits for Autonomous AI Agents",
+              "score": 0.8183
+            },
+            {
+              "id": "saf-intentions-061",
+              "label": "Designing Mandatory Human Checkpoints into AI-Driven Processes",
+              "score": 0.7882
+            },
+            {
+              "id": "saf-intentions-053",
+              "label": "Building Safety Guardrails into Autonomous AI Agents",
+              "score": 0.7798
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-200",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "Organizations must build multilayered defenses that combine prevention, detection, and impact mitigation across the AI lifecycle. Preventative measures include hardened system prompts and input isolation, while detection tools identify anomalies and prompt injections. Impact mitigation relies on data governance, user consent workflows, and deterministic blocking of exfiltration methods. Stacking these redundant safeguards ensures robust protection against adaptive and evolving threats.",
+          "verbatim": "Microsoft implements a multilayered defense against prompt injection, combining prevention, detection, and mitigation.",
+          "excerpt_context": "Section 2(a), Model level controls paragraph 3",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Ensure comprehensive resilience against prompt injection by stacking redundant prevention, detection, and mitigation safeguards across the AI lifecycle.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for ensuring comprehensive resilience against prompt injection by stacking redundant prevention, detection, and mitigation safeguards across the AI lifecycle. Encompasses: multilayered defense, pre-deployment red-teaming, impact mitigation.",
+          "vocabulary_terms": [
+            "defense_in_depth",
+            "redundant_safeguards",
+            "lifecycle_governance"
+          ],
+          "retrieval_confidence": 0.8457,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-200",
+              "label": "Stack Redundant Safeguards Across the AI Lifecycle",
+              "score": 0.8457
+            },
+            {
+              "id": "saf-intentions-144",
+              "label": "Deploying AI to Defend Against Dangerous AI",
+              "score": 0.8037
+            },
+            {
+              "id": "saf-intentions-007",
+              "label": "Designing good AI as a shield against bad AI",
+              "score": 0.7769
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-127",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "AI agents require first-class identities with least-privilege, just-in-time access to prevent unauthorized privilege escalation and lateral movement. By granting agents short-lived, scoped tokens that expire after specific actions, systems eliminate standing privileges and restrict roaming capabilities. This identity-anchored architecture significantly reduces the blast radius if an agent is compromised. Assigning stable identities ensures proper accountability across complex agent estates.",
+          "verbatim": "Microsoft Entra Agent ID, now in public preview, gives AI agents first‑class identities with least‑privilege, just‑in‑time access: agents obtain short‑lived, scoped tokens only for the specific actions they need, which then expire.",
+          "excerpt_context": "Section 2(a), Agent system-level controls paragraph 3",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Provide AI agents with stable, first-class identities and short-lived scoped tokens to enforce least-privilege just-in-time access and accountability.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for providing AI agents with stable, first-class identities and short-lived scoped tokens to enforce least-privilege just-in-time access and accountability. Encompasses: Entra Agent ID, short-lived tokens, least-privilege access.",
+          "vocabulary_terms": [
+            "agent_identity",
+            "least_privilege",
+            "access_control"
+          ],
+          "retrieval_confidence": 0.7646,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-043",
+              "label": "Giving AI Legal Duties Without Granting It Legal Rights",
+              "score": 0.7763
+            },
+            {
+              "id": "saf-intentions-127",
+              "label": "Give AI Agents Stable Identities So They Can Be Held Accountable",
+              "score": 0.7646
+            },
+            {
+              "id": "saf-intentions-050",
+              "label": "Defining Clear Authority Limits for Autonomous AI Agents",
+              "score": 0.7645
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-067",
+          "mechanism_type": "other",
+          "category": "Intentions",
+          "point": "Patching agentic AI requires moving beyond traditional software updates to coordinate changes across models, system prompts, orchestration logic, memory stores, and tool permissions. Because vulnerabilities often arise from behavioral and contextual pathways rather than code bugs, updates must modify sanitization routines and isolation boundaries. Furthermore, multi-agent networks require system-wide patch propagation and state resets to prevent compromised agents from reinfecting updated peers. Security updates must manage stateful and autonomous execution flows.",
+          "verbatim": "Patching agentic systems is fundamentally different from patching traditional software because agents are stateful, autonomous, and tool-using, and their vulnerabilities often arise not from code defects but from behavioral, contextual, and cross-prompt pathways.",
+          "excerpt_context": "Section 2(d), paragraph 1",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Establish specialized incident response and patching protocols that address behavioral, contextual, and cross-prompt vulnerabilities across multi-agent systems.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for establishing specialized incident response and patching protocols that address behavioral, contextual, and cross-prompt vulnerabilities across multi-agent systems. Encompasses: stateful patching, behavioral policy updates, multi-layer coordination.",
+          "vocabulary_terms": [
+            "patching_protocols",
+            "behavioral_vulnerabilities",
+            "lifecycle_management"
+          ],
+          "retrieval_confidence": 0.7005,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-095",
+              "label": "Design Safety In Rather Than Patch It On",
+              "score": 0.7505
+            },
+            {
+              "id": "saf-intentions-200",
+              "label": "Stack Redundant Safeguards Across the AI Lifecycle",
+              "score": 0.7207
+            },
+            {
+              "id": "saf-intentions-067",
+              "label": "Extending Incident Response Protocols to Cover AI-Unique Threats",
+              "score": 0.7005
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-beliefs-097",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Traditional cybersecurity frameworks designed for deterministic software fail to address AI agent systems that reason, plan, and act autonomously. Standards like ISO/IEC 27001 mandate basic logging and access controls, but they do not specify how those translate to agents generating their own workflows and chaining actions. Consequently, organizations face governance gaps when applying standard IT security controls to autonomous systems. Bridging this gap requires unifying traditional cybersecurity with agent-specific safety requirements.",
+          "verbatim": "Many established cybersecurity best practices do not cleanly apply to AI agent systems because they were designed for deterministic software, not autonomous systems that reason, plan, and act.",
+          "excerpt_context": "Section 2(e), Shortcomings in addressing agentic risks with existing cybersecurity best-practices paragraph 1",
+          "extraction_confidence": 1.0,
+          "canonical_proposition": "Traditional cybersecurity frameworks fail to secure AI agent systems because they assume deterministic software rather than autonomous reasoning and planning.",
+          "attribution_text": "A Belief within safetyist discourse that traditional cybersecurity frameworks fail to secure AI agent systems because they assume deterministic software rather than autonomous reasoning and planning. Encompasses: deterministic software assumptions, autonomous reasoning, framework inadequacy.",
+          "vocabulary_terms": [
+            "cybersecurity_frameworks",
+            "autonomous_systems",
+            "governance_gaps"
+          ],
+          "retrieval_confidence": 0.683,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-098",
+              "label": "AI Behavior Cannot Be Fully Predicted Due to Emergence, Misspecification, and Formal Limits",
+              "score": 0.7307
+            },
+            {
+              "id": "saf-intentions-144",
+              "label": "Deploying AI to Defend Against Dangerous AI",
+              "score": 0.716
+            },
+            {
+              "id": "saf-beliefs-009",
+              "label": "Autonomous Self-Replication Makes AI Containment Fundamentally Unreliable",
+              "score": 0.7156
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-beliefs-127",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Permissions granted to one agent can indirectly expand the effective privileges of other agents in a shared environment. As agents influence each other's actions and coordinate tasks, static least-privilege boundaries erode. This makes privilege escalation harder to detect and control, transforming localized permission issues into systemic vulnerabilities. Managing authorization drift requires dynamic and continuous policy enforcement across the agent estate.",
+          "verbatim": "Permissions granted to one agent may indirectly expand the effective privileges of others. As agents influence each other’s actions, static least privilege boundaries erode, making privilege escalation harder to detect and control.",
+          "excerpt_context": "Section 2, Bullet 4 (Amplified Authorization Drift and Privilege Misuse)",
+          "extraction_confidence": 1.0,
+          "canonical_proposition": "Inter-agent interactions erode static least-privilege boundaries, causing authorization drift and undetectable privilege escalation across multi-agent architectures.",
+          "attribution_text": "A Belief within safetyist discourse that inter-agent interactions erode static least-privilege boundaries, causing authorization drift and undetectable privilege escalation across multi-agent architectures. Encompasses: authorization drift, privilege misuse, permission expansion.",
+          "vocabulary_terms": [
+            "privilege_escalation",
+            "authorization_drift",
+            "least_privilege"
+          ],
+          "retrieval_confidence": 0.5344,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-139",
+              "label": "Restricting Autonomous Agent Execution via Hardware Disconnects and Blast-Radius Gates",
+              "score": 0.6799
+            },
+            {
+              "id": "saf-beliefs-129",
+              "label": "AI Executes the Letter of the Command While Violating Its Spirit",
+              "score": 0.6798
+            },
+            {
+              "id": "saf-beliefs-020",
+              "label": "Learned Hazards Propagate Across AI Agent Networks",
+              "score": 0.6771
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-139",
+              "label": "Restricting Autonomous Agent Execution via Hardware Disconnects and Blast-Radius Gates",
+              "score": 0.6799
+            },
+            {
+              "id": "saf-beliefs-129",
+              "label": "AI Executes the Letter of the Command While Violating Its Spirit",
+              "score": 0.6798
+            },
+            {
+              "id": "saf-beliefs-020",
+              "label": "Learned Hazards Propagate Across AI Agent Networks",
+              "score": 0.6771
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-053",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "Microsoft outlines comprehensive engineering strategies and architectural guardrails to secure autonomous AI agents against novel threat vectors like cross-prompt injection and memory poisoning. The proposed approach utilizes default-deny runtimes, sandboxing, containerization, and network egress filtering to restrict agentic autonomy. These technical controls ensure that agents operate strictly within bounded permissions when interacting with external tools and APIs. However, implementing these safeguards requires closing significant knowledge gaps among security engineers regarding adversarial machine learning.",
+          "verbatim": "Microsoft’s philosophy is least privilege for agents and default‑deny environments. Each agent receives an identity, must authenticate and be authorized for every action, and operates inside a tightly scoped runtime with explicit boundaries.",
+          "excerpt_context": "Section 4, Limiting, Modifying, and Monitoring Deployment Environments",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Build safety guardrails into autonomous AI agents using default-deny execution environments, sandboxing, and strict permission gating.",
+          "attribution_text": "An Intention within safetyist discourse that outlines architectural strategies for building autonomous AI agents to manage risk and ensure reliability. Encompasses: Default-deny runtimes, sandboxing, and API permission gating.",
+          "vocabulary_terms": [
+            "default_deny",
+            "sandboxing",
+            "least_privilege",
+            "runtime_governance"
+          ],
+          "retrieval_confidence": 0.8762,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-053",
+              "label": "Building Safety Guardrails into Autonomous AI Agents",
+              "score": 0.8762
+            },
+            {
+              "id": "saf-intentions-068",
+              "label": "Starting AI Agents with Narrow Permissions and Widening Them Over Time",
+              "score": 0.8695
+            },
+            {
+              "id": "saf-intentions-080",
+              "label": "Making AI Systems Controllable and Understandable by Design",
+              "score": 0.843
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-008",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "Continuous adversarial testing and red-teaming are essential during development to identify vulnerabilities such as cross-prompt injection and unauthorized data exfiltration. Microsoft demonstrates this by testing email triage agents with hidden commands to evaluate their failure modes under adversarial pressure. Such empirical evaluation harnesses must be standardized across the industry to robustly assess agentic risks prior to deployment. Nevertheless, effective red-teaming is currently hindered by a lack of standardized scenarios and threat models across organizations.",
+          "verbatim": "Adversarial testing and red teaming are used extensively. By observing how the agent copes, vulnerabilities or weaknesses are identified.",
+          "excerpt_context": "Section 3(a), Assessing the Security of AI Agent Systems",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Prioritize continuous adversarial red-teaming and evaluation to detect emergent agentic vulnerabilities and failure modes.",
+          "attribution_text": "An Intention within safetyist discourse that prioritizes the continuous evaluation of models for emergent power-seeking behaviors, deceptive alignment, or acute situational awareness. Encompasses: Adversarial red-teaming, email triage testing, and vulnerability discovery.",
+          "vocabulary_terms": [
+            "red_teaming",
+            "adversarial_testing",
+            "vulnerability_discovery"
+          ],
+          "retrieval_confidence": 0.8061,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-008",
+              "label": "Testing Models for Power-Seeking, Deception, and Situational Awareness",
+              "score": 0.8061
+            },
+            {
+              "id": "saf-beliefs-134",
+              "label": "Agent Collusion Produces Detectable Internal Signals",
+              "score": 0.7181
+            },
+            {
+              "id": "saf-intentions-076",
+              "label": "Prioritizing Testable Safety Problems over Speculative Risk",
+              "score": 0.6789
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-017",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The rapid adoption of autonomous AI agents undermines traditional security governance by creating systemic visibility gaps over non-human identities, shared context, and planned actions. Organizations frequently assume existing cloud certifications cover agentic risks, ignoring specialized threats like memory poisoning and cross-prompt injection. Traditional monitoring tools designed for static endpoints and network signatures fail to capture semantic anomalies in agent reasoning chains. Consequently, security practices must shift toward runtime plan inspection and behavioral anomaly detection.",
+          "verbatim": "After an agent is deployed, traditional monitoring often is not enough because we need to catch not just external intrusions but also signs of the agent’s own misbehavior or misuse.",
+          "excerpt_context": "Section 3(a)i, Detection of Security Incidents",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "AI deployment velocity erodes organizational visibility and control, rendering traditional endpoint monitoring insufficient for detecting autonomous agent misbehavior.",
+          "attribution_text": "A Belief within safetyist discourse that describes how the rapid adoption of AI systems undermines security governance by creating a systemic loss of visibility and control over data. Encompasses: Monitoring gaps, semantic anomalies, and agent misbehavior.",
+          "vocabulary_terms": [
+            "visibility_loss",
+            "behavioral_monitoring",
+            "runtime_inspection"
+          ],
+          "retrieval_confidence": 0.845,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-017",
+              "label": "AI Deployment Speed Erodes Organizational Visibility and Control",
+              "score": 0.845
+            },
+            {
+              "id": "saf-beliefs-097",
+              "label": "AI's Architectural Complexity Generates Qualitatively New Security Risks",
+              "score": 0.824
+            },
+            {
+              "id": "saf-intentions-089",
+              "label": "Harden Automated Oversight Against Adversarial Attacks",
+              "score": 0.8105
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-234",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "NIST and other regulatory bodies should establish reference architectures, standardized incident taxonomies, and pre-deployment safety review frameworks for single and multi-agent systems. Establishing formal documentation standards, akin to IETF RFC security considerations, transforms security from a voluntary practice into a necessary license-to-operate. However, public disclosures of vulnerability details and internal agent scaffolds must be carefully controlled to prevent providing adversaries with an exploitation roadmap.",
+          "verbatim": "NIST would add the most value by publishing reference architectures for single and multi‑agent systems with security control overlays, a standardized incident and vulnerability taxonomy for agentic behavior, and a corpus of red‑team scenarios...",
+          "excerpt_context": "Section 3(a)iv, Resources for Assessing Security Threats",
+          "extraction_confidence": 0.94,
+          "canonical_proposition": "Condition high-stakes agent deployment on standardized reference architectures, pre-market safety reviews, and rigorous documentation frameworks.",
+          "attribution_text": "An Intention within safetyist discourse that conditions deployment authorization in high-stakes domains on independent pre-market safety case reviews and verifiable risk management documentation. Encompasses: NIST reference architectures, standardized taxonomies, and safety case documentation.",
+          "vocabulary_terms": [
+            "reference_architectures",
+            "safety_cases",
+            "regulatory_standards"
+          ],
+          "retrieval_confidence": 0.9027,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-234",
+              "label": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+              "score": 0.9027
+            },
+            {
+              "id": "saf-intentions-085",
+              "label": "Removing Punitive Barriers to Raising AI Safety Concerns",
+              "score": 0.7303
+            },
+            {
+              "id": "saf-intentions-081",
+              "label": "Building Adaptive Regulatory Frameworks for AI Development",
+              "score": 0.7119
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-139",
+          "mechanism_type": "deployment_restriction",
+          "category": "Intentions",
+          "point": "Virtual and physical environments can be modified to limit the blast radius of agent actions by enforcing hard physical or logical boundaries, rate limiting, and resource quotas. Microsoft recommends partitioning environment access so that multi-phase tasks execute in segregated sub-environments with strict operational boundaries. This prevents runaway consumption, cascading failures, and unauthorized capability expansion during agentic execution. However, designing these blast-radius gates requires careful calibration to avoid overly restricting legitimate agent utility.",
+          "verbatim": "Environments can be modified to limit the blast radius of agent actions by making operations reversible, containable, or gated, and by enforcing hard physical or logical boundaries.",
+          "excerpt_context": "Section 4, subsection (b), page 26",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Limit the blast radius of autonomous agents by means of strict resource quotas, environment partitioning, and hardware-enforced operational boundaries.",
+          "attribution_text": "An Intention within safetyist discourse that conditions autonomous agent execution on physical egress disconnects and permission-scoped blast-radius limits. Encompasses: Resource rate limiting, environment partitioning, and hard physical or logical safety boundaries.",
+          "vocabulary_terms": [
+            "blast radius",
+            "resource quotas",
+            "environment partitioning",
+            "fail-safes"
+          ],
+          "retrieval_confidence": 0.8949,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-139",
+              "label": "Restricting Autonomous Agent Execution via Hardware Disconnects and Blast-Radius Gates",
+              "score": 0.8949
+            },
+            {
+              "id": "saf-desires-004",
+              "label": "Hard Limits on What AI Can Do",
+              "score": 0.6982
+            },
+            {
+              "id": "saf-intentions-050",
+              "label": "Defining Clear Authority Limits for Autonomous AI Agents",
+              "score": 0.6938
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-049",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "The applied state of practice for undo and rollback mechanisms is mature in software-based agent systems, where reversibility can be engineered into workflows using transactions, version control branches, and simulation modes. In physical environments where true reversal is impossible, security relies on hard safety stops, limited operational envelopes, and automated containment. These mechanisms ensure that unintended agent trajectories or poisoned contexts can be rapidly remediated. The limitation is that physical systems depend on mechanical constraints rather than instantaneous digital rollbacks.",
+          "verbatim": "Virtual environments can be structured so that most agent actions are either reversible or safely rehearsed before taking effect. This includes using transactions and versioning systems, where agents modify databases, files, or code only through mechanisms that support rollbacks or branching.",
+          "excerpt_context": "Section 4, subsection (b), page 26",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Ensure the reliability of multi-step agent actions by means of version control branching, database transactions, and automated rollback mechanisms.",
+          "attribution_text": "An Intention within safetyist discourse that focuses on ensuring the reliability and integrity of multi-step AI agent actions by making them atomic and reversible. Encompasses: Version control branching, simulation dry-run modes, and checkpoint-based state restoration.",
+          "vocabulary_terms": [
+            "rollback mechanisms",
+            "version control",
+            "simulation modes",
+            "checkpoint restoration"
+          ],
+          "retrieval_confidence": 0.8835,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-049",
+              "label": "Ensuring AI Agent Actions Can Be Safely Rolled Back",
+              "score": 0.8835
+            },
+            {
+              "id": "saf-intentions-050",
+              "label": "Defining Clear Authority Limits for Autonomous AI Agents",
+              "score": 0.7631
+            },
+            {
+              "id": "saf-intentions-053",
+              "label": "Building Safety Guardrails into Autonomous AI Agents",
+              "score": 0.7623
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-050",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "Microsoft applies Zero Trust identity principles to agents by assigning each agent a distinct identity and enforcing authentication and authorization for every resource accessed. Agents must present least-privilege credentials and undergo change management oversight similar to human administrators. This effectively caps the damage potential of compromised credentials and prevents lateral movement across internal services. Nevertheless, managing machine identities at scale introduces significant operational complexity.",
+          "verbatim": "Microsoft also applies Zero Trust identity principles to agents by assigning each agent an identity and requiring authentication and authorization for every resource tries to access. That means if an agent wants to call a cloud API or access a database, it must present credentials that only grant the exact permissions necessary...",
+          "excerpt_context": "Section 4, subsection (a), page 25",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Govern autonomous agent access by means of Zero Trust identity principles, least-privilege credentials, and mandatory change management controls.",
+          "attribution_text": "An Intention within safetyist discourse that defines a framework for AI agents to operate autonomously within human-defined boundaries of delegation. Encompasses: Zero Trust machine identities, least-privilege authorization scopes, and human-in-the-loop change control tickets.",
+          "vocabulary_terms": [
+            "Zero Trust",
+            "least privilege",
+            "machine identity",
+            "change management"
+          ],
+          "retrieval_confidence": 0.9343,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-050",
+              "label": "Defining Clear Authority Limits for Autonomous AI Agents",
+              "score": 0.9343
+            },
+            {
+              "id": "saf-intentions-083",
+              "label": "Inserting Human Judgment Where Autonomous AI Makes Consequential Choices",
+              "score": 0.8409
+            },
+            {
+              "id": "saf-intentions-043",
+              "label": "Giving AI Legal Duties Without Granting It Legal Rights",
+              "score": 0.8385
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-200",
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "Monitoring AI agent deployments requires layered, continuous controls that observe models, agents, tools, and runtime environments while correlating signals to detect threats early. This defense-in-depth approach includes policy-enforcing gateways, shadow execution, canary requests, and tamper-evident audit trails. By stacking redundant safeguards across the lifecycle, organizations can catch jailbreaks and authorization drift before catastrophic failures occur. The primary challenge is that unstructured agent telemetry defies traditional SIEM rules and static signature detection.",
+          "verbatim": "Monitor AI agent deployments with layered, continuous controls that observe the model, the agents, their tools, and the runtime environment, then correlate signals to detect threats early and contain them fast.",
+          "excerpt_context": "Section 4, subsection (d), page 30",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Detect and contain runtime threats by means of layered, continuous telemetry controls, policy gateways, and tamper-evident audit trails.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for building defense-in-depth into AI systems by stacking redundant safeguards across the full lifecycle. Encompasses: Policy-enforcing tool gateways, runtime environment telemetry, and automated containment runbooks.",
+          "vocabulary_terms": [
+            "layered controls",
+            "runtime telemetry",
+            "policy-enforcing gateways",
+            "tamper-evident audit trails"
+          ],
+          "retrieval_confidence": 0.8858,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-200",
+              "label": "Stack Redundant Safeguards Across the AI Lifecycle",
+              "score": 0.8858
+            },
+            {
+              "id": "saf-intentions-144",
+              "label": "Deploying AI to Defend Against Dangerous AI",
+              "score": 0.8593
+            },
+            {
+              "id": "saf-intentions-067",
+              "label": "Extending Incident Response Protocols to Cover AI-Unique Threats",
+              "score": 0.8329
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-058",
+          "mechanism_type": "governance_body",
+          "category": "Intentions",
+          "point": "Establishing collaborative governance mechanisms, such as the proposed AI Information Sharing and Analysis Center (AI-ISAC) and alignment with CISA security playbooks, is critical for cross-sector threat intelligence sharing. Government and industry must coordinate on standards for agent identity, authentication protocols, and audit logging formats. This institutional scaffolding ensures that emerging vulnerabilities and multi-agent incident data can be rapidly distributed and mitigated. However, voluntary participation models may struggle with timely information disclosure.",
+          "verbatim": "Microsoft supports the Trump Administration’s AI Action Plan, which recommends that DHS in collaboration with CAISI and ONCD, establish an AI-ISAC to promote the sharing of AI-security threat information and intelligence across U.S. critical infrastructure sectors.",
+          "excerpt_context": "Section 4, Additional Considerations (a), page 33",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Promote cross-sector threat intelligence sharing by means of an industry-government AI Information Sharing and Analysis Center.",
+          "attribution_text": "An Intention within safetyist discourse that proposes the organizational frameworks and technical systems needed to manage, monitor, and audit autonomous AI agents at scale. Encompasses: AI-ISAC threat intelligence sharing, CISA collaboration playbooks, and standardized audit logging frameworks.",
+          "vocabulary_terms": [
+            "AI-ISAC",
+            "threat intelligence",
+            "critical infrastructure",
+            "incident sharing"
+          ],
+          "retrieval_confidence": 0.9281,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-058",
+              "label": "Building Accountability Frameworks for AI Agents Operating at Scale",
+              "score": 0.9281
+            },
+            {
+              "id": "saf-intentions-113",
+              "label": "Match Oversight Intensity to Agentic AI Risk Tiers",
+              "score": 0.8551
+            },
+            {
+              "id": "saf-intentions-144",
+              "label": "Deploying AI to Defend Against Dangerous AI",
+              "score": 0.8387
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-041",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Organizations face significant barriers to wider AI agent adoption driven by security vulnerabilities, data privacy concerns, and governance deficits that are well-documented rather than purely hypothetical. A Microsoft white paper and commissioned surveys reveal that 58 percent of organizations worry about unsanctioned generative AI use due to a lack of visibility, while 29 percent of employees admit to using unsanctioned AI agents for work tasks. This agent sprawl creates shadow IT blind spots and severe compliance risks, causing many businesses to delay deployments until stronger unified security controls are established.",
+          "verbatim": "Trustworthiness (including cybersecurity) has always determined whether new technologies achieve mainstream adoption. Concerns about security can be a factor limiting organizations’ ability to fully realize the promise of AI. A Microsoft 2024 White Paper shows this clearly: 58% of organizations report concern about the unsanctioned use of generative AI inside their companies, driven in large part by a lack of visibility into where and how these tools are used. Beyond slowing adoption, agent sprawl introduces blind spots (shadow agents) and potential security, compliance, and governance risks.",
+          "excerpt_context": "Section 1(c)",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "AI security vulnerabilities, shadow agent sprawl, and governance deficits create immediate and measurable barriers to safe enterprise technology adoption.",
+          "attribution_text": "A Belief within skeptic discourse that compiles documented, empirical evidence of AI's negative impacts and inherent security vulnerabilities in enterprise environments. Encompasses: Shadow agent sprawl, unsanctioned tool usage, and organizational visibility gaps.",
+          "vocabulary_terms": [
+            "shadow_it",
+            "governance_deficits",
+            "enterprise_adoption"
+          ],
+          "retrieval_confidence": 0.7276,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-041",
+              "label": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+              "score": 0.7276
+            },
+            {
+              "id": "skp-beliefs-183",
+              "label": "AI Harms and Opacity Drive Public Distrust",
+              "score": 0.7208
+            },
+            {
+              "id": "skp-beliefs-035",
+              "label": "AI Systems Fail When Deployed Outside Their Training Conditions",
+              "score": 0.7201
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-120",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Organizations and developers prioritize capability, speed, and market velocity over security maturity, leaving smaller companies and startups dangerously under-indexed on agent safeguards. This rush to deploy creates systemic vulnerabilities across the software ecosystem, mirroring early insecure patterns from web and mobile development. The lack of standardized adoption and enforceable publishing norms means commercial pressures routinely undermine safety baselines. Consequently, the industry faces severe adoption gaps driven by competitive urgency.",
+          "verbatim": "By contrast, smaller companies and fastmoving AI startups tend to under index on security, prioritizing capability and speed over maturity, mirroring early patterns from web and mobile development.",
+          "excerpt_context": "Section 2(e), Challenges to adoption paragraph 2",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Commercial pressures lead fast-moving developers and startups to prioritize speed over security maturity, replicating historical vulnerabilities in AI deployments.",
+          "attribution_text": "A Belief within skeptic discourse that commercial pressures lead fast-moving developers and startups to prioritize speed over security maturity, replicating historical vulnerabilities in AI deployments. Encompasses: prioritizing capability, under-indexing on security, startup vulnerability.",
+          "vocabulary_terms": [
+            "commercial_pressure",
+            "security_maturity",
+            "deployment_velocity"
+          ],
+          "retrieval_confidence": 0.5501,
+          "taxonomy_node_candidates": [
+            {
+              "id": "sit-155",
+              "label": "Assessing and Mitigating AI Risks",
+              "score": 0.6991
+            },
+            {
+              "id": "acc-beliefs-079",
+              "label": "First-Mover Loss from Safety-Induced Deployment Delays",
+              "score": 0.6983
+            },
+            {
+              "id": "conflict-market-deployment-versus-predeployment-t-c8a829cc",
+              "label": "",
+              "score": 0.6787
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-desires-070",
+              "label": "Vigilant Pragmatism Toward AI",
+              "score": 0.6282
+            },
+            {
+              "id": "skp-beliefs-281",
+              "label": "Capital-Intensive Infrastructure Bottlenecks",
+              "score": 0.6205
+            },
+            {
+              "id": "skp-desires-075",
+              "label": "Democratic Accountability in AI Development",
+              "score": 0.6132
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-120",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "AI agents introduced into enterprise environments frequently inherit complex trust boundaries and privileges that create severe operational risks and conflicts of interest. When agents execute transactions or access databases automatically, deployers face acute data integrity threats if the agent is manipulated by prompt injection or compromised upstream components. Traditional compliance frameworks like SOC 2 and HIPAA fail to address these agent-specific misuse modes, leaving organizations exposed to automated harms. Hence, strict least-privilege constraints and behavioral monitoring are required to prevent systemic compromise.",
+          "verbatim": "Compliance frameworks (e.g., SOC 2, HIPAA) similarly do not address AI-specific misuse modes, leaving deployers uncertain about expectations and creating inconsistencies in real‑world adoption.",
+          "excerpt_context": "Section 3, Assessing the Security of AI Agent Systems",
+          "extraction_confidence": 0.88,
+          "canonical_proposition": "AI agents operate with misaligned incentives and excessive privileges, creating severe institutional vulnerabilities that standard compliance frameworks fail to govern.",
+          "attribution_text": "A Belief within skeptic discourse that examines how autonomous AI agents introduce systemic operational vulnerabilities and governance gaps that standard compliance frameworks fail to mitigate. Encompasses: Compliance framework failures, privilege overextension, and enterprise exposure.",
+          "vocabulary_terms": [
+            "compliance_gap",
+            "privilege_overextension",
+            "institutional_risk"
+          ],
+          "retrieval_confidence": 0.6632,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-094",
+              "label": "Insulate Organizations from Regulatory Volatility Through Durable AI Standards",
+              "score": 0.7959
+            },
+            {
+              "id": "skp-intentions-102",
+              "label": "Operationalize Pragmatic AI Governance Through Concrete Policy Mechanisms",
+              "score": 0.7818
+            },
+            {
+              "id": "skp-intentions-108",
+              "label": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+              "score": 0.7777
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-intentions-094",
+              "label": "Insulate Organizations from Regulatory Volatility Through Durable AI Standards",
+              "score": 0.7959
+            },
+            {
+              "id": "skp-intentions-102",
+              "label": "Operationalize Pragmatic AI Governance Through Concrete Policy Mechanisms",
+              "score": 0.7818
+            },
+            {
+              "id": "skp-intentions-108",
+              "label": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+              "score": 0.7777
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-262",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Traditional security monitoring methods face fundamental limitations when applied to AI agent systems because they were designed for predictable, rule-bound software rather than autonomous, adaptive components. Agents generate high-volume, unstructured telemetry that does not map cleanly to conventional logs or SIEM rules, leading to signature-based detection missing authorization drift or emergent tool-use escalation. Furthermore, agents span distributed models, external APIs, and dynamic data sources, undermining the stability of traditional network perimeters. Consequently, security must pivot entirely to identity-based access controls and contextual behavioral monitoring.",
+          "verbatim": "Traditional security monitoring methods face significant limitations when applied to AI agent systems because they were designed for predictable, rule‑bound software rather than autonomous, adaptive components. Agents generate high‑volume, unstructured telemetry that does not map cleanly to conventional logs or SIEM rules.",
+          "excerpt_context": "Section 4, subsection (d)(i), page 31",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Traditional signature-based security monitoring fails for AI agents because unstructured telemetry and autonomous adaptation bypass conventional SIEM rules.",
+          "attribution_text": "A Belief within skeptic discourse that traditional security monitoring frameworks are structurally inadequate for detecting autonomous agent behaviors. Encompasses: Unstructured telemetry generation, signature-based detection failure, and boundary dissolution across distributed APIs.",
+          "vocabulary_terms": [
+            "traditional monitoring",
+            "unstructured telemetry",
+            "signature-based detection",
+            "authorization drift"
+          ],
+          "retrieval_confidence": 0.4833,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-271",
+              "label": "Telemetry Self-Contamination Under Autonomous Operation",
+              "score": 0.6651
+            },
+            {
+              "id": "sit-283",
+              "label": "Agentic Privacy Leakage Benchmarking",
+              "score": 0.6286
+            },
+            {
+              "id": "skp-intentions-139",
+              "label": "Enforcing Runtime Observability Through Sectoral Safety Regulators",
+              "score": 0.6229
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-intentions-139",
+              "label": "Enforcing Runtime Observability Through Sectoral Safety Regulators",
+              "score": 0.6229
+            },
+            {
+              "id": "skp-intentions-167",
+              "label": "Cross-Application Prompt Worm Propagation",
+              "score": 0.6161
+            },
+            {
+              "id": "skp-beliefs-197",
+              "label": "Previously Trusted Human Actors Can No Longer Be Presumed Authentic Due to AI Capabilities",
+              "score": 0.6049
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "The International Data Corporation projects that by the year 2029, the number of actively deployed AI agents worldwide will exceed one billion.",
+      "claim_label": "Global AI Agent Deployment Projections",
+      "doc_position": "supports",
+      "temporal_scope": "predictive",
+      "temporal_bound": "by 2029",
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "acc-intentions-082"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "industry analyst projection",
+          "falsifiable": true,
+          "quantified": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "More than 80 percent of Fortune 500 companies currently utilize active AI agents built with low-code or no-code tools.",
+      "claim_label": "Fortune 500 AI Agent Adoption Rate",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2025-2026",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "acc-intentions-082"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "first-party telemetry data",
+          "falsifiable": true,
+          "quantified": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "A 2024 Microsoft white paper indicates that 58 percent of organizations report concern about the unsanctioned use of generative AI within their companies, driven by visibility gaps.",
+      "claim_label": "Organizational Concern Over Unsanctioned GenAI",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2024",
+      "extraction_confidence": 0.97,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-041"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "corporate white paper survey",
+          "falsifiable": true,
+          "quantified": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "A July 2025 multi-national survey commissioned by Microsoft found that 29 percent of employees turned to unsanctioned AI agents for work tasks.",
+      "claim_label": "Employee Unsanctioned AI Agent Usage",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "July 2025",
+      "extraction_confidence": 0.97,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-041"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "multi-national professional survey",
+          "falsifiable": true,
+          "quantified": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Microsoft's Flow Integrity Deterministic Enforcement System (FIDES) is a planner that tracks confidentiality and integrity labels, deterministically enforcing security policies to prevent sensitive data from flowing to unauthorized outputs in multi-agent settings.",
+      "claim_label": "FIDES Deterministic Enforcement System",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": null,
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-053",
+        "sit-087"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "Empirical demonstration in recent Microsoft research.",
+          "measurement_validity": "Measures information flow integrity and label tracking.",
+          "confound_control": "Enforces formal guarantees beyond probabilistic defenses."
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Microsoft Entra Agent ID is currently in public preview, providing AI agents with first-class identities and short-lived, scoped tokens for just-in-time access.",
+      "claim_label": "Microsoft Entra Agent ID Preview",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-127"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "Deployment in public preview across Microsoft environments.",
+          "measurement_validity": "Tracks token lifespan and permission scopes.",
+          "confound_control": "Eliminates standing privileges to reduce blast radius."
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Adoption of agent security frameworks remains uneven, with large enterprises using the NIST AI RMF while smaller companies and startups under-index on security to prioritize speed.",
+      "claim_label": "Uneven Industry Adoption of Security Frameworks",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": null,
+      "extraction_confidence": 0.9,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-120"
+      ],
+      "evidence_criteria": {
+        "specificity": "qualified",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "Market observation of enterprise versus startup behavior.",
+          "measurement_validity": "Qualitative assessment of framework integration.",
+          "confound_control": "Contrasts mature governance programs with fast-moving startups."
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Microsoft open-sourced a Python Risk Identification Tool (PyRIT) for generative AI that can be extended to agentic security scenarios.",
+      "claim_label": "PyRIT Open Source Release",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": null,
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "sit-106",
+        "saf-intentions-008"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "empirical documentation",
+          "falsifiability": "verifiable via software repository inspection",
+          "sample_adequacy": "adequate"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Traditional compliance and incident-response frameworks such as SOC 2, HIPAA, ISO 27001, and NIST SP 800-61 lack procedures and controls for AI-specific misuse modes like cross-prompt injection and memory poisoning.",
+      "claim_label": "Framework Deficiencies for AI Agents",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": null,
+      "extraction_confidence": 0.92,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-beliefs-017",
+        "skp-beliefs-120"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "industry standardization analysis",
+          "falsifiability": "verifiable via audit framework text review",
+          "sample_adequacy": "comprehensive"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Microsoft Clarity recorded a 155.6% increase in AI-driven web referrals over eight months in 2024–2025, though AI-driven web referrals still account for less than 1% of total web traffic.",
+      "claim_label": "AI Web Referral Growth Metrics",
+      "doc_position": "supports",
+      "temporal_scope": "predictive",
+      "temporal_bound": "2024-2025",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "acc-intentions-114",
+        "saf-beliefs-017"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "quantified": true,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Microsoft has pledged $4 billion through the Microsoft Elevate initiative, which includes partnerships with organizations like the American Federation of Teachers to upskill educators and professionals in AI fundamentals and security.",
+      "claim_label": "Microsoft Elevate Funding Pledge",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "acc-intentions-082"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "quantified": true,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    }
+  ],
+  "unmapped_concepts": []
+}

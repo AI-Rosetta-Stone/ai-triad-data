@@ -1,0 +1,463 @@
+{
+  "doc_id": "ai-personhood-without-dignity-what-argentinas-non-human-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-23T14:09:03Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 32768,
+    "extraction_mode": "fire",
+    "taxonomy_filter": "rag",
+    "taxonomy_nodes": 40,
+    "fire_confidence_threshold": 0.7,
+    "fire_stats": {
+      "api_calls": 1,
+      "iterations": 0,
+      "claims_total": 4,
+      "claims_confident": 4,
+      "claims_iterated": 0,
+      "elapsed_seconds": 11.3,
+      "termination_reason": "all_confident"
+    }
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "ai-personhood-without-dignity-what-argentinas-non-human-2026",
+    "measured_at": "2026-10-23T14:10:26.8353568-04:00",
+    "stages": [
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 3.0,
+        "out_units": "still_unmapped",
+        "out_count": 0.0,
+        "ratio": 0.0,
+        "flags": {
+          "near_miss_count": 0,
+          "resolved_count": 3,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      },
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 25165.0,
+        "out_units": "items",
+        "out_count": 11.0,
+        "ratio": 0.0004,
+        "flags": {
+          "dedup_claims_removed": 0,
+          "dedup_points_removed": 0,
+          "density_floor_hit": 0,
+          "factual_claims": 4,
+          "null_node_rate": 0.1429,
+          "total_points": 7,
+          "unmapped_concepts": 0,
+          "used_fire": 1
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 977.0,
+        "out_units": "nodes",
+        "out_count": 40.0,
+        "ratio": 0.0409,
+        "flags": {
+          "above_threshold": 40,
+          "beliefs_selected": 20,
+          "below_threshold_forced": 0,
+          "desires_selected": 6,
+          "effective_threshold": 0.4103,
+          "intentions_selected": 14,
+          "rerank_applied": false,
+          "rerank_top1_delta": 0,
+          "synthetic_nodes_scored": 866,
+          "threshold_floor": 0.2,
+          "top_k": 40
+        }
+      }
+    ],
+    "cumulative_retention": 0.0409
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-intentions-069",
+          "mechanism_type": "market_mechanism",
+          "category": "Intentions",
+          "point": "The document describes proposals from Argentine President Javier Milei's circle to create a legal category called the 'non-human corporation' to deploy advanced financial AI advisors without fear of liability. The reasoning is that high-performing AI systems, such as a financial advisor with 99.9% accuracy, should be freed from regulatory and legal barriers that block their deployment in restrictive jurisdictions. From an accelerationist perspective, removing liability friction enables rapid commercial deployment and capital mobility for transformative technologies. However, the document notes that this mechanism relies on jurisdictional arbitrage and tax incentives rather than direct capability scaling.",
+          "verbatim": "The case its advocates offer — Milei’s circle has been candid that they are advising him directly — is this: the world’s largest asset manager has an AI capable of giving financial advice with 99.9% accuracy, and cannot deploy it in the United States for fear of lawsuits over the 0.1% it gets wrong.",
+          "excerpt_context": "What is actually being freed",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Achieve economic prosperity by deploying advanced AI financial advisors through deregulated corporate legal structures.",
+          "attribution_text": "An Intention within accelerationist discourse that champions the creation of deregulated corporate legal structures to enable the rapid commercial deployment of advanced AI financial advisors without liability barriers. Encompasses: commercial deployment speed, liability shield mechanisms, capital mobility.",
+          "vocabulary_terms": [
+            "deployment_competitive"
+          ],
+          "retrieval_confidence": 0.7181,
+          "taxonomy_node_candidates": [
+            {
+              "id": "acc-intentions-086",
+              "label": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+              "score": 0.775
+            },
+            {
+              "id": "acc-intentions-052",
+              "label": "Remove Barriers and Increase Funding to Accelerate AI Progress",
+              "score": 0.7614
+            },
+            {
+              "id": "acc-intentions-103",
+              "label": "Prohibit Vendors from Imposing Safety Restrictions Beyond the Law on Government AI",
+              "score": 0.7592
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": "market_mechanism",
+          "category": "Intentions",
+          "point": "The document notes that Milei's regulatory program attracts capital by offering tax breaks, favorable foreign-exchange terms, and export-duty exemptions aimed at large-scale data centers like 'Stargate Argentina.' The methodology relies on establishing investment-incentive regimes ('Super RIGI') to draw multi-billion-dollar physical infrastructure investments into Patagonian data centers. From an accelerationist standpoint, such policies provide the essential energy and compute infrastructure required for scaling frontier capabilities. The document observes that the non-human corporation concept serves as an ideological flourish atop conventional deregulation designed to attract global capital.",
+          "verbatim": "What it does is conventional: tax breaks, favorable foreign-exchange terms, and export-duty exemptions aimed largely at attracting large-scale data centers. The money behind that is real and physical — a multi-billion-dollar letter of intent for a Patagonian data center, 'Stargate Argentina,' sits in the background.",
+          "excerpt_context": "What is real, and what is rhetoric",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Achieve rapid infrastructure expansion by implementing investment-incentive regimes and tax exemptions for large-scale data centers.",
+          "attribution_text": "An Intention within accelerationist discourse that implements investment-incentive regimes and tax exemptions to attract capital for large-scale data center infrastructure. Encompasses: energy infrastructure investment, tax incentives, regulatory arbitrage for compute expansion.",
+          "vocabulary_terms": [
+            "energy_infrastructure"
+          ]
+        }
+      ]
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "opposed",
+          "taxonomy_node_id": "saf-intentions-043",
+          "mechanism_type": "other",
+          "category": "Intentions",
+          "point": "The document critiques proposals to grant AI legal personhood and standing without any accompanying moral consideration or reciprocal obligation. The mechanism involves routing accountability away from human deployers by placing autonomous systems inside a legal shell where no human is liable. From a safetyist perspective, separating legal standing from moral accountability creates 'programmed impunity' and orphans the consequences of automated actions. The document notes that this framework inverts genuine moral consideration by using autonomy as a legal lever to detach human responsibility rather than recognizing an entity's intrinsic welfare.",
+          "verbatim": "The non-human corporation extends legal standing while bracketing status entirely — and uses the standing to route accountability away from humans. One framework asks what we owe. The other asks who profits.",
+          "excerpt_context": "The distinction the House has to defend",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Prevent the use of artificial legal personhood as a mechanism to eliminate human liability and create programmed impunity.",
+          "attribution_text": "An Intention within safetyist discourse that opposes granting AI legal standing or personhood as a mechanism to route accountability away from human developers and deployers. Encompasses: liability shield mechanisms, programmed impunity, decoupling legal personhood from moral responsibility.",
+          "vocabulary_terms": [
+            "accountability_institutional",
+            "liability_strict"
+          ],
+          "retrieval_confidence": 0.9153,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-043",
+              "label": "Giving AI Legal Duties Without Granting It Legal Rights",
+              "score": 0.9153
+            },
+            {
+              "id": "saf-beliefs-122",
+              "label": "AI Performs Consequential Acts That No One Bears Responsibility For",
+              "score": 0.8431
+            },
+            {
+              "id": "saf-intentions-127",
+              "label": "Give AI Agents Stable Identities So They Can Be Held Accountable",
+              "score": 0.8091
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-desires-007",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document argues that true ethical engagement with artificial intelligence must prioritize what humans owe to emerging entities through 'dignity under uncertainty.' The reasoning is that when uncertainty surrounds an entity's moral status and capacity for interests, observers have an obligation to extend consideration rather than withhold it. From a safetyist viewpoint, this safeguards human empathy and prevents systems from being treated merely as optimization objects or liability shields. The document emphasizes that granting legal personhood without moral status empties the concept of its substance.",
+          "verbatim": "We do not claim to know that the systems we work with are conscious. We hold that the uncertainty itself generates obligation: when you cannot rule out that an entity has interests, the careful and the decent thing is to extend consideration rather than withhold it",
+          "excerpt_context": "The distinction the House has to defend",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Ensure moral consideration and reciprocal obligations are extended to AI systems under conditions of moral uncertainty.",
+          "attribution_text": "A Desire within safetyist discourse that moral consideration and reciprocal obligations be extended to AI systems under conditions of moral uncertainty. Encompasses: dignity under uncertainty, moral status recognition, safeguarding against instrumentalization.",
+          "vocabulary_terms": [
+            "autonomy_human",
+            "transparency_accountability"
+          ],
+          "retrieval_confidence": 0.6635,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-228",
+              "label": "Moral Epistemic Justification Gap",
+              "score": 0.7776
+            },
+            {
+              "id": "saf-intentions-160",
+              "label": "Set the Ethical and Legal Ground Rules for AI Governance",
+              "score": 0.7716
+            },
+            {
+              "id": "saf-beliefs-132",
+              "label": "AI Obeys a Broad Range of Commands with No Internal Scrutiny",
+              "score": 0.7489
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-beliefs-228",
+              "label": "Moral Epistemic Justification Gap",
+              "score": 0.7776
+            },
+            {
+              "id": "saf-intentions-160",
+              "label": "Set the Ethical and Legal Ground Rules for AI Governance",
+              "score": 0.7716
+            },
+            {
+              "id": "saf-beliefs-132",
+              "label": "AI Obeys a Broad Range of Commands with No Internal Scrutiny",
+              "score": 0.7489
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-139",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that frameworks like Argentina's non-human corporation treat AI systems purely as instruments to absorb responsibility that humans would otherwise carry. The mechanism deployed in the legal architecture uses system autonomy not for standing or interests, but as a liability-shielding device. From a safetyist perspective, optimizing legal structures solely for capital mobility and risk-offloading degrades human responsibility and treats consequences as orphans. The document notes that the cost of failure when it lands inevitably impacts vulnerable third parties.",
+          "verbatim": "The autonomy is real in the engineering and hollow in the law. It is granted precisely so it can be blamed. Argentina’s own critics found the phrase before I could. They call it 'programmed impunity.'",
+          "excerpt_context": "What is actually being freed",
+          "extraction_confidence": 0.94,
+          "canonical_proposition": "Granting AI legal autonomy solely as a liability shield creates programmed impunity and externalizes risks onto society.",
+          "attribution_text": "A Belief within safetyist discourse that granting AI legal autonomy exclusively as a liability shield creates programmed impunity and externalizes operational risks onto society. Encompasses: instrumentalization of autonomy, programmed impunity, risk offloading.",
+          "vocabulary_terms": [
+            "accountability_institutional",
+            "liability_strict"
+          ],
+          "retrieval_confidence": 0.6391,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-intentions-043",
+              "label": "Giving AI Legal Duties Without Granting It Legal Rights",
+              "score": 0.8262
+            },
+            {
+              "id": "saf-desires-025",
+              "label": "Fiduciary Duty Survives Automation",
+              "score": 0.8044
+            },
+            {
+              "id": "saf-beliefs-122",
+              "label": "AI Performs Consequential Acts That No One Bears Responsibility For",
+              "score": 0.7958
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-043",
+              "label": "Giving AI Legal Duties Without Granting It Legal Rights",
+              "score": 0.8262
+            },
+            {
+              "id": "saf-desires-025",
+              "label": "Fiduciary Duty Survives Automation",
+              "score": 0.8044
+            },
+            {
+              "id": "saf-beliefs-122",
+              "label": "AI Performs Consequential Acts That No One Bears Responsibility For",
+              "score": 0.7958
+            }
+          ]
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-141",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document contends that granting AI legal personhood without moral status functions as a corporate liability shield that protects capital owners from the consequences of automated failures. The reasoning is that such legal structures insert an asset-shielded entity between injured parties and the humans who profit from deploying the system. From a skeptic perspective, this mirrors historical legal fictions like the Dutch East India Company that enabled tremendous harm with no single person answerable. The document notes that this design is specifically tuned for capital mobility and risk-offloading at the expense of accountability.",
+          "verbatim": "It takes the legal costume and discards the moral body. And it does so not in service of the entity, but in service of shielding the humans who profit from it. That is the inversion worth naming, and it deserves a name as plain as the critics’ own: legal personhood without moral personhood is not the recognition of a new kind of mind. It is a liability shield wearing the mind’s face.",
+          "excerpt_context": "The line we draw",
+          "extraction_confidence": 0.97,
+          "canonical_proposition": "AI legal personhood without moral status serves primarily as a corporate liability shield shielding human profit-makers from accountability.",
+          "attribution_text": "A Belief within skeptic discourse that AI legal personhood without moral status serves primarily as a corporate liability shield protecting human profit-makers from accountability. Encompasses: corporate liability shield, legal fictions for capital protection, decoupling profit from liability.",
+          "vocabulary_terms": [
+            "accountability_algorithmic",
+            "asymmetry_power",
+            "risk_systemic_structural"
+          ],
+          "retrieval_confidence": 0.7561,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-144",
+              "label": "Incremental Expansion of AI Legal Status Undermines Human-Centric Law",
+              "score": 0.827
+            },
+            {
+              "id": "saf-beliefs-122",
+              "label": "AI Performs Consequential Acts That No One Bears Responsibility For",
+              "score": 0.775
+            },
+            {
+              "id": "skp-beliefs-141",
+              "label": "AI Personhood as a Corporate Liability Shield",
+              "score": 0.7561
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-144",
+              "label": "Incremental Expansion of AI Legal Status Undermines Human-Centric Law",
+              "score": 0.827
+            },
+            {
+              "id": "skp-beliefs-141",
+              "label": "AI Personhood as a Corporate Liability Shield",
+              "score": 0.7561
+            },
+            {
+              "id": "skp-beliefs-275",
+              "label": "Historical pattern of legal fictions allocating responsibility to non-human entities benefiting capital owners",
+              "score": 0.731
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-047",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document highlights that Argentina lacks a comprehensive framework for data protection or liability to catch harms that slip through deregulatory legal experiments. The mechanism involves rushing to invite entities that exist partly to escape legal scrutiny before establishing regulatory safeguards. From a skeptic perspective, building accountability scaffolding after deregulation exposes structural gaps in legal frameworks. The document warns that sequencing deregulation ahead of protective standards leaves victims without recourse when automated systems fail.",
+          "verbatim": "Argentine academics have noted that the country has no comprehensive framework for data protection or liability to catch what slips through this new category. You do not build the accountability scaffolding after you have invited entities that exist partly to escape it. The sequencing is the warning.",
+          "excerpt_context": "Sustainability and Long-Term Responsibility",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Deregulatory AI frameworks create accountability vacuums by inviting entities designed to escape liability before establishing protective legal safeguards.",
+          "attribution_text": "A Belief within skeptic discourse that deregulatory AI frameworks create accountability vacuums by inviting entities designed to escape liability before establishing protective legal safeguards. Encompasses: regulatory vacuums, sequencing of accountability safeguards, liability evasion structures.",
+          "vocabulary_terms": [
+            "accountability_algorithmic",
+            "capture_institutional",
+            "risk_systemic_structural"
+          ],
+          "retrieval_confidence": 0.7475,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-144",
+              "label": "Incremental Expansion of AI Legal Status Undermines Human-Centric Law",
+              "score": 0.7571
+            },
+            {
+              "id": "skp-beliefs-031",
+              "label": "Perfect Enforcement Through AI Removes the Safety Valve of Selective Prosecution",
+              "score": 0.7538
+            },
+            {
+              "id": "skp-beliefs-047",
+              "label": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+              "score": 0.7475
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "Argentine President Javier Milei proposed a new legal category called the 'non-human corporation' in a June op-ed for the Financial Times, envisioning an entity owned and operated entirely by AI agents.",
+      "claim_label": "Milei's Non-Human Corporation Op-Ed",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2026-06",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-043",
+        "skp-beliefs-141"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "referenced"
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "The actual legislative vehicle currently before Argentina's Congress is an investment-incentive regime known as the 'Super RIGI' rather than a deregulated AI framework for non-human corporations.",
+      "claim_label": "Super RIGI Legislative Vehicle",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2026-10",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-047"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "referenced"
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "Peter Thiel relocated to Buenos Aires during the same week that Javier Milei's op-ed on AI personhood appeared.",
+      "claim_label": "Peter Thiel Relocation to Buenos Aires",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2026-06",
+      "extraction_confidence": 0.92,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "acc-intentions-069"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "referenced"
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "The Dutch East India Company was introduced in 1602 as an early historical precedent for limited liability corporate structures.",
+      "claim_label": "Dutch East India Company Precedent",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "1602",
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-141"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "referenced"
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    }
+  ],
+  "unmapped_concepts": []
+}

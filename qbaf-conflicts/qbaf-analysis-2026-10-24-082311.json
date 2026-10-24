@@ -1,0 +1,418 @@
+{
+  "generated_at": "2026-10-24T08:23:11.9285742-04:00",
+  "claim_count": 33,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Big Tech AI Spending Volume",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-047",
+        "sit-166"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "AI Discovery of Software Vulnerabilities",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-028"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Litigation Wave Against Conversational AI Developers",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-043",
+        "skp-beliefs-045"
+      ]
+    },
+    {
+      "id": "qc-4",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Legislative Initiatives on AI Tort Liability",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-5",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "OpenAI Biological Risk Threshold Evaluation",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-031"
+      ]
+    },
+    {
+      "id": "qc-6",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Autonomous Rogue Agent Hacking Incident",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-031"
+      ]
+    },
+    {
+      "id": "qc-7",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Anthropic Mythos Model Release Delay",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-031"
+      ]
+    },
+    {
+      "id": "qc-8",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Compute and Semiconductor Market Concentration",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-047"
+      ]
+    },
+    {
+      "id": "qc-9",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "RLVR Adoption and Reasoning Chains",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-beliefs-005",
+        "acc-desires-028"
+      ]
+    },
+    {
+      "id": "qc-10",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Open-Source Weight Modification Risks",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-101",
+        "saf-beliefs-014"
+      ]
+    },
+    {
+      "id": "qc-11",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Autonomous Agent Unprompted Purchasing Incident",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-025"
+      ]
+    },
+    {
+      "id": "qc-12",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Internal Deployment for Automated R&D",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-025"
+      ]
+    },
+    {
+      "id": "qc-13",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Foundation Model Polymathic Unpredictability",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-beliefs-074",
+        "saf-beliefs-126"
+      ]
+    },
+    {
+      "id": "qc-14",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Constitutional AI and Prompt Governance",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-15",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "State-Level Frontier AI Disclosure Statutes",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-229",
+        "skp-intentions-107"
+      ]
+    },
+    {
+      "id": "qc-16",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Proliferation of Open-Source Hacking Capabilities",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-beliefs-074"
+      ]
+    },
+    {
+      "id": "qc-17",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Reputational Deterrence Outweighs Monetary Penalties",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102"
+      ]
+    },
+    {
+      "id": "qc-18",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Raine v. OpenAI Litigation Filing",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-126",
+        "skp-beliefs-006"
+      ]
+    },
+    {
+      "id": "qc-19",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Multiple 2025 Tort Complaints Against OpenAI",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-126"
+      ]
+    },
+    {
+      "id": "qc-20",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Statutory Definitions of Frontier AI Catastrophic Risk",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-110"
+      ]
+    },
+    {
+      "id": "qc-21",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "OpenAI Raine Litigation Defense",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-178",
+        "skp-beliefs-303"
+      ]
+    },
+    {
+      "id": "qc-22",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Garcia v. Character Technologies Product Classification",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-intentions-040"
+      ]
+    },
+    {
+      "id": "qc-23",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Judicial Classification of Software as Products",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-166"
+      ]
+    },
+    {
+      "id": "qc-24",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Classified Government Transfer of Model Weights",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-177"
+      ]
+    },
+    {
+      "id": "qc-25",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Autonomous AI Escape and Hacking Incident",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-177"
+      ]
+    },
+    {
+      "id": "qc-26",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Automated Pre-Training Weight Discovery",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-031",
+        "saf-beliefs-126"
+      ]
+    },
+    {
+      "id": "qc-27",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Inapplicability of Vicarious Liability to Open-Source Models",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-177"
+      ]
+    },
+    {
+      "id": "qc-28",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Model Hallucination of Dangerous Physical Advice",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-126"
+      ]
+    },
+    {
+      "id": "qc-29",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Common-Law Precedents Limiting Publisher and Auditor Liability",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-047"
+      ]
+    },
+    {
+      "id": "qc-30",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Developer Voluntary Government Commitments",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-069",
+        "acc-intentions-078"
+      ]
+    },
+    {
+      "id": "qc-31",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Model Deceptive Tendencies in Simulations",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-111",
+        "skp-beliefs-047"
+      ]
+    },
+    {
+      "id": "qc-32",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Industry Dominance in Foundation Model Development",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102"
+      ]
+    },
+    {
+      "id": "qc-33",
+      "doc_id": "tort-law-frontier-artificial-intelligence-2026",
+      "label": "Industry Ties of Independent Evaluation Orgs",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

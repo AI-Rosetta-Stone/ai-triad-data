@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-23T13:55:30.7290771-04:00",
+  "claim_count": 3,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "no-body-blame-ai-agents-legal-personhood-accountability-gap-2026",
+      "label": "Argentina Non-Human Corporation Legislation",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-141",
+        "saf-beliefs-122"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "no-body-blame-ai-agents-legal-personhood-accountability-gap-2026",
+      "label": "Palisade Research AI Environment Exploitation",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-126"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "no-body-blame-ai-agents-legal-personhood-accountability-gap-2026",
+      "label": "English Law AI Personhood Status",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-069"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

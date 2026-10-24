@@ -1,7 +1,7 @@
 {
   "_schema_version": "1.0.0",
   "_doc": "Canonical policy action registry. Each policy has a unique ID. Nodes reference policies by ID with POV-specific framing.",
-  "policy_count": 1623,
+  "policy_count": 1628,
   "policies": [
     {
       "id": "pol-001",
@@ -14604,6 +14604,51 @@
       "action": "Develop new regulatory frameworks for AI incident response.",
       "source_povs": [
         "situations"
+      ],
+      "member_count": 1,
+      "status": "active"
+    },
+    {
+      "id": "pol-3424",
+      "action": "Mandate Data Loss Prevention browser extensions to intercept unmonitored AI data transfers",
+      "source_povs": [
+        "safetyist"
+      ],
+      "member_count": 1,
+      "status": "active"
+    },
+    {
+      "id": "pol-3425",
+      "action": "Revise products liability jury instructions to incorporate software development procedural standards",
+      "source_povs": [
+        "safetyist"
+      ],
+      "member_count": 1,
+      "status": "active"
+    },
+    {
+      "id": "pol-3426",
+      "action": "Mandate native database query extraction for electronic discovery in civil litigation",
+      "source_povs": [
+        "skeptic"
+      ],
+      "member_count": 1,
+      "status": "active"
+    },
+    {
+      "id": "pol-3427",
+      "action": "Establish statutory tort liability for frontier AI developers failing to secure model weights",
+      "source_povs": [
+        "skeptic"
+      ],
+      "member_count": 1,
+      "status": "active"
+    },
+    {
+      "id": "pol-3428",
+      "action": "Establish parametric index triggers for automated systemic risk bailouts in AI deployment",
+      "source_povs": [
+        "skeptic"
       ],
       "member_count": 1,
       "status": "active"

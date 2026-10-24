@@ -1,0 +1,386 @@
+{
+  "debate_id": "086d257f-3477-4857-820d-380e4358a83d",
+  "debate_title": "AI governance frameworks for advanced AI systems",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether automated runtime telemetry and cryptographic checks can prevent systemic risks before harm occurs, or whether they function merely as post-mortem recording mechanisms.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Automated runtime telemetry and cryptographic execution traces act as active circuit breakers that halt aberrant behavior within microseconds."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Runtime telemetry operates downstream of semantic intent and only records anomalies after critical execution steps have already occurred."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-141",
+        "saf-intentions-040",
+        "saf-intentions-158",
+        "saf-intentions-160",
+        "sit-173",
+        "acc-beliefs-028",
+        "acc-intentions-088",
+        "acc-desires-001",
+        "acc-beliefs-034",
+        "saf-beliefs-249"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether pre-market safety verification and compute thresholds can be structured to protect open-source developers from prohibitive compliance overhead.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Exempting models below specific integer operation thresholds shields academic and open-source developers from regulatory burdens."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Proving exemption below any compute threshold requires expensive legal counsel and data provenance pipelines that impose heavy costs on small teams."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-047",
+        "skp-desires-075",
+        "skp-intentions-102",
+        "saf-beliefs-141",
+        "saf-intentions-040",
+        "saf-intentions-158",
+        "saf-intentions-160",
+        "sit-173",
+        "saf-beliefs-249",
+        "saf-intentions-095"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-173",
+      "nodeLabel": "Governance Frameworks and Institutional Design",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-034",
+      "nodeLabel": "AI Accountability Has a Chicken-and-Egg Problem",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-040",
+      "nodeLabel": "Binding Named Officers to Deployment Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-160",
+      "nodeLabel": "Set the Ethical and Legal Ground Rules for AI Governance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-174",
+      "nodeLabel": "Legal and Legislative Mechanisms for AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-102",
+      "nodeLabel": "Operationalize Pragmatic AI Governance Through Concrete Policy Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-141",
+      "nodeLabel": "AI Governance Relies on Policies It Cannot Actually Enforce",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-158",
+      "nodeLabel": "Use Voluntary Standards as a Bridge to Mandatory AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-095",
+      "nodeLabel": "Design Safety In Rather Than Patch It On",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-170",
+      "nodeLabel": "AI Corporations Systematically Evade Effective Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-081",
+      "nodeLabel": "Building Adaptive Regulatory Frameworks for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-239",
+      "nodeLabel": "Every AI Governance Instrument Assumes a Sovereign That Can Compel Proof",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-129",
+      "nodeLabel": "Safety Rhetoric as Infrastructure Cartel Maintenance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-113",
+      "nodeLabel": "Institutional Inertia From Entrenched Lobbies Prevents Regulatory Frameworks From Evolving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-009",
+      "nodeLabel": "Discredit AI Safety Discourse as Irrational or Faith-Based",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-206",
+      "nodeLabel": "Scaling AI Without Safeguards Creates a Non-Trivial Path to Irreversible Civilizational Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-083",
+      "nodeLabel": "Inserting Human Judgment Where Autonomous AI Makes Consequential Choices",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-166",
+      "nodeLabel": "AI Accountability and Liability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-019",
+      "nodeLabel": "Foundation Model Capabilities Can Be Systematically Unlocked and Deployed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-054",
+      "nodeLabel": "Ground AI Safety in Observable Behavior and Real-World Testing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-019",
+      "nodeLabel": "Acting Now vs. Waiting For Proof",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-039",
+      "nodeLabel": "AI Systems May Resist Shutdown and Accumulate Resources to Secure Their Objectives",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-043",
+      "nodeLabel": "Giving AI Legal Duties Without Granting It Legal Rights",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-065",
+      "nodeLabel": "Technological Exceptionalism in AI Policy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-096",
+      "nodeLabel": "AI Biology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-136",
+      "nodeLabel": "AI Scaling Failures Stem from Integration and Infrastructure Gaps",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-007",
+      "nodeLabel": "Regulate AI by Use Case, Not by Technology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-115",
+      "nodeLabel": "Federal Preemption of State AI Regulation",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether automated runtime telemetry and cryptographic checks can prevent systemic risks before harm occurs, or whether they function merely as post-mortem recording mechanisms.",
+      "prevails": "C2",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for the fundamental limitation of cryptographic verification, which checks memory addresses and execution steps using a Merkle tree (a cryptographic data structure used to verify data integrity) rather than semantic intent. While accelerationists correctly identify that runtime telemetry can execute state rollbacks within microseconds, they conflate technical integrity with safety, leaving systemic risks unaddressed when software operates as intended but produces harmful outcomes.",
+      "whatWouldChange": "Empirical proof that byte-level entropy spikes correlate consistently with unaligned semantic intent across diverse frontier architectures.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether pre-market safety verification and compute thresholds can be structured to protect open-source developers from prohibitive compliance overhead.",
+      "prevails": "C5",
+      "criterion": "empirical_evidence",
+      "rationale": "The skeptic position draws on robust historical precedents from financial regulation, such as the Sarbanes-Oxley Act of 2002, which demonstrate that fixed compliance overhead drives market consolidation by roughly twenty percent. The safetyist assertion that a threshold of ten to the twenty-sixth integer operations shields smaller developers lacks comparative empirical backing regarding the actual legal and data provenance costs required to prove exemption.",
+      "whatWouldChange": "Long-term economic data from jurisdictions implementing compute-threshold exemptions that proves compliance costs remain negligible for academic and open-source teams.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-10-24T08:25:55.0484317-04:00",
+  "claim_count": 4,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "actuarial-safe-harbor-protocol-ashp-2026",
+      "label": "Reinsurance Capacity Withdrawal",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-beliefs-074",
+        "saf-beliefs-206"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "actuarial-safe-harbor-protocol-ashp-2026",
+      "label": "Statutory Non-Economic Damage Cap",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-217"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "actuarial-safe-harbor-protocol-ashp-2026",
+      "label": "HHI Concentration Penalty Calculation",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-206"
+      ]
+    },
+    {
+      "id": "qc-4",
+      "doc_id": "actuarial-safe-harbor-protocol-ashp-2026",
+      "label": "Solvency Capital Requirement Reduction Calculation",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "acc-intentions-051"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

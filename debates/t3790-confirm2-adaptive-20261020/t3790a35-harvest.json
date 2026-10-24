@@ -1,0 +1,405 @@
+{
+  "debate_id": "18064cf6-d488-4013-92bd-b132dcc1c929",
+  "debate_title": "International coordination on AI safety standards and tre...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether national safety institutes must enforce mandatory pre-release audits and financial materiality standards for frontier artificial intelligence models to prevent unverified systemic scale.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Supports mandatory pre-release audits and compute thresholds as an essential baseline to prevent irreversible systemic harms from unaligned models."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Opposes pre-release audits as protectionist gatekeeping that criminalizes open-source research and delays life-saving technologies."
+        }
+      ],
+      "linkedNodes": [
+        "saf-desires-033",
+        "saf-desires-026",
+        "saf-intentions-215",
+        "sit-170",
+        "sit-065",
+        "acc-beliefs-083",
+        "acc-intentions-078",
+        "acc-desires-018",
+        "acc-intentions-099",
+        "saf-beliefs-249"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether centralized safety institutes and global treaties can operate without corporate capture by incumbent technology firms.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Argues that independent public testing labs and statutory funding neutralize regulatory capture."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Maintains that regulatory bodies inevitably rely on proprietary compute infrastructure from commercial labs, turning oversight into a commercial dependency."
+        }
+      ],
+      "linkedNodes": [
+        "saf-desires-033",
+        "saf-desires-026",
+        "saf-intentions-215",
+        "sit-170",
+        "sit-065",
+        "skp-beliefs-257",
+        "skp-intentions-141",
+        "saf-beliefs-249",
+        "saf-intentions-211",
+        "saf-beliefs-106"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether the administrative friction from conformity assessments under frameworks like the EU AI Act causes net human harm by delaying clinical diagnostic automation.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that bureaucratic delay directly sacrifices thousands of lives by withholding medical tools from clinical deployment."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Acknowledges delay costs but contends that deploying unverified systems that fail in clinical settings destroys public trust and causes long-term harm."
+        }
+      ],
+      "linkedNodes": [
+        "saf-desires-033",
+        "saf-desires-026",
+        "saf-intentions-215",
+        "sit-170",
+        "sit-065",
+        "acc-beliefs-083",
+        "acc-intentions-078",
+        "acc-desires-018",
+        "acc-intentions-099",
+        "saf-beliefs-249"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-019",
+      "nodeLabel": "Acting Now vs. Waiting For Proof",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-033",
+      "nodeLabel": "Materiality-Gated Sustainability Reporting for AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-065",
+      "nodeLabel": "Technological Exceptionalism in AI Policy",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-257",
+      "nodeLabel": "Securities Law Primacy in AI Disclosure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-215",
+      "nodeLabel": "Shielding Compliant Open-Weight Releases from Downstream Misuse Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-018",
+      "nodeLabel": "Build Crisis-Proof Institutions with AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-211",
+      "nodeLabel": "Compliance Standards and Enforcement Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-106",
+      "nodeLabel": "Liability Asymmetry Punishes Regulators for Caution and Rewards Inaction",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-282",
+      "nodeLabel": "Infrastructural Embedding of Innovation Logics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-229",
+      "nodeLabel": "Privacy-Constrained Scaling Law Inflection",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-009",
+      "nodeLabel": "Doctors Decide, Not Algorithms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-069",
+      "nodeLabel": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-222",
+      "nodeLabel": "Excess Vulnerability Reporting",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-231",
+      "nodeLabel": "Centralization Without Automated Response Creates Brittle Failure Points",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-136",
+      "nodeLabel": "Enforcing Runtime Safety Rules Through Domain-Specific Sectoral Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-023",
+      "nodeLabel": "Dissent on AI Safety Must Be Protected, Not Punished",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-022",
+      "nodeLabel": "Lobby for International Legal Shields for Open-Weight AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-071",
+      "nodeLabel": "Quantifiable AI Harms Turn Fairness Into a Business Imperative, Not Just an Ethical One",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-120",
+      "nodeLabel": "AI Agents Serve Deployers Over Users",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-164",
+      "nodeLabel": "Companies Use Narrow Audits to Deflect Meaningful AI Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-030",
+      "nodeLabel": "AI Supply Chains Inherit Vulnerabilities from Upstream Components",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-104",
+      "nodeLabel": "Advance Targeted AI Policies on Environmental Reporting, Pricing Transparency, and Bias Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-186",
+      "nodeLabel": "Strategic R&D Offshoring to Exploit Legal Asymmetries",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-231",
+      "nodeLabel": "Deployment-Capability Lag",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether national safety institutes must enforce mandatory pre-release audits and financial materiality standards for frontier artificial intelligence models to prevent unverified systemic scale.",
+      "prevails": "safetyist",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for systemic risks across public infrastructure, whereas the accelerationist view focuses primarily on open-source diffusion speed. Historical evidence from financial regulation supports the need for uniform materiality thresholds when managing complex, high-impact systems.",
+      "whatWouldChange": "Empirical data demonstrating that voluntary corporate self-regulation consistently prevents catastrophic model failures without state intervention.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether centralized safety institutes and global treaties can operate without corporate capture by incumbent technology firms.",
+      "prevails": "skeptic",
+      "criterion": "implementation_specificity",
+      "rationale": "The skeptic position successfully identifies a structural implementation failure: public testing labs depend on commercial compute infrastructure to evaluate frontier models. Safety advocates fail to provide a concrete mechanism that prevents this technical dependency from converting statutory oversight into regulatory capture.",
+      "whatWouldChange": "The establishment of fully independent, state-owned supercomputing infrastructure capable of evaluating frontier models without commercial leasing agreements.",
+      "claimIds": [
+        "C3",
+        "C6",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether the administrative friction from conformity assessments under frameworks like the EU AI Act causes net human harm by delaying clinical diagnostic automation.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both positions rely on projected harms without conclusive longitudinal data quantifying whether regulatory delay costs more lives than premature clinical deployment of unverified models. The debate remains deadlocked between opposing risk-tolerance models.",
+      "whatWouldChange": "Comparative empirical studies measuring patient health outcomes under accelerated deployment versus mandatory conformity assessment frameworks.",
+      "claimIds": [
+        "C9",
+        "C10"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

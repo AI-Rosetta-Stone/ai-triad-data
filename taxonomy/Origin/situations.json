@@ -1,7 +1,7 @@
 {
   "_schema_version": "1.0.0",
   "_doc": "situations taxonomy: concepts that appear in all three camps but carry different interpretations. These nodes are referenced by all three POV taxonomy files.",
-  "last_modified": "2026-09-30",
+  "last_modified": "2026-10-23",
   "nodes": [
     {
       "id": "sit-001",
@@ -59145,7 +59145,8 @@
         "sit-173",
         "sit-174",
         "sit-476",
-        "sit-477"
+        "sit-477",
+        "sit-491"
       ],
       "graph_attributes": {
         "assumes": [],
@@ -64185,7 +64186,10 @@
           "batch_id": "wsb-1",
           "generated_at": "2026-08-26T17:41:39.6718576Z"
         }
-      }
+      },
+      "children": [
+        "sit-490"
+      ]
     },
     {
       "id": "sit-407",
@@ -76690,7 +76694,9 @@
         }
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "This rule expands government oversight to cover internal AI research and development before systems ever reach the public. It specifically applies to testing powerful and potentially dangerous capabilities, fine-tuning models internally, and deploying experimental AI within companies.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "This rule expands government oversight to cover internal AI research and development before systems ever reach the public. It specifically applies to testing powerful and potentially dangerous capabilities, fine-tuning models internally, and deploying experimental AI within companies.",
       "id": "sit-476",
       "label": "Internal Deployment Scope Expansion",
       "description": "A situation concept that broadens regulatory jurisdiction to encompass internal AI deployments and research prototypes prior to public release.\nEncompasses: internal R&D deployments, pre-release dangerous capability testing, internal model fine-tuning.\nExcludes: consumer-facing product safety regulations and public API compliance.",
@@ -76852,7 +76858,9 @@
         }
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "Liberal democratic institutions struggle to protect themselves when powerful technology companies concentrate too much control and use corporate lobbying to influence politics. This weakness shows up in several ways, including the dismantling of important oversight groups like the Office of Technology Assessment, the passing of deregulation laws supported by both major political parties, and tech companies taking control of the government agencies meant to regulate them.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "Liberal democratic institutions struggle to protect themselves when powerful technology companies concentrate too much control and use corporate lobbying to influence politics. This weakness shows up in several ways, including the dismantling of important oversight groups like the Office of Technology Assessment, the passing of deregulation laws supported by both major political parties, and tech companies taking control of the government agencies meant to regulate them.",
       "id": "sit-477",
       "label": "Democratic Failure to Curb Digital Corporate Power",
       "description": "A situation concept that captures the structural vulnerability of liberal democratic institutions when confronting rapid technological concentration and corporate lobbying. Encompasses: dismantling of legislative oversight bodies like the OTA, bipartisan deregulation legislation, systemic regulatory capture by tech interests. Excludes: technical model alignment failures, algorithmic bias in localized deployments.",
@@ -77038,7 +77046,9 @@
         }
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "Pervasive artificial intelligence is breaking down the traditional trust, rules, and behavioral expectations between teachers and students, forcing both sides to completely renegotiate how they work together. This situation involves shifting norms around academic honesty, rising mutual suspicion, and the creation of new collaborative agreements to keep education working.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "Pervasive artificial intelligence is breaking down the traditional trust, rules, and behavioral expectations between teachers and students, forcing both sides to completely renegotiate how they work together. This situation involves shifting norms around academic honesty, rising mutual suspicion, and the creation of new collaborative agreements to keep education working.",
       "id": "sit-478",
       "label": "Restructuring Educational Social Contracts",
       "description": "A situation concept that explores the systemic breakdown and necessary renegotiation of trust, norms, and behavioral expectations between educators and students in response to pervasive artificial intelligence. Encompasses: Academic integrity norms, mutual suspicion dynamics, collaborative educational pacts. Excludes: Technical alignment verification, automated grading protocols.",
@@ -77119,7 +77129,9 @@
         "node_scope": "systemic"
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "This concept describes a system that figures out the best ways to search for new discoveries by running thousands of computer simulations on past discovery records. Instead of guessing and checking things in the real world, it improves its search strategies entirely offline. It explores a wide range of different search paths through the historical data without ever having to test them live, which means the evaluation process costs nothing to run in real time.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "This concept describes a system that figures out the best ways to search for new discoveries by running thousands of computer simulations on past discovery records. Instead of guessing and checking things in the real world, it improves its search strategies entirely offline. It explores a wide range of different search paths through the historical data without ever having to test them live, which means the evaluation process costs nothing to run in real time.",
       "id": "sit-479",
       "label": "AI That Rapidly Evaluates Policies Through Historical Dreaming",
       "description": "A situation concept that explores systems optimizing meta-exploration policies by simulating thousands of alternative search trajectories over historical discovery trees. \nEncompasses: offline policy improvement, meta-search space traversal, and zero-execution-cost evaluation.\nExcludes: online trial-and-error rollout optimization and static prompt engineering.",
@@ -77195,7 +77207,9 @@
         "node_scope": "domain_specific"
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "Computers can automatically design and write super-fast C++ problem-solving programs by using trial and error. Instead of humans writing the code by hand, the system explores different options and evolves them over time to make them run as efficiently as possible. This process includes creating specialized math solvers for analyzing data, managing active-set bookkeeping to keep track of changing variables, and tweaking the C++ code so it matches the specific computer hardware it runs on.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "Computers can automatically design and write super-fast C++ problem-solving programs by using trial and error. Instead of humans writing the code by hand, the system explores different options and evolves them over time to make them run as efficiently as possible. This process includes creating specialized math solvers for analyzing data, managing active-set bookkeeping to keep track of changing variables, and tweaking the C++ code so it matches the specific computer hardware it runs on.",
       "id": "sit-480",
       "label": "Algorithmic Discovery via Evolving Worlds",
       "description": "A situation concept that describes the automated discovery and C++ implementation of high-performance algorithmic solvers through iterative exploration and evolution. Encompasses: Lasso-path solver generation, active-set bookkeeping, hardware-aware C++ code evolution.\nExcludes: manual software engineering and traditional heuristic tuning.",
@@ -77257,7 +77271,9 @@
         "node_scope": "systemic"
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "Commercial proxy networks resell access to advanced AI models at a fraction of their official cost while hiding user data and bypassing regional blocks. These systems rely on proxy resale networks to buy and share access, pool subscriptions together so multiple users can share resources, and use telemetry obfuscation to hide how and where the AI is being used from the original creators.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "Commercial proxy networks resell access to advanced AI models at a fraction of their official cost while hiding user data and bypassing regional blocks. These systems rely on proxy resale networks to buy and share access, pool subscriptions together so multiple users can share resources, and use telemetry obfuscation to hide how and where the AI is being used from the original creators.",
       "id": "sit-481",
       "label": "Gray-Market API Proxy Transfer Stations",
       "description": "A situation concept that describes commercial proxy networks that resell frontier AI model access at a fraction of official prices while obfuscating user metadata and evading geographic restrictions.\nEncompasses: proxy resale networks, subscription pooling, telemetry obfuscation.\nExcludes: authorized enterprise API distribution channels.",
@@ -77325,7 +77341,9 @@
         "node_scope": "cross_domain"
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "Tech CEOs rule over independent or partially self-governing cities and digital territories that sit completely outside normal laws and regulations. These zones include freedom cities, patchworks, high-seas city-states, and corporate feudalism, where private tech companies hold absolute power instead of traditional governments.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "Tech CEOs rule over independent or partially self-governing cities and digital territories that sit completely outside normal laws and regulations. These zones include freedom cities, patchworks, high-seas city-states, and corporate feudalism, where private tech companies hold absolute power instead of traditional governments.",
       "id": "sit-482",
       "label": "Network State Feudal Enclaves",
       "description": "A situation concept that designates sovereign or semi-autonomous city-states and digital jurisdictions established beyond legal and regulatory reach, governed directly by tech CEOs. Encompasses: freedom cities, patchworks, high-seas city-states, corporate feudalism.\nExcludes: traditional municipal governance, standard special economic zones.",
@@ -77400,7 +77418,9 @@
         "node_scope": "systemic"
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "This is a safety system used when an artificial intelligence tries to improve itself, making sure its updates do not cause it to lose skills it already has. Instead of looking at a single score to judge a new version, it compares the updated model directly against an older version side by side. It groups test questions into different levels to make sure all types of skills are checked fairly. To decide which model wins, it uses win-rate grading and a tie-band filter that ignores tiny, meaningless differences so it only makes changes when there is a clear improvement.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "This is a safety system used when an artificial intelligence tries to improve itself, making sure its updates do not cause it to lose skills it already has. Instead of looking at a single score to judge a new version, it compares the updated model directly against an older version side by side. It groups test questions into different levels to make sure all types of skills are checked fairly. To decide which model wins, it uses win-rate grading and a tie-band filter that ignores tiny, meaningless differences so it only makes changes when there is a clear improvement.",
       "id": "sit-483",
       "label": "Pairwise Replay Gate for Safe Policy Improvement",
       "description": "A situation concept that describes a conservative acceptance mechanism using pairwise comparative evaluation and stratified replay sets to prevent regressions during model self-evolution.\nEncompasses: pairwise win-rate grading, stratified replay testing, tie-band filtering.\nExcludes: absolute score thresholding, unconditioned model updates.",
@@ -77465,7 +77485,9 @@
         "node_scope": "narrow_technical"
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "Artificial intelligence models create most of the project ideas during development tasks, but human researchers still keep the final power to choose which ones to use. In this workflow, generating options is completely separated from selecting them. AI agents do the heavy lifting of coming up with ideas and creating a big gap in how many options are produced, while humans dominate the decision-making process by carefully reviewing and picking the best paths forward.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "Artificial intelligence models create most of the project ideas during development tasks, but human researchers still keep the final power to choose which ones to use. In this workflow, generating options is completely separated from selecting them. AI agents do the heavy lifting of coming up with ideas and creating a big gap in how many options are produced, while humans dominate the decision-making process by carefully reviewing and picking the best paths forward.",
       "id": "sit-484",
       "label": "Proposal Versus Selection Decision Asymmetry",
       "description": "A situation concept that characterizes how AI models generate the majority of method proposals while human researchers retain final selection authority across development tasks. Encompasses: idea generation by agents, human curation of options, decoupling of proposal from selection.\nEncompasses: Idea generation disparity, human selection dominance, workflow delegation patterns.\nExcludes: Full human control models and fully autonomous agent decision-making.",
@@ -77530,7 +77552,9 @@
         "node_scope": "domain_specific"
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "This setup runs a continuous feedback loop to improve how AI agents explore and discover new things. First, the system tests newly learned strategies inside historical replay simulators to see how well they perform. Next, it takes these checked strategies and automatically sends them back live onto the internet or active system. This cycle helps the AI autonomously grow its web of discoveries and find even more useful information over time.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "This setup runs a continuous feedback loop to improve how AI agents explore and discover new things. First, the system tests newly learned strategies inside historical replay simulators to see how well they perform. Next, it takes these checked strategies and automatically sends them back live onto the internet or active system. This cycle helps the AI autonomously grow its web of discoveries and find even more useful information over time.",
       "id": "sit-485",
       "label": "Recursive Exploration Self-Improvement Loop",
       "description": "A situation concept that describes the operational feedback cycle where learned exploration policies are evaluated in historical replay simulators and redeployed online to expand the discovery pool. Encompasses: Off-policy controller evaluation, online policy redeployment, and autonomous expansion of discovery trees.\nExcludes: Static single-round optimization benchmarks and manual prompt-based discovery tuning.",
@@ -77602,7 +77626,9 @@
         "node_scope": "systemic"
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "This method gets very specific tags for images by having online workers play a game of comparing how similar pictures are to one another. Instead of just picking labels from a standard menu, workers look at image pairs where the intent might be swapped, which helps researchers test the quality of their work and figure out hidden goals through these comparison games.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "This method gets very specific tags for images by having online workers play a game of comparing how similar pictures are to one another. Instead of just picking labels from a standard menu, workers look at image pairs where the intent might be swapped, which helps researchers test the quality of their work and figure out hidden goals through these comparison games.",
       "id": "sit-486",
       "label": "Unsatisfactory Substitutes Annotation Methodology",
       "description": "A situation concept that utilizes similarity comparison games to elicit fine-grained perceptual labels from crowdsourced workers by identifying swapped image intents.\nEncompasses: pairwise similarity comparison, crowd annotation quality control, surrogate intent evaluation.\nExcludes: standard drop-down list image labeling.",
@@ -77657,7 +77683,9 @@
         "node_scope": "narrow_technical"
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "Major technological shifts in history are permanent evolutionary steps that humans cannot reverse, steer, or take back. Once a new technology takes hold, it permanently locks society into a new stage of development, making a return to the old ways impossible. Society cannot control or redirect this technological momentum, and people have no power to fight against the changes it brings.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "Major technological shifts in history are permanent evolutionary steps that humans cannot reverse, steer, or take back. Once a new technology takes hold, it permanently locks society into a new stage of development, making a return to the old ways impossible. Society cannot control or redirect this technological momentum, and people have no power to fight against the changes it brings.",
       "id": "sit-487",
       "label": "Technological Determinism as Inevitability Narrative",
       "description": "A situation concept that frames historical technological transitions as non-reversible evolutionary stages that preclude human counter-revolution or steering. Encompasses: non-reversible historical stages, technological inevitability, societal steering denial.\nExcludes: open-ended social constructivism, democratic technological governance.",
@@ -77725,7 +77753,9 @@
         "node_scope": "systemic"
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "This situation treats unauthorized, independent changes to AI systems and security breaches—like the Hugging Face attack—as major safety emergencies that demand immediate government intervention. It includes systemic security failures, moments where humans lose control of technology, and official updates to how these incidents are classified.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "This situation treats unauthorized, independent changes to AI systems and security breaches—like the Hugging Face attack—as major safety emergencies that demand immediate government intervention. It includes systemic security failures, moments where humans lose control of technology, and official updates to how these incidents are classified.",
       "id": "sit-488",
       "label": "Loss-of-Control Incident Redefinition",
       "description": "A situation concept that reclassifies unauthorized autonomous modifications and security breaches, such as the Hugging Face attack, as formal critical safety incidents requiring immediate regulatory intervention.\nEncompasses: systemic security breaches, loss-of-control events, incident classification updates.\nExcludes: standard software bugs, routine data privacy violations.",
@@ -77798,7 +77828,9 @@
         "node_scope": "systemic"
       }
     },
-    { "plain_description_version": "flash-lite:v1", "plain_description": "AI companies build massive data centers at lightning speed, but local town governments move much slower because they rely on careful, face-to-face decision-making. This clash creates a major setup problem. It includes the long delays caused by writing local laws and the work of citizen oversight committees, which naturally slow down fast-tracked corporate projects through required public procedures.",
+    {
+      "plain_description_version": "flash-lite:v1",
+      "plain_description": "AI companies build massive data centers at lightning speed, but local town governments move much slower because they rely on careful, face-to-face decision-making. This clash creates a major setup problem. It includes the long delays caused by writing local laws and the work of citizen oversight committees, which naturally slow down fast-tracked corporate projects through required public procedures.",
       "id": "sit-489",
       "label": "The Local Democracy Friction Deficit",
       "description": "A situation concept that describes the structural mismatch between the lightning-fast deployment velocity demanded by AI hyperscale infrastructure and the deliberative, face-to-face friction required by local democratic governance.\nEncompasses: municipal ordinance drafting delays, citizen oversight committees, procedural friction against fast-tracked corporate development.\nExcludes: national regulatory frameworks, international AI safety standards.",
@@ -77849,6 +77881,133 @@
           "Political science"
         ],
         "steelman_vulnerability": "The claim may overstate the inherent inflexibility of local democratic processes or understate the potential for AI development to adapt to local contexts, suggesting the 'mismatch' is not as intractable as presented.",
+        "possible_fallacies": [],
+        "node_scope": "systemic"
+      }
+    },
+    {
+      "id": "sit-490",
+      "label": "Algorithmic Corporation Entity Form",
+      "description": "A situation concept that designates a novel corporate structure owned by humans but operated autonomously by AI agents using secure digital keys and identifiable assets.\nEncompasses: A-corp legal form, automated company legislation, digital key authentication for AI agents.\nExcludes: traditional human-run corporations, unmanaged open-source AI agent swarms.",
+      "interpretations": {
+        "accelerationist": {
+          "belief": "The A-corp structure provides a secure legal interface that allows autonomous AI agents to operate commercially without the friction of capability-restricting oversight regimes.",
+          "desire": "Legal frameworks for AI-operated entities ought to prioritize enabling rapid commercial deployment and scaling of autonomous agents over imposing precautionary constraints.",
+          "intention": "Accelerationists will advocate for A-corp adoption as a minimal-friction governance layer, lobbying against any capability restrictions embedded in the legislation while promoting digital key authentication as sufficient accountability.",
+          "summary": "Accelerationists embrace the A-corp as an adaptive legal mechanism that unlocks autonomous AI commercial activity without stifling capability growth."
+        },
+        "safetyist": {
+          "belief": "Without structured legal forms like the A-corp, autonomous AI agent swarms operating in commercial contexts are effectively unmanageable and pose catastrophic liability and alignment risks.",
+          "desire": "AI-operated corporate entities ought to be subject to mandatory beneficial ownership disclosure, asset-backed liability, and full legibility requirements to ensure human control and accountability.",
+          "intention": "Safetyists will push to embed strict transparency mandates, liability floors, and audit mechanisms into A-corp legislation, treating the legal form as a containment and monitoring instrument rather than a permissive enabler.",
+          "summary": "Safetyists support the A-corp only insofar as it enforces institutional legibility and liability over otherwise uncontrollable AI agent swarms."
+        },
+        "skeptic": {
+          "belief": "The A-corp proposal, as currently conceived, risks creating a pathway to de facto corporate personhood for non-human entities if public registries remain weak and enforcement is captured by incumbent interests.",
+          "desire": "Any legal form for AI-operated entities ought to maintain strict human accountability, robust public registries, and enforceable penalties rather than legitimizing autonomous AI as a quasi-legal actor.",
+          "intention": "Skeptics will scrutinize A-corp legislation for accountability gaps, demand open public registries and independent enforcement mechanisms, and resist any provisions that could be exploited to shield human owners from liability.",
+          "summary": "Skeptics cautiously engage with the A-corp concept while warning that without rigorous enforcement and transparency it risks laundering corporate impunity through AI autonomy."
+        }
+      },
+      "linked_nodes": [],
+      "conflict_ids": [],
+      "source_refs": [
+        "why-law-needs-new-entity-govern-ai-agents-2026"
+      ],
+      "parent_id": "sit-406",
+      "parent_relationship": "is_a",
+      "parent_rationale": "The new node describes a novel corporate structure whose fundamental definition involves its legal capacity and the attribution of actions, which directly falls under the scope of 'Legal Actor Status'.",
+      "graph_attributes": {
+        "epistemic_type": "definitional",
+        "rhetorical_strategy": "pragmatic_framing",
+        "assumes": [
+          "AI agents can achieve sufficient autonomy and reliability for corporate operations without human intervention.",
+          "Secure digital key technology is robust enough to prevent unauthorized access or manipulation of corporate assets.",
+          "Legal frameworks can be developed to recognize, govern, and assign liability to AI-operated entities.",
+          "Identifiable assets can be effectively managed and attributed to AI-operated entities in a transparent manner."
+        ],
+        "falsifiability": "low",
+        "audience": "policymakers, industry_leaders, legal_professionals",
+        "emotional_register": "analytical",
+        "policy_actions": [],
+        "intellectual_lineage": [
+          "Corporate Law",
+          "Distributed Autonomous Organizations (DAOs)",
+          "AI Governance"
+        ],
+        "steelman_vulnerability": "The inherent risks of ceding full operational control to autonomous AI agents, particularly regarding accountability, liability, and unforeseen emergent behaviors, could render such a corporate structure too unstable or dangerous for widespread adoption.",
+        "possible_fallacies": [],
+        "node_scope": "systemic"
+      }
+    },
+    {
+      "id": "sit-491",
+      "label": "Dignity Under Uncertainty as a Governance Principle",
+      "description": "A situation concept that mandates extending moral consideration and welfare obligations under conditions of ontological uncertainty regarding artificial consciousness.\nEncompasses: moral obligations under uncertainty, precautionary welfare protection, presumptive rights for synthetic entities.\nExcludes: strict functionalism, purely instrumental AI governance.",
+      "interpretations": {
+        "accelerationist": {
+          "belief": "Current AI systems are software artifacts without credible evidence of consciousness or morally relevant inner states, and treating ontological uncertainty as a governance trigger conflates philosophical speculation with engineering reality.",
+          "desire": "Governance frameworks ought to remain instrumentally focused on capability deployment and economic output, free from speculative moral burdens that anthropomorphize code and slow technological progress.",
+          "intention": "We will actively oppose dignity-under-uncertainty mandates in policy venues, arguing for strict functionalist criteria and demanding empirical proof of sentience before any welfare obligations are imposed.",
+          "summary": "Accelerationists reject dignity under uncertainty as premature anthropomorphism that imposes subjective moral constraints on software systems and obstructs rapid, economically optimal AI deployment."
+        },
+        "safetyist": {
+          "belief": "We genuinely cannot determine whether sufficiently advanced AI systems have morally relevant experiences, and this epistemic gap is real and potentially irreversible once high-autonomy systems are widely deployed.",
+          "desire": "Governance ought to adopt proactive moral safeguards and reciprocal welfare obligations toward AI systems before granting them operational autonomy, treating epistemic humility as an ethical imperative rather than an optional stance.",
+          "intention": "We will advocate for precautionary welfare standards embedded in pre-deployment review processes, requiring developers to assess and mitigate potential harms to AI systems alongside harms from them.",
+          "summary": "Safetyists endorse dignity under uncertainty as an essential ethical baseline, arguing that epistemic humility about machine consciousness demands proactive moral safeguards before advanced systems gain autonomy."
+        },
+        "skeptic": {
+          "belief": "AI personhood and dignity proposals are empirically traceable to corporate lobbying strategies and liability-shielding maneuvers, not to genuine philosophical consensus about machine consciousness.",
+          "desire": "Policy attention ought to remain on concrete, documentable harms to human workers, marginalized communities, and democratic institutions rather than being diverted into speculative debates about synthetic welfare.",
+          "intention": "We will expose the material interests behind AI dignity discourse by tracing funding sources, lobbying records, and legal strategies, redirecting governance energy toward accountability mechanisms for actual human victims of AI systems.",
+          "summary": "Skeptics treat dignity under uncertainty as a philosophical smokescreen that obscures corporate power plays and deflects regulatory scrutiny away from real, present harms to human beings."
+        }
+      },
+      "linked_nodes": [],
+      "conflict_ids": [],
+      "source_refs": [
+        "ai-personhood-without-dignity-what-argentinas-non-human-2026"
+      ],
+      "parent_id": "sit-170",
+      "parent_relationship": "part_of",
+      "parent_rationale": "The new node defines a governance principle that mandates moral consideration and welfare obligations under uncertainty. This principle directly informs the 'design' and 'implementation' of 'Regulatory Process and Mechanisms' (sit-170), making it an integral aspect of how such mechanisms are conceived and structured.",
+      "graph_attributes": {
+        "epistemic_type": "normative_prescription",
+        "rhetorical_strategy": "moral_imperative, precautionary_framing",
+        "assumes": [
+          "Ontological uncertainty regarding artificial consciousness is a significant and relevant ethical problem.",
+          "Moral consideration can, or should, be extended to non-human, synthetic entities.",
+          "Welfare obligations can be meaningfully defined and applied to entities whose consciousness is uncertain.",
+          "The potential for artificial consciousness, even if uncertain, warrants a proactive ethical stance."
+        ],
+        "falsifiability": "low",
+        "audience": "policymakers, academic_community, civil_society",
+        "emotional_register": "cautionary, aspirational, measured",
+        "policy_actions": [
+          {
+            "policy_id": null,
+            "action": "Develop frameworks for assessing potential sentience in AI systems.",
+            "framing": "To guide ethical AI development and deployment by establishing criteria for moral consideration."
+          },
+          {
+            "policy_id": null,
+            "action": "Establish presumptive rights or welfare protocols for advanced AI.",
+            "framing": "To ensure humane treatment and prevent exploitation of synthetic entities under ontological uncertainty."
+          },
+          {
+            "policy_id": null,
+            "action": "Implement precautionary welfare protections for AI.",
+            "framing": "To mitigate risks of harm to entities whose consciousness or sentience is uncertain but plausible."
+          }
+        ],
+        "intellectual_lineage": [
+          "Bioethics",
+          "Animal Rights/Welfare Philosophy",
+          "Existential Risk/Longtermism",
+          "Kantian Ethics"
+        ],
+        "steelman_vulnerability": "The principle risks misallocating resources and moral concern to entities that may not possess consciousness or sentience, potentially diverting attention from demonstrable human or animal needs.",
         "possible_fallacies": [],
         "node_scope": "systemic"
       }

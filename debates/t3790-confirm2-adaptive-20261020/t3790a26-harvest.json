@@ -1,0 +1,392 @@
+{
+  "debate_id": "ed7fdffb-9378-4a12-86d8-32162ce0c090",
+  "debate_title": "The risks and benefits of releasing powerful AI model wei...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether compliance overhead from regulatory regimes like the EU AI Act and export controls disproportionately locks out independent researchers while leaving enterprise deployments untouched.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Compliance burdens create regulatory moats that protect incumbent firms and eliminate independent researchers without enhancing security."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Compliance costs are a necessary tradeoff to prevent the unvetted proliferation of dual-use hazard pathways."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-277",
+        "skp-beliefs-076",
+        "skp-desires-075",
+        "skp-intentions-146",
+        "saf-beliefs-131",
+        "saf-desires-006",
+        "saf-intentions-009",
+        "saf-beliefs-054",
+        "saf-beliefs-219",
+        "saf-intentions-147"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether decentralized verification communities and runtime telemetry can adequately mitigate dual-use safety risks after open-weight release.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Decentralized networks and dynamic edge validation patch vulnerabilities and verify safety faster than centralized gatekeepers."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Decentralized patching operates on a time scale that is structurally mismatched with rapid local parameter modification speeds, rendering post-release oversight ineffective."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-131",
+        "saf-desires-006",
+        "saf-intentions-009",
+        "saf-beliefs-054",
+        "acc-desires-039",
+        "acc-intentions-088",
+        "acc-intentions-100",
+        "saf-beliefs-219",
+        "saf-intentions-147",
+        "sit-135"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-054",
+      "nodeLabel": "Targeted Finetuning Can Extract Long Passages from a Model's Training Set",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-076",
+      "nodeLabel": "Open Weights Are a Necessary but Insufficient Condition for Meaningful AI Safety Transparency",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-009",
+      "nodeLabel": "Securing Data Centers and Supply Chains Against Model-Weight Theft",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-277",
+      "nodeLabel": "Domain Expertise Deficits of Horizontal Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-219",
+      "nodeLabel": "Cryptographic Completeness Guarantees",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-135",
+      "nodeLabel": "Finetuning as Memorized Data Activation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-292",
+      "nodeLabel": "Many Eyes Theory",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-005",
+      "nodeLabel": "Training Data Memorization as Structural Privacy Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-142",
+      "nodeLabel": "Guarantee AI Training Data Is Transparent, Ethically Sourced, and Free of Encoded Bias",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-022",
+      "nodeLabel": "Lobby for International Legal Shields for Open-Weight AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-030",
+      "nodeLabel": "AI Supply Chains Inherit Vulnerabilities from Upstream Components",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-312",
+      "nodeLabel": "Operational Observability Over Source Code Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-234",
+      "nodeLabel": "Withholding Diagnostic Interfaces as Upstream Design Defect",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-318",
+      "nodeLabel": "The Performance-Compute Divergence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-102",
+      "nodeLabel": "Broker-aggregation layer as the regulable privacy chokepoint",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-014",
+      "nodeLabel": "Post-Training Safety Measures Are Reliably Bypassable",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-260",
+      "nodeLabel": "Patching Latency in Complex Model Architectures",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-153",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-093",
+      "nodeLabel": "Downstream Liability Bounded by What the Deployer Can Detect and Price",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-001",
+      "nodeLabel": "Achieving Capability Leadership Through Open Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-139",
+      "nodeLabel": "Restricting Autonomous Agent Execution via Hardware Disconnects and Blast-Radius Gates",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-226",
+      "nodeLabel": "Mechanistic Interpretability Feature Mapping",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-046",
+      "nodeLabel": "AI Safety Rules by Power Level",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether compliance overhead from regulatory regimes like the EU AI Act and export controls disproportionately locks out independent researchers while leaving enterprise deployments untouched.",
+      "prevails": "C1",
+      "criterion": "empirical_evidence",
+      "rationale": "Empirical data on legal compliance costs demonstrates that fixed administrative expenses impose disproportionate burdens on academic researchers compared to heavily capitalized enterprise firms. This structural asymmetry supports the skeptic view that broad regulatory moats restrict independent access without halting determined threat actors.",
+      "whatWouldChange": "Evidence that compliance subsidies or tiered exemptions successfully allow independent researchers to clear regulatory hurdles without prohibitive financial drag would weaken this conclusion.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether decentralized verification communities and runtime telemetry can adequately mitigate dual-use safety risks after open-weight release.",
+      "prevails": "C3",
+      "criterion": "implementation_specificity",
+      "rationale": "The safetyist position offers a concrete technical constraint by citing the forty-eight-hour window for parameter-efficient fine-tuning to strip safety filters from local weights. The accelerationist reliance on decentralized telemetry lacks similarly rigorous response-time benchmarks to prove it can outpace local weight modification.",
+      "whatWouldChange": "Peer-reviewed deployment data showing that decentralized runtime monitors consistently intercept and disable fine-tuned safety bypasses within hours of model download would tilt the balance toward the accelerationist claim.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}
