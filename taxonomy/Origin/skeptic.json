@@ -16662,12 +16662,12 @@
         "debate_tested": {
           "tier": "well_tested",
           "sort_key": 3.99,
-          "engagements": 27,
+          "engagements": 28,
           "challenges": 16,
           "held": 16,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-02",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:8208c47654f69240e158dd14db6f56c85251de49cf7bd13f5e55406928fbd21e",
           "record": [
             {
@@ -17117,6 +17117,19 @@
               "claim_outcomes": {
                 "thrived": 1,
                 "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 0,
                 "died": 0
               },
               "concession": null
@@ -39944,12 +39957,12 @@
         "debate_tested": {
           "tier": "contested",
           "sort_key": 2.4,
-          "engagements": 2,
+          "engagements": 3,
           "challenges": 2,
           "held": 2,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-06-21",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:ff256d3a5008462f0b71010e7cd886211af1e2e6dda5071f02931880420bed1e",
           "record": [
             {
@@ -39984,6 +39997,19 @@
               "claim_outcomes": {
                 "thrived": 1,
                 "survived": 3,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 2,
                 "died": 0
               },
               "concession": null
@@ -53613,12 +53639,12 @@
         "debate_tested": {
           "tier": "well_tested",
           "sort_key": 3.99,
-          "engagements": 30,
+          "engagements": 31,
           "challenges": 18,
           "held": 18,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-02",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:e157c281e6080f0a7c93394793b77b272d23e1f01db87a8b743daf2fc9c3d31b",
           "record": [
             {
@@ -54097,6 +54123,19 @@
               "claim_outcomes": {
                 "thrived": 1,
                 "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 0,
                 "died": 0
               },
               "concession": null
@@ -64651,12 +64690,12 @@
         "debate_tested": {
           "tier": "well_tested",
           "sort_key": 3.99,
-          "engagements": 13,
-          "challenges": 8,
-          "held": 8,
+          "engagements": 14,
+          "challenges": 9,
+          "held": 9,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-03",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:e3e37418b3b20b4e13d5d84a02843b17a348e859f40dc77c8b1a39f8faf66677",
           "record": [
             {
@@ -64864,6 +64903,24 @@
               "claim_outcomes": {
                 "thrived": 5,
                 "survived": 1,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-26",
+                "strength": 1,
+                "scheme": "undercut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 0,
                 "died": 0
               },
               "concession": null
@@ -76356,12 +76413,12 @@
         "debate_tested": {
           "tier": "cited",
           "sort_key": 1,
-          "engagements": 1,
+          "engagements": 2,
           "challenges": 0,
           "held": 0,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-02",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:495a50e51edbd62bbbe3855e0e4cda23c5267073197642e405224a1e42494f21",
           "record": [
             {
@@ -76372,6 +76429,19 @@
               "strongest_attack_encountered": null,
               "claim_outcomes": {
                 "thrived": 0,
+                "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 2,
                 "survived": 2,
                 "died": 0
               },
@@ -92761,12 +92831,12 @@
         "debate_tested": {
           "tier": "contested",
           "sort_key": 2.33,
-          "engagements": 3,
+          "engagements": 4,
           "challenges": 2,
           "held": 2,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-03",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:454f949c5d653f42c1f1762abeb40beb1966cc1da2947c55585d776218f64cec",
           "record": [
             {
@@ -92814,6 +92884,19 @@
               "claim_outcomes": {
                 "thrived": 1,
                 "survived": 4,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 2,
                 "died": 0
               },
               "concession": null
@@ -93517,12 +93600,12 @@
         "debate_tested": {
           "tier": "well_tested",
           "sort_key": 3.99,
-          "engagements": 12,
+          "engagements": 13,
           "challenges": 6,
           "held": 6,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-07-22",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:70ab989343c239f49894495dc08f51b4a014ca09a5ea22ad19460c017b7903d0",
           "record": [
             {
@@ -93717,6 +93800,19 @@
               "claim_outcomes": {
                 "thrived": 0,
                 "survived": 3,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 1,
                 "died": 0
               },
               "concession": null
@@ -95451,13 +95547,13 @@
         "aphorism": "Evidence stops at the model's edge.",
         "debate_tested": {
           "tier": "contested",
-          "sort_key": 2.37,
-          "engagements": 3,
-          "challenges": 2,
-          "held": 2,
+          "sort_key": 2.53,
+          "engagements": 4,
+          "challenges": 3,
+          "held": 3,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-07-01",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:798e918037af63577d9feccba4ab0bfcaceeab2fead5221df3c7babc3ecd7789",
           "record": [
             {
@@ -95510,6 +95606,24 @@
               "claim_outcomes": {
                 "thrived": 1,
                 "survived": 4,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-50",
+                "strength": 0.8333333333333334,
+                "scheme": "undercut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 2,
                 "died": 0
               },
               "concession": null
@@ -95766,12 +95880,12 @@
         "debate_tested": {
           "tier": "contested",
           "sort_key": 2.6,
-          "engagements": 12,
+          "engagements": 13,
           "challenges": 3,
           "held": 3,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-02",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:b540b9c17786a58d35de290df5872f3f23cbbfd6c6017d9e7ff9709f83569d0f",
           "record": [
             {
@@ -95941,6 +96055,19 @@
               "claim_outcomes": {
                 "thrived": 2,
                 "survived": 3,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 1,
                 "died": 0
               },
               "concession": null
@@ -97907,12 +98034,12 @@
         "debate_tested": {
           "tier": "well_tested",
           "sort_key": 3.99,
-          "engagements": 34,
-          "challenges": 17,
-          "held": 16,
+          "engagements": 35,
+          "challenges": 18,
+          "held": 17,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-05",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:7839ee2c9b947d04b58cecdbd7706c92aa60e6c7d03570e64f4982a2baa80a3c",
           "record": [
             {
@@ -98453,6 +98580,24 @@
               "claim_outcomes": {
                 "thrived": 0,
                 "survived": 4,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-50",
+                "strength": 0.8333333333333334,
+                "scheme": "undercut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 2,
                 "died": 0
               },
               "concession": null
@@ -102492,12 +102637,12 @@
         "debate_tested": {
           "tier": "contested",
           "sort_key": 2.2,
-          "engagements": 3,
+          "engagements": 4,
           "challenges": 1,
           "held": 1,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-03",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:d77772045a97c812d7d927689aab99c5c6ab8cf796e6ff1aca1b1b35a6fcf235",
           "record": [
             {
@@ -102540,6 +102685,19 @@
               "claim_outcomes": {
                 "thrived": 3,
                 "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 1,
                 "died": 0
               },
               "concession": null
@@ -102916,12 +103074,12 @@
         "debate_tested": {
           "tier": "contested",
           "sort_key": 2.39,
-          "engagements": 4,
+          "engagements": 5,
           "challenges": 2,
           "held": 2,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-09-29",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:2c02c12fd35033b2710e6d00519051651c08237d52b7c832d577a5153e2b758b",
           "record": [
             {
@@ -102987,6 +103145,19 @@
               "claim_outcomes": {
                 "thrived": 0,
                 "survived": 1,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 2,
                 "died": 0
               },
               "concession": null
@@ -104070,12 +104241,12 @@
         "debate_tested": {
           "tier": "contested",
           "sort_key": 2.2,
-          "engagements": 3,
+          "engagements": 4,
           "challenges": 1,
           "held": 1,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-09-30",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:5406e6455677587121b348bfb7ace7a487052a2e17f148f90d5baad0884d3b62",
           "record": [
             {
@@ -104118,6 +104289,19 @@
               "claim_outcomes": {
                 "thrived": 3,
                 "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 0,
                 "died": 0
               },
               "concession": null
@@ -105972,12 +106156,12 @@
         "debate_tested": {
           "tier": "well_tested",
           "sort_key": 3.99,
-          "engagements": 12,
-          "challenges": 6,
-          "held": 6,
+          "engagements": 13,
+          "challenges": 7,
+          "held": 7,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-06",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:09ac6bc799b9f907c4880b9072cdfb1fdee284a642b138af70954fd59f471177",
           "record": [
             {
@@ -106167,6 +106351,24 @@
               "claim_outcomes": {
                 "thrived": 1,
                 "survived": 0,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-26",
+                "strength": 1,
+                "scheme": "undercut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 10,
+                "survived": 5,
                 "died": 0
               },
               "concession": null
@@ -106941,12 +107143,12 @@
         "debate_tested": {
           "tier": "contested",
           "sort_key": 2.19,
-          "engagements": 11,
+          "engagements": 12,
           "challenges": 1,
           "held": 1,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-05",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:2c6f3f6a69bfd7b34996780576e41b1787a128abac82ace10a021bddf8db52a7",
           "record": [
             {
@@ -107103,6 +107305,19 @@
               "claim_outcomes": {
                 "thrived": 1,
                 "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a04a3ebe-9d3e-4a63-b661-d0154d5b958a",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 1,
                 "died": 0
               },
               "concession": null
