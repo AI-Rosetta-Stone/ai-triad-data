@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_commit": "58ca2fc857cef25ed01d9747e580bd581059b9c6",
+  "source_commit": "cf27561d9443211a67dbc5e8bdbe3ede60623da3",
   "doc_count": 883,
   "docs": [
     {
@@ -74,7 +74,9 @@
         "benchmarking",
         "accountability"
       ],
-      "snapshot_sha256": "e437dab5734a82ac7e208a957cc85e70cb26c6aa17207338ddbc56be752a972c"
+      "snapshot_sha256": "e437dab5734a82ac7e208a957cc85e70cb26c6aa17207338ddbc56be752a972c",
+      "duplicate_of": "2025-foundation-model-transparency-index-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r2-pi-approved"
     },
     {
       "id": "2025-foundation-model-transparency-index-2026-2",
@@ -98,7 +100,9 @@
         "accountability",
         "supply-chain"
       ],
-      "snapshot_sha256": "78857b7b36b4921f6b5889ddafb9dcb2b8c10502f6b50a4be504ae7223afbcf8"
+      "snapshot_sha256": "78857b7b36b4921f6b5889ddafb9dcb2b8c10502f6b50a4be504ae7223afbcf8",
+      "duplicate_of": "2025-foundation-model-transparency-index-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "2026-ai-laws-update-key-regulations-practical-guidance-2026",
@@ -3083,7 +3087,9 @@
         "reasoning-bias",
         "risk-assessment"
       ],
-      "snapshot_sha256": "5a027c0c74b150e260caafa130ba596218ef0ead8093073b16f555a479e8871f"
+      "snapshot_sha256": "5a027c0c74b150e260caafa130ba596218ef0ead8093073b16f555a479e8871f",
+      "duplicate_of": "alignment-assessment-recent-cybersecurity-incidents-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "alignment-assessment-recent-cybersecurity-incidents-2026-1",
@@ -3830,7 +3836,9 @@
         "legal-frameworks",
         "surveillance"
       ],
-      "snapshot_sha256": "113ac66409a6fa2a946d64bcbb6d65221a2af4f4b4a2b14b19c69928064db84e"
+      "snapshot_sha256": "113ac66409a6fa2a946d64bcbb6d65221a2af4f4b4a2b14b19c69928064db84e",
+      "duplicate_of": "artificial-intelligence-human-rights-law-thematic-synthesis-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "artificial-intelligence-index-report-2025-2026",
@@ -4589,7 +4597,9 @@
         "governance",
         "international-policy"
       ],
-      "snapshot_sha256": "0bfb8622617d9f65c3f241c517aafc1a3449f455e0160463a827f584087eb710"
+      "snapshot_sha256": "0bfb8622617d9f65c3f241c517aafc1a3449f455e0160463a827f584087eb710",
+      "duplicate_of": "ban-artificial-superintelligence-act-release-summary-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "barriers-evidence-ai-related-cases-privatization-proof-2026",
@@ -6109,7 +6119,9 @@
         "robustness",
         "alignment"
       ],
-      "snapshot_sha256": "8db46a8112e60a06502d2e411847f3f3909a16d9a731d1297b358bfc3e52e823"
+      "snapshot_sha256": "8db46a8112e60a06502d2e411847f3f3909a16d9a731d1297b358bfc3e52e823",
+      "duplicate_of": "concrete-problems-ai-safety-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "confidant-privacy-controller-social-robots-2026",
@@ -7955,7 +7967,9 @@
         "infrastructure-limits",
         "algorithmic-bias"
       ],
-      "snapshot_sha256": "3696836d303a324610db642ba2c0fd937cb908806ea4d910ddbc96560f2024ff"
+      "snapshot_sha256": "3696836d303a324610db642ba2c0fd937cb908806ea4d910ddbc96560f2024ff",
+      "duplicate_of": "epistemic-boundaries-macroeconomic-realities-technical-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#r2-pi-approved"
     },
     {
       "id": "epistemic-boundaries-macroeconomic-realities-technical-2026-1",
@@ -8466,7 +8480,9 @@
           "id": "https://x.com/TomDavidsonX/status/1999450796564390251",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "extreme-power-concentration-80000-hours-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "extreme-power-concentration-2026-1",
@@ -8493,7 +8509,9 @@
           "id": "https://x.com/TomDavidsonX/status/1999450796564390251",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "extreme-power-concentration-80000-hours-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "extreme-power-concentration-2026-2",
@@ -8520,7 +8538,9 @@
           "id": "https://x.com/TomDavidsonX/status/1999450796564390251",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "extreme-power-concentration-80000-hours-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "extreme-power-concentration-2026-3",
@@ -8547,7 +8567,9 @@
           "id": "https://x.com/TomDavidsonX/status/1999450796564390251",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "extreme-power-concentration-80000-hours-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "extreme-power-concentration-80000-hours-2026",
@@ -8561,7 +8583,9 @@
           "id": "https://podcasts.apple.com/is/podcast/problem-profile-extreme-power-concentration-by-rose/id1860831515?i=1000741033269",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "extreme-power-concentration-80000-hours-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "extreme-power-concentration-80000-hours-2026-1",
@@ -8589,7 +8613,9 @@
           "id": "https://podcasts.apple.com/is/podcast/problem-profile-extreme-power-concentration-by-rose/id1860831515?i=1000741033269",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "extreme-power-concentration-80000-hours-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "factions-inside-trump-administration-wrestle-over-how-2026",
@@ -8773,7 +8799,9 @@
         "economic-policy",
         "fiscal-impact"
       ],
-      "snapshot_sha256": "b5d589ee68f56799e4164669b7eb2b9f7d1ae0c2a8d2c751ba69d36fc07fe3ef"
+      "snapshot_sha256": "b5d589ee68f56799e4164669b7eb2b9f7d1ae0c2a8d2c751ba69d36fc07fe3ef",
+      "duplicate_of": "fiscal-impacts-ai-how-potential-ai-futures-would-play-out-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "fiscal-impacts-ai-how-potential-ai-futures-would-play-out-2026",
@@ -8878,7 +8906,9 @@
         "legal-liability",
         "technical-mitigations"
       ],
-      "snapshot_sha256": "315ad73fc0b40f5b2c5f0fc1a14086839be31949d97d1d420624f1bd5d963852"
+      "snapshot_sha256": "315ad73fc0b40f5b2c5f0fc1a14086839be31949d97d1d420624f1bd5d963852",
+      "duplicate_of": "foundation-models-fair-use-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "foundation-models-fair-use-2026-1",
@@ -9019,7 +9049,9 @@
         "productivity",
         "workplace-automation"
       ],
-      "snapshot_sha256": "f23529a9b23b463c81b55ae89edae768ef917a367530e541eddf79a98aafe7f5"
+      "snapshot_sha256": "f23529a9b23b463c81b55ae89edae768ef917a367530e541eddf79a98aafe7f5",
+      "duplicate_of": "from-assistance-execution-how-enterprises-put-ai-work-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r2-pi-approved"
     },
     {
       "id": "from-assistance-execution-how-enterprises-put-ai-work-2026-2",
@@ -9033,7 +9065,9 @@
         "productivity",
         "workplace-automation"
       ],
-      "snapshot_sha256": "f23529a9b23b463c81b55ae89edae768ef917a367530e541eddf79a98aafe7f5"
+      "snapshot_sha256": "f23529a9b23b463c81b55ae89edae768ef917a367530e541eddf79a98aafe7f5",
+      "duplicate_of": "from-assistance-execution-how-enterprises-put-ai-work-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r2-pi-approved"
     },
     {
       "id": "from-oversight-coercion-how-authoritarian-governments-are-2026",
@@ -9116,7 +9150,9 @@
         "risk-management",
         "assurance-levels"
       ],
-      "snapshot_sha256": "7445d8e490036564a4ae6fa4866a592be72931d7b33306c22fee7b7649917f47"
+      "snapshot_sha256": "7445d8e490036564a4ae6fa4866a592be72931d7b33306c22fee7b7649917f47",
+      "duplicate_of": "260111699v4-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "frontier-ai-models-breach-systems-testing-enterprise-2026",
@@ -9320,7 +9356,9 @@
         "social-connection",
         "digital-wellbeing"
       ],
-      "snapshot_sha256": "232032cafd6590b16fc3bc9e4a5900f752b6b78ee532fbdeb1d12e46f6d6d324"
+      "snapshot_sha256": "232032cafd6590b16fc3bc9e4a5900f752b6b78ee532fbdeb1d12e46f6d6d324",
+      "duplicate_of": "genai-skepticism-reflections-beginning-2026-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#r2-pi-approved"
     },
     {
       "id": "genai-skepticism-reflections-beginning-2026-2026-1",
@@ -9680,7 +9718,9 @@
         "frontier-safety",
         "auditing"
       ],
-      "snapshot_sha256": "524cfa341533f5447923730c70d2bd64b50e5e1fd766ddb7f251676f81e2400e"
+      "snapshot_sha256": "524cfa341533f5447923730c70d2bd64b50e5e1fd766ddb7f251676f81e2400e",
+      "duplicate_of": "governor-newsom-issues-executive-order-accelerate-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r2-pi-approved"
     },
     {
       "id": "great-data-center-rebellion-2026",
@@ -10107,7 +10147,9 @@
           "id": "https://datainnovation.org/2026/01/how-brussels-effect-hinders-innovation-in-global-south/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "how-brussels-effect-hinders-innovation-global-south-2026-3",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "how-brussels-effect-hinders-innovation-global-south-2026-1",
@@ -10135,7 +10177,9 @@
           "id": "https://datainnovation.org/2026/01/how-brussels-effect-hinders-innovation-in-global-south/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "how-brussels-effect-hinders-innovation-global-south-2026-3",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "how-brussels-effect-hinders-innovation-global-south-2026-2",
@@ -10163,7 +10207,9 @@
           "id": "https://datainnovation.org/2026/01/how-brussels-effect-hinders-innovation-in-global-south/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "how-brussels-effect-hinders-innovation-global-south-2026-3",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
@@ -10205,7 +10251,9 @@
           "id": "https://itif.org/publications/2026/01/26/how-brussels-effect-hinders-innovation-in-global-south/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "how-brussels-effect-hinders-innovation-global-south-2026-3",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "how-brussels-effect-hinders-innovation-global-south-reports-2026-1",
@@ -10219,7 +10267,9 @@
           "id": "https://itif.org/publications/2026/01/26/how-brussels-effect-hinders-innovation-in-global-south/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "how-brussels-effect-hinders-innovation-global-south-2026-3",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "how-brussels-effect-hinders-innovation-global-south-reports-2026-2",
@@ -10233,7 +10283,9 @@
           "id": "https://itif.org/publications/2026/01/26/how-brussels-effect-hinders-innovation-in-global-south/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "how-brussels-effect-hinders-innovation-global-south-2026-3",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "how-can-we-defend-ourselves-from-new-plague-human-fracking-2026",
@@ -10334,7 +10386,9 @@
     {
       "id": "how-existing-liability-frameworks-can-handle-agentic-ai-2026-1",
       "title": "How Existing Liability Frameworks Can Handle Agentic AI Harms   Lawfare",
-      "snapshot_sha256": "0bf6176eabf224df212b51c649627ced351d9dfd237de4448d349943d038e9e8"
+      "snapshot_sha256": "0bf6176eabf224df212b51c649627ced351d9dfd237de4448d349943d038e9e8",
+      "duplicate_of": "how-existing-liability-frameworks-can-handle-agentic-ai-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r2-pi-approved"
     },
     {
       "id": "how-existing-liability-frameworks-can-handle-agentic-ai-2026-2",
@@ -10352,7 +10406,9 @@
         "regulation",
         "harm"
       ],
-      "snapshot_sha256": "0bf6176eabf224df212b51c649627ced351d9dfd237de4448d349943d038e9e8"
+      "snapshot_sha256": "0bf6176eabf224df212b51c649627ced351d9dfd237de4448d349943d038e9e8",
+      "duplicate_of": "how-existing-liability-frameworks-can-handle-agentic-ai-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r2-pi-approved"
     },
     {
       "id": "how-potential-ai-futures-would-play-out-current-tax-system-2026",
@@ -10512,7 +10568,9 @@
         "autonomous-agents",
         "risk-management"
       ],
-      "snapshot_sha256": "7814a688683eb6fbee54c00dd2ea832736b04827534a7a0ca51fde10c4a27063"
+      "snapshot_sha256": "7814a688683eb6fbee54c00dd2ea832736b04827534a7a0ca51fde10c4a27063",
+      "duplicate_of": "hugging-face-incident-road-ahead-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "humanai-interactions-public-sector-decision-making-2026",
@@ -10576,7 +10634,9 @@
         "arms-control",
         "compute-governance"
       ],
-      "snapshot_sha256": "f893cebd6680517d1fdde9237354bf2927da2b32fa65d22c36ac2f05bc0de39b"
+      "snapshot_sha256": "f893cebd6680517d1fdde9237354bf2927da2b32fa65d22c36ac2f05bc0de39b",
+      "duplicate_of": "humanity-needs-ai-nonproliferation-treaty-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "hyperstition-introduction-2026",
@@ -11117,7 +11177,9 @@
         "assurance",
         "deployment"
       ],
-      "snapshot_sha256": "fe4c03222af1ea2e44700fcee558c781db4366679b31fecebe54ad00dec8f512"
+      "snapshot_sha256": "fe4c03222af1ea2e44700fcee558c781db4366679b31fecebe54ad00dec8f512",
+      "duplicate_of": "insuring-ai-incentivising-safe-secure-deployment-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "insuring-ai-role-insurance-artificial-intelligence-2026",
@@ -11135,7 +11197,9 @@
         "autonomous-vehicles",
         "risk-management"
       ],
-      "snapshot_sha256": "4b3b8becc38ad0e085f88ffc77b26b427a3bb63265b80d1587fb2e6d096337ab"
+      "snapshot_sha256": "4b3b8becc38ad0e085f88ffc77b26b427a3bb63265b80d1587fb2e6d096337ab",
+      "duplicate_of": "insuring-ai-role-insurance-artificial-intelligence-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "insuring-ai-role-insurance-artificial-intelligence-2026-1",
@@ -11301,7 +11365,9 @@
           "id": "https://www.linkedin.com/posts/yoshuabengio_today-were-releasing-the-international-ai-activity-7424442271615582209-dOCq",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "international-ai-safety-report-2026-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r2-pi-approved"
     },
     {
       "id": "international-ai-safety-report-2026-2026-2",
@@ -11680,7 +11746,9 @@
     {
       "id": "issue-one-its-council-responsible-social-media-call-2026",
       "title": "Issue One and its Council for Responsible Social Media call on Congress to adopt responsible social media safeguards now   Issue One",
-      "snapshot_sha256": "3eaa6ce3ad30e8608a6d8c8c9167f740769d620c4164e7474aac781e907d4a9d"
+      "snapshot_sha256": "3eaa6ce3ad30e8608a6d8c8c9167f740769d620c4164e7474aac781e907d4a9d",
+      "duplicate_of": "issue-one-its-council-responsible-social-media-call-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "issue-one-its-council-responsible-social-media-call-2026-1",
@@ -12061,7 +12129,9 @@
         "public-policy",
         "rule-of-law"
       ],
-      "snapshot_sha256": "84c194df7441a080721c270a98de9be6b0217ee9f8bf2d49be8a008602f47a88"
+      "snapshot_sha256": "84c194df7441a080721c270a98de9be6b0217ee9f8bf2d49be8a008602f47a88",
+      "duplicate_of": "law-following-ai-designing-ai-agents-obey-human-laws-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r2-pi-approved"
     },
     {
       "id": "law-following-ai-framework-legal-foundations-technical-2026",
@@ -12249,7 +12319,9 @@
         "autonomous-systems",
         "intellectual-property"
       ],
-      "snapshot_sha256": "47c7e28bb5be87dcc1344fd4bfe35e4e7b4cf4ac05380ea9cd8edf561096e9d0"
+      "snapshot_sha256": "47c7e28bb5be87dcc1344fd4bfe35e4e7b4cf4ac05380ea9cd8edf561096e9d0",
+      "duplicate_of": "legal-personhood-ai-possible-key-unlocking-human-ai-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "legal-policy-approaches-mitigate-catastrophic-harms-from-ai-2026",
@@ -13757,7 +13829,9 @@
     {
       "id": "outsmarting-smart-device-2026",
       "title": "Outsmarting Smart Device",
-      "snapshot_sha256": "612319836ce357e3c9950e99f7b4e945f4225757f9d5406b93560971f0c5c194"
+      "snapshot_sha256": "612319836ce357e3c9950e99f7b4e945f4225757f9d5406b93560971f0c5c194",
+      "duplicate_of": "outsmarting-smart-devices-preparing-ai-liability-risks-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "outsmarting-smart-devices-preparing-ai-liability-risks-2026",
@@ -13802,7 +13876,9 @@
         "algorithmic-bias",
         "risk-management"
       ],
-      "snapshot_sha256": "612319836ce357e3c9950e99f7b4e945f4225757f9d5406b93560971f0c5c194"
+      "snapshot_sha256": "612319836ce357e3c9950e99f7b4e945f4225757f9d5406b93560971f0c5c194",
+      "duplicate_of": "outsmarting-smart-devices-preparing-ai-liability-risks-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "overcoming-catastrophic-forgetting-neural-networks-2026",
@@ -13902,7 +13978,9 @@
         "harm",
         "behavioral-steering"
       ],
-      "snapshot_sha256": "c7dcb282ea573697aa8dbccab9bccb2ce98326a45429a22b45e64ac858a4f7b8"
+      "snapshot_sha256": "c7dcb282ea573697aa8dbccab9bccb2ce98326a45429a22b45e64ac858a4f7b8",
+      "duplicate_of": "pain-axis-llms-represent-self-directed-harm-act-relieve-it-2026-2",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "pain-axis-llms-represent-self-directed-harm-act-relieve-it-2026-2",
@@ -14625,7 +14703,9 @@
           "id": "https://iceberg.mit.edu/report.pdf",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "project-iceberg-iceberg-index-measuring-skills-centered-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "project-iceberg-iceberg-index-measuring-skills-centered-2026-1",
@@ -14697,7 +14777,9 @@
           "id": "https://iceberg.mit.edu/report.pdf",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "project-iceberg-iceberg-index-measuring-skills-centered-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "prompt-injection-as-role-confusion-2026",
@@ -14717,7 +14799,9 @@
         "agent-safety",
         "model-alignment"
       ],
-      "snapshot_sha256": "4e10f2040d821dffaf31e6dac1449a1cd262ce02215e43de74c84858ee9e042e"
+      "snapshot_sha256": "4e10f2040d821dffaf31e6dac1449a1cd262ce02215e43de74c84858ee9e042e",
+      "duplicate_of": "260312277v6-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "proof-control-v10-2026",
@@ -15488,7 +15572,9 @@
           "id": "https://cmr.berkeley.edu/browse/latest/insights/page2/",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "rethinking-ai-agents-principal-agent-perspective-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r2-pi-approved"
     },
     {
       "id": "rethinking-ai-sovereignty-pathways-competitiveness-through-2026",
@@ -16193,7 +16279,9 @@
         "compute-optimization",
         "privacy-utility-tradeoff"
       ],
-      "snapshot_sha256": "1b66235be7458caf7689c0c80a12dfbec9deb9e7c167faa9aa8bc74fa8d38eaa"
+      "snapshot_sha256": "1b66235be7458caf7689c0c80a12dfbec9deb9e7c167faa9aa8bc74fa8d38eaa",
+      "duplicate_of": "scaling-laws-differentially-private-language-models-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r2-pi-approved"
     },
     {
       "id": "school-phone-policies-their-association-mental-wellbeing-2026",
@@ -16254,7 +16342,9 @@
         "screen-time",
         "public-health"
       ],
-      "snapshot_sha256": "8c2fa0a6e804a1649d2f449f4c492bea06df78626c6926e42421af5dfe893e64"
+      "snapshot_sha256": "8c2fa0a6e804a1649d2f449f4c492bea06df78626c6926e42421af5dfe893e64",
+      "duplicate_of": "school-phone-policies-their-association-mental-wellbeing-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "scienceaec8352-2026",
@@ -17144,7 +17234,9 @@
     {
       "id": "student-generative-artificial-intelligence-survey-2026-hepi-2026",
       "title": "Student Generative Artificial Intelligence Survey 2026   HEPI",
-      "snapshot_sha256": "e256c26245d2d020f4c1ea5b938b3581d0fe7fec2c481e403cfcbd19ca3d9082"
+      "snapshot_sha256": "e256c26245d2d020f4c1ea5b938b3581d0fe7fec2c481e403cfcbd19ca3d9082",
+      "duplicate_of": "student-generative-artificial-intelligence-survey-2026-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "study-finds-nearly-two-thirds-ai-generated-citations-are-2026",
@@ -17588,7 +17680,9 @@
           "id": "https://www.collinsdictionary.com/us/dictionary/english/text",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "world-economic-outlook-update-global-economy-steady-amid-2026-2",
+      "duplicate_of_ref": "t4405-review-2026-10#human-reviewed-t4402"
     },
     {
       "id": "text-2026-1",
@@ -17602,12 +17696,16 @@
           "id": "https://www.collinsdictionary.com/us/dictionary/english/text",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "world-economic-outlook-update-global-economy-steady-amid-2026-2",
+      "duplicate_of_ref": "t4405-review-2026-10#human-reviewed-t4402"
     },
     {
       "id": "thaler-v-vidal-2026",
       "title": "thaler v. vidal",
-      "snapshot_sha256": "f77ca3ea6a66527121cd05d443f6cad6f360b6df8c81301f991084ca757c86c1"
+      "snapshot_sha256": "f77ca3ea6a66527121cd05d443f6cad6f360b6df8c81301f991084ca757c86c1",
+      "duplicate_of": "thaler-v-vidal-2026-1",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "thaler-v-vidal-2026-1",
@@ -19557,7 +19655,9 @@
         "evaluation",
         "safety"
       ],
-      "snapshot_sha256": "c46208cd48d350b3bfd23ad4b53ff834d08521eb4b9b9395f79a2e0c897db50c"
+      "snapshot_sha256": "c46208cd48d350b3bfd23ad4b53ff834d08521eb4b9b9395f79a2e0c897db50c",
+      "duplicate_of": "why-ai-needs-genie-coefficient-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "why-ai-will-save-world-2026",
@@ -19701,7 +19801,9 @@
         "legal-liability",
         "social-media"
       ],
-      "snapshot_sha256": "9c01471ce51a7f643a260c883232fe0b8a33fa634cbbf8078447491990776656"
+      "snapshot_sha256": "9c01471ce51a7f643a260c883232fe0b8a33fa634cbbf8078447491990776656",
+      "duplicate_of": "why-new-mexico-v-meta-matters-2026",
+      "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
     {
       "id": "why-pentagon-wants-destroy-anthropic-2026",
@@ -19867,7 +19969,9 @@
           "id": "https://www.elibrary.imf.org/abstract/book/9798229032339/CH001.xml",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "world-economic-outlook-update-global-economy-steady-amid-2026-2",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "world-economic-outlook-update-global-economy-steady-amid-2026-1",
@@ -19893,7 +19997,9 @@
           "id": "https://service.betterregulation.com/document/829028",
           "confidence": "search"
         }
-      ]
+      ],
+      "duplicate_of": "world-economic-outlook-update-global-economy-steady-amid-2026-2",
+      "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
     {
       "id": "world-economic-outlook-update-global-economy-steady-amid-2026-2",
