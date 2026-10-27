@@ -265,7 +265,12 @@ jobs:
         # against is retired (single shared REGEN_INPUTS source replaces the two-copy
         # drift check it existed to catch) -- bare `failure()` is simply correct here now,
         # no ordering caveat needed.
-        if: failure()
+        # t/4444 (TL Gate Verification, D1): now that leg-c can also fail the job (t/4147),
+        # a bare `failure()` filed a FALSE leg-a "could not be evaluated" issue on every
+        # leg-c-only failure, even though leg-a passed (data #72/#74). Scope to leg-a's own
+        # outcome -- `lega` is 'fail' only, never 'pass', on an actual leg-a problem; a
+        # leg-c-only failure leaves `lega=pass` and no longer trips this step.
+        if: failure() && steps.citation_check.outputs.lega != 'pass'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LEGA: ${{ steps.citation_check.outputs.lega }}
