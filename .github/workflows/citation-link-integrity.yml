@@ -14,10 +14,17 @@
 #
 # LEG-A IS A FAILING CHECK (t/4042, SO e/266#2): a leg-a (link-resolution) offender turns the run RED
 #   and opens/updates the leg-a issue. Data is direct-commit, so this DETECTS a bad push loudly — it
-#   cannot prevent one (surviving vector: a pre-commit hook on the writers would). Legs b and c stay
-#   ADVISORY: they never fail the run. A non-pending leg-c red opens its OWN advisory issue (distinct
-#   title) so index staleness keeps a durable signal without being promoted. The workflow `name:` keeps
-#   its "(Warn-First)" suffix deliberately — renaming would orphan run history and name-based lookups.
+#   cannot prevent one (surviving vector: a pre-commit hook on the writers would).
+#
+# LEG-C IS ALSO A FAILING CHECK (t/4147, t/4444; SO+TL e/352): promoted from advisory to blocking —
+#   a non-pending leg-c offender (stale source_index.json) now turns the run RED too, with the same
+#   fail-closed/coverage-floor/auto-close shape as leg-a. REFRESH-PENDING stays NEUTRAL (never red,
+#   never closes anything): when a push changes regen inputs, this run's leg-c result is about an
+#   index being rebuilt right now, and the authoritative verdict is source-index-regen.yml's
+#   "Post-regen leg-c" step (t/3895). Leg-c's own alert issue keeps its original title (continuity
+#   for the open-issue/auto-close lookup) even though it's no longer advisory. Leg b stays ADVISORY
+#   (never fails the run) pending the sources-repo token (t/3745#4). The workflow `name:` keeps its
+#   "(Warn-First)" suffix deliberately — renaming would orphan run history and name-based lookups.
 #
 # ROUTING (SO condition 1): alert issues carry `data-compliance`; the Orca reminder
 #   `data-compliance-alert-bridge` routes every open one to the CL hourly (t/3598#23). The issue
@@ -47,7 +54,7 @@ permissions:
 jobs:
   citation-link-integrity:
     runs-on: ubuntu-latest
-    continue-on-error: false   # leg-a promoted (t/4042, SO e/266). Only leg-a can fail the run — see $failing.
+    continue-on-error: false   # leg-a promoted (t/4042, SO e/266); leg-c promoted (t/4147/t/4444, SO+TL e/352). Both can fail the run.
     steps:
       - name: Checkout data repo
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v6
@@ -170,11 +177,12 @@ jobs:
             "leg$($leg.leg)=$state" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
           }
 
-          # Every non-neutral failing leg is reported; ONLY leg-a fails the run (t/4042).
+          # Every non-neutral failing leg is reported; leg-a and leg-c fail the run, leg-b stays
+          # advisory (t/4042, t/4147/t/4444).
           $reported = @($r.results | Where-Object { -not $_.pass -and -not ($_.leg -eq 'c' -and $regenPending) })
           foreach ($leg in $reported) {
             $sample = @($leg.offenders | Select-Object -First 5 | ForEach-Object { $_ | ConvertTo-Json -Compress -Depth 4 }) -join '; '
-            $kind = if ($leg.leg -eq 'a') { 'error' } else { 'warning' }
+            $kind = if ($leg.leg -eq 'a' -or $leg.leg -eq 'c') { 'error' } else { 'warning' }
             Write-Host "::$kind::Citation-integrity leg ($($leg.leg)) $($leg.name): $(@($leg.offenders).Count) offender(s) — $sample"
           }
           # Fail CLOSED: a leg-a absent from the results (refactor, filter, early return) is not a pass.
@@ -205,9 +213,42 @@ jobs:
           if ($failing.Count -gt 0) {
             Write-Host "Citation-link integrity: leg-a FAILED (blocking, t/4042)."
             exit 1
-          } else {
-            Write-Host "Citation-link integrity: leg-a passed$(if ($reported.Count) { '; advisory leg(s) reported above' })."
           }
+
+          # t/4147/t/4444 (SO+TL e/352): leg-c promoted to blocking, same shape as leg-a above.
+          # Fail CLOSED: a leg-c absent from the results (refactor, filter, early return) is not a
+          # pass -- mirrors leg-a's absent-guard. This trips only on a genuine cmdlet regression:
+          # the cmdlet always returns a leg-c entry regardless of $regenPending (that flag only
+          # changes how THIS workflow reports its state, never whether the cmdlet evaluated it).
+          $legC = @($r.results | Where-Object { $_.leg -eq 'c' })
+          if (-not $legC) {
+            Write-Host "::error::Citation-link integrity: leg-c was not evaluated (absent from results) — not a pass"
+            exit 1
+          }
+          if (-not $regenPending) {
+            # Fail CLOSED below a coverage floor: leg-c present with pass=True after checking
+            # ~nothing (empty/moved taxonomy dir, checkout-path change) is not a pass -- same shape
+            # as leg-a's floor (SO e/266#10). FLOOR = 50% of the 999 live-node keys measured at data
+            # b93a2dbc (2026-10-25) via Test-CitationLinkIntegrity's own `liveKeysChecked` field
+            # (PS #3820, t/4444#3). Absent field (cmdlet predating it) also fails closed. Stipulated
+            # threshold -- register with the CL in metric-provenance-register.md alongside §18
+            # before changing this number; mirror there first, never change it here alone.
+            $legCResult = $legC[0]
+            $floorLiveKeys = 500
+            $liveKeys = $legCResult.PSObject.Properties['liveKeysChecked']
+            if (-not $liveKeys -or [int]$liveKeys.Value -lt $floorLiveKeys) {
+              Write-Host "::error::Citation-link integrity: leg-c evaluated below floor (liveKeysChecked=$(if ($liveKeys) { $liveKeys.Value } else { 'absent' }) / $floorLiveKeys) — not a pass"
+              exit 1
+            }
+            Write-Host "leg (c) coverage: liveKeysChecked=$($liveKeys.Value) (floor $floorLiveKeys)"
+          }
+          $failingC = @($reported | Where-Object { $_.leg -eq 'c' })
+          if ($failingC.Count -gt 0) {
+            Write-Host "Citation-link integrity: leg-c FAILED (blocking, t/4147/t/4444)."
+            exit 1
+          }
+
+          Write-Host "Citation-link integrity: leg-a and leg-c passed (or neutral)$(if ($reported.Count) { '; other leg(s) reported above' })."
 
       # Exact-title lookup of an OPEN data-compliance issue. `gh --search` also matches bodies (the
       # post-regen leg-c issues mention "citation"), so the search only narrows; jq picks the title.
@@ -263,18 +304,25 @@ jobs:
             gh issue create --title "$TITLE" --body "$BODY" --label "data-compliance" --assignee jpsnover
           fi
 
-      - name: Alert — leg-c staleness (advisory; run stays green)
+      - name: Alert — leg-c staleness (blocking, t/4147/t/4444)
+        # t/4444: promoted from advisory to blocking. This step's own `continue-on-error` is about
+        # the ALERT MECHANICS, not leg-c's gate status -- the blocking already happened in
+        # citation_check above (exit 1); a gh hiccup while filing/updating THIS issue must not be
+        # what turns the run red, or a transient `gh` failure would mask the real, already-red leg-c
+        # failure behind a misleading "the alert step itself failed" signal instead.
         if: always() && steps.citation_check.outputs.legc == 'fail'
-        continue-on-error: true   # advisory alert — a gh hiccup here must not turn the run red
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           PUSH_SHA="${{ github.event.after || github.sha }}"
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          # Title kept EXACTLY as before promotion (t/4444) -- changing it would orphan the
+          # open-issue lookup/auto-close matching below and in "Auto-close on recovery".
           TITLE="Data: source_index staleness (citation leg-c, advisory) on push"
-          BODY="Push ${PUSH_SHA:0:8} left \`source_index.json\` stale (leg-c: stale-hash / dead-key / missing-key). No regen was pending for this push, so the post-regen check will not cover it. **Advisory**: leg-c is not promoted; this run stays green.
+          BODY="Push ${PUSH_SHA:0:8} left \`source_index.json\` stale (leg-c: stale-hash / dead-key / missing-key). No regen was pending for this push, so the post-regen check will not cover it. **This run is RED** (leg-c promoted to blocking, t/4147/t/4444).
 
-          **Action:** see the run log's leg-c \`::warning::\` line; regenerate the index (\`source-index-regen.yml\`, workflow_dispatch) or repair it. The next run where leg-c passes closes this issue automatically.
+          **Action:** see the run log's leg-c \`::error::\` line; regenerate the index (\`source-index-regen.yml\`, workflow_dispatch) or repair it. The next passing run closes this issue automatically.
 
           Run: ${RUN_URL}"
           gh label create "data-compliance" --color "#e4e669" \
