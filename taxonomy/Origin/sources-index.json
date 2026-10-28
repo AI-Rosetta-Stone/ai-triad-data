@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_commit": "689d214695dbbfab073ca8b28bbf015b9e2352cd",
+  "source_commit": "af7cf1552f3e6e264df9dec5d60ec001161bc629",
   "doc_count": 883,
   "docs": [
     {
@@ -5312,7 +5312,12 @@
     },
     {
       "id": "california-lawyers-chatgpt-use-is-why-courts-want-ai-2026",
-      "title": "California lawyer's ChatGPT use is why courts want AI regulation",
+      "title": "California issues historic fine over lawyer's ChatGPT fabrications",
+      "url": "https://calmatters.org/economy/technology/2025/09/chatgpt-lawyer-fine-ai-regulation/",
+      "authors": [
+        "Khari Johnson"
+      ],
+      "date_published": "2025-09-22",
       "snapshot_sha256": "a50ac52d8c27dbe6af44a76d93a64de6c06329e60eee9c78ded22ff2f5ce5da5"
     },
     {
@@ -10359,8 +10364,8 @@
     {
       "id": "how-existing-liability-frameworks-can-handle-agentic-ai-2026",
       "title": "How Existing Liability Frameworks Can Handle Agentic AI Harms",
-      "url": "https://www.linkedin.com/posts/the-lawfare-institute_how-existing-liability-frameworks-can-handle-activity-7402008287564476416-bwAM",
-      "resolved_url": "https://www.linkedin.com/posts/the-lawfare-institute_how-existing-liability-frameworks-can-handle-activity-7402008287564476416-bwAM",
+      "url": "https://www.lawfaremedia.org/article/how-existing-liability-frameworks-can-handle-agentic-ai-harms",
+      "resolved_url": "https://www.lawfaremedia.org/article/how-existing-liability-frameworks-can-handle-agentic-ai-harms",
       "authors": [
         "Maarten Herbosch"
       ],
@@ -10378,8 +10383,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/the-lawfare-institute_how-existing-liability-frameworks-can-handle-activity-7402008287564476416-bwAM",
-          "confidence": "search"
+          "id": "https://www.lawfaremedia.org/article/how-existing-liability-frameworks-can-handle-agentic-ai-harms",
+          "confidence": "verified"
         }
       ]
     },
@@ -11342,8 +11347,8 @@
     {
       "id": "international-ai-safety-report-2026-2026-1",
       "title": "International AI Safety Report 2026",
-      "url": "https://www.linkedin.com/posts/yoshuabengio_today-were-releasing-the-international-ai-activity-7424442271615582209-dOCq",
-      "resolved_url": "https://www.linkedin.com/posts/yoshuabengio_today-were-releasing-the-international-ai-activity-7424442271615582209-dOCq",
+      "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+      "resolved_url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
       "authors": [
         "Yoshua Bengio"
       ],
@@ -11362,8 +11367,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/yoshuabengio_today-were-releasing-the-international-ai-activity-7424442271615582209-dOCq",
-          "confidence": "search"
+          "id": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+          "confidence": "extracted"
         }
       ],
       "duplicate_of": "international-ai-safety-report-2026-2026",
@@ -16217,8 +16222,8 @@
     {
       "id": "scaling-laws-differentially-private-language-models-2026-1",
       "title": "Scaling Laws for Differentially Private Language Models",
-      "url": "https://github.com/AkihikoWatanabe/paper_notes/issues/2791",
-      "resolved_url": "https://github.com/AkihikoWatanabe/paper_notes/issues/2791",
+      "url": "https://proceedings.mlr.press/v267/mckenna25a.html",
+      "resolved_url": "https://proceedings.mlr.press/v267/mckenna25a.html",
       "authors": [
         "Ryan McKenna",
         "Yangsibo Huang",
@@ -16248,8 +16253,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://github.com/AkihikoWatanabe/paper_notes/issues/2791",
-          "confidence": "search"
+          "id": "https://proceedings.mlr.press/v267/mckenna25a.html",
+          "confidence": "verified"
         }
       ]
     },
@@ -17670,15 +17675,16 @@
     },
     {
       "id": "text-2026",
-      "title": "text",
-      "url": "https://www.collinsdictionary.com/us/dictionary/english/text",
-      "resolved_url": "https://www.collinsdictionary.com/us/dictionary/english/text",
+      "title": "World Economic Outlook Update: Global Economy: Steady amid Divergent Forces",
+      "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/01/19/world-economic-outlook-update-january-2026",
+      "resolved_url": "https://www.imf.org/en/Publications/WEO/Issues/2026/01/19/world-economic-outlook-update-january-2026",
+      "date_published": "2026-01-19",
       "snapshot_sha256": "0c0abd0c268e4e2bb2501cec9c860af803d9448512da0c835c4255a552970c0d",
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.collinsdictionary.com/us/dictionary/english/text",
-          "confidence": "search"
+          "id": "https://www.imf.org/en/Publications/WEO/Issues/2026/01/19/world-economic-outlook-update-january-2026",
+          "confidence": "verified"
         }
       ],
       "duplicate_of": "world-economic-outlook-update-global-economy-steady-amid-2026-2",
@@ -17686,15 +17692,16 @@
     },
     {
       "id": "text-2026-1",
-      "title": "text",
-      "url": "https://www.collinsdictionary.com/us/dictionary/english/text",
-      "resolved_url": "https://www.collinsdictionary.com/us/dictionary/english/text",
+      "title": "World Economic Outlook Update: Global Economy: Steady amid Divergent Forces",
+      "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/01/19/world-economic-outlook-update-january-2026",
+      "resolved_url": "https://www.imf.org/en/Publications/WEO/Issues/2026/01/19/world-economic-outlook-update-january-2026",
+      "date_published": "2026-01-19",
       "snapshot_sha256": "3de9ad5bbd038707ea1acc354a17762243d852fffd9a087c10fbec4d53cf41c4",
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.collinsdictionary.com/us/dictionary/english/text",
-          "confidence": "search"
+          "id": "https://www.imf.org/en/Publications/WEO/Issues/2026/01/19/world-economic-outlook-update-january-2026",
+          "confidence": "verified"
         }
       ],
       "duplicate_of": "world-economic-outlook-update-global-economy-steady-amid-2026-2",
@@ -19952,7 +19959,7 @@
       "authors": [
         "International Monetary Fund"
       ],
-      "date_published": "2026-01-01",
+      "date_published": "2026-01-19",
       "one_liner": "The IMF projects steady global growth driven by AI-related investment while warning of risks from potential AI productivity disappointments and financial market volatility.",
       "topic_tags": [
         "ai-investment",
@@ -19978,7 +19985,7 @@
       "title": "World Economic Outlook Update: Global Economy: Steady amid Divergent Forces",
       "url": "https://service.betterregulation.com/document/829028",
       "resolved_url": "https://service.betterregulation.com/document/829028",
-      "date_published": "2026-01-01",
+      "date_published": "2026-01-19",
       "one_liner": "IMF projects steady 3.3% global growth in 2026, driven partly by AI investment surges while warning of downside risks from overvalued AI stocks and trade tensions.",
       "topic_tags": [
         "ai-investment",
@@ -20004,9 +20011,9 @@
     {
       "id": "world-economic-outlook-update-global-economy-steady-amid-2026-2",
       "title": "World Economic Outlook Update: Global Economy: Steady amid Divergent Forces",
-      "url": "https://service.betterregulation.com/document/829028",
-      "resolved_url": "https://service.betterregulation.com/document/829028",
-      "date_published": "2026-01-01",
+      "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/01/19/world-economic-outlook-update-january-2026",
+      "resolved_url": "https://www.imf.org/en/Publications/WEO/Issues/2026/01/19/world-economic-outlook-update-january-2026",
+      "date_published": "2026-01-19",
       "one_liner": "IMF projects steady 3.3% global growth in 2026, driven partly by AI investment surges while warning of downside risks from overvalued AI stocks and trade tensions.",
       "topic_tags": [
         "ai-investment",
@@ -20022,8 +20029,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://service.betterregulation.com/document/829028",
-          "confidence": "search"
+          "id": "https://www.imf.org/en/Publications/WEO/Issues/2026/01/19/world-economic-outlook-update-january-2026",
+          "confidence": "verified"
         }
       ]
     },
