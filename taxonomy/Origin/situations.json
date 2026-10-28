@@ -1,7 +1,7 @@
 {
   "_schema_version": "1.0.0",
   "_doc": "situations taxonomy: concepts that appear in all three camps but carry different interpretations. These nodes are referenced by all three POV taxonomy files.",
-  "last_modified": "2026-10-23",
+  "last_modified": "2026-10-28",
   "nodes": [
     {
       "id": "sit-001",
@@ -78106,6 +78106,66 @@
         "possible_fallacies": [],
         "node_scope": "systemic"
       }
+    },
+    {
+      "id": "sit-492",
+      "label": "Accidental Digital Memory Platforms",
+      "description": "A situation concept that describes how modern social media and communication platforms function as unmanaged, massive repositories of deceased users' personal data and digital identities. Encompasses: social media ghost accounts, automated digital cemeteries, platform persistence of deceased users. Excludes: intentional digital memorialization services, dedicated estate-planning software.",
+      "interpretations": {
+        "accelerationist": {
+          "belief": "Deceased users' accumulated posts, interactions, and behavioral data constitute a growing, machine-readable record of human thought and culture that platforms are uniquely positioned to preserve at scale.",
+          "desire": "This trove of digital memory ought to be kept accessible and integrated into computational networks, expanding the collective knowledge base available to AI systems and future researchers.",
+          "intention": "Accelerationists would push to open or aggregate these repositories for training data, longitudinal social analysis, and AI-driven reconstruction of human cognition, treating deletion as a net loss to the digital commons.",
+          "summary": "Deceased users' data is a valuable cultural and computational resource that should be preserved and leveraged to advance collective knowledge and AI capability."
+        },
+        "safetyist": {
+          "belief": "Platforms currently lack robust post-mortem governance frameworks, meaning deceased users' sensitive personal data remains exposed to breaches, misuse, and algorithmic exploitation that causes measurable harm to surviving relatives.",
+          "desire": "There ought to be mandatory, enforceable post-mortem data governance standards that protect the privacy of deceased individuals and shield their families from emotional and security harms.",
+          "intention": "Safetyists would advocate for regulatory requirements compelling platforms to implement verified death-notification pipelines, tiered access controls, and automatic data minimization protocols upon confirmed user death.",
+          "summary": "Unmanaged persistence of deceased users' data creates serious privacy and emotional harms that demand structured governance and enforceable platform accountability."
+        },
+        "skeptic": {
+          "belief": "Platforms retain deceased users' accounts and data primarily because doing so serves corporate interests — sustaining engagement metrics, training proprietary models, and avoiding the operational cost of deletion — not out of any genuine concern for users or families.",
+          "desire": "Personal dignity and data sovereignty ought to extend beyond death, and corporations should be legally prohibited from exploiting the digital remains of individuals who can no longer consent or object.",
+          "intention": "Skeptics would expose and publicize corporate negligence through investigative accountability, push for right-to-erasure legislation covering deceased persons, and challenge platform terms of service that silently claim perpetual rights over posthumous data.",
+          "summary": "Platforms treat deceased users' accounts as passive assets for corporate gain, demonstrating a structural disregard for personal dignity and the rights of the dead and their survivors."
+        }
+      },
+      "linked_nodes": [],
+      "conflict_ids": [],
+      "source_refs": [
+        "law-digital-resurrection-2026"
+      ]
+    },
+    {
+      "id": "sit-493",
+      "label": "Post-Mortem Digital Resurrection Rights",
+      "description": "A Belief within safetyist and skeptic discourse that post-mortem privacy and publicity rights must be balanced against collective data realities and First Amendment protections. Encompasses: Digital afterlife regulation, estate planning restrictions on AI avatars, and non-commercial digital re-enactments. Excludes: Commercial misappropriation of likeness during life.",
+      "interpretations": {
+        "accelerationist": {
+          "belief": "AI avatars of deceased individuals expand cultural memory and democratize legacy creation without causing tangible harm to individuals or society.",
+          "desire": "Post-mortem digital resurrection should be permitted with minimal restriction so that technological capability can fully realize its potential for preserving and extending human consciousness.",
+          "intention": "Accelerationists would actively oppose legislative restrictions on digital resurrection, framing them as reactionary obstacles, and would promote open-access frameworks that enable anyone to create AI avatars of the deceased.",
+          "summary": "Restrictions on post-mortem digital resurrection are reactionary barriers to progress that stifle a technology capable of enriching culture and democratizing digital legacy."
+        },
+        "safetyist": {
+          "belief": "Unconstrained proliferation of digital replicas of deceased persons risks psychological harm to surviving family members and erodes established relational and social boundaries.",
+          "desire": "Statutory safeguards and prior consent mechanisms ought to be in place before any digital resurrection technology is deployed, protecting both the deceased's dignity and survivors' wellbeing.",
+          "intention": "Safetyists would advocate for careful, evidence-based regulatory frameworks requiring opt-in consent from estates and next-of-kin, and would push for mandatory psychological impact assessments before deployment of digital avatars.",
+          "summary": "Digital resurrection must be gated behind robust consent mechanisms and statutory protections to prevent psychological harm and preserve relational boundaries."
+        },
+        "skeptic": {
+          "belief": "Expansive post-mortem publicity rights in practice function as corporate or estate-controlled vetoes over public culture, and the data underlying digital personas is collectively produced and non-rivalrous in nature.",
+          "desire": "Post-mortem rights regimes ought to be narrowly scoped to prevent monopolistic control over shared cultural heritage, preserving the public domain against private capture by estates and corporations.",
+          "intention": "Skeptics would challenge broad post-mortem rights claims through litigation and policy advocacy, highlighting how such rights concentrate power in estates and corporations rather than protecting genuine individual interests.",
+          "summary": "Expansive post-mortem digital rights are primarily tools of institutional capture that threaten the public domain and ignore the collective nature of digital identity."
+        }
+      },
+      "linked_nodes": [],
+      "conflict_ids": [],
+      "source_refs": [
+        "law-digital-resurrection-2026"
+      ]
     }
   ]
 }
