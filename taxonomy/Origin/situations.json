@@ -78135,7 +78135,41 @@
       "conflict_ids": [],
       "source_refs": [
         "law-digital-resurrection-2026"
-      ]
+      ],
+      "graph_attributes": {
+        "epistemic_type": "interpretive_lens",
+        "rhetorical_strategy": "systemic_critique, pragmatic_framing",
+        "assumes": [
+          "Deceased users' digital footprints contain persistent economic or cultural value",
+          "Social media platforms retain structural control over posthumous user data",
+          "Post-mortem data stewardship requires active policy intervention to prevent exploitation"
+        ],
+        "falsifiability": "medium",
+        "audience": "policymakers, civil_society",
+        "emotional_register": "cautionary",
+        "policy_actions": [
+          {
+            "policy_id": null,
+            "action": "Enact mandatory right-to-erasure and post-mortem data governance legislation for social media platforms",
+            "framing": "The unmanaged accumulation of deceased users' data creates severe privacy vulnerabilities that require legally binding data minimization and deletion standards."
+          }
+        ],
+        "intellectual_lineage": [
+          "Information fiduciary framework",
+          "Digital estate planning jurisprudence",
+          "Post-mortem privacy scholarship"
+        ],
+        "steelman_vulnerability": "Mandating strict post-mortem data deletion or rigid governance could inadvertently destroy valuable historical archives and collective cultural records that future generations rely upon.",
+        "possible_fallacies": [
+          {
+            "fallacy": "false_dilemma",
+            "confidence": "possible",
+            "explanation": "The situation framing forces a stark choice between total platform exploitation and complete data eradication, ignoring nuanced intermediate models like archival trusts or decentralized consent management.",
+            "type": "informal_structural"
+          }
+        ],
+        "node_scope": "systemic"
+      }
     },
     {
       "id": "sit-493",
@@ -78165,7 +78199,41 @@
       "conflict_ids": [],
       "source_refs": [
         "law-digital-resurrection-2026"
-      ]
+      ],
+      "graph_attributes": {
+        "epistemic_type": "normative_prescription",
+        "rhetorical_strategy": "rights_based, precautionary_framing",
+        "assumes": [
+          "Post-mortem privacy and publicity rights are legally and ethically distinct from living rights",
+          "Digital replicas of deceased individuals carry significant potential for psychological harm",
+          "Cultural memory can be preserved without violating the dignity of deceased persons and their families"
+        ],
+        "falsifiability": "low",
+        "audience": "legal_professionals, policymakers",
+        "emotional_register": "measured",
+        "policy_actions": [
+          {
+            "policy_id": null,
+            "action": "Establish statutory consent frameworks and estate controls for commercial digital resurrection technologies",
+            "framing": "Unconstrained digital avatars risk exploiting likenesses without consent, necessitating clear statutory boundaries managed by surviving next-of-kin."
+          }
+        ],
+        "intellectual_lineage": [
+          "Right of publicity doctrine",
+          "Mortuary ethics and jurisprudence",
+          "Kantian dignity frameworks"
+        ],
+        "steelman_vulnerability": "Expanding post-mortem publicity rights creates a mechanism for estates to censor historical critique and privatize shared cultural heritage under the guise of protecting personal dignity.",
+        "possible_fallacies": [
+          {
+            "fallacy": "appeal_to_emotion",
+            "confidence": "borderline",
+            "explanation": "The emphasis on psychological harm to grieving families relies heavily on emotive framing regarding death, potentially overshadowing empirical questions about actual public benefit or harm from digital replicas.",
+            "type": "informal_contextual"
+          }
+        ],
+        "node_scope": "cross_domain"
+      }
     }
   ]
 }
