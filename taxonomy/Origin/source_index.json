@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "builder": "Build-NodeSourceIndex",
   "builderVersion": "1.2.0",
-  "inputHash": "be2e23da2536f7191191c4c6bc150330148ae699c9802e3c7ca54a525962e4b7",
+  "inputHash": "8181a1b6f31d639d3ffefb68ea61a87dfb0e2ead97c1899bbbb2c15a8b52c932",
   "marksHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "totals": {
-    "nodes": 999,
-    "entries": 16376,
+    "nodes": 1005,
+    "entries": 16491,
     "byLinkSource": {
-      "key_point": 11506,
-      "factual_claim": 4870
+      "key_point": 11566,
+      "factual_claim": 4925
     }
   },
   "index": {
@@ -10432,6 +10432,14 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "These developments are part of a far larger trend in which the First Amendment has gradually been transformed into a bulwark of protection against business regulation... If so, then Uber's disclosure of sensitive personal information about its users might be protected by the First Amendment unless it also attempted to threaten users or blackmail them.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.85
       }
     ],
     "acc-beliefs-069": [
@@ -61093,6 +61101,31 @@
         "extraction_confidence": 0.95
       },
       {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "The District Court for the Central District of Illinois held in the 2014 case Keller v. Finks that a deceased person has no rights within the United States constitutional scheme.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational_basis": "judicial ruling citation",
+            "measurement_instrument": "court opinion",
+            "generalizability": "binding precedent within district"
+          }
+        },
+        "extraction_confidence": 0.98
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "There is a concern that the decedent is making decisions based on imperfect information that are not fully reasoned and then borne by the living. There is also a moral hazard problem implicit with deferring to every wish of the decedent, as those wishes may impose costs on the living that are not reasonable. To the extent that the decedent behaves irresponsibly, he or she bears none of the emotional or financial costs of the mess left behind.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.92
+      },
+      {
         "source_id": "law-following-ai-designing-ai-agents-obey-human-laws-2026-1",
         "link_source": "factual_claim",
         "quote": "AI agents lack inherent respect for the law, unlike humans who are influenced by both instrumental disincentives and internal moral constraints.",
@@ -62764,6 +62797,14 @@
         "extraction_confidence": 1
       },
       {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "There is also arguably a dignitary concern when the remains of the decedent are violated for generative purposes. Technology now allows the body of a deceased male to be used to father children: postmortem semen retrieval is a medical procedure whereby semen is extracted from the deceased, ideally within twenty-four to thirty-six hours following death.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": "0.92"
+      },
+      {
         "source_id": "magnifica-humanitas-safeguarding-human-person-time-2026",
         "link_source": "key_point",
         "quote": "",
@@ -63747,6 +63788,23 @@
         "extraction_confidence": 0.98
       },
       {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "A Facebook experiment involving tens of millions of users demonstrated that showing voting reminder graphics featuring friends who had already voted increased voter turnout by 0.39 percent over generic messages, directly adding 60,000 votes and yielding a total ripple effect of 340,000 votes.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational": true,
+            "measurable": true,
+            "falsifiable": true
+          }
+        },
+        "extraction_confidence": 0.98
+      },
+      {
         "source_id": "issue-one-its-council-responsible-social-media-call-2026",
         "link_source": "factual_claim",
         "quote": "A third of all Americans, evenly distributed between Republicans and Democrats, report that they cannot distinguish between what is true and not true on social media platforms.",
@@ -63788,6 +63846,22 @@
         "source_id": "issue-one-its-council-responsible-social-media-call-2026-1",
         "link_source": "key_point",
         "quote": "Social media today is not only robbing children of their social skills and harming their ability to think for themselves, but adversaries like Russia and China are taking advantage of these technologies to spread lies and exploit divisions among Americans.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "The No AI FRAUD Act introduced in Congress in January 2024 would potentially provide the deceased with an enforceable right to opt out of unauthorized digital depictions, but such an approach has been sharply criticized by the American Civil Liberties Union for treading upon a wide swath of First Amendment protected speech, such as the right to create AI duplicates for commentary, satire, and news.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "To the extent that highly sensitive information is being used to create a digital clone, and sensitive information may then be shared by grieving loved ones with the clone, this raises profound privacy concerns for the deceased and their loved ones. Further, there are few legal regulations or restrictions on the use of data to train AI language models, and companies are not always forthcoming with how data is gathered, used, or later shared.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -71149,7 +71223,41 @@
       }
     ],
     "saf-beliefs-245": [],
-    "saf-beliefs-246": [],
+    "saf-beliefs-246": [
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "An analysis published in The Atlantic on 1 March 2012 by Alexis C. Madrigal calculated that reading the privacy policies encountered online in a single year would require 76 work days.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational": true,
+            "measured": true,
+            "falsifiable": true
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "First, end-users’ relationships with many online service providers involve significant vulnerability, because online service providers have considerable expertise and knowledge and end-users usually do not. All of these problems are connected to the inadequacy of relying on contract and property models to protect privacy and prevent overreaching.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "Under Delaware law, the officers and directors of a for-profit corporation already owe fiduciary duties — to the corporation and its stockholders. As the Court of Chancery explained in 2017, “Delaware case law is clear” that to act loyally, officers and directors “must, within the limits of [their] legal discretion, treat stockholder welfare as the only end, considering other interests only to the extent that doing so is rationally related to stockholder welfare.”",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      }
+    ],
     "saf-beliefs-247": [
       {
         "source_id": "frontier-ai-auditing-toward-rigorous-third-party-assessment-2026",
@@ -72057,6 +72165,16 @@
     "saf-beliefs-287": [
       {
         "source_id": "tort-law-frontier-artificial-intelligence-2026",
+        "link_source": "key_point",
+        "quote": "",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.7
+      }
+    ],
+    "saf-beliefs-288": [
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
         "link_source": "key_point",
         "quote": "",
         "doc_position": null,
@@ -75881,6 +75999,64 @@
         "extraction_confidence": 1.0
       },
       {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "The New York Supreme Court held in Doe v. Roe that a psychiatrist was liable for breach of a professional duty of confidentiality after republishing parts of a patient's psychoanalysis in a book.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational": true,
+            "statistical": false,
+            "experimental": false
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "For all of these reasons, we should recognize that a changing society generates new kinds of fiduciary relations and fiduciary obligations that the law can and should recognize. The scope of the fiduciary duty, however, is not the same for every entity. It depends on the nature of the relationship, the reasonableness of trust, and the importance of preventing self-dealing by the entity and harm to the end-user, client, or beneficiary.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "Generally speaking, a fiduciary is one who has special obligations of loyalty and trustworthiness toward another person. The fiduciary must take care to act in the interests of the other person, who is sometimes called the principal, the beneficiary, or the client. The fiduciary has two basic duties. The first is a duty of care... The second, and in many ways more important duty, is the duty of loyalty.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "The Revised Uniform Fiduciary Access to Digital Assets Act Section 15 prohibits a digital fiduciary from using digital assets to impersonate the user.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "statute",
+            "corroboration": "high",
+            "falsifiability": "high"
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "Finally, Section 15 of RUFADAA provides that a digital fiduciary may not use the assets to “impersonate the user.” It has been suggested that RUFADAA be expanded to provide that the digital assets should not be used by a fiduciary to impersonate or recreate the decedent. This suggestion misses the mark. Such an approach would create an opt-in mechanism, which is problematic for the reasons discussed above. Stated simply, it is not ideal for most Americans, and would structurally discriminate against those who are less likely to engage in estate planning—or those who are not white, lower income, lower wealth, and young.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.9
+      },
+      {
         "source_id": "liability-ai-agents-2026",
         "link_source": "key_point",
         "quote": "A holistic legal framework must account for varying degrees of control among affected parties. Because victims of AI-induced harm may or may not be system deployers, they can have differing levels of influence over AI use.",
@@ -75892,6 +76068,31 @@
         "source_id": "liability-ai-agents-2026",
         "link_source": "key_point",
         "quote": "In such cases, one can assume they made a free and informed choice; the doctor should bear ultimate liability if the system or agent output proves harmful.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.9
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "Jack Balkin and Jonathan Zittrain proposed a preemptive federal statute in a 2016 essay in The Atlantic to organize around the idea of fiduciary responsibility for online platforms, which would displace state and local privacy laws rather than modify corporate law duties to stockholders.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "scholarly_literature",
+            "observational_basis": "textual_analysis",
+            "quantifiable": false
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "On the contrary, information-fiduciary advocates generally appear to endorse a fourth and final strategy for managing conflicts between stockholders and users, which is to cabin any fiduciary duties afforded to users so that they do not seriously threaten firm value — and thus might even be implemented by judges in the absence of legislation. One way to understand this formulation is as an effort to elicit better behavior from digital companies without undermining the shareholder-primacy norm.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9
@@ -76472,6 +76673,22 @@
         "extraction_confidence": 0.95
       },
       {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "On the other hand, I understand that human freedom in the information age requires regulation of new forms of social and economic power... Because of their special power over others and their special relationships to others, information fiduciaries have special duties to act in ways that do not harm the interests of the people whose information they collect, analyze, use, sell, and distribute.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "The relationships of trust between end-users and online service providers need not be identical to traditional professional relationships in all respects. Equally importantly, these relationships may not require the same degree of obligation, loyalty, and protection that applied to older forms of professional relationships. ... What I do claim is that in the digital age, because we trust them with sensitive information, certain types of online service providers take on fiduciary responsibilities.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
         "source_id": "is-data-labor-two-conceptions-work-user-platform-2026",
         "link_source": "key_point",
         "quote": "That said, our inquiry is lent ethical urgency by the fact that exit is often difficult because platforms exhibit network externalities (e.g. social media) and users experience high switching costs when the value of the service increases with time or usage (e.g. email, recommendation engines).",
@@ -76488,6 +76705,90 @@
         "extraction_confidence": 0.9
       },
       {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "Apple announced a Digital Legacy Program available for the iOS 15.2, iPadOS 15.2, and macOS 12.1 releases that allows users to add a Legacy Contact for their Apple ID.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "official_announcement",
+            "verifiability": "high",
+            "empirical_basis": "institutional_policy"
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "Google launched its Inactive Account Manager feature in April 2013 to allow users to specify how their account information should be shared or deleted after a selected period of inactivity.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "industry_practice",
+            "verifiable": true,
+            "quantifiable": true
+          }
+        },
+        "extraction_confidence": "0.95"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "Los Angeles County paid Vanessa Bryant nearly $30 million in 2023 to settle an invasion of privacy lawsuit filed over the sharing of graphic photos of a deceased Kobe Bryant and his daughter Gianna at their helicopter crash site.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational": true,
+            "quantified": true,
+            "replicable": true
+          }
+        },
+        "extraction_confidence": "0.99"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "The California Delete Act, enacted in October 2023 and effective January 1, 2024, established an accessible deletion mechanism for living consumers to delete personal information held by data brokers in a single step.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "statutory_law",
+            "verifiable": true,
+            "quantifiable": true
+          }
+        },
+        "extraction_confidence": "0.98"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "From the perspective of commodification, the question is whether personal data of the deceased, an asset without an inherent value, should be recognized as possessing a value that is not monetary—and drawing upon the law of human remains, should be respected through notions of moral personhood. The same ethical implications, including respect for the deceased, cultural heritage, and exploitation of the deceased for profit, exist when dealing with the deceased’s remains—whether those remains are in physical or digital form. The problem is that control of policy by #bigtech is shaping a marketplace distanced from personhood, rather than one focused on dignitary concerns and respecting memory.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "Privacy and dignity are related concepts. Privacy is interested in protecting human dignity through control over information dissemination, and the law of human remains is concerned about protecting dignity through the appropriate or respectful treatment of the remains of the deceased.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": "0.90"
+      },
+      {
         "source_id": "magnifica-humanitas-safeguarding-human-person-time-2026",
         "link_source": "key_point",
         "quote": "",
@@ -76502,6 +76803,31 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "A major data breach that Facebook suffered in 2018 derived from the site serving as a central passport to the internet, allowing hackers who stole a single access key to gain entry to users' non-Facebook third-party logins.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "is_observable": true,
+            "has_metric": false,
+            "falsifiable": true
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "For example, one of the biggest data breaches that Facebook suffered in 2018 derived from the site serving as a central passport to the internet, such that one’s Facebook login can serve as a credential for numerous third-party sales. Once hackers stole the single access key, they won access to users’ non-Facebook logins as well.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.85
       },
       {
         "source_id": "understanding-anticipatory-governance-2026",
@@ -85813,6 +86139,48 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": "0.95"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "A Gallup poll conducted on 23 June 2021 found that only 46% of Americans have a will.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "empirical_study",
+            "sample_representation": "national_poll",
+            "confounds_addressed": false
+          }
+        },
+        "extraction_confidence": "0.95"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "Only 46% of Americans have a will, highlighting a major practical limitation in estate planning frameworks such as the Revised Uniform Fiduciary Access to Digital Assets Act that rely on testamentary documents to govern digital assets.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "empirical_study",
+            "sample_representation": "national_poll",
+            "confounds_addressed": false
+          }
+        },
+        "extraction_confidence": "0.95"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "The law governing digital assets is a complex web, with potentially overlapping or conflicting rules in state law, federal law, and Terms of Service or Terms and Conditions. Almost all states have enacted some version of RUFADAA, developed by the National Conference of Commissioners on Uniform State Laws. RUFADAA is designed to provide a legal framework by which a fiduciary may gain online account access and manage digital assets in the event of death or incapacitation.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": "0.9"
       },
       {
         "source_id": "law-following-ai-designing-ai-agents-obey-human-laws-2026",
@@ -95749,6 +96117,14 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "In other words, the doctor has a fiduciary duty to ensure that the privacy protections run with the data. The requirement that privacy protections run with the data means that I do not have to have a separate contractual agreement with everyone who handles the data. Rather, it is the fiduciary’s job to ensure that my privacy is protected.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.9
       },
       {
         "source_id": "product-risks-today-how-new-product-liability-directive-2026",
@@ -116304,6 +116680,14 @@
         "extraction_confidence": null
       },
       {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "beyond the issues of privacy and data security that Balkin foregrounds, the dominant online platforms have been credibly associated with a host of social ills, from facilitating interference in U.S. elections; to serving as a tool for the incitement of genocide in Myanmar; to decreasing users’ mental and physical health; to enabling discrimination and harassment against women and racial minorities; to amplifying the influence of “fake news,” conspiracy theories, bot-generated propaganda, and inflammatory and divisive content more broadly.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
         "source_id": "snapshot-when-machines-discriminate-critical-role-disparate-2026",
         "link_source": "key_point",
         "quote": "Moreover, datasets and model designs are often proprietary corporate secrets, or so complex that they are effectively black boxes. This can make it exceedingly difficult, if not impossible, to discover when algorithms do treat people differently based on their identity.",
@@ -120768,6 +121152,59 @@
         "extraction_confidence": 1
       },
       {
+        "source_id": "court-tosses-sentence-after-ai-video-victim-forgiving-his-2026",
+        "link_source": "factual_claim",
+        "quote": "An Arizona appeals court threw out the 10.5-year prison sentence of Gabriel Horcasitas for the 2021 road-rage manslaughter death of Christopher Pelkey after an AI-generated video of the victim was played during sentencing.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "evidence_level": "direct_empirical"
+          }
+        },
+        "extraction_confidence": 0.99
+      },
+      {
+        "source_id": "court-tosses-sentence-after-ai-video-victim-forgiving-his-2026",
+        "link_source": "factual_claim",
+        "quote": "Maricopa County Superior Court Judge Todd F. Lang praised the AI-generated video during the sentencing hearing as genuine and allowed the maximum sentence of 10.5 years to be imposed.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "evidence_level": "direct_empirical"
+          }
+        },
+        "extraction_confidence": 0.98
+      },
+      {
+        "source_id": "court-tosses-sentence-after-ai-video-victim-forgiving-his-2026",
+        "link_source": "factual_claim",
+        "quote": "Stacey Wales created the AI video using her brother Christopher Pelkey's voice from a YouTube video, his face and torso from a funeral service poster with digital edits, and a script she wrote herself.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "evidence_level": "direct_empirical"
+          }
+        },
+        "extraction_confidence": 0.98
+      },
+      {
+        "source_id": "court-tosses-sentence-after-ai-video-victim-forgiving-his-2026",
+        "link_source": "key_point",
+        "quote": "An appeals court in Arizona on Wednesday threw out the prison sentence of a man convicted of manslaughter after a video created by artificial intelligence depicting the victim forgiving his killer was played in court.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.98
+      },
+      {
         "source_id": "generative-ai-copyright-training-creation-regulation-2026",
         "link_source": "key_point",
         "quote": "A recent EU study found that even when AI outputs do not reproduce original content in a recognisable way, they may still infringe moral rights if they mimic the author's style or cause reputational harm.",
@@ -123259,6 +123696,48 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "Franz Kafka instructed the executor of his estate to burn all of his unpublished works upon his death, but the executor disregarded these wishes and published manuscripts including The Trial and The Castle without facing legal consequences.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational_basis": "historical legal and literary record",
+            "measurement_instrument": "estate administration history",
+            "generalizability": "specific historical precedent"
+          }
+        },
+        "extraction_confidence": 0.99
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "The District Court for the Central District of Illinois held in the 2014 case Keller v. Finks that a deceased person has no rights within the United States constitutional scheme.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational_basis": "judicial ruling citation",
+            "measurement_instrument": "court opinion",
+            "generalizability": "binding precedent within district"
+          }
+        },
+        "extraction_confidence": 0.98
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "The personal data of the deceased is a digital asset mostly without an intrinsic value, stored electronically, and easily duplicated and distributed. This data is part of a digital identity around which there are few established laws or standardized practices in the United States. There are also no laws to prevent commodification of this data. In stark contrast is the law of human remains, with strict regulations in place designed to (theoretically) prevent commodification due to dignitary concerns.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.94
       },
       {
         "source_id": "law-following-ai-designing-ai-agents-obey-human-laws-2026",
@@ -128214,6 +128693,74 @@
         "extraction_confidence": 1.0
       },
       {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "Amir E. Khandani, Adlar J. Kim, and Andrew W. Lo's 2010 MIT Sloan research paper describes machine-learning algorithms designed to predict consumer spending and credit risk.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "academic_research_paper",
+            "empirical_support": "model_evaluation",
+            "falsifiability": true
+          }
+        },
+        "extraction_confidence": 0.96
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "Frank Pasquale's 2015 book The Black Box Society examines the role of algorithms in finance, search, advertising, and employment.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "scholarly_book",
+            "empirical_support": "comprehensive_review",
+            "falsifiability": true
+          }
+        },
+        "extraction_confidence": 0.96
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "Larry Hardesty's 2015 MIT News report describes algorithms capable of predicting human behavior more accurately than human experts.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "university_press_release",
+            "empirical_support": "research_summary",
+            "falsifiability": true
+          }
+        },
+        "extraction_confidence": 0.96
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "Nate Berg's 2014 article in The Guardian discusses police departments utilizing algorithms to identify geographical areas with high probabilities for specific types of crime.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "journalism",
+            "empirical_support": "field_report",
+            "falsifiability": true
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
         "source_id": "insuring-ai-role-insurance-artificial-intelligence-2026-1",
         "link_source": "factual_claim",
         "quote": "In 2016, an autonomous security guard robot weighing 300 pounds ran over a toddler at a shopping center in California, illustrating the physical and unpredictable risks posed by autonomous systems in public spaces.",
@@ -131352,6 +131899,57 @@
         "extraction_confidence": "0.95"
       },
       {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "Orin S. Kerr's 2009 article published in the Michigan Law Review argues that the third-party doctrine holds that the government does not need a warrant to obtain digital information given to a third party, leaving individuals with little or no Fourth Amendment protection regarding data held by social media sites, internet service providers, or other online businesses.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "legal_scholarship",
+            "empirical_support": "legal_doctrine",
+            "falsifiability": true
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "The United States Supreme Court's 1976 decision in United States v. Miller established that bank depositors take the risk when revealing financial affairs to another party that the information will be conveyed to the government.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "judicial_precedent",
+            "empirical_support": "court_ruling",
+            "falsifiability": true
+          }
+        },
+        "extraction_confidence": 0.97
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "The United States Supreme Court's 1979 decision in Smith v. Maryland established that individuals have no reasonable expectation of privacy in dialed phone numbers because they are available to phone companies, thereby assuming the risk of disclosure to police.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "judicial_precedent",
+            "empirical_support": "court_ruling",
+            "falsifiability": true
+          }
+        },
+        "extraction_confidence": 0.97
+      },
+      {
         "source_id": "insuring-ai-role-insurance-artificial-intelligence-2026",
         "link_source": "factual_claim",
         "quote": "Nevada permitted autonomous vehicles onto public roads in 2011, initiating a lenient regulatory environment that allowed autonomous vehicle companies to experiment with minimal liability concerns.",
@@ -132221,6 +132819,82 @@
         "extraction_confidence": 1.0
       },
       {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "Frank Pasquale's 2015 book The Black Box Society examines the role of algorithms in finance, search, advertising, and employment.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "scholarly_book",
+            "empirical_support": "comprehensive_review",
+            "falsifiability": true
+          }
+        },
+        "extraction_confidence": 0.96
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "Natasha Singer's 2014 article in The New York Times discusses companies utilizing algorithms to monitor and rank both employees and job seekers.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "journalism",
+            "empirical_support": "field_report",
+            "falsifiability": true
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "Rachel Emma Silverman and Nikki Waller's 2015 article in The Wall Street Journal describes the use of algorithms by Walmart and Credit Suisse to determine which employees are likely to leave or stay.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "journalism",
+            "empirical_support": "corporate_case_study",
+            "falsifiability": true
+          }
+        },
+        "extraction_confidence": 0.97
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "Tim Adams's 2014 article in The Guardian describes the advancement of algorithms into recruitment and talent management.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "journalism",
+            "empirical_support": "field_report",
+            "falsifiability": true
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "The key examples in my discussion so far have been online service providers — social media companies like Facebook, search engines like Google, and service platforms like Uber. But companies are increasingly using sophisticated algorithms and forms of artificial intelligence to make decisions about people in areas ranging from advertising to employment to policing to credit.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.96
+      },
+      {
         "source_id": "is-data-labor-two-conceptions-work-user-platform-2026",
         "link_source": "factual_claim",
         "quote": "Internet platforms exhibit significant network externalities, leading to 'winner takes most' market dynamics. This creates monopolistic power derived from network effects, which makes the marginal value of any individual user's data to a platform close to zero.",
@@ -132316,6 +132990,31 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "Facebook held an estimated 50 million deceased users as of June 2019.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "academic_literature",
+            "verifiability": "high",
+            "empirical_basis": "demographic_projection"
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "This is particularly troubling in the digital age, when social media platforms such as Facebook and X, largely accessible regardless of the wealth of the user, have become accidental digital memory platforms that are curated by the living but store the personalities of the deceased. Facebook is arguably one of the largest cemeteries in the world, with an estimated 50 million deceased users as of June 2019.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
       }
     ],
     "skp-beliefs-108": [
@@ -133336,6 +134035,14 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "For many online companies, the product or service is either free or heavily subsidized because it generates data, which is valuable to the company or to third parties to which the company sells the data. The value of end-user data, and its centrality in the business models of many online service providers, creates an inherent potential for conflicts of interest between the digital company and the end-user.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
       },
       {
         "source_id": "labor-as-capital-ai-ownership-expertise-2026",
@@ -134869,6 +135576,56 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.94
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "Facebook denies selling user data to third parties, but interactions such as ad clicks and developer platform access reveal facets of user identity and data to third-party marketers.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "qualified",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "expert_commentary",
+            "observational_basis": "architectural_analysis",
+            "quantifiable": false
+          }
+        },
+        "extraction_confidence": 0.9
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "Jack Balkin and Jonathan Zittrain proposed a preemptive federal statute in a 2016 essay in The Atlantic to organize around the idea of fiduciary responsibility for online platforms, which would displace state and local privacy laws rather than modify corporate law duties to stockholders.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "scholarly_literature",
+            "observational_basis": "textual_analysis",
+            "quantifiable": false
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "As long as such companies make most of their money through personally targeted advertisements, they will be economically motivated to extract as much data from their users as they can — a motivation that runs headfirst into users’ privacy interests as well as any interests users might have in exercising behavioral autonomy or ensuring that their personal data is not stolen, sold, mined, or otherwise monetized down the line. The whole point of proscriptive rules implementing the duty of loyalty is to minimize biasing factors that might induce the fiduciary to subjugate the interests of beneficiaries to any other end.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "Like other corporations with comparable business models, Facebook therefore has a strong economic incentive to maximize the amount of time users spend on the site and to collect and commodify as much user data as possible. Allowing discordant and false material on the platform was not a glitch in the business plan — it was the plan.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.96
       }
     ],
     "skp-beliefs-139": [
@@ -139384,6 +140141,39 @@
         "extraction_confidence": 0.95
       },
       {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "The German competition authority ruled that Facebook is no longer permitted to force users to agree to the practically unrestricted collection and assignment of non-Facebook data gathered from third-party sources to their personal accounts.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "regulatory ruling",
+            "verifiable": true,
+            "empirical": true
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "And yet, the stranglehold that these same platforms have on the digital advertising market is itself one of the biggest threats to the economic viability of such reporting. ... Facebook also impedes investigative journalism more directly through its terms of service, which ban reporters and researchers from using automated collection techniques or temporary research accounts to study the platform.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "This fourth and final downside risk may be the most practically consequential of them all. When introducing the information-fiduciary proposal, Balkin and Zittrain billed it as a kind of regulatory third way that could transcend ordinary political divides and policy tradeoffs.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
         "source_id": "small-business-owners-managing-whole-armies-ai-employees-2026",
         "link_source": "key_point",
         "quote": "In essence, OpenClaw users are discovering the power politics of the modern A.I. market: It is dominated by a tiny group of giant corporations. Their 'frontier model' L.L.M.s may be powerful, but the owners can change your access unpredictably.",
@@ -140414,6 +141204,23 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "A Pew Research Center survey from January 2019 found that 74 percent of Facebook users do not know that the platform collects data to classify their interests and traits.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational": true,
+            "statistical": true,
+            "verifiable": true
+          }
+        },
+        "extraction_confidence": 0.98
       },
       {
         "source_id": "social-media-distrust-turn-artificial-intelligence-among-2026",
@@ -144260,12 +145067,121 @@
         "extraction_confidence": 1
       },
       {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "BuzzFeed revealed in November 2014 that senior Uber executive Emil Michael suggested at a dinner event that the company might hire opposition researchers to gather and spread embarrassing details about journalist Sarah Lacy.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational": true,
+            "measurable": true,
+            "falsifiable": true
+          }
+        },
+        "extraction_confidence": 0.98
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "Of course, Uber does not need to hire private investigators if it wanted to embarrass or coerce people. It sits on a gold mine of private information about its users... In theory, for example, Uber could reveal information suggesting that customers were engaged in extramarital affairs or engaged in secret or illegal meetings.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
         "source_id": "is-data-labor-two-conceptions-work-user-platform-2026",
         "link_source": "key_point",
         "quote": "",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.7
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "Google and Facebook together captured roughly three-quarters of all digital advertising sales in the United States and an even higher percentage of digital advertising growth.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "is_observable": true,
+            "has_metric": true,
+            "falsifiable": true
+          }
+        },
+        "extraction_confidence": 0.98
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "In 2017, the top five most popular social media applications were WhatsApp, Facebook, Messenger, Instagram, and Snapchat, with Facebook owning four of them.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational": true,
+            "statistical": true,
+            "verifiable": true
+          }
+        },
+        "extraction_confidence": 0.98
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "In February 2019, the German national competition regulator, the Bundeskartellamt, issued a decision prohibiting Facebook from combining user data from different sources, concluding it constituted an abuse of a dominant position.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_data": null,
+          "category_criteria": {
+            "official_record": true,
+            "verifiable": true,
+            "documentary": true
+          }
+        },
+        "extraction_confidence": 0.98
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "A key feature of the digital economy, he observed in his original essay on the subject, is that '[m]any of the online services that people use require them to trust companies with sensitive personal information.' These companies have 'increasing capacities for surveillance and control' of their users, but users have little ability to monitor the companies.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "Many advertisers and content producers are just as captive as Facebook is to its end users, or even more so. Insofar as the purpose of the information-fiduciary proposal is to rebalance the relationship between dominant online intermediaries and those who depend on them, it is unclear why its protections should cover only one set of dependents.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.92
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "Many of the broader harms associated with these platforms are magnified or made possible by a behavioral-advertising-based business model coupled with outsized market share. Their control over digital advertising networks appears to be an important factor behind the past decade’s consolidation within the publishing industry and tens of thousands of layoffs at newspapers and magazines.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "The loss of privacy and control experienced by Facebook users therefore does not stem, organically, 'from the structure and nature of the fiduciary relation.' It stems from Facebook's deliberate efforts to create such vulnerabilities. Facebook's dominant market position supports this strategy.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.96
       },
       {
         "source_id": "when-product-markets-become-collective-traps-case-social-2026",
@@ -144320,12 +145236,54 @@
         "extraction_confidence": 1.0
       },
       {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "An analysis published in The Atlantic on 1 March 2012 by Alexis C. Madrigal calculated that reading the privacy policies encountered online in a single year would require 76 work days.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational": true,
+            "measured": true,
+            "falsifiable": true
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "Because people understand that they are vulnerable to the collection of personal data, and because they also recognize that the methods used by online service providers are beyond their understanding, they seek reassurance that using these services is safe. Perhaps the best way of summarizing the idea of information fiduciaries in the digital age is that online service providers may not act like con men.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
         "source_id": "issue-one-its-council-responsible-social-media-call-2026-1",
         "link_source": "key_point",
         "quote": "No longer can Big Tech be allowed to design addictive products, harvest user data, and manipulate users to maximize their profits with no regard to the consequences.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.94
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "A Pew Research Center survey from January 2019 found that 74 percent of Facebook users do not know that the platform collects data to classify their interests and traits.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational": true,
+            "statistical": true,
+            "verifiable": true
+          }
+        },
+        "extraction_confidence": 0.98
       }
     ],
     "skp-beliefs-218": [],
@@ -144390,6 +145348,31 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "Major technology companies including Facebook, Google, Twitter, Uber, Airbnb, Match Group, and Microsoft are incorporated as for-profit entities in Delaware or Washington state, subjecting their officers and directors to established corporate fiduciary doctrines prioritizing shareholder wealth.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational": true,
+            "statistical": false,
+            "experimental": false
+          }
+        },
+        "extraction_confidence": 0.98
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "Right off the bat, these observations give reason to question the feasibility, if not also the coherence, of applying the information-fiduciary idea to the leading social media companies. A fiduciary with sharply opposed loyalties teeters on the edge of contradiction.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.98
       }
     ],
     "skp-beliefs-220": [
@@ -144400,6 +145383,23 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.7
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "The German competition authority ruled that Facebook is no longer permitted to force users to agree to the practically unrestricted collection and assignment of non-Facebook data gathered from third-party sources to their personal accounts.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "regulatory ruling",
+            "verifiable": true,
+            "empirical": true
+          }
+        },
+        "extraction_confidence": 0.95
       }
     ],
     "skp-beliefs-221": [
@@ -144447,9 +145447,102 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "In Sorrell v. IMS Health Inc., the United States Supreme Court held that a Vermont statute making it illegal for pharmacists to sell prescriber-identifying information for marketing purposes was unconstitutional because it imposed content-based and speaker-based restrictions on access to information and speech.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "is_testable": true,
+            "empirical_basis": "Supreme Court case law analysis",
+            "falsifiable": true
+          }
+        },
+        "extraction_confidence": 0.98
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "The contract solution treats personal privacy as an entitlement that end-users may consent to surrender or transfer to companies, with the default rule being that in the absence of an agreed-to privacy policy, consumers have no right to control information that they have voluntarily provided to companies.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "The commodification of digital assets is alive and well. Digital assets are tokenized, converting real-world assets into fungible or non-fungible tokens on blockchain platforms. Digital assets such as crypto art, digital trading cards, and virtual real estate are being bought, sold, and traded like traditional collectibles. Companies are issuing security tokens representing ownership in digital assets such as equity, real estate, and investment funds. Personal data is being collected, analyzed, and sold to advertisers, marketers, and researchers.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.96
       }
     ],
-    "skp-beliefs-225": [],
+    "skp-beliefs-225": [
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "Neither electronic communications nor personal data are considered property in the United States for living individuals, though personal data may receive limited protection through tort-privacy actions and copyright law.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "qualified",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "legal_analysis",
+            "sample_representation": "statutory_jurisprudence",
+            "confounds_addressed": false
+          }
+        },
+        "extraction_confidence": "0.95"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "Only 46% of Americans have a will, highlighting a major practical limitation in estate planning frameworks such as the Revised Uniform Fiduciary Access to Digital Assets Act that rely on testamentary documents to govern digital assets.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "empirical_study",
+            "sample_representation": "national_poll",
+            "confounds_addressed": false
+          }
+        },
+        "extraction_confidence": "0.95"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "Researchers have demonstrated that ninety-eight percent of users completely ignore terms of service and terms and conditions agreements, with studies showing that users miss extreme provisions such as a requirement that a firstborn child serve as payment for digital services.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "empirical_study",
+            "sample_representation": "general_users",
+            "confounds_addressed": false
+          }
+        },
+        "extraction_confidence": "0.9"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "Most Americans die intestate, which highlights another practical problem with RUFADAA: big tech’s default control. In the absence of estate planning documents, TOS/TOC control. This gives #bigtech implicit governance over the digital afterlife in many default scenarios. This is problematic for several reasons. TOS/TOC are drafted by a company to inure to its own benefit. These terms are often amended and many users click the “agree to terms” box without ever reading or considering terms of use.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": "0.95"
+      }
+    ],
     "skp-beliefs-226": [
       {
         "source_id": "data-rights-workers-2026",
@@ -144544,6 +145637,60 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "The Federal Trade Commission serves as a primary administrative agency handling consumer privacy regulation following the general failure of privacy policies to protect users.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "qualified",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": "empirical observation of regulatory enforcement patterns"
+        },
+        "extraction_confidence": "0.95"
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "Many privacy scholars have pointed out that relying solely on this approach to privacy protection will seriously under-protect people’s privacy. People are not very good at privacy management; they do not understand the cumulative effects of their agreements to allow collection, analysis, use, and sale of information about them.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": "0.98"
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "The idea of information fiduciaries helps us understand the limitations of the free speech theories we considered earlier. It explains why the argument that “commodified data is not speech” is not the best approach to privacy regulation. The question is not the form the information takes but how it is obtained and how it is used in the context of relations of dependence and trust.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "Facebook denies selling user data to third parties, but interactions such as ad clicks and developer platform access reveal facets of user identity and data to third-party marketers.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "qualified",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "expert_commentary",
+            "observational_basis": "architectural_analysis",
+            "quantifiable": false
+          }
+        },
+        "extraction_confidence": 0.9
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "But Balkin is clear that at least one core practice would survive his reforms: the selling of targeted advertisements tied to personally identifiable information. This concession alone highlights how strained the fiduciary designation is here.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.92
       }
     ],
     "skp-beliefs-229": [
@@ -145031,6 +146178,23 @@
         "extraction_confidence": 0.88
       },
       {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "factual_claim",
+        "quote": "Orin S. Kerr's 2009 article published in the Michigan Law Review argues that the third-party doctrine holds that the government does not need a warrant to obtain digital information given to a third party, leaving individuals with little or no Fourth Amendment protection regarding data held by social media sites, internet service providers, or other online businesses.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "legal_scholarship",
+            "empirical_support": "legal_doctrine",
+            "falsifiability": true
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
         "source_id": "uncovering-trump-administrations-secret-rules-ai-model-2026",
         "link_source": "key_point",
         "quote": "This administration has a documented history of using the government's regulatory power to pit companies against one another for favorable treatment, and has also retaliated against AI companies in the past for holding red lines for the use of its technology. They should not have the blind trust of the American people that it will act in good faith.",
@@ -145132,7 +146296,16 @@
         "extraction_confidence": 0.7
       }
     ],
-    "skp-beliefs-250": [],
+    "skp-beliefs-250": [
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "At a political level, the proposal comes across as consumer protective yet conflict suppressive, promising to deliver broad social benefits without overly threatening the tech giants or their profits. At an aesthetic level, there is something attractive about the way in which a fiduciary framework would hold platforms to their own rhetoric of trustworthiness.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.9
+      }
+    ],
     "skp-beliefs-251": [],
     "skp-beliefs-252": [],
     "skp-beliefs-253": [],
@@ -145305,6 +146478,31 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.7
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "factual_claim",
+        "quote": "The United States Supreme Court held in the 2018 case National Institute of Family & Life Advocates v. Becerra that the Court has never recognized professional speech as a separate category of speech exempt from normal prohibitions on content-based restrictions.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "is_observable": true,
+            "has_metric": false,
+            "falsifiable": true
+          }
+        },
+        "extraction_confidence": 0.96
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "In short, the notion that designating online platforms as fiduciaries would yield a significant First Amendment payoff strikes us as resting on an overly simple (if not nominalist) view of how judges would respond to such a designation, and as contradicted by the Roberts Court’s case law. There is good reason to think that Justice Thomas overstated this point and that certain narrow categories of professional speech... will continue to be treated differently... But at a minimum, National Institute of Family & Life Advocates signals skepticism about Balkin’s broader claim...",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.92
       }
     ],
     "skp-beliefs-258": [],
@@ -145370,7 +146568,16 @@
     "skp-beliefs-268": [],
     "skp-beliefs-269": [],
     "skp-beliefs-270": [],
-    "skp-beliefs-271": [],
+    "skp-beliefs-271": [
+      {
+        "source_id": "court-tosses-sentence-after-ai-video-victim-forgiving-his-2026",
+        "link_source": "key_point",
+        "quote": "The video \"erases the interpretive distance between the family’s belief about what the victim would have said and the victim’s own voice and opinions,\" the judges wrote.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      }
+    ],
     "skp-beliefs-272": [],
     "skp-beliefs-273": [
       {
@@ -145441,6 +146648,73 @@
       }
     ],
     "skp-beliefs-275": [
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "In the 1891 case Larson v. Chase, the Supreme Court of Minnesota held that dead bodies hold a quasi-property status, giving those entitled to custody legal rights to protect them against mutilation or improper burial.",
+        "doc_position": "historical",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "judicial_opinion",
+            "corroboration": "high",
+            "falsifiability": "high"
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "The Ruggles Report, an 1856 examination of burial law written by referee Samuel Bulkley Ruggles for the Surrogate's Court of New York, established foundational American legal principles holding that there is no property in human remains, that the right to bury belongs to the next of kin, and that the interests of the living supersede those of the deceased.",
+        "doc_position": "historical",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "legal_report",
+            "corroboration": "high",
+            "falsifiability": "medium"
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "An empirical study found that more than sixty percent of Americans die without a valid will in effect, with testacy strongly correlating with older age and higher wealth accumulation.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational": true,
+            "quantified": true,
+            "replicable": true
+          }
+        },
+        "extraction_confidence": "0.98"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "Empowering the deceased to make lifetime decisions through estate planning is a structurally inequitable and anachronistic approach that maximizes social welfare only for those who do estate planning. Thus, although privacy scholars have long debated the merits of opt-in versus out-out approaches to privacy protection for individuals, the choice is of particular significance for the deceased. It is estimated that more than sixty percent of Americans die without a valid will in effect.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": "0.96"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "The foundation of this principle is described by Lord Edward Coke and Sir William Blackstone in their property treatise as derived from both secular and ecclesiastic law in Elizabethan England. The modern justification for this approach seems to be a desire to prevent commercial use of human remains, though in 1891, in Larson v. Chase, the Supreme Court of Minnesota held that dead bodies hold a murky quasi-property status.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.9
+      },
       {
         "source_id": "thaler-v-vidal-2026-1",
         "link_source": "factual_claim",
@@ -146218,6 +147492,36 @@
         "extraction_confidence": 0.7
       }
     ],
+    "skp-beliefs-320": [
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.7
+      }
+    ],
+    "skp-beliefs-321": [
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.7
+      }
+    ],
+    "skp-beliefs-322": [
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.7
+      }
+    ],
     "skp-desires-003": [
       {
         "source_id": "2025-foundation-model-transparency-index-2026-1",
@@ -146440,6 +147744,56 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": null
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "The California Delete Act, enacted in October 2023 and effective January 1, 2024, established an accessible deletion mechanism for living consumers to delete personal information held by data brokers in a single step.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "statutory_law",
+            "verifiable": true,
+            "quantifiable": true
+          }
+        },
+        "extraction_confidence": "0.98"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "factual_claim",
+        "quote": "The European Court of Human Rights held in 2021 that the right to be forgotten could extend to deceased individuals.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "judicial_ruling",
+            "verifiable": true,
+            "quantifiable": false
+          }
+        },
+        "extraction_confidence": "0.95"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "Intensive data collection processes have been “techwashed” with collection and retention of far more data and for longer than is objectively necessary. Data brokers sell personal information that includes information such as addresses, spending habits, location information, and employment status.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": "0.92"
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "The digital right to be dead has yet to be recognized as an important legal right. Artificial intelligence, augmented reality, and nanotechnology have progressed to the point that personal data can be used to resurrect the deceased in digital form with appearance, voice, emotion, and memory recreated to allow interaction with a digital app, chat bot, or avatar that may be indistinguishable from that with a living person.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
       },
       {
         "source_id": "law-horse-what-cyberlaw-might-teach-2026",
@@ -147548,6 +148902,22 @@
         "extraction_confidence": 1.0
       },
       {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "People are social creatures, and they become who they are through conversation, through absorbing popular art and culture, and through being influenced by the ideas and opinions of the people around them. In a free society, even in one that is not perfectly democratic, or even democratic at all, people should have the right to participate in the forms of meaning-making that shape who they are and that also help constitute them as individuals",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.9
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "Similarly, suppose a lawyer or doctor becomes a presidential candidate and reveals embarrassing information about clients to bolster his or her electoral chances. Even though the content of the speech is political and its purpose is political, the speech is not immune from regulation, because it is an abuse of a confidential relationship in which the candidate was an information fiduciary.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.92
+      },
+      {
         "source_id": "intelligent-ai-delegation-2026",
         "link_source": "key_point",
         "quote": "It is therefore important to avoid instantiating a moral crumple zone (Elish, 2019), in which human experts lack meaningful control over outcomes, yet are introduced in delegation chains merely to absorb liability.",
@@ -147705,6 +149075,14 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": null
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "Digital businesses such as Facebook, Google, and Twitter collect an enormous amount of data about their users. Sometimes they do things with this data that threaten the users’ best interests, from allowing predatory advertising and enabling discrimination to inducing addiction and sharing sensitive details with third parties.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
       },
       {
         "source_id": "student-generative-ai-survey-2026-2026",
@@ -148471,6 +149849,14 @@
         "source_id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
         "link_source": "key_point",
         "quote": "As discussed above, AI-related cases frequently reach an impasse over access, and this test removes reliance on ad hoc judgments of the arguments. Our test does not create new procedural rules; rather it draws on existing doctrines of relevance, proportionality, necessity, and cost-shifting to give judges a structured framework for assessing whether proof privatization has occurred, to what extent, and whether requested access is reasonable.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "information-fiduciaries-first-amendment-2026",
+        "link_source": "key_point",
+        "quote": "Because personal data is a key source of wealth in the digital economy, information fiduciaries should be able to monetize some uses of personal data, and our reasonable expectations of trust must factor that expectation into account. What information fiduciaries may not do is use the data in unexpected ways to the disadvantage of people who use their services or in ways that violate some other important social norm.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -150881,6 +152267,26 @@
       }
     ],
     "skp-desires-094": [],
+    "skp-desires-095": [
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.7
+      }
+    ],
+    "skp-desires-096": [
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.7
+      }
+    ],
     "skp-intentions-004": [
       {
         "source_id": "a16zs-recommendations-national-ai-action-plan-2026",
@@ -151256,6 +152662,14 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9
+      },
+      {
+        "source_id": "law-digital-resurrection-2026",
+        "link_source": "key_point",
+        "quote": "This Part crafts a solution that provides a minimal level of control over the source of the digital resurrection rather than the outcome. Distinguishing non-commercial from commercial resurrection, this Part also provides guidance on future regulation of commercial resurrection... This should not cause us to step away from regulating, but it does mean that regulatory evasion will be substantially lowered through regulation of source material over outcome, particularly when the outcome is rapidly evolving.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": "0.94"
       },
       {
         "source_id": "measuring-mitigating-racial-disparities-llms-evidence-from-2026",
@@ -158272,6 +159686,14 @@
           "category_criteria": "indicative assertion"
         },
         "extraction_confidence": 1
+      },
+      {
+        "source_id": "skeptical-view-information-fiduciaries-2026",
+        "link_source": "key_point",
+        "quote": "Our point here... is that any broad regulatory framework or “grand bargain” for social media that focuses on abusive data practices, without attending to issues of market structure or political-economic influence, is bound to be at best highly incomplete and at worst an impediment to necessary reforms. Limiting the dominance of some of these firms may well have salutary effects for consumer privacy, both by facilitating competition on privacy protection and by reducing the likelihood that any single data-security failure will cascade into a much wider harm.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.9
       }
     ],
     "skp-intentions-121": [
