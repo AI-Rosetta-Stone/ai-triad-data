@@ -1,0 +1,246 @@
+{
+  "debate_id": "8057c0a2-8d4b-4349-b6b2-69f2bd225c26",
+  "debate_title": "Should AI systems be barred from making final decisions i...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether mandatory pre-deployment certification by federal agencies is necessary to prevent disparate impact, or whether it creates administrative bottlenecks that stifle market innovation and credit access.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Supports mandatory pre-deployment certification to prevent unmitigated disparate impact from entering public markets."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Opposes pre-deployment certification as an administrative bottleneck that protects incumbents and restricts credit access."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-248",
+        "saf-desires-029",
+        "saf-desires-012",
+        "saf-desires-003",
+        "acc-beliefs-110",
+        "acc-beliefs-028",
+        "acc-intentions-075",
+        "saf-intentions-087",
+        "sit-448",
+        "sit-170"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether continuous post-deployment telemetry and high-frequency optimization successfully eliminate disparate impact faster than static reviews, or whether they merely mask historical bias under new numerical weights.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Maintains that high-frequency optimization loops rapidly correct predictive drift and reduce lending disparities in real time."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that internal metric optimization against contaminated training data merely refines proxy variables rather than removing underlying demographic skews."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-248",
+        "saf-desires-029",
+        "saf-desires-012",
+        "saf-desires-003",
+        "acc-beliefs-110",
+        "acc-beliefs-028",
+        "acc-intentions-075",
+        "saf-intentions-087",
+        "sit-448",
+        "sit-170"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-266",
+      "nodeLabel": "Model-Dependent Racial Disparity Heterogeneity",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-110",
+      "nodeLabel": "Feedback-Loop Contamination as the Operative Boundary for Pre-Deployment Interpretability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-075",
+      "nodeLabel": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-448",
+      "nodeLabel": "Feedback-Loop Contamination of Post-Deployment Evaluation Data",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-286",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-104",
+      "nodeLabel": "Advance Targeted AI Policies on Environmental Reporting, Pricing Transparency, and Bias Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-087",
+      "nodeLabel": "Replacing Abstract Safety Claims with Testable Engineering Controls",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-007",
+      "nodeLabel": "Regulate AI by Use Case, Not by Technology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-134",
+      "nodeLabel": "Process vs. Governance in AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-242",
+      "nodeLabel": "Regulatory Guidance Rollback",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-004",
+      "nodeLabel": "Anchoring AI Accountability in Verifiable Provenance Records",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-108",
+      "nodeLabel": "Domain-specificity of interpretability requirements under products liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-101",
+      "nodeLabel": "Cross-Border Ingestion Defeats Every Enforcement Instrument at Market Entry",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether mandatory pre-deployment certification by federal agencies is necessary to prevent disparate impact, or whether it creates administrative bottlenecks that stifle market innovation and credit access.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Neither side provides empirical data quantifying the exact trade-off between prevented discrimination incidents and delayed credit access. The safetyist argument relies on theoretical feedback-loop contamination, while the accelerationist claim assumes live optimization corrects drift without proving it removes historical skews. Both positions lack longitudinal deployment studies.",
+      "whatWouldChange": "Longitudinal audits comparing bias rates in markets with pre-approval rules versus markets with continuous monitoring would tip the balance.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether continuous post-deployment telemetry and high-frequency optimization successfully eliminate disparate impact faster than static reviews, or whether they merely mask historical bias under new numerical weights.",
+      "prevails": "C4",
+      "criterion": "logical_validity",
+      "rationale": "The safetyist critique holds greater logical consistency because optimizing a model against historical training data that encodes past bias preserves underlying demographic skews through proxy variables. The accelerationist claim assumes mathematical optimization removes bias without explaining how objective functions trained on skewed inputs learn unbiased baseline distributions.",
+      "whatWouldChange": "Demonstration that unsupervised optimization routines successfully recover unbiased demographic parity from historically contaminated training sets would validate the accelerationist model.",
+      "claimIds": [
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,278 @@
+{
+  "debate_id": "49c15f13-a5d4-4fc3-b519-582f601ab898",
+  "debate_title": "Has AI measurably increased productivity in the firms tha...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether twelve-month retrospective error audits function as necessary verification of labor-replacement efficiencies or as static compliance drag that paralyzes enterprise transformation.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Mandatory twelve-month error-resolution audits are necessary to expose hidden labor costs and prevent organizations from outsourcing error-fix burdens onto customers and surviving staff."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Extended audit windows impose bureaucratic delays that privilege incumbents and harm organizations needing rapid efficiency gains to compete globally."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-164",
+        "skp-desires-087",
+        "skp-beliefs-216",
+        "acc-beliefs-085",
+        "acc-intentions-086",
+        "acc-beliefs-043",
+        "sit-134",
+        "skp-beliefs-042",
+        "skp-intentions-082",
+        "sit-316"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether autonomous agents using real-time telemetry resolve operational friction more effectively than pre-deployment regulatory compliance gates.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Autonomous agents operating under market accountability patch routing logic within hours, outperforming slow regulatory audits."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Real-time algorithmic patches substitute one layer of opacity for another, generating hidden systemic debt that outpaces telemetry detection."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-137",
+        "saf-desires-029",
+        "saf-intentions-112",
+        "sit-103",
+        "sit-172",
+        "acc-beliefs-085",
+        "acc-intentions-086",
+        "acc-beliefs-043",
+        "sit-134",
+        "saf-beliefs-151"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-134",
+      "nodeLabel": "Process vs. Governance in AI Regulation",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-086",
+      "nodeLabel": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-137",
+      "nodeLabel": "Productivity Metrics Miss the Slow Collapse of Institutional Trust",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-103",
+      "nodeLabel": "Integrating AI into Business and Management",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-172",
+      "nodeLabel": "AI Deployment, Monitoring, and Operations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-164",
+      "nodeLabel": "Companies Use Narrow Audits to Deflect Meaningful AI Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-216",
+      "nodeLabel": "Bargaining Asymmetry in User-Platform Relations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-151",
+      "nodeLabel": "AI Deployment Speed Makes Human-in-the-Loop Controls a Fiction",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-082",
+      "nodeLabel": "Integrate Affected-Community Auditors into Each AI Development Phase",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-162",
+      "nodeLabel": "Accelerate Defensive Tech While Slowing Catastrophic Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-153",
+      "nodeLabel": "Safety and Efficiency Exist on a Pareto Frontier, Not a Simple Tradeoff",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-229",
+      "nodeLabel": "Worker Data Withholding Capacity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-394",
+      "nodeLabel": "Assurance Debt Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether twelve-month retrospective error audits function as necessary verification of labor-replacement efficiencies or as static compliance drag that paralyzes enterprise transformation.",
+      "prevails": "C3",
+      "criterion": "scope",
+      "rationale": "The skeptic argument provides a broader analytical scope by incorporating downstream error-fix labor costs that otherwise distort return-on-investment calculations. While the accelerationist view prioritizes speed, it lacks a mechanism to verify whether automated workflows shift burdens onto customers or surviving staff. Therefore, the twelve-month observation window offers superior protection against false efficiency metrics.",
+      "whatWouldChange": "Empirical proof that automated exception handling consistently resolves itself within ninety days without increasing labor burdens elsewhere in the enterprise would flip the verdict.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether autonomous agents using real-time telemetry resolve operational friction more effectively than pre-deployment regulatory compliance gates.",
+      "prevails": "C6",
+      "criterion": "implementation_specificity",
+      "rationale": "Real-time market patches address immediate routing logic failures but fail to account for long-term architectural opacity and systemic debt. The safetyist position successfully demonstrates that unverified algorithmic updates substitute visible labor friction with hidden system vulnerabilities. Thus, pre-deployment verification remains necessary to ensure operational stability.",
+      "whatWouldChange": "Verifiable telemetry data showing that autonomous agents reduce cumulative system errors over a twelve-month operational cycle would tip the balance.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

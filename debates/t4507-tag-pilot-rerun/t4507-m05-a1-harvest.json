@@ -1,0 +1,268 @@
+{
+  "debate_id": "fc57eee9-ed1f-4829-9fb8-19addbcf2193",
+  "debate_title": "Should AI systems be barred from making final decisions i...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether open-weight parameter transparency and automated telemetry can effectively detect and neutralize demographic disparate pricing without correcting the underlying historical training data.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that exposing model weights to decentralized developers enables automated telemetry to catch and flag demographic pricing divergences faster and more effectively than centralized regulators."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Argues that checking internal parameter weights against a contaminated corporate baseline merely measures mathematical consistency within a flawed distribution without correcting historical redlining."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-001",
+        "skp-beliefs-047",
+        "skp-desires-082",
+        "acc-beliefs-105",
+        "acc-beliefs-095",
+        "acc-desires-026",
+        "acc-desires-039",
+        "acc-intentions-027",
+        "acc-beliefs-101",
+        "acc-intentions-002"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether decentralized open-source verification communities possess the enforcement capacity required to halt recursive model drift, or whether formal institutional accountability with named legal entities and pre-deployment gating is necessary.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Prefers decentralized open-source verification and continuous telemetry to avoid bureaucratic bottlenecks and regulatory gatekeeping that slow down technological access."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Requires named legal entities subject to strict liability and mandatory pre-deployment regulatory gating to prevent systemic harm from unverified models."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-105",
+        "acc-beliefs-095",
+        "acc-desires-026",
+        "acc-desires-039",
+        "acc-intentions-027",
+        "saf-beliefs-248",
+        "saf-desires-005",
+        "saf-intentions-136",
+        "acc-beliefs-101",
+        "acc-intentions-002"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-005",
+      "nodeLabel": "No Black Boxes in Ground-Truth-Absent or Feedback-Contaminated Domains",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-409",
+      "nodeLabel": "Automated Compliance Monitoring",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-105",
+      "nodeLabel": "Denial-triggered recourse misses the never-notified subject",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-095",
+      "nodeLabel": "Detection Without Per-Case Attribution Is Surveillance, Not Recourse",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-136",
+      "nodeLabel": "Enforcing Runtime Safety Rules Through Domain-Specific Sectoral Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-101",
+      "nodeLabel": "Cross-Border Ingestion Defeats Every Enforcement Instrument at Market Entry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-010",
+      "nodeLabel": "Legal Comprehension as a Core AI Capability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-225",
+      "nodeLabel": "PrIME-LLM Scoring Methodology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-147",
+      "nodeLabel": "Human Costs of AI Deployment Are Unevenly Distributed Across Social Groups",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-096",
+      "nodeLabel": "Treating AI as Neutral Technology Obscures Its Role in Reproducing Power Structures",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-091",
+      "nodeLabel": "Duty Attachment and Served Referent Are Separable but Solvency-Constrained",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-286",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-243",
+      "nodeLabel": "Proof Privatization",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-266",
+      "nodeLabel": "Model-Dependent Racial Disparity Heterogeneity",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether open-weight parameter transparency and automated telemetry can effectively detect and neutralize demographic disparate pricing without correcting the underlying historical training data.",
+      "prevails": "skeptic",
+      "criterion": "scope",
+      "rationale": "The skeptic position accounts for the broader structural context by noting that models trained on historical data reproduce past biases. The accelerationist claim regarding a 14 percent improvement addresses runtime metrics but fails to account for contaminated ground truth.",
+      "whatWouldChange": "Evidence demonstrating that automated telemetry corrects systemic historical biases rather than merely tracking mathematical consistency within a flawed distribution.",
+      "claimIds": [
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether decentralized open-source verification communities possess the enforcement capacity required to halt recursive model drift, or whether formal institutional accountability with named legal entities and pre-deployment gating is necessary.",
+      "prevails": "safetyist",
+      "criterion": "implementation_specificity",
+      "rationale": "The safetyist position names concrete legal mechanisms such as strict liability and mandatory pre-deployment gating. The accelerationist preference for decentralized verification lacks specific enforcement mechanisms for non-compliant actors.",
+      "whatWouldChange": "Empirical data showing that decentralized developer networks successfully halt harmful model drift without formal regulatory mandates.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

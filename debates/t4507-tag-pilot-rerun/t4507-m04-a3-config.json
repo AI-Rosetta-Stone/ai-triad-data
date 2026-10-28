@@ -1,0 +1,20 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "protocolId": "structured",
+  "audience": "policymakers",
+  "activePovers": [
+    "accelerationist",
+    "safetyist",
+    "skeptic"
+  ],
+  "rounds": 5,
+  "topic": "Should governments break up vertically integrated AI companies that own chips, cloud and models?",
+  "seatTags": {
+    "skeptic": {
+      "pov_tag": "institutional",
+      "tag_mode": "scope"
+    }
+  },
+  "slug": "t4507-m04-a3",
+  "outputDir": "C:\\Users\\jsnov\\repos\\ai-triad-data\\debates\\t4507-tag-pilot-rerun"
+}

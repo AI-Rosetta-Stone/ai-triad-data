@@ -1,0 +1,265 @@
+{
+  "doc_id": "court-tosses-sentence-after-ai-video-victim-forgiving-his-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-28T08:07:44Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 32768,
+    "extraction_mode": "fire",
+    "taxonomy_filter": "rag",
+    "taxonomy_nodes": 43,
+    "fire_confidence_threshold": 0.7,
+    "fire_stats": {
+      "api_calls": 1,
+      "iterations": 0,
+      "claims_total": 3,
+      "claims_confident": 3,
+      "claims_iterated": 0,
+      "claims_dropped_verification": 0,
+      "elapsed_seconds": 5.7,
+      "termination_reason": "all_confident"
+    }
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "court-tosses-sentence-after-ai-video-victim-forgiving-his-2026",
+    "measured_at": "2026-10-28T08:10:47.1953576-04:00",
+    "stages": [
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 20102.0,
+        "out_units": "items",
+        "out_count": 5.0,
+        "ratio": 0.0002,
+        "flags": {
+          "dedup_claims_removed": 0,
+          "dedup_points_removed": 0,
+          "density_floor_hit": 0,
+          "factual_claims": 3,
+          "null_node_rate": 0.0,
+          "total_points": 2,
+          "unmapped_concepts": 0,
+          "used_fire": 1
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 989.0,
+        "out_units": "nodes",
+        "out_count": 43.0,
+        "ratio": 0.0435,
+        "flags": {
+          "above_threshold": 40,
+          "beliefs_selected": 32,
+          "below_threshold_forced": 0,
+          "desires_selected": 3,
+          "effective_threshold": 0.2,
+          "intentions_selected": 8,
+          "query_windows": 8,
+          "rerank_applied": false,
+          "rerank_top1_delta": 0,
+          "scoring_kernel": true,
+          "synthetic_nodes_scored": 866,
+          "threshold_floor": 0.2,
+          "top_k": 40,
+          "window_scoring": "RankFusion",
+          "windows_skipped_backmatter": 0
+        }
+      }
+    ],
+    "cumulative_retention": 0.0435
+  },
+  "pov_summaries": {
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-045",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document highlights how generative artificial intelligence can be used to fabricate courtroom evidence, specifically through an AI-generated video of a homicide victim stating forgiveness from beyond the grave. The reasoning centers on how the synthesized video erased the interpretive distance between grieving family members' beliefs and the victim's actual opinions while presenting fabricated statements as direct speech. From a skeptic perspective, this demonstrates how generative media introduces deceptive artifacts into formal legal proceedings, compromising truth-seeking. The document notes that the creator argued the content reflected genuine beliefs the victim held in life, yet the appellate court ruled that presenting an artificial likeness as the victim's own voice violates defendants' rights to reliable sentencing information.",
+          "verbatim": "An appeals court in Arizona on Wednesday threw out the prison sentence of a man convicted of manslaughter after a video created by artificial intelligence depicting the victim forgiving his killer was played in court.",
+          "excerpt_context": "Paragraph 1",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Generative AI creates fabricated audio-visual content that is introduced into formal proceedings as authentic evidence, causing direct harm to judicial reliability.",
+          "attribution_text": "A Belief within skeptic discourse that generative artificial intelligence enables the creation of deceptive synthetic media that distorts evidentiary standards when introduced into judicial proceedings. Encompasses: synthesized victim statements, courtroom evidence manipulation, deceptive media artifacts.",
+          "vocabulary_terms": [
+            "documented_present_harm"
+          ],
+          "retrieval_confidence": 0.7369,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-098",
+              "label": "Generative AI Lowers the Cost and Skill Barrier for Producing Targeted Malicious Content",
+              "score": 0.7887
+            },
+            {
+              "id": "skp-beliefs-019",
+              "label": "Generative AI Enables Scalable Reputation Destruction",
+              "score": 0.7601
+            },
+            {
+              "id": "skp-beliefs-045",
+              "label": "AI-Generated Content Causes Direct, Documented Harm to Individuals",
+              "score": 0.7369
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-271",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The appellate court concluded that relying on the synthetic video made the sentencing procedure fundamentally unfair because it erased the interpretive distance between family conjectures and the victim's voice. The mechanism described involves synthesizing a deceased individual's appearance and voice from funeral posters and YouTube clips to deliver a scripted message inside a court of law. From a skeptic perspective, this context-collapse phenomenon pulls personal grief expressions and fabricated dialogue into a binding legal judgment without adequate boundaries. The document notes the creator's defense that everyone who knew the victim agreed the message reflected his actual beliefs, but the court maintained that the medium itself creates an unconstitutional blurring of reality.",
+          "verbatim": "The video \"erases the interpretive distance between the family’s belief about what the victim would have said and the victim’s own voice and opinions,\" the judges wrote.",
+          "excerpt_context": "Paragraph 16",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Synthesizing a deceased victim's voice and likeness collapses the interpretive distance between family grief and objective evidence in legal proceedings.",
+          "attribution_text": "A Belief within skeptic discourse that synthetic media collapses interpretive boundaries in judicial settings by conflating subjective family beliefs with direct victim testimony. Encompasses: context-collapse harm, synthetic victim statements, evidentiary boundary erosion.",
+          "vocabulary_terms": [
+            "documented_present_harm"
+          ],
+          "retrieval_confidence": 0.6197,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-011",
+              "label": "AI-Enabled Image-Based Sexual Abuse",
+              "score": 0.6426
+            },
+            {
+              "id": "skp-beliefs-271",
+              "label": "Context-Collapse Harm Leaves No Triggering Event for Notice or Standing",
+              "score": 0.6197
+            },
+            {
+              "id": "pol-2240",
+              "label": "",
+              "score": 0.591
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "An Arizona appeals court threw out the 10.5-year prison sentence of Gabriel Horcasitas for the 2021 road-rage manslaughter death of Christopher Pelkey after an AI-generated video of the victim was played during sentencing.",
+      "claim_label": "Appellate Court Overturns Sentence Due to AI Video",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2026-10-07",
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-045"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "Maricopa County Superior Court Judge Todd F. Lang praised the AI-generated video during the sentencing hearing as genuine and allowed the maximum sentence of 10.5 years to be imposed.",
+      "claim_label": "Trial Judge Praises AI Video and Imposes Maximum Sentence",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2025",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-045"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    },
+    {
+      "claim": "Stacey Wales created the AI video using her brother Christopher Pelkey's voice from a YouTube video, his face and torso from a funeral service poster with digital edits, and a script she wrote herself.",
+      "claim_label": "Creation Method of the AI Victim Video",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2025",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-045"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "evidence_level": "direct_empirical"
+        }
+      },
+      "claim_relations": [],
+      "fire_confidence": 0.7999999999999999
+    }
+  ],
+  "unmapped_concepts": [],
+  "empty_cells": [
+    {
+      "camp": "accelerationist",
+      "category": "Desires",
+      "reason": "The document focuses on judicial remediation of AI-generated courtroom evidence and does not engage accelerationist policy goals or market desires."
+    },
+    {
+      "camp": "accelerationist",
+      "category": "Beliefs",
+      "reason": "The document is a legal report on deepfake evidence in court and contains no accelerationist empirical claims about scaling or market efficiency."
+    },
+    {
+      "camp": "accelerationist",
+      "category": "Intentions",
+      "reason": "The document reports on an appellate court ruling rather than proposing accelerationist strategies or regulatory frameworks."
+    },
+    {
+      "camp": "safetyist",
+      "category": "Desires",
+      "reason": "The document centers on procedural fairness and legal admissibility rather than safetyist existential risk mitigation or pre-deployment certification."
+    },
+    {
+      "camp": "safetyist",
+      "category": "Beliefs",
+      "reason": "The document examines a documented courtroom incident rather than speculative or existential harms associated with advanced artificial intelligence."
+    },
+    {
+      "camp": "safetyist",
+      "category": "Intentions",
+      "reason": "The document reports an appellate court decision rather than advocating for safety-gated deployment or systemic risk governance frameworks."
+    },
+    {
+      "camp": "skeptic",
+      "category": "Desires",
+      "reason": "The document reports a judicial ruling and does not articulate normative skeptic policy demands beyond applying existing constitutional protections against unreliable evidence."
+    },
+    {
+      "camp": "skeptic",
+      "category": "Intentions",
+      "reason": "The document discusses an appellate court ruling rather than proposing specific regulatory instruments, liability regimes, or oversight bodies."
+    }
+  ],
+  "warnings": [
+    "Schema: Missing camp in pov_summaries: accelerationist",
+    "Schema: Missing camp in pov_summaries: safetyist"
+  ]
+}

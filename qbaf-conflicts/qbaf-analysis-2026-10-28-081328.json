@@ -1,0 +1,292 @@
+{
+  "generated_at": "2026-10-28T08:13:28.2767658-04:00",
+  "claim_count": 24,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Uber Executive Suggests Investigating Journalist",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-216"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Facebook Voting Experiment Turnout Impact",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-155"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Sorrell v. IMS Health Inc. Ruling",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-224"
+      ]
+    },
+    {
+      "id": "qc-4",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Bartnicki v. Vopper Time, Place, and Manner Agreement",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-5",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Digital Advertising Targeting Expenditure Statistics",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-6",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "FTC Privacy Regulation Role",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-228"
+      ]
+    },
+    {
+      "id": "qc-7",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "U.S. West v. FCC First Amendment Ruling",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-8",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "National Cable v. FCC Opt-In Ruling",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-9",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "California SOPIPA Enactment",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-10",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Doe v. Roe Psychiatric Confidentiality Precedent",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-025"
+      ]
+    },
+    {
+      "id": "qc-11",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Central Hudson Commercial Speech Doctrine",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-12",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Lowe v. SEC Precedent on Publishing",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-269"
+      ]
+    },
+    {
+      "id": "qc-13",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Time Required to Read Annual Privacy Policies",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-217",
+        "saf-beliefs-246"
+      ]
+    },
+    {
+      "id": "qc-14",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Castronova Proposal for Virtual World Statutes",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-15",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Third-Party Doctrine and Fourth Amendment Protection",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102",
+        "skp-beliefs-243"
+      ]
+    },
+    {
+      "id": "qc-16",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Smith v. Maryland Third-Party Precedent",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102"
+      ]
+    },
+    {
+      "id": "qc-17",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "United States v. Miller Depressor Risk Precedent",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-102"
+      ]
+    },
+    {
+      "id": "qc-18",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Police Department Predictive Policing Algorithms",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-094"
+      ]
+    },
+    {
+      "id": "qc-19",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Corporate Algorithmic Monitoring of Workers",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-106"
+      ]
+    },
+    {
+      "id": "qc-20",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "The Black Box Society Algorithm Analysis",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-094",
+        "skp-beliefs-106"
+      ]
+    },
+    {
+      "id": "qc-21",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Consumer Credit Risk Machine Learning Models",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-094"
+      ]
+    },
+    {
+      "id": "qc-22",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Algorithmic Recruitment and Talent Management",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-106"
+      ]
+    },
+    {
+      "id": "qc-23",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Employee Retention Prediction Algorithms at Walmart and Credit Suisse",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-106"
+      ]
+    },
+    {
+      "id": "qc-24",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "MIT News Report on Predictive Behavioral Algorithms",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-094"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

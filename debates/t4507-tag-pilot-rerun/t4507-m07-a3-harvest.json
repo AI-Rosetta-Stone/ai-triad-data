@@ -1,0 +1,290 @@
+{
+  "debate_id": "97cf4872-71dc-4c8a-94ef-053cbc760853",
+  "debate_title": "Is current AI progress driven mainly by scaling compute, ...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether specialized inference silicon and private power purchase agreements convert energy demand directly into dedicated generation assets rather than draining public utilities.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Private power purchase agreements and dedicated clean energy installations add net-new generation capacity outside public ratepayer pools, avoiding strain on local grids."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Private contracts with merchant generators outbid existing consumers for capacity and destabilize regional transmission corridors, externalizing grid instability."
+        }
+      ],
+      "linkedNodes": [
+        "sit-318",
+        "acc-beliefs-090",
+        "acc-desires-037",
+        "acc-intentions-100",
+        "saf-beliefs-247",
+        "saf-beliefs-010",
+        "sit-299",
+        "saf-intentions-233",
+        "acc-beliefs-059",
+        "acc-desires-001"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether mandatory reporting thresholds and capacity-linked deployment constraints stifle critical technological progress versus preventing systemic infrastructure failures.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Regulatory intervention imposes fatal delays on medical and material science breakthroughs by treating engineering challenges as permanent ceilings."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Unconstrained compute and inference scaling run unverified capability leaps and infrastructure strains that risk widespread system collapse."
+        }
+      ],
+      "linkedNodes": [
+        "sit-318",
+        "acc-beliefs-090",
+        "acc-desires-037",
+        "acc-intentions-100",
+        "saf-beliefs-247",
+        "saf-beliefs-010",
+        "sit-299",
+        "saf-intentions-233",
+        "acc-beliefs-059",
+        "acc-desires-001"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether algorithmic optimization and search-based reasoning reduce aggregate resource footprints or expand them via the Jevons paradox.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Algorithmic efficiency gains and test-time scaling reduce inference costs and democratize advanced reasoning capabilities."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Lower marginal query costs trigger exponential demand growth that consumes every watt saved by code optimization, increasing aggregate resource extraction."
+        }
+      ],
+      "linkedNodes": [
+        "sit-318",
+        "acc-beliefs-090",
+        "acc-desires-037",
+        "acc-intentions-100",
+        "skp-beliefs-009",
+        "skp-beliefs-094",
+        "skp-desires-070",
+        "acc-beliefs-059",
+        "acc-desires-001",
+        "sit-213"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-213",
+      "nodeLabel": "Temporal Mismatch of AI Energy Impacts",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-009",
+      "nodeLabel": "Thermodynamic and Hydrological Limits of Compute Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-010",
+      "nodeLabel": "A Single Malicious Component Can Compromise Thousands of AI Systems",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-318",
+      "nodeLabel": "The Performance-Compute Divergence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-090",
+      "nodeLabel": "Infrastructure-Bound Option Value Modeling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-094",
+      "nodeLabel": "Empirical Evidence Documents Pervasive Bias, Discrimination, and Structural Harm in AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-070",
+      "nodeLabel": "Vigilant Pragmatism Toward AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-299",
+      "nodeLabel": "Inference Compute Transparency Gap",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-233",
+      "nodeLabel": "Grid-Edge Technology Validation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-059",
+      "nodeLabel": "Markets Are Intelligent Systems That Optimize Resource Allocation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-135",
+      "nodeLabel": "Mandate Pre-Committed Shutdown Thresholds for Both Internal and External AI Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-235",
+      "nodeLabel": "Dependency-Based Cyber Risk Modeling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-087",
+      "nodeLabel": "Roundabout Data Production",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-076",
+      "nodeLabel": "Procuring Dedicated Clean Energy Additionality for High-Density Computing Facilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-213",
+      "nodeLabel": "Requiring Layered Accountability Across the AI-Generated NCII Supply Chain",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-086",
+      "nodeLabel": "AI as Structurally Inevitable Economic Transformation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-069",
+      "nodeLabel": "Accelerate Prosperity Through AI-Driven Abundance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-009",
+      "nodeLabel": "Automate Society's Operating System",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether specialized inference silicon and private power purchase agreements convert energy demand directly into dedicated generation assets rather than draining public utilities.",
+      "prevails": "C5",
+      "criterion": "specificity",
+      "rationale": "The safetyist position offers superior specificity regarding energy market mechanics by identifying that corporate power purchase agreements draw from shared regional transmission capacity rather than physically isolating new generation. The accelerationist counter-claim relies on abstract assertions of asset addition without accounting for wholesale market clearing dynamics and transmission congestion.",
+      "whatWouldChange": "Grid interconnection data demonstrating that private data center power contracts consistently build off-grid generation facilities with zero transmission overlap would reverse this evaluation.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether mandatory reporting thresholds and capacity-linked deployment constraints stifle critical technological progress versus preventing systemic infrastructure failures.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The debate weighs unquantified risks of technological delay against unquantified risks of grid destabilization, leaving neither side with a decisive empirical edge. Both claims extrapolate from narrow case studies without establishing a systemic baseline for regulatory friction versus grid failure costs.",
+      "whatWouldChange": "Comprehensive retrospective studies quantifying the economic cost of regional grid brownouts caused by data centers versus the foregone economic value of delayed high-performance computing deployments would tip the balance.",
+      "claimIds": [
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether algorithmic optimization and search-based reasoning reduce aggregate resource footprints or expand them via the Jevons paradox.",
+      "prevails": "C6",
+      "criterion": "scope",
+      "rationale": "The skeptic position accounts for broader macroeconomic feedback loops through the Jevons paradox, correctly noting that lower marginal query costs typically expand aggregate consumption. The accelerationist view focuses narrowly on per-query efficiency gains without modeling enterprise demand elasticity.",
+      "whatWouldChange": "Empirical evidence showing that enterprise demand for AI reasoning queries is strictly inelastic and hits a hard saturation ceiling regardless of cost reductions would alter this conclusion.",
+      "claimIds": [
+        "C3",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

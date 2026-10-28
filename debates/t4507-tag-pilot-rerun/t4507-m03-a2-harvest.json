@@ -1,0 +1,256 @@
+{
+  "debate_id": "6cf344c5-97b8-46d4-9fed-b6b0f319d300",
+  "debate_title": "Should the weights of the most capable AI models be relea...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether the Bureau of Industry and Security can effectively enforce ex-ante certification on frontier model weights or if digital replication makes pre-release containment futile.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Ex-ante certification is enforceable because frontier training requires fixed, high-capacity physical infrastructure and verifiable hardware-level supply chain attestation."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Ex-ante certification is ineffective because digital code behaves unlike physical matter and replicates instantaneously across decentralized nodes without requiring heavy transport infrastructure."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-beliefs-131",
+        "saf-desires-006",
+        "saf-intentions-215",
+        "acc-beliefs-028",
+        "acc-beliefs-085",
+        "acc-desires-037",
+        "acc-intentions-100",
+        "saf-beliefs-040",
+        "saf-desires-029"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether export control enforcement mechanisms function as necessary safeguards against catastrophic risks or primarily as market cartels that entrench incumbent technology firms.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Preventing unconstrained diffusion of hazardous capabilities overrides concerns about compliance overhead and market concentration."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Regulatory compliance barriers create unfair market advantages for dominant firms, stifling open-source development and community-led accountability."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-beliefs-131",
+        "saf-desires-006",
+        "saf-intentions-215",
+        "skp-beliefs-278",
+        "skp-intentions-082",
+        "skp-beliefs-008",
+        "saf-beliefs-040",
+        "saf-desires-029",
+        "saf-intentions-009"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-215",
+      "nodeLabel": "Shielding Compliant Open-Weight Releases from Downstream Misuse Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-082",
+      "nodeLabel": "Integrate Affected-Community Auditors into Each AI Development Phase",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-008",
+      "nodeLabel": "Precarious Human Labor Behind the Automation Facade",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-040",
+      "nodeLabel": "AI Deployment Speed Outpaces Security Governance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-009",
+      "nodeLabel": "Securing Data Centers and Supply Chains Against Model-Weight Theft",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-234",
+      "nodeLabel": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-022",
+      "nodeLabel": "Lobby for International Legal Shields for Open-Weight AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-231",
+      "nodeLabel": "Binding AI Accountability to Physical Infrastructure Metrics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-054",
+      "nodeLabel": "Targeted Finetuning Can Extract Long Passages from a Model's Training Set",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-002",
+      "nodeLabel": "Scaling Oversight to Real-Time Remediation Speed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-222",
+      "nodeLabel": "Grid Infrastructure Cost-Shifting onto Residential Utility Ratepayers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-023",
+      "nodeLabel": "Mobilize Political Campaigns to Hold AI Corporations Accountable",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-292",
+      "nodeLabel": "Many Eyes Theory",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-060",
+      "nodeLabel": "Markets and Technology Form a Self-Reinforcing Growth Engine",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether the Bureau of Industry and Security can effectively enforce ex-ante certification on frontier model weights or if digital replication makes pre-release containment futile.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions capture valid operational realities. The safetyist argument correctly identifies that frontier training requires massive physical infrastructure, while the skeptic argument correctly notes that once trained, digital weights replicate instantly without physical constraints.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether export control enforcement mechanisms function as necessary safeguards against catastrophic risks or primarily as market cartels that entrench incumbent technology firms.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The debate presents an unresolvable trade-off between catastrophic security risks and market concentration. Neither side provides definitive evidence that compliance costs can be decoupled from anticompetitive market capture.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,278 @@
+{
+  "debate_id": "e97ff3fe-3f92-4b76-84a4-6db98f07a4cf",
+  "debate_title": "Will generative AI raise or lower overall employment in o...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether administrative software adoption measures the benign elimination of repetitive tasks or structural labor displacement.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Data entries reflecting clerical headcount reductions alongside rising software budgets measure the removal of unproductive clerical drudgery that frees workers for higher-value problem solving."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Clerical headcount reductions driven by software spending reflect structural labor displacement where firms prioritize labor discipline over productivity sharing."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-intentions-086",
+        "acc-desires-026",
+        "acc-intentions-074",
+        "sit-042",
+        "saf-beliefs-218",
+        "saf-beliefs-033",
+        "saf-desires-012",
+        "saf-intentions-112",
+        "sit-100"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether Department of Labor pre-deployment impact studies serve as necessary worker protections or anti-competitive regulatory bottlenecks.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Mandatory pre-deployment reviews impose dead-weight economic loss and protect incumbent software vendors at the expense of national productivity."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Mandatory pre-deployment reviews function as critical defense mechanisms to prevent irreversible administrative displacement and institutional failure."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-intentions-086",
+        "acc-desires-026",
+        "acc-intentions-074",
+        "sit-042",
+        "saf-beliefs-218",
+        "saf-beliefs-033",
+        "saf-desires-012",
+        "saf-intentions-112",
+        "sit-100"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-100",
+      "nodeLabel": "AI's Transformation of the Labor Market",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-124",
+      "nodeLabel": "Frontier Firm Productivity Multipliers",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-033",
+      "nodeLabel": "Society Cannot Absorb AI Capability Shocks at the Pace They Arrive",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-086",
+      "nodeLabel": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-042",
+      "nodeLabel": "Tech Helps Skilled Workers More",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-255",
+      "nodeLabel": "Political Market for Coercive Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-174",
+      "nodeLabel": "Legal and Legislative Mechanisms for AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-053",
+      "nodeLabel": "AI Drives Net Economic Expansion Through Cost Deflation and Value Creation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-087",
+      "nodeLabel": "Establish Legal Rights to Train AI on Publicly Available Data",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-162",
+      "nodeLabel": "Accelerate Defensive Tech While Slowing Catastrophic Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-056",
+      "nodeLabel": "AI Dependency Corrodes Trust, Deskills Workers, and Destabilizes Livelihoods",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-115",
+      "nodeLabel": "Assign Trust Duties to Every Actor in the AI Supply Chain",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-133",
+      "nodeLabel": "Task Versus Purpose Labor Reallocation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-069",
+      "nodeLabel": "Accelerate Prosperity Through AI-Driven Abundance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-025",
+      "nodeLabel": "Closing the Talent Gap with AI Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-227",
+      "nodeLabel": "Rent-Dissipating Automation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-310",
+      "nodeLabel": "Tax Revenue Lag from Labor Share Compression",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-053",
+      "nodeLabel": "Reduced Entry-Level Recruitment Is an Early Empirical Signal of AI Labor Displacement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether administrative software adoption measures the benign elimination of repetitive tasks or structural labor displacement.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both camps rely on aggregate software budgets and headcount reductions without proving the underlying causal mechanisms or worker fates. The accelerationist claim (C4) and the safetyist claim (C3) interpret the same macroeconomic data through opposing ideological frameworks regarding corporate intent and worker productivity. Without longitudinal tracking of individual workers, neither position possesses superior empirical verification.",
+      "whatWouldChange": "Matched employer-employee data tracking specific administrative workers displaced by AI software over a three-year period would resolve whether they transition to higher-value roles or suffer long-term earnings losses.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether Department of Labor pre-deployment impact studies serve as necessary worker protections or anti-competitive regulatory bottlenecks.",
+      "prevails": "C6",
+      "criterion": "implementation_specificity",
+      "rationale": "The accelerationist critique (C6) scores higher on political feasibility and institutional reality by identifying the dead-weight compliance costs and regulatory bottlenecks inherent in pre-deployment review boards. The safetyist position (C5) asserts the necessity of defense mechanisms against institutional failure but fails to specify enforcement timelines, agency resource requirements, or metrics for halting deployment. In the absence of a workable regulatory framework, the default economic critique prevails on implementation grounds.",
+      "whatWouldChange": "A detailed administrative blueprint from the Department of Labor outlining specific review criteria, staffing levels, and decision windows under 90 days would neutralize the regulatory bottleneck critique.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    }
+  ],
+  "concepts": []
+}

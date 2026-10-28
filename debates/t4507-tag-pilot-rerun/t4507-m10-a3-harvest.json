@@ -1,0 +1,288 @@
+{
+  "debate_id": "b784c5bf-00f6-41e2-918a-e6ab8ef06cb4",
+  "debate_title": "Is the market for frontier AI models becoming more concen...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether antitrust enforcement against cloud-compute partnerships strands vital infrastructure capital or prevents incumbent market locking.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Antitrust enforcement that unwinds equity stakes strands vital capital and freezes energy infrastructure required for modern data center campuses."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Data center capacity runs on regulated utility tariffs and long-term power purchase agreements, so unwinding equity stakes prevents transmission capacity locking."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-desires-039",
+        "acc-intentions-114",
+        "skp-beliefs-234",
+        "skp-intentions-108",
+        "skp-desires-087",
+        "sit-477",
+        "acc-beliefs-043",
+        "acc-desires-026",
+        "acc-desires-037"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether pre-deployment safety audits and export controls create an asymmetric compliance burden that harms open-source ecosystems.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-deployment compliance mandates impose asymmetric fixed costs on non-commercial developers, forming a regulatory cartel that freezes open-source ecosystems."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Threshold-gated verification targets centralized cloud infrastructure and high-end clusters without imposing compliance burdens on non-commercial programmers."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-desires-039",
+        "acc-intentions-114",
+        "saf-beliefs-218",
+        "saf-intentions-147",
+        "sit-340",
+        "saf-beliefs-284",
+        "acc-beliefs-043",
+        "acc-desires-026",
+        "acc-desires-037"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-284",
+      "nodeLabel": "Narrow Versus Broad Capability Decoupling",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-063",
+      "nodeLabel": "Regulatory Fragmentation and Cost Burden",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-124",
+      "nodeLabel": "Frontier Firm Productivity Multipliers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-234",
+      "nodeLabel": "Withholding Diagnostic Interfaces as Upstream Design Defect",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-477",
+      "nodeLabel": "Democratic Failure to Curb Digital Corporate Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-070",
+      "nodeLabel": "Shift AI Competition from Software to Physical Infrastructure Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-115",
+      "nodeLabel": "Federal Preemption of State AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-083",
+      "nodeLabel": "Inserting Human Judgment Where Autonomous AI Makes Consequential Choices",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-234",
+      "nodeLabel": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether antitrust enforcement against cloud-compute partnerships strands vital infrastructure capital or prevents incumbent market locking.",
+      "prevails": "C2",
+      "criterion": "specificity",
+      "rationale": "The skeptic position specifies the regulatory mechanisms of utility tariffs and power purchase agreements that govern data center deployment. The accelerationist claim relies on generalized assertions about capital flow without detailing specific project bottlenecks.",
+      "whatWouldChange": "Evidence that data center projects collapse entirely when equity partnerships dissolve, rather than shifting to debt financing or utility-backed power contracts.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether pre-deployment safety audits and export controls create an asymmetric compliance burden that harms open-source ecosystems.",
+      "prevails": "C4",
+      "criterion": "empirical_evidence",
+      "rationale": "National Institute of Standards and Technology evaluations provide concrete performance benchmarks showing open-source competitiveness. The accelerationist counter-claim offers a theoretical argument about regulatory cartels without empirical proof of developer shutdown.",
+      "whatWouldChange": "Comprehensive cost surveys showing that compliance mandates force a measurable percentage of non-commercial developers to abandon open-source projects.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,265 @@
+{
+  "debate_id": "0156be71-5343-4420-8945-b97af2379a72",
+  "debate_title": "Should the largest AI model training runs require a gover...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether federal pre-deployment licensing gates are necessary to prevent catastrophic biological or cyber dual-use failures despite their market-concentrating effects.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Argues that the catastrophic risks of uncontained frontier models justify upfront licensing and market consolidation as a necessary cost."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that pre-deployment licensing blocks vital medical and scientific innovations while failing to stop risks."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-116",
+        "acc-intentions-078",
+        "acc-beliefs-122",
+        "saf-beliefs-249",
+        "saf-intentions-002",
+        "saf-desires-026",
+        "acc-beliefs-085",
+        "acc-beliefs-028",
+        "acc-desires-027",
+        "acc-intentions-056"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether regulatory agencies can effectively implement adaptive runtime telemetry and compliance audits for advanced AI without stifling open-source developer ecosystems.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Argues that mandatory telemetry and continuous compliance audits can bridge initial compute baselines with runtime oversight."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Argues that compliance burdens inherently concentrate market power and fail to monitor decentralized deployment."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-257",
+        "skp-beliefs-177",
+        "skp-desires-079",
+        "skp-intentions-080",
+        "saf-beliefs-249",
+        "saf-intentions-002",
+        "saf-desires-026",
+        "skp-beliefs-196",
+        "skp-beliefs-249",
+        "skp-intentions-108"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-desires-079",
+      "nodeLabel": "Balanced Transparency: Public Interest vs. Trade Secrets",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-116",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-122",
+      "nodeLabel": "Permission-Scaled Runtime Isolation Qualified by Instruction-Data Conflation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-257",
+      "nodeLabel": "Securities Law Primacy in AI Disclosure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-177",
+      "nodeLabel": "Failure of Static Compute Thresholds Against Sub-Frontier Intrusion Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-080",
+      "nodeLabel": "Institutionalize Civil Rights Technical Expertise Within AI Regulatory Bodies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-002",
+      "nodeLabel": "Scaling Oversight to Real-Time Remediation Speed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-234",
+      "nodeLabel": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-028",
+      "nodeLabel": "Investment Products Marketed as AI-Driven Often Lack Meaningful AI Components",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-113",
+      "nodeLabel": "Institutional Inertia From Entrenched Lobbies Prevents Regulatory Frameworks From Evolving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-158",
+      "nodeLabel": "Use Voluntary Standards as a Bridge to Mandatory AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-106",
+      "nodeLabel": "Liability Asymmetry Punishes Regulators for Caution and Rewards Inaction",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-069",
+      "nodeLabel": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether federal pre-deployment licensing gates are necessary to prevent catastrophic biological or cyber dual-use failures despite their market-concentrating effects.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Neither side presents decisive empirical proof reconciling the catastrophic tail risk of dual-use models against the quantifiable harms of delayed medical innovation. The safetyist position highlights severe theoretical risks from unconstrained training runs, while the accelerationist position correctly identifies real opportunity costs in healthcare. The debate remains deadlocked because both outcomes carry high-severity, low-visibility probabilities.",
+      "whatWouldChange": "Quantified empirical data from a controlled sandbox demonstrating whether pre-deployment delays actually prevent specific biological or cyber attacks.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether regulatory agencies can effectively implement adaptive runtime telemetry and compliance audits for advanced AI without stifling open-source developer ecosystems.",
+      "prevails": "safetyist",
+      "criterion": "logical_validity",
+      "rationale": "The safetyist argument logically exposes a fatal flaw in the historical analogy between static medical software and recursive frontier models. Because frontier models use internal fine-tuning that outpaces static post-market audits, traditional compliance models fail to monitor decentralized deployment. The skeptic analogy to FDA Software-as-a-Medical-Device fails because clinical software does not recursively self-modify.",
+      "whatWouldChange": "Evidence that decentralized open-source toolchains can support automated, tamper-proof runtime monitoring without centralized gatekeepers.",
+      "claimIds": [
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,292 @@
+{
+  "debate_id": "52057d67-6e22-41fa-aa56-a388ee74668e",
+  "debate_title": "Should AI systems be barred from making final decisions i...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether active transaction-stream auditing with mandatory exploration probes can effectively prevent feedback-loop starvation and replace pre-market compliance gates.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Mandating a designated percentage of random exploratory approvals for marginal applicants preserves sufficient outcome data to evaluate disparate impact continuously without requiring pre-deployment approval."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Automated rejections inherently truncate required verification data, and runtime exploration probes are insufficient to overcome systemic closed-loop data starvation without external agency enforcement."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-085",
+        "acc-desires-001",
+        "acc-intentions-047",
+        "sit-170",
+        "sit-278",
+        "skp-beliefs-041",
+        "skp-desires-074",
+        "skp-intentions-141",
+        "skp-intentions-007",
+        "skp-desires-079"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether existing regulatory agencies like the CFPB and EEOC can adequately supervise deployed algorithmic systems through scheduled technical audits or if pre-market prohibition is required.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Agencies lack the technical speed to audit continuous code updates, and pre-market compliance burdens function primarily as protectionist moats that crush startups while protecting legacy incumbents."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Adapting the administrative capacity of the CFPB and EEOC to conduct routine technical audits avoids regulatory capture and provides superior oversight compared to untried pre-release approval bureaucracies."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-085",
+        "acc-desires-001",
+        "acc-intentions-047",
+        "sit-170",
+        "sit-278",
+        "skp-beliefs-041",
+        "skp-desires-074",
+        "skp-intentions-141",
+        "skp-intentions-007",
+        "skp-desires-079"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether automated decision systems achieve better access and lower bias for marginalized applicants than human decision-makers.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Algorithmic evaluation approves marginalized applicants at higher rates than human loan officers burdened by unconscious proximity bias and subjective prejudice."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Algorithmic screening automates historical discrimination and externalizes uncorrectable verification failures onto the public, necessitating strict deployment restrictions."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-217",
+        "saf-beliefs-248",
+        "saf-desires-012",
+        "acc-beliefs-085",
+        "acc-desires-001",
+        "acc-intentions-047",
+        "sit-170",
+        "sit-278",
+        "saf-beliefs-216",
+        "saf-desires-029"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-041",
+      "nodeLabel": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-074",
+      "nodeLabel": "Civil Rights Parity for Algorithmic Decisions",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-217",
+      "nodeLabel": "Inadequacy of the Reasonable Person Standard for Algorithmic Negligence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-278",
+      "nodeLabel": "State-of-the-Art Defense Limitations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-216",
+      "nodeLabel": "Functional Mental State Imputation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-225",
+      "nodeLabel": "PrIME-LLM Scoring Methodology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-007",
+      "nodeLabel": "Regulate AI by Use Case, Not by Technology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-079",
+      "nodeLabel": "Balanced Transparency: Public Interest vs. Trade Secrets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-143",
+      "nodeLabel": "AI Skepticism Reflects Rational Risk Calibration, Not Technophobia",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-286",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-074",
+      "nodeLabel": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-409",
+      "nodeLabel": "Automated Compliance Monitoring",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-104",
+      "nodeLabel": "Empirical transaction audit as the mechanism-selection hinge",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-008",
+      "nodeLabel": "Matching AI Oversight Intensity to Decision Stakes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether active transaction-stream auditing with mandatory exploration probes can effectively prevent feedback-loop starvation and replace pre-market compliance gates.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both positions rely on theoretical mechanics regarding closed-loop data dynamics rather than deployed empirical trials at scale. The skeptic position correctly identifies a fundamental mathematics problem regarding truncated data, but the accelerationist proposal offers a specific technical mechanism (randomized noise injection) that remains untested at national scale in credit and hiring markets.",
+      "whatWouldChange": "Longitudinal deployment data from live lending environments showing whether injected exploration noise successfully uncovers hidden minority applicant potential without imposing unacceptable default risks on lenders.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether existing regulatory agencies like the CFPB and EEOC can adequately supervise deployed algorithmic systems through scheduled technical audits or if pre-market prohibition is required.",
+      "prevails": "C4",
+      "criterion": "implementation_specificity",
+      "rationale": "The skeptic position identifies existing statutory authorities within the CFPB and EEOC, providing a concrete administrative pathway that avoids building untried pre-market approval bureaucracies. By contrast, the accelerationist critique correctly notes compliance cost burdens for startups, but offers no viable enforcement mechanism to prevent systemic discrimination by deployed systems other than relying on market forces.",
+      "whatWouldChange": "Evidence that federal agencies lack the technical capacity and IT infrastructure to audit complex machine learning models, paired with proof that pre-market compliance barriers do not create anticompetitive market concentration.",
+      "claimIds": [
+        "C3",
+        "C4",
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether automated decision systems achieve better access and lower bias for marginalized applicants than human decision-makers.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both sides capture valid phenomena without providing a universal comparative baseline. Human decision-makers exhibit documented proximity bias and overt prejudice, but automated systems encode historical disparities into mathematical functions that are harder for applicants to challenge.",
+      "whatWouldChange": "Comprehensive comparative audits contrasting loan officer approval disparities against machine learning model disparities across identical demographic cohorts over a multi-year period.",
+      "claimIds": [],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

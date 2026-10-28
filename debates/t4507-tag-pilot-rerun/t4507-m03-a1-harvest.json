@@ -1,0 +1,276 @@
+{
+  "debate_id": "3430e17e-490e-4d64-825c-0f32cf7d5dec",
+  "debate_title": "Should the weights of the most capable AI models be relea...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-training compute telemetry and export controls can effectively prevent the proliferation of frontier model capabilities.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Argues that monitoring high-end compute clusters via the Bureau of Industry and Security provides necessary leverage to prevent unaligned frontier training runs."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that once weights are trained, hardware chokepoints become irrelevant because the resulting artifacts propagate peer-to-peer without telemetry footprints."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-131",
+        "saf-beliefs-247",
+        "saf-desires-004",
+        "saf-intentions-231",
+        "acc-desires-037",
+        "acc-intentions-002",
+        "sit-170",
+        "sit-098",
+        "saf-beliefs-265",
+        "saf-desires-002"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether compliance overhead from regulatory reporting thresholds protects public safety or functions as regulatory capture that harms open-source developers.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Prioritizes civilizational risk mitigation and systemic containment over open-source market access."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Prioritizes open-source developer access and market competition, arguing that regulatory burdens entrench corporate incumbents."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-269",
+        "skp-beliefs-044",
+        "skp-desires-078",
+        "skp-intentions-154",
+        "saf-beliefs-131",
+        "saf-beliefs-247",
+        "saf-desires-004",
+        "saf-intentions-231",
+        "saf-beliefs-265",
+        "saf-desires-002"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-269",
+      "nodeLabel": "Enforcement Collapse Across Decentralized Open-Source Model Boundaries",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-044",
+      "nodeLabel": "AI's True Financial and Environmental Costs Are Systematically Obscured",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-078",
+      "nodeLabel": "Foundational AI as a Public Good",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-154",
+      "nodeLabel": "Operationalize Decentralized Participatory Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-231",
+      "nodeLabel": "Binding AI Accountability to Physical Infrastructure Metrics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-265",
+      "nodeLabel": "Decentralized Hosting Exceeds Single-Jurisdiction Reach",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-215",
+      "nodeLabel": "Shielding Compliant Open-Weight Releases from Downstream Misuse Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-222",
+      "nodeLabel": "Grid Infrastructure Cost-Shifting onto Residential Utility Ratepayers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-076",
+      "nodeLabel": "Public Right to Know What AI Was Trained On",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-115",
+      "nodeLabel": "Federal Preemption of State AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-009",
+      "nodeLabel": "Thermodynamic and Hydrological Limits of Compute Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-267",
+      "nodeLabel": "Technical Fragility of Decentralized Attestation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-011",
+      "nodeLabel": "Life-Centered Computing Ethics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-129",
+      "nodeLabel": "Decouple AI Safety Verification from Developer Self-Reporting via Compute Taxes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-107",
+      "nodeLabel": "Replace Static AI Rules with Iterative, Drift-Matched Regulatory Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-training compute telemetry and export controls can effectively prevent the proliferation of frontier model capabilities.",
+      "prevails": "C1",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist position correctly distinguishes between low-compute cryptography like PGP and high-compute frontier models that require billion-dollar clusters. Semiconductor supply chains and massive energy requirements create tangible, physical chokepoints that regulators can monitor.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether compliance overhead from regulatory reporting thresholds protects public safety or functions as regulatory capture that harms open-source developers.",
+      "prevails": "C4",
+      "criterion": "specificity",
+      "rationale": "Critics provide concrete evidence that complex audit trails impose recurring financial costs that disproportionately burden independent developers compared to cloud giants. This creates a clear economic barrier to entry in the open-source ecosystem.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

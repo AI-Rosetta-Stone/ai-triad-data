@@ -1,0 +1,270 @@
+{
+  "debate_id": "d2b62ba2-f368-4c32-bdc1-f720d66af5a0",
+  "debate_title": "Should the largest AI model training runs require a gover...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-deployment safety evaluations and third-party audit mechanisms can be structured to effectively verify frontier model capabilities without entrenching industry consolidation.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "The Department of Commerce can couple compute-threshold rules with public audit credits, neutral public infrastructure like the NAIRR, and specialized technical verification divisions to prevent incumbent capture."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Any centralized compliance or audit framework inevitably functions as a collection arm for incumbent legal teams and creates bureaucratic bottlenecks that suppress open-source innovation."
+        }
+      ],
+      "linkedNodes": [
+        "saf-intentions-125",
+        "sit-361",
+        "saf-beliefs-104",
+        "saf-desires-023",
+        "acc-beliefs-043",
+        "acc-desires-039",
+        "acc-intentions-100",
+        "saf-beliefs-249",
+        "saf-desires-026",
+        "saf-beliefs-007"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the primary regulatory priority should be mitigating speculative systemic risk from frontier model training or enforcing existing rules against present harms such as algorithmic bias and labor displacement.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Failing to verify frontier capabilities before deployment trades present accountability for unrecoverable systemic collapse and irreversible loss of human control."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Regulatory energy spent on hypothetical sci-fi anomalies diverts scarce resources from direct administrative enforcement against documented present harms affecting workers and marginalized groups."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-281",
+        "skp-beliefs-047",
+        "skp-desires-075",
+        "skp-intentions-146",
+        "saf-intentions-125",
+        "sit-361",
+        "saf-beliefs-104",
+        "saf-desires-023",
+        "saf-beliefs-249",
+        "saf-desires-026"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-125",
+      "nodeLabel": "Design Licensing Schemes Where Safer Models Earn More",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-361",
+      "nodeLabel": "Pragmatic Mitigation Framing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-104",
+      "nodeLabel": "Training Data Can Be Poisoned or Self-Polluted, Degrading Model Quality",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-023",
+      "nodeLabel": "Dissent on AI Safety Must Be Protected, Not Punished",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-007",
+      "nodeLabel": "Goal-Directed AI Develops Power-Seeking as a Subgoal Regardless of Its Objective",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-164",
+      "nodeLabel": "Companies Use Narrow Audits to Deflect Meaningful AI Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-190",
+      "nodeLabel": "Single Points of Control over Compute Hardware Function as Incumbent Capture Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-129",
+      "nodeLabel": "Decouple AI Safety Verification from Developer Self-Reporting via Compute Taxes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-120",
+      "nodeLabel": "Physical Infrastructure Metrics as an Enforcement Anchor",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-165",
+      "nodeLabel": "Mandate Dual Kill Criteria: Customer Validation Failures and Third-Party Harm Complaints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-044",
+      "nodeLabel": "AI Companies Reduce Costs by Locating Compute in Pollution Havens",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-deployment safety evaluations and third-party audit mechanisms can be structured to effectively verify frontier model capabilities without entrenching industry consolidation.",
+      "prevails": "undecidable",
+      "criterion": "implementation_specificity",
+      "rationale": "Both camps identify genuine structural risks regarding cloud provider market power and audit capture, but neither side provides empirical data from actual regulatory rollouts to prove their mechanism works at scale. The safetyist reliance on public compute pools like the NAIRR remains largely theoretical because current funding levels cannot support frontier-scale training runs. Conversely, the skeptic and accelerationist warnings about regulatory capture correctly identify historical patterns in tech policy without offering a viable alternative for managing catastrophic biological or cyber risks.",
+      "whatWouldChange": "Deploying a pilot auditing framework on a government-funded supercomputer cluster to measure whether independent developers successfully clear compliance without prohibitive administrative delays.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether the primary regulatory priority should be mitigating speculative systemic risk from frontier model training or enforcing existing rules against present harms such as algorithmic bias and labor displacement.",
+      "prevails": "C8",
+      "criterion": "scope",
+      "rationale": "The safetyist position accounts for a broader and more irreversible class of outcomes, including catastrophic loss of control, whereas the accelerationist focus on present harms assumes a stable operating environment that a rogue frontier model could permanently disrupt. While present harms like algorithmic bias and labor displacement demand aggressive enforcement, they do not preclude simultaneous risk evaluation for training runs that exceed known safety boundaries. Neglecting catastrophic tail risks based on the urgency of present harms risks institutional failure if the speculative risks materialize.",
+      "whatWouldChange": "Empirical consensus among computer scientists demonstrating that scaling does not produce sudden, unpredictable capability jumps or autonomous self-replication risks.",
+      "claimIds": [
+        "C7",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

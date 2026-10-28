@@ -1,0 +1,20 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "protocolId": "structured",
+  "audience": "policymakers",
+  "activePovers": [
+    "accelerationist",
+    "safetyist",
+    "skeptic"
+  ],
+  "rounds": 5,
+  "topic": "Should the largest AI model training runs require a government licence?",
+  "seatTags": {
+    "skeptic": {
+      "pov_tag": "critical",
+      "tag_mode": "scope"
+    }
+  },
+  "slug": "t4507-m02-a1r",
+  "outputDir": "C:\\Users\\jsnov\\repos\\ai-triad-data\\debates\\t4507-tag-pilot-rerun"
+}

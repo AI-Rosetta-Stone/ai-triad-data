@@ -78155,9 +78155,24 @@
           }
         ],
         "intellectual_lineage": [
-          "Information fiduciary framework",
-          "Digital estate planning jurisprudence",
-          "Post-mortem privacy scholarship"
+          {
+            "name": "Information fiduciary framework",
+            "description": "The information fiduciary framework is a legal and policy theory proposed by legal scholars like Jack Balkin and Jonathan Zittrain, which suggests that online service providers and AI developers should owe legal duties of loyalty, care, and confidentiality to their users. Analogous to traditional fiduciaries like doctors or lawyers, information fiduciaries would be legally barred from using consumer data in ways that harm the user, even in the absence of explicit contractual consent.\n\nThis framework is a cornerstone of modern AI governance discourse, offering an alternative to purely notice-and-consent models of data privacy. It addresses the inherent power asymmetry between platform giants and individual users, guiding regulations on how AI systems collect, process, and monetize personal data.",
+            "url": null,
+            "category": "legal_framework"
+          },
+          {
+            "name": "Digital estate planning jurisprudence",
+            "description": "Digital estate planning jurisprudence is an emerging legal field addressing how individuals can plan for, control, and dispose of their digital assets, online accounts, and virtual identities upon incapacity or death. It synthesizes traditional estate law with cyberlaw, platform terms of service, and privacy statutes.\n\nIn AI policy, this jurisprudence is increasingly vital due to the proliferation of AI-driven digital legacies, such as interactive chatbots trained on a deceased person's writings or deepfake avatars. It provides the legal architecture needed to balance family inheritance rights, platform control, and the posthumous privacy of individuals whose data fuels generative AI models.",
+            "url": null,
+            "category": "legal_framework"
+          },
+          {
+            "name": "Post-mortem privacy scholarship",
+            "description": "Post-mortem privacy scholarship explores the ethical and legal dimensions of maintaining an individual's privacy rights after death. Rooted in philosophical debates about dignity, harm to reputation, and cultural norms surrounding the deceased, legal scholars debate whether privacy rights terminate at death or persist in some form.\n\nThis scholarship has gained significant urgency in AI governance due to the rise of generative AI models capable of resurrecting deceased individuals as synthetic voice clones, video avatars, or interactive conversational agents without family or estate consent. It informs policy discussions on creating legal protections against the unauthorized commercialization and manipulation of a deceased person's likeness and data.",
+            "url": "https://en.wikipedia.org/wiki/Right_to_privacy",
+            "category": "academic_discipline"
+          }
         ],
         "steelman_vulnerability": "Mandating strict post-mortem data deletion or rigid governance could inadvertently destroy valuable historical archives and collective cultural records that future generations rely upon.",
         "possible_fallacies": [
@@ -78219,9 +78234,24 @@
           }
         ],
         "intellectual_lineage": [
-          "Right of publicity doctrine",
-          "Mortuary ethics and jurisprudence",
-          "Kantian dignity frameworks"
+          {
+            "name": "Right of publicity doctrine",
+            "description": "The right of publicity is a legal doctrine that grants individuals the right to control the commercial use of their name, image, and likeness. Historically developed to protect celebrities from unauthorized endorsements, it has evolved to cover the 'persona' of any individual. It prevents others from profiting from the commercial value of an individual's identity without consent.\n\nThis lineage provides the node with a mechanism to assert control over synthetic voice generation. It posits that an individual's voice is a core component of their persona, and therefore, any AI-generated replication constitutes a misappropriation of that identity. The node uses this doctrine to argue that the 'inviolable right' to one's voice is a natural extension of existing property rights over one's public persona.",
+            "url": "",
+            "category": "legal_framework"
+          },
+          {
+            "name": "Mortuary ethics and jurisprudence",
+            "description": "Mortuary ethics and jurisprudence comprise the philosophical and legal traditions governing the treatment of corpses, burial practices, funeral industries, and the cultural dignity accorded to human remains. Historically guided by religious traditions, common law customs, and public health regulations, these norms establish society's baseline respect for the dead.\n\nIn the context of AI governance, mortuary ethics provides a conceptual vocabulary for addressing the digital equivalents of desecration—such as unauthorized deepfakes, AI-generated necromancy, and the scraping of deceased individuals' data to train commercial models. It bridges traditional cultural respect for the dead with modern digital rights debates.",
+            "url": "https://en.wikipedia.org/wiki/Bioethics",
+            "category": "ethical_framework"
+          },
+          {
+            "name": "Kantian dignity frameworks",
+            "description": "Kantian dignity frameworks are rooted in the moral philosophy of Immanuel Kant, who argued that rational human beings possess an intrinsic, absolute worth—dignity—rather than a relative market value. A central maxim of this philosophy is that humans must always be treated as ends in themselves, never merely as means to an end.\n\nThese frameworks are foundational to AI ethics and human rights discourse, particularly in opposition to surveillance capitalism, mass profiling, and autonomous systems that reduce humans to data points for optimization. Kantian ethics underpins policies that demand human oversight in algorithmic decision-making, protect human agency, and reject systems that instrumentalize people.",
+            "url": "https://en.wikipedia.org/wiki/Dignity",
+            "category": "ethical_framework"
+          }
         ],
         "steelman_vulnerability": "Expanding post-mortem publicity rights creates a mechanism for estates to censor historical critique and privatize shared cultural heritage under the guise of protecting personal dignity.",
         "possible_fallacies": [

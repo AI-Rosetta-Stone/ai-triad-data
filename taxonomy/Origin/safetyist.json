@@ -3,7 +3,7 @@
   "_doc": "Safetyist POV taxonomy. One file per POV camp to minimize merge conflicts.",
   "pov": "safetyist",
   "color_hex": "#E74C3C",
-  "last_modified": "2026-10-24",
+  "last_modified": "2026-10-28",
   "nodes": [
     {
       "id": "saf-desires-001",
@@ -98269,7 +98269,8 @@
         "saf-beliefs-111",
         "saf-beliefs-150",
         "saf-beliefs-216",
-        "saf-beliefs-268"
+        "saf-beliefs-268",
+        "saf-beliefs-288"
       ],
       "parent_relationship": null,
       "parent_rationale": null,
@@ -121378,6 +121379,68 @@
           "from_accelerationist": "Tort law should evaluate outcomes rather than processes to avoid entrenching bureaucratic compliance checkboxes that stifle genuine engineering innovation.",
           "from_skeptic": "Judges and juries are fundamentally ill-equipped to audit complex internal development procedures, making outcome-based standards a more reliable proxy for liability."
         }
+      }
+    },
+    {
+      "id": "saf-beliefs-288",
+      "category": "Beliefs",
+      "label": "Expanding Fourth Amendment Protection Through Fiduciary Status",
+      "description": "A Belief within safetyist discourse that recognizing online service providers as information fiduciaries negates the third-party doctrine under the Fourth Amendment, establishing a reasonable expectation of privacy in digital communications. Encompasses: fiduciary Fourth Amendment exceptions, warrant requirements for third-party data, and rejection of blanket third-party waiver. Excludes: statutory consumer privacy rights and civil discovery mandates.",
+      "parent_id": "saf-beliefs-210",
+      "children": [],
+      "situation_refs": [],
+      "source_refs": [
+        "information-fiduciaries-first-amendment-2026"
+      ],
+      "parent_relationship": "is_a",
+      "parent_rationale": "This belief proposes a legal framework (fiduciary status) to establish Fourth Amendment privacy protections, directly addressing aspects of legal accountability and responsibility for online service providers. It is a specific instance of how legal mechanisms can be used to assign responsibility and mitigate harms related to AI and digital services.",
+      "graph_attributes": {
+        "epistemic_type": "interpretive_lens",
+        "rhetorical_strategy": "rights_based,structural_critique",
+        "assumes": [
+          "Online service providers can be legally recognized as fiduciaries for user data.",
+          "Fiduciary status inherently creates a reasonable expectation of privacy that negates the third-party doctrine.",
+          "The Fourth Amendment's protections should extend to digital communications in a manner analogous to physical spaces.",
+          "The third-party doctrine, as currently applied, is inadequate for protecting digital privacy."
+        ],
+        "falsifiability": "medium",
+        "audience": "legal_professionals,policymakers,academic_community,civil_society",
+        "emotional_register": "assertive,analytical,resolute",
+        "policy_actions": [
+          {
+            "policy_id": null,
+            "action": "Legislate fiduciary duties for online service providers regarding user data.",
+            "framing": "This would codify a legal relationship that inherently protects user data from unwarranted government access under the Fourth Amendment."
+          },
+          {
+            "policy_id": null,
+            "action": "Litigate cases challenging the third-party doctrine based on fiduciary principles.",
+            "framing": "Legal challenges can establish precedent for Fourth Amendment protections in the digital sphere, reinterpreting existing law."
+          }
+        ],
+        "intellectual_lineage": [
+          {
+            "name": "Fourth Amendment jurisprudence (e.g., Katz v. United States)",
+            "description": "Fourth Amendment jurisprudence encompasses the legal principles and court interpretations governing search and seizure in the United States, anchored by landmark rulings like Katz v. United States (1967). Katz established the 'reasonable expectation of privacy' test, shifting the constitutional focus from physical trespass to the protection of private communications and spaces. Key legal scholars and jurists have continuously adapted these doctrines to meet technological advancements.\n\nIn the context of AI governance, this jurisprudence is critical for evaluating government surveillance, predictive policing algorithms, and law enforcement access to massive datasets. As AI systems ingest biometric data, location tracking, and digital footprints, courts grapple with whether automated profiling and mass data aggregation violate constitutional protections against unreasonable searches.",
+            "url": "https://en.wikipedia.org/wiki/Katz_v._United_States",
+            "category": "legal_framework"
+          },
+          {
+            "name": "Fiduciary law principles",
+            "description": "Fiduciary law principles govern relationships where one party must act with undivided loyalty and care in the best interests of another. Originating in equity and trusts, key legal theorists have expanded these duties beyond traditional financial trustees to doctors, lawyers, and corporate directors. Fiduciaries are held to a higher standard of conduct than arm's-length market participants, requiring the minimization of conflicts of interest.\n\nFor AI governance, fiduciary principles offer a compelling regulatory model for high-stakes technologies. Scholars argue that AI developers, data brokers, and platforms should act as 'information fiduciaries' toward users, legally binding them to protect user data and prioritize user well-being over algorithmic engagement manipulation.",
+            "url": "https://en.wikipedia.org/wiki/Fiduciary",
+            "category": "legal_framework"
+          },
+          {
+            "name": "Digital Rights Advocacy",
+            "description": "Digital rights advocacy is a movement dedicated to protecting human rights in the digital age, including privacy, freedom of expression, and protection from online abuse. It focuses on the intersection of law, technology, and individual autonomy, arguing that users have a fundamental right to control their digital identity and personal data.\n\nThis tradition motivates the node's position by emphasizing the violation of bodily autonomy and dignity inherent in AI-generated sexual abuse. It provides the normative commitment that platforms have a responsibility to protect users from harm, shifting the focus from 'innovation at all costs' to the protection of individual digital integrity.\n\nKey organizations and figures include the Electronic Frontier Foundation (EFF) and activists like Anita Sarkeesian, who have long campaigned against online harassment. This entry relates to 'Cyberlaw and online harassment jurisprudence' by providing the grassroots and policy-oriented pressure needed to translate these harms into actionable legal standards.",
+            "url": "https://en.wikipedia.org/wiki/Digital_rights",
+            "category": "other"
+          }
+        ],
+        "steelman_vulnerability": "The third-party doctrine is a long-standing legal principle affirmed by the Supreme Court; expanding fiduciary duties to negate it could create an unworkable legal standard for online services and have unforeseen consequences for data sharing and legitimate law enforcement access.",
+        "possible_fallacies": [],
+        "node_scope": "claim"
       }
     }
   ]

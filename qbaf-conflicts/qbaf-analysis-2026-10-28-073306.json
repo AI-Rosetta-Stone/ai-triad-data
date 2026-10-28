@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-10-28T07:33:06.8632352-04:00",
+  "claim_count": 19,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Uber Executive Threat to Expose Journalist",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-041",
+        "skp-beliefs-216"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Facebook Voting Experiment Turnout Impact",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-155"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Sorrell v. IMS Health Inc. Ruling",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-4",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Bartnicki v. Vopper Precedent",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-5",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "California SOPIPA Enactment",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-desires-014",
+        "saf-intentions-069"
+      ]
+    },
+    {
+      "id": "qc-6",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "U.S. West v. FCC Decision",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-224",
+        "skp-beliefs-257"
+      ]
+    },
+    {
+      "id": "qc-7",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "National Cable & Telecommunications Ass’n v. FCC Decision",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-224"
+      ]
+    },
+    {
+      "id": "qc-8",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Doe v. Roe Psychiatric Confidentiality Liability",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-025"
+      ]
+    },
+    {
+      "id": "qc-9",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Horne v. Patton Physician Duty of Confidentiality",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-025"
+      ]
+    },
+    {
+      "id": "qc-10",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Zauderer Commercial Speech Standard",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-228"
+      ]
+    },
+    {
+      "id": "qc-11",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Lowe v. SEC Investment Advice Distinction",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-228"
+      ]
+    },
+    {
+      "id": "qc-12",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Bartnicki v. Vopper Third-Party Disclosure Rule",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-desires-014"
+      ]
+    },
+    {
+      "id": "qc-13",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Privacy Policy Reading Time Estimate",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-217",
+        "skp-beliefs-224"
+      ]
+    },
+    {
+      "id": "qc-14",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Facebook Community Standards Safety Statement",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-250"
+      ]
+    },
+    {
+      "id": "qc-15",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Google Corporate Philosophy Statement",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-250"
+      ]
+    },
+    {
+      "id": "qc-16",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Third-Party Doctrine Phone Record Precedent",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-17",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Third-Party Doctrine Bank Records Precedent",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-18",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Predictive Policing Algorithmic Deployment",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-19",
+      "doc_id": "information-fiduciaries-first-amendment-2026",
+      "label": "Corporate Algorithmic Workforce Monitoring",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

@@ -1,0 +1,267 @@
+{
+  "debate_id": "308c0844-41d3-43dc-9a1b-a08e2173109d",
+  "debate_title": "Should frontier AI developers be legally liable for harms...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether upstream legal liability or administrative pre-deployment licensing for foundational models protects public safety or primarily entrenches incumbent market power.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Upstream legal liability and pre-deployment licensing create regulatory moats that cartelize the market and protect legacy firms."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Upstream liability and regulatory oversight are necessary safeguards because downstream users cannot inspect or fix hidden structural risks in foundation weights."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-028",
+        "acc-beliefs-115",
+        "sit-177",
+        "sit-115",
+        "saf-beliefs-004",
+        "saf-intentions-005",
+        "saf-intentions-147",
+        "saf-beliefs-200",
+        "saf-desires-001",
+        "acc-beliefs-108"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether existing post-hoc enforcement mechanisms like Section 5 of the FTC Act can adequately address rapid technological capability changes compared to preventive agency oversight.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Section 5 enforcement against restrictive licensing terms can break market bottlenecks and enable open audits without requiring new pre-approval boards."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Traditional enforcement moves too slowly to address recursive self-improvement and rapid capability shifts across infrastructure."
+        }
+      ],
+      "linkedNodes": [
+        "sit-177",
+        "saf-beliefs-004",
+        "saf-intentions-005",
+        "saf-intentions-147",
+        "skp-intentions-141",
+        "skp-beliefs-189",
+        "skp-intentions-029",
+        "saf-beliefs-200",
+        "saf-desires-001",
+        "skp-beliefs-278"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-004",
+      "nodeLabel": "Human Values Cannot Be Safely Encoded as Reward Functions",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-115",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-115",
+      "nodeLabel": "Federal Preemption of State AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-029",
+      "nodeLabel": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-200",
+      "nodeLabel": "AI Systematically Optimizes Proxy Metrics at the Expense of Intended Outcomes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-001",
+      "nodeLabel": "Humanity's Survival Above All Else",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-108",
+      "nodeLabel": "Domain-specificity of interpretability requirements under products liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-116",
+      "nodeLabel": "Behavioral Compliance Thresholds Become Adversarial Optimization Targets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-179",
+      "nodeLabel": "Anchoring Data-Provenance Liability at the In-Jurisdiction Deployment Act Rather Than the Relocatable Upstream Join",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-079",
+      "nodeLabel": "Balanced Transparency: Public Interest vs. Trade Secrets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-129",
+      "nodeLabel": "AI Executes the Letter of the Command While Violating Its Spirit",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-069",
+      "nodeLabel": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-112",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether upstream legal liability or administrative pre-deployment licensing for foundational models protects public safety or primarily entrenches incumbent market power.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions highlight valid systemic concerns without offering empirical proof that their preferred oversight mechanism avoids catastrophic failure or market monopolization. Safety advocates correctly identify hidden weight risks, but accelerationists correctly note that fixed compliance costs disproportionately burden small developers.",
+      "whatWouldChange": "Longitudinal empirical studies showing whether open-source developers experience higher compliance attrition rates than large incumbents under strict upstream liability rules.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether existing post-hoc enforcement mechanisms like Section 5 of the FTC Act can adequately address rapid technological capability changes compared to preventive agency oversight.",
+      "prevails": "C7",
+      "criterion": "empirical_evidence",
+      "rationale": "Safety advocates demonstrate through structural timing constraints that multi-year antitrust litigation cannot keep pace with recursive software updates that execute in milliseconds. The skeptic position relies on statutory authority that lacks the temporal resolution required for rapid capability shifts.",
+      "whatWouldChange": "Evidence that expedited FTC administrative procedures can issue binding technical injunctions within days of a frontier model training run.",
+      "claimIds": [
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,1513 @@
+{
+  "doc_id": "skeptical-view-information-fiduciaries-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-28T08:07:44Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 65536,
+    "extraction_mode": "single_shot",
+    "taxonomy_filter": "rag_per_chunk",
+    "taxonomy_nodes": 1456,
+    "chunked": true,
+    "chunk_count": 7
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "skeptical-view-information-fiduciaries-2026",
+    "measured_at": "2026-10-28T08:12:26.1764376-04:00",
+    "stages": [
+      {
+        "stage": "chunking",
+        "in_units": "tokens_est",
+        "in_count": 40757,
+        "out_units": "tokens_est",
+        "out_count": 40949,
+        "ratio": 1.0047,
+        "flags": {
+          "chunk_count": 7
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 4326,
+        "out_units": "nodes",
+        "out_count": 60,
+        "ratio": 0.0139,
+        "flags": {
+          "avg_beliefs": 33,
+          "avg_desires": 11,
+          "avg_intentions": 13,
+          "avg_nodes_selected": 60,
+          "chunk_count": 7,
+          "max_nodes_selected": 60,
+          "min_nodes_selected": 60,
+          "total_below_threshold": 0
+        }
+      },
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 285155,
+        "out_units": "items",
+        "out_count": 48,
+        "ratio": 0.0002,
+        "flags": {
+          "chunk_count": 7,
+          "factual_claims": 18,
+          "null_node_rate": 0.3333,
+          "total_points": 27,
+          "unmapped_concepts": 3
+        }
+      },
+      {
+        "stage": "merge_dedup",
+        "in_units": "items",
+        "in_count": 48,
+        "out_units": "items",
+        "out_count": 48,
+        "ratio": 1,
+        "flags": {
+          "claims_deduped": 0,
+          "concepts_deduped": 0,
+          "points_deduped": 0,
+          "used_embeddings": 1
+        }
+      },
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 3,
+        "out_units": "still_unmapped",
+        "out_count": 1,
+        "ratio": 0.3333,
+        "flags": {
+          "near_miss_count": 1,
+          "resolved_count": 2,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      }
+    ],
+    "cumulative_retention": 0.0139
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": []
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "neutral",
+          "taxonomy_node_id": "saf-beliefs-246",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Under Delaware corporate law, directors and officers of for-profit corporations owe fiduciary duties solely to the corporation and its stockholders, requiring them to treat stockholder welfare as the primary end. This foundational legal structure means that imposing new fiduciary duties toward end users creates an acute conflict of loyalties for platforms like Facebook, Google, Twitter, and Uber. The article highlights that while traditional professionals like doctors and lawyers are embedded in relationships of care that prioritize clients, digital information fiduciaries face structural conflicts where user protection directly threatens corporate bottom lines.",
+          "verbatim": [
+            "Under Delaware law, the officers and directors of a for-profit corporation already owe fiduciary duties — to the corporation and its stockholders.",
+            "As the Court of Chancery explained in 2017, “Delaware case law is clear” that to act loyally, officers and directors “must, within the limits of [their] legal discretion, treat stockholder welfare as the only end, considering other interests only to the extent that doing so is rationally related to stockholder welfare.”"
+          ],
+          "excerpt_context": "Section 2, pages 503-504",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Corporate directors in Delaware owe fiduciary duties exclusively to stockholders, creating fundamental structural conflicts when attempting to impose new fiduciary obligations toward platform users.",
+          "attribution_text": "A Belief within safetyist discourse that corporate fiduciary law mandates prioritizing shareholder wealth above all other interests, creating insurmountable structural conflicts when applied to platform user protection. Encompasses: Delaware corporate law, duty of loyalty, and stockholder primacy.",
+          "vocabulary_terms": [
+            "fiduciary_duty",
+            "corporate_governance",
+            "stockholder_primacy"
+          ],
+          "retrieval_confidence": 0.3993,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-272",
+              "label": "Corporate Subsidiary Bankruptcy Arbitrage in Autonomous Deployments",
+              "score": 0.5805
+            },
+            {
+              "id": "saf-intentions-234",
+              "label": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+              "score": 0.5413
+            },
+            {
+              "id": "skp-beliefs-148",
+              "label": "Corporate AI Governance Borrows Constitutional Language to Manufacture Legitimacy",
+              "score": 0.5388
+            }
+          ],
+          "retrieval_low_confidence": true,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-beliefs-272",
+              "label": "Corporate Subsidiary Bankruptcy Arbitrage in Autonomous Deployments",
+              "score": 0.5805
+            },
+            {
+              "id": "saf-intentions-234",
+              "label": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+              "score": 0.5413
+            },
+            {
+              "id": "saf-beliefs-106",
+              "label": "Liability Asymmetry Punishes Regulators for Caution and Rewards Inaction",
+              "score": 0.538
+            }
+          ]
+        },
+        {
+          "stance": "opposed",
+          "taxonomy_node_id": "saf-desires-025",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The text examines proposals by Jack Balkin and Jonathan Zittrain to establish information fiduciaries for digital platforms, noting that these proposals attempt to elicit better behavior without undermining shareholder primacy or requiring fundamental changes to corporate law. The authors argue that maintaining shareholder primacy while attempting to impose fiduciary duties to users creates an irreconcilable conflict, as traditional fiduciaries must subordinate private interests to their beneficiaries. From a safetyist perspective, this critique highlights the tension between ethical management of digital spaces and the profit-driven imperatives of surveillance capitalism. However, the safetyist framework typically demands robust fiduciary obligations, whereas this text uses the impossibility of such duties under advertising business models to critique the inadequacy of the information-fiduciary concept itself.",
+          "verbatim": [
+            "On the contrary, information-fiduciary advocates generally appear to endorse a fourth and final strategy for managing conflicts between stockholders and users, which is to cabin any fiduciary duties afforded to users so that they do not seriously threaten firm value — and thus might even be implemented by judges in the absence of legislation.",
+            "One way to understand this formulation is as an effort to elicit better behavior from digital companies without undermining the shareholder-primacy norm."
+          ],
+          "excerpt_context": "Section III, pages 509-510",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Fiduciary duties imposed on digital platforms must override shareholder primacy to protect users effectively.",
+          "attribution_text": "A Desire within safetyist discourse that prioritizes establishing enforceable fiduciary duties for digital platforms that override shareholder primacy to ensure genuine user protection. Encompasses: Fiduciary duty survival under algorithmic delegation, treating digital space as a public trust, and subordinating corporate profit to user welfare.",
+          "vocabulary_terms": [
+            "fiduciary_duty",
+            "shareholder_primacy",
+            "corporate_governance"
+          ],
+          "retrieval_confidence": 0.6763,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.7402
+            },
+            {
+              "id": "saf-desires-025",
+              "label": "Fiduciary Duty Survives Automation",
+              "score": 0.6763
+            },
+            {
+              "id": "saf-intentions-171",
+              "label": "Protecting Young People Through Joint School-Family-Government Action",
+              "score": 0.6342
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.7402
+            },
+            {
+              "id": "saf-desires-025",
+              "label": "Fiduciary Duty Survives Automation",
+              "score": 0.6763
+            },
+            {
+              "id": "saf-intentions-171",
+              "label": "Protecting Young People Through Joint School-Family-Government Action",
+              "score": 0.6342
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-desires-027",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document highlights that online platforms occupy structurally central roles comparable to a digital public square or essential utility, where major security failures cascade across the entire internet. Treating digital infrastructure as a shared global resource requiring ethical management aligns with the safetyist view that systemic platform dominance creates unacceptable systemic risk. Limiting platform dominance can reduce the likelihood that any single data-security failure cascades into wider public harm. However, the authors argue that the information-fiduciary model alone is insufficient to address these structural risks without concurrent market reforms.",
+          "verbatim": [
+            "For example, one of the biggest data breaches that Facebook suffered in 2018 derived from the site serving as a central passport to the internet, such that one’s Facebook login can serve as a credential for numerous third-party sales.",
+            "Once hackers stole the single access key, they won access to users’ non-Facebook logins as well."
+          ],
+          "excerpt_context": "Section 6, footnote 143",
+          "extraction_confidence": 0.85,
+          "canonical_proposition": "Digital infrastructure ought to be treated as a public trust subject to ethical management and systemic risk reduction.",
+          "attribution_text": "A Desire within safetyist discourse that treats digital infrastructure as a shared global resource requiring ethical management and risk mitigation. Encompasses: Systemic security vulnerabilities, cascading data breaches, and platform public trust.",
+          "vocabulary_terms": [
+            "digital infrastructure",
+            "systemic risk",
+            "public trust"
+          ],
+          "retrieval_confidence": 0.8986,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.8986
+            },
+            {
+              "id": "saf-beliefs-018",
+              "label": "The Attacker-Defender Cost Gap Erodes Social Trust",
+              "score": 0.7343
+            },
+            {
+              "id": "saf-intentions-171",
+              "label": "Protecting Young People Through Joint School-Family-Government Action",
+              "score": 0.6993
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-216",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Lina M. Khan and David E. Pozen examine how digital businesses such as Facebook, Google, and Twitter collect massive volumes of personal data and leverage asymmetric power over users who have little ability to monitor corporate operations. This structural dynamic creates deep dependency and vulnerability, mirroring the severe power imbalances found in traditional commercial and labor contexts. The authors note that users worry companies will take advantage of them, which motivates the search for regulatory frameworks like information fiduciaries to level the playing field. However, they emphasize that these platforms possess increasing capacities for surveillance and control while remaining opaque to end-users.",
+          "verbatim": "A key feature of the digital economy, he observed in his original essay on the subject, is that '[m]any of the online services that people use require them to trust companies with sensitive personal information.' These companies have 'increasing capacities for surveillance and control' of their users, but users have little ability to monitor the companies.",
+          "excerpt_context": "Section I, page 502",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "The structural power imbalance between digital platforms and end users mirrors labor-capital asymmetries, leaving users dependent on and vulnerable to opaque corporate surveillance.",
+          "attribution_text": "A Belief within skeptic discourse that the structural power imbalance between platforms and users creates profound dependence and vulnerability. Encompasses: information asymmetry, surveillance capacity, and lack of user monitoring capability.",
+          "vocabulary_terms": [
+            "information asymmetry",
+            "power asymmetry",
+            "surveillance"
+          ],
+          "retrieval_confidence": 0.7134,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-216",
+              "label": "Bargaining Asymmetry in User-Platform Relations",
+              "score": 0.7134
+            },
+            {
+              "id": "skp-beliefs-263",
+              "label": "Governance Drift",
+              "score": 0.5824
+            },
+            {
+              "id": "skp-beliefs-294",
+              "label": "Asymmetric Friction in Platform Safety Controls",
+              "score": 0.5731
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Lina M. Khan and David E. Pozen question whether Jack Balkin's concept of information fiduciaries is an adequate or apt response to the fundamental problems associated with outsized market share and business models built on pervasive surveillance. They argue that the information-fiduciary framework invites enervating complacency toward online platforms' structural power and risks a premature abandonment of more robust public regulation. While they acknowledge that dominant online platforms cause serious harms that warrant legal intervention, they contend that treating tech firms as fiduciaries leaves foundational business models unchallenged.",
+          "verbatim": "Although we agree with Balkin that the harms stemming from dominant online platforms call for legal intervention, we question whether the concept of information fiduciaries is an adequate or apt response to the problems of information insecurity that he stresses, much less to more fundamental problems associated with outsized market share and business models built on pervasive surveillance.",
+          "excerpt_context": "Introduction, page 497",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Information-fiduciary frameworks are inadequate responses to outsized market share and business models built on pervasive surveillance, risking complacency and premature abandonment of robust public regulation.",
+          "attribution_text": "A Belief within skeptic discourse that information-fiduciary frameworks fail to address fundamental structural problems of market dominance and pervasive surveillance. Encompasses: market power, surveillance business models, and regulatory complacency.",
+          "vocabulary_terms": [
+            "surveillance capitalism",
+            "market dominance",
+            "regulatory complacency"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-desires-014",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "Lina M. Khan and David E. Pozen argue for robust regulatory interventions to address the wide-ranging harms inflicted by digital platforms, including predatory advertising, algorithmic discrimination, user addiction, the spread of disinformation, and targeted harassment. They contend that these substantive threats require more than voluntary industry codes or limited fiduciary duties; they demand aggressive public oversight capable of confronting corporate market dominance. Their analysis asserts that preventing platforms from acting like con artists requires structural remedies that go well beyond traditional consumer protection analogies.",
+          "verbatim": "Digital businesses such as Facebook, Google, and Twitter collect an enormous amount of data about their users. Sometimes they do things with this data that threaten the users’ best interests, from allowing predatory advertising and enabling discrimination to inducing addiction and sharing sensitive details with third parties.",
+          "excerpt_context": "Introduction, pages 498-499",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Regulatory frameworks ought to address the full spectrum of platform harms, including predatory advertising, discrimination, addiction, and disinformation, through robust public intervention.",
+          "attribution_text": "A Desire within skeptic discourse that prioritizes robust public regulation to protect personal freedoms and autonomy from platform-enabled harms. Encompasses: predatory advertising, algorithmic discrimination, and disinformation.",
+          "vocabulary_terms": [
+            "algorithmic discrimination",
+            "predatory advertising",
+            "platform harms"
+          ],
+          "retrieval_confidence": 0.6841,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-236",
+              "label": "Prohibitionist Policy Backfire",
+              "score": 0.7228
+            },
+            {
+              "id": "skp-desires-014",
+              "label": "Human Rights as Constraints on AI Deployment",
+              "score": 0.6841
+            },
+            {
+              "id": "skp-desires-080",
+              "label": "Algorithmic Transparency as a Democratic Right",
+              "score": 0.6813
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-219",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The legal structure of Delaware for-profit corporations legally binds officers and directors to prioritize shareholder wealth, making the information-fiduciary proposal structurally incoherent without heavy-handed government intervention. Because tech platforms like Facebook rely on advertising models driven by user engagement, addictive behavior, divisive content, and data surveillance, reforms that protect user privacy or reduce addiction directly threaten firm profitability. Consequently, the information-fiduciary concept ignores the reality that corporate governance rules render divided loyalties an intractable contradiction.",
+          "verbatim": [
+            "Right off the bat, these observations give reason to question the feasibility, if not also the coherence, of applying the information-fiduciary idea to the leading social media companies.",
+            "A fiduciary with sharply opposed loyalties teeters on the edge of contradiction."
+          ],
+          "excerpt_context": "Section 2, page 504",
+          "extraction_confidence": 0.98,
+          "canonical_proposition": "Applying information-fiduciary obligations to profit-maximizing social media companies is structurally incoherent because corporate law legally compels officers to prioritize shareholder returns over user welfare.",
+          "attribution_text": "A Belief within skeptic discourse that existing corporate law doctrines prevent profit-maximizing firms from faithfully executing fiduciary duties toward platform users. Encompasses: corporate sociopathy, structural conflict of interest, and shareholder primacy constraints.",
+          "vocabulary_terms": [
+            "fiduciary_duty",
+            "corporate_governance",
+            "surveillance_capitalism"
+          ],
+          "retrieval_confidence": 0.6571,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-219",
+              "label": "Corporate Sociopathy as Systemic Design",
+              "score": 0.6571
+            },
+            {
+              "id": "skp-beliefs-216",
+              "label": "Bargaining Asymmetry in User-Platform Relations",
+              "score": 0.5853
+            },
+            {
+              "id": "skp-beliefs-275",
+              "label": "Historical pattern of legal fictions allocating responsibility to non-human entities benefiting capital owners",
+              "score": 0.5804
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-138",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Social media business models depend on targeted advertising, which creates a powerful economic incentive to maximize user time on site, collect extensive personal data, and promote addictive, divisive, and inflammatory content. Practices that degrade privacy and foster a society of exposure are not implementation glitches but core features of the business plan. Therefore, measures to enhance user privacy or curb sensationalism directly conflict with corporate financial imperatives under existing market structures.",
+          "verbatim": [
+            "Like other corporations with comparable business models, Facebook therefore has a strong economic incentive to maximize the amount of time users spend on the site and to collect and commodify as much user data as possible.",
+            "Allowing discordant and false material on the platform was not a glitch in the business plan — it was the plan."
+          ],
+          "excerpt_context": "Section 2, pages 505-506",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Surveillance-based advertising business models inherently incentivize addictive design, divisive content promotion, and privacy erosion to maximize corporate revenue.",
+          "attribution_text": "A Belief within skeptic discourse that digital platform business models intrinsically rely on maximizing user engagement through manipulative and privacy-invasive practices. Encompasses: targeted advertising, engagement metrics, and profit-driven algorithmic nudging.",
+          "vocabulary_terms": [
+            "surveillance_capitalism",
+            "targeted_advertising",
+            "profit_driven_nudging"
+          ],
+          "retrieval_confidence": 0.5622,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-294",
+              "label": "Asymmetric Friction in Platform Safety Controls",
+              "score": 0.6354
+            },
+            {
+              "id": "pol-3313",
+              "label": "",
+              "score": 0.6298
+            },
+            {
+              "id": "skp-desires-073",
+              "label": "Right to Know When Algorithms Set Your Price",
+              "score": 0.6228
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-294",
+              "label": "Asymmetric Friction in Platform Safety Controls",
+              "score": 0.6354
+            },
+            {
+              "id": "skp-desires-073",
+              "label": "Right to Know When Algorithms Set Your Price",
+              "score": 0.6228
+            },
+            {
+              "id": "skp-beliefs-252",
+              "label": "Digital Minimalism Privilege Gap",
+              "score": 0.6005
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-138",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The authors argue that online behavioral advertising models create a perpetual and insuperable conflict of interest between digital platforms and their users, rendering the concept of an information fiduciary oxymoronic. Because platforms rely on data extraction and targeted monetization for their economic livelihood, they cannot satisfy the core fiduciary requirement to place client interests ahead of their own. The text uses a medical analogy of a profit-driven doctor funded by pharmaceutical marketing to illustrate how advertising-based incentives fundamentally undermine user well-being. From a skeptic perspective, this analysis exposes the structural impossibility of reforming surveillance capitalism through voluntary or cabined fiduciary duties without fundamentally altering corporate business models.",
+          "verbatim": [
+            "As long as such companies make most of their money through personally targeted advertisements, they will be economically motivated to extract as much data from their users as they can — a motivation that runs headfirst into users’ privacy interests as well as any interests users might have in exercising behavioral autonomy or ensuring that their personal data is not stolen, sold, mined, or otherwise monetized down the line.",
+            "The whole point of proscriptive rules implementing the duty of loyalty is to minimize biasing factors that might induce the fiduciary to subjugate the interests of beneficiaries to any other end."
+          ],
+          "excerpt_context": "Section III, pages 512-514",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Online behavioral advertising creates a perpetual conflict of interest that renders the information-fiduciary model fundamentally implausible.",
+          "attribution_text": "A Belief within skeptic discourse that profit-driven behavioral advertising models create an unresolvable structural conflict of interest that invalidates the information-fiduciary framework. Encompasses: Surveillance capitalism, profit-driven algorithmic nudging, and transactional privacy traps.",
+          "vocabulary_terms": [
+            "behavioral_advertising",
+            "conflict_of_interest",
+            "surveillance_capitalism",
+            "fiduciary_duty"
+          ],
+          "retrieval_confidence": 0.6384,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-226",
+              "label": "Relational Employment Vulnerability",
+              "score": 0.6455
+            },
+            {
+              "id": "skp-beliefs-138",
+              "label": "Profit-Driven Algorithmic Nudging Undermines Fiduciary Duty",
+              "score": 0.6384
+            },
+            {
+              "id": "skp-beliefs-249",
+              "label": "Bootlegger and Baptist Regulatory Strategy",
+              "score": 0.6377
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-228",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The text emphasizes that proposals like Jack Balkin's information-fiduciary framework permit the continuation of targeted advertising tied to personally identifiable information, conceding a core commercial practice of surveillance capitalism. The authors contend that permitting platforms to harvest personal data and serve targeted ads perpetuates deep power asymmetries and data exploitation under the guise of reform. From a skeptic perspective, maintaining a business model built on continuous tracking and profiling is incompatible with genuine user protection or privacy rights, demonstrating that proposed regulatory fixes often preserve existing corporate power structures.",
+          "verbatim": [
+            "But Balkin is clear that at least one core practice would survive his reforms: the selling of targeted advertisements tied to personally identifiable information.",
+            "This concession alone highlights how strained the fiduciary designation is here."
+          ],
+          "excerpt_context": "Section III, pages 511-512",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Information-fiduciary frameworks that permit targeted advertising preserve the fundamental commercial drivers of surveillance capitalism.",
+          "attribution_text": "A Belief within skeptic discourse that regulatory frameworks permitting targeted advertising fail to address the core mechanisms of data extraction and corporate exploitation. Encompasses: Transactional privacy critique, surveillance capitalism, and data commodification.",
+          "vocabulary_terms": [
+            "targeted_advertising",
+            "surveillance_capitalism",
+            "data_extraction"
+          ],
+          "retrieval_confidence": 0.6167,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-desires-003",
+              "label": "Privacy as a Non-Negotiable Right in AI",
+              "score": 0.691
+            },
+            {
+              "id": "skp-beliefs-217",
+              "label": "Consent-Washing",
+              "score": 0.6874
+            },
+            {
+              "id": "skp-beliefs-226",
+              "label": "Relational Employment Vulnerability",
+              "score": 0.6811
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-desires-003",
+              "label": "Privacy as a Non-Negotiable Right in AI",
+              "score": 0.691
+            },
+            {
+              "id": "skp-beliefs-217",
+              "label": "Consent-Washing",
+              "score": 0.6874
+            },
+            {
+              "id": "skp-beliefs-226",
+              "label": "Relational Employment Vulnerability",
+              "score": 0.6811
+            }
+          ]
+        },
+        {
+          "stance": "strongly_opposed",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Behaviorally targeted advertising business models inherently generate economic incentives that directly conflict with customer interests, making fiduciary loyalty implausible. The author explains that while minor divergences in traditional fiduciaries can be managed, behavioral advertising relies on constant data monetization that renders fiduciary obligations structurally impossible. This challenges the information fiduciary framework by demonstrating that platform business models are fundamentally incompatible with duties of loyalty. A potential caveat is that this critique assumes all monetization of behavioral data necessarily harms user interests.",
+          "verbatim": "Although the economic incentives of commercial fiduciaries will sometimes diverge from the interests of their customers and raise difficult issues at the margins... there are cases where the degree of misalignment renders fiduciary loyalty implausible. Businesses built on behaviorally targeted advertising appear to be one such case.",
+          "excerpt_context": "Section III, paragraph 1",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Businesses built on behaviorally targeted advertising possess economic incentives so misaligned with customer interests that fiduciary loyalty is rendered implausible.",
+          "attribution_text": "A Belief within skeptic discourse that behaviorally targeted advertising models generate insurmountable economic incentives that conflict with customer interests. Encompasses: misaligned commercial incentives, structural disloyalty, and behavioral monetization.",
+          "vocabulary_terms": [
+            "behaviorally_targeted_advertising",
+            "fiduciary_loyalty",
+            "incentive_misalignment"
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-216",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Advertisers and content producers who rely on platforms like Facebook are just as captive as end users, yet information fiduciary proposals fail to protect them. The author reasons that Facebook systematically sweeps up nonuser data and monetizes proprietary advertiser data, incorporating marketing campaigns into its algorithms and exposing them to competitors. This highlights a broader structural vulnerability across all platform dependents rather than just individual end users. A caveat is that platform captivity varies by commercial sector.",
+          "verbatim": "Many advertisers and content producers are just as captive as Facebook is to its end users, or even more so. Insofar as the purpose of the information-fiduciary proposal is to rebalance the relationship between dominant online intermediaries and those who depend on them, it is unclear why its protections should cover only one set of dependents.",
+          "excerpt_context": "Section III, paragraph 2",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Advertisers and content producers are as captive to dominant platforms as end users, rendering narrow information fiduciary protections inadequate.",
+          "attribution_text": "A Belief within skeptic discourse that structural captivity extends beyond end users to all platform dependents, including advertisers and content producers. Encompasses: platform captivity, commercial dependency, and selective regulatory protection.",
+          "vocabulary_terms": [
+            "platform_captivity",
+            "structural_vulnerability",
+            "information_fiduciaries"
+          ],
+          "retrieval_confidence": 0.5601,
+          "taxonomy_node_candidates": [
+            {
+              "id": "sit-399",
+              "label": "Moderator's Dilemma",
+              "score": 0.6411
+            },
+            {
+              "id": "skp-beliefs-237",
+              "label": "Section 230 Material Contribution Threshold",
+              "score": 0.6249
+            },
+            {
+              "id": "skp-beliefs-236",
+              "label": "Prohibitionist Policy Backfire",
+              "score": 0.6184
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-237",
+              "label": "Section 230 Material Contribution Threshold",
+              "score": 0.6249
+            },
+            {
+              "id": "skp-beliefs-236",
+              "label": "Prohibitionist Policy Backfire",
+              "score": 0.6184
+            },
+            {
+              "id": "skp-beliefs-216",
+              "label": "Bargaining Asymmetry in User-Platform Relations",
+              "score": 0.5601
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-216",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The severe power imbalances between users and online platforms do not stem organically from fiduciary structures, but are constructed through deliberate business strategies and dominant market positions. The author contrasts traditional medical and legal fiduciaries with social media platforms, noting that sharing intimate personal data is not a functional prerequisite for access, but rather an enforced pricing model. This demonstrates that user vulnerability is a manufactured product of monopolistic market structures rather than an inherent feature of digital services. A caveat is that digital infrastructure requires large-scale data collection for basic operations.",
+          "verbatim": "The loss of privacy and control experienced by Facebook users therefore does not stem, organically, 'from the structure and nature of the fiduciary relation.' It stems from Facebook's deliberate efforts to create such vulnerabilities. Facebook's dominant market position supports this strategy.",
+          "excerpt_context": "Section III, paragraph 6",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "User privacy loss and vulnerability stem from deliberate corporate strategies and market dominance rather than organic fiduciary relationships.",
+          "attribution_text": "A Belief within skeptic discourse that platform-induced vulnerabilities are artificially constructed through deliberate corporate strategies and monopolistic market dominance. Encompasses: constructed vulnerability, forced data extraction, and market dominance.",
+          "vocabulary_terms": [
+            "constructed_vulnerability",
+            "market_dominance",
+            "surveillance_capitalism"
+          ],
+          "retrieval_confidence": 0.6015,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-237",
+              "label": "Section 230 Material Contribution Threshold",
+              "score": 0.6473
+            },
+            {
+              "id": "skp-beliefs-006",
+              "label": "Corporate Opacity as Structural Liability Shield",
+              "score": 0.6393
+            },
+            {
+              "id": "skp-beliefs-305",
+              "label": "Subsidiary Insolvency as Corporate Liability Firewall",
+              "score": 0.629
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Online platform users face first-order information asymmetries where they do not even understand the basic contours of data collection, unlike the second-order asymmetries of traditional fiduciaries. The author cites surveys showing that the vast majority of Facebook users are unaware that their data is collected to classify interests and traits, or that they are exposed to targeted ads. This proves that digital platforms operate as elaborately imposed systems of social control rather than transparent service relationships. A caveat is that user ignorance may partly reflect deliberate corporate obfuscation.",
+          "verbatim": "What happens when the service provider and the customer lack this shared understanding of the core terms of their relationship? We might describe the information asymmetries that obtain in some of the digital settings in question as first-order asymmetries... the typical user does not even understand — much less approve of — their basic contours.",
+          "excerpt_context": "Section III, paragraph 9",
+          "extraction_confidence": 0.94,
+          "canonical_proposition": "Online platforms generate first-order information asymmetries where users do not understand or approve of core data practices.",
+          "attribution_text": "A Belief within skeptic discourse that digital platforms create first-order information asymmetries where fundamental operating terms remain uncomprehended by users. Encompasses: first-order asymmetries, user ignorance, and systems of social control.",
+          "vocabulary_terms": [
+            "first_order_asymmetry",
+            "information_asymmetry",
+            "social_control"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The information-fiduciary model proposed by legal scholars largely duplicates existing consumer protection and contract law norms rather than imposing true traditional fiduciary duties. Balkin's repeated references to 'good faith' mirror the baseline obligation already present in all contracts, omitting the 'utmost good faith' standard that defines actual fiduciaries. Consequently, labeling online platforms as information fiduciaries changes almost nothing legally while offering an abstract new theorization that avoids institutional realities.",
+          "verbatim": "Balkin’s frequent refrain that digital information fiduciaries would have to act in “good faith” toward their users is telling in what it leaves out. Again, all parties involved in all contracts, including terms-of-service contracts, must always act in good faith toward each other. As a matter of law, Balkin’s proposal would change nothing in this regard. What is distinctive about fiduciaries is that they are generally held to a standard of “utmost” good faith.",
+          "excerpt_context": "Section 5, Subsection A",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "The information-fiduciary model duplicates existing contract law by requiring mere good faith rather than the utmost good faith characteristic of true fiduciaries.",
+          "attribution_text": "A Belief within skeptic discourse that the information-fiduciary framework fails to impose true fiduciary duties, merely restating baseline good-faith contract and consumer protection norms. Encompasses: contractual good-faith standards, legal redundancy of fiduciary labels, and absence of utmost good-faith requirements.",
+          "vocabulary_terms": [
+            "fiduciary_duty",
+            "consumer_protection",
+            "good_faith"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Introducing new information-fiduciary duties creates acute legal tensions with the fiduciary duties that corporate directors owe to shareholders under traditional corporate law. Because an online platform's profitability relies heavily on broad data sharing and addictive user engagement behaviors, effective legal reform would require sacrificing shareholder value in ways the literature fails to acknowledge.",
+          "verbatim": "To break new legal ground here, reformers may have to sacrifice shareholder value to a degree that the information-fiduciary literature has not yet acknowledged or considered.",
+          "excerpt_context": "Section 5, Subsection A",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Information-fiduciary duties directly conflict with corporate directors' fiduciary obligations to maximize shareholder value through data monetization and user addiction.",
+          "attribution_text": "A Belief within skeptic discourse that imposing fiduciary duties on platforms clashes with corporate law mandates to prioritize shareholder value. Encompasses: shareholder primacy conflicts, corporate governance contradictions, and profit-driven data extraction models.",
+          "vocabulary_terms": [
+            "fiduciary_duty",
+            "corporate_governance",
+            "shareholder_value"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Proposals for information fiduciaries face severe enforcement dilemmas regarding whether rights would be enforced through private litigation or administrative oversight. Relying on private judicial enforcement risks overwhelming court dockets given the hundreds of millions of users involved, whereas relying solely on administrative bodies like the FTC or limiting enforcement to state attorneys general reduces fiduciary obligations to a secondary legal status.",
+          "verbatim": "If private judicial enforcement is contemplated, the scale of such litigation could be staggering. As of July 2019, Facebook and Google each had well over 200 million monthly users in the United States alone. Given that cases involving newly minted information-fiduciary duties would likely raise a host of novel legal issues and technical complexities, Balkin’s proposal has the potential to swallow judicial dockets even with the aid of class actions",
+          "excerpt_context": "Section 5, Subsection B",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Private judicial enforcement of information-fiduciary duties would overwhelm court dockets, while administrative-only enforcement relegates those duties to secondary status.",
+          "attribution_text": "A Belief within skeptic discourse that enforcing information-fiduciary obligations creates an intractable dilemma between judicial overload and administrative toothlessness. Encompasses: litigation scale challenges, regulatory enforcement bottlenecks, and remedial institutional design.",
+          "vocabulary_terms": [
+            "regulatory_enforcement",
+            "litigation_dockets"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-170",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The enforcement of platform accountability relies heavily on investigative journalism to uncover data breaches and privacy violations, yet the dominant online platforms simultaneously threaten the economic viability of journalism through their control of the digital advertising market and restrictive terms of service.",
+          "verbatim": "And yet, the stranglehold that these same platforms have on the digital advertising market is itself one of the biggest threats to the economic viability of such reporting. ... Facebook also impedes investigative journalism more directly through its terms of service, which ban reporters and researchers from using automated collection techniques or temporary research accounts to study the platform.",
+          "excerpt_context": "Section 5, Subsection B",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Online platforms undermine the investigative journalism required to uncover their own regulatory violations through advertising market dominance and restrictive terms of service.",
+          "attribution_text": "A Belief within skeptic discourse that dominant platforms undermine the investigative reporting required to expose corporate misconduct. Encompasses: advertising market monopolies, terms-of-service research restrictions, and the financial crisis of journalism.",
+          "vocabulary_terms": [
+            "investigative_journalism",
+            "surveillance_capitalism",
+            "regulatory_evasion"
+          ],
+          "retrieval_confidence": 0.5588,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-178",
+              "label": "Liability-Motivated Suppression of AI Risk Information",
+              "score": 0.6229
+            },
+            {
+              "id": "pol-2257",
+              "label": "",
+              "score": 0.6068
+            },
+            {
+              "id": "skp-intentions-069",
+              "label": "Deputizing Private Litigants as the Verification Layer for AI Disclosure Filings",
+              "score": 0.6066
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-178",
+              "label": "Liability-Motivated Suppression of AI Risk Information",
+              "score": 0.6229
+            },
+            {
+              "id": "skp-intentions-069",
+              "label": "Deputizing Private Litigants as the Verification Layer for AI Disclosure Filings",
+              "score": 0.6066
+            },
+            {
+              "id": "skp-beliefs-259",
+              "label": "Structural Compatibility of Rhetoric and Disinformation",
+              "score": 0.6048
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-041",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The information-fiduciary framework leaves unaddressed a vast array of profound social harms caused by dominant online platforms beyond data privacy, including election interference, incitement of violence, degradation of mental and physical health, and amplification of discrimination and hate speech.",
+          "verbatim": "beyond the issues of privacy and data security that Balkin foregrounds, the dominant online platforms have been credibly associated with a host of social ills, from facilitating interference in U.S. elections; to serving as a tool for the incitement of genocide in Myanmar; to decreasing users’ mental and physical health; to enabling discrimination and harassment against women and racial minorities; to amplifying the influence of “fake news,” conspiracy theories, bot-generated propaganda, and inflammatory and divisive content more broadly.",
+          "excerpt_context": "Section 5, Subsection C",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Information-fiduciary frameworks leave untouched wide-ranging platform harms including election interference, violence incitement, public health degradation, and algorithmic amplification of discrimination.",
+          "attribution_text": "A Belief within skeptic discourse that narrow privacy frameworks ignore systemic social pathologies driven by platform business models. Encompasses: election manipulation, health degradation, and algorithmic amplification of societal harms.",
+          "vocabulary_terms": [
+            "systemic_risks",
+            "algorithmic_amplification",
+            "social_harms"
+          ],
+          "retrieval_confidence": 0.5767,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-224",
+              "label": "Privacy Transactionalism",
+              "score": 0.7106
+            },
+            {
+              "id": "skp-beliefs-228",
+              "label": "Transactional Privacy Critique",
+              "score": 0.7084
+            },
+            {
+              "id": "skp-intentions-112",
+              "label": "Break Down Policy Silos to Assess Corporate AI Power Across Regulatory Domains",
+              "score": 0.6819
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-224",
+              "label": "Privacy Transactionalism",
+              "score": 0.7106
+            },
+            {
+              "id": "skp-beliefs-228",
+              "label": "Transactional Privacy Critique",
+              "score": 0.7084
+            },
+            {
+              "id": "skp-intentions-112",
+              "label": "Break Down Policy Silos to Assess Corporate AI Power Across Regulatory Domains",
+              "score": 0.6819
+            }
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-216",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that behavioral advertising business models coupled with outsized market share create mutually reinforcing harms, such as Google and Facebook capturing roughly three-quarters of digital advertising sales in the United States. This economic dominance has driven consolidation and tens of thousands of layoffs within the publishing industry, creating local news deserts. The structural power imbalance between platforms and publishers mirrors broader bargaining asymmetries, leaving traditional media and local communities with little meaningful news coverage.",
+          "verbatim": [
+            "Many of the broader harms associated with these platforms are magnified or made possible by a behavioral-advertising-based business model coupled with outsized market share.",
+            "Their control over digital advertising networks appears to be an important factor behind the past decade’s consolidation within the publishing industry and tens of thousands of layoffs at newspapers and magazines."
+          ],
+          "excerpt_context": "Section 6, paragraph 1",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "The combination of behavioral advertising business models and monopolistic market share creates structural bargaining asymmetries that devastate the publishing industry and local news coverage.",
+          "attribution_text": "A Belief within skeptic discourse that structural power imbalances between dominant platforms and media publishers create severe downstream harms, including industry consolidation and local news deserts. Encompasses: Behavioral advertising monopolies, publishing industry layoffs, and bargaining asymmetry.",
+          "vocabulary_terms": [
+            "bargaining asymmetry",
+            "market concentration",
+            "behavioral advertising"
+          ],
+          "retrieval_confidence": 0.6554,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-216",
+              "label": "Bargaining Asymmetry in User-Platform Relations",
+              "score": 0.6554
+            },
+            {
+              "id": "sit-399",
+              "label": "Moderator's Dilemma",
+              "score": 0.5632
+            },
+            {
+              "id": "skp-beliefs-233",
+              "label": "Algorithmic Amplification as the Primary Vector for Electoral Manipulation",
+              "score": 0.5522
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-250",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The authors critique the 'information fiduciary' proposal as an appealing theoretical concept that functions partly as a political compromise. They argue that the framework comes across as consumer-protective yet conflict-suppressive, promising broad social benefits without overly threatening tech giants or their profits. This impression management allows powerful institutions to adopt the rhetoric of trustworthiness without undergoing structural reform.",
+          "verbatim": [
+            "At a political level, the proposal comes across as consumer protective yet conflict suppressive, promising to deliver broad social benefits without overly threatening the tech giants or their profits.",
+            "At an aesthetic level, there is something attractive about the way in which a fiduciary framework would hold platforms to their own rhetoric of trustworthiness."
+          ],
+          "excerpt_context": "Section 6, Section IV",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Corporate governance proposals like information fiduciaries function as conflict-suppressive impression management that protects tech giant profits while avoiding structural market intervention.",
+          "attribution_text": "A Belief within skeptic discourse that corporate impression management and consumer-protective legal theories function as conflict-suppressive mechanisms that shield dominant firms from structural reform. Encompasses: Impression management, regulatory avoidance, and conflict-suppressive frameworks.",
+          "vocabulary_terms": [
+            "impression management",
+            "regulatory avoidance"
+          ],
+          "retrieval_confidence": 0.7415,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-250",
+              "label": "Coercive Communication via Impression Management",
+              "score": 0.7415
+            },
+            {
+              "id": "saf-beliefs-215",
+              "label": "Reachability of a Payer Is Not Attribution of the Design Choice",
+              "score": 0.5818
+            },
+            {
+              "id": "skp-beliefs-178",
+              "label": "Liability-Motivated Suppression of AI Risk Information",
+              "score": 0.5693
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-257",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document evaluates Jack Balkin's information-fiduciary proposal and argues that its constitutional premise—that designating platforms as fiduciaries will provide First Amendment flexibility to regulate data practices—rests on an overly simple view of judicial review. The authors point out that recent Supreme Court jurisprudence, such as National Institute of Family & Life Advocates v. Becerra, signals deep skepticism toward professional speech categories and content-based regulations, undermining the constitutional payoff promised by the fiduciary model.",
+          "verbatim": [
+            "In short, the notion that designating online platforms as fiduciaries would yield a significant First Amendment payoff strikes us as resting on an overly simple (if not nominalist) view of how judges would respond to such a designation, and as contradicted by the Roberts Court’s case law.",
+            "There is good reason to think that Justice Thomas overstated this point and that certain narrow categories of professional speech... will continue to be treated differently... But at a minimum, National Institute of Family & Life Advocates signals skepticism about Balkin’s broader claim..."
+          ],
+          "excerpt_context": "Section 6, Section IV.A",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Designating online platforms as information fiduciaries fails to provide the anticipated First Amendment flexibility due to judicial hostility toward specialized speech categories.",
+          "attribution_text": "A Belief within skeptic discourse that legal theories relying on professional speech exceptions to bypass First Amendment protections for dominant platforms are contradicted by contemporary judicial doctrine. Encompasses: First Amendment Lochnerism, professional speech skepticism, and constitutional barriers to platform regulation.",
+          "vocabulary_terms": [
+            "First Amendment",
+            "judicial review",
+            "professional speech"
+          ],
+          "retrieval_confidence": 0.4432,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-236",
+              "label": "Prohibitionist Policy Backfire",
+              "score": 0.5812
+            },
+            {
+              "id": "skp-intentions-155",
+              "label": "Secondary Effects Doctrine for AI Regulation",
+              "score": 0.5804
+            },
+            {
+              "id": "skp-beliefs-059",
+              "label": "Counterintuitive Legal Terminology in National Security Statutes Creates Compliance Traps",
+              "score": 0.5747
+            }
+          ],
+          "retrieval_low_confidence": true,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-236",
+              "label": "Prohibitionist Policy Backfire",
+              "score": 0.5812
+            },
+            {
+              "id": "skp-intentions-155",
+              "label": "Secondary Effects Doctrine for AI Regulation",
+              "score": 0.5804
+            },
+            {
+              "id": "skp-beliefs-059",
+              "label": "Counterintuitive Legal Terminology in National Security Statutes Creates Compliance Traps",
+              "score": 0.5747
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-112",
+          "mechanism_type": "market_mechanism",
+          "category": "Intentions",
+          "point": "The authors argue that legal reformers must look beyond the narrow fiduciary frame and grapple with systemic concerns regarding market structure and political-economic influence. They advocate for comprehensive regulatory frameworks that combine antitrust enforcement, pro-competition rules, structural dominance limits, and front-end data collection limits rather than relying exclusively on fiduciary duties or abusive data practice rules.",
+          "verbatim": [
+            "Our point here... is that any broad regulatory framework or “grand bargain” for social media that focuses on abusive data practices, without attending to issues of market structure or political-economic influence, is bound to be at best highly incomplete and at worst an impediment to necessary reforms.",
+            "Limiting the dominance of some of these firms may well have salutary effects for consumer privacy, both by facilitating competition on privacy protection and by reducing the likelihood that any single data-security failure will cascade into a much wider harm."
+          ],
+          "excerpt_context": "Section 6, paragraph 4 & Section IV",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Regulators ought to combine antitrust enforcement, market structure limits, and pro-competition rules with privacy regulations rather than relying solely on information fiduciary models.",
+          "attribution_text": "An Intention within skeptic discourse that advocates for synthesizing antitrust enforcement, market structure limits, and privacy regulations to address corporate platform power comprehensively. Encompasses: Antitrust enforcement, market structure intervention, and holistic regulatory reform.",
+          "vocabulary_terms": [
+            "antitrust enforcement",
+            "market structure",
+            "pro-competition rules"
+          ],
+          "retrieval_confidence": 0.9005,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-112",
+              "label": "Break Down Policy Silos to Assess Corporate AI Power Across Regulatory Domains",
+              "score": 0.9005
+            },
+            {
+              "id": "acc-intentions-124",
+              "label": "Replacing Pre-Market Gates with Revenue-Scaled Post-Market Liability",
+              "score": 0.7659
+            },
+            {
+              "id": "skp-beliefs-110",
+              "label": "National Industrial Strategy Is an Underutilized Tool for Countering Corporate Monopoly Power",
+              "score": 0.7381
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_opposed",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The information-fiduciary model paints a fundamentally false portrait of online platforms as trustworthy caretakers, when their underlying economic incentives and duties to shareholders create an irreconcilable tension with user loyalty. Pursuing this fiduciary framework risks legitimizing surveillance capitalism, entrenching existing business models, and distracting from necessary structural and antitrust reforms. Rather than treating dominant platforms as professional fiduciaries akin to doctors or lawyers, regulators ought to recognize them as powerful infrastructural bottlenecks and New Governors of the public sphere. The text notes that designating platforms as fiduciaries treats systemic market dominance as a private relationship to be managed rather than a public problem to be solved.",
+          "verbatim": "First, and most simply, a fiduciary framework paints a false portrait of the digital world. It characterizes Facebook, Google, Twitter, and other online platforms as fundamentally trustworthy actors who put their users’ interests first. As we tried to show in Part II, this is not a plausible depiction of what most of these companies — even if chastened in the ways Balkin outlines — are really like. The tension between what it would take to implement a fiduciary duty of loyalty to users, on the one hand, and these companies’ economic incentives and duties to shareholders, on the other, is too deep to resolve without fundamental reform. To suggest otherwise is to risk mystification of 'surveillance capitalism,' entrenchment of prevailing business models, and legitimation of a wide range of troubling practices, if not also the unraveling of fiduciary law itself.",
+          "excerpt_context": "Section VII, Part IV.B, paragraph 2",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Information-fiduciary frameworks ought to be rejected because they legitimize surveillance capitalism and obscure dominant online platforms' structural power over public communication.",
+          "attribution_text": "A Desire within skeptic discourse that rejects information-fiduciary frameworks for online platforms, arguing they legitimize surveillance capitalism and obscure structural corporate power. Encompasses: False portraits of platform trustworthiness, irreconcilable shareholder duties, and the mystification of surveillance capitalism.",
+          "vocabulary_terms": [
+            "surveillance capitalism",
+            "fiduciary duty",
+            "structural power"
+          ]
+        },
+        {
+          "stance": "strongly_opposed",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The information-fiduciary proposal invites policy misfires by offering prescriptions that merely mirror or marginally refine existing consumer protection guarantees and anti-fraud doctrines, lacking any independent justification for departing from them. Furthermore, a proposed federal fiduciary statute that would preempt state privacy laws is a bad deal for privacy proponents given the pioneering enforcement role played by state attorneys general. The relational framing of the information-fiduciary model recasts broad public interest questions about democratic discourse into narrow quasi-contractarian disputes between individual users and platforms. This approach implicitly acquiesces in the market structures that enabled tech giants to achieve dominance.",
+          "verbatim": "Second, this false portrait of reality invites policy misfires. To a large extent, it seems that Balkin’s prescriptions would simply mirror or marginally refine longstanding consumer protection guarantees and anti-fraud doctrines, in which case our time and energy may be better spent figuring out how to strengthen enforcement of the existing rules rather than proliferating legal categories.",
+          "excerpt_context": "Section VII, Part IV.B, paragraph 3",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Information-fiduciary proposals merely replicate existing consumer protection doctrines while preempting more effective state-level enforcement and ignoring broader structural market power.",
+          "attribution_text": "A Belief within skeptic discourse that information-fiduciary proposals fail to provide novel protections beyond existing consumer law while preempting robust state enforcement. Encompasses: Consumer protection redundancy, state law preemption, and the obscuring of structural market power.",
+          "vocabulary_terms": [
+            "consumer protection",
+            "preemption",
+            "market structures"
+          ]
+        },
+        {
+          "stance": "strongly_opposed",
+          "taxonomy_node_id": "skp-beliefs-170",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The information-fiduciary approach tends to cannibalize rather than complement procompetition reforms, serving as a regulatory third way that allows platforms to avoid heavy-handed structural intervention or breakups. Mark Zuckerberg's positive reception of the fiduciary concept illustrates how designating an entity as a loyal caretaker shields it from being dismantled by the government. Rather than being treated as a public problem requiring radical reform, the platform is reframed as a private relationship to be nurtured. Consequently, lawmakers are unlikely to pursue both fiduciary oversight and structural market restructuring simultaneously.",
+          "verbatim": "This fourth and final downside risk may be the most practically consequential of them all. When introducing the information-fiduciary proposal, Balkin and Zittrain billed it as a kind of regulatory third way that could transcend ordinary political divides and policy tradeoffs.",
+          "excerpt_context": "Section VII, Part IV.B, paragraphs 6-7",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Information-fiduciary regulation cannibalizes procompetition reforms by providing dominant platforms with a political shield against structural breakups and heavy-handed oversight.",
+          "attribution_text": "A Belief within skeptic discourse that information-fiduciary regulation functions as a political shield that cannibalizes procompetition reforms and prevents structural breakups. Encompasses: Regulatory third ways, political shielding, and the avoidance of structural intervention.",
+          "vocabulary_terms": [
+            "procompetition reforms",
+            "structural intervention",
+            "regulatory capture"
+          ],
+          "retrieval_confidence": 0.5782,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-113",
+              "label": "Institutional Inertia From Entrenched Lobbies Prevents Regulatory Frameworks From Evolving",
+              "score": 0.6327
+            },
+            {
+              "id": "skp-beliefs-180",
+              "label": "Regulation Should Target Inference Acts, Not Data Collection",
+              "score": 0.6299
+            },
+            {
+              "id": "skp-beliefs-255",
+              "label": "Political Market for Coercive Power",
+              "score": 0.6077
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": "market_mechanism",
+          "category": "Intentions",
+          "point": "Regulators ought to draw upon alternative analogies, specifically offline providers of social and economic infrastructure and environmental pollution, to address dominant online platforms through structural and economic mechanisms. Structural interventions include nondiscrimination and common carrier regimes, line-of-business limits, corporate governance reforms, public options, and data interoperability requirements that reduce switching costs. Additionally, addressing data collection through an environmental pollution lens points toward ex ante prohibitions, Pigouvian taxes on data retention, and ex post liability rules for data spills. These clear prohibitions and economic disincentives force firms to internalize social costs rather than relying on morally laden fiduciary standards.",
+          "verbatim": "First, in the case of Facebook, Google, and other large online platforms, we might draw an analogy to 'offline' providers of social and economic infrastructure. To the degree that these platforms serve as key channels of communication, commerce, and information flow, they can be recognized as controlling the terms of access to essential services.",
+          "excerpt_context": "Section VII, Part V, paragraphs 2-3",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Regulators ought to apply structural infrastructure and environmental pollution frameworks, including interoperability mandates and Pigouvian data taxes, to discipline platform power.",
+          "attribution_text": "An Intention within skeptic discourse that advocates applying infrastructure regulation and environmental pollution frameworks to discipline dominant platforms through structural mandates and economic disincentives. Encompasses: Infrastructure analogies, data interoperability requirements, and Pigouvian data taxes.",
+          "vocabulary_terms": [
+            "infrastructure regulation",
+            "interoperability",
+            "Pigouvian taxes"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-321",
+          "category": "Beliefs",
+          "point": "The text highlights an acute tension between the proposed information-fiduciary duties owed to users and the legally binding fiduciary duties that corporate directors owe to shareholders. Because platform profitability relies on expansive data sharing and addictive engagement mechanics, creating enforceable user duties requires sacrificing shareholder value in ways advocates have not acknowledged.",
+          "verbatim": null,
+          "excerpt_context": "unmapped_concept_backfill",
+          "extraction_confidence": 0.7,
+          "vocabulary_terms": []
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "The General Data Protection Regulation (GDPR) was adopted by the European Union in 2016, entered into force in May 2018, and replaced the 1995 data protection directive.",
+      "claim_label": "GDPR Adoption and Implementation Timeline",
+      "doc_position": "neutral",
+      "temporal_scope": "historical",
+      "temporal_bound": "2016-2018",
+      "extraction_confidence": 1,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "legal_statute",
+          "verification_method": "official_record",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Fifteen Democratic senators introduced the Data Care Act of 2018 in December 2018 to establish fiduciary duties for online service providers regarding personal data.",
+      "claim_label": "Introduction of the Data Care Act of 2018",
+      "doc_position": "neutral",
+      "temporal_scope": "historical",
+      "temporal_bound": "December 2018",
+      "extraction_confidence": 1,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "legislative_record",
+          "verification_method": "congressional_filing",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Kenneth C. Laudon proposed the concept of information fiduciaries and a National Information Market in his 1993 conference paper titled Markets and Privacy.",
+      "claim_label": "Origin of Information Fiduciary Concept",
+      "doc_position": "neutral",
+      "temporal_scope": "historical",
+      "temporal_bound": "1993",
+      "extraction_confidence": 1,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "academic_literature",
+          "verification_method": "bibliographic_record",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Major technology companies including Facebook, Google, Twitter, Uber, Airbnb, Match Group, and Microsoft are incorporated as for-profit entities in Delaware or Washington state, subjecting their officers and directors to established corporate fiduciary doctrines prioritizing shareholder wealth.",
+      "claim_label": "Corporate Incorporation Jurisdictions",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2019",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-219"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "statistical": false,
+          "experimental": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Delaware created public benefit corporations by statute in July 2013, permitting directors to balance stockholder pecuniary interests against the best interests of other materially affected constituencies and public values.",
+      "claim_label": "Delaware Public Benefit Corporation Statute",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 17 July 2013",
+      "extraction_confidence": 0.97,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "statistical": false,
+          "experimental": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Facebook generated more than 98.5 percent of its total 2018 revenue, amounting to over $55 billion, from advertising.",
+      "claim_label": "Facebook 2018 Advertising Revenue Share",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 31 December 2018",
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": false,
+          "statistical": true,
+          "experimental": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Facebook's stock fell by five percent immediately after the company announced in January 2018 that algorithm adjustments favoring content from friends over publishers led users to spend less time on the platform.",
+      "claim_label": "Facebook Stock Decline Following Algorithm Adjustment",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 31 January 2018",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "statistical": true,
+          "experimental": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Jack Balkin and Jonathan Zittrain proposed a preemptive federal statute in a 2016 essay in The Atlantic to organize around the idea of fiduciary responsibility for online platforms, which would displace state and local privacy laws rather than modify corporate law duties to stockholders.",
+      "claim_label": "Balkin and Zittrain Fiduciary Proposal",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2016",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-desires-025",
+        "skp-beliefs-138"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "scholarly_literature",
+          "observational_basis": "textual_analysis",
+          "quantifiable": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Facebook denies selling user data to third parties, but interactions such as ad clicks and developer platform access reveal facets of user identity and data to third-party marketers.",
+      "claim_label": "Facebook Data Access Mechanisms",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2019",
+      "extraction_confidence": 0.9,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-138",
+        "skp-beliefs-228"
+      ],
+      "evidence_criteria": {
+        "specificity": "qualified",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "expert_commentary",
+          "observational_basis": "architectural_analysis",
+          "quantifiable": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "A Pew Research Center survey from January 2019 found that 74 percent of Facebook users do not know that the platform collects data to classify their interests and traits.",
+      "claim_label": "Pew Research Center Survey on Facebook Data Collection Awareness",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "January 2019",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-183",
+        "skp-beliefs-217"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "statistical": true,
+          "verifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "In 2017, the top five most popular social media applications were WhatsApp, Facebook, Messenger, Instagram, and Snapchat, with Facebook owning four of them.",
+      "claim_label": "Facebook Ownership of Top Social Media Apps in 2017",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2017",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-216"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "statistical": true,
+          "verifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "In February 2019, the German national competition regulator, the Bundeskartellamt, issued a decision prohibiting Facebook from combining user data from different sources, concluding it constituted an abuse of a dominant position.",
+      "claim_label": "Bundeskartellamt February 2019 Decision Against Facebook Data Combining",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "February 2019",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-216"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_data": null,
+        "category_criteria": {
+          "official_record": true,
+          "verifiable": true,
+          "documentary": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "As of July 2019, both Facebook and Google each had well over 200 million monthly active users in the United States alone.",
+      "claim_label": "Platform User Scale in US",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by July 2019",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "quantified": true,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Between 2008 and 2018, total newsroom employment in the United States dropped by 25 percent, while newspaper employment experienced a decline nearly twice as large.",
+      "claim_label": "US Newsroom Employment Decline",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2008-2018",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "quantified": true,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Google and Facebook together captured roughly three-quarters of all digital advertising sales in the United States and an even higher percentage of digital advertising growth.",
+      "claim_label": "Digital Advertising Market Concentration",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 2017",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-216"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "is_observable": true,
+          "has_metric": true,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "A major data breach that Facebook suffered in 2018 derived from the site serving as a central passport to the internet, allowing hackers who stole a single access key to gain entry to users' non-Facebook third-party logins.",
+      "claim_label": "Facebook 2018 Single Sign-On Data Breach",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2018",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-desires-027"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "is_observable": true,
+          "has_metric": false,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The United States Supreme Court held in the 2018 case National Institute of Family & Life Advocates v. Becerra that the Court has never recognized professional speech as a separate category of speech exempt from normal prohibitions on content-based restrictions.",
+      "claim_label": "Supreme Court Ruling on Professional Speech",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2018",
+      "extraction_confidence": 0.96,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-257"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "is_observable": true,
+          "has_metric": false,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The German competition authority ruled that Facebook is no longer permitted to force users to agree to the practically unrestricted collection and assignment of non-Facebook data gathered from third-party sources to their personal accounts.",
+      "claim_label": "German Antitrust Ruling on Facebook Data Collection",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2019",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-170",
+        "skp-beliefs-220"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "regulatory ruling",
+          "verifiable": true,
+          "empirical": true
+        }
+      },
+      "claim_relations": []
+    }
+  ],
+  "unmapped_concepts": [
+    {
+      "suggested_label": "Fiduciary Duty Shareholder Primacy Conflict",
+      "suggested_description": "A Belief within skeptic discourse that statutory imposition of fiduciary obligations on digital platforms irreconcilably clashes with corporate director duties to maximize shareholder profits from data monetization.\nEncompasses: Shareholder wealth sacrifice, profit-driven data extraction models, and corporate law contradictions.\nExcludes: General corporate governance reform and antitrust market concentration arguments.",
+      "concept": "The text highlights an acute tension between the proposed information-fiduciary duties owed to users and the legally binding fiduciary duties that corporate directors owe to shareholders. Because platform profitability relies on expansive data sharing and addictive engagement mechanics, creating enforceable user duties requires sacrificing shareholder value in ways advocates have not acknowledged.",
+      "suggested_pov": "skeptic",
+      "suggested_category": "Beliefs",
+      "reason": "Captures the specific corporate law contradiction between user-protection fiduciary duties and shareholder primacy mandates.",
+      "resolved_node_id": "skp-beliefs-321"
+    }
+  ],
+  "empty_cells": []
+}

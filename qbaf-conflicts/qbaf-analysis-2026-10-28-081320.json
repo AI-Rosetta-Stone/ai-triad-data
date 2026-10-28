@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-10-28T08:13:20.3623786-04:00",
+  "claim_count": 25,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Apple Digital Legacy Program",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-027"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Facebook Deceased User Estimates",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-107"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Deceased Celebrity Commercial Market Size",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-4",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "State Criminal Libel Statutes Protecting Decedents",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-5",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Posthumous Right of Publicity State Disparities",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-6",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Robin Williams Estate Plan Publicity Structure",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-7",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "French Digital Republic Act and Data Erasure Guidance",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-8",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Prevalence of Wills Among Americans",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-069",
+        "skp-beliefs-225"
+      ]
+    },
+    {
+      "id": "qc-9",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Gallup Poll on Will Ownership",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-intentions-069"
+      ]
+    },
+    {
+      "id": "qc-10",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "User Neglect of Terms of Service",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-225"
+      ]
+    },
+    {
+      "id": "qc-11",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Legal Status of Personal Data as Property",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-225"
+      ]
+    },
+    {
+      "id": "qc-12",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Surge in Celebrity Trademark Applications",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-13",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "RUFADAA Section 15 Impersonation Ban",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-025"
+      ]
+    },
+    {
+      "id": "qc-14",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Foundational Principles of the Ruggles Report",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-275"
+      ]
+    },
+    {
+      "id": "qc-15",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Larson v. Chase Quasi-Property Ruling",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-275"
+      ]
+    },
+    {
+      "id": "qc-16",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Keller v. Finks Constitutional Ruling on Deceased Persons",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-122",
+        "skp-beliefs-047"
+      ]
+    },
+    {
+      "id": "qc-17",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Franz Kafka Estate Execution and Publication",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-047"
+      ]
+    },
+    {
+      "id": "qc-18",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "High Rate of American Intestacy",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-275"
+      ]
+    },
+    {
+      "id": "qc-19",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Bryant Family Privacy Settlement",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-027"
+      ]
+    },
+    {
+      "id": "qc-20",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "California Delete Act Implementation",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-desires-003",
+        "saf-desires-027"
+      ]
+    },
+    {
+      "id": "qc-21",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Google Inactive Account Manager Launch",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-027"
+      ]
+    },
+    {
+      "id": "qc-22",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "ECHR Postmortem Right to be Forgotten Ruling",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-desires-003"
+      ]
+    },
+    {
+      "id": "qc-23",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Schuyler v. Curtis 1895 Statue Case",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-24",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Introduction of No AI FRAUD Act in 2024",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-25",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "California Delete Act Enactment 2023",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

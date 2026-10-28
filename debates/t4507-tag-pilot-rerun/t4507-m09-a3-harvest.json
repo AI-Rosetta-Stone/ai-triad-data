@@ -1,0 +1,284 @@
+{
+  "debate_id": "174516b2-f8bb-4356-84e4-a20a56e833ca",
+  "debate_title": "Do AI benchmark scores predict real-world usefulness?",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether compute scaling thresholds or independent third-party audits should replace developer self-certification in federal software procurement.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Tying governance milestones directly to compute scaling laws and automated telemetry bypasses bureaucratic evaluation bottlenecks and enables rapid innovation."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Mandatory independent pre-deployment adversarial stress testing is required to prevent metric optimization and catch domain-specific failure modes before public release."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-desires-028",
+        "acc-intentions-100",
+        "sit-157",
+        "saf-beliefs-233",
+        "saf-intentions-005",
+        "saf-intentions-161",
+        "saf-desires-004",
+        "saf-beliefs-110",
+        "sit-232"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether institutional review processes and legal liability structures effectively protect public safety or merely impose harmful delays on software deployment.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-deployment review boards impose unacceptable mortality and efficiency costs by delaying life-saving technologies under precautionary standards."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Agencies must retain rigorous compliance mechanisms because procurement decisions are governed by legal liability and operational friction rather than raw model release velocity."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-desires-028",
+        "acc-intentions-100",
+        "sit-157",
+        "skp-beliefs-251",
+        "skp-desires-070",
+        "skp-beliefs-196",
+        "skp-desires-087",
+        "skp-beliefs-189",
+        "skp-intentions-146"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-232",
+      "nodeLabel": "Evaluation Gap in AI Performance",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-233",
+      "nodeLabel": "Honeypot Fidelity Gap",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-124",
+      "nodeLabel": "Frontier Firm Productivity Multipliers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-157",
+      "nodeLabel": "AI Evaluation, Performance, and Real-World Impact",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-251",
+      "nodeLabel": "Deliberative Uptake as Quality Metric",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-070",
+      "nodeLabel": "Vigilant Pragmatism Toward AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-196",
+      "nodeLabel": "Regressive Compliance Burdens of Centralized Algorithmic Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-161",
+      "nodeLabel": "Prevent AI Harm Through Pre-Launch Checks and Operational Guardrails",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-174",
+      "nodeLabel": "Pass/Fail Audits as Inadequate for Complex AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-361",
+      "nodeLabel": "Pragmatic Mitigation Framing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-110",
+      "nodeLabel": "Higher Compute Implies Higher Legal Responsibility",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-088",
+      "nodeLabel": "Dynamic Defensive Superiority",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-046",
+      "nodeLabel": "Lab Testing Cannot Reveal Real-World AI Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-042",
+      "nodeLabel": "Actionability as Evaluation Metric",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-054",
+      "nodeLabel": "Ground AI Safety in Observable Behavior and Real-World Testing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-093",
+      "nodeLabel": "Proxy Optimization Reliably Produces Outcomes Nobody Actually Wanted",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-234",
+      "nodeLabel": "Conditioning High-Stakes Deployment on Pre-Deployment Safety Cases",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-002",
+      "nodeLabel": "Scaling Oversight to Real-Time Remediation Speed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-131",
+      "nodeLabel": "The Capability-Deployment Gap in AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-177",
+      "nodeLabel": "Failure of Static Compute Thresholds Against Sub-Frontier Intrusion Tools",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-094",
+      "nodeLabel": "Empirical Evidence Documents Pervasive Bias, Discrimination, and Structural Harm in AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-144",
+      "nodeLabel": "Automated Fairness and Bias Benchmarking",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether compute scaling thresholds or independent third-party audits should replace developer self-certification in federal software procurement.",
+      "prevails": "safetyist",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist position prevails because it cites concrete counterexamples like the European Union Artificial Intelligence Act, which demonstrates that compliance verification can complete within fourteen business days using automated test harnesses. By contrast, the opposing view relies on generalized claims about delay without documenting specific bureaucratic bottlenecks. This empirical grounding makes the audit-based framework more testable and persuasive for procurement officials.",
+      "whatWouldChange": "Systematic data proving that fourteen-day compliance windows consistently create six-month deployment delays across multiple federal agencies would reverse this assessment.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether institutional review processes and legal liability structures effectively protect public safety or merely impose harmful delays on software deployment.",
+      "prevails": "skeptic",
+      "criterion": "scope",
+      "rationale": "The skeptic position accounts for a broader range of relevant institutional constraints by emphasizing that organizational adoption is governed by legal exposure and operational friction rather than raw model release velocity. Hardware metrics and compute scaling laws fail to capture how courts, agencies, and insurers actually evaluate liability in real-world deployments. This broader institutional scope makes the skeptic argument more robust against unexpected operational failures.",
+      "whatWouldChange": "Evidence that federal agencies and commercial adopters routinely bypass legal liability reviews when compute scaling thresholds are met would weaken the skeptic position.",
+      "claimIds": [
+        "C4",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,275 @@
+{
+  "debate_id": "9dfca517-810d-4e92-9d3b-b33a2be9b603",
+  "debate_title": "Is the market for frontier AI models becoming more concen...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether utility-style regulation and common carrier rules for large-scale data centers protect the public interest or destroy infrastructure investment.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Utility regulation and common carrier mandates impose damaging price caps and bureaucratic friction that stall critical energy and compute build-out."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Common carrier rules are necessary to prevent infrastructure gatekeepers from extracting monopoly rents and shifting grid costs onto local ratepayers."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-231",
+        "skp-beliefs-190",
+        "skp-desires-005",
+        "skp-intentions-034",
+        "sit-458",
+        "acc-desires-037",
+        "acc-intentions-076",
+        "acc-beliefs-037",
+        "sit-212",
+        "skp-beliefs-181"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Hardware-enforced blast-radius limits and automated behavioral guardrails can reconcile rapid iteration with verifiable safety constraints."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Internal hardware limits managed entirely by dominant cloud firms function as private fuse boxes that shield incumbents rather than protect the public."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-231",
+        "skp-beliefs-190",
+        "skp-desires-005",
+        "skp-intentions-034",
+        "sit-458",
+        "saf-beliefs-247",
+        "saf-beliefs-249",
+        "saf-desires-006",
+        "sit-213",
+        "skp-beliefs-181"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-190",
+      "nodeLabel": "Single Points of Control over Compute Hardware Function as Incumbent Capture Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-458",
+      "nodeLabel": "Internal Corporate Power Concentration",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-213",
+      "nodeLabel": "Temporal Mismatch of AI Energy Impacts",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-076",
+      "nodeLabel": "Procuring Dedicated Clean Energy Additionality for High-Density Computing Facilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-037",
+      "nodeLabel": "The AI Boom Will Create Permanent Upward Pressure on Interest Rates",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-212",
+      "nodeLabel": "Speculative Grid Capacity Requests",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-181",
+      "nodeLabel": "Hyperscaler Cloud Monopolies Extract Compute Windfalls While Shifting Deployment Liabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-023",
+      "nodeLabel": "Competing to Build the Safest AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-039",
+      "nodeLabel": "AI Is on an Exponential Trajectory Toward Superhuman Intelligence Through Recursive Self-Improvement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-059",
+      "nodeLabel": "Markets Are Intelligent Systems That Optimize Resource Allocation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-070",
+      "nodeLabel": "Shift AI Competition from Software to Physical Infrastructure Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-139",
+      "nodeLabel": "Restricting Autonomous Agent Execution via Hardware Disconnects and Blast-Radius Gates",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-161",
+      "nodeLabel": "AI and Concentrated Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-142",
+      "nodeLabel": "AI Compute Should Never Be Able to Reach Its Own Control Plane",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-222",
+      "nodeLabel": "Grid Infrastructure Cost-Shifting onto Residential Utility Ratepayers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-158",
+      "nodeLabel": "Levying Infrastructure Taxes on Compute Monopolies to Fund Algorithmic Justice",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether utility-style regulation and common carrier rules for large-scale data centers protect the public interest or destroy infrastructure investment.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The debate relies on competing historical analogies between twentieth-century telecommunications and nineteenth-century railroad trusts without definitive empirical proof of how utility rules apply to modern cloud compute markets. Both positions lack sufficient contemporary market data from the artificial intelligence sector to prove whether price caps stifle development or prevent monopoly rent extraction.",
+      "whatWouldChange": "Comprehensive economic studies measuring capital expenditure shifts in jurisdictions that have implemented utility-style access rules versus those operating under free-market conditions.",
+      "claimIds": [
+        "C2",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether automated hardware-level safety guardrails and out-of-band circuit breakers can provide genuine public accountability when controlled by dominant cloud operators.",
+      "prevails": "skeptic",
+      "criterion": "logical_validity",
+      "rationale": "The skeptic position successfully undercuts the safetyist claim by pointing out a fundamental conflict of interest when private entities manage their own regulatory guardrails. Allowing dominant firms to act as sole arbiters of hardware safety limits creates a private control mechanism rather than an accountable public safeguard.",
+      "whatWouldChange": "Independent third-party audits proving that internal hardware limits cannot be overridden by cloud operators and consistently prioritize public safety over corporate profit margins.",
+      "claimIds": [
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

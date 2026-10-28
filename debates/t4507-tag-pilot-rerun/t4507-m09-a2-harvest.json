@@ -1,0 +1,272 @@
+{
+  "debate_id": "9078ef06-30c3-477a-b43e-d2ab0fbd74cf",
+  "debate_title": "Do AI benchmark scores predict real-world usefulness?",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-market compliance gates and regulatory safeguards are necessary prerequisites for civilizational stability or primarily serve as barriers to entry that entrench legacy market incumbents.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Pre-market conformity assessments and verification gates are essential to prevent unverified failure modes and systemic collapse in critical infrastructure."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-market compliance bottlenecks create anti-competitive moats that protect incumbent firms, starve teams of real-world feedback loops, and delay critical human health breakthroughs."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Compliance frameworks function primarily as legal shields for major developers while failing to protect enterprise buyers from downstream liability and financial loss."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-200",
+        "saf-desires-029",
+        "sit-232",
+        "sit-157",
+        "acc-desires-037",
+        "acc-beliefs-034",
+        "acc-intentions-047",
+        "skp-beliefs-131",
+        "skp-beliefs-229",
+        "skp-beliefs-260"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether mandatory capitalization floors and financial reserve requirements effectively internalize technological risk or function as protectionist barriers that eliminate independent developers and open-source cooperatives.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Mandatory financial reserves and compulsory liability insurance are necessary to prevent developers from externalizing safety risks and remediation costs onto taxpayers."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Capitalization floors act as protectionist tariffs that price out independent teams and open-source builders while cementing cloud oligopolies."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-200",
+        "saf-desires-029",
+        "sit-232",
+        "sit-157",
+        "skp-beliefs-131",
+        "skp-beliefs-229",
+        "skp-beliefs-260",
+        "skp-intentions-097",
+        "sit-340",
+        "saf-desires-012"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-229",
+      "nodeLabel": "Worker Data Withholding Capacity",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-260",
+      "nodeLabel": "Patching Latency in Complex Model Architectures",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-200",
+      "nodeLabel": "AI Systematically Optimizes Proxy Metrics at the Expense of Intended Outcomes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-232",
+      "nodeLabel": "Evaluation Gap in AI Performance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-157",
+      "nodeLabel": "AI Evaluation, Performance, and Real-World Impact",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-034",
+      "nodeLabel": "AI Accountability Has a Chicken-and-Egg Problem",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-131",
+      "nodeLabel": "The Capability-Deployment Gap in AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-159",
+      "nodeLabel": "Require AI Safety Standards as a Condition for Government Grants and Infrastructure Permits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-005",
+      "nodeLabel": "Institutionalizing Independent Adversarial Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-054",
+      "nodeLabel": "Ground AI Safety in Observable Behavior and Real-World Testing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-027",
+      "nodeLabel": "Humans Systematically Over-Trust AI Outputs Even When Wrong",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-094",
+      "nodeLabel": "Insulate Organizations from Regulatory Volatility Through Durable AI Standards",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-217",
+      "nodeLabel": "Conditioning the Right to Field High-Stakes AI on a Capitalization and Insurance Floor",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-107",
+      "nodeLabel": "Coupling Pre-Deployment Independent Audits with Algorithmic Disgorgement and Strict Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-361",
+      "nodeLabel": "Pragmatic Mitigation Framing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-017",
+      "nodeLabel": "Close the AI Documentation Gap Through Mandatory Disclosure",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-market compliance gates and regulatory safeguards are necessary prerequisites for civilizational stability or primarily serve as barriers to entry that entrench legacy market incumbents.",
+      "prevails": "C4",
+      "criterion": "scope",
+      "rationale": "The accelerationist position accounts for both safety risks and the documented economic dynamics of market consolidation. C4 successfully demonstrates that compliance bottlenecks create anti-competitive moats that starve smaller teams of feedback loops. The safetyist claim C3 asserts systemic collapse risks without providing comparable empirical verification of how compliance gates prevent those failures.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether mandatory capitalization floors and financial reserve requirements effectively internalize technological risk or function as protectionist barriers that eliminate independent developers and open-source cooperatives.",
+      "prevails": "C6",
+      "criterion": "specificity",
+      "rationale": "The skeptic position provides a concrete mechanism regarding market impact, identifying capitalization floors as protectionist tariffs that price out independent developers. The safetyist position relies on abstract assertions about risk externalization without specifying how financial reserves calculate or mitigate frontier technical failures.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}
