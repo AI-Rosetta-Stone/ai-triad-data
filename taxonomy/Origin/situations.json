@@ -78149,9 +78149,9 @@
         "emotional_register": "cautionary",
         "policy_actions": [
           {
-            "policy_id": null,
             "action": "Enact mandatory right-to-erasure and post-mortem data governance legislation for social media platforms",
-            "framing": "The unmanaged accumulation of deceased users' data creates severe privacy vulnerabilities that require legally binding data minimization and deletion standards."
+            "framing": "The unmanaged accumulation of deceased users' data creates severe privacy vulnerabilities that require legally binding data minimization and deletion standards.",
+            "policy_id": "pol-3429"
           }
         ],
         "intellectual_lineage": [
@@ -78213,9 +78213,9 @@
         "emotional_register": "measured",
         "policy_actions": [
           {
-            "policy_id": null,
             "action": "Establish statutory consent frameworks and estate controls for commercial digital resurrection technologies",
-            "framing": "Unconstrained digital avatars risk exploiting likenesses without consent, necessitating clear statutory boundaries managed by surviving next-of-kin."
+            "framing": "Unconstrained digital avatars risk exploiting likenesses without consent, necessitating clear statutory boundaries managed by surviving next-of-kin.",
+            "policy_id": "pol-3430"
           }
         ],
         "intellectual_lineage": [
