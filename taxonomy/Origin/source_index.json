@@ -5,7 +5,7 @@
   "inputHash": "8181a1b6f31d639d3ffefb68ea61a87dfb0e2ead97c1899bbbb2c15a8b52c932",
   "marksHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "totals": {
-    "nodes": 1005,
+    "nodes": 993,
     "entries": 16491,
     "byLinkSource": {
       "key_point": 11566,
@@ -15065,7 +15065,6 @@
     "acc-beliefs-109": [],
     "acc-beliefs-110": [],
     "acc-beliefs-111": [],
-    "acc-beliefs-112": [],
     "acc-beliefs-113": [],
     "acc-beliefs-114": [
       {
@@ -15078,9 +15077,6 @@
       }
     ],
     "acc-beliefs-115": [],
-    "acc-beliefs-116": [],
-    "acc-beliefs-117": [],
-    "acc-beliefs-118": [],
     "acc-beliefs-119": [],
     "acc-beliefs-120": [
       {
@@ -71469,7 +71465,6 @@
         "extraction_confidence": 0.95
       }
     ],
-    "saf-beliefs-251": [],
     "saf-beliefs-252": [],
     "saf-beliefs-253": [],
     "saf-beliefs-254": [
@@ -72115,7 +72110,6 @@
         "extraction_confidence": "0.92"
       }
     ],
-    "saf-beliefs-281": [],
     "saf-beliefs-282": [
       {
         "source_id": "pain-axis-llms-represent-self-directed-harm-act-relieve-it-2026-1",
@@ -104098,8 +104092,6 @@
       }
     ],
     "saf-intentions-235": [],
-    "saf-intentions-236": [],
-    "saf-intentions-237": [],
     "saf-intentions-238": [
       {
         "source_id": "california-lawyers-chatgpt-use-is-why-courts-want-ai-2026",
@@ -104288,7 +104280,6 @@
     "saf-intentions-253": [],
     "saf-intentions-254": [],
     "saf-intentions-255": [],
-    "saf-intentions-256": [],
     "saf-intentions-257": [],
     "saf-intentions-258": [
       {
@@ -152235,7 +152226,6 @@
         "extraction_confidence": 0.89
       }
     ],
-    "skp-desires-090": [],
     "skp-desires-091": [
       {
         "source_id": "legislature-approves-no-robo-bosses-act-2026-ensure-human-2026",
@@ -163212,8 +163202,83 @@
       },
       {
         "source_id": "260111699v4-2026",
+        "link_source": "factual_claim",
+        "quote": "Current third-party assessments of frontier AI rely predominantly on public information and publicly accessible products, which fail to reveal major risks, vulnerabilities, evaluation conditions, or whether negative findings were softened or withheld.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational_basis": "Analysis of existing industry assessment practices and public model cards.",
+            "measurement_validity": "High validity regarding the opacity of closed-weight frontier models.",
+            "generalizability": "Applies broadly across the commercial frontier AI ecosystem."
+          }
+        },
+        "extraction_confidence": 0.97
+      },
+      {
+        "source_id": "260111699v4-2026",
+        "link_source": "factual_claim",
+        "quote": "Frontier AI audits can be categorized into four distinct AI Assurance Levels (AAL-1 through AAL-4) that scale in duration, cost, information access, and methodological rigor from limited API-based checks to continuous treaty-grade hardware verification.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observability": "observable",
+            "source_type": "expert_analysis",
+            "quantification": "qualitative_and_quantitative"
+          }
+        },
+        "extraction_confidence": 0.97
+      },
+      {
+        "source_id": "260111699v4-2026",
+        "link_source": "factual_claim",
+        "quote": "Third-party pre-deployment testing conducted by government institutions such as the UK AI Security Institute (AISI) and US Center for AI Standards and Innovation (CAISI) has successfully identified safety and security vulnerabilities that frontier AI developers subsequently addressed prior to public release.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "observational_basis": "Empirical observation of institutional testing outcomes by government safety institutes.",
+            "measurement_validity": "High validity based on documented pre-release remediation records.",
+            "generalizability": "Demonstrated across multiple frontier model evaluations."
+          }
+        },
+        "extraction_confidence": 0.96
+      },
+      {
+        "source_id": "260111699v4-2026",
+        "link_source": "key_point",
+        "quote": "Auditors use company-provided documentation to inform their analysis and make it more efficient, but ultimately draw their conclusions based primarily on direct evidence gathered over months rather than company representations.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "260111699v4-2026",
         "link_source": "key_point",
         "quote": "For the highest levels of assurance, mechanisms should be in place that allow for detection of whether relevant information has been withheld, manipulated, or selectively disclosed by the auditee. This requires tools and processes such as compute accounting to assess whether there are likely any materially significant AI systems created by the company that auditors haven't assessed, random sampling of logs or lineage artifacts, structured comparisons between public and private documentation, protected whistleblowing channels for employees, and whistleblowing bounties [170]. Where companies refuse access without adequate justification, auditors should make adverse inferences consistent with established practice in other assurance systems...",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.96
+      },
+      {
+        "source_id": "260111699v4-2026",
+        "link_source": "key_point",
+        "quote": "Today, no mechanism exists to confidently confirm that AI companies’ safety and security claims are accurate or that their practices meet relevant standards, forcing a difficult choice between taking all companies at their word and relying on a combination of unreliable signals (third-party assessments based on very limited information, the apparent trustworthiness of senior leadership in the company, etc.).",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "260111699v4-2026",
+        "link_source": "key_point",
+        "quote": "When developers do grant such access, they typically do so through bespoke contracts with terms rarely visible to the public (see [6]). Standards for how companies should work with third-party AI assessment organizations are nascent, and developers can substantially influence the timing, scope, and publication of any assessments conducted that involve non-public information. While company statements may benefit from substantial insider access, they lack the credibility afforded by statements free of conflicts of interest (i.e., statements from third-parties).",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.96
@@ -163395,6 +163460,37 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9
+      },
+      {
+        "source_id": "blueprint-federal-ai-governance-responsible-innovation-2026",
+        "link_source": "key_point",
+        "quote": "If the verification burden shifts, the liability faced by IVOs should also change. If the government is conducting examinations in the same domain as an IVO, it may be possible to relax IVO liability... Generally speaking, IVOs should not enjoy liability protection if their examinations are load-bearing...",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.9
+      },
+      {
+        "source_id": "california-creates-countrys-first-ai-auditor-registry-2026-1",
+        "link_source": "factual_claim",
+        "quote": "On September 9, 2026, California Governor Gavin Newsom signed Senate Bill 813 and Assembly Bill 1405, making California the first state to require independent, registered AI auditors.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "evidence_level": "direct_empirical"
+          }
+        },
+        "extraction_confidence": 0.99
+      },
+      {
+        "source_id": "california-creates-countrys-first-ai-auditor-registry-2026-1",
+        "link_source": "key_point",
+        "quote": "Assembly Bill 1405 ... creates the registry itself — a state list of AI auditors, with standards attached for their independence, transparency, and integrity, intended to give California “a mechanism for credible third-party auditing” that can identify risks, verify a developer’s claims, and hold AI companies accountable rather than leaving compliance to self-assessment.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.98
       },
       {
         "source_id": "california-report-frontier-ai-policy-2026",
@@ -163749,6 +163845,23 @@
       {
         "source_id": "frontier-ai-auditing-toward-rigorous-third-party-assessment-2026",
         "link_source": "factual_claim",
+        "quote": "Frontier AI audits can be categorized into four distinct AI Assurance Levels (AALs) ranging from limited time-bounded API checks (AAL-1) costing $300,000 to $600,000, to continuous treaty-grade verification (AAL-4) costing several million dollars annually.",
+        "doc_position": "supports",
+        "evidence_level": {
+          "specificity": "precise",
+          "has_warrant": true,
+          "internally_consistent": true,
+          "category_criteria": {
+            "source_type": "empirical_estimate",
+            "sample_size": "qualitative_precedent",
+            "methodology_stated": true
+          }
+        },
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "frontier-ai-auditing-toward-rigorous-third-party-assessment-2026",
+        "link_source": "factual_claim",
         "quote": "Most third-party AI assessments currently rely on public information and publicly accessible products, which fail to provide detailed insight into evaluation conditions, generalization limits, or withheld negative findings.",
         "doc_position": "supports",
         "evidence_level": {
@@ -163783,7 +163896,23 @@
       {
         "source_id": "frontier-ai-auditing-toward-rigorous-third-party-assessment-2026",
         "link_source": "key_point",
+        "quote": "AAL-3 (high assurance). All company activities are presumptively in-scope and information about these activities is fully available (i.e., white-box access); the range of possible abstraction errors is narrow and well-defined.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.94
+      },
+      {
+        "source_id": "frontier-ai-auditing-toward-rigorous-third-party-assessment-2026",
+        "link_source": "key_point",
         "quote": "PCAOB: The Public Company Accounting Oversight Board, a US non-profit corporation established by the Sarbanes-Oxley Act of 2002. The PCAOB oversees audits of public companies by setting auditing standards, registering and inspecting audit firms, and disciplining auditors for misconduct. In this paper, the PCAOB model is referenced as a potential template for independent oversight of frontier AI auditors.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": 0.95
+      },
+      {
+        "source_id": "frontier-ai-auditing-toward-rigorous-third-party-assessment-2026",
+        "link_source": "key_point",
+        "quote": "These roles cannot be served equally well by a single, undifferentiated notion of ‘an audit,’ and treating these cases as requiring the same level of assurance would either hollow out audits where they must be strongest or make them overly burdensome where lighter-touch approaches would suffice. This combination of convergence and variation is why we present a single overall vision that includes multiple AI Assurance Levels (AALs).",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -163867,6 +163996,30 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": null
+      },
+      {
+        "source_id": "international-ai-safety-report-2026-2026-2",
+        "link_source": "key_point",
+        "quote": "Evaluations: Systematic assessments, before or after deployment, of the performance, capabilities, vulnerability, or potential impacts of an AI model or system. Red-teaming: A systematic process in which dedicated individuals or teams search for vulnerabilities, limitations, or potential for misuse through various methods. Model card: A document providing useful information about an AI model, for instance about its purpose, usage guidelines, training data, performance on benchmarks, or safety features.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": "0.94"
+      },
+      {
+        "source_id": "international-ai-safety-report-2026-2026-2",
+        "link_source": "key_point",
+        "quote": "Some researchers have argued that most technical approaches to pluralistic alignment fail to address, and potentially distract from, deeper challenges, such as systematic biases, social power dynamics, and the concentration of wealth and influence.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": "0.90"
+      },
+      {
+        "source_id": "international-ai-safety-report-2026-2026-2",
+        "link_source": "key_point",
+        "quote": "Technically, new capabilities sometimes emerge unpredictably, the inner workings of models remain poorly understood, and there is an ‘evaluation gap’: performance on pre-deployment tests does not reliably predict real-world utility or risk. Institutionally, developers have incentives to keep important information proprietary, and the pace of development can create pressure to prioritise speed over risk management.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": "0.94"
       },
       {
         "source_id": "legal-policy-approaches-mitigate-catastrophic-harms-from-ai-2026",
@@ -164380,173 +164533,7 @@
         "extraction_confidence": 0.7
       }
     ],
-    "skp-intentions-151": [],
     "skp-intentions-152": [],
-    "skp-intentions-153": [
-      {
-        "source_id": "260111699v4-2026",
-        "link_source": "factual_claim",
-        "quote": "Current third-party assessments of frontier AI rely predominantly on public information and publicly accessible products, which fail to reveal major risks, vulnerabilities, evaluation conditions, or whether negative findings were softened or withheld.",
-        "doc_position": "supports",
-        "evidence_level": {
-          "specificity": "precise",
-          "has_warrant": true,
-          "internally_consistent": true,
-          "category_criteria": {
-            "observational_basis": "Analysis of existing industry assessment practices and public model cards.",
-            "measurement_validity": "High validity regarding the opacity of closed-weight frontier models.",
-            "generalizability": "Applies broadly across the commercial frontier AI ecosystem."
-          }
-        },
-        "extraction_confidence": 0.97
-      },
-      {
-        "source_id": "260111699v4-2026",
-        "link_source": "factual_claim",
-        "quote": "Frontier AI audits can be categorized into four distinct AI Assurance Levels (AAL-1 through AAL-4) that scale in duration, cost, information access, and methodological rigor from limited API-based checks to continuous treaty-grade hardware verification.",
-        "doc_position": "supports",
-        "evidence_level": {
-          "specificity": "precise",
-          "has_warrant": true,
-          "internally_consistent": true,
-          "category_criteria": {
-            "observability": "observable",
-            "source_type": "expert_analysis",
-            "quantification": "qualitative_and_quantitative"
-          }
-        },
-        "extraction_confidence": 0.97
-      },
-      {
-        "source_id": "260111699v4-2026",
-        "link_source": "factual_claim",
-        "quote": "Third-party pre-deployment testing conducted by government institutions such as the UK AI Security Institute (AISI) and US Center for AI Standards and Innovation (CAISI) has successfully identified safety and security vulnerabilities that frontier AI developers subsequently addressed prior to public release.",
-        "doc_position": "supports",
-        "evidence_level": {
-          "specificity": "precise",
-          "has_warrant": true,
-          "internally_consistent": true,
-          "category_criteria": {
-            "observational_basis": "Empirical observation of institutional testing outcomes by government safety institutes.",
-            "measurement_validity": "High validity based on documented pre-release remediation records.",
-            "generalizability": "Demonstrated across multiple frontier model evaluations."
-          }
-        },
-        "extraction_confidence": 0.96
-      },
-      {
-        "source_id": "260111699v4-2026",
-        "link_source": "key_point",
-        "quote": "Auditors use company-provided documentation to inform their analysis and make it more efficient, but ultimately draw their conclusions based primarily on direct evidence gathered over months rather than company representations.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": 0.95
-      },
-      {
-        "source_id": "260111699v4-2026",
-        "link_source": "key_point",
-        "quote": "Today, no mechanism exists to confidently confirm that AI companies’ safety and security claims are accurate or that their practices meet relevant standards, forcing a difficult choice between taking all companies at their word and relying on a combination of unreliable signals (third-party assessments based on very limited information, the apparent trustworthiness of senior leadership in the company, etc.).",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": 0.95
-      },
-      {
-        "source_id": "260111699v4-2026",
-        "link_source": "key_point",
-        "quote": "When developers do grant such access, they typically do so through bespoke contracts with terms rarely visible to the public (see [6]). Standards for how companies should work with third-party AI assessment organizations are nascent, and developers can substantially influence the timing, scope, and publication of any assessments conducted that involve non-public information. While company statements may benefit from substantial insider access, they lack the credibility afforded by statements free of conflicts of interest (i.e., statements from third-parties).",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": 0.96
-      },
-      {
-        "source_id": "blueprint-federal-ai-governance-responsible-innovation-2026",
-        "link_source": "key_point",
-        "quote": "If the verification burden shifts, the liability faced by IVOs should also change. If the government is conducting examinations in the same domain as an IVO, it may be possible to relax IVO liability... Generally speaking, IVOs should not enjoy liability protection if their examinations are load-bearing...",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": 0.9
-      },
-      {
-        "source_id": "california-creates-countrys-first-ai-auditor-registry-2026-1",
-        "link_source": "factual_claim",
-        "quote": "On September 9, 2026, California Governor Gavin Newsom signed Senate Bill 813 and Assembly Bill 1405, making California the first state to require independent, registered AI auditors.",
-        "doc_position": "supports",
-        "evidence_level": {
-          "specificity": "precise",
-          "has_warrant": true,
-          "internally_consistent": true,
-          "category_criteria": {
-            "evidence_level": "direct_empirical"
-          }
-        },
-        "extraction_confidence": 0.99
-      },
-      {
-        "source_id": "california-creates-countrys-first-ai-auditor-registry-2026-1",
-        "link_source": "key_point",
-        "quote": "Assembly Bill 1405 ... creates the registry itself — a state list of AI auditors, with standards attached for their independence, transparency, and integrity, intended to give California “a mechanism for credible third-party auditing” that can identify risks, verify a developer’s claims, and hold AI companies accountable rather than leaving compliance to self-assessment.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": 0.98
-      },
-      {
-        "source_id": "frontier-ai-auditing-toward-rigorous-third-party-assessment-2026",
-        "link_source": "factual_claim",
-        "quote": "Frontier AI audits can be categorized into four distinct AI Assurance Levels (AALs) ranging from limited time-bounded API checks (AAL-1) costing $300,000 to $600,000, to continuous treaty-grade verification (AAL-4) costing several million dollars annually.",
-        "doc_position": "supports",
-        "evidence_level": {
-          "specificity": "precise",
-          "has_warrant": true,
-          "internally_consistent": true,
-          "category_criteria": {
-            "source_type": "empirical_estimate",
-            "sample_size": "qualitative_precedent",
-            "methodology_stated": true
-          }
-        },
-        "extraction_confidence": 0.95
-      },
-      {
-        "source_id": "frontier-ai-auditing-toward-rigorous-third-party-assessment-2026",
-        "link_source": "key_point",
-        "quote": "AAL-3 (high assurance). All company activities are presumptively in-scope and information about these activities is fully available (i.e., white-box access); the range of possible abstraction errors is narrow and well-defined.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": 0.94
-      },
-      {
-        "source_id": "frontier-ai-auditing-toward-rigorous-third-party-assessment-2026",
-        "link_source": "key_point",
-        "quote": "These roles cannot be served equally well by a single, undifferentiated notion of ‘an audit,’ and treating these cases as requiring the same level of assurance would either hollow out audits where they must be strongest or make them overly burdensome where lighter-touch approaches would suffice. This combination of convergence and variation is why we present a single overall vision that includes multiple AI Assurance Levels (AALs).",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": 0.95
-      },
-      {
-        "source_id": "international-ai-safety-report-2026-2026-2",
-        "link_source": "key_point",
-        "quote": "Evaluations: Systematic assessments, before or after deployment, of the performance, capabilities, vulnerability, or potential impacts of an AI model or system. Red-teaming: A systematic process in which dedicated individuals or teams search for vulnerabilities, limitations, or potential for misuse through various methods. Model card: A document providing useful information about an AI model, for instance about its purpose, usage guidelines, training data, performance on benchmarks, or safety features.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": "0.94"
-      },
-      {
-        "source_id": "international-ai-safety-report-2026-2026-2",
-        "link_source": "key_point",
-        "quote": "Some researchers have argued that most technical approaches to pluralistic alignment fail to address, and potentially distract from, deeper challenges, such as systematic biases, social power dynamics, and the concentration of wealth and influence.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": "0.90"
-      },
-      {
-        "source_id": "international-ai-safety-report-2026-2026-2",
-        "link_source": "key_point",
-        "quote": "Technically, new capabilities sometimes emerge unpredictably, the inner workings of models remain poorly understood, and there is an ‘evaluation gap’: performance on pre-deployment tests does not reliably predict real-world utility or risk. Institutionally, developers have incentives to keep important information proprietary, and the pace of development can create pressure to prioritise speed over risk management.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": "0.94"
-      }
-    ],
     "skp-intentions-154": [],
     "skp-intentions-155": [
       {
