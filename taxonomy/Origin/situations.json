@@ -41536,7 +41536,7 @@
     {
       "id": "sit-283",
       "label": "Agentic Privacy Leakage Benchmarking",
-      "description": "A Belief within skeptic discourse that autonomous agents require standardized, dynamic environment testing to quantify their propensity for leaking sensitive user data. Encompasses: Web-navigation benchmarks, privacy-focused Chain-of-Thought (CoT) evaluation, and cross-model failure correlation analysis. Excludes: Static dataset privacy evaluations or theoretical alignment proofs.",
+      "description": "A situation concept concerning whether autonomous agents require standardized, dynamic environment testing to quantify their propensity for leaking sensitive user data. Encompasses: Web-navigation benchmarks, privacy-focused Chain-of-Thought (CoT) evaluation, and cross-model failure correlation analysis. Excludes: Static dataset privacy evaluations or theoretical alignment proofs.",
       "interpretations": {
         "accelerationist": {
           "belief": "Dynamic agentic benchmarking reveals specific, addressable failure modes in autonomous systems rather than fundamental architectural dead-ends, and cross-model correlation data will accelerate convergence on more capable, reliable agents.",
@@ -43111,7 +43111,7 @@
     {
       "id": "sit-292",
       "label": "Many Eyes Theory",
-      "description": "A Belief within accelerationist and safetyist discourse that public scrutiny of system design leads to more effective bug detection and mitigation.\nEncompasses: Linus's Law, bug bounty programs, and open-source security auditing.\nExcludes: Formal verification methods that do not rely on community-based crowdsourcing.",
+      "description": "A situation concept concerning whether public scrutiny of system design leads to more effective bug detection and mitigation.\nEncompasses: Linus's Law, bug bounty programs, and open-source security auditing.\nExcludes: Formal verification methods that do not rely on community-based crowdsourcing.",
       "interpretations": {
         "accelerationist": {
           "belief": "Open access to system details empirically accelerates bug detection and capability refinement, as distributed contributors outpace closed internal teams in identifying and patching flaws.",
@@ -49603,7 +49603,7 @@
     {
       "id": "sit-326",
       "label": "Situated Anthropocentrism",
-      "description": "A Belief within safetyist and skeptic discourse that defines human value through embeddedness in relational networks rather than individualistic or technical metrics.\nEncompasses: Relational ethics, ecological interconnectedness, rejection of disembodied AI models.\nExcludes: Transhumanist enhancement, pure utilitarianism.",
+      "description": "A situation concept that defines human value through embeddedness in relational networks rather than individualistic or technical metrics.\nEncompasses: Relational ethics, ecological interconnectedness, rejection of disembodied AI models.\nExcludes: Transhumanist enhancement, pure utilitarianism.",
       "interpretations": {
         "accelerationist": {
           "belief": "Situated anthropocentrism, as an empirical matter, artificially caps the scope of intelligence and value by anchoring them to biological embeddedness and relational networks that evolution and technology are already transcending.",
@@ -55621,7 +55621,7 @@
     {
       "id": "sit-362",
       "label": "Ambiguous Priming",
-      "description": "A Belief within safetyist and skeptic discourse that proactive, diverse scenario-building is superior to reactive, surprise-based governance. \nEncompasses: Scenario development, public engagement, reflexive capacity building. \nExcludes: Unambiguous surprise, deterministic forecasting.",
+      "description": "A situation concept concerning whether proactive, diverse scenario-building is superior to reactive, surprise-based governance. \nEncompasses: Scenario development, public engagement, reflexive capacity building. \nExcludes: Unambiguous surprise, deterministic forecasting.",
       "interpretations": {
         "accelerationist": {
           "belief": "Regulatory regimes that lock in specific assumptions about technological trajectories become brittle and obstruct adaptation when breakthroughs arrive faster than anticipated.",
@@ -56931,7 +56931,7 @@
     {
       "id": "sit-370",
       "label": "Proceduralism in Normative Governance",
-      "description": "A Belief within safetyist and skeptic discourse that procedural changes in decision-making venues can facilitate ethical deliberation. Encompasses: Changing framing, venue shifting, and inclusive participation. Excludes: Substantive moral mandates or top-down ethical imposition.",
+      "description": "A situation concept concerning whether procedural changes in decision-making venues can facilitate ethical deliberation. Encompasses: Changing framing, venue shifting, and inclusive participation. Excludes: Substantive moral mandates or top-down ethical imposition.",
       "interpretations": {
         "accelerationist": {
           "belief": "Procedural governance mechanisms empirically slow down decision-making cycles and rarely produce concrete technical improvements, functioning instead as bureaucratic overhead that delays deployment.",
@@ -58098,7 +58098,7 @@
     {
       "id": "sit-377",
       "label": "Consistency-Based Political Alignment",
-      "description": "A Belief within accelerationist and safetyist discourse that political neutrality can be achieved through mathematical consistency metrics rather than value-based alignment. Encompasses: Helpfulness consistency, sentiment consistency, dual-judge architectures. Excludes: Human-in-the-loop value alignment, substantive truth adjudication.",
+      "description": "A situation concept concerning whether political neutrality can be achieved through mathematical consistency metrics rather than value-based alignment. Encompasses: Helpfulness consistency, sentiment consistency, dual-judge architectures. Excludes: Human-in-the-loop value alignment, substantive truth adjudication.",
       "interpretations": {
         "accelerationist": {
           "belief": "Mathematical consistency metrics can reliably approximate political neutrality at scale, removing the bottleneck of slow, subjective human judgment from the alignment pipeline.",
@@ -62144,7 +62144,7 @@
     {
       "id": "sit-397",
       "label": "Functional Dependency Indexing",
-      "description": "A Belief within safetyist discourse that quantifies the systemic impact of a component failure by measuring its position and connectivity within a network graph. Encompasses: Path-based impact estimation, logical switch functions, and worst-case dependency analysis. Excludes: Qualitative risk assessment and static vulnerability scanning.",
+      "description": "A situation concept that quantifies the systemic impact of a component failure by measuring its position and connectivity within a network graph. Encompasses: Path-based impact estimation, logical switch functions, and worst-case dependency analysis. Excludes: Qualitative risk assessment and static vulnerability scanning.",
       "interpretations": {
         "accelerationist": {
           "belief": "Functional Dependency Indexing accurately maps which nodes are most critical to system throughput and performance, revealing bottlenecks and high-leverage points for capability enhancement.",
@@ -68249,7 +68249,7 @@
     {
       "id": "sit-428",
       "label": "Overton Pluralism",
-      "description": "A Belief within safetyist and skeptic discourse that models should be trained to produce the entire gamut of defensible answers to disputed ethical issues. Encompasses: Ethical ambiguity, non-convergence, and pluralistic output. Excludes: Monistic alignment.",
+      "description": "A situation concept concerning whether models should be trained to produce the entire gamut of defensible answers to disputed ethical issues. Encompasses: Ethical ambiguity, non-convergence, and pluralistic output. Excludes: Monistic alignment.",
       "interpretations": {
         "accelerationist": {
           "belief": "Forcing models to output the full spectrum of defensible ethical positions is an artificial constraint that slows capability development and reflects ideological timidity rather than technical necessity.",
