@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_commit": "af7cf1552f3e6e264df9dec5d60ec001161bc629",
+  "source_commit": "a17b5a04bb94cbbe04b4ca4abcdb7efe4d022700",
   "doc_count": 883,
   "docs": [
     {
@@ -16256,7 +16256,9 @@
           "id": "https://proceedings.mlr.press/v267/mckenna25a.html",
           "confidence": "verified"
         }
-      ]
+      ],
+      "duplicate_of": "scaling-laws-differentially-private-language-models-2026",
+      "duplicate_of_ref": "t4605-cl-decision-2026-10#1"
     },
     {
       "id": "scaling-laws-differentially-private-language-models-2026-2",
