@@ -77490,7 +77490,7 @@
       "plain_description": "Artificial intelligence models create most of the project ideas during development tasks, but human researchers still keep the final power to choose which ones to use. In this workflow, generating options is completely separated from selecting them. AI agents do the heavy lifting of coming up with ideas and creating a big gap in how many options are produced, while humans dominate the decision-making process by carefully reviewing and picking the best paths forward.",
       "id": "sit-484",
       "label": "Proposal Versus Selection Decision Asymmetry",
-      "description": "A situation concept that characterizes how AI models generate the majority of method proposals while human researchers retain final selection authority across development tasks. Encompasses: idea generation by agents, human curation of options, decoupling of proposal from selection.\nEncompasses: Idea generation disparity, human selection dominance, workflow delegation patterns.\nExcludes: Full human control models and fully autonomous agent decision-making.",
+      "description": "A situation concept that characterizes how AI models generate the majority of method proposals while human researchers retain final selection authority across development tasks. Encompasses: idea generation by agents, human curation of options, decoupling of proposal from selection, idea generation disparity, human selection dominance, workflow delegation patterns. Excludes: Full human control models and fully autonomous agent decision-making.",
       "interpretations": {
         "accelerationist": {
           "belief": "AI-generated proposal volume empirically expands the creative search space available to human researchers, and human selection authority demonstrably filters for quality without slowing the overall pace of discovery.",
@@ -78189,7 +78189,7 @@
     {
       "id": "sit-493",
       "label": "Post-Mortem Digital Resurrection Rights",
-      "description": "A Belief within safetyist and skeptic discourse that post-mortem privacy and publicity rights must be balanced against collective data realities and First Amendment protections. Encompasses: Digital afterlife regulation, estate planning restrictions on AI avatars, and non-commercial digital re-enactments. Excludes: Commercial misappropriation of likeness during life.",
+      "description": "A situation concept that describes the tension between post-mortem privacy and publicity rights and collective data realities and First Amendment protections. Encompasses: Digital afterlife regulation, estate planning restrictions on AI avatars, and non-commercial digital re-enactments. Excludes: Commercial misappropriation of likeness during life.",
       "interpretations": {
         "accelerationist": {
           "belief": "AI avatars of deceased individuals expand cultural memory and democratize legacy creation without causing tangible harm to individuals or society.",
