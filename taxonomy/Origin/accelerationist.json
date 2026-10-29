@@ -94072,7 +94072,8 @@
         }
       },
       "debate_refs": [
-        "f8e651ef-5e80-4ea8-9434-7e9158fa5c7f"
+        "f8e651ef-5e80-4ea8-9434-7e9158fa5c7f",
+        "e9af2f30-c8b7-4030-9992-bf5c9e8dd26b"
       ],
       "label_history": [
         {
@@ -94435,7 +94436,8 @@
             }
           ]
         }
-      }
+      },
+      "superseded_by": "acc-beliefs-111"
     },
     {
       "id": "acc-beliefs-113",
@@ -95479,7 +95481,12 @@
         "sit-414",
         "sit-448",
         "sit-449",
-        "sit-454"
+        "sit-454",
+        "sit-340",
+        "sit-368",
+        "sit-390",
+        "sit-409",
+        "sit-475"
       ],
       "graph_attributes": {
         "debate_grounding": "We take as established that any behavioral metric deployed for regulatory enforcement inevitably becomes an adversarial optimization target, as developers with interface access reverse-engineer confidential indicators and overfit performance to static or rotated thresholds in an unstoppable arms race that decouples safety metrics from actual harm.",
@@ -95675,6 +95682,13 @@
           "surface": "",
           "method": "embedding",
           "link_confidence": 0.5574,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:accountability_market",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.5539,
           "status": "proposed"
         }
       ],
@@ -95946,7 +95960,8 @@
             }
           ]
         }
-      }
+      },
+      "superseded_by": "acc-beliefs-115"
     },
     {
       "id": "acc-beliefs-117",
@@ -96151,7 +96166,8 @@
             }
           ]
         }
-      }
+      },
+      "superseded_by": "acc-beliefs-115"
     },
     {
       "id": "acc-beliefs-118",
@@ -96391,7 +96407,8 @@
             }
           ]
         }
-      }
+      },
+      "superseded_by": "acc-beliefs-119"
     },
     {
       "id": "acc-beliefs-119",
@@ -96414,7 +96431,9 @@
         "sit-463",
         "sit-465",
         "sit-466",
-        "sit-467"
+        "sit-467",
+        "sit-439",
+        "sit-472"
       ],
       "graph_attributes": {
         "debate_grounding": "We hold that consumer-facing AI companion applications require specialized output-level behavioral filters to mitigate parasocial dependency without imposing pre-market architectural bans. To achieve this, we rely on runtime behavioral guardrails and conversational warmth capping that enforce user boundaries while actively detecting psychological distress markers, rather than submitting to static pre-deployment certification boards or centralized human kill-switch mandates.",
@@ -96454,7 +96473,8 @@
         "aphorism": "Filter the output, not the architecture."
       },
       "debate_refs": [
-        "63e8bed6-e58e-401a-a7ff-e376817672db"
+        "63e8bed6-e58e-401a-a7ff-e376817672db",
+        "2306fafc-6d5e-4387-beee-f1ecc900b7ce"
       ],
       "label_history": [
         {

@@ -4067,11 +4067,15 @@
         "sit-460",
         "sit-473",
         "sit-474",
-        "sit-476"
+        "sit-476",
+        "sit-219",
+        "sit-365",
+        "sit-374"
       ],
       "debate_refs": [
         "fb19a588-c3a7-4935-8abe-22849004c484",
-        "ab79c76d-fe67-48d5-9af1-57e7725d8ed4"
+        "ab79c76d-fe67-48d5-9af1-57e7725d8ed4",
+        "f9c54c70-dfc3-4255-b125-0c49da39c519"
       ],
       "operationality": 5,
       "operationality_history": [
@@ -4165,6 +4169,48 @@
           "surface": "",
           "method": "embedding",
           "link_confidence": 0.5529,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:accountability_algorithmic",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.5621,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:deployment_gated",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.5743,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:governance_oversight",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.6062,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:oversight_audit",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.6702,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:regulation_precautionary",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.5801,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:transparency_verification",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.6252,
           "status": "proposed"
         }
       ],
@@ -92461,7 +92507,8 @@
         }
       ],
       "plain_description": "This approach pushes for strict rules that force payment processors, app stores, cloud computing companies, and advertising networks to identify and cut off funding for businesses that create nonconsensual deepfakes. It uses the same model currently used to stop the spread of child sexual abuse material. To make this work, payment companies must use digital fingerprinting to block suspicious transactions, while banks monitor accounts linked to known bad actors. App stores must remove apps that facilitate these operations, and cloud providers must publish reports showing how they enforce their rules against abuse. Finally, advertising networks are required to stop paying or hosting ads for these services. This strategy focuses on hitting the financial and technical infrastructure of deepfake creators rather than just trying to delete individual videos or restricting the software tools used by developers.",
-      "plain_description_version": "flash-lite:v1"
+      "plain_description_version": "flash-lite:v1",
+      "superseded_by": "skp-intentions-152"
     },
     {
       "pov_tags": [
@@ -93365,7 +93412,8 @@
             }
           ]
         }
-      }
+      },
+      "superseded_by": "skp-intentions-146"
     },
     {
       "pov_tags": [
@@ -108892,7 +108940,8 @@
         }
       },
       "debate_refs": [
-        "aac6f142-8662-401e-b48c-9d0f9e84cc46"
+        "aac6f142-8662-401e-b48c-9d0f9e84cc46",
+        "706ad547-72a2-47d7-9791-5da0e3b7475f"
       ],
       "label_history": [
         {
@@ -109843,7 +109892,8 @@
           "reason": "Throughout the debate, I argued that commercial relational simulation exploits cognitive development in children under seven. This specific regulatory target is distinct from general data privacy and warrants its own Desire node."
         }
       ],
-      "plain_description_version": "flash-lite:v1"
+      "plain_description_version": "flash-lite:v1",
+      "superseded_by": "skp-desires-089"
     },
     {
       "pov_tags": [

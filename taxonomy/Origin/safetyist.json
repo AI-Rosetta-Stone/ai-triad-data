@@ -115073,7 +115073,8 @@
         }
       },
       "debate_refs": [
-        "ab64af20-c4b8-4172-8d62-574f287f307a"
+        "ab64af20-c4b8-4172-8d62-574f287f307a",
+        "488de8a5-8547-4bce-bfac-0b79b129ec3b"
       ],
       "label_history": [
         {
@@ -115208,7 +115209,8 @@
       "situation_refs": [
         "sit-450",
         "sit-451",
-        "sit-466"
+        "sit-466",
+        "sit-277"
       ],
       "graph_attributes": {
         "debate_grounding": "We commit to mandating regulatory regimes for children's connected devices that govern the full hardware sensor stack rather than just the language model running on it. We will enforce hardware-level controls, activation requirements, connectivity governance, data retention limits, and independent audits specifically at the hardware layer.",
@@ -115248,7 +115250,9 @@
         "aphorism": "Seal the physical senses, not the digital output."
       },
       "debate_refs": [
-        "ab64af20-c4b8-4172-8d62-574f287f307a"
+        "ab64af20-c4b8-4172-8d62-574f287f307a",
+        "3b066483-3cf9-483e-a141-953d6fa231e5",
+        "706ad547-72a2-47d7-9791-5da0e3b7475f"
       ],
       "label_history": [
         {
@@ -115326,6 +115330,48 @@
           "surface": "",
           "method": "embedding",
           "link_confidence": 0.6178,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:accountability_market",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.567,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:ambient_surveillance",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.5508,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:capabilities_hazard",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.5661,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:governance_oversight",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.5791,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:regulation_adaptive",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.5641,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:regulation_precautionary",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.6355,
           "status": "proposed"
         }
       ],
@@ -115525,7 +115571,8 @@
           "reason": "saf-intentions-235, saf-intentions-236, and saf-intentions-237 are identical in label and description. saf-intentions-235 is the first and should be retained; the duplicates add nothing. The hardware governance argument was important in the debate, but one node captures it."
         }
       ],
-      "plain_description_version": "flash-lite:v1"
+      "plain_description_version": "flash-lite:v1",
+      "superseded_by": "saf-intentions-235"
     },
     {
       "id": "saf-beliefs-251",
@@ -115730,7 +115777,8 @@
             }
           ]
         }
-      }
+      },
+      "superseded_by": "saf-beliefs-250"
     },
     {
       "id": "saf-beliefs-252",
@@ -116264,7 +116312,8 @@
             }
           ]
         }
-      }
+      },
+      "superseded_by": "saf-intentions-235"
     },
     {
       "id": "saf-beliefs-254",
@@ -120909,7 +120958,8 @@
         "steelman_vulnerability": "Strict context isolation might hinder beneficial introspection, make debugging and auditing more difficult, or limit the AI's ability to learn from its own internal states in a controlled and safe manner.",
         "possible_fallacies": [],
         "node_scope": "narrow_technical"
-      }
+      },
+      "superseded_by": "saf-intentions-140"
     },
     {
       "plain_description_version": "flash-lite:v1",
@@ -120980,7 +121030,8 @@
           }
         ],
         "node_scope": "narrow_technical"
-      }
+      },
+      "superseded_by": "saf-beliefs-097"
     },
     {
       "plain_description_version": "flash-lite:v1",
