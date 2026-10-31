@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_commit": "a17b5a04bb94cbbe04b4ca4abcdb7efe4d022700",
+  "source_commit": "ec7deb133e1d6ceeb4996c2d8e4c5246cd01feb9",
   "doc_count": 883,
   "docs": [
     {
@@ -992,7 +992,7 @@
     },
     {
       "id": "ai-agents-could-be-worth-236-billion-by-2034-if-we-ensure-2026",
-      "title": "AI agents could be worth $236 billion by 2034 â€“ if we ensure they are the good kind",
+      "title": "AI agents could be worth $236 billion by 2034 – if we ensure they are the good kind",
       "url": "https://link.springer.com/content/pdf/10.1007/978-94-007-1733-6.pdf",
       "resolved_url": "https://link.springer.com/content/pdf/10.1007/978-94-007-1733-6.pdf",
       "authors": [
@@ -1723,7 +1723,7 @@
     },
     {
       "id": "ai-doesnt-reduce-workit-intensifies-it-2026",
-      "title": "AI Doesnâ€™t Reduce Workâ€”It Intensifies It",
+      "title": "AI Doesn’t Reduce Work—It Intensifies It",
       "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
       "resolved_url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
       "authors": [
@@ -2048,7 +2048,7 @@
     },
     {
       "id": "ai-isnt-replacement-problem-its-redesign-problem-2026",
-      "title": "AI isnâ€™t a replacement problemâ€¦ itâ€™s a redesign problem",
+      "title": "AI isn’t a replacement problem… it’s a redesign problem",
       "url": "https://rlsutter.substack.com/p/ai-isnt-a-replacement-problem",
       "resolved_url": "https://rlsutter.substack.com/p/ai-isnt-a-replacement-problem",
       "authors": [
@@ -2909,7 +2909,7 @@
         "Brian Schatz",
         "Mazie Hirono",
         "Martin Heinrich",
-        "Ben Ray LujÃ¡n",
+        "Ben Ray Luján",
         "Tammy Baldwin",
         "Bob Casey"
       ],
@@ -3168,7 +3168,7 @@
     },
     {
       "id": "all-powerful-ai-isnt-existential-threat-according-new-2026",
-      "title": "All Powerful AI Isnâ€™t an Existential Threat, According to New Georgia Tech Research   Ivan Allen College of Liberal Arts",
+      "title": "All Powerful AI Isn’t an Existential Threat, According to New Georgia Tech Research   Ivan Allen College of Liberal Arts",
       "url": "https://iac.gatech.edu/news/item/687527/powerful-existential-threat-according-georgia-tech-research",
       "resolved_url": "https://iac.gatech.edu/news/item/687527/powerful-existential-threat-according-georgia-tech-research",
       "snapshot_sha256": "f65c866f42fc90b92bfcec9318647bdecb0b6b3def038829603aadd6aa692fe1",
@@ -3347,7 +3347,7 @@
     },
     {
       "id": "anthropic-identifies-jobs-most-exposed-ai-risksis-your-2026",
-      "title": "Anthropic Identifies the Jobs Most Exposed to AI Risksâ€”Is Your Occupation Affected?",
+      "title": "Anthropic Identifies the Jobs Most Exposed to AI Risks—Is Your Occupation Affected?",
       "url": "https://finance.yahoo.com/news/anthropic-identifies-jobs-most-exposed-164222926.html",
       "resolved_url": "https://finance.yahoo.com/news/anthropic-identifies-jobs-most-exposed-164222926.html",
       "authors": [
@@ -3553,7 +3553,7 @@
         "Samuel Albanie",
         "Scott Emmons",
         "Sebastian Farquhar",
-        "SÃ©bastien Krier",
+        "Sébastien Krier",
         "Senthooran Rajamanoharan",
         "Sophie Bridgers",
         "Tobi Ijitoye",
@@ -4097,7 +4097,7 @@
         "Stephen Cecchetti",
         "Robin L. Lumsdaine",
         "Tuomas Peltonen",
-        "Antonio SÃ¡nchez Serrano"
+        "Antonio Sánchez Serrano"
       ],
       "date_published": "2025-12-01",
       "one_liner": "This report examines how the rapid adoption of AI in the financial sector creates systemic risks and proposes a measured, adaptive regulatory policy framework.",
@@ -4623,7 +4623,7 @@
     },
     {
       "id": "baumols-cost-disease-ai-economic-growth-2026",
-      "title": "Baumolâ€™s Cost Disease, AI & Economic Growth",
+      "title": "Baumol’s Cost Disease, AI & Economic Growth",
       "url": "https://dominiccoey.github.io/essays/baumol/",
       "resolved_url": "https://dominiccoey.github.io/essays/baumol/",
       "authors": [
@@ -4649,7 +4649,7 @@
     },
     {
       "id": "baumols-cost-disease-ai-economic-growth-2026-1",
-      "title": "Baumolâ€™s Cost Disease, AI & Economic Growth",
+      "title": "Baumol’s Cost Disease, AI & Economic Growth",
       "url": "https://dominiccoey.github.io/essays/baumol/",
       "resolved_url": "https://dominiccoey.github.io/essays/baumol/",
       "authors": [
@@ -4677,14 +4677,14 @@
     },
     {
       "id": "baumols-cost-disease-ai-economic-growth-2026-2",
-      "title": "Baumolâ€™s Cost Disease, AI & Economic Growth",
+      "title": "Baumol’s Cost Disease, AI & Economic Growth",
       "url": "https://dominiccoey.github.io/essays/baumol/",
       "resolved_url": "https://dominiccoey.github.io/essays/baumol/",
       "authors": [
         "Dominic Coey"
       ],
       "date_published": "2025-05-14",
-      "one_liner": "Argues that Baumolâ€™s cost disease does not preclude radical AI-driven economic transformation and massive increases in living standards.",
+      "one_liner": "Argues that Baumol’s cost disease does not preclude radical AI-driven economic transformation and massive increases in living standards.",
       "topic_tags": [
         "economic-growth",
         "productivity",
@@ -4705,7 +4705,7 @@
     },
     {
       "id": "baumols-cost-disease-long-term-economic-implications-where-2026",
-      "title": "Baumolâ€™s cost disease: long-term economic implications where machines cannot replace humans",
+      "title": "Baumol’s cost disease: long-term economic implications where machines cannot replace humans",
       "resolved_url": "https://scholar.google.com/citations?user=BRgvWnYAAAAJ&hl=zh-CN",
       "authors": [
         "Guido Appoldt",
@@ -4731,7 +4731,7 @@
     },
     {
       "id": "baumols-cost-disease-long-term-economic-implications-where-2026-1",
-      "title": "Baumolâ€™s cost disease: long-term economic implications where machines cannot replace humans",
+      "title": "Baumol’s cost disease: long-term economic implications where machines cannot replace humans",
       "url": "https://www.unesco.org/en/articles/baumols-cost-disease-long-term-economic-implications-where-machines-cannot-replace-humans",
       "resolved_url": "https://www.unesco.org/en/articles/baumols-cost-disease-long-term-economic-implications-where-machines-cannot-replace-humans",
       "authors": [
@@ -4761,7 +4761,7 @@
     },
     {
       "id": "baumols-cost-disease-long-term-economic-implications-where-2026-2",
-      "title": "Baumolâ€™s cost disease: long-term economic implications where machines cannot replace humans",
+      "title": "Baumol’s cost disease: long-term economic implications where machines cannot replace humans",
       "url": "https://www.unesco.org/en/articles/baumols-cost-disease-long-term-economic-implications-where-machines-cannot-replace-humans",
       "resolved_url": "https://www.unesco.org/en/articles/baumols-cost-disease-long-term-economic-implications-where-machines-cannot-replace-humans",
       "authors": [
@@ -4834,7 +4834,7 @@
         "Siran Li",
         "Stella Wohnig",
         "Ruchika Gupta",
-        "JoÃ£o Alves Ribeiro",
+        "João Alves Ribeiro",
         "Christian Nielsen-Garcia",
         "Samiul Alam",
         "Saif Mir",
@@ -6081,7 +6081,7 @@
         "Jacob Steinhardt",
         "Paul Christiano",
         "John Schulman",
-        "Dan ManÃ©"
+        "Dan Mané"
       ],
       "date_published": "2016-07-25",
       "one_liner": "This paper identifies five practical research problems related to accident risk in machine learning systems, categorized by origin of failure.",
@@ -6999,7 +6999,7 @@
         "Apollo Research"
       ],
       "date_published": "2025-09-17",
-      "one_liner": "OpenAI and Apollo Research demonstrate methods to detect and mitigate AI 'scheming'â€”where models hide misalignmentâ€”using deliberative alignment and chain-of-thought transparency.",
+      "one_liner": "OpenAI and Apollo Research demonstrate methods to detect and mitigate AI 'scheming'—where models hide misalignment—using deliberative alignment and chain-of-thought transparency.",
       "topic_tags": [
         "alignment",
         "scheming",
@@ -7190,7 +7190,7 @@
     },
     {
       "id": "dont-call-it-intelligence-2026",
-      "title": "Donâ€™t Call It â€˜Intelligenceâ€™",
+      "title": "Don’t Call It ‘Intelligence’",
       "url": "https://www.theatlantic.com/ideas/2026/03/intelligence-concept/686121/",
       "resolved_url": "https://www.theatlantic.com/ideas/2026/03/intelligence-concept/686121/",
       "authors": [
@@ -7597,7 +7597,7 @@
         "Trisha Ray",
         "Mark Scott",
         "Kenton Thibaut",
-        "Esteban Ponce de LeÃ³n"
+        "Esteban Ponce de León"
       ],
       "date_published": "2026-01-15",
       "one_liner": "Atlantic Council experts analyze how AI integration, geopolitical competition, and emerging governance frameworks will reshape the global order throughout 2026.",
@@ -7630,7 +7630,7 @@
         "Tess deBlanc-Knowles",
         "Konstantinos Komaitis",
         "Ryan Pan",
-        "Esteban Ponce de LeÃ³n",
+        "Esteban Ponce de León",
         "Trisha Ray",
         "Mark Scott",
         "Kenton Thibaut"
@@ -7667,7 +7667,7 @@
         "Trisha Ray",
         "Mark Scott",
         "Kenton Thibaut",
-        "Esteban Ponce de LeÃ³n"
+        "Esteban Ponce de León"
       ],
       "date_published": "2026-01-15",
       "one_liner": "Atlantic Council experts analyze how AI integration, geopolitical competition, and emerging governance frameworks will reshape the global order throughout 2026.",
@@ -7700,7 +7700,7 @@
         "Tess deBlanc-Knowles",
         "Konstantinos Komaitis",
         "Ryan Pan",
-        "Esteban Ponce de LeÃ³n",
+        "Esteban Ponce de León",
         "Trisha Ray",
         "Mark Scott",
         "Kenton Thibaut"
@@ -7836,7 +7836,7 @@
         "Leonardo C. T. Bezerra",
         "Marios Aristodemou",
         "Siamak F. Shahandashti",
-        "Emily Oâ€™Hara",
+        "Emily O’Hara",
         "Laura Fiona Whyte",
         "Lin Luo",
         "Mark Wong",
@@ -8319,7 +8319,7 @@
     },
     {
       "id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
-      "title": "Explaining womenâ€™s skepticism toward artificial intelligence: The role of risk orientation and risk exposure",
+      "title": "Explaining women’s skepticism toward artificial intelligence: The role of risk orientation and risk exposure",
       "url": "https://doi.org/10.1093/pnasnexus/pgaf399",
       "resolved_url": "https://doi.org/10.1093/pnasnexus/pgaf399",
       "authors": [
@@ -9303,7 +9303,7 @@
         "Saadia Zahidi",
         "Till Leopold",
         "Attilio Di Battista",
-        "Ximena JÃ¡tiva",
+        "Ximena Játiva",
         "Shuvasish Sharma",
         "Ricky Li",
         "Sam Grayling"
@@ -10579,7 +10579,7 @@
     },
     {
       "id": "humanai-interactions-public-sector-decision-making-2026",
-      "title": "Humanâ€“AI Interactions in Public Sector Decision Making: â€œAutomation Biasâ€ and â€œSelective Adherenceâ€ to Algorithmic Advice",
+      "title": "Human–AI Interactions in Public Sector Decision Making: “Automation Bias” and “Selective Adherence” to Algorithmic Advice",
       "url": "https://doi.org/10.1093/jopart/muac007",
       "resolved_url": "https://doi.org/10.1093/jopart/muac007",
       "authors": [
@@ -10673,7 +10673,7 @@
     },
     {
       "id": "i-didnt-use-ai-write-this-but-so-what-if-i-had-2026",
-      "title": "I didnâ€™t use AI to write this. But so what if I had?",
+      "title": "I didn’t use AI to write this. But so what if I had?",
       "url": "https://www.bostonglobe.com/2026/04/14/opinion/the-case-for-allowing-ai-llm-writing/?event=event12",
       "resolved_url": "https://www.bostonglobe.com/2026/04/14/opinion/the-case-for-allowing-ai-llm-writing/?event=event12",
       "authors": [
@@ -11995,13 +11995,13 @@
     },
     {
       "id": "language-technology-is-power-critical-survey-bias-nlp-2026",
-      "title": "Language (Technology) is Power: A Critical Survey of â€œBiasâ€ in NLP",
+      "title": "Language (Technology) is Power: A Critical Survey of “Bias” in NLP",
       "url": "https://sblodgett.github.io/files/acl-2020-power-slides.pdf",
       "resolved_url": "https://sblodgett.github.io/files/acl-2020-power-slides.pdf",
       "authors": [
         "Su Lin Blodgett",
         "Solon Barocas",
-        "Hal DaumÃ© III",
+        "Hal Daumé III",
         "Hanna Wallach"
       ],
       "date_published": "2020-07-05",
@@ -12091,7 +12091,7 @@
       "url": "https://ir.lawnet.fordham.edu/flr/vol94/iss1/2/",
       "resolved_url": "https://ir.lawnet.fordham.edu/flr/vol94/iss1/2/",
       "authors": [
-        "Cullen Oâ€™Keefe",
+        "Cullen O’Keefe",
         "Ketan Ramakrishnan",
         "Janna Tay",
         "Christoph Winter"
@@ -12763,7 +12763,7 @@
     },
     {
       "id": "marc-andreessen-manifesto-says-ai-regulation-is-form-murder-2026",
-      "title": "Marc Andreessen Manifesto Says AI Regulation â€œIs a Form of Murderâ€",
+      "title": "Marc Andreessen Manifesto Says AI Regulation “Is a Form of Murder”",
       "url": "https://www.404media.co/marc-andreesen-manifesto-says-ai-regulation-is-a-form-of-murder/",
       "resolved_url": "https://www.404media.co/marc-andreesen-manifesto-says-ai-regulation-is-a-form-of-murder/",
       "authors": [
@@ -12791,7 +12791,7 @@
     },
     {
       "id": "marc-andreessen-manifesto-says-ai-regulation-is-form-murder-2026-1",
-      "title": "Marc Andreessen Manifesto Says AI Regulation â€œIs a Form of Murderâ€",
+      "title": "Marc Andreessen Manifesto Says AI Regulation “Is a Form of Murder”",
       "url": "https://www.404media.co/marc-andreesen-manifesto-says-ai-regulation-is-a-form-of-murder/",
       "resolved_url": "https://www.404media.co/marc-andreesen-manifesto-says-ai-regulation-is-a-form-of-murder/",
       "authors": [
@@ -12842,7 +12842,7 @@
         "Rudolf Laine",
         "Bilal Chughtai",
         "Jan Betley",
-        "JÃ©rÃ©my Scheurer",
+        "Jérémy Scheurer",
         "Mikita Balesni",
         "Marius Hobbhahn",
         "Kaivalya Hariharan",
@@ -12926,12 +12926,12 @@
     },
     {
       "id": "measuring-us-workers-capacity-adapt-ai-driven-job-2026",
-      "title": "Measuring US workersâ€™ capacity to adapt to AI-driven job displacement",
+      "title": "Measuring US workers’ capacity to adapt to AI-driven job displacement",
       "url": "https://www.brookings.edu/articles/measuring-us-workers-capacity-to-adapt-to-ai-driven-job-displacement/",
       "resolved_url": "https://www.brookings.edu/articles/measuring-us-workers-capacity-to-adapt-to-ai-driven-job-displacement/",
       "authors": [
         "Sam Manning",
-        "TomÃ¡s Aguirre",
+        "Tomás Aguirre",
         "Mark Muro",
         "Shriya Methkupally"
       ],
@@ -14065,7 +14065,7 @@
     },
     {
       "id": "pentagon-went-war-anthropic-whats-really-stake-2026",
-      "title": "The Pentagon Went to War with Anthropic. Whatâ€™s Really at Stake?",
+      "title": "The Pentagon Went to War with Anthropic. What’s Really at Stake?",
       "url": "https://www.newyorker.com/podcast/political-scene/the-pentagon-wants-an-obedient-ai-soldier-will-it-get-one",
       "resolved_url": "https://www.newyorker.com/podcast/political-scene/the-pentagon-wants-an-obedient-ai-soldier-will-it-get-one",
       "authors": [
@@ -14250,7 +14250,7 @@
     },
     {
       "id": "please-dont-outsource-your-critical-thinking-2026",
-      "title": "Please, donâ€™t outsource your critical thinking",
+      "title": "Please, don’t outsource your critical thinking",
       "url": "https://medium.com/@LuisMizutani/please-dont-outsource-your-critical-thinking-ac69a85f5625",
       "resolved_url": "https://medium.com/@LuisMizutani/please-dont-outsource-your-critical-thinking-ac69a85f5625",
       "authors": [
@@ -15087,7 +15087,7 @@
     },
     {
       "id": "reflections-manifesto-accelerationist-politics-2026",
-      "title": "Reflections on the â€œManifesto for an Accelerationist Politicsâ€",
+      "title": "Reflections on the “Manifesto for an Accelerationist Politics”",
       "url": "https://socialecologies.wordpress.com/2014/02/17/antonio-negri-reflections-on-accelerazionista-policy-of-williams-and-srnicek/",
       "resolved_url": "https://socialecologies.wordpress.com/2014/02/17/antonio-negri-reflections-on-accelerazionista-policy-of-williams-and-srnicek/",
       "authors": [
@@ -15778,7 +15778,7 @@
     },
     {
       "id": "rise-agentic-ai-potential-new-legal-organizational-risks-2026",
-      "title": "The rise of â€œagenticâ€ AI: Potential new legal and organizational risks",
+      "title": "The rise of “agentic” AI: Potential new legal and organizational risks",
       "url": "https://www.dlapiper.com/insights/publications/ai-outlook/2025/the-rise-of-agentic-ai--potential-new-legal-and-organizational-risks",
       "resolved_url": "https://www.dlapiper.com/insights/publications/ai-outlook/2025/the-rise-of-agentic-ai--potential-new-legal-and-organizational-risks",
       "authors": [
@@ -16014,7 +16014,7 @@
       "authors": [
         "Petar PetroviÄ‡",
         "Manuel Tavares Martins Dias",
-        "NiccolÃ² Grasso",
+        "Niccolò Grasso",
         "Victoriano Vicente Botella Berenguer",
         "Morgane Denieul"
       ],
@@ -16102,7 +16102,7 @@
     },
     {
       "id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
-      "title": "Sam Altman defends AIâ€™s energy toll by saying it also takes a lot to â€˜train a humanâ€™",
+      "title": "Sam Altman defends AI’s energy toll by saying it also takes a lot to ‘train a human’",
       "url": "https://www.theguardian.com/technology/2026/feb/23/sam-altman-openai-energy-use-datacenters",
       "resolved_url": "https://www.theguardian.com/technology/2026/feb/23/sam-altman-openai-energy-use-datacenters",
       "authors": [
@@ -16156,7 +16156,7 @@
         "A. Feder Cooper",
         "Daphne Ippolito",
         "Christopher A. Choquette-Choo",
-        "Florian TramÃ¨r",
+        "Florian Tramèr",
         "Katherine Lee",
         "Jonathan Hayase"
       ],
@@ -16666,7 +16666,7 @@
       "url": "https://www.mindfuel.ai/resources/blog/skin-in-the-game-dear-business-why-ai-value-demands-shared-ownership",
       "resolved_url": "https://www.mindfuel.ai/resources/blog/skin-in-the-game-dear-business-why-ai-value-demands-shared-ownership",
       "authors": [
-        "Marius FÃ¶rsch"
+        "Marius Försch"
       ],
       "date_published": "2025-10-13",
       "one_liner": "The author argues that successful AI implementation requires business leaders to share ownership and actively manage organizational change rather than treating AI as a technical project.",
@@ -16846,7 +16846,7 @@
     },
     {
       "id": "something-big-is-happening-but-not-what-you-think-2026",
-      "title": "Something Big Is Happening â€” But Not What You Think",
+      "title": "Something Big Is Happening — But Not What You Think",
       "url": "https://e-discoveryteam.com/2026/02/23/something-big-is-happening-but-not-what-you-think/",
       "resolved_url": "https://doi.org/10.1007/s10506-024-09396-9",
       "authors": [
@@ -17133,7 +17133,7 @@
     },
     {
       "id": "stop-treating-agi-as-north-star-goal-ai-research-2026",
-      "title": "Stop Treating â€˜AGIâ€™ as the North-star Goal of AI Research",
+      "title": "Stop Treating ‘AGI’ as the North-star Goal of AI Research",
       "url": "https://arxiv.org/abs/2502.03689v4",
       "resolved_url": "https://arxiv.org/abs/2502.03689v4",
       "authors": [
@@ -17373,7 +17373,7 @@
         "Joumana Ghosn",
         "Pietro Greiner",
         "Matt MacDermott",
-        "SÃ¸ren Mindermann",
+        "Søren Mindermann",
         "Adam Oberman",
         "Jesse Richardson",
         "Oliver Richardson",
@@ -17607,7 +17607,7 @@
       "authors": [
         "Jan Betley",
         "Xuchan Bao",
-        "MartÃ­n Soto",
+        "Martín Soto",
         "Anna Sztyber-Betley",
         "James Chua",
         "Owain Evans"
@@ -17755,7 +17755,7 @@
     },
     {
       "id": "theres-good-reason-you-cant-concentrate-2026",
-      "title": "Thereâ€™s a Good Reason You Canâ€™t Concentrate",
+      "title": "There’s a Good Reason You Can’t Concentrate",
       "url": "https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html",
       "resolved_url": "https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html",
       "authors": [
@@ -17782,7 +17782,7 @@
     },
     {
       "id": "theres-good-reason-you-cant-concentrate-2026-1",
-      "title": "Thereâ€™s a Good Reason You Canâ€™t Concentrate",
+      "title": "There’s a Good Reason You Can’t Concentrate",
       "url": "https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html",
       "resolved_url": "https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html",
       "authors": [
@@ -17921,14 +17921,14 @@
       "resolved_url": "https://www.linkedin.com/posts/chaires-center_global-approach-of-standardization-for-ai-activity-7438246240150216704-WCsF",
       "authors": [
         "Derick Ohmar Adil",
-        "Isabel BarberÃ¡",
+        "Isabel Barberá",
         "Alexis Baria",
         "Sylvain Baudoin",
         "Bertrand Braunschweig",
         "Norbert Bensalem",
         "Jean-Manuel Canet",
         "Nathalie Charbonniaud",
-        "HÃ©lÃ¨ne Costa de Beauregard",
+        "Hélène Costa de Beauregard",
         "Vincent Danno",
         "Renaud Di Francesco",
         "Harm Ellens",
@@ -18122,7 +18122,7 @@
       "authors": [
         "Aaron Chatterji",
         "Daniel Rock",
-        "Eduard TalamÃ s"
+        "Eduard Talamàs"
       ],
       "date_published": "2025-10-01",
       "one_liner": "This paper explores how transformative AI, as a source of abundant digital intelligence, will reshape firm structure, knowledge production, and competitive dynamics.",
@@ -18548,7 +18548,7 @@
     },
     {
       "id": "unacceptable-markey-reintroduces-legislation-combat-bias-2026",
-      "title": "â€˜Unacceptableâ€™: Markey reintroduces legislation to combat bias in artificial intelligence",
+      "title": "‘Unacceptable’: Markey reintroduces legislation to combat bias in artificial intelligence",
       "url": "https://www.wgbh.org/news/politics/2025-12-02/unacceptable-markey-reintroduces-legislation-to-combat-bias-in-artificial-intelligence",
       "resolved_url": "https://www.wgbh.org/news/politics/2025-12-02/unacceptable-markey-reintroduces-legislation-to-combat-bias-in-artificial-intelligence",
       "authors": [
@@ -18576,7 +18576,7 @@
     },
     {
       "id": "unacceptable-markey-reintroduces-legislation-combat-bias-2026-1",
-      "title": "â€˜Unacceptableâ€™: Markey reintroduces legislation to combat bias in artificial intelligence",
+      "title": "‘Unacceptable’: Markey reintroduces legislation to combat bias in artificial intelligence",
       "url": "https://www.wgbh.org/news/politics/2025-12-02/unacceptable-markey-reintroduces-legislation-to-combat-bias-in-artificial-intelligence",
       "resolved_url": "https://www.wgbh.org/news/politics/2025-12-02/unacceptable-markey-reintroduces-legislation-to-combat-bias-in-artificial-intelligence",
       "authors": [
@@ -19138,7 +19138,7 @@
     },
     {
       "id": "whats-next-ai-field-notes-from-microsoft-research-2026-2026",
-      "title": "Whatâ€™s next in AI? Field notes from Microsoft Research for 2026",
+      "title": "What’s next in AI? Field notes from Microsoft Research for 2026",
       "url": "https://news.microsoft.com/source/features/ai/whats-next-in-ai-7-trends-to-watch-in-2026/",
       "resolved_url": "https://news.microsoft.com/source/features/ai/whats-next-in-ai-7-trends-to-watch-in-2026/",
       "authors": [
@@ -19442,7 +19442,7 @@
     },
     {
       "id": "where-are-chinas-ai-doomers-2026",
-      "title": "Where Are Chinaâ€™s A.I. Doomers?",
+      "title": "Where Are China’s A.I. Doomers?",
       "url": "https://www.nytimes.com/2026/03/04/world/asia/china-ai-enthusiasm.html",
       "resolved_url": "https://www.nytimes.com/2026/03/04/world/asia/china-ai-enthusiasm.html",
       "authors": [
@@ -19603,7 +19603,7 @@
     },
     {
       "id": "why-150-experts-reject-robot-rights-legal-status-2026-as-ai-2026",
-      "title": "Why 150 Experts Reject Robot Rights Legal Status 2026 â€” as AI Bots Form Their Own Cults",
+      "title": "Why 150 Experts Reject Robot Rights Legal Status 2026 — as AI Bots Form Their Own Cults",
       "url": "https://medium.com/@creed_1732/why-150-experts-reject-robot-rights-legal-status-2026-as-ai-bots-form-their-own-cults-87d5121fecbf",
       "resolved_url": "https://medium.com/@creed_1732/why-150-experts-reject-robot-rights-legal-status-2026-as-ai-bots-form-their-own-cults-87d5121fecbf",
       "authors": [
@@ -19752,7 +19752,7 @@
     },
     {
       "id": "why-llms-arent-agi-we-need-new-qualitative-model-2026",
-      "title": "Why LLMs arenâ€™t AGI and We need a new Qualitative Model",
+      "title": "Why LLMs aren’t AGI and We need a new Qualitative Model",
       "url": "https://www.linkedin.com/posts/koeberlandreas_why-isnt-ai-intelligent-one-of-the-main-activity-7405577280829349888-PFu-",
       "resolved_url": "https://www.linkedin.com/posts/koeberlandreas_why-isnt-ai-intelligent-one-of-the-main-activity-7405577280829349888-PFu-",
       "authors": [
@@ -19878,7 +19878,7 @@
     },
     {
       "id": "women-are-avoiding-very-technology-that-threatens-them-most-2026",
-      "title": "Women are avoiding the very technology that threatens them most, as expert warns of a â€˜two-tiered AI economyâ€™ approaching",
+      "title": "Women are avoiding the very technology that threatens them most, as expert warns of a ‘two-tiered AI economy’ approaching",
       "url": "https://contextnews.ai/article/women-are-avoiding-the-very-technology-that-threatens-them-most-as-expert-warns-of-a-two-tiered-ai-economy-approaching-mn05q4wc",
       "resolved_url": "https://contextnews.ai/article/women-are-avoiding-the-very-technology-that-threatens-them-most-as-expert-warns-of-a-two-tiered-ai-economy-approaching-mn05q4wc",
       "authors": [
@@ -20038,7 +20038,7 @@
     },
     {
       "id": "yann-lecuns-united-nations-security-council-address-2026",
-      "title": "Yann LeCunâ€™s United Nations Security Council Address",
+      "title": "Yann LeCun’s United Nations Security Council Address",
       "url": "https://read.nxtbook.com/ieee/signal_processing/signal_processing_march_2023/physics_embedded_machine_lear.html",
       "resolved_url": "https://read.nxtbook.com/ieee/signal_processing/signal_processing_march_2023/physics_embedded_machine_lear.html",
       "authors": [
