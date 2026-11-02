@@ -1,0 +1,15 @@
+{
+  "id": "1793063929324-wq8vhs9q",
+  "timestamp": "2026-10-27T01:18:49.324Z",
+  "error": {
+    "name": "TypeError",
+    "message": "Failed to fetch dynamically imported module: http://localhost:5173/components/opeds/OpEdTab.tsx",
+    "stack": "TypeError: Failed to fetch dynamically imported module: http://localhost:5173/components/opeds/OpEdTab.tsx",
+    "componentStack": "\n    at Lazy (<anonymous>)\n    at Suspense (<anonymous>)\n    at div (<anonymous>)\n    at div (<anonymous>)\n    at div (<anonymous>)\n    at MainApp (http://localhost:5173/App.tsx?t=1793063899319:658:157)\n    at AppRouter (http://localhost:5173/App.tsx?t=1793063899319:637:32)\n    at ErrorBoundary (http://localhost:5173/@fs/C:/Users/jsnov/repos/ai-triad-research/lib/electron-shared/components/ErrorBoundary.tsx:8:3)\n    at App (http://localhost:5173/App.tsx?t=1793063899319:276:26)"
+  },
+  "context": {
+    "trigger": "error_boundary",
+    "url": "http://localhost:5173/",
+    "deploymentMode": "electron-dev"
+  }
+}

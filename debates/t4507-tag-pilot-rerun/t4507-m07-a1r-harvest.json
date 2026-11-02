@@ -1,0 +1,266 @@
+{
+  "debate_id": "c8827cce-ce55-4b21-8170-f6f3583f93b6",
+  "debate_title": "Is current AI progress driven mainly by scaling compute, ...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether mandatory software-level pre-deployment audits effectively mitigate systemic risks or merely function as bureaucratic compliance theater that delays beneficial deployment.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Mandatory software audits are essential institutional guardrails that prevent unrecoverable failures and verify safety boundaries before commercial release."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Static compliance audits introduce fatal administrative delays that trade measurable human lives for administrative comfort and halt critical technological progress."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-120",
+        "saf-beliefs-247",
+        "saf-desires-006",
+        "acc-beliefs-059",
+        "acc-desires-037",
+        "acc-intentions-076",
+        "saf-intentions-212",
+        "sit-476",
+        "acc-intentions-027",
+        "acc-desires-001"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether private multi-gigawatt power purchase agreements and microgrid investments successfully isolate public utility grids and residential ratepayers from data center energy strain.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Direct private energy procurement and localized microgrids bypass public transmission bottlenecks and eliminate ratepayer subsidization."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Data centers remain physically tethered to shared transmission infrastructure, meaning peak-load demands and thermal stress cascade into voltage drops on public distribution networks."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-120",
+        "saf-beliefs-247",
+        "saf-desires-006",
+        "acc-beliefs-059",
+        "acc-desires-037",
+        "acc-intentions-076",
+        "saf-intentions-212",
+        "sit-476",
+        "acc-intentions-027",
+        "acc-desires-001"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-213",
+      "nodeLabel": "Temporal Mismatch of AI Energy Impacts",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-212",
+      "nodeLabel": "Speculative Grid Capacity Requests",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-318",
+      "nodeLabel": "The Performance-Compute Divergence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-120",
+      "nodeLabel": "Physical Infrastructure Metrics as an Enforcement Anchor",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-059",
+      "nodeLabel": "Markets Are Intelligent Systems That Optimize Resource Allocation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-076",
+      "nodeLabel": "Procuring Dedicated Clean Energy Additionality for High-Density Computing Facilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-212",
+      "nodeLabel": "Carbon-Aware Pricing Models",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-222",
+      "nodeLabel": "Grid Infrastructure Cost-Shifting onto Residential Utility Ratepayers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-009",
+      "nodeLabel": "Thermodynamic and Hydrological Limits of Compute Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-107",
+      "nodeLabel": "Coupling Pre-Deployment Independent Audits with Algorithmic Disgorgement and Strict Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-001",
+      "nodeLabel": "AI-Powered Abundance and Global Problem-Solving",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-070",
+      "nodeLabel": "Shift AI Competition from Software to Physical Infrastructure Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-016",
+      "nodeLabel": "Risk Compounds Nonlinearly as AI Systems Interact",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-039",
+      "nodeLabel": "AI Systems May Resist Shutdown and Accumulate Resources to Secure Their Objectives",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-204",
+      "nodeLabel": "Train AI on Constitutional Principles to Generalize Safety Beyond Narrow Rules",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-154",
+      "nodeLabel": "Challenges in AI Governance and Policy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-111",
+      "nodeLabel": "Replace Discretionary Human Halt Authority with Pre-Programmed Enforcement Actions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether mandatory software-level pre-deployment audits effectively mitigate systemic risks or merely function as bureaucratic compliance theater that delays beneficial deployment.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Both camps present competing theoretical claims about audit utility versus administrative delay without offering rigorous comparative datasets on audit effectiveness. Without longitudinal data measuring error rates in audited versus un audited models, the trade-off remains empirically unverified.",
+      "whatWouldChange": "Comparative empirical studies tracking incident rates and deployment timelines across audited and un audited frontier models would tip the balance.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether private multi-gigawatt power purchase agreements and microgrid investments successfully isolate public utility grids and residential ratepayers from data center energy strain.",
+      "prevails": "safetyist",
+      "criterion": "empirical_evidence",
+      "rationale": "Skeptics and safetyists provide concrete utility interconnection filings from Northern Virginia demonstrating that hundred-megawatt facility demands directly stress shared infrastructure and shift costs. The opposing view relies on theoretical isolation mechanisms that lack documented proof of complete grid decoupling during extreme thermal events.",
+      "whatWouldChange": "Rigorous grid performance audits proving that dedicated private microgrids maintain zero voltage sag on public distribution networks during peak thermal stress events would flip this verdict.",
+      "claimIds": [
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,246 @@
+{
+  "generated_at": "2026-10-28T07:26:25.2740873-04:00",
+  "claim_count": 20,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Origin of Information Fiduciary Theory",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-027"
+      ]
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Introduction of Data Care Act of 2018",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-027"
+      ]
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Technology Companies Incorporated in Delaware",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-219"
+      ]
+    },
+    {
+      "id": "qc-4",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Facebook Advertising Revenue Share",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-120"
+      ]
+    },
+    {
+      "id": "qc-5",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Algorithmic Feed Adjustment Stock Impact",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-120"
+      ]
+    },
+    {
+      "id": "qc-6",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Delaware Public Benefit Corporation Statute",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-219"
+      ]
+    },
+    {
+      "id": "qc-7",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Balkin and Zittrain Atlantic Essay",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-027"
+      ]
+    },
+    {
+      "id": "qc-8",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Facebook Data Sale Denial and Critique",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-138"
+      ]
+    },
+    {
+      "id": "qc-9",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Pew Research Center Survey on Facebook User Awareness",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-183"
+      ]
+    },
+    {
+      "id": "qc-10",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "FTC Investigation into Google Search Bias",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-11",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Top Social Media Applications Market Share in 2017",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-216"
+      ]
+    },
+    {
+      "id": "qc-12",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Bundeskartellamt Decision on Facebook Data Combination",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-216"
+      ]
+    },
+    {
+      "id": "qc-13",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "FTC Good Faith Investigation of Google",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-298"
+      ]
+    },
+    {
+      "id": "qc-14",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Platform User Scale in United States",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-15",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Decline in US Newsroom Employment",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-16",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Data Care Act of 2018 Enforcement Provisions",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-17",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Duopoly Digital Advertising Market Capture",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-216"
+      ]
+    },
+    {
+      "id": "qc-18",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Platform Ad Dominance Drives Publishing Layoffs",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-216"
+      ]
+    },
+    {
+      "id": "qc-19",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Supreme Court Rejection of Professional Speech Category",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-20",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "German Antitrust Ruling on Facebook Data Combination",
+      "category": "Intentions",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-intentions-156",
+        "skp-beliefs-170"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

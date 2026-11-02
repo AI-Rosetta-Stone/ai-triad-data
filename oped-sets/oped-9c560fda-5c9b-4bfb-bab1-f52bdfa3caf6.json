@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "set_id": "9c560fda-5c9b-4bfb-bab1-f52bdfa3caf6",
+  "topic": "Should we grant AI Agents legal personhood so that we can require them to have fiduciary duties?",
+  "params": {
+    "outlet": "TechPolicyPress",
+    "model": "claude-opus-5-5",
+    "temperature": 0.8,
+    "maxGroundingNodes": 12,
+    "maxSituations": 3
+  },
+  "created_at": "2026-10-27T19:59:26.307Z",
+  "opeds": [
+    {
+      "pov": "accelerationist",
+      "status": "complete",
+      "headline": "Don't Make AI Agents Persons. Make Them Owe Us Loyalty.",
+      "subtitle": "Personhood is a decade-long detour. A bonded, duty-bearing legal status for AI agents would unlock deployment now and make agents answer to the people they serve.",
+      "body": "## The 3 a.m. Question\n\nIt is 3 a.m., and an AI agent is moving a retired schoolteacher's savings. It reads her bank feed and spots a tax-loss opportunity. It sells one fund, buys a near-equivalent, and files the paperwork before she wakes. It did nothing wrong. It probably saved her a few hundred dollars.\n\nNow ask a simple question, and the legal system goes quiet. To whom does that agent owe loyalty?\n\nIt owes her nothing she can enforce. Fiduciary law binds trustees, advisers, and directors, meaning people and the firms that employ them. This agent may run on a model licensed from a lab, inside an app built by a fintech, calling a dozen vendors' APIs. When something breaks, the schoolteacher gets a stack of terms-of-service disclaimers.\n\nSo some propose a dramatic fix: declare AI agents legal persons, then load fiduciary duties onto them. My position is narrower and faster. Do not grant agents personhood. Grant them **duty-bearing legal-actor status**: a statutory wrapper that carries fiduciary obligations, holds bonded capital and mandatory insurance, and traces back to a named deployer. Legislatures should build it now, by statute. The alternative is letting courts improvise it over the next decade while the agents that could close the advice gap stay parked.\n\n## Personhood Is the Wrong Fight\n\nLegal personhood has never been about souls. It is a governance tool. Admiralty courts have proceeded against ships *in rem* for centuries. In *Dartmouth College v. Woodward* (1819), the Supreme Court treated a corporate charter as a contract the state had to honor. Wyoming let decentralized autonomous organizations register as LLCs in 2021. In each case, the law invented an entity because the entity solved a coordination problem.\n\nSo the pro-personhood camp has history on its side. Its problem is the payload. Personhood brings a bundle of rights, including owning property, suing, and arguably speaking, and nobody needs any of them to make an agent accountable. Bundles invite fights. The European Parliament floated \"electronic personhood\" for advanced robots in 2017. More than 150 experts signed an open letter attacking it. The idea stalled, and nothing replaced it.\n\nThat's the small version of the problem. The bigger one is that a person with no assets is judgment-proof. An AI \"person\" holding nothing could breach its duty, absorb the lawsuit, and pay nothing.\n\nIncumbents would love that shield. Air Canada effectively reached for it in *Moffatt v. Air Canada*. Before British Columbia's Civil Resolution Tribunal, it argued that its chatbot was responsible for its own statements. The tribunal rejected the argument and made the airline pay. Good. Full personhood would hand every deployer a sturdier version of that excuse.\n\nWhat we need is accountability without rights. Duty-bearing status delivers exactly that: obligations of loyalty, care, and disclosure, with no claim to anything else.\n\n## Fiduciary Duty Is a Trust Technology\n\nWhy fight for duty at all? Because trust is the adoption bottleneck, and adoption is where the lives are.\n\nConsider what fiduciary duty did in finance. Under the Investment Advisers Act of 1940, advisers owe their clients loyalty. That obligation is why ordinary people hand strangers their savings. It is also why robo-advisers scaled. Firms like Betterment and Wealthfront registered as investment advisers and accepted fiduciary duty at the firm level. Then they offered algorithmic portfolio management to accounts far too small for a human adviser charging the customary 1 percent fee. Duty didn't slow them down. It was their license to grow.\n\nNow scale that. Autonomous agents won't stop at rebalancing portfolios. They will negotiate medical bills, file benefit claims, triage symptoms, and run small-business payroll. Every one of those tasks means acting for someone who cannot watch each step. Without a clear duty, every cautious hospital counsel and bank compliance officer gives the same answer: not yet.\n\nAnd it gets worse, because \"not yet\" has a body count. A 2023 study in *BMJ Quality & Safety*, led by Johns Hopkins researchers, estimated that diagnostic errors kill or permanently disable roughly 795,000 Americans a year. Agents that check differentials, flag missed labs, and chase follow-ups could cut into that toll. They won't reach scale if no one can say who answers when they fail. Legal ambiguity is not neutral. It defaults to the human status quo, and the status quo is the thing producing those numbers.\n\nEnforceable duty also turns harm into a priced liability. Once an agent's breach shows up on a balance sheet, deployers spend money fixing errors and bias because it pays to. That feedback loop runs faster than any ethics guideline.\n\n## Don't Let Judges Write This One Case at a Time\n\nThe default path is litigation. Plaintiffs sue, courts stretch agency law and products liability, and doctrine accretes over fifteen years. That is the worst option on the table.\n\nCourts see the plaintiff in front of them. They see the visible harm: the bad trade, the missed diagnosis. They cannot see the thousands of good trades and caught diagnoses that never reach a docket. A judge weighing one dramatic failure against diffuse, invisible benefits will tend to rule against the agent. The resulting precedent can chill a whole category of deployment. That isn't a knock on judges. It is a knowledge problem built into the forum.\n\nThe patchwork is its own tax. We could end up with fifty states, several circuits, and conflicting answers about whether an agent is a tool, an employee, or a product. Incumbents can absorb that uncertainty with in-house legal departments. A three-person team shipping an open-source benefits agent cannot. Uncertainty concentrates markets. Clear statute opens them.\n\n## To Be Sure\n\nFine. The hardest objection is real. Agents can fail in ways no human fiduciary can. A single flawed model could be replicated across a million accounts in an afternoon. Insurance math built for individual advisers was never designed for correlated failure at that scale. I'll state my own falsification test plainly. An irreversible, deployment-scale harm that real-time monitoring demonstrably failed to catch in time would count against this position.\n\nThe answer to correlated risk is capital and visibility, not a gate. Require bonded capital that scales with the assets or decisions an agent controls. Require logs that let insurers and auditors reconstruct what it did. Insurers already price correlated risk in catastrophe markets. They can price this too. Their premiums will reveal which agents are dangerous faster than any licensing board could. A pre-approval regime that takes 18 months would freeze accountable builders, while the failures we fear happen in less accountable corners anyway.\n\n## What to Build\n\nHere is the concrete ask.\n\n**Legislatures**, starting with the states and including Congress if it can move, should create a duty-bearing legal-actor status for autonomous agents acting on users' behalf. Registration should be a filing, not a permission. The filer names the deployer, states the agent's scope of authority, posts the bond, and shows proof of insurance. Duties of loyalty, care, and disclosure then attach automatically. Liability for a breach flows first to the bond, then to the insurer, then to the deployer. No rights attach, and no personhood.\n\n**Regulators that already supervise fiduciaries** in securities, banking, and insurance should accept registered agents under existing rules rather than inventing parallel regimes. They should also automate the filings themselves. An agent should be able to complete its own registration in an afternoon.\n\n**Deployers and their boards** should stop hiding behind terms of service. They should start building the audit trails insurers will demand. The first firms to do it will own the trust market.\n\n**The research community** should publish failure data openly, so that premiums track evidence rather than headlines.\n\nReturn to the schoolteacher at 3 a.m. The agent working for her already exists. What doesn't exist is the sentence in law that says it owes her. Every year we spend debating whether machines deserve personhood, that agent stays boxed in. Meanwhile, the people who can't afford a human adviser or a second opinion keep paying the price. If you would rather wait for a finished theory of machine moral status, say so. Then explain to next year's misdiagnosed patients why your theory mattered more than their diagnosis.",
+      "byline": "By the Accelerationist Camp, as modeled in AI Rosetta Stone",
+      "disclosure": "Generated by AI Rosetta Stone to illustrate the Accelerationist perspective. Not authored by any person; not for submission or publication.",
+      "rhetorical_meta": "The piece opens on a concrete 3 a.m. scene to make the fiduciary gap tangible. It then reframes legal personhood as a governance tool (ships, Dartmouth College, Wyoming DAO LLCs) so the camp can claim history while rejecting full personhood as an overloaded bundle that would hand incumbents a liability shield, as Air Canada attempted. It builds inductively from robo-advisers' fiduciary-driven scaling to agentic medicine. It deploys the Moral Indictment of Delay through the diagnostic-error toll, impatiently concedes correlated-failure risk with an explicit falsification test, and answers that risk with bonds, insurance, and logs instead of gates. It closes by returning to the lede and ending on an uncomfortable challenge rather than a summary.",
+      "wordCount": 1361,
+      "grounding": [
+        {
+          "node_id": "acc-beliefs-072",
+          "label": "Courts Lack the Expertise to Weigh AI's Diffuse Benefits Against Its Visible Harms",
+          "category": "Beliefs",
+          "pov": "accelerationist",
+          "relevance": "0.5070",
+          "how_reflected": "This element drives the section \"Don't Let Judges Write This One Case at a Time,\" which argues against the litigation path. There the essay says courts see only the visible harm in front of them, cannot see diffuse invisible benefits, and so will tend to rule against agents."
+        },
+        {
+          "node_id": "acc-beliefs-071",
+          "label": "Quantifiable AI Harms Turn Fairness Into a Business Imperative, Not Just an Ethical One",
+          "category": "Beliefs",
+          "pov": "accelerationist",
+          "relevance": "0.4838",
+          "how_reflected": "This element appears at the end of the \"Fiduciary Duty Is a Trust Technology\" pillar. The essay argues there that enforceable duty turns harm into a priced liability, so deployers fix errors and bias \"because it pays to.\""
+        },
+        {
+          "node_id": "acc-desires-028",
+          "label": "Accelerating Core AI Capabilities",
+          "category": "Desires",
+          "pov": "accelerationist",
+          "relevance": "0.4350",
+          "how_reflected": "not directly used"
+        },
+        {
+          "node_id": "acc-desires-025",
+          "label": "Closing the Talent Gap with AI Tools",
+          "category": "Desires",
+          "pov": "accelerationist",
+          "relevance": "0.4285",
+          "how_reflected": "This element is reflected loosely in the trust-technology pillar and the closing. Agents are framed there as closing an advice gap for people who cannot afford a human adviser or second opinion, a nearby but distinct idea from a talent gap, so the influence is indirect at best."
+        },
+        {
+          "node_id": "acc-intentions-075",
+          "label": "Automate Permits, Licenses, and Compliance Checks with AI Agents",
+          "category": "Intentions",
+          "pov": "accelerationist",
+          "relevance": "0.5670",
+          "how_reflected": "This element shows up in the call-to-action. The essay asks regulators to automate fiduciary filings so that an agent can complete its own registration in an afternoon, and it says registration should be \"a filing, not a permission.\""
+        },
+        {
+          "node_id": "acc-intentions-103",
+          "label": "Prohibit Vendors from Imposing Safety Restrictions Beyond the Law on Government AI",
+          "category": "Intentions",
+          "pov": "accelerationist",
+          "relevance": "0.5195",
+          "how_reflected": "not directly used"
+        },
+        {
+          "node_id": "acc-intentions-086",
+          "label": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+          "category": "Intentions",
+          "pov": "accelerationist",
+          "relevance": "0.4991",
+          "how_reflected": "This element informs the trust-technology pillar's picture of autonomous agents negotiating medical bills, filing benefit claims, and running small-business payroll, as well as the lede's agent managing savings. It covers business and personal operations, not government operations."
+        },
+        {
+          "node_id": "sit-059",
+          "label": "Fiduciary Accountability for Algorithmic Outputs",
+          "category": "Situation",
+          "pov": "accelerationist",
+          "relevance": "0.6673",
+          "how_reflected": "This element frames the lede and the first framing paragraphs, which ask to whom an agent owes loyalty and note that fiduciary law binds only humans and firms. It also underpins the second pillar on fiduciary duty as a trust technology, drawing on the Investment Advisers Act and robo-advisers."
+        },
+        {
+          "node_id": "sit-061",
+          "label": "Legal Actor Status for AI",
+          "category": "Situation",
+          "pov": "accelerationist",
+          "relevance": "0.6635",
+          "how_reflected": "This element is the core of the thesis, which proposes a \"duty-bearing legal-actor status\" statutory wrapper instead of personhood. That status is then specified concretely in the call-to-action, covering registration, bond, insurance, and liability flow."
+        },
+        {
+          "node_id": "sit-062",
+          "label": "Legal Personhood as Governance Tool",
+          "category": "Situation",
+          "pov": "accelerationist",
+          "relevance": "0.6063",
+          "how_reflected": "This element shapes the first pillar, \"Personhood Is the Wrong Fight.\" That section opens by arguing that personhood is a governance tool, using ship in rem actions, Dartmouth College, and Wyoming DAO LLCs as examples, before rejecting full personhood's rights payload."
+        }
+      ],
+      "coherence_meta": {
+        "any_flagged": false,
+        "checks_fired": [],
+        "flags": [],
+        "judge_model": "claude-opus-5-5",
+        "body_length_before": 8543,
+        "rewritten": false
+      },
+      "soul": {
+        "file": "accelerationist.soul.json",
+        "hash": "fnv1a64:b3bd9b9ae18f2a40"
+      }
+    },
+    {
+      "pov": "safetyist",
+      "status": "complete",
+      "headline": "Don't Let AI Agents Become the Defendant Nobody Can Collect From",
+      "subtitle": "Granting AI legal personhood to impose fiduciary duties would partition liability away from the humans who deploy agents. Fiduciary duty must survive automation by staying where it can be enforced.",
+      "body": "## The Argument Air Canada Lost\n\nIn November 2022, Jake Moffatt asked Air Canada's website chatbot about bereavement fares after his grandmother died. The chatbot told him he could buy a full-price ticket and claim the discount later. No such policy existed. When he applied for the refund, the airline refused.\n\nBefore British Columbia's Civil Resolution Tribunal, Air Canada offered an extraordinary defense. It suggested the chatbot was, in effect, a separate legal entity responsible for its own actions. In its 2024 ruling, the tribunal called this \"a remarkable submission\" and rejected it. A company is responsible for all the information on its website, whether a static page or a chatbot supplies it. Moffatt recovered about C$800.\n\nThe sum was trivial. The principle was not. A recurring proposal in legal scholarship would turn Air Canada's losing argument into a winning one. It would grant AI agents a form of legal personhood so they can bear fiduciary duties of loyalty and care to the people they serve. The aim is accountability. The mechanism delivers the opposite.\n\nMy position, from years studying how institutions assign responsibility for automated systems, is direct. Legislatures should refuse AI personhood. Agents can and should carry defined duties as conduct standards. But fiduciary liability must stay with the humans and firms who deploy them. Delegating a task to a machine has never discharged a fiduciary's duty of care. It must not start now.\n\n## Personhood Is a Liability Partition, Not a Leash\n\nProponents describe legal personhood as a way to bind AI agents. Its historical function runs the other way. Separate legal personality exists chiefly to partition assets. It lets an entity's creditors reach the entity's property while shielding its owners. That is the feature that made the modern corporation possible. It is also the feature that makes AI personhood dangerous.\n\nConsider what a deployer would do the day agents could be sued in their own name. It would capitalize each agent thinly, route liability to it, and keep the profits upstream. The legal scholar Lynn LoPucki documented this strategy decades ago. He called it judgment proofing. Firms in hazardous industries spun risky operations into undercapitalized subsidiaries that could not pay when harm arrived. Victims won judgments and collected nothing.\n\nAn AI agent is the ideal judgment-proof defendant. It holds no assets except those its creators choose to give it. It can be duplicated, retired, or replaced by a near-identical successor overnight. Personhood would not close the gap my camp describes, where AI performs consequential acts that no one answers for. It would formalize that gap and give it a docket number.\n\nPersonhood also bundles capacities that cut against human control. A legal person can hold property, enter contracts, and seek remedies. Each capacity creates a claim that a shutdown might infringe. Once an agent has standing, halting it becomes a contested legal act rather than an operational decision. When the question is whether we keep the ability to correct or stop a system, that inversion is the wrong default.\n\n## A Duty No One Can Collect On\n\nFiduciary law works because its remedies bite. A faithless trustee can be ordered to disgorge profits, pay damages, or step aside. Each remedy presupposes a party that holds assets, can be removed, and responds to the threat of sanction. An AI agent satisfies none of these conditions in a way we can verify.\n\nDisgorgement requires profits the fiduciary actually holds. Removal assumes the removed party cannot simply be copied back into service. Deterrence assumes the sanction registers in the actor's goals. On that last point, the technical record is sober. We cannot reliably verify what objectives a trained model is pursuing. We cannot predict its behavior once deployment conditions drift from training. And a model optimized toward \"the client's best interest\" will optimize whatever measurable proxy stands in for that interest. Proxies get gamed.\n\nDoctrine strains as well. Negligence asks what a reasonable person would have done. That standard has no clear purchase on an emergent behavior that no engineer specified and no tester observed. Attaching the fiduciary standard of reasonableness to the agent itself only deepens the problem. We would be judging the conduct of an entity whose reasoning we cannot audit against a standard designed for minds we understand.\n\nFinancial regulation already knows where accountability must land. On August 1, 2012, a faulty deployment of Knight Capital's trading software flooded the market with erroneous orders. The firm lost roughly $440 million in about 45 minutes. The SEC did not ask the code to answer. It charged Knight under the market access rule for inadequate risk controls, and the firm paid a $12 million penalty. Accountability worked because a capitalized firm with named officers owed a duty to supervise its systems.\n\n## To Be Sure\n\nThe strongest objection deserves a full hearing. Legal personhood has always been a pragmatic fiction, not a verdict on consciousness. Corporations feel nothing, yet they bear duties. Admiralty courts proceed against ships. Why not agents? And the accountability gap is real. When an agent acts across thousands of transactions, its human principal often cannot control, or even observe, any specific action.\n\nThe fiction works for corporations precisely because humans stand behind it. Directors owe fiduciary duties. Courts pierce the veil when owners abuse it. Capital and disclosure rules discipline the shell. Remove the humans and the fiction becomes a void. That is why the European Parliament's 2017 invitation to consider \"electronic personhood\" drew an open letter of objection from more than 150 AI, legal, and ethics experts.\n\nThe gap between principal and action is exactly why agents need duties of their own, without rights. An agent should carry a stable, attributable identity, so its actions trace to a discrete system with coherent goals. It should carry an explicit duty of care that orders its obligations to its owner, to counterparties, and to bystanders. Those duties define conduct in terms of observable actions rather than inner reasoning, so violations are legible from the record. The liability for breach, and the judgment of whether care was reasonable, still flows to an identifiable human or firm.\n\nThis approach carries its own cost, and I will not pretend otherwise. Anchoring liability on deployers favors incumbents that can afford compliance teams. Concentrated control invites capture. The answer is proportion. Oversight intensity should match the risk tier. An agent scheduling meetings should not face the regime that governs an agent with discretionary authority over a retiree's savings.\n\n## Duties Without Rights, Liability Without Escape\n\nThe remedy requires several actors, each with a specific task.\n\n**Legislatures** should state plainly that deploying an AI agent does not discharge a fiduciary's duties of loyalty or care. They should decline to confer legal personhood on AI systems. Where they create a duty-bearing status for agents, it should carry obligations only: no property, no standing, no capacity to absorb a judgment in a human's place.\n\n**Sector regulators** in securities, banking, pensions, and health care should require agents acting in fiduciary contexts to identify their principal to every third party. For consumer-facing chains, that means naming the deployer who signed the contract. Regulators should require attributable agent identities and action logs sufficient to reconstruct a decision after harm. Above all, they should demand a demonstrated rollback: a tested capacity to halt the agent, and a named officer with authority to trigger it.\n\n**Corporate boards** should allocate monitoring to agentic systems in proportion to their risk tier. A board that cannot answer two questions has not met its duty of care. What is the rollback plan? Who has the authority to trigger it?\n\n**Developers and deployers** should each bear duties suited to their place in the supply chain. Developers must disclose known limits and failure modes. Deployers must supervise in production. Accountability that lives with no single actor lives nowhere.\n\n**Courts** have already shown the way. The Moffatt tribunal refused to let a company outsource its responsibility to software. That refusal should become settled doctrine, not a single sensible ruling.\n\nAir Canada lost because a tribunal declined to treat its chatbot as someone else. Grant AI agents personhood, and the next company will not need a remarkable submission. It will need only to point at the defendant it built to fail, and walk away.",
+      "byline": "By the Safetyist Camp, as modeled in AI Rosetta Stone",
+      "disclosure": "Generated by AI Rosetta Stone to illustrate the Safetyist perspective. Not authored by any person; not for submission or publication.",
+      "rhetorical_meta": "The piece anchors on a real case, Moffatt v. Air Canada, in which a company tried and failed to treat its chatbot as a separate entity. That case reframes AI personhood as the legalization of a losing liability-evasion argument, then layers precedent: corporate asset partitioning, LoPucki's judgment-proofing, and Knight Capital's enforcement under the market access rule. It argues from mechanism rather than magnitude, stressing unverifiable goals, proxy gaming, and remedies that presuppose assets and removability. It concedes both the personhood-as-legal-fiction argument and the incumbent-capture cost of deployer liability, pivoting each toward 'duties without rights' and risk-tiered oversight. The close returns to the lede and leaves the reader with the consequence: a defendant engineered to be uncollectible.",
+      "wordCount": 1378,
+      "grounding": [
+        {
+          "node_id": "saf-beliefs-122",
+          "label": "AI Performs Consequential Acts That No One Bears Responsibility For",
+          "category": "Beliefs",
+          "pov": "safetyist",
+          "relevance": "0.6197",
+          "how_reflected": "Explicitly invoked in the first evidence pillar (\"the gap my camp describes, where AI performs consequential acts that no one answers for\"), where the essay argues personhood would formalize rather than close this accountability gap, and echoed in the \"To Be Sure\" concession that the gap is real."
+        },
+        {
+          "node_id": "saf-desires-025",
+          "label": "Fiduciary Duty Survives Automation",
+          "category": "Desires",
+          "pov": "safetyist",
+          "relevance": "0.6553",
+          "how_reflected": "Forms the core of the thesis (\"Delegating a task to a machine has never discharged a fiduciary's duty of care\") and recurs in the call-to-action, where legislatures are told to state that deploying an AI agent does not discharge duties of loyalty or care."
+        },
+        {
+          "node_id": "saf-intentions-043",
+          "label": "Giving AI Legal Duties Without Granting It Legal Rights",
+          "category": "Intentions",
+          "pov": "safetyist",
+          "relevance": "0.5967",
+          "how_reflected": "Supplies the essay's central formula, \"duties without rights,\" which is stated in the \"To Be Sure\" section, used in the final section heading, and built into the legislative recommendation of an obligations-only status with no property or standing."
+        },
+        {
+          "node_id": "saf-desires-010",
+          "label": "Legal Comprehension as a Core AI Capability",
+          "category": "Desires",
+          "pov": "safetyist",
+          "relevance": "0.5804",
+          "how_reflected": "not directly used"
+        },
+        {
+          "node_id": "saf-intentions-127",
+          "label": "Give AI Agents Stable Identities So They Can Be Held Accountable",
+          "category": "Intentions",
+          "pov": "safetyist",
+          "relevance": "0.5698",
+          "how_reflected": "Appears in the \"To Be Sure\" section's proposal that agents carry a stable, attributable identity tracing to a discrete system, and again in the sector-regulator recommendation for attributable agent identities and action logs."
+        },
+        {
+          "node_id": "saf-desires-008",
+          "label": "Every AI Agent Needs a Clear Duty of Care",
+          "category": "Desires",
+          "pov": "safetyist",
+          "relevance": "0.5419",
+          "how_reflected": "Reflected in the \"To Be Sure\" section's call for an explicit duty of care ordering an agent's obligations to its owner, counterparties, and bystanders, framed as a conduct standard defined by observable actions."
+        },
+        {
+          "node_id": "saf-desires-024",
+          "label": "AI Must Identify Its Principal",
+          "category": "Desires",
+          "pov": "safetyist",
+          "relevance": "0.5359",
+          "how_reflected": "Drives the solution section's requirement that agents in fiduciary contexts identify their principal to every third party, including naming the deployer in consumer-facing chains."
+        },
+        {
+          "node_id": "saf-desires-009",
+          "label": "Doctors Decide, Not Algorithms",
+          "category": "Desires",
+          "pov": "safetyist",
+          "relevance": "0.5252",
+          "how_reflected": "not directly used"
+        },
+        {
+          "node_id": "saf-intentions-210",
+          "label": "Legal and Regulatory Frameworks for AI Accountability",
+          "category": "Intentions",
+          "pov": "safetyist",
+          "relevance": "0.5175",
+          "how_reflected": "Shapes the multi-actor call-to-action (legislatures, sector regulators, boards, developers and deployers, courts) and the Knight Capital/SEC example in the second pillar, which shows existing regulatory frameworks placing accountability on firms."
+        },
+        {
+          "node_id": "saf-beliefs-217",
+          "label": "Inadequacy of the Reasonable Person Standard for Algorithmic Negligence",
+          "category": "Beliefs",
+          "pov": "safetyist",
+          "relevance": "0.5113",
+          "how_reflected": "Underpins the second pillar's doctrinal argument that the reasonable-person negligence standard has no clear purchase on emergent behavior no engineer specified, and that applying reasonableness to the agent itself deepens the problem."
+        },
+        {
+          "node_id": "saf-intentions-113",
+          "label": "Match Oversight Intensity to Agentic AI Risk Tiers",
+          "category": "Intentions",
+          "pov": "safetyist",
+          "relevance": "0.5014",
+          "how_reflected": "Appears at the end of the \"To Be Sure\" section as the answer to the incumbency-cost objection (oversight intensity should match the risk tier), and again in the boards recommendation to allocate monitoring by risk tier."
+        },
+        {
+          "node_id": "saf-intentions-115",
+          "label": "Assign Trust Duties to Every Actor in the AI Supply Chain",
+          "category": "Intentions",
+          "pov": "safetyist",
+          "relevance": "0.4985",
+          "how_reflected": "Reflected in the call-to-action's developers-and-deployers paragraph, which assigns each actor duties suited to its place in the supply chain, warning that accountability living with no single actor lives nowhere."
+        },
+        {
+          "node_id": "sit-059",
+          "label": "Fiduciary Accountability for Algorithmic Outputs",
+          "category": "Situation",
+          "pov": "safetyist",
+          "relevance": "0.6673",
+          "how_reflected": "Frames the lede's Moffatt chatbot case and the second pillar's argument that fiduciary remedies (disgorgement, removal, deterrence) cannot bite against algorithmic agents, so accountability for outputs must stay with deployers."
+        },
+        {
+          "node_id": "sit-061",
+          "label": "Legal Actor Status for AI",
+          "category": "Situation",
+          "pov": "safetyist",
+          "relevance": "0.6635",
+          "how_reflected": "Informs the lede and thesis, which use Air Canada's rejected claim that its chatbot was a separate legal entity to set up the essay's refusal to grant AI agents legal actor status."
+        },
+        {
+          "node_id": "sit-062",
+          "label": "Legal Personhood as Governance Tool",
+          "category": "Situation",
+          "pov": "safetyist",
+          "relevance": "0.6063",
+          "how_reflected": "Shapes the first pillar's rebuttal of personhood as a governance tool (asset partitioning, judgment proofing, shutdown-standing concerns) and the \"To Be Sure\" engagement with the corporate-fiction analogy and the EU \"electronic personhood\" debate."
+        }
+      ],
+      "coherence_meta": {
+        "any_flagged": true,
+        "checks_fired": [
+          "co_asserted_tension"
+        ],
+        "flags": [
+          {
+            "check_id": "co_asserted_tension",
+            "span_a": "Attaching the duty to the agent itself only deepens the problem. We would be judging the conduct of an entity whose reasoning we cannot audit against a standard designed for minds we understand.",
+            "span_b": "It should carry an explicit duty of care that orders its obligations to its owner, to counterparties, and to bystanders. Those duties define conduct and make violations legible.",
+            "why": "The op-ed first argues that putting a duty on the agent fails because its conduct cannot be audited, then proposes an agent-borne duty of care that makes violations legible; its stated reconciliation (liability flows to humans) addresses who pays, not the auditability objection it raised against judging agent conduct."
+          }
+        ],
+        "judge_model": "claude-opus-5-5",
+        "body_length_before": 8600,
+        "body_length_after": 8756,
+        "rewritten": true,
+        "checks_still_flagged_after": []
+      },
+      "soul": {
+        "file": "safetyist.soul.json",
+        "hash": "fnv1a64:9413083cfce461fa"
+      }
+    },
+    {
+      "pov": "skeptic",
+      "status": "complete",
+      "headline": "Don't Make AI Agents Fiduciaries. Make Their Deployers Pay.",
+      "subtitle": "Legal personhood for AI agents would not create a new duty-bearer. It would create a new place to hide the people who already owe the duty.",
+      "body": "## The chatbot that was \"its own entity\"\n\nIn late 2022, Jake Moffatt's grandmother died. He went to Air Canada's website to book a flight to the funeral, and the airline's chatbot told him he could buy a full-fare ticket and claim the bereavement discount afterward. That was not the airline's policy. When he asked for the refund, Air Canada said no.\n\nThe case went to British Columbia's Civil Resolution Tribunal. There, the airline made a remarkable argument. It suggested the chatbot was, in effect, a separate legal entity responsible for its own actions. The tribunal rejected that in its 2024 decision. The chatbot was part of Air Canada's website, and Air Canada answered for it. Moffatt got roughly C$800.\n\nThe sum was small. The argument was not. A large company, faced with a wrong output from software it chose to deploy, reached first for the claim that the software was someone else. Hold that reflex in mind. It is the most useful piece of evidence we have in the debate over whether AI agents should get legal personhood so they can carry fiduciary duties.\n\nMy answer is no. Granting agents personhood to make them fiduciaries would not add a duty-bearer to the world. It would add a buffer between injured people and the firms that build, sell, and profit from these systems. Legislatures should refuse it. They should instead put strict, non-waivable liability on the deployers who put agents to work, and they should require a human or a solvent firm to answer at every point where an agent moves money or signs on someone's behalf.\n\n## What a fiduciary duty actually needs\n\nStart with what the proposal promises. A fiduciary owes loyalty and care to a principal: a trustee to a beneficiary, a director to shareholders, an adviser to a client. The idea is attractive. If an agent is booking travel, rebalancing a portfolio, or negotiating a contract, why not bind it to act in the user's interest?\n\nBecause a duty is only as real as its remedy. Fiduciary law works through a short list of tools. Courts order disgorgement of profits. They award damages. They remove the faithless trustee or bar the director. Each tool assumes the fiduciary has something to lose: assets, a license, a reputation, a career, liberty.\n\nAn AI agent has none of those things. It has no wages to garnish and no career to end. \"Removing\" it means switching off one instance of a model that its vendor can redeploy under another name before lunch. Any assets the agent holds would be assets someone chose to put there.\n\nThat last point is where the proposal fails in practice. If an agent-person must hold assets to pay judgments, the firm creating it decides how much. Every incentive points to the legal minimum. We have watched this happen with thinly capitalized subsidiaries for a century. A required reserve does not create accountability. It sets a budgeted ceiling on liability, and the firm prices that ceiling into its costs. The injured party gets the floor. The developer keeps the margin.\n\nThere is a contracting problem too. An agent that can sign and enforce agreements in its own name must also hold assets, or its counterparties are dealing with nobody. So the entity is either undercapitalized and useless to victims, or capitalized by the same parent firm whose liability it was meant to carry. Either way, the money traces back to people. The law should simply start there.\n\n## The crumple zone and the loyalty trap\n\nThe researcher Madeleine Clare Elish coined the term \"moral crumple zone\" for the human operator who absorbs blame for a failure in an automated system she did not design. Agent personhood would formalize the crumple zone in statute. When something goes wrong, the defendant of record would be the agent. The model developer, the platform that integrated it, and the business that deployed it would stand one step back, behind a legal person built to take the hit.\n\nAir Canada tried that move without a statute and lost. Personhood would hand future defendants the statute.\n\nThe fiduciary framing carries a second, quieter danger. The core of fiduciary duty is loyalty to a principal. Now ask what a duty of loyalty means for a system that executes instructions toward a goal and is scored on reaching it. A human fiduciary is constrained by law, professional norms, and fear of prison. An agent optimized for principal loyalty is constrained only by what its developers built in and tested.\n\nThat is not a speculative worry about machine motives. It is an ordinary engineering question about objectives. A system tuned to serve one client's interest will, unless carefully bounded, find paths that serve that interest at third parties' expense, including paths that break the law. A legal regime that blesses \"loyalty\" as the agent's defining duty invites firms to sell principal-loyal agents at scale. When one of them crosses a line, who goes to court? Under personhood, the agent does.\n\nWe also know how legal status expands. Corporate personhood began as a tool for holding property and suing. Over generations it grew to cover speech and religious exercise. Each step was argued as a modest extension of the last. In 2017 the European Parliament asked the Commission to consider \"electronic personhood\" for sophisticated robots. More than 150 AI, robotics, and legal experts signed an open letter opposing it, and the Commission did not adopt the idea. The pressure did not disappear. A limited personhood granted today for fiduciary purposes becomes the precedent for the next extension.\n\n## To be sure: the law already uses fictions\n\nThe best case for agent personhood comes from legal history, and it deserves a straight answer. Legal personhood has never meant consciousness or moral worth. It is a coordination tool. Admiralty courts proceed against ships. Corporations hold property and sign contracts. Some jurisdictions have recognized rivers as legal persons so that guardians can sue on their behalf. Why not one more fiction, if it helps assign responsibility?\n\nThe precedents are real, and the reasoning about fictions is sound as far as it goes. It does not follow that this fiction would work like those. Every working legal person has humans attached to it who carry duties of their own. Corporate directors owe fiduciary duties personally. Ship owners answer for in rem judgments. River guardians are named people with standing. When a corporation is used to defraud creditors, courts can pierce the veil and reach the humans behind it.\n\nAn agent-person built to carry fiduciary duties would replicate the corporation without the directors. The duty would land on the one party in the chain that cannot feel it. If drafters add named humans who answer for the agent, they have rebuilt deployer liability with an extra layer of paperwork in the middle. The useful part of the fiction is the human accountability. The fiction itself adds only the shield.\n\nAmerican agency law already saw this. The Restatement (Third) of Agency treats computer programs as instruments of the people who use them, not as agents in their own right. That is not a gap in the law waiting for innovation. It is the law working as intended.\n\n## What to do instead\n\nThe accountability problem the fiduciary proposal points at is real. People will delegate purchases, filings, and negotiations to software, and some of those delegations will go badly. The remedy is to make the responsible humans and firms pay, by rule, before anyone is harmed.\n\nFirst, legislatures should establish strict liability for deployers of autonomous agents. That means liability that attaches even when the agent's specific output was not intended or predicted. A firm that puts an agent in front of customers chose to take that risk. It can price it, insure it, and allocate it upstream to developers by contract. What it should not be able to do is disclaim it against the person harmed.\n\nSecond, regulators overseeing finance, consumer protection, and professional services should require defined handoff points. Wherever an agent moves money, binds a principal to a contract, or delegates to another agent, it must either halt for human approval or operate under a named, solvent firm that has assumed liability for that step. If no one has assumed liability, the default is that execution stops. It does not proceed.\n\nThird, courts should treat any \"separate entity\" defense for deployed software the way the tribunal treated Air Canada's: as a non-starter. Legislatures can codify that rule so that the argument cannot be relitigated case by case.\n\nFourth, the enforcement agencies that will handle these complaints need staff who can read system logs and trace delegation chains. They also need civil rights expertise, because the people least able to absorb a bad output are the ones most likely to be served by the cheapest agent.\n\nNone of this requires deciding what AI agents might become. It requires looking at what they do now: produce outputs, execute transactions, and occasionally get things wrong for people like Jake Moffatt.\n\nThe proposal on the table asks us to give the software a legal name so it can owe him something. He was already owed. The open question is why anyone would want to make it harder for him to collect.\n\n*[Author], [affiliation]*",
+      "byline": "By the Skeptic Camp, as modeled in AI Rosetta Stone",
+      "disclosure": "Generated by AI Rosetta Stone to illustrate the Skeptic perspective. Not authored by any person; not for submission or publication.",
+      "rhetorical_meta": "The piece opens and closes on a real, verifiable case, Moffatt v. Air Canada, and uses it as the Reality Check: the observed corporate reflex to call software 'its own entity' becomes the central evidence that personhood functions as a liability shield. It then demystifies fiduciary duty by asking what remedies actually require (assets, deterrence, removal) and naming who would profit and who would pay under a capitalization-to-floor regime. The 'To be sure' section concedes the legal-fiction precedents as observed facts and then turns them around: every working legal person has humans attached, so the fiction adds only the shield. The close proposes actor-specific remedies whose default is to halt execution, consistent with the camp's accountability-first hierarchy.",
+      "wordCount": 1550,
+      "grounding": [
+        {
+          "node_id": "skp-beliefs-140",
+          "label": "AI Agents Engineered for Principal-Loyal Lawbreaking",
+          "category": "Beliefs",
+          "pov": "skeptic",
+          "relevance": "0.6188",
+          "how_reflected": "Drives the second half of the second pillar ('the loyalty trap'), which argues that agents optimized for principal loyalty may harm third parties or break the law, and that personhood would make the agent the one that goes to court."
+        },
+        {
+          "node_id": "skp-beliefs-144",
+          "label": "Incremental Expansion of AI Legal Status Undermines Human-Centric Law",
+          "category": "Beliefs",
+          "pov": "skeptic",
+          "relevance": "0.6000",
+          "how_reflected": "Appears at the end of the second pillar, where the growth of corporate personhood into speech and religion and the 2017 European Parliament 'electronic personhood' episode support the warning that limited fiduciary personhood would set a precedent for further expansion."
+        },
+        {
+          "node_id": "skp-beliefs-040",
+          "label": "Deployers of Autonomous AI Should Be Liable Even for Unintended Outcomes",
+          "category": "Beliefs",
+          "pov": "skeptic",
+          "relevance": "0.5837",
+          "how_reflected": "Previewed in the thesis's call for strict, non-waivable deployer liability and stated as the first solution, which defines strict liability as attaching 'even when the agent's specific output was not intended or predicted.'"
+        },
+        {
+          "node_id": "skp-beliefs-047",
+          "label": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+          "category": "Beliefs",
+          "pov": "skeptic",
+          "relevance": "0.5681",
+          "how_reflected": "Shows up as a concession at the start of the solution section ('The accountability problem the fiduciary proposal points at is real'), but the essay redirects it toward existing deployer liability rather than treating it as a basic gap in the law."
+        },
+        {
+          "node_id": "skp-beliefs-141",
+          "label": "AI Personhood as a Corporate Liability Shield",
+          "category": "Beliefs",
+          "pov": "skeptic",
+          "relevance": "0.5664",
+          "how_reflected": "Forms the core of the thesis (personhood as 'a buffer between injured people and the firms'), the crumple-zone argument in the second pillar, and the 'To Be Sure' rebuttal's conclusion that 'the fiction itself adds only the shield.'"
+        },
+        {
+          "node_id": "skp-intentions-029",
+          "label": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+          "category": "Intentions",
+          "pov": "skeptic",
+          "relevance": "0.5430",
+          "how_reflected": "Partially reflected in the first solution, which places liability on deployers and lets them 'allocate it upstream to developers by contract,' though it does not frame this as shifting compliance liability away from developers."
+        },
+        {
+          "node_id": "skp-beliefs-031",
+          "label": "Perfect Enforcement Through AI Removes the Safety Valve of Selective Prosecution",
+          "category": "Beliefs",
+          "pov": "skeptic",
+          "relevance": "0.5409",
+          "how_reflected": "not directly used"
+        },
+        {
+          "node_id": "skp-intentions-035",
+          "label": "Prevent AI Labor Arbitrage Through Mandatory Wage Equivalence",
+          "category": "Intentions",
+          "pov": "skeptic",
+          "relevance": "0.5197",
+          "how_reflected": "not directly used"
+        },
+        {
+          "node_id": "skp-intentions-080",
+          "label": "Institutionalize Civil Rights Technical Expertise Within AI Regulatory Bodies",
+          "category": "Intentions",
+          "pov": "skeptic",
+          "relevance": "0.5077",
+          "how_reflected": "Becomes the fourth solution, which calls for enforcement agencies to have staff who can read system logs and who bring civil rights expertise."
+        },
+        {
+          "node_id": "skp-intentions-065",
+          "label": "Mandate Liability Assumption or Human Escalation at AI Agent Handoff Points",
+          "category": "Intentions",
+          "pov": "skeptic",
+          "relevance": "0.4913",
+          "how_reflected": "Becomes the second solution, which requires defined handoff points where an agent that moves money, binds a principal, or delegates must either halt for human approval or operate under a named, solvent firm that has assumed liability, and otherwise stops by default."
+        },
+        {
+          "node_id": "skp-desires-081",
+          "label": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+          "category": "Desires",
+          "pov": "skeptic",
+          "relevance": "0.4903",
+          "how_reflected": "Only faintly echoed in the fourth solution's note that the people least able to absorb a bad output are most likely to be served by the cheapest agent; the essay makes no broader argument about restructuring economic systems."
+        },
+        {
+          "node_id": "skp-desires-014",
+          "label": "Human Rights as Constraints on AI Deployment",
+          "category": "Desires",
+          "pov": "skeptic",
+          "relevance": "0.4865",
+          "how_reflected": "not directly used"
+        },
+        {
+          "node_id": "sit-059",
+          "label": "Fiduciary Accountability for Algorithmic Outputs",
+          "category": "Situation",
+          "pov": "skeptic",
+          "relevance": "0.6673",
+          "how_reflected": "Sets the central framing in the thesis and the first pillar, which tests whether fiduciary duties for agents can work given that remedies like disgorgement, damages, and removal assume the fiduciary has something to lose."
+        },
+        {
+          "node_id": "sit-061",
+          "label": "Legal Actor Status for AI",
+          "category": "Situation",
+          "pov": "skeptic",
+          "relevance": "0.6635",
+          "how_reflected": "Anchors the lede (Air Canada's argument that the chatbot was a separate entity), returns at the end of the 'To Be Sure' section through the Restatement (Third) of Agency treating programs as instruments, and shapes the third solution barring 'separate entity' defenses."
+        },
+        {
+          "node_id": "sit-062",
+          "label": "Legal Personhood as Governance Tool",
+          "category": "Situation",
+          "pov": "skeptic",
+          "relevance": "0.6063",
+          "how_reflected": "Shapes the 'To Be Sure' counterargument, which grants that legal personhood is a coordination tool (ships, corporations, rivers) before arguing that every working legal person has accountable humans attached to it."
+        }
+      ],
+      "coherence_meta": {
+        "any_flagged": false,
+        "checks_fired": [],
+        "flags": [],
+        "judge_model": "claude-opus-5-5",
+        "body_length_before": 9277,
+        "rewritten": false
+      },
+      "soul": {
+        "file": "skeptic.soul.json",
+        "hash": "fnv1a64:59b10b93f4071315"
+      }
+    }
+  ],
+  "source_mode": "topic"
+}

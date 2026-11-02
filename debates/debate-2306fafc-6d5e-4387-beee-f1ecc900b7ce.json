@@ -1,6 +1,6 @@
 {
   "id": "2306fafc-6d5e-4387-beee-f1ecc900b7ce",
-  "run_id": "88e351fa-a49a-4815-a9c4-ef19634a6e24",
+  "run_id": "e63cb382-92b5-4b1d-80b9-e16680c93cc5",
   "title": "The federal government should ban minors under 18 from us...",
   "created_at": "2026-07-31T19:56:17.490Z",
   "updated_at": "2026-07-31T20:22:19.874Z",
@@ -257993,5 +257993,7 @@
     },
     "frame_crux_alignment": null,
     "frame_survival": null
-  }
+  },
+  "failover_untracked": true,
+  "failover_tracking": "unavailable"
 }

@@ -1,7 +1,7 @@
 {
   "_schema_version": "1.0.0",
   "_doc": "situations taxonomy: concepts that appear in all three camps but carry different interpretations. These nodes are referenced by all three POV taxonomy files.",
-  "last_modified": "2026-10-23",
+  "last_modified": "2026-10-28",
   "nodes": [
     {
       "id": "sit-001",
@@ -41536,7 +41536,7 @@
     {
       "id": "sit-283",
       "label": "Agentic Privacy Leakage Benchmarking",
-      "description": "A Belief within skeptic discourse that autonomous agents require standardized, dynamic environment testing to quantify their propensity for leaking sensitive user data. Encompasses: Web-navigation benchmarks, privacy-focused Chain-of-Thought (CoT) evaluation, and cross-model failure correlation analysis. Excludes: Static dataset privacy evaluations or theoretical alignment proofs.",
+      "description": "A situation concept concerning whether autonomous agents require standardized, dynamic environment testing to quantify their propensity for leaking sensitive user data. Encompasses: Web-navigation benchmarks, privacy-focused Chain-of-Thought (CoT) evaluation, and cross-model failure correlation analysis. Excludes: Static dataset privacy evaluations or theoretical alignment proofs.",
       "interpretations": {
         "accelerationist": {
           "belief": "Dynamic agentic benchmarking reveals specific, addressable failure modes in autonomous systems rather than fundamental architectural dead-ends, and cross-model correlation data will accelerate convergence on more capable, reliable agents.",
@@ -43111,7 +43111,7 @@
     {
       "id": "sit-292",
       "label": "Many Eyes Theory",
-      "description": "A Belief within accelerationist and safetyist discourse that public scrutiny of system design leads to more effective bug detection and mitigation.\nEncompasses: Linus's Law, bug bounty programs, and open-source security auditing.\nExcludes: Formal verification methods that do not rely on community-based crowdsourcing.",
+      "description": "A situation concept concerning whether public scrutiny of system design leads to more effective bug detection and mitigation.\nEncompasses: Linus's Law, bug bounty programs, and open-source security auditing.\nExcludes: Formal verification methods that do not rely on community-based crowdsourcing.",
       "interpretations": {
         "accelerationist": {
           "belief": "Open access to system details empirically accelerates bug detection and capability refinement, as distributed contributors outpace closed internal teams in identifying and patching flaws.",
@@ -49603,7 +49603,7 @@
     {
       "id": "sit-326",
       "label": "Situated Anthropocentrism",
-      "description": "A Belief within safetyist and skeptic discourse that defines human value through embeddedness in relational networks rather than individualistic or technical metrics.\nEncompasses: Relational ethics, ecological interconnectedness, rejection of disembodied AI models.\nExcludes: Transhumanist enhancement, pure utilitarianism.",
+      "description": "A situation concept that defines human value through embeddedness in relational networks rather than individualistic or technical metrics.\nEncompasses: Relational ethics, ecological interconnectedness, rejection of disembodied AI models.\nExcludes: Transhumanist enhancement, pure utilitarianism.",
       "interpretations": {
         "accelerationist": {
           "belief": "Situated anthropocentrism, as an empirical matter, artificially caps the scope of intelligence and value by anchoring them to biological embeddedness and relational networks that evolution and technology are already transcending.",
@@ -55621,7 +55621,7 @@
     {
       "id": "sit-362",
       "label": "Ambiguous Priming",
-      "description": "A Belief within safetyist and skeptic discourse that proactive, diverse scenario-building is superior to reactive, surprise-based governance. \nEncompasses: Scenario development, public engagement, reflexive capacity building. \nExcludes: Unambiguous surprise, deterministic forecasting.",
+      "description": "A situation concept concerning whether proactive, diverse scenario-building is superior to reactive, surprise-based governance. \nEncompasses: Scenario development, public engagement, reflexive capacity building. \nExcludes: Unambiguous surprise, deterministic forecasting.",
       "interpretations": {
         "accelerationist": {
           "belief": "Regulatory regimes that lock in specific assumptions about technological trajectories become brittle and obstruct adaptation when breakthroughs arrive faster than anticipated.",
@@ -56931,7 +56931,7 @@
     {
       "id": "sit-370",
       "label": "Proceduralism in Normative Governance",
-      "description": "A Belief within safetyist and skeptic discourse that procedural changes in decision-making venues can facilitate ethical deliberation. Encompasses: Changing framing, venue shifting, and inclusive participation. Excludes: Substantive moral mandates or top-down ethical imposition.",
+      "description": "A situation concept concerning whether procedural changes in decision-making venues can facilitate ethical deliberation. Encompasses: Changing framing, venue shifting, and inclusive participation. Excludes: Substantive moral mandates or top-down ethical imposition.",
       "interpretations": {
         "accelerationist": {
           "belief": "Procedural governance mechanisms empirically slow down decision-making cycles and rarely produce concrete technical improvements, functioning instead as bureaucratic overhead that delays deployment.",
@@ -58098,7 +58098,7 @@
     {
       "id": "sit-377",
       "label": "Consistency-Based Political Alignment",
-      "description": "A Belief within accelerationist and safetyist discourse that political neutrality can be achieved through mathematical consistency metrics rather than value-based alignment. Encompasses: Helpfulness consistency, sentiment consistency, dual-judge architectures. Excludes: Human-in-the-loop value alignment, substantive truth adjudication.",
+      "description": "A situation concept concerning whether political neutrality can be achieved through mathematical consistency metrics rather than value-based alignment. Encompasses: Helpfulness consistency, sentiment consistency, dual-judge architectures. Excludes: Human-in-the-loop value alignment, substantive truth adjudication.",
       "interpretations": {
         "accelerationist": {
           "belief": "Mathematical consistency metrics can reliably approximate political neutrality at scale, removing the bottleneck of slow, subjective human judgment from the alignment pipeline.",
@@ -62144,7 +62144,7 @@
     {
       "id": "sit-397",
       "label": "Functional Dependency Indexing",
-      "description": "A Belief within safetyist discourse that quantifies the systemic impact of a component failure by measuring its position and connectivity within a network graph. Encompasses: Path-based impact estimation, logical switch functions, and worst-case dependency analysis. Excludes: Qualitative risk assessment and static vulnerability scanning.",
+      "description": "A situation concept that quantifies the systemic impact of a component failure by measuring its position and connectivity within a network graph. Encompasses: Path-based impact estimation, logical switch functions, and worst-case dependency analysis. Excludes: Qualitative risk assessment and static vulnerability scanning.",
       "interpretations": {
         "accelerationist": {
           "belief": "Functional Dependency Indexing accurately maps which nodes are most critical to system throughput and performance, revealing bottlenecks and high-leverage points for capability enhancement.",
@@ -68249,7 +68249,7 @@
     {
       "id": "sit-428",
       "label": "Overton Pluralism",
-      "description": "A Belief within safetyist and skeptic discourse that models should be trained to produce the entire gamut of defensible answers to disputed ethical issues. Encompasses: Ethical ambiguity, non-convergence, and pluralistic output. Excludes: Monistic alignment.",
+      "description": "A situation concept concerning whether models should be trained to produce the entire gamut of defensible answers to disputed ethical issues. Encompasses: Ethical ambiguity, non-convergence, and pluralistic output. Excludes: Monistic alignment.",
       "interpretations": {
         "accelerationist": {
           "belief": "Forcing models to output the full spectrum of defensible ethical positions is an artificial constraint that slows capability development and reflects ideological timidity rather than technical necessity.",
@@ -77490,7 +77490,7 @@
       "plain_description": "Artificial intelligence models create most of the project ideas during development tasks, but human researchers still keep the final power to choose which ones to use. In this workflow, generating options is completely separated from selecting them. AI agents do the heavy lifting of coming up with ideas and creating a big gap in how many options are produced, while humans dominate the decision-making process by carefully reviewing and picking the best paths forward.",
       "id": "sit-484",
       "label": "Proposal Versus Selection Decision Asymmetry",
-      "description": "A situation concept that characterizes how AI models generate the majority of method proposals while human researchers retain final selection authority across development tasks. Encompasses: idea generation by agents, human curation of options, decoupling of proposal from selection.\nEncompasses: Idea generation disparity, human selection dominance, workflow delegation patterns.\nExcludes: Full human control models and fully autonomous agent decision-making.",
+      "description": "A situation concept that characterizes how AI models generate the majority of method proposals while human researchers retain final selection authority across development tasks. Encompasses: idea generation by agents, human curation of options, decoupling of proposal from selection, idea generation disparity, human selection dominance, workflow delegation patterns. Excludes: Full human control models and fully autonomous agent decision-making.",
       "interpretations": {
         "accelerationist": {
           "belief": "AI-generated proposal volume empirically expands the creative search space available to human researchers, and human selection authority demonstrably filters for quality without slowing the overall pace of discovery.",
@@ -78105,6 +78105,164 @@
         "steelman_vulnerability": "The principle risks misallocating resources and moral concern to entities that may not possess consciousness or sentience, potentially diverting attention from demonstrable human or animal needs.",
         "possible_fallacies": [],
         "node_scope": "systemic"
+      }
+    },
+    {
+      "id": "sit-492",
+      "label": "Accidental Digital Memory Platforms",
+      "description": "A situation concept that describes how modern social media and communication platforms function as unmanaged, massive repositories of deceased users' personal data and digital identities. Encompasses: social media ghost accounts, automated digital cemeteries, platform persistence of deceased users. Excludes: intentional digital memorialization services, dedicated estate-planning software.",
+      "interpretations": {
+        "accelerationist": {
+          "belief": "Deceased users' accumulated posts, interactions, and behavioral data constitute a growing, machine-readable record of human thought and culture that platforms are uniquely positioned to preserve at scale.",
+          "desire": "This trove of digital memory ought to be kept accessible and integrated into computational networks, expanding the collective knowledge base available to AI systems and future researchers.",
+          "intention": "Accelerationists would push to open or aggregate these repositories for training data, longitudinal social analysis, and AI-driven reconstruction of human cognition, treating deletion as a net loss to the digital commons.",
+          "summary": "Deceased users' data is a valuable cultural and computational resource that should be preserved and leveraged to advance collective knowledge and AI capability."
+        },
+        "safetyist": {
+          "belief": "Platforms currently lack robust post-mortem governance frameworks, meaning deceased users' sensitive personal data remains exposed to breaches, misuse, and algorithmic exploitation that causes measurable harm to surviving relatives.",
+          "desire": "There ought to be mandatory, enforceable post-mortem data governance standards that protect the privacy of deceased individuals and shield their families from emotional and security harms.",
+          "intention": "Safetyists would advocate for regulatory requirements compelling platforms to implement verified death-notification pipelines, tiered access controls, and automatic data minimization protocols upon confirmed user death.",
+          "summary": "Unmanaged persistence of deceased users' data creates serious privacy and emotional harms that demand structured governance and enforceable platform accountability."
+        },
+        "skeptic": {
+          "belief": "Platforms retain deceased users' accounts and data primarily because doing so serves corporate interests — sustaining engagement metrics, training proprietary models, and avoiding the operational cost of deletion — not out of any genuine concern for users or families.",
+          "desire": "Personal dignity and data sovereignty ought to extend beyond death, and corporations should be legally prohibited from exploiting the digital remains of individuals who can no longer consent or object.",
+          "intention": "Skeptics would expose and publicize corporate negligence through investigative accountability, push for right-to-erasure legislation covering deceased persons, and challenge platform terms of service that silently claim perpetual rights over posthumous data.",
+          "summary": "Platforms treat deceased users' accounts as passive assets for corporate gain, demonstrating a structural disregard for personal dignity and the rights of the dead and their survivors."
+        }
+      },
+      "linked_nodes": [],
+      "conflict_ids": [],
+      "source_refs": [
+        "law-digital-resurrection-2026"
+      ],
+      "graph_attributes": {
+        "epistemic_type": "interpretive_lens",
+        "rhetorical_strategy": "systemic_critique, pragmatic_framing",
+        "assumes": [
+          "Deceased users' digital footprints contain persistent economic or cultural value",
+          "Social media platforms retain structural control over posthumous user data",
+          "Post-mortem data stewardship requires active policy intervention to prevent exploitation"
+        ],
+        "falsifiability": "medium",
+        "audience": "policymakers, civil_society",
+        "emotional_register": "cautionary",
+        "policy_actions": [
+          {
+            "action": "Enact mandatory right-to-erasure and post-mortem data governance legislation for social media platforms",
+            "framing": "The unmanaged accumulation of deceased users' data creates severe privacy vulnerabilities that require legally binding data minimization and deletion standards.",
+            "policy_id": "pol-3429"
+          }
+        ],
+        "intellectual_lineage": [
+          {
+            "name": "Information fiduciary framework",
+            "description": "The information fiduciary framework is a legal and policy theory proposed by legal scholars like Jack Balkin and Jonathan Zittrain, which suggests that online service providers and AI developers should owe legal duties of loyalty, care, and confidentiality to their users. Analogous to traditional fiduciaries like doctors or lawyers, information fiduciaries would be legally barred from using consumer data in ways that harm the user, even in the absence of explicit contractual consent.\n\nThis framework is a cornerstone of modern AI governance discourse, offering an alternative to purely notice-and-consent models of data privacy. It addresses the inherent power asymmetry between platform giants and individual users, guiding regulations on how AI systems collect, process, and monetize personal data.",
+            "url": null,
+            "category": "legal_framework"
+          },
+          {
+            "name": "Digital estate planning jurisprudence",
+            "description": "Digital estate planning jurisprudence is an emerging legal field addressing how individuals can plan for, control, and dispose of their digital assets, online accounts, and virtual identities upon incapacity or death. It synthesizes traditional estate law with cyberlaw, platform terms of service, and privacy statutes.\n\nIn AI policy, this jurisprudence is increasingly vital due to the proliferation of AI-driven digital legacies, such as interactive chatbots trained on a deceased person's writings or deepfake avatars. It provides the legal architecture needed to balance family inheritance rights, platform control, and the posthumous privacy of individuals whose data fuels generative AI models.",
+            "url": null,
+            "category": "legal_framework"
+          },
+          {
+            "name": "Post-mortem privacy scholarship",
+            "description": "Post-mortem privacy scholarship explores the ethical and legal dimensions of maintaining an individual's privacy rights after death. Rooted in philosophical debates about dignity, harm to reputation, and cultural norms surrounding the deceased, legal scholars debate whether privacy rights terminate at death or persist in some form.\n\nThis scholarship has gained significant urgency in AI governance due to the rise of generative AI models capable of resurrecting deceased individuals as synthetic voice clones, video avatars, or interactive conversational agents without family or estate consent. It informs policy discussions on creating legal protections against the unauthorized commercialization and manipulation of a deceased person's likeness and data.",
+            "url": "https://en.wikipedia.org/wiki/Right_to_privacy",
+            "category": "academic_discipline"
+          }
+        ],
+        "steelman_vulnerability": "Mandating strict post-mortem data deletion or rigid governance could inadvertently destroy valuable historical archives and collective cultural records that future generations rely upon.",
+        "possible_fallacies": [
+          {
+            "fallacy": "false_dilemma",
+            "confidence": "possible",
+            "explanation": "The situation framing forces a stark choice between total platform exploitation and complete data eradication, ignoring nuanced intermediate models like archival trusts or decentralized consent management.",
+            "type": "informal_structural"
+          }
+        ],
+        "node_scope": "systemic"
+      }
+    },
+    {
+      "id": "sit-493",
+      "label": "Post-Mortem Digital Resurrection Rights",
+      "description": "A situation concept that describes the tension between post-mortem privacy and publicity rights and collective data realities and First Amendment protections. Encompasses: Digital afterlife regulation, estate planning restrictions on AI avatars, and non-commercial digital re-enactments. Excludes: Commercial misappropriation of likeness during life.",
+      "interpretations": {
+        "accelerationist": {
+          "belief": "AI avatars of deceased individuals expand cultural memory and democratize legacy creation without causing tangible harm to individuals or society.",
+          "desire": "Post-mortem digital resurrection should be permitted with minimal restriction so that technological capability can fully realize its potential for preserving and extending human consciousness.",
+          "intention": "Accelerationists would actively oppose legislative restrictions on digital resurrection, framing them as reactionary obstacles, and would promote open-access frameworks that enable anyone to create AI avatars of the deceased.",
+          "summary": "Restrictions on post-mortem digital resurrection are reactionary barriers to progress that stifle a technology capable of enriching culture and democratizing digital legacy."
+        },
+        "safetyist": {
+          "belief": "Unconstrained proliferation of digital replicas of deceased persons risks psychological harm to surviving family members and erodes established relational and social boundaries.",
+          "desire": "Statutory safeguards and prior consent mechanisms ought to be in place before any digital resurrection technology is deployed, protecting both the deceased's dignity and survivors' wellbeing.",
+          "intention": "Safetyists would advocate for careful, evidence-based regulatory frameworks requiring opt-in consent from estates and next-of-kin, and would push for mandatory psychological impact assessments before deployment of digital avatars.",
+          "summary": "Digital resurrection must be gated behind robust consent mechanisms and statutory protections to prevent psychological harm and preserve relational boundaries."
+        },
+        "skeptic": {
+          "belief": "Expansive post-mortem publicity rights in practice function as corporate or estate-controlled vetoes over public culture, and the data underlying digital personas is collectively produced and non-rivalrous in nature.",
+          "desire": "Post-mortem rights regimes ought to be narrowly scoped to prevent monopolistic control over shared cultural heritage, preserving the public domain against private capture by estates and corporations.",
+          "intention": "Skeptics would challenge broad post-mortem rights claims through litigation and policy advocacy, highlighting how such rights concentrate power in estates and corporations rather than protecting genuine individual interests.",
+          "summary": "Expansive post-mortem digital rights are primarily tools of institutional capture that threaten the public domain and ignore the collective nature of digital identity."
+        }
+      },
+      "linked_nodes": [],
+      "conflict_ids": [],
+      "source_refs": [
+        "law-digital-resurrection-2026"
+      ],
+      "graph_attributes": {
+        "epistemic_type": "normative_prescription",
+        "rhetorical_strategy": "rights_based, precautionary_framing",
+        "assumes": [
+          "Post-mortem privacy and publicity rights are legally and ethically distinct from living rights",
+          "Digital replicas of deceased individuals carry significant potential for psychological harm",
+          "Cultural memory can be preserved without violating the dignity of deceased persons and their families"
+        ],
+        "falsifiability": "low",
+        "audience": "legal_professionals, policymakers",
+        "emotional_register": "measured",
+        "policy_actions": [
+          {
+            "action": "Establish statutory consent frameworks and estate controls for commercial digital resurrection technologies",
+            "framing": "Unconstrained digital avatars risk exploiting likenesses without consent, necessitating clear statutory boundaries managed by surviving next-of-kin.",
+            "policy_id": "pol-3430"
+          }
+        ],
+        "intellectual_lineage": [
+          {
+            "name": "Right of publicity doctrine",
+            "description": "The right of publicity is a legal doctrine that grants individuals the right to control the commercial use of their name, image, and likeness. Historically developed to protect celebrities from unauthorized endorsements, it has evolved to cover the 'persona' of any individual. It prevents others from profiting from the commercial value of an individual's identity without consent.\n\nThis lineage provides the node with a mechanism to assert control over synthetic voice generation. It posits that an individual's voice is a core component of their persona, and therefore, any AI-generated replication constitutes a misappropriation of that identity. The node uses this doctrine to argue that the 'inviolable right' to one's voice is a natural extension of existing property rights over one's public persona.",
+            "url": "",
+            "category": "legal_framework"
+          },
+          {
+            "name": "Mortuary ethics and jurisprudence",
+            "description": "Mortuary ethics and jurisprudence comprise the philosophical and legal traditions governing the treatment of corpses, burial practices, funeral industries, and the cultural dignity accorded to human remains. Historically guided by religious traditions, common law customs, and public health regulations, these norms establish society's baseline respect for the dead.\n\nIn the context of AI governance, mortuary ethics provides a conceptual vocabulary for addressing the digital equivalents of desecration—such as unauthorized deepfakes, AI-generated necromancy, and the scraping of deceased individuals' data to train commercial models. It bridges traditional cultural respect for the dead with modern digital rights debates.",
+            "url": "https://en.wikipedia.org/wiki/Bioethics",
+            "category": "ethical_framework"
+          },
+          {
+            "name": "Kantian dignity frameworks",
+            "description": "Kantian dignity frameworks are rooted in the moral philosophy of Immanuel Kant, who argued that rational human beings possess an intrinsic, absolute worth—dignity—rather than a relative market value. A central maxim of this philosophy is that humans must always be treated as ends in themselves, never merely as means to an end.\n\nThese frameworks are foundational to AI ethics and human rights discourse, particularly in opposition to surveillance capitalism, mass profiling, and autonomous systems that reduce humans to data points for optimization. Kantian ethics underpins policies that demand human oversight in algorithmic decision-making, protect human agency, and reject systems that instrumentalize people.",
+            "url": "https://en.wikipedia.org/wiki/Dignity",
+            "category": "ethical_framework"
+          }
+        ],
+        "steelman_vulnerability": "Expanding post-mortem publicity rights creates a mechanism for estates to censor historical critique and privatize shared cultural heritage under the guise of protecting personal dignity.",
+        "possible_fallacies": [
+          {
+            "fallacy": "appeal_to_emotion",
+            "confidence": "borderline",
+            "explanation": "The emphasis on psychological harm to grieving families relies heavily on emotive framing regarding death, potentially overshadowing empirical questions about actual public benefit or harm from digital replicas.",
+            "type": "informal_contextual"
+          }
+        ],
+        "node_scope": "cross_domain"
       }
     }
   ]

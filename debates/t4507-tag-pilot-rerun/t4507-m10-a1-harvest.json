@@ -1,0 +1,306 @@
+{
+  "debate_id": "6193d7da-b4ff-4ff5-b614-013c1af30bdc",
+  "debate_title": "Is the market for frontier AI models becoming more concen...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether private clean energy additionality and behind-the-meter generation contracts effectively isolate regional power grids from high-density computing demand surges.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Private clean energy contracts and dedicated microgrids bypass public grid congestion and prevent local ratepayer cost-shifting."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Private power purchase agreements draw from shared regional transmission networks and shift transmission upgrade costs onto residential ratepayers."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-231",
+        "skp-beliefs-281",
+        "skp-desires-078",
+        "skp-intentions-034",
+        "acc-intentions-070",
+        "acc-intentions-117",
+        "acc-desires-037",
+        "acc-desires-039",
+        "skp-desires-005",
+        "skp-beliefs-181"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the Federal Trade Commission possesses the statutory authority under Section 5 of the FTC Act to impose utility-style structural separation and mandatory ratepayer protections on dominant compute clusters.",
+      "bdiLayer": "intention",
+      "resolvability": "requires_term_clarification",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Section 5 of the FTC Act provides statutory authority to enforce structural splits and rate rules comparable to the 1982 AT&T divestiture."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Applying antitrust enforcement to restrict physical data center development creates harmful bureaucratic friction that outweighs potential market corrections."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-231",
+        "skp-beliefs-281",
+        "skp-desires-078",
+        "skp-intentions-034",
+        "acc-intentions-070",
+        "acc-intentions-117",
+        "acc-desires-037",
+        "acc-desires-039",
+        "skp-desires-005",
+        "skp-beliefs-181"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether hardware-level telemetry and pre-deployment safety gates effectively govern frontier capabilities or merely impose compliance barriers that protect large incumbents.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Mandatory hardware telemetry and ASML semiconductor tracking provide necessary chokepoints to prevent unmanaged capability surges."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Silicon-level tracking cannot inspect encrypted API reasoning traces and disproportionately burdens smaller market entrants."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-247",
+        "saf-beliefs-033",
+        "saf-intentions-160",
+        "saf-intentions-231",
+        "acc-intentions-070",
+        "acc-intentions-117",
+        "acc-desires-037",
+        "acc-desires-039",
+        "saf-intentions-212",
+        "sit-213"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-213",
+      "nodeLabel": "Temporal Mismatch of AI Energy Impacts",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-070",
+      "nodeLabel": "Shift AI Competition from Software to Physical Infrastructure Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-078",
+      "nodeLabel": "Foundational AI as a Public Good",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-033",
+      "nodeLabel": "Society Cannot Absorb AI Capability Shocks at the Pace They Arrive",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-160",
+      "nodeLabel": "Set the Ethical and Legal Ground Rules for AI Governance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-231",
+      "nodeLabel": "Binding AI Accountability to Physical Infrastructure Metrics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-117",
+      "nodeLabel": "Inference-Time Compute Scaling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-181",
+      "nodeLabel": "Hyperscaler Cloud Monopolies Extract Compute Windfalls While Shifting Deployment Liabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-174",
+      "nodeLabel": "Legal and Legislative Mechanisms for AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-212",
+      "nodeLabel": "Carbon-Aware Pricing Models",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-070",
+      "nodeLabel": "Output-Based Verification in Ground-Truth Independent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-003",
+      "nodeLabel": "Runtime Telemetry Bound by Execution-Gated Telemetry Logging",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-076",
+      "nodeLabel": "Procuring Dedicated Clean Energy Additionality for High-Density Computing Facilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-222",
+      "nodeLabel": "Grid Infrastructure Cost-Shifting onto Residential Utility Ratepayers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-190",
+      "nodeLabel": "Single Points of Control over Compute Hardware Function as Incumbent Capture Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-477",
+      "nodeLabel": "Democratic Failure to Curb Digital Corporate Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether private clean energy additionality and behind-the-meter generation contracts effectively isolate regional power grids from high-density computing demand surges.",
+      "prevails": "skeptic",
+      "criterion": "empirical_evidence",
+      "rationale": "Federal Energy Regulatory Commission data showing five-year interconnection delays and rising capacity prices gives the skeptic position stronger empirical grounding. The accelerationist view relies on theoretical isolation that ignores shared transmission infrastructure realities.",
+      "whatWouldChange": "Empirical data demonstrating that dedicated microgrids operate entirely off-grid without drawing from shared transmission lines or raising local capacity prices.",
+      "claimIds": [
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether the Federal Trade Commission possesses the statutory authority under Section 5 of the FTC Act to impose utility-style structural separation and mandatory ratepayer protections on dominant compute clusters.",
+      "prevails": "undecidable",
+      "criterion": "implementation_specificity",
+      "rationale": "Both positions lack sufficient legal precedent and implementation detail regarding how antitrust statutes apply to physical data center assets. Deciding this requires clearer judicial interpretation of Section 5 authority over modern physical and digital infrastructure bottlenecks.",
+      "whatWouldChange": "A federal court ruling testing the limits of Section 5 authority against physical compute infrastructure investments.",
+      "claimIds": [
+        "C3",
+        "C10"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether hardware-level telemetry and pre-deployment safety gates effectively govern frontier capabilities or merely impose compliance barriers that protect large incumbents.",
+      "prevails": "accelerationist",
+      "criterion": "logical_validity",
+      "rationale": "The accelerationist critique correctly identifies a logical enforcement gap where hardware tracking cannot inspect encrypted API reasoning traces. This makes broad silicon tracking both burdensome for new entrants and ineffective for safety verification.",
+      "whatWouldChange": "Proven cryptographic auditing methods that verify model capabilities at the silicon level without decrypting proprietary reasoning traces.",
+      "claimIds": [
+        "C11",
+        "C12"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,310 @@
+{
+  "debate_id": "b51bc416-2b10-4033-8800-29bf391801b7",
+  "debate_title": "Should AI systems be barred from making final decisions i...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-market certification standards function as effective consumer protection gates or as incumbent protection rackets.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Pre-market certification acts as a necessary safety gate that prevents unrecoverable economic and civil rights harms from unverified deployments."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-market certification functions as an incumbent protection racket that starves fast-lane capital access and delays societal benefits."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-217",
+        "saf-desires-012",
+        "saf-desires-010",
+        "sit-059",
+        "sit-170",
+        "acc-beliefs-027",
+        "acc-desires-037",
+        "acc-intentions-103",
+        "saf-beliefs-122",
+        "saf-beliefs-205"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether post-market FTC auditing under Section 5 authority provides adequate consumer protection compared to pre-deployment validation.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Post-market enforcement is too slow and reactive, allowing harmful algorithms to process millions of transactions before regulators can intervene."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Real-time auditing under FTC Section 5 authority offers sufficient market fairness enforcement without imposing economically destructive deployment freezes."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-217",
+        "saf-desires-012",
+        "saf-desires-010",
+        "sit-059",
+        "sit-170",
+        "acc-beliefs-027",
+        "acc-desires-037",
+        "acc-intentions-103",
+        "saf-beliefs-122",
+        "saf-beliefs-205"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether automated underwriting platforms genuinely expand credit access for underserved populations or merely increase debt burdens and systemic extraction.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Automated underwriting expands debt approval limits for thin-file applicants without raising default rates, thereby increasing financial inclusion."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Automated scoring systems harvest user data and shift default risks onto vulnerable borrowers while charging higher rates, replicating historical redlining."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-027",
+        "acc-desires-037",
+        "acc-intentions-103",
+        "skp-beliefs-001",
+        "skp-beliefs-164",
+        "skp-intentions-153",
+        "skp-beliefs-216",
+        "acc-intentions-047",
+        "skp-beliefs-249",
+        "skp-beliefs-041"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-010",
+      "nodeLabel": "Legal Comprehension as a Core AI Capability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-027",
+      "nodeLabel": "The Weakest Link in AI Development Is the Human Developer",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-217",
+      "nodeLabel": "Inadequacy of the Reasonable Person Standard for Algorithmic Negligence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-059",
+      "nodeLabel": "Fiduciary Accountability for Algorithmic Outputs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-103",
+      "nodeLabel": "Prohibit Vendors from Imposing Safety Restrictions Beyond the Law on Government AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-164",
+      "nodeLabel": "Companies Use Narrow Audits to Deflect Meaningful AI Oversight",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-153",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-216",
+      "nodeLabel": "Bargaining Asymmetry in User-Platform Relations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-122",
+      "nodeLabel": "AI Performs Consequential Acts That No One Bears Responsibility For",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-205",
+      "nodeLabel": "Procedural Compliance Inefficacy Against Strict Design Defect Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-069",
+      "nodeLabel": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-117",
+      "nodeLabel": "Require AI Systems to Show Their Reasoning",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-025",
+      "nodeLabel": "Fiduciary Duty Survives Automation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-139",
+      "nodeLabel": "Treating Humans as Objects to Be Optimized Degrades Dignity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-041",
+      "nodeLabel": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-074",
+      "nodeLabel": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-129",
+      "nodeLabel": "Safety Rhetoric as Infrastructure Cartel Maintenance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-161",
+      "nodeLabel": "Audit Taxonomies Are Thinking Aids, Not Rigid Compliance Checklists",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-market certification standards function as effective consumer protection gates or as incumbent protection rackets.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions capture valid risks but fail to provide sufficient empirical backing for their counter-projections. Safetyists identify genuine accountability gaps in current tort law, while accelerationists correctly note the compliance burdens of rigid mandates. The dispute remains undecidable because neither side offers comparative deployment data from jurisdictions with and without pre-market screening.",
+      "whatWouldChange": "Comparative economic and civil rights data from jurisdictions that enforce pre-market AI certification versus those relying solely on ex-post liability.",
+      "claimIds": [
+        "C1",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether post-market FTC auditing under Section 5 authority provides adequate consumer protection compared to pre-deployment validation.",
+      "prevails": "safetyist",
+      "criterion": "logical_validity",
+      "rationale": "The safetyist position holds stronger logical validity regarding the limits of traditional tort law and legal personhood when applied to autonomous software. Software systems lack personal assets, legal standing, and criminal liability, which prevents standard tort mechanisms from deterring algorithmic harms. Accelerationists argue that dynamic software resists static airframe-style certification, but they fail to explain how injured consumers secure legal remedy after an automated credit denial.",
+      "whatWouldChange": "The establishment of a functional legal framework that successfully assigns personal or corporate liability for autonomous algorithmic harms without requiring pre-deployment gates.",
+      "claimIds": [
+        "C2",
+        "C3",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether automated underwriting platforms genuinely expand credit access for underserved populations or merely increase debt burdens and systemic extraction.",
+      "prevails": "skeptic",
+      "criterion": "empirical_evidence",
+      "rationale": "The skeptic and safetyist coalition relies on documented empirical findings from regulatory bodies like the Federal Trade Commission regarding disparate outcomes in credit allocation. Accelerationists assert that debt approval limits expand for thin-file applicants, but they provide weaker documentation regarding long-term default rates and systemic extraction risks. Therefore, the empirical evidence on discriminatory credit pricing holds greater weight.",
+      "whatWouldChange": "Longitudinal audit studies proving that automated underwriting increases net financial inclusion for historically underserved groups without raising disparate default burdens.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

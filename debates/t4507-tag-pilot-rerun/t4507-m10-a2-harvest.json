@@ -1,0 +1,277 @@
+{
+  "debate_id": "8eca1f61-3329-42ec-8297-ccb97ba572cb",
+  "debate_title": "Is the market for frontier AI models becoming more concen...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether mandatory pre-deployment safety gates for compute clusters exceeding 10^26 integer operations effectively mitigate catastrophic risks or primarily serve as regulatory moats that protect incumbent firms.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Mandatory safety gates and pre-deployment checks are necessary to prevent irreversible systemic harms from advanced foundational models."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Integer-operation caps function as compliance barriers that price decentralized startups out of the market and stall beneficial scientific research."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-274",
+        "saf-beliefs-263",
+        "saf-desires-031",
+        "acc-beliefs-043",
+        "acc-intentions-114",
+        "acc-intentions-027",
+        "saf-beliefs-247",
+        "saf-beliefs-141",
+        "saf-desires-012",
+        "saf-intentions-212"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether private power purchase agreements and direct energy investments successfully insulate local electrical grids from data center demand surges without harming ratepayers.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Private energy contracts successfully deliver new zero-carbon generation directly to facilities without draining municipal grids."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Private corporate energy additionality is an accounting fiction that draws down regional energy pools and forces ratepayers to finance transmission upgrades."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-274",
+        "saf-beliefs-263",
+        "saf-desires-031",
+        "acc-beliefs-043",
+        "acc-intentions-114",
+        "acc-intentions-027",
+        "saf-beliefs-247",
+        "saf-beliefs-141",
+        "saf-desires-012",
+        "saf-intentions-212"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-274",
+      "nodeLabel": "Hardware-Level Interventions Risk Entrenching Corporate Monopolies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-263",
+      "nodeLabel": "Cloud Infrastructure Enforcement Is Necessary but Insufficient for Reaching Foreign Deployers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-031",
+      "nodeLabel": "Bilateral Compute Capping Treaty",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-114",
+      "nodeLabel": "Accelerate AI Through Open, Decentralized, and Unrestricted Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-181",
+      "nodeLabel": "Hyperscaler Cloud Monopolies Extract Compute Windfalls While Shifting Deployment Liabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-005",
+      "nodeLabel": "Distributed AI Power and Democratic Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-141",
+      "nodeLabel": "AI Governance Relies on Policies It Cannot Actually Enforce",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-212",
+      "nodeLabel": "Carbon-Aware Pricing Models",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-222",
+      "nodeLabel": "Grid Infrastructure Cost-Shifting onto Residential Utility Ratepayers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-213",
+      "nodeLabel": "Temporal Mismatch of AI Energy Impacts",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-325",
+      "nodeLabel": "Regulatory Arbitrage via Externalization",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-086",
+      "nodeLabel": "AI as Structurally Inevitable Economic Transformation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-076",
+      "nodeLabel": "Procuring Dedicated Clean Energy Additionality for High-Density Computing Facilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-044",
+      "nodeLabel": "AI Companies Reduce Costs by Locating Compute in Pollution Havens",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-234",
+      "nodeLabel": "Honeypot Evaluation Tetrad",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-001",
+      "nodeLabel": "Humanity's Survival Above All Else",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-001",
+      "nodeLabel": "Conditioning Deployment on Infrastructure Telemetry and Proportional Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-324",
+      "nodeLabel": "Governance-Hardware Patent Framework",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-028",
+      "nodeLabel": "Asymmetric Compliance Overhead on Open-Source Software Under Upstream Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether mandatory pre-deployment safety gates for compute clusters exceeding 10^26 integer operations effectively mitigate catastrophic risks or primarily serve as regulatory moats that protect incumbent firms.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The safetyist position correctly identifies systemic technological risks but relies on an arbitrary computational ceiling that lacks empirical validation. The accelerationist critique successfully highlights how compliance barriers disadvantage decentralized startups, yet it understates the cascading failures of unaligned deployments. Neither side provides sufficient longitudinal data to prove whether the benefits of gatekeeping outweigh the costs of suppressed competition.",
+      "whatWouldChange": "Longitudinal empirical data tracking whether firms subject to compute caps experience fewer catastrophic model escapes while maintaining vibrant startup ecosystems would tip the balance.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether private power purchase agreements and direct energy investments successfully insulate local electrical grids from data center demand surges without harming ratepayers.",
+      "prevails": "skeptic",
+      "criterion": "empirical_evidence",
+      "rationale": "The skeptic position provides concrete regional evidence from Loudoun County where transmission capacity prices surged over eight hundred percent due to data center demand. This empirical record refutes the accelerationist claim that private contracts fully insulate municipal grids from infrastructure strain. Consequently, the skeptic argument demonstrates superior specificity and grounding in observed market outcomes.",
+      "whatWouldChange": "Rigorous regional audits proving that private generation additions consistently outpace data center demand without raising local transmission tariffs would reverse this finding.",
+      "claimIds": [
+        "C3",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

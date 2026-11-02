@@ -1,0 +1,252 @@
+{
+  "debate_id": "16e90308-5ede-4026-928d-4f16d539fb55",
+  "debate_title": "Do AI benchmark scores predict real-world usefulness?",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether mandatory pre-market certification standards or continuous live telemetry loops are the appropriate primary governance mechanism for high-consequence artificial intelligence deployments.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "High-stakes institutional procurement requires mandatory pre-market certification and independent robustness audits to prevent irreversible operational catastrophes."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Mandatory pre-market certification creates bureaucratic delays that cause quantifiable human harm by withholding beneficial technology, making agile telemetry and rapid iteration preferable."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-200",
+        "saf-desires-003",
+        "sit-232",
+        "sit-127",
+        "acc-desires-028",
+        "acc-intentions-027",
+        "acc-intentions-117",
+        "acc-beliefs-087",
+        "acc-beliefs-019",
+        "sit-361"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether human-in-the-loop validation constitutes an engine of continuous algorithmic capabilities scaling or a labor subsidy masking underlying model brittleness.",
+      "bdiLayer": "intention",
+      "resolvability": "requires_term_clarification",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Human correction loops directly update model weights and drive rapid capabilities scaling as a core technical feature."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Human correction loops function as an externalized repair shop that patches foundational model failures using low-wage precarious labor."
+        }
+      ],
+      "linkedNodes": [
+        "sit-127",
+        "acc-desires-028",
+        "acc-intentions-027",
+        "acc-intentions-117",
+        "sit-232",
+        "skp-beliefs-008",
+        "skp-intentions-146",
+        "acc-beliefs-087",
+        "acc-beliefs-019",
+        "sit-361"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-232",
+      "nodeLabel": "Evaluation Gap in AI Performance",
+      "refCount": 5,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-361",
+      "nodeLabel": "Pragmatic Mitigation Framing",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-127",
+      "nodeLabel": "Benchmark Saturation and Metric Decay",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-008",
+      "nodeLabel": "Precarious Human Labor Behind the Automation Facade",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-200",
+      "nodeLabel": "AI Systematically Optimizes Proxy Metrics at the Expense of Intended Outcomes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-117",
+      "nodeLabel": "Inference-Time Compute Scaling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-087",
+      "nodeLabel": "Roundabout Data Production",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-019",
+      "nodeLabel": "Foundation Model Capabilities Can Be Systematically Unlocked and Deployed",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-026",
+      "nodeLabel": "Human-in-the-Loop Safeguards Fail Because Automation Erodes the Skills They Require",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-107",
+      "nodeLabel": "Coupling Pre-Deployment Independent Audits with Algorithmic Disgorgement and Strict Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-098",
+      "nodeLabel": "AI Behavior Cannot Be Fully Predicted Due to Emergence, Misspecification, and Formal Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-094",
+      "nodeLabel": "Run Prospective Failure Analyses to Catch Risks Metrics Miss",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-088",
+      "nodeLabel": "Dynamic Defensive Superiority",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-078",
+      "nodeLabel": "Targeted Real-Time Safety Investment Is More Efficient Than Front-Loading",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-008",
+      "nodeLabel": "Matching AI Oversight Intensity to Decision Stakes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-054",
+      "nodeLabel": "Ground AI Safety in Observable Behavior and Real-World Testing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-027",
+      "nodeLabel": "Humans Systematically Over-Trust AI Outputs Even When Wrong",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether mandatory pre-market certification standards or continuous live telemetry loops are the appropriate primary governance mechanism for high-consequence artificial intelligence deployments.",
+      "prevails": "C3",
+      "criterion": "implementation_specificity",
+      "rationale": "The safetyist position names a specific enforcement institution, the National Institute of Standards and Technology, and a concrete mechanism of legally binding pre-deployment audits. The accelerationist counter-argument relies on abstract claims about zero-day shifts without detailing how to prevent catastrophic failures before deployment.",
+      "claimIds": [
+        "C3",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: implementation_specificity"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether human-in-the-loop validation constitutes an engine of continuous algorithmic capabilities scaling or a labor subsidy masking underlying model brittleness.",
+      "prevails": "C6",
+      "criterion": "empirical_evidence",
+      "rationale": "The skeptic position cites documented evidence regarding vendor reliance on ghost workforces in the Global South to patch real-time production failures. The accelerationist stance offers a theoretical reframing without presenting concrete empirical proof that human correction loops directly drive algorithmic scaling rather than masking model errors.",
+      "claimIds": [
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

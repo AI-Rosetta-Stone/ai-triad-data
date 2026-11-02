@@ -1,0 +1,277 @@
+{
+  "debate_id": "587a47be-81de-4ff2-ade1-76ee774360dc",
+  "debate_title": "Do AI benchmark scores predict real-world usefulness?",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether decentralized developer networks can patch deep neural network vulnerabilities as effectively as traditional software repositories.",
+      "bdiLayer": "intention",
+      "resolvability": "requires_term_clarification",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that open-source fork mechanisms and decentralized peer review enable rapid security patches across machine learning systems."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Argues that deep neural network latent spaces are densely coupled parameter matrices that cannot be surgically patched without altering global model behavior."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-005",
+        "saf-desires-029",
+        "saf-intentions-094",
+        "saf-intentions-225",
+        "acc-desires-037",
+        "acc-intentions-002",
+        "sit-134",
+        "sit-340",
+        "saf-beliefs-213",
+        "saf-beliefs-131"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the public release of open weights presents an irreversible hazard that outweighs the benefits of decentralized innovation and rapid iteration.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Prioritizes permissionless innovation and rapid capability scaling, arguing that regulatory delays cause more harm than unvetted deployments."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Prioritizes pre-market containment and enforceable liability, arguing that public weight release permanently destroys upstream control over hazardous systems."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-005",
+        "saf-desires-029",
+        "saf-intentions-094",
+        "saf-intentions-225",
+        "acc-desires-037",
+        "acc-intentions-002",
+        "sit-134",
+        "sit-340",
+        "saf-beliefs-213",
+        "saf-beliefs-131"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-244",
+      "nodeLabel": "Obfuscating Nature of Aggregate Metrics",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-340",
+      "nodeLabel": "Regulatory-Marketplace Mismatch",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-296",
+      "nodeLabel": "Benchmark Lottery",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-087",
+      "nodeLabel": "Systematize AI Model Evaluation Through Benchmarking, Auditing, and Experimentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-005",
+      "nodeLabel": "AI Systems Fail Confidently Outside Their Training Distribution",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-094",
+      "nodeLabel": "Run Prospective Failure Analyses to Catch Risks Metrics Miss",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-225",
+      "nodeLabel": "PrIME-LLM Scoring Methodology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-134",
+      "nodeLabel": "Process vs. Governance in AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-202",
+      "nodeLabel": "Scale AI Safety Requirements Proportionally to Capability Level",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-127",
+      "nodeLabel": "Benchmark Saturation and Metric Decay",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-269",
+      "nodeLabel": "Enforcement Collapse Across Decentralized Open-Source Model Boundaries",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-088",
+      "nodeLabel": "Dynamic Defensive Superiority",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-403",
+      "nodeLabel": "Vulnerability Exploitability eXchange as Risk Mitigation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-278",
+      "nodeLabel": "Corporate Opacity as Non-Shieldable Under State-of-the-Art Defense",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-232",
+      "nodeLabel": "Provenance Metadata Chain-of-Custody Failure Between Generation and Distribution Layers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-110",
+      "nodeLabel": "Establishing Decentralized User-Controlled Cryptographic Receipts for Algorithmic Discovery",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-010",
+      "nodeLabel": "A Single Malicious Component Can Compromise Thousands of AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-035",
+      "nodeLabel": "AI Errors Are Structural Properties, Not Merely Fixable Bugs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-213",
+      "nodeLabel": "Requiring Layered Accountability Across the AI-Generated NCII Supply Chain",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-180",
+      "nodeLabel": "Computational Constraints on Model Remediation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-316",
+      "nodeLabel": "The Determination Time Gap",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether decentralized developer networks can patch deep neural network vulnerabilities as effectively as traditional software repositories.",
+      "prevails": "safetyist",
+      "criterion": "logical_validity",
+      "rationale": "The safetyist and skeptic position holds greater logical validity by distinguishing between traditional software repositories and densely coupled deep neural network parameter matrices. Equating a simple code fork with neural net vulnerability patching misrepresents how machine learning architectures fail globally.",
+      "whatWouldChange": "Empirical proof that decentralized networks can apply targeted, surgically precise weight modifications to neural networks without destabilizing global model behavior.",
+      "claimIds": [
+        "C6",
+        "C7",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether the public release of open weights presents an irreversible hazard that outweighs the benefits of decentralized innovation and rapid iteration.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "The debate remains balanced because both sides highlight structural risks that are difficult to reconcile. Proprietary vendors conceal vulnerabilities behind non-disclosure agreements for extended periods, while open-weight releases lack any real-time revocation mechanism once deployed across peer-to-peer networks.",
+      "whatWouldChange": "Long-term empirical tracking comparing safety incident rates, time-to-patch, and systemic harm between restricted proprietary models and uncontrolled open-weight releases.",
+      "claimIds": [
+        "C6",
+        "C9"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

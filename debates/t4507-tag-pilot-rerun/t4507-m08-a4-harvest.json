@@ -1,0 +1,260 @@
+{
+  "debate_id": "b44e4051-ec99-46fc-a7b2-b51b3f2c623a",
+  "debate_title": "Has AI measurably increased productivity in the firms tha...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether autonomous enterprise agents and secondary verification models can satisfy legal internal control requirements without direct human sign-off.",
+      "bdiLayer": "intention",
+      "resolvability": "requires_term_clarification",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Automated logging and multi-agent systems provide superior telemetry and satisfy governance duties more reliably than formal human sign-offs."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Statutory internal controls require named human officers with direct accountability and cognitive oversight, which automated loops cannot substitute."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-intentions-086",
+        "acc-desires-009",
+        "sit-375",
+        "saf-beliefs-207",
+        "saf-desires-012",
+        "sit-480",
+        "acc-beliefs-089",
+        "acc-desires-028",
+        "acc-intentions-082"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether removing human review bottlenecks in enterprise workflows generates net productivity gains or merely unverified systemic risk.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Removing human review queues through multi-agent parallelization drives operational velocity increases exceeding 300 percent."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "High-velocity parallel execution without human checkpoints accumulates unverified errors and operational fragility rather than genuine productive capacity."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-124",
+        "acc-intentions-086",
+        "acc-desires-009",
+        "sit-375",
+        "saf-beliefs-207",
+        "saf-desires-012",
+        "sit-480",
+        "acc-beliefs-089",
+        "acc-desires-028",
+        "acc-intentions-082"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-375",
+      "nodeLabel": "Amdahl's Law in AI Organizations",
+      "refCount": 4,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-055",
+      "nodeLabel": "AI-Orchestrated Enterprise Execution",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-207",
+      "nodeLabel": "AI Dependency Creates a Reinforcing Cycle of Skill Atrophy and Increased Reliance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-124",
+      "nodeLabel": "Frontier Firm Productivity Multipliers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-086",
+      "nodeLabel": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-009",
+      "nodeLabel": "Automate Society's Operating System",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-480",
+      "nodeLabel": "Algorithmic Discovery via Evolving Worlds",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-263",
+      "nodeLabel": "Governance Drift",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-089",
+      "nodeLabel": "Sovereign Debt Compression via AI Growth",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-082",
+      "nodeLabel": "Scale AI Agents from Pilots to Production",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-069",
+      "nodeLabel": "Accelerate Prosperity Through AI-Driven Abundance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-212",
+      "nodeLabel": "Knowledge-Collapse Steady State",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-043",
+      "nodeLabel": "Reliance on AI Degrades Human Critical Thinking and Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-147",
+      "nodeLabel": "Design AI Systems Around Human Cognitive Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-021",
+      "nodeLabel": "AI Deployment Is Routine Engineering, Not Civilizational Rupture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-205",
+      "nodeLabel": "Procedural Compliance Inefficacy Against Strict Design Defect Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-040",
+      "nodeLabel": "Binding Named Officers to Deployment Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-043",
+      "nodeLabel": "Giving AI Legal Duties Without Granting It Legal Rights",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-105",
+      "nodeLabel": "Denial-triggered recourse misses the never-notified subject",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-088",
+      "nodeLabel": "Govern AI Through Market Incentives and Transparent Telemetry",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether autonomous enterprise agents and secondary verification models can satisfy legal internal control requirements without direct human sign-off.",
+      "prevails": "safetyist",
+      "criterion": "specificity",
+      "rationale": "The safetyist position cites statutory frameworks like Section 404 of the Sarbanes-Oxley Act to ground its argument in existing corporate liability law. The accelerationist stance relies on abstract claims about automated telemetry without naming specific legal statutes that recognize machine sign-offs as valid compliance.",
+      "whatWouldChange": "Passage of federal legislation or regulatory rulings explicitly granting automated agents legal standing as accountable internal control officers.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether removing human review bottlenecks in enterprise workflows generates net productivity gains or merely unverified systemic risk.",
+      "prevails": "safetyist",
+      "criterion": "logical_validity",
+      "rationale": "The safetyist and skeptic coalition successfully exposes a logical flaw in the accelerationist three-hundred percent metric by demonstrating that raw output volume before quality control measures volume rather than verified productivity. Amdahl's Law further bounds raw speedups by highlighting that unoptimized sequential review steps remain systemic bottlenecks.",
+      "whatWouldChange": "Long-term corporate error tracking data proving that high-velocity parallel AI execution without human review reduces error rates compared to traditional human-in-the-loop workflows.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

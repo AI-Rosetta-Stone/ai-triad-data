@@ -1,0 +1,306 @@
+{
+  "debate_id": "2945220b-b3da-4493-a9c9-8c5868d9940b",
+  "debate_title": "Will generative AI raise or lower overall employment in o...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether middle management layers function primarily as obsolete administrative overhead or as critical operational circuit breakers and repositories of institutional memory.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Middle management functions largely as administrative gatekeeping that suppresses organizational efficiency, and its reduction frees human capital for productive product engineering."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Middle managers provide essential tacit knowledge and exception-handling capabilities that prevent systemic operational failures and cognitive skill decay."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-284",
+        "saf-beliefs-207",
+        "saf-desires-035",
+        "saf-intentions-112",
+        "saf-intentions-013",
+        "acc-beliefs-085",
+        "acc-beliefs-060",
+        "acc-intentions-056",
+        "acc-desires-041",
+        "acc-desires-028"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether pre-deployment impact assessments and regulatory guardrails serve as necessary safety protections or as harmful barriers that cause macroeconomic stagnation.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Mandatory pre-deployment barriers impose catastrophic delays on critical technological progress and protect entrenched interests at the expense of societal abundance."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Pre-deployment impact studies and governance safeguards are necessary to prevent unmanaged operational risks and cascading system failures."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-284",
+        "saf-beliefs-207",
+        "saf-desires-035",
+        "saf-intentions-112",
+        "saf-intentions-013",
+        "acc-beliefs-085",
+        "acc-beliefs-060",
+        "acc-intentions-056",
+        "acc-desires-041",
+        "acc-desires-028"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-180",
+      "nodeLabel": "Computational Constraints on Model Remediation",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-204",
+      "nodeLabel": "AI-Driven Productivity Ratchet Intensifies Work Without Reducing Labor Burdens",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-310",
+      "nodeLabel": "Tax Revenue Lag from Labor Share Compression",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-284",
+      "nodeLabel": "Narrow Versus Broad Capability Decoupling",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-207",
+      "nodeLabel": "AI Dependency Creates a Reinforcing Cycle of Skill Atrophy and Increased Reliance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-035",
+      "nodeLabel": "Ex Post Government Compensation for Economic Disruption",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-013",
+      "nodeLabel": "Requiring AI Impact Studies Modeled on Environmental Impact Reports",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-085",
+      "nodeLabel": "Regulatory Structures as Barriers to Competitive AI Innovation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-060",
+      "nodeLabel": "Markets and Technology Form a Self-Reinforcing Growth Engine",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-041",
+      "nodeLabel": "Defend the Individual Right to Modify One's Own Biology and Mind",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-229",
+      "nodeLabel": "Worker Data Withholding Capacity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-008",
+      "nodeLabel": "Precarious Human Labor Behind the Automation Facade",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-075",
+      "nodeLabel": "Democratic Accountability in AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-003",
+      "nodeLabel": "Runtime Telemetry Bound by Execution-Gated Telemetry Logging",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-098",
+      "nodeLabel": "AI Behavior Cannot Be Fully Predicted Due to Emergence, Misspecification, and Formal Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-050",
+      "nodeLabel": "Defining Clear Authority Limits for Autonomous AI Agents",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-084",
+      "nodeLabel": "Naturalistic Inevitability of Machine Intelligence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-214",
+      "nodeLabel": "Direct Liability for AI-Generated Content",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-083",
+      "nodeLabel": "Inserting Human Judgment Where Autonomous AI Makes Consequential Choices",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-086",
+      "nodeLabel": "Countering AI-Driven Skill Decay and Cognitive Displacement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-034",
+      "nodeLabel": "Denial-of-Governance Attacks",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether middle management layers function primarily as obsolete administrative overhead or as critical operational circuit breakers and repositories of institutional memory.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Neither side provides systematic empirical data to prove whether middle management net value is positive or negative across modern firms. The accelerationist claim assumes administrative reduction scales product engineering, while the safetyist claim asserts that tacit knowledge prevents catastrophic failures without offering comparative failure rates.",
+      "whatWouldChange": "Comparative workforce studies tracking error frequency and product output in corporations that intentionally flatten management layers versus those that preserve them.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether pre-deployment impact assessments and regulatory guardrails serve as necessary safety protections or as harmful barriers that cause macroeconomic stagnation.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions rely on theoretical macro consequences without establishing a tested causal link between pre-deployment reviews and broad economic stagnation. The safetyist argument emphasizes system stability, while the accelerationist argument focuses on capability scaling, leaving the net societal trade-off unquantified.",
+      "whatWouldChange": "Empirical analysis of jurisdictions or industries with strict AI pre-deployment reviews versus those with light regulation, measuring both mishap rates and innovation velocity.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

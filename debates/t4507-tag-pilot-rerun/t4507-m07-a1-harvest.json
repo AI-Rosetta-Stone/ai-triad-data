@@ -1,0 +1,259 @@
+{
+  "debate_id": "231321e1-6f39-4169-8698-71d1e7f60b20",
+  "debate_title": "Is current AI progress driven mainly by scaling compute, ...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether semiconductor manufacturing infrastructure serves as the sole enforceable choke point for governing frontier artificial intelligence.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Physical semiconductor fabrication facilities remain the only verifiable and auditable control point for frontier models."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Hardware-focused controls miss decentralized algorithmic distribution and post-fabrication software optimization."
+        }
+      ],
+      "linkedNodes": [
+        "acc-intentions-100",
+        "acc-desires-037",
+        "sit-063",
+        "saf-beliefs-120",
+        "saf-desires-002",
+        "saf-intentions-009",
+        "saf-desires-012",
+        "saf-beliefs-247",
+        "saf-desires-004",
+        "acc-beliefs-039"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether pre-market deployment halts and compute caps protect public safety or function as regulatory moats protecting industry incumbents.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Rigid deployment thresholds are necessary to prevent systemic risks and unaligned AI behavior from scaling unchecked."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Compute thresholds and compliance standards act primarily as regulatory barriers that shield dominant technology firms from competition."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-120",
+        "saf-desires-002",
+        "saf-intentions-009",
+        "saf-desires-012",
+        "skp-beliefs-284",
+        "skp-beliefs-044",
+        "skp-beliefs-190",
+        "sit-477",
+        "saf-beliefs-247",
+        "saf-desires-004"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-120",
+      "nodeLabel": "Physical Infrastructure Metrics as an Enforcement Anchor",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-intentions-009",
+      "nodeLabel": "Securing Data Centers and Supply Chains Against Model-Weight Theft",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-044",
+      "nodeLabel": "AI's True Financial and Environmental Costs Are Systematically Obscured",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-063",
+      "nodeLabel": "Regulatory Fragmentation and Cost Burden",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-190",
+      "nodeLabel": "Single Points of Control over Compute Hardware Function as Incumbent Capture Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-477",
+      "nodeLabel": "Democratic Failure to Curb Digital Corporate Power",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-247",
+      "nodeLabel": "Infrastructure-Dependency as a Source of Regulatory Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-039",
+      "nodeLabel": "AI Is on an Exponential Trajectory Toward Superhuman Intelligence Through Recursive Self-Improvement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-281",
+      "nodeLabel": "Capital-Intensive Infrastructure Bottlenecks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-222",
+      "nodeLabel": "Grid Infrastructure Cost-Shifting onto Residential Utility Ratepayers",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-078",
+      "nodeLabel": "Foundational AI as a Public Good",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-086",
+      "nodeLabel": "AI as Structurally Inevitable Economic Transformation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-009",
+      "nodeLabel": "Automate Society's Operating System",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-076",
+      "nodeLabel": "Procuring Dedicated Clean Energy Additionality for High-Density Computing Facilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-098",
+      "nodeLabel": "AI Behavior Cannot Be Fully Predicted Due to Emergence, Misspecification, and Formal Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-050",
+      "nodeLabel": "Defining Clear Authority Limits for Autonomous AI Agents",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-044",
+      "nodeLabel": "AI Companies Reduce Costs by Locating Compute in Pollution Havens",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether semiconductor manufacturing infrastructure serves as the sole enforceable choke point for governing frontier artificial intelligence.",
+      "prevails": "C2",
+      "criterion": "empirical_evidence",
+      "rationale": "The safetyist position relies on verifiable customs data and export logs for extreme ultraviolet lithography systems. The accelerationist counter-argument correctly identifies software routing workarounds, but lacks equivalent empirical proof that decentralized algorithms can scale without dense hardware clusters.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether pre-market deployment halts and compute caps protect public safety or function as regulatory moats protecting industry incumbents.",
+      "prevails": "C8",
+      "criterion": "scope",
+      "rationale": "The skeptic position accounts for historical industrial regulation precedents where compliance mandates systematically shielded large firms from antitrust enforcement. The safetyist stance narrowly focuses on tail-risk mitigation without addressing the structural market consolidation caused by high compliance costs.",
+      "claimIds": [
+        "C8",
+        "C9",
+        "C10"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

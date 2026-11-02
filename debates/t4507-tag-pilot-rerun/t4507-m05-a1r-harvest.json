@@ -1,0 +1,248 @@
+{
+  "debate_id": "fb7dfc9c-5bcf-462d-8197-7fb94a4d5de2",
+  "debate_title": "Should AI systems be barred from making final decisions i...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether mandatory human review and personal legal sign-offs for final decisions meaningfully prevent discrimination or merely create inefficient barriers that disadvantage new market entrants.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Mandatory human review and personal legal accountability are necessary institutional safeguards against systemic bias, even if they introduce administrative friction."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Mandatory human review imposes bureaucratic friction that protects legacy incumbents, slows economic throughput, and harms job seekers."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-217",
+        "saf-beliefs-248",
+        "saf-desires-012",
+        "sit-059",
+        "sit-170",
+        "acc-beliefs-111",
+        "acc-desires-039",
+        "acc-intentions-001",
+        "acc-desires-026",
+        "saf-beliefs-122"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether decentralized open-source model audits and proxy-variable stripping can effectively remove systemic bias without requiring centralized bureaucratic intervention or named human signatories.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Decentralized open-source audits and telemetry provide faster, more effective bias correction than manual compliance reviews."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Technical scrubbing of model parameters and open-source audits fail to alter recursive feedback loops and structural financial exclusion."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-041",
+        "skp-beliefs-189",
+        "skp-desires-087",
+        "skp-intentions-074",
+        "acc-beliefs-111",
+        "acc-desires-039",
+        "sit-170",
+        "skp-beliefs-001",
+        "skp-beliefs-286",
+        "acc-intentions-001"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-059",
+      "nodeLabel": "Fiduciary Accountability for Algorithmic Outputs",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-041",
+      "nodeLabel": "AI Bias and Harm Are Well-Documented, Not Hypothetical",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-087",
+      "nodeLabel": "Anchoring AI accountability in human decisions and material power relations rather than system mental states",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-074",
+      "nodeLabel": "Enforce Legally Binding Civil Rights Constraints on AI Development",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-111",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-217",
+      "nodeLabel": "Inadequacy of the Reasonable Person Standard for Algorithmic Negligence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-248",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Verification",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-286",
+      "nodeLabel": "Feedback-Loop Contamination Destroys the Independence Needed for Post-Deployment Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-001",
+      "nodeLabel": "Achieving Capability Leadership Through Open Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-122",
+      "nodeLabel": "AI Performs Consequential Acts That No One Bears Responsibility For",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-005",
+      "nodeLabel": "No Black Boxes in Ground-Truth-Absent or Feedback-Contaminated Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-069",
+      "nodeLabel": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-205",
+      "nodeLabel": "Procedural Compliance Inefficacy Against Strict Design Defect Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-112",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-105",
+      "nodeLabel": "Replace Centralized Safety Audits with Trustless Cryptographic Verification",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether mandatory human review and personal legal sign-offs for final decisions meaningfully prevent discrimination or merely create inefficient barriers that disadvantage new market entrants.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Safetyists emphasize legal accountability voids, while accelerationists stress bureaucratic drag on market entrants. Neither camp provides comprehensive data measuring the trade-off between prevented discrimination incidents and delayed economic transactions.",
+      "whatWouldChange": "Longitudinal studies tracking error rates and compliance costs across regulated versus unregulated automated hiring pipelines would tip the balance.",
+      "claimIds": [
+        "C1",
+        "C3",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether decentralized open-source model audits and proxy-variable stripping can effectively remove systemic bias without requiring centralized bureaucratic intervention or named human signatories.",
+      "prevails": "C6",
+      "criterion": "specificity",
+      "rationale": "While accelerationists cite an 18 percent increase in thin-file credit access via proxy stripping, skeptics demonstrate that commercial entities routinely block independent oversight through proprietary restrictions. This critique exposes a structural gap in decentralized audit models that relies on vendor self-reporting.",
+      "whatWouldChange": "Legislative mandates requiring mandatory open-source audit access with verified independent oversight could validate technical scrubbing frameworks.",
+      "claimIds": [
+        "C2",
+        "C4",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

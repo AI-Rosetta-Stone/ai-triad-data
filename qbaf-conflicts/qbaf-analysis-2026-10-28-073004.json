@@ -1,0 +1,258 @@
+{
+  "generated_at": "2026-10-28T07:30:04.7567983-04:00",
+  "claim_count": 22,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Conversational AI Market Growth Projections",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Microsoft Chatbot and Hologram Patent",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Roman Mazurenko AI Chatbot Creation",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-4",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Deceased Celebrity Commercial Market Value",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-275"
+      ]
+    },
+    {
+      "id": "qc-5",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "State Criminal Libel Statutes Protecting Decedents",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-6",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "State-Level Posthumous Right of Publicity Terms",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-7",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Ignored Terms of Service Provisions",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-217",
+        "skp-beliefs-225"
+      ]
+    },
+    {
+      "id": "qc-8",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Spike in State AI Legislation",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-9",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Percentage of Americans With Wills",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-10",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Sale of Salinger Love Letters",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-11",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Privacy Policy Reading Time Estimate",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-228",
+        "skp-beliefs-217"
+      ]
+    },
+    {
+      "id": "qc-12",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Facebook Deceased User Memorialization Scale",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-13",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Harvard Medical School Morgue Body Part Theft",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-275"
+      ]
+    },
+    {
+      "id": "qc-14",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Human Skulls Sold on eBay",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-275"
+      ]
+    },
+    {
+      "id": "qc-15",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Vanessa Bryant Privacy Settlement",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-027"
+      ]
+    },
+    {
+      "id": "qc-16",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Intestacy and Demographics Statistics",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-17",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "California Delete Act Enactment",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-desires-003",
+        "saf-desires-027"
+      ]
+    },
+    {
+      "id": "qc-18",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "ECHR Posthumous Right to be Forgotten Ruling",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-027"
+      ]
+    },
+    {
+      "id": "qc-19",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Exponential Growth of Global Online Data Storage",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-20",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Google Inactive Account Manager Launch",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-21",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "Schuyler v. Curtis 1895 Ruling",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "sit-263"
+      ]
+    },
+    {
+      "id": "qc-22",
+      "doc_id": "law-digital-resurrection-2026",
+      "label": "No AI FRAUD Act Introduction",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-beliefs-155"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

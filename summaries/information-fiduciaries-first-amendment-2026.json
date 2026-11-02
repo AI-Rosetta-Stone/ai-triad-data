@@ -1,0 +1,1714 @@
+{
+  "doc_id": "information-fiduciaries-first-amendment-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-28T08:07:44Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 65536,
+    "extraction_mode": "single_shot",
+    "taxonomy_filter": "rag_per_chunk",
+    "taxonomy_nodes": 1456,
+    "chunked": true,
+    "chunk_count": 7
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "information-fiduciaries-first-amendment-2026",
+    "measured_at": "2026-10-28T08:12:30.8799948-04:00",
+    "stages": [
+      {
+        "stage": "chunking",
+        "in_units": "tokens_est",
+        "in_count": 37028,
+        "out_units": "tokens_est",
+        "out_count": 37308,
+        "ratio": 1.0076,
+        "flags": {
+          "chunk_count": 7
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 4326,
+        "out_units": "nodes",
+        "out_count": 60,
+        "ratio": 0.0139,
+        "flags": {
+          "avg_beliefs": 28,
+          "avg_desires": 11,
+          "avg_intentions": 14,
+          "avg_nodes_selected": 60,
+          "chunk_count": 7,
+          "max_nodes_selected": 60,
+          "min_nodes_selected": 60,
+          "total_below_threshold": 0
+        }
+      },
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 265143,
+        "out_units": "items",
+        "out_count": 60,
+        "ratio": 0.0002,
+        "flags": {
+          "chunk_count": 7,
+          "factual_claims": 24,
+          "null_node_rate": 0.4848,
+          "total_points": 33,
+          "unmapped_concepts": 3
+        }
+      },
+      {
+        "stage": "merge_dedup",
+        "in_units": "items",
+        "in_count": 60,
+        "out_units": "items",
+        "out_count": 60,
+        "ratio": 1,
+        "flags": {
+          "claims_deduped": 0,
+          "concepts_deduped": 0,
+          "points_deduped": 0,
+          "used_embeddings": 1
+        }
+      },
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 3,
+        "out_units": "still_unmapped",
+        "out_count": 2,
+        "ratio": 0.6667,
+        "flags": {
+          "near_miss_count": 2,
+          "resolved_count": 1,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      }
+    ],
+    "cumulative_retention": 0.0139
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "acc-beliefs-068",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The essay notes that the First Amendment has gradually been transformed into a bulwark of protection against business regulation, which aligns with accelerationist views that data collection, analysis, and information distribution are constitutionally protected forms of speech. Legal scholars like Eugene Volokh argue that privacy regulations restricting the sale and disclosure of true personal information presumptively violate free speech. Consequently, commercial entities engaging in Big Data analytics and information distribution are exercising protected expressive activities rather than engaging in unprotected commercial conduct. This perspective treats data flow as essential to innovation and economic freedom.",
+          "verbatim": "These developments are part of a far larger trend in which the First Amendment has gradually been transformed into a bulwark of protection against business regulation... If so, then Uber's disclosure of sensitive personal information about its users might be protected by the First Amendment unless it also attempted to threaten users or blackmail them.",
+          "excerpt_context": "Introduction & Section II",
+          "extraction_confidence": 0.85,
+          "canonical_proposition": "Regulations restricting the collection, analysis, and distribution of personal data presumptively violate the First Amendment rights of commercial data processors.",
+          "attribution_text": "A Belief within accelerationist discourse that data collection, analysis, and information distribution constitute protected expressive activity under the First Amendment. Encompasses: Information distribution, data analytics, and commercial speech protections.",
+          "vocabulary_terms": [
+            "commercial_speech",
+            "data_analytics"
+          ],
+          "retrieval_confidence": 0.5363,
+          "taxonomy_node_candidates": [
+            {
+              "id": "sit-269",
+              "label": "Speakerless Speech Coverage",
+              "score": 0.5959
+            },
+            {
+              "id": "acc-intentions-087",
+              "label": "Establish Legal Rights to Train AI on Publicly Available Data",
+              "score": 0.5731
+            },
+            {
+              "id": "acc-intentions-078",
+              "label": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+              "score": 0.5655
+            }
+          ],
+          "retrieval_low_confidence": false
+        }
+      ]
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-desires-027",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The essay argues that human freedom in the information age requires regulation of new forms of social and economic power, establishing the normative foundation for treating digital platforms as fiduciaries. Because online service providers and cloud companies wield special power over customers, they have fiduciary duties to act without harming the interests of those whose data they collect and analyze. This framework seeks to reconcile personal privacy protections with First Amendment freedoms by shifting the regulatory focus from the category of information to the fiduciary relationship of trust and confidence. Safetyists desire robust oversight of digital infrastructure to prevent corporate exploitation and protect public trust.",
+          "verbatim": "On the other hand, I understand that human freedom in the information age requires regulation of new forms of social and economic power... Because of their special power over others and their special relationships to others, information fiduciaries have special duties to act in ways that do not harm the interests of the people whose information they collect, analyze, use, sell, and distribute.",
+          "excerpt_context": "Introduction",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Online service providers ought to operate as information fiduciaries with affirmative legal duties to protect the interests of their users.",
+          "attribution_text": "A Desire within safetyist discourse that online service providers and cloud companies are recognized as information fiduciaries obligated to protect user interests. Encompasses: Fiduciary obligations, trust relationships, and digital power regulation.",
+          "vocabulary_terms": [
+            "information_fiduciaries",
+            "digital_power"
+          ],
+          "retrieval_confidence": 0.671,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.671
+            },
+            {
+              "id": "saf-beliefs-018",
+              "label": "The Attacker-Defender Cost Gap Erodes Social Trust",
+              "score": 0.5884
+            },
+            {
+              "id": "skp-intentions-149",
+              "label": "Data Cooperative Fiduciary Model",
+              "score": 0.5817
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The essay asserts that powerful digital platforms possess unprecedented capabilities to manipulate user behavior and influence democratic outcomes without public detection. Jonathan Zittrain's example of Facebook's voting experiment demonstrates that subtle message framing and algorithmic prompts can alter voter turnout by hundreds of thousands of votes. This reveals that platforms can engage in 'digital gerrymandering' to swing elections while collecting and weaponizing vast stores of personal metadata. Safetyists view these technological capabilities as systemic threats to democratic integrity that require proactive governance.",
+          "verbatim": "Zittrain then asks: What if Facebook decided to use its power to influence elections? Facebook can use personal data to predict who a user is likely to support... Zittrain calls this practice \"digital gerrymandering\" and argues that it should not be legal.",
+          "excerpt_context": "Section I",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Digital platforms possess systemic power to manipulate user behavior and alter democratic elections through targeted algorithmic prompts.",
+          "attribution_text": "A Belief within safetyist discourse that digital platforms possess structural capabilities to manipulate user behavior and alter democratic outcomes. Encompasses: Digital gerrymandering, behavioral modification, and electoral influence.",
+          "vocabulary_terms": [
+            "digital_gerrymandering",
+            "behavioral_modification"
+          ]
+        },
+        {
+          "stance": "neutral",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The First Amendment presents substantial constitutional hurdles for government regulators seeking to restrict how companies collect, analyze, use, distribute, and sell personal data. As discussed in relation to Sorrell v. IMS Health Inc., regulations that target specific speakers or content categories face heightened judicial scrutiny, complicating legislative efforts to enforce data privacy. Even classifying data as a commodity or regulating it under commercial speech doctrines fails to bypass these constitutional protections, because courts provide robust scrutiny to commercial speech and recognize that commercial data generation can function as protected expression.",
+          "verbatim": "It would seem to follow, then, that the First Amendment puts rather strict limits on how government might regulate companies, like Uber and Facebook, that collect large amounts of information about end-users and then analyze, use, distribute, and sell that information to make profits, or to gain business or political advantages.",
+          "excerpt_context": "Section II, p. 1194",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "The First Amendment imposes strict constitutional limits on government regulation of corporate data collection, analysis, use, distribution, and sale.",
+          "attribution_text": "A Belief within safetyist and skeptic discourse that the First Amendment severely restricts government authority to regulate corporate data collection, analysis, use, distribution, and sale. Encompasses: heightened scrutiny for content-based regulations, commercial speech protections, and constitutional barriers to privacy mandates.",
+          "vocabulary_terms": [
+            "constitutional_limits",
+            "commercial_speech",
+            "heightened_scrutiny"
+          ]
+        },
+        {
+          "stance": "neutral",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Intentions",
+          "point": "Regulators and legal scholars consider distinguishing between the distinct stages of information practices—specifically collection, analysis, use, disclosure, and sale—as a strategic approach to navigating First Amendment constraints. Because privacy regulations directed at data collection and internal use face fewer constitutional impediments than restrictions on disclosure or sale of lawfully possessed data, legislative frameworks can be tailored to target these specific entry points. However, this approach must contend with emerging judicial recognition of a First Amendment right to record and gather information in public settings.",
+          "verbatim": "In particular, we should distinguish (1) collection, (2) analysis, (3) use, (4) disclosure, and (5) sale of information. The Uber and Facebook stories are primarily about disclosure and use of personal information, although these are made possible by collection and collation. The First Amendment protects some of these activities differently than others. In particular, privacy regulations might face fewer First Amendment problems when they focus on the collection and use of data rather than on the analysis, disclosure, and sale of data that is otherwise lawfully in one's possession.",
+          "excerpt_context": "Section II.A, p. 1194",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Regulators ought to structure privacy rules around the distinct stages of information handling, prioritizing collection and use regulations to navigate First Amendment scrutiny.",
+          "attribution_text": "An Intention within safetyist and skeptic discourse that advocates for structuring privacy regulations around the distinct lifecycle stages of information handling to minimize First Amendment conflicts. Encompasses: targeting data collection and internal use, distinguishing disclosure from acquisition, and navigating constitutional limits on data sales.",
+          "vocabulary_terms": [
+            "information_lifecycle",
+            "collection_regulation",
+            "first_amendment_scrutiny"
+          ]
+        },
+        {
+          "stance": "neutral",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Treating personal data privacy protection purely through a contractual model or private ordering—such as relying on terms of service and end-user license agreements—provides inherently limited protection. Because companies retain the unilateral ability to draft and modify privacy policies, and because the default rule under a contract model assumes consumers surrender control over voluntarily provided information in the absence of an explicit agreement, contractual solutions fail to establish robust structural privacy safeguards.",
+          "verbatim": "And because companies like Uber and Facebook can state their privacy policies in vague terms, or change their privacy policies more or less at will, relying on terms of service or end user license agreements may offer only very limited privacy protections.",
+          "excerpt_context": "Section II.E, p. 1200",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Relying on private contracts and terms of service offers highly limited privacy protections because companies can draft vague policies and alter them at will.",
+          "attribution_text": "A Belief within safetyist and skeptic discourse that private contractual ordering through terms of service provides inadequate privacy protection due to corporate unilateralism and vague policy terms. Encompasses: unilateral contract modification, vague privacy disclosures, and the absence of baseline statutory rights.",
+          "vocabulary_terms": [
+            "contractual_privacy",
+            "unilateral_modification",
+            "terms_of_service"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document expresses a desire to establish a legal framework for information privacy based on fiduciary duties rather than contract law. This approach avoids the limitations of the contractual model, which is undermined by consumer privacy myopia and information asymmetries. By relying on fiduciary obligations, the state can impose non-waivable duties of loyalty and confidentiality that protect sensitive personal information. This directly supports safetyist goals of establishing robust regulatory safeguards that do not depend on consumer self-protection or private contracting.",
+          "verbatim": "Yet in this essay, I want to suggest another way of approaching the problem — through the idea of fiduciary duties. The idea of fiduciary duties gives us a way out of the neo-Lochnerian model that binds First Amendment freedoms to contractual freedom. It also offers us a way of explaining why certain kinds of information are matters of private concern that governments can protect through reasonable regulation.",
+          "excerpt_context": "Section III, paragraph 1",
+          "extraction_confidence": "0.95",
+          "canonical_proposition": "The legal regulation of information privacy ought to be grounded in fiduciary duties rather than private contracts.",
+          "attribution_text": "A Desire within safetyist discourse that seeks to replace consumer contract models with enforceable fiduciary duties to protect sensitive personal information from exploitation. Encompasses: non-waivable duties of loyalty, professional confidentiality, and regulatory protections.",
+          "vocabulary_terms": [
+            "fiduciary_duty",
+            "confidentiality",
+            "regulatory_protection"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that privacy obligations are properly rooted in legally enforceable social relationships, such as fiduciary duties, rather than the content of speech. This belief establishes that certain types of information are matters of private concern because of the relationships that produce them, mirroring traditional professional duties in health care and legal services. This perspective supports safetyist arguments that data processing relationships inherently carry duties of care and loyalty.",
+          "verbatim": "My central point is that certain kinds of information constitute matters of private concern not because of their content, but because of the social relationships that produce them.",
+          "excerpt_context": "Section III, paragraph 1",
+          "extraction_confidence": "0.95",
+          "canonical_proposition": "Information constitutes a matter of private concern due to the social relationships that produce it rather than its content.",
+          "attribution_text": "A Belief within safetyist discourse that data privacy obligations derive from the structure of underlying social and professional relationships. Encompasses: professional confidentiality, relational duties of loyalty, and private concern designation.",
+          "vocabulary_terms": [
+            "fiduciary_duty",
+            "relational_privacy"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-desires-025",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The text examines how fiduciary relationships, such as those between doctors and patients, impose special duties of loyalty and care with respect to sensitive personal information. This framework supports the safetyist position that professionals and organizations holding positions of trust must actively protect the interests of principals rather than exploiting data for advantage. By establishing that fiduciaries cannot use confidential information to the detriment of their clients, the analysis undergirds the normative requirement for strict oversight in data-intensive relationships. The discussion illustrates that fiduciary duties survive in modern contexts, serving to constrain actors who hold asymmetric power over personal data. However, the text focuses primarily on traditional professional relationships rather than direct AI deployment scenarios.",
+          "verbatim": [
+            "Generally speaking, a fiduciary is one who has special obligations of loyalty and trustworthiness toward another person.",
+            "The fiduciary must take care to act in the interests of the other person, who is sometimes called the principal, the beneficiary, or the client.",
+            "The fiduciary has two basic duties. The first is a duty of care... The second, and in many ways more important duty, is the duty of loyalty."
+          ],
+          "excerpt_context": "Section IV, pages 1207-1209",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Fiduciaries ought to maintain strict duties of care and loyalty, refraining from using confidential personal information to the disadvantage of their principals.",
+          "attribution_text": "A Desire within safetyist discourse that prioritizes enforcing strict duties of care and loyalty to prevent the exploitation of sensitive personal information by trusted entities. Encompasses: fiduciary obligations, duty of confidentiality, and prevention of conflicts of interest.",
+          "vocabulary_terms": [
+            "fiduciary_duty",
+            "confidentiality",
+            "duty_of_loyalty"
+          ],
+          "retrieval_confidence": 0.6817,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-025",
+              "label": "Fiduciary Duty Survives Automation",
+              "score": 0.6817
+            },
+            {
+              "id": "saf-beliefs-141",
+              "label": "AI Governance Relies on Policies It Cannot Actually Enforce",
+              "score": 0.6778
+            },
+            {
+              "id": "saf-intentions-044",
+              "label": "Preventing AI Use from Lowering Legal Standards of Care",
+              "score": 0.6637
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that the First Amendment treats information practices by fiduciaries fundamentally differently than those involving relative strangers, permitting regulations that restrict fiduciaries from disclosing or using client information to their advantage. This empirical and doctrinal claim supports the safetyist view that constitutional protections for speech do not preclude the enforcement of professional confidentiality and loyalty obligations. The reasoning relies on the legal characterization of fiduciary relationships as distinct from open public discourse, allowing states to regulate communicative practices within these domains without violating free expression rights. Consequently, professional art or commentary cannot use confidential patient disclosures as a defense against malpractice or breach of fiduciary duty. The observation demonstrates that legal doctrines already recognize boundaries where protective duties override unbridled expressive freedom.",
+          "verbatim": [
+            "The First Amendment treats information practices by fiduciaries very differently than it treats information practices involving relative strangers.",
+            "Generally speaking, when the law prevents a fiduciary from disclosing or selling information about a client — or using information to a client’s disadvantage — this does not violate the First Amendment, even though the activity would be protected if there were no fiduciary relationship."
+          ],
+          "excerpt_context": "Section IV, pages 1209-1210",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "The First Amendment permits the regulation of fiduciary information practices and the enforcement of confidentiality without violating free speech rights.",
+          "attribution_text": "A Belief within safetyist discourse that constitutional law accommodates restrictions on fiduciary information practices to protect client confidentiality. Encompasses: fiduciary exception to speech rights, professional liability, and confidentiality enforcement.",
+          "vocabulary_terms": [
+            "first_amendment",
+            "fiduciary_obligations",
+            "confidentiality"
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-desires-027",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document asserts that digital space and personal data relationships require robust trust frameworks analogous to traditional fiduciary duties. Because online service providers solicit user trust and collect sensitive data, they should be bound by duties of loyalty and care similar to doctors or lawyers. This ensures that privacy protections run with the data across third-party transfers rather than relying solely on flawed notice-and-choice consumer contracts.",
+          "verbatim": "The relationships of trust between end-users and online service providers need not be identical to traditional professional relationships in all respects. Equally importantly, these relationships may not require the same degree of obligation, loyalty, and protection that applied to older forms of professional relationships. ... What I do claim is that in the digital age, because we trust them with sensitive information, certain types of online service providers take on fiduciary responsibilities.",
+          "excerpt_context": "Section V, pages 1221-1222",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Online service providers ought to be recognized as information fiduciaries bound by duties of loyalty and care regarding user data.",
+          "attribution_text": "A Desire within safetyist discourse that digital infrastructure and data relationships be managed through binding fiduciary obligations. Encompasses: Information fiduciaries, online service provider accountability, and privacy protections running with data.",
+          "vocabulary_terms": [
+            "information_fiduciaries",
+            "fiduciary_duty",
+            "privacy_protection"
+          ],
+          "retrieval_confidence": 0.6943,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.6943
+            },
+            {
+              "id": "skp-intentions-149",
+              "label": "Data Cooperative Fiduciary Model",
+              "score": 0.5957
+            },
+            {
+              "id": "pol-3148",
+              "label": "",
+              "score": 0.5735
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "saf-intentions-146",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "The text argues that the law must impose affirmative duties on fiduciaries to ensure that personal data privacy is maintained when disclosed to third parties. Specifically, doctors and online platforms have a fiduciary duty to ensure that privacy protections run with the data so that users do not need individual contracts with every downstream entity handling their information.",
+          "verbatim": "In other words, the doctor has a fiduciary duty to ensure that the privacy protections run with the data. The requirement that privacy protections run with the data means that I do not have to have a separate contractual agreement with everyone who handles the data. Rather, it is the fiduciary’s job to ensure that my privacy is protected.",
+          "excerpt_context": "Section V, page 1220",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Fiduciaries ought to enforce mandatory privacy protections that attach to data wherever it travels downstream.",
+          "attribution_text": "An Intention within safetyist discourse that mandates downstream privacy protections attached to data transfers by fiduciaries. Encompasses: Privacy running with data, elimination of separate downstream contracts, and fiduciary data stewardship.",
+          "vocabulary_terms": [
+            "data_privacy",
+            "fiduciary_duty",
+            "downstream_governance"
+          ],
+          "retrieval_confidence": 0.572,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-149",
+              "label": "Data Cooperative Fiduciary Model",
+              "score": 0.709
+            },
+            {
+              "id": "saf-intentions-143",
+              "label": "Governing How AI Models Ingest, Retain, and Protect Data",
+              "score": 0.6545
+            },
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.6454
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-intentions-143",
+              "label": "Governing How AI Models Ingest, Retain, and Protect Data",
+              "score": 0.6545
+            },
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.6454
+            },
+            {
+              "id": "saf-intentions-250",
+              "label": "Automated Response Obfuscation for Distillation Defense",
+              "score": 0.6147
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-desires-025",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document asserts that changing societal conditions generate new fiduciary relations and obligations that the law should recognize, specifically treating online service providers as information fiduciaries to protect vulnerable end-users. This desire addresses the severe information asymmetry where digital platforms possess deep expertise and data while end-users remain largely blind to data collection and processing operations. By framing platforms as fiduciaries, the framework seeks to prevent online service providers from engaging in self-dealing or betraying user trust after inducing confidence. A key caveat is that digital fiduciary duties must be narrower than traditional professional duties like those of doctors or lawyers to remain compatible with commercial monetization and the First Amendment.",
+          "verbatim": [
+            "For all of these reasons, we should recognize that a changing society generates new kinds of fiduciary relations and fiduciary obligations that the law can and should recognize.",
+            "The scope of the fiduciary duty, however, is not the same for every entity. It depends on the nature of the relationship, the reasonableness of trust, and the importance of preventing self-dealing by the entity and harm to the end-user, client, or beneficiary."
+          ],
+          "excerpt_context": "Section 6, paragraphs 9-10",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "The law ought to recognize new fiduciary relations and obligations for digital platforms to prevent online service providers from engaging in self-dealing and betraying end-user trust.",
+          "attribution_text": "A Desire within safetyist discourse that society and legal systems establish new fiduciary obligations for digital platforms to prevent self-dealing and protect end-users from unexpected data exploitation. Encompasses: Information asymmetry, fiduciary relations, and trust-induced data collection.",
+          "vocabulary_terms": [
+            "fiduciary_duty",
+            "information_asymmetry",
+            "trust_and_confidentiality"
+          ],
+          "retrieval_confidence": 0.5909,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.7274
+            },
+            {
+              "id": "saf-beliefs-018",
+              "label": "The Attacker-Defender Cost Gap Erodes Social Trust",
+              "score": 0.6314
+            },
+            {
+              "id": "pol-3040",
+              "label": "",
+              "score": 0.6294
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.7274
+            },
+            {
+              "id": "saf-beliefs-018",
+              "label": "The Attacker-Defender Cost Gap Erodes Social Trust",
+              "score": 0.6314
+            },
+            {
+              "id": "saf-intentions-148",
+              "label": "Targeting Verifiable Process Failures Instead of Policing Truth",
+              "score": 0.6228
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-246",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "End-users occupy a position of significant vulnerability and dependence regarding online service providers due to massive asymmetries in knowledge, technical expertise, and operational transparency. Online service providers easily monitor end-user behavior while users struggle to monitor platform operations or prevent betrayals of trust. These providers actively induce trust by presenting themselves as responsible organizations and privacy-respecting entities while burying complex data practices in vague privacy policies and secret infrastructure code. Consequently, standard contract and property models prove entirely inadequate for protecting user privacy or preventing corporate overreaching.",
+          "verbatim": [
+            "First, end-users’ relationships with many online service providers involve significant vulnerability, because online service providers have considerable expertise and knowledge and end-users usually do not.",
+            "All of these problems are connected to the inadequacy of relying on contract and property models to protect privacy and prevent overreaching."
+          ],
+          "excerpt_context": "Section 6, paragraphs 1 and 21",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "End-user vulnerability and severe information asymmetries render contract and property models inadequate for protecting privacy against online service providers.",
+          "attribution_text": "A Belief within safetyist discourse that severe information asymmetries and user vulnerability render traditional contract and property models inadequate for governing digital privacy. Encompasses: Structural vulnerability, information asymmetry, and contractual inadequacy.",
+          "vocabulary_terms": [
+            "information_asymmetry",
+            "privacy_governance",
+            "contractual_model"
+          ],
+          "retrieval_confidence": 0.4535,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-225",
+              "label": "Privacy-as-a-Commodity Trap",
+              "score": 0.6859
+            },
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.6842
+            },
+            {
+              "id": "skp-beliefs-228",
+              "label": "Transactional Privacy Critique",
+              "score": 0.6691
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.6842
+            },
+            {
+              "id": "saf-intentions-222",
+              "label": "Excess Vulnerability Reporting",
+              "score": 0.6406
+            },
+            {
+              "id": "saf-beliefs-018",
+              "label": "The Attacker-Defender Cost Gap Erodes Social Trust",
+              "score": 0.6163
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": "market_mechanism",
+          "category": "Intentions",
+          "point": "Legislatures and courts can incentivize online service providers to accept information fiduciary obligations by offering tax breaks, safe harbors, legal immunities, or other special legal benefits rather than relying solely on direct government regulation. Drawing on Jonathan Zittrain's proposals and Edward Castronova's virtual world incorporation statutes, this approach uses voluntary structural opt-ins tied to statutory benefits. The strategy aims to bridge the gap between commercial innovation and enforceable fiduciary responsibilities without stifling digital creativity. A key limitation is that initial line-drawing remains difficult given the vast diversity of imaginable online services.",
+          "verbatim": [
+            "We might use tax breaks, safe harbors, legal immunities, or other incentives for organizations to accept fiduciary obligations rather than simply imposing them directly through government regulation.",
+            "Therefore, as Jonathan Zittrain has suggested, it might be appropriate to offer online service providers an incentive to designate themselves as information fiduciaries in return for certain legal and financial benefits that come with the designation."
+          ],
+          "excerpt_context": "Section 6, final paragraphs",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Governments ought to offer tax breaks, safe harbors, and legal immunities as incentives for online service providers to voluntarily adopt information fiduciary designations.",
+          "attribution_text": "An Intention within safetyist discourse that governments offer tax incentives, safe harbors, and legal immunities to encourage online service providers to adopt information fiduciary obligations voluntarily. Encompasses: Statutory incentives, safe harbors, and voluntary fiduciary designation.",
+          "vocabulary_terms": [
+            "safe_harbor",
+            "incentive_structure",
+            "fiduciary_designation"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that information fiduciaries must not use artificial intelligence or advanced algorithms to manipulate, embarrass, or exploit end-users, as increased computational power only heightens corporate responsibility. The reasoning relies on the principle that deploying sophisticated tools does not excuse a fiduciary from the fundamental duties of loyalty and care owed to clients. This connects directly to safetyist concerns about unchecked corporate power and the amplification of manipulative capabilities through automated systems. However, the analysis notes a limitation, observing that fiduciary frameworks alone are insufficient when algorithms generate predictions using data from third parties who have no direct relationship with the enterprise.",
+          "verbatim": "If a company is an information fiduciary, it has duties not to use the information it collects against its end-users in the ways described above. If it is inappropriate for a company to try to use collections of personal data to embarrass or manipulate end-users, the fact that it uses artificial intelligence or algorithms to do so hardly matters. Indeed, the fact that companies have increasingly powerful algorithms and artificial intelligence agents at their disposal means only that they have ever more power over their end-users, and therefore a greater responsibility to exercise appropriate care and loyalty.",
+          "excerpt_context": "Section 8, paragraph 3",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Information fiduciaries employing advanced algorithms or artificial intelligence bear an increased responsibility to exercise appropriate care and loyalty rather than evading fiduciary duties.",
+          "attribution_text": "A Belief within safetyist discourse that deploying advanced algorithms and artificial intelligence increases corporate power over end-users, thereby heightening the fiduciary responsibility to exercise appropriate care and loyalty. Encompasses: algorithmic manipulation, fiduciary duty, and corporate accountability.",
+          "vocabulary_terms": [
+            "fiduciary_duty",
+            "algorithmic_manipulation",
+            "corporate_power"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The text argues that the transition to an algorithmic society requires expanding regulatory focus from individual fiduciary relationships to broader societal obligations of trustworthiness and fair play. The reasoning is that predictive algorithms frequently process data concerning non-users and the general public, creating systemic harms that bilateral fiduciary duties cannot reach. This supports the safetyist desire for comprehensive regulatory frameworks that protect society as a whole from algorithmic discrimination and manipulation. A key caveat is that information fiduciary models serve as a useful intermediate step but ultimately require supplementation by systemic public-interest duties.",
+          "verbatim": "That is why the analysis I have offered in this essay can only take us so far. The concept of information fiduciaries presented here focuses on the violations of special relationships between companies and the people whose information they collect, collate, and use... At this point, we can no longer rely on the notion of special fiduciary relationships between individuals and companies to regulate the use and abuse of data. Instead, we must ask what duties of good faith and ethical conduct in the collection, analysis, use, sale and distribution of data are owed to the members of society as a whole.",
+          "excerpt_context": "Section 8, paragraphs 5-6",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Regulatory frameworks ought to establish societal duties of trustworthiness and fair play to govern data use beyond bilateral fiduciary relationships.",
+          "attribution_text": "A Desire within safetyist discourse that advocates for expanding regulatory frameworks beyond bilateral fiduciary duties to establish binding obligations of trustworthiness and fair play for society as a whole. Encompasses: societal data ethics, public interest governance, and systemic risk mitigation.",
+          "vocabulary_terms": [
+            "societal_obligations",
+            "trustworthiness",
+            "systemic_risk"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-288",
+          "category": "Beliefs",
+          "point": "The document proposes that relationships governed by fiduciary duties or duties of confidentiality should exempt data disclosed to online service providers from the third-party doctrine. Consequently, government acquisition of such digital information would require a warrant based on probable cause, bridging fiduciary law with constitutional Fourth Amendment protections.",
+          "verbatim": null,
+          "excerpt_context": "unmapped_concept_backfill",
+          "extraction_confidence": 0.7,
+          "vocabulary_terms": []
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-216",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The essay documents how data-collecting corporations leverage their immense informational asymmetries and surveillance infrastructure to coerce, monitor, and discipline critics or users. Uber's ability to track rider locations in real-time via features like 'God View' and its consideration of opposition research illustrate the severe power imbalance between platform corporations and ordinary individuals. Skeptics emphasize that these corporations sit on gold mines of private information that can be weaponized against journalists, dissidents, or consumers. This structural reality demonstrates that transactional privacy models fail to protect users from corporate retaliation and surveillance capitalism.",
+          "verbatim": "Of course, Uber does not need to hire private investigators if it wanted to embarrass or coerce people. It sits on a gold mine of private information about its users... In theory, for example, Uber could reveal information suggesting that customers were engaged in extramarital affairs or engaged in secret or illegal meetings.",
+          "excerpt_context": "Section I",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Data-collecting corporations exploit vast informational asymmetries to monitor, coerce, and discipline users and critics.",
+          "attribution_text": "A Belief within skeptic discourse that data-collecting corporations exploit informational asymmetries and surveillance mechanisms to coerce individuals. Encompasses: Real-time tracking, informational asymmetry, and corporate retaliation.",
+          "vocabulary_terms": [
+            "surveillance_capitalism",
+            "informational_asymmetry"
+          ],
+          "retrieval_confidence": 0.4907,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-111",
+              "label": "Government, Corporate, and Third-Party Surveillance Systems Mutually Reinforce Each Other",
+              "score": 0.7472
+            },
+            {
+              "id": "skp-beliefs-217",
+              "label": "Consent-Washing",
+              "score": 0.652
+            },
+            {
+              "id": "skp-beliefs-226",
+              "label": "Relational Employment Vulnerability",
+              "score": 0.6485
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-111",
+              "label": "Government, Corporate, and Third-Party Surveillance Systems Mutually Reinforce Each Other",
+              "score": 0.7472
+            },
+            {
+              "id": "skp-beliefs-217",
+              "label": "Consent-Washing",
+              "score": 0.652
+            },
+            {
+              "id": "skp-beliefs-226",
+              "label": "Relational Employment Vulnerability",
+              "score": 0.6485
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-224",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The contractual and property-based models of privacy are fundamentally flawed because they treat personal privacy as a negotiable commodity that consumers surrender through transactions rather than an inalienable right. Under this transactional paradigm, the default baseline assumes that consumers possess no control over information they voluntarily provide unless an explicit contract dictates otherwise, allowing corporations to legitimize data extraction through standardized user agreements.",
+          "verbatim": "The contract solution treats personal privacy as an entitlement that end-users may consent to surrender or transfer to companies, with the default rule being that in the absence of an agreed-to privacy policy, consumers have no right to control information that they have voluntarily provided to companies.",
+          "excerpt_context": "Section II.E, p. 1200",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "The contractual model treats personal privacy as a tradable commodity surrendered through consent, leaving consumers with no baseline control over voluntarily provided information.",
+          "attribution_text": "A Belief within skeptic discourse that transactional privacy models treat personal information as a negotiable commodity that consumers surrender by default. Encompasses: default surrender of data control, transactional commodification, and consent-based alienation of privacy rights.",
+          "vocabulary_terms": [
+            "privacy_transactionalism",
+            "default_surrender",
+            "data_commodification"
+          ],
+          "retrieval_confidence": 0.8383,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-224",
+              "label": "Privacy Transactionalism",
+              "score": 0.8383
+            },
+            {
+              "id": "skp-beliefs-228",
+              "label": "Transactional Privacy Critique",
+              "score": 0.7616
+            },
+            {
+              "id": "skp-beliefs-225",
+              "label": "Privacy-as-a-Commodity Trap",
+              "score": 0.7342
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "neutral",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Characterizing corporate data operations as commercial speech does not successfully resolve the tension between privacy regulations and the First Amendment, but rather acts as a semantic distraction. Because modern commercial speech jurisprudence—reinforced by rulings such as Sorrell v. IMS Health Inc.—affords truthful commercial speech a high level of constitutional protection nearly equivalent to core political expression, categorizing personal data as commercial speech fails to provide governments with an easy mechanism to enforce privacy mandates.",
+          "verbatim": "To be sure, restrictions on the collection, analysis, use, distribution, and sale of personal data may also violate the right to engage in commercial speech. That is because government restrictions may hamper the ability of businesses to target potential customers and fashion customized messages. But the more basic question is whether the collection, analysis, use, distribution, or sale of personal data — whether or not helpful to commercial advertising — is protected by the First Amendment.",
+          "excerpt_context": "Section II.D, p. 1198",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Classifying personal data processing as commercial speech fails to facilitate privacy regulation because courts afford true commercial speech near-maximal First Amendment protection.",
+          "attribution_text": "A Belief within skeptic discourse that classifying personal data as commercial speech fails to enable effective regulation because commercial expression receives robust constitutional protection. Encompasses: commercial speech doctrine, regulatory hampering, and judicial protection of targeted messaging.",
+          "vocabulary_terms": [
+            "commercial_speech_doctrine",
+            "constitutional_protection",
+            "targeted_messaging"
+          ]
+        },
+        {
+          "stance": "neutral",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Evaluating privacy regulations through the framework of time, place, and manner restrictions encounters severe doctrinal barriers because such regulations must remain strictly content-neutral. Supreme Court jurisprudence, including Reed v. Town of Gilbert and Sorrell v. IMS Health Inc., demonstrates that subject-matter restrictions, speaker-selective rules, and marketing-specific limitations trigger heightened constitutional scrutiny, thereby undermining standard legislative attempts to control corporate data disclosures.",
+          "verbatim": "And a recent case, Reed v. Town of Gilbert, seems to suggest that even innocuous subject matter restrictions may prevent municipal regulations from being content-neutral. Sorrell subjected speaker-selective privacy regulations to heightened scrutiny; it also held that restrictions aimed only at marketing would be vulnerable.",
+          "excerpt_context": "Section II.C, p. 1197",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Privacy regulations framed as time, place, and manner restrictions fail to withstand judicial review when they incorporate content or speaker distinctions.",
+          "attribution_text": "A Belief within skeptic discourse that time, place, and manner frameworks for privacy regulation are legally vulnerable when laws introduce content, subject-matter, or speaker distinctions. Encompasses: content neutrality requirements, speaker-selective rules, and strict judicial scrutiny.",
+          "vocabulary_terms": [
+            "content_neutrality",
+            "time_place_manner",
+            "strict_scrutiny"
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-228",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document argues that relying solely on transactional contract models to protect privacy is fundamentally inadequate because consumers suffer from privacy myopia and cannot effectively evaluate agreements. People fail to comprehend the cumulative effects of allowing data collection and sale, making notice-and-choice mechanisms ineffective. This critique aligns with the skeptic view that market-based transactional privacy leads to the erosion of personal privacy.",
+          "verbatim": "Many privacy scholars have pointed out that relying solely on this approach to privacy protection will seriously under-protect people’s privacy. People are not very good at privacy management; they do not understand the cumulative effects of their agreements to allow collection, analysis, use, and sale of information about them.",
+          "excerpt_context": "Section II.F, paragraph 1",
+          "extraction_confidence": "0.98",
+          "canonical_proposition": "Transactional privacy frameworks fail because consumers lack the capability to evaluate complex data collection and usage agreements.",
+          "attribution_text": "A Belief within skeptic discourse that transactional notice-and-choice frameworks fail to protect privacy due to consumer cognitive limitations and information asymmetries. Encompasses: privacy myopia, cumulative data collection effects, and contractual inadequacy.",
+          "vocabulary_terms": [
+            "notice_and_choice",
+            "privacy_myopia",
+            "transactional_privacy"
+          ],
+          "retrieval_confidence": 0.7924,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-224",
+              "label": "Privacy Transactionalism",
+              "score": 0.803
+            },
+            {
+              "id": "skp-beliefs-228",
+              "label": "Transactional Privacy Critique",
+              "score": 0.7924
+            },
+            {
+              "id": "skp-beliefs-225",
+              "label": "Privacy-as-a-Commodity Trap",
+              "score": 0.7082
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that formal contract law and promissory estoppel play virtually no role in protecting consumer privacy against websites with privacy policies. Attempts to rely on privacy policies have generally failed, shifting the burden of consumer protection onto administrative agencies like the FTC. This reinforces skeptic claims regarding the illusory nature of corporate privacy terms.",
+          "verbatim": "Moreover, Daniel Solove and Woodrow Hartzog have pointed out that “contract law — formal contract and promissory estoppel — plays hardly any role in the protection of information privacy, at least vis-à-vis websites with privacy policies.” Attempts to use privacy policies to protect consumer privacy have generally met with failure, and much consumer privacy regulation has fallen to administrative agencies like the Federal Trade Commission.",
+          "excerpt_context": "Section II.F, paragraph 2",
+          "extraction_confidence": "0.95",
+          "canonical_proposition": "Contract law and privacy policies fail to provide meaningful protection against corporate data practices.",
+          "attribution_text": "A Belief within skeptic discourse that standard website privacy policies fail to establish enforceable contractual protections for users. Encompasses: formal contract limitations, FTC administrative oversight, and ineffective privacy policies.",
+          "vocabulary_terms": [
+            "privacy_policies",
+            "contract_law",
+            "ftc_regulation"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document contends that treating privacy regulation through a strict contractual lens revives Lochnerian legal premises by conflating First Amendment freedom with contractual freedom. This framework improperly creates constitutional vulnerabilities for state-mandated privacy rules and non-waivable duties that cannot be reduced to private contracts. This critique supports the skeptic position against market fundamentalism in digital governance.",
+          "verbatim": "In this way, the contract model brings back Lochnerian premises in an unexpected way. By connecting the boundaries of what the First Amendment permits and forbids to the exercise of contractual liberties, it in effect turns First Amendment protections into protections of freedom of contract.",
+          "excerpt_context": "Section II.F, paragraph 9",
+          "extraction_confidence": "0.95",
+          "canonical_proposition": "The contractual model of privacy improperly subordinates regulatory protections to freedom of contract.",
+          "attribution_text": "A Belief within skeptic discourse that framing privacy through contractual freedom imports economic substantive due process into constitutional law. Encompasses: neo-Lochnerian jurisprudence, constitutionalizing contract, and restricting state regulation.",
+          "vocabulary_terms": [
+            "freedom_of_contract",
+            "constitutional_challenge",
+            "commercial_speech"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-desires-014",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The discussion emphasizes that individuals have a vital interest in participating in the cultural and social processes that shape their identities, establishing that expressive and informational relationships warrant robust legal safeguards against exploitation. This perspective aligns with the skeptic desire to protect personal autonomy and human rights from corporate or institutional overreach in data exchanges. By framing meaning-making and cultural participation as fundamental aspects of human existence, the text underscores the necessity of constraining powerful entities that control information flows. The analysis supports regulatory interventions in commercial and contractual speech domains where structural power asymmetries exist. However, the primary focus remains on constitutional doctrine rather than direct economic exploitation by technology firms.",
+          "verbatim": [
+            "People are social creatures, and they become who they are through conversation, through absorbing popular art and culture, and through being influenced by the ideas and opinions of the people around them.",
+            "In a free society, even in one that is not perfectly democratic, or even democratic at all, people should have the right to participate in the forms of meaning-making that shape who they are and that also help constitute them as individuals"
+          ],
+          "excerpt_context": "Section IV, pages 1211-1212",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Individuals ought to retain enforceable rights to participate in cultural meaning-making and be protected from the exploitative use of their personal data.",
+          "attribution_text": "A Desire within skeptic discourse that advocates for protecting personal autonomy and cultural participation against institutional exploitation of information. Encompasses: cultural democracy, protection from data exploitation, and individual autonomy.",
+          "vocabulary_terms": [
+            "cultural_democracy",
+            "autonomy",
+            "information_governance"
+          ],
+          "retrieval_confidence": 0.6292,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-desires-014",
+              "label": "Human Rights as Constraints on AI Deployment",
+              "score": 0.6292
+            },
+            {
+              "id": "skp-desires-084",
+              "label": "Data-Driven Rights to Association",
+              "score": 0.629
+            },
+            {
+              "id": "skp-intentions-149",
+              "label": "Data Cooperative Fiduciary Model",
+              "score": 0.6201
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The text explains that the categorization of speech under the First Amendment depends on an understanding of social functions and underlying relationships rather than the content of the communication itself. This doctrinal claim supports the skeptic contention that market behavior, contractual negotiations, and commercial advertising occupy a separate constitutional tier from public discourse, thereby exposing them to legitimate state regulation. The analysis details how courts characterize communications based on what participants are actually doing socially, such as forming contracts or inducing purchases, rather than applying strict scrutiny to all expressive acts. Consequently, governments retain the authority to police unfair business practices, require consumer product disclosures, and regulate commercial speech without violating constitutional protections. This legal reality demonstrates that economic transactions utilizing speech are routinely subjected to public interest oversight.",
+          "verbatim": [
+            "As the examples of contractual and commercial speech demonstrate, what falls within public discourse and what falls outside of it does not depend on the content of the speech.",
+            "Rather, it depends on a characterization of social relationships. It depends on our understanding of social function and on what people are doing when they communicate with each other."
+          ],
+          "excerpt_context": "Section IV, pages 1214",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "First Amendment coverage of communication is determined by the underlying social relationships and functions rather than the content of the speech.",
+          "attribution_text": "A Belief within skeptic discourse that constitutional law categorizes speech based on underlying social relationships and economic functions rather than content. Encompasses: commercial speech doctrine, contractual speech regulation, and social relationship characterization.",
+          "vocabulary_terms": [
+            "commercial_speech",
+            "constitutional_law",
+            "social_relationships"
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-228",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Current privacy frameworks based on transactional notice-and-choice are fundamentally inadequate because users in digital and professional relationships experience severe information asymmetries and dependency. Treating data privacy as a negotiable commodity in standard terms of service fails to protect vulnerable individuals who must trust online service providers.",
+          "verbatim": "The idea of information fiduciaries helps us understand the limitations of the free speech theories we considered earlier. It explains why the argument that “commodified data is not speech” is not the best approach to privacy regulation. The question is not the form the information takes but how it is obtained and how it is used in the context of relations of dependence and trust.",
+          "excerpt_context": "Section V, page 1220",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Transactional privacy frameworks fail because digital relationships are characterized by power asymmetry and enforced dependency rather than free market negotiation.",
+          "attribution_text": "A Belief within skeptic discourse that transactional privacy models and commodified data exchange fail to protect users in dependent relationships. Encompasses: Flawed notice-and-choice mechanisms, power asymmetry, and relational dependence.",
+          "vocabulary_terms": [
+            "transactional_privacy",
+            "information_asymmetry",
+            "commodified_data"
+          ],
+          "retrieval_confidence": 0.794,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-228",
+              "label": "Transactional Privacy Critique",
+              "score": 0.794
+            },
+            {
+              "id": "skp-beliefs-224",
+              "label": "Privacy Transactionalism",
+              "score": 0.7679
+            },
+            {
+              "id": "skp-beliefs-226",
+              "label": "Relational Employment Vulnerability",
+              "score": 0.7304
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-desires-014",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The author contends that speech occurring within confidential professional or fiduciary relationships is distinct from public discourse and properly subject to democratic regulation. Misusing client data for public political campaigns or artistic display constitutes an abuse of trust that should not enjoy blanket First Amendment immunity.",
+          "verbatim": "Similarly, suppose a lawyer or doctor becomes a presidential candidate and reveals embarrassing information about clients to bolster his or her electoral chances. Even though the content of the speech is political and its purpose is political, the speech is not immune from regulation, because it is an abuse of a confidential relationship in which the candidate was an information fiduciary.",
+          "excerpt_context": "Section V, page 1219",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Speech originating from the abuse of confidential fiduciary relationships ought to remain subject to legal regulation despite political framing.",
+          "attribution_text": "A Desire within skeptic discourse that personal privacy and confidentiality constraints override broad First Amendment protections when exploited. Encompasses: Confidentiality breaches, abuse of trust, and regulation of non-public speech.",
+          "vocabulary_terms": [
+            "fiduciary_relationships",
+            "confidentiality",
+            "first_amendment"
+          ],
+          "retrieval_confidence": 0.5684,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-224",
+              "label": "Privacy Transactionalism",
+              "score": 0.6642
+            },
+            {
+              "id": "skp-intentions-112",
+              "label": "Break Down Policy Silos to Assess Corporate AI Power Across Regulatory Domains",
+              "score": 0.6282
+            },
+            {
+              "id": "skp-beliefs-225",
+              "label": "Privacy-as-a-Commodity Trap",
+              "score": 0.6265
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-224",
+              "label": "Privacy Transactionalism",
+              "score": 0.6642
+            },
+            {
+              "id": "skp-intentions-112",
+              "label": "Break Down Policy Silos to Assess Corporate AI Power Across Regulatory Domains",
+              "score": 0.6282
+            },
+            {
+              "id": "skp-beliefs-225",
+              "label": "Privacy-as-a-Commodity Trap",
+              "score": 0.6265
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-120",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The central business model of many online service providers relies on free or subsidized services financed by personal data collection, creating an inherent conflict of interest between the platform and the end-user. Companies like Facebook and Google naturally seek to maximize the economic value of collected data, which serves as one of their most valuable corporate assets. Because market forces alone and reputation mechanisms cannot effectively police all forms of platform misbehavior or data abuse, these structural conflicts lead directly to unexpected exploitations of user trust. Consequently, treating information fiduciaries as standard commercial actors without constraints allows corporate profit motives to undermine end-user interests.",
+          "verbatim": [
+            "For many online companies, the product or service is either free or heavily subsidized because it generates data, which is valuable to the company or to third parties to which the company sells the data.",
+            "The value of end-user data, and its centrality in the business models of many online service providers, creates an inherent potential for conflicts of interest between the digital company and the end-user."
+          ],
+          "excerpt_context": "Section 6, paragraphs 15 and 16",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "The centrality of personal data monetization in digital business models creates inherent conflicts of interest between online service providers and end-users that market forces cannot solve.",
+          "attribution_text": "A Belief within skeptic discourse that data-driven business models create structural conflicts of interest between online service providers and users that unconstrained markets cannot resolve. Encompasses: Data monetization, inherent conflict of interest, and market failure.",
+          "vocabulary_terms": [
+            "conflict_of_interest",
+            "data_monetization",
+            "market_failure"
+          ],
+          "retrieval_confidence": 0.5509,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-220",
+              "label": "Data Intermediary Monopoly Constraint",
+              "score": 0.7
+            },
+            {
+              "id": "skp-beliefs-226",
+              "label": "Relational Employment Vulnerability",
+              "score": 0.6266
+            },
+            {
+              "id": "skp-desires-073",
+              "label": "Right to Know When Algorithms Set Your Price",
+              "score": 0.6152
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-220",
+              "label": "Data Intermediary Monopoly Constraint",
+              "score": 0.7
+            },
+            {
+              "id": "skp-beliefs-226",
+              "label": "Relational Employment Vulnerability",
+              "score": 0.6266
+            },
+            {
+              "id": "skp-desires-073",
+              "label": "Right to Know When Algorithms Set Your Price",
+              "score": 0.6152
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-217",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Online service providers induce trust and secure personal data by presenting themselves publicly as trustworthy, privacy-respecting entities while burying actual data practices within vague fine print and secret infrastructure code. This dynamic functions analogously to a confidence game or con man strategy, where a mark is induced to trust a party who later acts against their interests in unexpected ways. Privacy policies are often technically available but practically incomprehensible, creating a false sense of security that masks ongoing data extraction. This performative assurance allows digital businesses to pursue creative data monetization strategies that systematically betray end-user expectations.",
+          "verbatim": [
+            "Because people understand that they are vulnerable to the collection of personal data, and because they also recognize that the methods used by online service providers are beyond their understanding, they seek reassurance that using these services is safe.",
+            "Perhaps the best way of summarizing the idea of information fiduciaries in the digital age is that online service providers may not act like con men."
+          ],
+          "excerpt_context": "Section 6, paragraphs 5 and 11",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Online service providers utilize vague privacy policies and performative assurances to induce unearned trust, operating analogously to confidence artists engaging in deceptive data extraction.",
+          "attribution_text": "A Belief within skeptic discourse that online service providers deploy vague privacy policies and performative trustworthiness to secure data under false pretenses, operating analogously to confidence tricksters. Encompasses: Consent-washing, deceptive impression management, and structural betrayal.",
+          "vocabulary_terms": [
+            "performative_assurance",
+            "consent_washing",
+            "deceptive_extraction"
+          ],
+          "retrieval_confidence": 0.7055,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-224",
+              "label": "Privacy Transactionalism",
+              "score": 0.7492
+            },
+            {
+              "id": "skp-beliefs-217",
+              "label": "Consent-Washing",
+              "score": 0.7055
+            },
+            {
+              "id": "skp-beliefs-228",
+              "label": "Transactional Privacy Critique",
+              "score": 0.6712
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-desires-079",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "Information fiduciaries should be permitted to monetize personal data within reasonable bounds, but they must be strictly prohibited from using data in unexpected ways that disadvantage end-users or violate core social norms. The desire for information fiduciary protection does not mean eliminating profit or banning free ad-supported business models, but rather ensuring that data monetization is compatible with end-user trust. Users should expect that digital platforms will not manipulate them for political ends or threaten them to suppress criticism. Thus, balancing commercial data value with enforceable fiduciary obligations protects users from abusive exploitation without destroying digital innovation.",
+          "verbatim": [
+            "Because personal data is a key source of wealth in the digital economy, information fiduciaries should be able to monetize some uses of personal data, and our reasonable expectations of trust must factor that expectation into account.",
+            "What information fiduciaries may not do is use the data in unexpected ways to the disadvantage of people who use their services or in ways that violate some other important social norm."
+          ],
+          "excerpt_context": "Section 6, paragraph 20",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Information fiduciaries ought to be permitted to monetize personal data while remaining strictly prohibited from using data in unexpected ways that disadvantage users or violate social norms.",
+          "attribution_text": "A Desire within skeptic discourse that digital platforms balance permitted data monetization with strict prohibitions against unexpected data exploitation and norm violations. Encompasses: Proportional data monetization, anti-manipulation standards, and non-exploitative commercial design.",
+          "vocabulary_terms": [
+            "data_monetization",
+            "norm_violation",
+            "fiduciary_constraint"
+          ],
+          "retrieval_confidence": 0.5336,
+          "taxonomy_node_candidates": [
+            {
+              "id": "pol-3040",
+              "label": "",
+              "score": 0.6309
+            },
+            {
+              "id": "skp-desires-003",
+              "label": "Privacy as a Non-Negotiable Right in AI",
+              "score": 0.6276
+            },
+            {
+              "id": "skp-beliefs-228",
+              "label": "Transactional Privacy Critique",
+              "score": 0.6216
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-desires-003",
+              "label": "Privacy as a Non-Negotiable Right in AI",
+              "score": 0.6276
+            },
+            {
+              "id": "skp-beliefs-228",
+              "label": "Transactional Privacy Critique",
+              "score": 0.6216
+            },
+            {
+              "id": "skp-beliefs-220",
+              "label": "Data Intermediary Monopoly Constraint",
+              "score": 0.6215
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-106",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document highlights that corporations increasingly deploy sophisticated algorithms and artificial intelligence across sensitive domains such as advertising, employment, policing, and credit to make high-stakes decisions about individuals. The reasoning emphasizes that these computational systems aggregate power in corporate hands, transforming digital platforms into instruments of automated sorting and behavioral prediction. This aligns with skeptic concerns regarding the deployment of opaque algorithms that entrench power asymmetries and affect fundamental life opportunities. A caveat acknowledged in the text is that traditional bilateral legal frameworks struggle to govern predictive harms inflicted on individuals who lack a direct consumer relationship with the deploying entity.",
+          "verbatim": "The key examples in my discussion so far have been online service providers — social media companies like Facebook, search engines like Google, and service platforms like Uber. But companies are increasingly using sophisticated algorithms and forms of artificial intelligence to make decisions about people in areas ranging from advertising to employment to policing to credit.",
+          "excerpt_context": "Section 8, paragraph 2",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Corporations increasingly deploy sophisticated algorithms and artificial intelligence across employment, policing, credit, and advertising to make consequential decisions about individuals.",
+          "attribution_text": "A Belief within skeptic discourse that corporations increasingly deploy sophisticated algorithms and artificial intelligence across sensitive domains to make high-stakes decisions about individuals. Encompasses: automated decision-making, predictive analytics, and corporate power asymmetries.",
+          "vocabulary_terms": [
+            "algorithmic_management",
+            "predictive_policing",
+            "power_asymmetry"
+          ],
+          "retrieval_confidence": 0.6662,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-165",
+              "label": "Leveraging Securities Law for Standardized Algorithmic Risk Disclosure",
+              "score": 0.7045
+            },
+            {
+              "id": "skp-beliefs-170",
+              "label": "AI Corporations Systematically Evade Effective Regulation",
+              "score": 0.6966
+            },
+            {
+              "id": "skp-desires-005",
+              "label": "Distributed AI Power and Democratic Infrastructure",
+              "score": 0.6955
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The text points out that predictive algorithms frequently utilize data about large populations and non-users to shape social opportunities, creating widespread discrimination and manipulation that affects society beyond direct customers. The reasoning illustrates how predictive profiling operates independently of individual consent or direct commercial transactions, rendering traditional notice-and-choice models ineffective. This supports the skeptic perspective that data extraction and algorithmic sorting generate systemic externalities that bypass contractual safeguards. The analysis notes that addressing these population-level impacts requires moving past individual client relationships toward public-interest governance.",
+          "verbatim": "The more interesting problem arises when algorithms use data about other people (or about large populations) in order to make predictions about users, and users have no relationship of trust or confidence with the enterprise that uses the algorithm. Examples are situations in which we apply for credit; or seek employment, housing, or business opportunities. Companies will use algorithms and artificial intelligence to try to predict people’s behavior in advance.",
+          "excerpt_context": "Section 8, paragraph 4",
+          "extraction_confidence": 0.94,
+          "canonical_proposition": "Predictive algorithms utilize population-level data to make behavioral forecasts about individuals who share no fiduciary relationship with the deploying enterprise.",
+          "attribution_text": "A Belief within skeptic discourse that predictive algorithms utilize population-level data to make behavioral forecasts about individuals who share no fiduciary relationship with the deploying enterprise. Encompasses: population-level profiling, predictive analytics, and non-consensual data utilization.",
+          "vocabulary_terms": [
+            "predictive_analytics",
+            "population_profiling",
+            "governance_gap"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-322",
+          "category": "Beliefs",
+          "point": "The essay highlights a broader historical trend where the First Amendment has gradually been transformed into a bulwark of protection against business regulation during a second Gilded Age. Commercial entities routinely invoke constitutional free speech defenses to invalidate privacy laws and preempt government oversight of information industries. This tactical doctrinal shift weaponizes constitutional liberties to protect corporate data collection and sales operations from public interest regulation.",
+          "verbatim": null,
+          "excerpt_context": "unmapped_concept_backfill",
+          "extraction_confidence": 0.7,
+          "vocabulary_terms": []
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "BuzzFeed revealed in November 2014 that senior Uber executive Emil Michael suggested at a dinner event that the company might hire opposition researchers to gather and spread embarrassing details about journalist Sarah Lacy.",
+      "claim_label": "Uber Executive Suggests Investigating Journalist",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by November 2014",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-216"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measurable": true,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "A Facebook experiment involving tens of millions of users demonstrated that showing voting reminder graphics featuring friends who had already voted increased voter turnout by 0.39 percent over generic messages, directly adding 60,000 votes and yielding a total ripple effect of 340,000 votes.",
+      "claim_label": "Facebook Voting Experiment Turnout Impact",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 2014",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-beliefs-155"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measurable": true,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "In Sorrell v. IMS Health Inc., the United States Supreme Court held that a Vermont statute making it illegal for pharmacists to sell prescriber-identifying information for marketing purposes was unconstitutional because it imposed content-based and speaker-based restrictions on access to information and speech.",
+      "claim_label": "Sorrell v. IMS Health Inc. Ruling",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2011",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-224"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "is_testable": true,
+          "empirical_basis": "Supreme Court case law analysis",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "In Bartnicki v. Vopper, both the majority and dissenting opinions agreed that statutory restrictions on the disclosure of illegally intercepted communications without consent operated as content-neutral time, place, and manner regulations.",
+      "claim_label": "Bartnicki v. Vopper Time, Place, and Manner Agreement",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2001",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "is_testable": true,
+          "empirical_basis": "Supreme Court case law analysis",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Statistical market research indicates that currently 90% of companies spend at least 25% of their digital advertising budgets on specific targets, 43% of companies spend more than half of their budgets reaching specific targets, and 84% of companies expect that targeted advertising investment to increase.",
+      "claim_label": "Digital Advertising Targeting Expenditure Statistics",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2015",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "is_testable": true,
+          "empirical_basis": "Forbes industry survey data",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The Federal Trade Commission serves as a primary administrative agency handling consumer privacy regulation following the general failure of privacy policies to protect users.",
+      "claim_label": "FTC Privacy Regulation Role",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": null,
+      "extraction_confidence": "0.95",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-228"
+      ],
+      "evidence_criteria": {
+        "specificity": "qualified",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "empirical observation of regulatory enforcement patterns"
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The Tenth Circuit in U.S. West, Inc. v. FCC held that attempting to shift the default rule from opt-out to opt-in for customer proprietary network information violated the First Amendment.",
+      "claim_label": "U.S. West v. FCC First Amendment Ruling",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "1999",
+      "extraction_confidence": "0.98",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "legal case holding description"
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The D.C. Circuit in National Cable & Telecommunications Ass’n v. FCC upheld statutory and administrative privacy regulations requiring opt-in consent against First Amendment challenges.",
+      "claim_label": "National Cable v. FCC Opt-In Ruling",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2009",
+      "extraction_confidence": "0.98",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "legal case holding description"
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "California enacted the Student Online Personal Information Protection Act in September 2014 to restrict how K-12 educational services use and distribute student data for targeted marketing.",
+      "claim_label": "California SOPIPA Enactment",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by September 2014",
+      "extraction_confidence": "0.98",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": "statutory enactment description"
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The New York Supreme Court held in Doe v. Roe that a psychiatrist was liable for breach of a professional duty of confidentiality after republishing parts of a patient's psychoanalysis in a book.",
+      "claim_label": "Doe v. Roe Psychiatric Confidentiality Precedent",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "1977",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-desires-025"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "statistical": false,
+          "experimental": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The United States Supreme Court established in Central Hudson Gas & Electric Corp. v. Public Service Commission that the First Amendment protection for commercial speech is based primarily on its informational function for listeners.",
+      "claim_label": "Central Hudson Commercial Speech Doctrine",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "1980",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "statistical": false,
+          "experimental": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The United States Supreme Court in Lowe v. SEC upheld the right of unregistered individuals to publish general securities newsletters to the general public while distinguishing personalized investment advice.",
+      "claim_label": "Lowe v. SEC Precedent on Publishing",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "1985",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "sit-269"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "legal_ruling",
+          "verifiable": true,
+          "quantifiable": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "An analysis published in The Atlantic on 1 March 2012 by Alexis C. Madrigal calculated that reading the privacy policies encountered online in a single year would require 76 work days.",
+      "claim_label": "Time Required to Read Annual Privacy Policies",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 1 March 2012",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-217",
+        "saf-beliefs-246"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measured": true,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Edward Castronova suggested in a 2004 publication in the New York Law School Law Review that virtual worlds could be governed through statutes of incorporation.",
+      "claim_label": "Castronova Proposal for Virtual World Statutes",
+      "doc_position": "neutral",
+      "temporal_scope": "historical",
+      "temporal_bound": "in 2004",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measured": false,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Orin S. Kerr's 2009 article published in the Michigan Law Review argues that the third-party doctrine holds that the government does not need a warrant to obtain digital information given to a third party, leaving individuals with little or no Fourth Amendment protection regarding data held by social media sites, internet service providers, or other online businesses.",
+      "claim_label": "Third-Party Doctrine and Fourth Amendment Protection",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2009",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-102",
+        "skp-beliefs-243"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "legal_scholarship",
+          "empirical_support": "legal_doctrine",
+          "falsifiability": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The United States Supreme Court's 1979 decision in Smith v. Maryland established that individuals have no reasonable expectation of privacy in dialed phone numbers because they are available to phone companies, thereby assuming the risk of disclosure to police.",
+      "claim_label": "Smith v. Maryland Third-Party Precedent",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "1979",
+      "extraction_confidence": 0.97,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-102"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "judicial_precedent",
+          "empirical_support": "court_ruling",
+          "falsifiability": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The United States Supreme Court's 1976 decision in United States v. Miller established that bank depositors take the risk when revealing financial affairs to another party that the information will be conveyed to the government.",
+      "claim_label": "United States v. Miller Depressor Risk Precedent",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "1976",
+      "extraction_confidence": 0.97,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-102"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "judicial_precedent",
+          "empirical_support": "court_ruling",
+          "falsifiability": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Nate Berg's 2014 article in The Guardian discusses police departments utilizing algorithms to identify geographical areas with high probabilities for specific types of crime.",
+      "claim_label": "Police Department Predictive Policing Algorithms",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 25 June 2014",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-094"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "journalism",
+          "empirical_support": "field_report",
+          "falsifiability": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Natasha Singer's 2014 article in The New York Times discusses companies utilizing algorithms to monitor and rank both employees and job seekers.",
+      "claim_label": "Corporate Algorithmic Monitoring of Workers",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 28 December 2014",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-106"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "journalism",
+          "empirical_support": "field_report",
+          "falsifiability": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Frank Pasquale's 2015 book The Black Box Society examines the role of algorithms in finance, search, advertising, and employment.",
+      "claim_label": "The Black Box Society Algorithm Analysis",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2015",
+      "extraction_confidence": 0.96,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-094",
+        "skp-beliefs-106"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "scholarly_book",
+          "empirical_support": "comprehensive_review",
+          "falsifiability": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Amir E. Khandani, Adlar J. Kim, and Andrew W. Lo's 2010 MIT Sloan research paper describes machine-learning algorithms designed to predict consumer spending and credit risk.",
+      "claim_label": "Consumer Credit Risk Machine Learning Models",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 9 May 2010",
+      "extraction_confidence": 0.96,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-094"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "academic_research_paper",
+          "empirical_support": "model_evaluation",
+          "falsifiability": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Tim Adams's 2014 article in The Guardian describes the advancement of algorithms into recruitment and talent management.",
+      "claim_label": "Algorithmic Recruitment and Talent Management",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 10 May 2014",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-106"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "journalism",
+          "empirical_support": "field_report",
+          "falsifiability": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Rachel Emma Silverman and Nikki Waller's 2015 article in The Wall Street Journal describes the use of algorithms by Walmart and Credit Suisse to determine which employees are likely to leave or stay.",
+      "claim_label": "Employee Retention Prediction Algorithms at Walmart and Credit Suisse",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 13 March 2015",
+      "extraction_confidence": 0.97,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-106"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "journalism",
+          "empirical_support": "corporate_case_study",
+          "falsifiability": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Larry Hardesty's 2015 MIT News report describes algorithms capable of predicting human behavior more accurately than human experts.",
+      "claim_label": "MIT News Report on Predictive Behavioral Algorithms",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 16 October 2015",
+      "extraction_confidence": 0.96,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-094"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "university_press_release",
+          "empirical_support": "research_summary",
+          "falsifiability": true
+        }
+      },
+      "claim_relations": []
+    }
+  ],
+  "unmapped_concepts": [
+    {
+      "suggested_label": "First Amendment as Corporate Deregulatory Shield",
+      "suggested_description": "A Belief within skeptic discourse that constitutional free speech protections are systematically repurposed as anti-regulatory instruments by commercial industries.\nEncompasses: Corporate First Amendment defenses, deregulation litigation, and commercial speech expansion.\nExcludes: Traditional civil liberties advocacy and interpersonal speech protection.",
+      "concept": "The essay highlights a broader historical trend where the First Amendment has gradually been transformed into a bulwark of protection against business regulation during a second Gilded Age. Commercial entities routinely invoke constitutional free speech defenses to invalidate privacy laws and preempt government oversight of information industries. This tactical doctrinal shift weaponizes constitutional liberties to protect corporate data collection and sales operations from public interest regulation.",
+      "suggested_pov": "skeptic",
+      "suggested_category": "Beliefs",
+      "reason": "Captures the specific doctrinal critique of corporate First Amendment litigation that does not neatly fit existing tax nodes on privacy or surveillance.",
+      "resolved_node_id": "skp-beliefs-322"
+    },
+    {
+      "suggested_label": "Expanding Fourth Amendment Protection Through Fiduciary Status",
+      "suggested_description": "A Belief within safetyist discourse that recognizing online service providers as information fiduciaries negates the third-party doctrine under the Fourth Amendment, establishing a reasonable expectation of privacy in digital communications. Encompasses: fiduciary Fourth Amendment exceptions, warrant requirements for third-party data, and rejection of blanket third-party waiver. Excludes: statutory consumer privacy rights and civil discovery mandates.",
+      "concept": "The document proposes that relationships governed by fiduciary duties or duties of confidentiality should exempt data disclosed to online service providers from the third-party doctrine. Consequently, government acquisition of such digital information would require a warrant based on probable cause, bridging fiduciary law with constitutional Fourth Amendment protections.",
+      "suggested_pov": "safetyist",
+      "suggested_category": "Beliefs",
+      "reason": "Existing nodes cover information fiduciaries in relation to First Amendment and general privacy, but lack explicit mapping for invalidating the third-party doctrine under Fourth Amendment jurisprudence.",
+      "resolved_node_id": "saf-beliefs-288"
+    }
+  ],
+  "empty_cells": []
+}

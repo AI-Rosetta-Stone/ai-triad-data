@@ -1,0 +1,136 @@
+{
+  "id": "673ce824-6995-4a82-9f2e-fc8928bb0600",
+  "title": "Should frontier AI developers be legally liable for harms...",
+  "created_at": "2026-10-26T12:00:56.597Z",
+  "updated_at": "2026-10-26T12:00:56.597Z",
+  "app_version": "0.13.6",
+  "audience": "policymakers",
+  "moderator_mode": "standard",
+  "talmudic_references": {
+    "enabled": false
+  },
+  "phase": "opening",
+  "topic": {
+    "original": "Should frontier AI developers be legally liable for harms caused by their deployed models?",
+    "refined": null,
+    "final": "Should frontier AI developers be legally liable for harms caused by their deployed models?"
+  },
+  "source_type": "topic",
+  "source_ref": "",
+  "source_content": "",
+  "active_povers": [
+    "accelerationist",
+    "safetyist",
+    "skeptic"
+  ],
+  "user_is_pover": false,
+  "transcript": [],
+  "context_summaries": [],
+  "generated_with_prompt_version": "cli-l2",
+  "debate_model": "gemini-3.5-flash-lite",
+  "model_api_id": "gemini-3.5-flash-lite:gemini-3.5-flash-lite",
+  "failover_tracking": "tracked",
+  "stage_models": {
+    "brief": "gemini-3.5-flash-lite",
+    "plan": "gemini-3.5-flash-lite",
+    "draft": "gemini-3.5-flash-lite",
+    "cite": "gemini-3.5-flash-lite",
+    "evaluator": "gemini-3.5-flash-lite",
+    "scope": "gemini-3.5-flash-lite",
+    "summary": "gemini-3.5-flash-lite",
+    "moderator": "gemini-3.5-flash-lite",
+    "crux": "gemini-3.5-flash-lite"
+  },
+  "protocol_id": "structured",
+  "diagnostics": {
+    "enabled": true,
+    "entries": {
+      "session_init": {
+        "evaluator_warning": "Evaluator model matches debate model — self-preference bias is unmitigated. Cross-vendor split recommended."
+      }
+    },
+    "overview": {
+      "total_ai_calls": 0,
+      "total_response_time_ms": 0,
+      "claims_accepted": 0,
+      "claims_rejected": 0,
+      "move_type_counts": {},
+      "disagreement_type_counts": {},
+      "embedding_turn_count": 1
+    }
+  },
+  "argument_network": {
+    "nodes": [],
+    "edges": []
+  },
+  "commitments": {
+    "accelerationist": {
+      "asserted": [],
+      "conceded": [],
+      "challenged": []
+    },
+    "safetyist": {
+      "asserted": [],
+      "conceded": [],
+      "challenged": []
+    },
+    "skeptic": {
+      "asserted": [],
+      "conceded": [],
+      "challenged": []
+    }
+  },
+  "seat_tags": {
+    "skeptic": {
+      "pov_tag": "critical",
+      "tag_mode": "scope"
+    }
+  },
+  "soul_provenance": {
+    "accelerationist": {
+      "file": "accelerationist.soul.json",
+      "hash": "fnv1a64:7eca3dd2855ea010"
+    },
+    "safetyist": {
+      "file": "safetyist.soul.json",
+      "hash": "fnv1a64:1e1b4afc7b6aa57a"
+    },
+    "skeptic": {
+      "file": "skeptic.critical.soul.json",
+      "hash": "fnv1a64:a49e1d65f9602d1b"
+    }
+  },
+  "moderator_state": {
+    "interventions_fired": 0,
+    "budget_total": 1,
+    "budget_remaining": 1,
+    "rounds_since_last_intervention": 0,
+    "required_gap": 1,
+    "last_target": null,
+    "last_family": null,
+    "burden_per_debater": {
+      "accelerationist": 0,
+      "safetyist": 0,
+      "skeptic": 0
+    },
+    "avg_burden": 0,
+    "persona_trigger_counts": {
+      "accelerationist": {},
+      "safetyist": {},
+      "skeptic": {}
+    },
+    "health_history": [],
+    "consecutive_decline": 0,
+    "consecutive_rise": 0,
+    "trajectory_freeze_until": -1,
+    "sli_consecutive_breaches": {},
+    "phase": "confrontation",
+    "round": 0,
+    "total_rounds": 5,
+    "argumentation_rounds": 2,
+    "intervention_history": [],
+    "cooldown_blocked_count": 0,
+    "budget_epoch": 0,
+    "refill_gap": 1
+  }
+}

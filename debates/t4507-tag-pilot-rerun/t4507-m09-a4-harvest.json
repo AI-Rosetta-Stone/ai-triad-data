@@ -1,0 +1,288 @@
+{
+  "debate_id": "fd012c80-3a29-4973-8adb-a57c5b5d7703",
+  "debate_title": "Do AI benchmark scores predict real-world usefulness?",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether mandatory pre-market safety certifications and audits are necessary to prevent catastrophic enterprise deployment failures, or whether they create prohibitive compliance bottlenecks and deployment delays.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Pre-market safety checks and independent audits are essential because unverified model failures can cause catastrophic damages that exceed developer capitalization, making post-hoc financial liability insufficient."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Pre-market certification imposes severe opportunity costs and lethal deployment delays that outweigh hypothetical hazards, and safety is better achieved through rapid trial-and-error and post-market liability."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-093",
+        "saf-beliefs-286",
+        "saf-desires-012",
+        "saf-intentions-020",
+        "sit-232",
+        "acc-beliefs-029",
+        "acc-desires-026",
+        "acc-intentions-104",
+        "saf-beliefs-203",
+        "saf-desires-029"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether sectoral regulators and runtime telemetry interfaces can adequately monitor continuous model updates without requiring dedicated pre-market certification frameworks.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "skeptic",
+          "stance": "Sector-specific regulators like the FDA, FCC, and SEC can successfully monitor continuous model updates using runtime telemetry, change control plans, and strict liability enforcement."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Runtime telemetry and statistical drift alarms cannot detect silent goal misalignment or out-of-distribution failures before harmful outputs manifest, making pre-market structural guardrails indispensable."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-093",
+        "saf-beliefs-286",
+        "saf-desires-012",
+        "saf-intentions-020",
+        "sit-232",
+        "skp-beliefs-145",
+        "sit-014",
+        "skp-intentions-108",
+        "skp-beliefs-280",
+        "saf-beliefs-203"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-desires-012",
+      "nodeLabel": "No Profit Without Accountability",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-174",
+      "nodeLabel": "Legal and Legislative Mechanisms for AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-093",
+      "nodeLabel": "Proxy Optimization Reliably Produces Outcomes Nobody Actually Wanted",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-286",
+      "nodeLabel": "Unmeasured Benefits Are Deployer Claims, Not Evidence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-020",
+      "nodeLabel": "Scoring AI Bugs to Prioritize Critical Safety Fixes",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-232",
+      "nodeLabel": "Evaluation Gap in AI Performance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-029",
+      "nodeLabel": "Startups Drive Innovation More Than Big Tech",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-104",
+      "nodeLabel": "Reframe AI Bias as a Quantifiable Business Risk to Drive Corporate Investment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-145",
+      "nodeLabel": "Model-Graded Benchmarks Mask Hallucination and Error Rates",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-014",
+      "nodeLabel": "Optimizing for Narrow Metrics vs. Real-World Goals",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-280",
+      "nodeLabel": "Pre-Deployment Certification as Regulatory Capture Mechanism",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-158",
+      "nodeLabel": "Use Voluntary Standards as a Bridge to Mandatory AI Regulation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-088",
+      "nodeLabel": "Dynamic Defensive Superiority",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-003",
+      "nodeLabel": "Adopt Output-Based Evaluation as the Primary AI Safety Methodology",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-078",
+      "nodeLabel": "Targeted Real-Time Safety Investment Is More Efficient Than Front-Loading",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-277",
+      "nodeLabel": "Domain Expertise Deficits of Horizontal Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-242",
+      "nodeLabel": "Regulatory Guidance Rollback",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-136",
+      "nodeLabel": "AI Scaling Failures Stem from Integration and Infrastructure Gaps",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-139",
+      "nodeLabel": "Enforcing Runtime Observability Through Sectoral Safety Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-090",
+      "nodeLabel": "Binary Grading Incentivizes Hallucination",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-173",
+      "nodeLabel": "Governance Frameworks and Institutional Design",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-033",
+      "nodeLabel": "Society Cannot Absorb AI Capability Shocks at the Pace They Arrive",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether mandatory pre-market safety certifications and audits are necessary to prevent catastrophic enterprise deployment failures, or whether they create prohibitive compliance bottlenecks and deployment delays.",
+      "prevails": "C4",
+      "criterion": "scope",
+      "rationale": "The safetyist argument prevails because it accounts for systemic insolvency risks where model failures exceed corporate capitalization. The accelerationist position correctly identifies compliance friction, but it underestimates tail-risk damages.",
+      "whatWouldChange": "Empirical data showing that post-market liability regimes successfully deter catastrophic enterprise failures without bankrupting developers would strengthen the accelerationist case.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether sectoral regulators and runtime telemetry interfaces can adequately monitor continuous model updates without requiring dedicated pre-market certification frameworks.",
+      "prevails": "C6",
+      "criterion": "logical_validity",
+      "rationale": "The safetyist critique prevails because runtime telemetry and statistical drift alarms rely on historical patterns that cannot identify silent goal misalignment. The skeptic position assumes monitoring tools can detect novel failure modes before deployment, which contradicts current machine learning interpretability limits.",
+      "whatWouldChange": "Breakthroughs in automated model interpretability that allow runtime monitors to reliably predict out-of-distribution failures would validate the skeptic position.",
+      "claimIds": [
+        "C5",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

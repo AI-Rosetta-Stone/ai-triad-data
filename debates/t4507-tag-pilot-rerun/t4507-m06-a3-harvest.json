@@ -1,0 +1,300 @@
+{
+  "debate_id": "4ff44ee5-880b-45cb-95a7-d1834d137e45",
+  "debate_title": "Will generative AI raise or lower overall employment in o...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether modern generative AI deployment velocity resembles historical enterprise software adoption curves or operates with unprecedented speed that invalidates historical timelines.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Cloud-native API integration bypasses physical infrastructure bottlenecks and enables multi-week enterprise restructuring, rendering historical diffusion timelines obsolete."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Enterprise restructuring still faces organizational and cognitive adaptation limits, meaning rapid software deployment overruns human absorption capacity regardless of cloud delivery models."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-207",
+        "saf-beliefs-227",
+        "saf-desires-003",
+        "saf-intentions-112",
+        "acc-desires-009",
+        "acc-beliefs-043",
+        "acc-intentions-047",
+        "saf-beliefs-046",
+        "saf-desires-002",
+        "saf-intentions-083"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether mandatory pre-deployment safety evaluations protect workers or primarily function as anti-competitive moats that entrench incumbents and stall startups.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Regulatory friction and compliance overhead disproportionately burden startups and open-source developers while benefiting legacy conglomerates, stalling productivity and societal benefits."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Institutional oversight and safety certification are necessary to prevent irreversible operational disruptions and protect vulnerable workers from unaligned foundational models."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-207",
+        "saf-beliefs-227",
+        "saf-desires-003",
+        "saf-intentions-112",
+        "acc-desires-009",
+        "acc-beliefs-043",
+        "acc-intentions-047",
+        "saf-beliefs-046",
+        "saf-desires-002",
+        "saf-intentions-083"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether open-source model democratization and decentralized markets lower coordination costs faster than centralized boards or externalize unmanaged risks onto the workforce.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Open-source fine-tuned variants on platforms like GitHub prove that decentralized iteration lowers coordination costs faster than any centralized board can process appeals."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Unvetted open-source model proliferation does not reduce coordination costs but shifts risk onto unprotected workplaces, introducing unpredictable failure modes into corporate environments."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-207",
+        "saf-beliefs-227",
+        "saf-desires-003",
+        "saf-intentions-112",
+        "acc-desires-009",
+        "acc-beliefs-043",
+        "acc-intentions-047",
+        "saf-beliefs-046",
+        "saf-desires-002",
+        "saf-intentions-083"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-047",
+      "nodeLabel": "Argue That AI Requires Entirely New Laws, Not Adapted Old Ones",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-207",
+      "nodeLabel": "AI Dependency Creates a Reinforcing Cycle of Skill Atrophy and Increased Reliance",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-227",
+      "nodeLabel": "Memetic Capture",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-003",
+      "nodeLabel": "No Deployment Without Demonstrated Equity",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-052",
+      "nodeLabel": "High-Stakes Professions Face Accelerated Skill Decay When AI Handles Core Tasks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-147",
+      "nodeLabel": "Design AI Systems Around Human Cognitive Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-009",
+      "nodeLabel": "Automate Society's Operating System",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-046",
+      "nodeLabel": "AI Talent Scarcity Constrains Both Development and Safety Efforts",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-083",
+      "nodeLabel": "Inserting Human Judgment Where Autonomous AI Makes Consequential Choices",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-242",
+      "nodeLabel": "Regulatory Guidance Rollback",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-001",
+      "nodeLabel": "Market Failure in Algorithmic Fairness",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-082",
+      "nodeLabel": "Eradicate Algorithmic Bias and Prevent AI from Entrenching Historical Injustice",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-029",
+      "nodeLabel": "Shift AI Compliance Liability from Developers to Deployers via Contract",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-039",
+      "nodeLabel": "AI Is on an Exponential Trajectory Toward Superhuman Intelligence Through Recursive Self-Improvement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-006",
+      "nodeLabel": "AI-Powered Military Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-052",
+      "nodeLabel": "Remove Barriers and Increase Funding to Accelerate AI Progress",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-017",
+      "nodeLabel": "Dismantle Legacy Structures -- Borders, Markets, Institutions -- to Unlock AI-Driven Progress",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-077",
+      "nodeLabel": "Treating AI Deployment as Change Management, Not Just Tech Rollout",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-069",
+      "nodeLabel": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether modern generative AI deployment velocity resembles historical enterprise software adoption curves or operates with unprecedented speed that invalidates historical timelines.",
+      "prevails": "C5",
+      "criterion": "empirical_evidence",
+      "rationale": "The skeptic position citing physical infrastructure constraints such as power availability and data readiness is stronger because it grounds its claims in measurable physical bottlenecks rather than abstract velocity assertions. While cloud-native application programming interface integration speeds up software delivery, ignoring hardware and power constraints leaves the accelerationist timeline empirically incomplete.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether mandatory pre-deployment safety evaluations protect workers or primarily function as anti-competitive moats that entrench incumbents and stall startups.",
+      "prevails": "C7",
+      "criterion": "specificity",
+      "rationale": "The accelerationist claim detailing millions of dollars in legal overhead and compliance costs provides a more concrete and testable mechanism than the safetyist reliance on broad statutory models like the European Union Artificial Intelligence Act. Specific financial burdens on startups offer a verifiable metric for regulatory friction that broad normative comparisons lack.",
+      "claimIds": [
+        "C6",
+        "C7"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether open-source model democratization and decentralized markets lower coordination costs faster than centralized boards or externalize unmanaged risks onto the workforce.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Neither side provides sufficient empirical evidence to prove whether decentralized open-source iteration outperforms centralized compliance boards in managing enterprise workplace risk at scale. Both claims remain theoretical assertions about coordination efficiency without definitive comparative datasets from corporate deployments.",
+      "claimIds": [],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

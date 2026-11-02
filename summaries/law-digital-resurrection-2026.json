@@ -1,0 +1,1844 @@
+{
+  "doc_id": "law-digital-resurrection-2026",
+  "taxonomy_version": "3.4.0",
+  "generated_at": "2026-10-28T08:07:44Z",
+  "model_info": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.1,
+    "max_tokens": 65536,
+    "extraction_mode": "single_shot",
+    "taxonomy_filter": "rag_per_chunk",
+    "taxonomy_nodes": 1456,
+    "chunked": true,
+    "chunk_count": 9
+  },
+  "context_rot": {
+    "schema_version": 1,
+    "pipeline": "summary",
+    "doc_id": "law-digital-resurrection-2026",
+    "measured_at": "2026-10-28T08:13:05.0959634-04:00",
+    "stages": [
+      {
+        "stage": "chunking",
+        "in_units": "tokens_est",
+        "in_count": 49247,
+        "out_units": "tokens_est",
+        "out_count": 49590,
+        "ratio": 1.007,
+        "flags": {
+          "chunk_count": 9
+        }
+      },
+      {
+        "stage": "rag_filtering",
+        "in_units": "nodes",
+        "in_count": 4326,
+        "out_units": "nodes",
+        "out_count": 60,
+        "ratio": 0.0139,
+        "flags": {
+          "avg_beliefs": 28,
+          "avg_desires": 12,
+          "avg_intentions": 12,
+          "avg_nodes_selected": 60,
+          "chunk_count": 9,
+          "max_nodes_selected": 60,
+          "min_nodes_selected": 60,
+          "total_below_threshold": 0
+        }
+      },
+      {
+        "stage": "extraction",
+        "in_units": "prompt_chars",
+        "in_count": 307724,
+        "out_units": "items",
+        "out_count": 70,
+        "ratio": 0.0002,
+        "flags": {
+          "chunk_count": 8,
+          "factual_claims": 25,
+          "null_node_rate": 0.5135,
+          "total_points": 37,
+          "unmapped_concepts": 8
+        }
+      },
+      {
+        "stage": "merge_dedup",
+        "in_units": "items",
+        "in_count": 70,
+        "out_units": "items",
+        "out_count": 69,
+        "ratio": 0.9857,
+        "flags": {
+          "claims_deduped": 0,
+          "concepts_deduped": 0,
+          "points_deduped": 1,
+          "used_embeddings": 1
+        }
+      },
+      {
+        "stage": "unmapped_resolution",
+        "in_units": "concepts",
+        "in_count": 8,
+        "out_units": "still_unmapped",
+        "out_count": 5,
+        "ratio": 0.625,
+        "flags": {
+          "near_miss_count": 5,
+          "resolved_count": 3,
+          "threshold": 0.6,
+          "used_embeddings": 1
+        }
+      }
+    ],
+    "cumulative_retention": 0.0137
+  },
+  "pov_summaries": {
+    "accelerationist": {
+      "key_points": []
+    },
+    "safetyist": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document highlights the profound privacy concerns and absence of legal protections regarding the use of personal data to resurrect deceased individuals as chatbots or avatars. It argues that the intersection of death, technology, and privacy law has remained relatively ignored and that current laws fail to safeguard the deceased or grieving loved ones. Safetyists would support establishing regulatory frameworks and estate-planning options to protect individuals from unauthorized digital resurrection and safeguard post-mortem privacy. However, the text notes that current legal and regulatory landscapes offer virtually no mechanisms for individuals to prevent digital resurrection.",
+          "verbatim": "There is no legal or regulatory landscape against which to estate plan to protect those who would avoid digital resurrection, and few privacy rights for the deceased. This intersection of death, technology, and privacy law has remained relatively ignored until recently. This Article is the first to respect death as an important and distinguishing part of the conversation about regulating digital resurrection.",
+          "excerpt_context": "Introduction / Abstract",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Regulatory frameworks and estate-planning tools ought to protect individuals from unauthorized digital resurrection and safeguard post-mortem privacy.",
+          "attribution_text": "A Desire within safetyist discourse that advocates for establishing legal and regulatory frameworks to protect individuals from unauthorized digital resurrection and safeguard post-mortem privacy. Encompasses: post-mortem privacy, digital resurrection regulation, estate planning.",
+          "vocabulary_terms": [
+            "post_mortem_privacy",
+            "digital_resurrection"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-155",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document asserts that the creation of digital counterparts and chatbots using personal data stored online raises profound privacy concerns for both the deceased and their grieving loved ones. Grieving individuals may share highly sensitive information with an AI clone, compounding the emotional and privacy risks involved. This dynamic alters how society engages with grief and technological replication, highlighting the complex intersection of personal data accumulation and emotional vulnerability. The text notes that companies gathering data for AI models are not always transparent about how information is collected or shared.",
+          "verbatim": "To the extent that highly sensitive information is being used to create a digital clone, and sensitive information may then be shared by grieving loved ones with the clone, this raises profound privacy concerns for the deceased and their loved ones. Further, there are few legal regulations or restrictions on the use of data to train AI language models, and companies are not always forthcoming with how data is gathered, used, or later shared.",
+          "excerpt_context": "Introduction, pages 1572-1573",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Using sensitive personal data to create digital clones and chatbots raises profound privacy concerns for deceased individuals and grieving loved ones.",
+          "attribution_text": "A Belief within safetyist discourse that utilizing sensitive personal data to construct digital clones and chatbots generates severe privacy vulnerabilities for deceased individuals and grieving loved ones. Encompasses: sensitive data usage, digital clones, grieving loved ones.",
+          "vocabulary_terms": [
+            "digital_clones",
+            "privacy_risks"
+          ],
+          "retrieval_confidence": 0.4189,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-desires-009",
+              "label": "Voice Identity as an Inviolable Right",
+              "score": 0.6341
+            },
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.6091
+            },
+            {
+              "id": "saf-intentions-250",
+              "label": "Automated Response Obfuscation for Distillation Defense",
+              "score": 0.571
+            }
+          ],
+          "retrieval_low_confidence": true,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.6091
+            },
+            {
+              "id": "saf-intentions-250",
+              "label": "Automated Response Obfuscation for Distillation Defense",
+              "score": 0.571
+            },
+            {
+              "id": "saf-beliefs-222",
+              "label": "Algorithmic Shadow Persistence",
+              "score": 0.5438
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Traditional privacy and constitutional protections designed to safeguard the dignitary, reputational, and emotional rights of living individuals expire at the moment of death. The Restatement (Second) of Torts explicitly provides that no legal action exists for invading the privacy of a deceased person unless authorized by a specific statute. Furthermore, federal laws do not grant postmortem privacy rights to decedents or their representatives, leaving their digital representations vulnerable to unauthorized commercial exploitation.",
+          "verbatim": "The dead do not have a right to privacy. It is generally accepted that traditional privacy rights, designed to protect dignitary, reputational, and emotional rights of the living, expire at the moment of death. Cases and commentators offer extensive support of this rule. The Restatement (Second) of Torts provides that there is no action for invasion of the privacy of one already deceased in the absence of statute.",
+          "excerpt_context": "Section II.A, paragraph 1",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Traditional privacy rights and constitutional protections expire at the moment of death, leaving decedents without federal postmortem privacy protections.",
+          "attribution_text": "A Belief within safetyist discourse that traditional privacy rights and constitutional protections expire at the moment of death, leaving decedents without federal postmortem privacy protections. Encompasses: expiration of dignitary rights, absence of federal postmortem statutes, and non-survival of constitutional protections.",
+          "vocabulary_terms": [
+            "postmortem_privacy",
+            "dignitary_rights"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "While privacy rights generally terminate upon death, a small number of states maintain criminal libel statutes that prohibit speaking ill of the dead or blackening a deceased person's character. However, these criminal prosecutions have declined significantly over time due to constitutional concerns regarding free expression, leaving criminal law largely toothless as a deterrent against unauthorized digital resurrection.",
+          "verbatim": "Although privacy rights generally end at death for the deceased, in some states, speaking ill of the dead is criminalized through state-level libel protections. It is possible, though not likely, to criminally prosecute libeling or defaming the deceased. Idaho and Nevada have statutes criminalizing libel or defamation of the deceased, and Oklahoma punishes libel against one’s dead relative.",
+          "excerpt_context": "Section II.A, paragraph 2",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "State-level criminal libel statutes penalizing defamation of the deceased are rarely enforced due to constitutional free expression protections.",
+          "attribution_text": "A Belief within safetyist discourse that state-level criminal libel statutes penalizing defamation of the deceased are rarely enforced due to constitutional free expression protections. Encompasses: criminal libel of decedents, prosecutorial decline, and free expression conflicts.",
+          "vocabulary_terms": [
+            "postmortem_defamation",
+            "criminal_libel"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The right of publicity provides a private right of action against the unauthorized commercial use of a person's name, image, or likeness, but its application postmortem varies wildly across jurisdictions. Roughly twenty-five states protect publicity rights posthumously, with durations ranging arbitrarily from twenty years in Virginia to one hundred years in Oklahoma or indefinitely in Tennessee, creating a fragmented legal landscape for digital resurrection.",
+          "verbatim": "The right of publicity is protected, in some form, in most states through common law or statute (or both). This right creates a private right of action protecting against unauthorized commercial use of someone’s name, image, or likeness. Roughly twenty-five states protect the right of publicity posthumously, and this protection usually extends for a fixed term following death.",
+          "excerpt_context": "Section II.A, paragraph 3",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Postmortem publicity rights vary significantly across states, creating a fragmented legal framework for governing unauthorized commercial use of deceased likenesses.",
+          "attribution_text": "A Belief within safetyist discourse that postmortem publicity rights vary significantly across states, creating a fragmented legal framework for governing unauthorized commercial use of deceased likenesses. Encompasses: state statutory fragmentation, postmortem duration disparities, and commercial misappropriation remedies.",
+          "vocabulary_terms": [
+            "right_of_publicity",
+            "postmortem_rights"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "European legal frameworks treat human dignity as a foundational right that encompasses privacy and supports mechanisms like the right to be forgotten under the General Data Protection Regulation. Although the GDPR does not explicitly create postmortem privacy rights by its own terms, several European member states such as France and Italy have enacted specific legislation and regulatory guidance enabling heirs to access and erase personal data of the deceased.",
+          "verbatim": "In the European Union (EU), human dignity is recognized as a fundamental right, and folded into this fundamental concept of dignity is a right to privacy—as both an independent right and a social value. The right to be forgotten, or the right to erasure, is codified in the General Data Protection Regulation (GDPR). Some EU members have nonetheless passed protections. France adopted the Digital Republic Act in 2016, and the French data protection authority issued guidance in 2020 on the removal of personal data on deceased-user accounts.",
+          "excerpt_context": "Section II.A, paragraph 6",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "European jurisdictions provide statutory mechanisms enabling data erasure and privacy protections for deceased individuals that contrast sharply with United States law.",
+          "attribution_text": "A Belief within safetyist discourse that European jurisdictions provide statutory mechanisms enabling data erasure and privacy protections for deceased individuals that contrast sharply with United States law. Encompasses: human dignity frameworks, right to erasure, and European postmortem data statutes.",
+          "vocabulary_terms": [
+            "right_to_be_forgotten",
+            "gdpr"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-intentions-069",
+          "mechanism_type": "standard_setting",
+          "category": "Intentions",
+          "point": "The regulatory framework governing digital assets and deceased persons relies on a complex web of overlapping rules from state law, federal law, and platform terms of service. Because most Americans die intestate and fail to engage in formal estate planning for digital assets, technology platforms maintain default control over the digital afterlife through terms of service. Safetyists argue that relying on existing legal mechanisms and corporate terms is insufficient, and that comprehensive regulatory and statutory standards are necessary to govern digital resurrection and protect user privacy.",
+          "verbatim": "The law governing digital assets is a complex web, with potentially overlapping or conflicting rules in state law, federal law, and Terms of Service or Terms and Conditions. Almost all states have enacted some version of RUFADAA, developed by the National Conference of Commissioners on Uniform State Laws. RUFADAA is designed to provide a legal framework by which a fiduciary may gain online account access and manage digital assets in the event of death or incapacitation.",
+          "excerpt_context": "Section 4, subsection E",
+          "extraction_confidence": "0.9",
+          "canonical_proposition": "Policymakers ought to establish comprehensive statutory frameworks rather than relying on corporate terms of service to govern digital assets and the digital afterlife.",
+          "attribution_text": "An Intention within safetyist discourse that prioritizes establishing robust statutory frameworks to govern digital assets and prevent corporate terms of service from unilaterally controlling the digital afterlife. Encompasses: statutory default rules, fiduciary access regulations, and digital estate planning standards.",
+          "vocabulary_terms": [
+            "fiduciary_access",
+            "statutory_framework",
+            "digital_afterlife"
+          ],
+          "retrieval_confidence": 0.6426,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.7241
+            },
+            {
+              "id": "saf-intentions-171",
+              "label": "Protecting Young People Through Joint School-Family-Government Action",
+              "score": 0.7176
+            },
+            {
+              "id": "saf-intentions-040",
+              "label": "Binding Named Officers to Deployment Infrastructure",
+              "score": 0.6983
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.7241
+            },
+            {
+              "id": "saf-intentions-171",
+              "label": "Protecting Young People Through Joint School-Family-Government Action",
+              "score": 0.7176
+            },
+            {
+              "id": "saf-intentions-040",
+              "label": "Binding Named Officers to Deployment Infrastructure",
+              "score": 0.6983
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "The Revised Uniform Fiduciary Access to Digital Assets Act establishes a three-tier priority system for managing a deceased person's digital accounts, starting with platform-specific online tools created by custodians such as Facebook. When users designate a legacy contact through these dedicated platform tools, that designation supersedes all other testamentary instruments or powers of attorney. Safetyists support mandating platform-provided tools as a primary mechanism to ensure users can explicitly direct their digital afterlife and privacy preferences.",
+          "verbatim": "First, the Custodian (such as a social media platform like Facebook) can create an online tool that allows the user to designate a fiduciary to access or manage the account in the event of their death. The person named through the online tool has authority that supersedes anything else, including testamentary instruments or powers of attorney.",
+          "excerpt_context": "Section 4, subsection E",
+          "extraction_confidence": "0.95",
+          "canonical_proposition": "Platforms ought to implement dedicated online tools that allow users to designate fiduciaries for their digital accounts, with authority superseding testamentary instruments.",
+          "attribution_text": "An Intention within safetyist discourse that mandates platforms provide dedicated online tools allowing users to designate fiduciaries for digital account management. Encompasses: legacy contact designations, platform-level access controls, and superseding testamentary instruments.",
+          "vocabulary_terms": [
+            "platform_custodianship",
+            "fiduciary_access",
+            "legacy_contact"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-desires-025",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document examines existing legal frameworks like RUFADAA and notes that fiduciary restrictions on impersonation miss the mark because opt-in mechanisms structurally disadvantage marginalized groups. Safetyist and governance frameworks emphasize that protecting the digital remains and post-mortem interests of individuals requires robust, equitable default rules rather than burdensome opt-in procedures. The text argues that the current rules treat different digital assets inconsistently, leaving vulnerable populations unprotected in estate planning. However, the analysis focuses primarily on legal history and estate norms rather than direct AI risk mitigation.",
+          "verbatim": "Finally, Section 15 of RUFADAA provides that a digital fiduciary may not use the assets to “impersonate the user.” It has been suggested that RUFADAA be expanded to provide that the digital assets should not be used by a fiduciary to impersonate or recreate the decedent. This suggestion misses the mark. Such an approach would create an opt-in mechanism, which is problematic for the reasons discussed above. Stated simply, it is not ideal for most Americans, and would structurally discriminate against those who are less likely to engage in estate planning—or those who are not white, lower income, lower wealth, and young.",
+          "excerpt_context": "Section III, discussing RUFADAA and digital fiduciaries",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Digital estate planning frameworks ought to establish equitable default rules rather than opt-in mechanisms that structurally disadvantage lower-income and marginalized populations.",
+          "attribution_text": "A Desire within safetyist discourse that prioritizes establishing equitable default rules for digital estate management to protect vulnerable populations from the structural disadvantages of opt-in mechanisms. Encompasses: Digital fiduciaries, post-mortem privacy, and estate planning equity.",
+          "vocabulary_terms": [
+            "digital_fiduciary",
+            "estate_planning",
+            "default_rules"
+          ],
+          "retrieval_confidence": 0.5268,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.7047
+            },
+            {
+              "id": "saf-intentions-171",
+              "label": "Protecting Young People Through Joint School-Family-Government Action",
+              "score": 0.6369
+            },
+            {
+              "id": "saf-beliefs-018",
+              "label": "The Attacker-Defender Cost Gap Erodes Social Trust",
+              "score": 0.5993
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.7047
+            },
+            {
+              "id": "saf-intentions-171",
+              "label": "Protecting Young People Through Joint School-Family-Government Action",
+              "score": 0.6369
+            },
+            {
+              "id": "saf-beliefs-018",
+              "label": "The Attacker-Defender Cost Gap Erodes Social Trust",
+              "score": 0.5993
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-desires-027",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document asserts that legal frameworks governing digital remains and personal data should prioritize dignitary concerns and moral personhood rather than pure market commodification. By drawing parallels to the established regulation of physical human remains, the author argues that personal information and digital identities require basic protections to prevent exploitation. This perspective aligns with safetyist desires to treat digital spaces and personal data as a public trust that resists unregulated commercial extraction. However, the text notes the tension that existing data privacy rights generally extinguish upon death, leaving a regulatory vacuum exploited by major technology companies.",
+          "verbatim": "From the perspective of commodification, the question is whether personal data of the deceased, an asset without an inherent value, should be recognized as possessing a value that is not monetary—and drawing upon the law of human remains, should be respected through notions of moral personhood. The same ethical implications, including respect for the deceased, cultural heritage, and exploitation of the deceased for profit, exist when dealing with the deceased’s remains—whether those remains are in physical or digital form. The problem is that control of policy by #bigtech is shaping a marketplace distanced from personhood, rather than one focused on dignitary concerns and respecting memory.",
+          "excerpt_context": "Section 6, Subsection C.1",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Legal frameworks ought to protect personal data and digital remains through dignitary principles analogous to the regulation of human remains rather than treating them as pure commodities.",
+          "attribution_text": "A Desire within safetyist discourse that advocates for extending dignitary protections and moral personhood to digital remains and personal data to prevent commercial exploitation. Encompasses: Moral personhood for digital data, opposition to big tech commodification, and dignitary safeguards for the deceased.",
+          "vocabulary_terms": [
+            "digital remains",
+            "commodification",
+            "dignitary concerns",
+            "moral personhood"
+          ],
+          "retrieval_confidence": 0.7385,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.7385
+            },
+            {
+              "id": "saf-intentions-171",
+              "label": "Protecting Young People Through Joint School-Family-Government Action",
+              "score": 0.5889
+            },
+            {
+              "id": "saf-beliefs-139",
+              "label": "Treating Humans as Objects to Be Optimized Degrades Dignity",
+              "score": 0.5825
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-122",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The text examines how the law of inheritance balances individual freedom of disposition against social welfare, noting that decedents may make unreasoned decisions whose costs are unfairly borne by the living. The author highlights that decedents leave behind messes without bearing any emotional or financial costs, creating a moral hazard when complete deference is given to unconstrained testamentary wishes. This reflects safetyist concerns regarding actions that generate downstream harms without immediate accountability bearers. However, the analysis focuses primarily on traditional estate law doctrines rather than autonomous AI execution.",
+          "verbatim": "There is a concern that the decedent is making decisions based on imperfect information that are not fully reasoned and then borne by the living. There is also a moral hazard problem implicit with deferring to every wish of the decedent, as those wishes may impose costs on the living that are not reasonable. To the extent that the decedent behaves irresponsibly, he or she bears none of the emotional or financial costs of the mess left behind.",
+          "excerpt_context": "Section 6, Paragraph 2",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "Unconstrained testamentary freedom creates moral hazard problems by imposing unreasonable social and financial costs on the living who bear no responsibility for the decedent's choices.",
+          "attribution_text": "A Belief within safetyist discourse that unconstrained testamentary disposition generates moral hazard by shifting unreasoned costs onto the living. Encompasses: Imperfectly reasoned decisions, uncompensated societal costs, and moral hazard in inheritance.",
+          "vocabulary_terms": [
+            "moral hazard",
+            "freedom of disposition",
+            "social welfare"
+          ],
+          "retrieval_confidence": 0.5249,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-018",
+              "label": "The Human Power to Limit Violence Must Be Preserved",
+              "score": 0.5851
+            },
+            {
+              "id": "acc-beliefs-051",
+              "label": "Stagnation, Not Recklessness, Is What Kills Civilizations",
+              "score": 0.5815
+            },
+            {
+              "id": "saf-beliefs-139",
+              "label": "Treating Humans as Objects to Be Optimized Degrades Dignity",
+              "score": 0.5781
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-desires-018",
+              "label": "The Human Power to Limit Violence Must Be Preserved",
+              "score": 0.5851
+            },
+            {
+              "id": "saf-beliefs-139",
+              "label": "Treating Humans as Objects to Be Optimized Degrades Dignity",
+              "score": 0.5781
+            },
+            {
+              "id": "saf-intentions-147",
+              "label": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+              "score": 0.5731
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "The document suggests that policymakers should look to quasi-property frameworks, such as those applied to human remains and data privacy rights under the European Union General Data Protection Regulation, to establish standardized protections for digital assets. By treating personal data as an asset burdened with obligations that run with it, legal systems can safeguard individual autonomy and post-mortem privacy. This approach proposes structural legal mechanisms to restrict absolute data retention rights held by technology platforms. Yet, the text acknowledges that neither the United States nor the European Union has explicitly established a comprehensive property scheme for consumer data.",
+          "verbatim": "The intersection of evolving quasi-property rights in personal data for the living and the treatment of human remains highlights a shifting understanding of ownership, control, and respect for individual autonomy and interests. The throughline revealed by the law of the dead is that a sacred trust exists between the living and the deceased, with an emphasis upon protecting common humanity, such that data afforded no legal status (or personal data of the deceased) may nonetheless be treated with dignity and receive some basic protections.",
+          "excerpt_context": "Section 6, Subsection C.2",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "Establish quasi-property legal frameworks and sacred trust obligations to govern personal data and digital remains, ensuring post-mortem dignity and limiting platform data retention.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for establishing quasi-property frameworks and sacred trust legal obligations to protect digital remains and personal data. Encompasses: Quasi-property status, post-mortem privacy protection, and limits on platform data retention.",
+          "vocabulary_terms": [
+            "quasi-property",
+            "sacred trust",
+            "digital assets",
+            "post-mortem privacy"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-139",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The text documents how the uncontrolled application of generative technologies to personal data and bodily remains reduces human identity and memory to raw material for computational optimization. Drawing comparisons to postmortem semen retrieval and unauthorized digital cloning, the analysis shows that treating human remains or personal information strictly as assets to be exploited degrades fundamental personal dignity. This supports the safetyist belief that efficiency-first and market-driven optimization frameworks inflict severe dignitary harms on individuals and their families.",
+          "verbatim": "There is also arguably a dignitary concern when the remains of the decedent are violated for generative purposes. Technology now allows the body of a deceased male to be used to father children: postmortem semen retrieval is a medical procedure whereby semen is extracted from the deceased, ideally within twenty-four to thirty-six hours following death.",
+          "excerpt_context": "Section 7, Pages 1610-1611",
+          "extraction_confidence": "0.92",
+          "canonical_proposition": "Optimizing human remains and personal data for generative computational purposes degrades fundamental personal dignity and exploits personal identity.",
+          "attribution_text": "A Belief within safetyist discourse that utilizing human remains and personal data for generative technological purposes compromises personal dignity and reduces human identity to optimization material. Encompasses: Generative exploitation, dignitary harm, bodily and digital integrity.",
+          "vocabulary_terms": [
+            "dignitary_harm",
+            "generative_exploitation"
+          ],
+          "retrieval_confidence": 0.6543,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.6545
+            },
+            {
+              "id": "saf-beliefs-139",
+              "label": "Treating Humans as Objects to Be Optimized Degrades Dignity",
+              "score": 0.6543
+            },
+            {
+              "id": "saf-intentions-162",
+              "label": "Accelerate Defensive Tech While Slowing Catastrophic Capabilities",
+              "score": 0.5934
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-desires-027",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document argues that digital spaces and personal data accumulation warrant ethical management and regulatory frameworks akin to public trusts, noting that exponentially growing data storage requires intentional oversight to prevent abuses. By drawing on analogies to the law of human remains and dignity law, the analysis supports establishing formal postmortem data governance mechanisms. This aligns with safetyist objectives of treating digital infrastructure as a shared global resource requiring ethical management, though it cautions against overly complex rules that might impede legitimate technological progress. The discussion highlights that current data practices often accumulate far more information than is objectively necessary.",
+          "verbatim": "Privacy and dignity are related concepts. Privacy is interested in protecting human dignity through control over information dissemination, and the law of human remains is concerned about protecting dignity through the appropriate or respectful treatment of the remains of the deceased.",
+          "excerpt_context": "Section 8B, paragraph 4",
+          "extraction_confidence": "0.90",
+          "canonical_proposition": "Digital infrastructure and accumulated personal data ought to be managed as shared public trusts requiring ethical oversight and dignity protections.",
+          "attribution_text": "A Desire within safetyist discourse that treats digital infrastructure as a shared global resource requiring ethical management. Encompasses: Data sovereignty, algorithmic transparency, and intergenerational equity.",
+          "vocabulary_terms": [
+            "data_governance",
+            "dignity_law",
+            "postmortem_privacy"
+          ],
+          "retrieval_confidence": 0.9495,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.9495
+            },
+            {
+              "id": "saf-intentions-171",
+              "label": "Protecting Young People Through Joint School-Family-Government Action",
+              "score": 0.6725
+            },
+            {
+              "id": "saf-intentions-143",
+              "label": "Governing How AI Models Ingest, Retain, and Protect Data",
+              "score": 0.6446
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "The document proposes establishing a legislated right to data deletion that would compel technology companies to build structural mechanisms for postmortem data management into their core architecture and terms of service. This approach forces developers to create technical solutions rather than relying on unnegotiable user agreements that permit excessive data retention. Such architectural mandates align with safetyist intentions to impose platform design requirements that protect user privacy by default. The strategy uses legal pressure to overcome the opacity and lack of consumer bargaining power inherent in standard commercial tech platforms.",
+          "verbatim": "A legislated right to deletion will force development of technological solutions to postmortem management. The right to deletion would pressure tech companies into prioritizing the creation of technology to allow for postmortem data management, spurring important technological development in an area that would be otherwise largely ignored.",
+          "excerpt_context": "Section 8B, paragraph 11",
+          "extraction_confidence": "0.95",
+          "canonical_proposition": "Regulatory mandates ought to compel technology companies to build structural postmortem data management and deletion capabilities into their platform architecture.",
+          "attribution_text": "An Intention within safetyist discourse that requires platform custodians to integrate privacy-preserving architectural features as a mandatory condition of operation. Encompasses: structural deletion mechanisms, default privacy settings, and architectural compliance mandates.",
+          "vocabulary_terms": [
+            "code_architecture",
+            "product_mandate",
+            "right_to_delete"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document notes that mass data accumulation is a recent phenomenon spanning the past two decades, and that this data is inherently plural, porous, and difficult to redact because it floats across interactions without clear boundaries. This characteristic of modern data infrastructure creates fundamental challenges for legal frameworks trying to draw strict ownership or deletion lines around shared communications. The safetyist perspective recognizes that digital spaces and data trails are deeply intertwined across multiple individuals, making unilateral control or exclusion exceptionally difficult. However, the analysis cautions that overprotecting intellectual property or imposing blanket bans through estate planning can severely damage the public domain of information. Ultimately, data porousness demands nuanced regulatory approaches rather than blunt instruments that fail to account for collective data ecosystems.",
+          "verbatim": "Mass data accumulation is recent (taking place over the past two decades). This data by its nature is plural, porous, and difficult to redact, floating in and out of interactions due to a general lack of clear boundaries.",
+          "excerpt_context": "Section 9, page 1621",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Mass data accumulation over the past two decades is inherently plural, porous, and difficult to redact due to a lack of clear boundaries.",
+          "attribution_text": "A Belief within safetyist discourse that contemporary mass data accumulation is inherently plural, porous, and difficult to redact due to a general lack of clear boundaries. Encompasses: Data porousness, shared communication channels, and redaction challenges.",
+          "vocabulary_terms": [
+            "data_porousness",
+            "information_ecosystem"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "saf-beliefs-155",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The text examines the No AI FRAUD Act introduced in Congress in January 2024, noting that it would provide the deceased with an enforceable right to opt out of unauthorized digital depictions. However, the analysis highlights sharp criticism from the American Civil Liberties Union and legal scholars arguing that the legislation treads heavily upon First Amendment protected speech, such as the right to create AI duplicates for commentary, satire, and news. The bill's broad definitions create intellectual property rights so expansive that they lack necessary safety valves for fair use, potentially penalizing everyday expressions like memes or political commentary. From a safetyist viewpoint, this illustrates the danger of poorly calibrated regulatory interventions that attempt to solve novel technological harms by suppressing constitutionally protected expressive rights.",
+          "verbatim": "The No AI FRAUD Act introduced in Congress in January 2024 would potentially provide the deceased with an enforceable right to opt out of unauthorized digital depictions, but such an approach has been sharply criticized by the American Civil Liberties Union for treading upon a wide swath of First Amendment protected speech, such as the right to create AI duplicates for commentary, satire, and news.",
+          "excerpt_context": "Section 9, page 1624",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Proposed legislation protecting deceased persons from unauthorized digital depictions risks infringing upon First Amendment protected speech and fair use.",
+          "attribution_text": "A Belief within safetyist discourse that broad legislative prohibitions on digital depictions threaten First Amendment protected speech and fair use. Encompasses: Right of publicity overreach, suppression of satire, and lack of statutory safety valves.",
+          "vocabulary_terms": [
+            "first_amendment",
+            "right_of_publicity"
+          ],
+          "retrieval_confidence": 0.4525,
+          "taxonomy_node_candidates": [
+            {
+              "id": "saf-beliefs-117",
+              "label": "State Suppression of AI Risk Research and Discourse",
+              "score": 0.6463
+            },
+            {
+              "id": "saf-beliefs-141",
+              "label": "AI Governance Relies on Policies It Cannot Actually Enforce",
+              "score": 0.6446
+            },
+            {
+              "id": "skp-beliefs-236",
+              "label": "Prohibitionist Policy Backfire",
+              "score": 0.619
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "saf-beliefs-117",
+              "label": "State Suppression of AI Risk Research and Discourse",
+              "score": 0.6463
+            },
+            {
+              "id": "saf-beliefs-141",
+              "label": "AI Governance Relies on Policies It Cannot Actually Enforce",
+              "score": 0.6446
+            },
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.6134
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document emphasizes that the right of the living to remember the deceased and find meaning in death ought to be honored as foundational. Activities such as erecting statues, creating death mementos, listening to saved voicemails, and engaging with digital replicas or text message histories should remain accessible to those who have loved and lost. Feeding emails or text messages into AI platforms to interact in the voice of the deceased represents a change in degree rather than in kind. Safetyists recognize that preserving these commemorative practices supports emotional well-being and relational continuity, provided that regulations distinguish between harmful commercial exploitation and benign personal remembrance.",
+          "verbatim": "Further, the right of the living to remember the deceased and find meaning in death should be honored as foundational. Endowing a charity, erecting a statue, creating death mementos, listening to saved voicemails, smelling an old sweater, watching home movies, and gazing upon photos should arguably always be available to those who have loved and lost.",
+          "excerpt_context": "Section 9, page 1621",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "The right of the living to remember the deceased and find meaning in death ought to be honored as foundational.",
+          "attribution_text": "A Desire within safetyist discourse that the personal and emotional right of the living to remember the deceased ought to be protected as foundational. Encompasses: Commemorative practices, personal remembrance, and digital legacy preservation.",
+          "vocabulary_terms": [
+            "digital_legacy",
+            "commemorative_practice"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": "product_mandate",
+          "category": "Intentions",
+          "point": "The text points to the California Delete Act, signed into law in October 2023, as a model piece of legislation that provides consumers with the right to request that their data be deleted and mandates that businesses put accessible data deletion mechanisms in place by 2026. However, the author notes that a primary limitation of such legislation is its uncertain application to the deceased and to shared data ecosystems. From a safetyist perspective, regulatory frameworks should establish clear, accessible consumer rights mechanisms that enable data deletion while carefully balancing the non-rivalrous nature of digital information and the rights of co-creators in shared messaging threads.",
+          "verbatim": "In many ways, the California Delete Act (signed into law in October 2023) is a model piece of legislation that provides consumers with the right to request that their data be deleted. The legislation requires that businesses put “an accessible data deletion mechanism” in place by 2026.",
+          "excerpt_context": "Section 9, page 1624-1625",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Legislation ought to provide consumers with accessible data deletion mechanisms while addressing complex challenges regarding shared data and the deceased.",
+          "attribution_text": "An Intention within safetyist discourse that advocates for implementing statutory consumer data deletion mechanisms and accessible privacy controls. Encompasses: Consumer privacy rights, platform compliance mandates, and data deletion enforcement.",
+          "vocabulary_terms": [
+            "data_deletion",
+            "consumer_privacy"
+          ]
+        }
+      ]
+    },
+    "skeptic": {
+      "key_points": [
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-desires-003",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The document points out that personal data accumulated during a person's lifetime—such as emails, text messages, and social media posts—is routinely repurposed to create unauthorized digital clones without adequate legal recourse. It underscores the lack of a recognized digital right to be dead or to control one's posthumous digital footprint. Skeptics argue for enforceable privacy rights and legal mechanisms that allow individuals to prevent their digital remnants from being exploited by technology companies. The text emphasizes that current legal protections vanish upon death, leaving personal data exposed to automated extraction and replication.",
+          "verbatim": "The digital right to be dead has yet to be recognized as an important legal right. Artificial intelligence, augmented reality, and nanotechnology have progressed to the point that personal data can be used to resurrect the deceased in digital form with appearance, voice, emotion, and memory recreated to allow interaction with a digital app, chat bot, or avatar that may be indistinguishable from that with a living person.",
+          "excerpt_context": "Abstract / Introduction",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Individuals ought to possess a recognized legal right to control their posthumous digital data and prevent unauthorized digital resurrection.",
+          "attribution_text": "A Desire within skeptic discourse that advocates for establishing a digital right to be dead and enforcing legal boundaries against unauthorized post-mortem data extraction and digital cloning. Encompasses: digital right to be dead, posthumous data control, unauthorized resurrection.",
+          "vocabulary_terms": [
+            "digital_right_to_be_dead",
+            "post_mortem_privacy"
+          ],
+          "retrieval_confidence": 0.5325,
+          "taxonomy_node_candidates": [
+            {
+              "id": "pol-961",
+              "label": "",
+              "score": 0.5847
+            },
+            {
+              "id": "skp-desires-009",
+              "label": "Voice Identity as an Inviolable Right",
+              "score": 0.5801
+            },
+            {
+              "id": "pol-2849",
+              "label": "",
+              "score": 0.5704
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-107",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document observes that big tech platforms and legislators frequently fail to distinguish between living inactive users and deceased users, allowing vast repositories of personal data to quietly transform into digital cemeteries and ghost ships. Platforms like Facebook accumulate tens of millions of deceased user accounts, turning everyday social media infrastructure into automated memory platforms curated without explicit consent for such permanence. This unmanaged accumulation of personal data creates fertile ground for unauthorized digital resurrection. The text notes that users' privacy effectively expires with them under current legal doctrines.",
+          "verbatim": "This is particularly troubling in the digital age, when social media platforms such as Facebook and X, largely accessible regardless of the wealth of the user, have become accidental digital memory platforms that are curated by the living but store the personalities of the deceased. Facebook is arguably one of the largest cemeteries in the world, with an estimated 50 million deceased users as of June 2019.",
+          "excerpt_context": "Introduction, page 1574",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Social media platforms function as massive unplanned digital cemeteries storing vast amounts of personal data from deceased users without adequate governance.",
+          "attribution_text": "A Belief within skeptic discourse that contemporary digital platforms operate as unregulated repositories of deceased users' data, enabling automated persistence without consent. Encompasses: digital cemeteries, unmanaged personal data, platform persistence.",
+          "vocabulary_terms": [
+            "digital_cemeteries",
+            "platform_governance"
+          ],
+          "retrieval_confidence": 0.4105,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-intentions-110",
+              "label": "Establishing Decentralized User-Controlled Cryptographic Receipts for Algorithmic Discovery",
+              "score": 0.5735
+            },
+            {
+              "id": "skp-desires-003",
+              "label": "Privacy as a Non-Negotiable Right in AI",
+              "score": 0.5721
+            },
+            {
+              "id": "skp-intentions-008",
+              "label": "Replace Architectural Pre-Clearance with Purpose-Bound Data Licenses",
+              "score": 0.5638
+            }
+          ],
+          "retrieval_low_confidence": true,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-intentions-110",
+              "label": "Establishing Decentralized User-Controlled Cryptographic Receipts for Algorithmic Discovery",
+              "score": 0.5735
+            },
+            {
+              "id": "skp-desires-003",
+              "label": "Privacy as a Non-Negotiable Right in AI",
+              "score": 0.5721
+            },
+            {
+              "id": "skp-intentions-008",
+              "label": "Replace Architectural Pre-Clearance with Purpose-Bound Data Licenses",
+              "score": 0.5638
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The right of publicity has evolved far beyond its original intent of preventing false endorsements into a broad property-like claim that commodifies cultural heritage and personal identity. Courts frequently struggle to balance posthumous publicity rights against First Amendment protections, while estate planning instruments like trusts and nonprofit transfers allow estates to lock up commercial use of identities for decades, restricting cultural expression.",
+          "verbatim": "The right of publicity is a fairly new area of privacy protection that was intended to stop claims of false endorsement but has evolved to be broader. It is a right that is usually associated with celebrities, but it is a right that belongs to everyone, though celebrities are more likely to invoke it because of commercial misappropriation. Jurisdictions do not agree as to whether publicity rights are devisable, and the law is murky as to whether such rights are properly treated as property or personal.",
+          "excerpt_context": "Section II.A, paragraphs 3-4",
+          "extraction_confidence": 0.92,
+          "canonical_proposition": "The right of publicity has expanded into an expansive property claim that restricts cultural expression and lacks consistent legal treatment across jurisdictions.",
+          "attribution_text": "A Belief within skeptic discourse that the right of publicity has expanded into an expansive property claim that restricts cultural expression and lacks consistent legal treatment across jurisdictions. Encompasses: publicity right expansion, cultural commodification, and jurisdictional inconsistency.",
+          "vocabulary_terms": [
+            "right_of_publicity",
+            "cultural_commodification"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Constitutional protections in the United States, specifically the First Amendment, create an insurmountable barrier to adopting European-style rights to be forgotten or postmortem privacy mandates for publicly held information. Prohibiting private companies from communicating public information or regulating data storage inevitably clashes with constitutional free expression guarantees, preventing comprehensive protection against digital resurrection.",
+          "verbatim": "It is important in the context of the law of digital resurrection to note, however, that the EU’s right to be forgotten would very likely be deemed unconstitutional in the United States because of the First Amendment. Regulating the storage or sale of privately held data differs greatly from prohibiting private companies from communicating public information, and the latter would likely be treated as violating constitutional protections.",
+          "excerpt_context": "Section II.A, paragraph 7",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "United States constitutional protections under the First Amendment prevent the implementation of broad right-to-be-forgotten laws or postmortem privacy mandates.",
+          "attribution_text": "A Belief within skeptic discourse that United States constitutional protections under the First Amendment prevent the implementation of broad right-to-be-forgotten laws or postmortem privacy mandates. Encompasses: First Amendment barriers, unconstitutionality of right to be forgotten, and communication restrictions.",
+          "vocabulary_terms": [
+            "first_amendment",
+            "right_to_be_forgotten"
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-225",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Because the vast majority of Americans die without estate planning documents, technology platforms exercise default control over user accounts and data through terms of service and terms and conditions. These agreements are unilaterally drafted by corporations to serve their own commercial interests rather than user privacy or dignity. Users routinely click agree without reading these complex terms, leading to a pervasive governance vacuum where big tech privately dictates the rules of the digital afterlife.",
+          "verbatim": "Most Americans die intestate, which highlights another practical problem with RUFADAA: big tech’s default control. In the absence of estate planning documents, TOS/TOC control. This gives #bigtech implicit governance over the digital afterlife in many default scenarios. This is problematic for several reasons. TOS/TOC are drafted by a company to inure to its own benefit. These terms are often amended and many users click the “agree to terms” box without ever reading or considering terms of use.",
+          "excerpt_context": "Section 4, subsection E",
+          "extraction_confidence": "0.95",
+          "canonical_proposition": "Terms of service drafted unilaterally by technology platforms exploit user inattention to establish default corporate governance over personal data and the digital afterlife.",
+          "attribution_text": "A Belief within skeptic discourse that corporate terms of service exploit asymmetric bargaining power and user inattention to establish default control over personal data and the digital afterlife. Encompasses: unilateral contract terms, default corporate governance, and consumer ignorance of contractual conditions.",
+          "vocabulary_terms": [
+            "terms_of_service",
+            "power_asymmetry",
+            "digital_afterlife"
+          ],
+          "retrieval_confidence": 0.6696,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-225",
+              "label": "Privacy-as-a-Commodity Trap",
+              "score": 0.6696
+            },
+            {
+              "id": "skp-beliefs-224",
+              "label": "Privacy Transactionalism",
+              "score": 0.6439
+            },
+            {
+              "id": "skp-beliefs-006",
+              "label": "Corporate Opacity as Structural Liability Shield",
+              "score": 0.6318
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "Personal data, electronic communications, and digital files are generally not recognized as legal property for living individuals in the United States, leaving a fragmented legal landscape of limited tort and copyright protections. While copyright law offers some limited posthumous privacy protection by restricting the publication of personal writings like letters, it fails to provide the right kinds of legal protections needed against digital resurrection. Specifically, copyright law does not grant individuals a right to data deletion or exclusive use of their digital likeness and communications.",
+          "verbatim": "Neither electronic communications nor personal data is considered “property” in the United States for the living. Personal data may be subject to protection through the tort system for the living (tort-privacy actions). Email may have limited protection through the copyright system, as discussed below. But data is, for the most part, not considered to be property.",
+          "excerpt_context": "Section 4, introductory paragraphs",
+          "extraction_confidence": "0.95",
+          "canonical_proposition": "Personal data and electronic communications lack property status under United States law, leaving individuals without adequate legal mechanisms to prevent unauthorized digital resurrection.",
+          "attribution_text": "A Belief within skeptic discourse that personal data and communications lack property status under United States law, creating a regulatory void that exposes individuals to unauthorized digital resurrection. Encompasses: absence of property rights in data, inadequate tort protections, and the limitations of copyright law.",
+          "vocabulary_terms": [
+            "data_property",
+            "right_to_delete",
+            "digital_resurrection"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-275",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The section details foundational legal doctrines governing human remains, noting that the Ruggles Report and American common law establish that there is no true property in human remains, classifying them instead as quasi-property. Skeptic perspectives frequently interrogate how legal fictions and quasi-property designations allocate rights and emotional damages without granting genuine autonomy or ownership to individuals or their families. The text highlights that these doctrines evolved to prevent commercial exploitation while simultaneously enabling a robust secondary market for body parts due to regulatory gaps. This demonstrates how legal classifications often fail to protect dignity against commercial pressures.",
+          "verbatim": "The foundation of this principle is described by Lord Edward Coke and Sir William Blackstone in their property treatise as derived from both secular and ecclesiastic law in Elizabethan England. The modern justification for this approach seems to be a desire to prevent commercial use of human remains, though in 1891, in Larson v. Chase, the Supreme Court of Minnesota held that dead bodies hold a murky quasi-property status.",
+          "excerpt_context": "Section III.A.1, discussing the 'no property' rule in human remains",
+          "extraction_confidence": 0.9,
+          "canonical_proposition": "The legal classification of human remains as quasi-property rather than commercial property reflects historical efforts to prevent exploitation while maintaining legal fictions.",
+          "attribution_text": "A Belief within skeptic discourse that legal fictions such as quasi-property status for human remains serve to balance dignitary norms against commercial pressures while creating regulatory vulnerabilities. Encompasses: Quasi-property doctrine, legal fictions, and commercial exploitation of remains.",
+          "vocabulary_terms": [
+            "quasi_property",
+            "legal_fictions",
+            "commercial_exploitation"
+          ],
+          "retrieval_confidence": 0.6398,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-275",
+              "label": "Historical pattern of legal fictions allocating responsibility to non-human entities benefiting capital owners",
+              "score": 0.6398
+            },
+            {
+              "id": "skp-beliefs-144",
+              "label": "Incremental Expansion of AI Legal Status Undermines Human-Centric Law",
+              "score": 0.5938
+            },
+            {
+              "id": "skp-desires-066",
+              "label": "Conscience as a Check on Algorithmic Authority",
+              "score": 0.5663
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-224",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The text documents how digital assets and personal data are routinely tokenized, bought, sold, and traded by corporations without established legal protections or standardized practices. Consumers frequently make forced or uniformed choices regarding data collection, leaving data controllers with absolute rights to retain and process information. This phenomenon illustrates the skeptic critique that privacy frameworks fail because personal data is treated as a commercial commodity rather than an inalienable right. However, the discussion emphasizes digital remains and posthumous data rather than active commercial transactions by living data subjects.",
+          "verbatim": "The commodification of digital assets is alive and well. Digital assets are tokenized, converting real-world assets into fungible or non-fungible tokens on blockchain platforms. Digital assets such as crypto art, digital trading cards, and virtual real estate are being bought, sold, and traded like traditional collectibles. Companies are issuing security tokens representing ownership in digital assets such as equity, real estate, and investment funds. Personal data is being collected, analyzed, and sold to advertisers, marketers, and researchers.",
+          "excerpt_context": "Section 6, Subsection C.1",
+          "extraction_confidence": 0.96,
+          "canonical_proposition": "Unchecked digital commodification enables companies to collect, tokenize, and sell personal data and digital assets without established legal restrictions or genuine consumer oversight.",
+          "attribution_text": "A Belief within skeptic discourse that unchecked digital commodification allows corporate entities to extract, tokenize, and trade personal data without effective legal boundaries. Encompasses: Digital asset tokenization, commercial data extraction, and absence of post-mortem data protections.",
+          "vocabulary_terms": [
+            "commodification",
+            "digital assets",
+            "tokenization",
+            "personal data"
+          ],
+          "retrieval_confidence": 0.6788,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-desires-003",
+              "label": "Privacy as a Non-Negotiable Right in AI",
+              "score": 0.7269
+            },
+            {
+              "id": "skp-intentions-149",
+              "label": "Data Cooperative Fiduciary Model",
+              "score": 0.6803
+            },
+            {
+              "id": "skp-beliefs-224",
+              "label": "Privacy Transactionalism",
+              "score": 0.6788
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-047",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The author notes that existing United States laws are uneven and inadequate regarding physical human remains, while completely lacking for digital remains and personal data of the deceased. Because the right to privacy is strictly personal and extinguishes upon death, law enforcement and corporations face no legal barriers when using fingerprints of the deceased to unlock cell phones or harvesting blood samples. This demonstrates how technological capabilities outpace legal accountability frameworks, leaving significant gaps in privacy protection. Nevertheless, the text points out that evolving data regulations like the European Union's General Data Protection Regulation signal potential shifts in data ownership concepts.",
+          "verbatim": "The personal data of the deceased is a digital asset mostly without an intrinsic value, stored electronically, and easily duplicated and distributed. This data is part of a digital identity around which there are few established laws or standardized practices in the United States. There are also no laws to prevent commodification of this data. In stark contrast is the law of human remains, with strict regulations in place designed to (theoretically) prevent commodification due to dignitary concerns.",
+          "excerpt_context": "Section 6, Subsection C.1",
+          "extraction_confidence": 0.94,
+          "canonical_proposition": "The complete absence of statutory laws governing digital identities and deceased persons' data exposes individuals to unchecked corporate commodification and invasive state practices.",
+          "attribution_text": "A Belief within skeptic discourse that regulatory vacuums surrounding digital identity and deceased persons' data enable unchecked corporate commodification and state intrusion. Encompasses: Absence of digital inheritance laws, extinction of post-mortem privacy rights, and corporate data retention.",
+          "vocabulary_terms": [
+            "digital identity",
+            "commodification",
+            "privacy rights",
+            "regulatory vacuum"
+          ],
+          "retrieval_confidence": 0.4866,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-224",
+              "label": "Privacy Transactionalism",
+              "score": 0.6261
+            },
+            {
+              "id": "skp-beliefs-217",
+              "label": "Consent-Washing",
+              "score": 0.6158
+            },
+            {
+              "id": "skp-beliefs-228",
+              "label": "Transactional Privacy Critique",
+              "score": 0.6128
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-224",
+              "label": "Privacy Transactionalism",
+              "score": 0.6261
+            },
+            {
+              "id": "skp-beliefs-217",
+              "label": "Consent-Washing",
+              "score": 0.6158
+            },
+            {
+              "id": "skp-beliefs-228",
+              "label": "Transactional Privacy Critique",
+              "score": 0.6128
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "The text highlights historical instances where fiduciaries and executors deliberately disregarded the express testamentary wishes of authors like Franz Kafka, Vladimir Nabokov, and Ernest Hemingway to destroy unpublished works, successfully publishing them without facing legal consequences. This practice suggests that public interest in the preservation and dissemination of creative works often overrides absolute testator control. From a skeptic perspective, this serves as a precedent for limiting unchecked posthumous control by individuals over digital assets and intellectual property. Yet, relying on fiduciaries to independently violate directives introduces uncertainty unless legally codified.",
+          "verbatim": "Author Franz Kafka insisted that the executor of his estate burn all of his unpublished works upon his death. The executor disregarded the wishes of the deceased and published many manuscripts, including The Trial and The Castle. It has been suggested that Kafka’s fame as a literary giant is largely due to the fact that his testamentary wishes were ignored. The requests of Vladimir Nobokov that any unfinished novel at the time of his death remain unpublished, and Ernest Hemingway that his letters remain unpublished, were similarly disregarded. Despite each ignoring the testator’s requests, the fiduciaries managing the estates of Kafka, Nobokov, and Hemingway faced no legal consequences.",
+          "excerpt_context": "Section 6, Paragraph 3",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Permit fiduciaries and legal systems to override posthumous instructions to destroy creative works or digital assets when public interest and social welfare favor preservation.",
+          "attribution_text": "An Intention within skeptic discourse that advocates for allowing fiduciaries to disregard restrictive testamentary destruction requests to serve broader cultural and social interests. Encompasses: Disregarding posthumous destruction orders, prioritizing public cultural access, and unpunished fiduciary discretion.",
+          "vocabulary_terms": [
+            "testamentary wishes",
+            "fiduciaries",
+            "social welfare",
+            "intellectual property"
+          ]
+        },
+        {
+          "stance": "strongly_aligned",
+          "taxonomy_node_id": "skp-beliefs-275",
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document highlights that relying on traditional estate planning and formal testamentary mechanisms to protect digital privacy and control digital resurrection systematically disadvantages lower-income, female, and racial minority populations. Because wealth accumulation strongly correlates with testacy, policies that require formal legal planning to opt out of digital resurrection act as an inequitable barrier that protects capital while abandoning vulnerable groups. This directly supports the skeptic critique that legal structures and default rules predominantly benefit capital owners and the privileged at the expense of ordinary individuals.",
+          "verbatim": "Empowering the deceased to make lifetime decisions through estate planning is a structurally inequitable and anachronistic approach that maximizes social welfare only for those who do estate planning. Thus, although privacy scholars have long debated the merits of opt-in versus out-out approaches to privacy protection for individuals, the choice is of particular significance for the deceased. It is estimated that more than sixty percent of Americans die without a valid will in effect.",
+          "excerpt_context": "Section 7, Part IV.A, Pages 1614-1615",
+          "extraction_confidence": "0.96",
+          "canonical_proposition": "Estate-planning prerequisites for digital privacy rights create structurally inequitable default rules that disproportionately disadvantage marginalized populations.",
+          "attribution_text": "A Belief within skeptic discourse that conditioning digital legacy protection on formal estate planning systematically reinforces socioeconomic inequalities and favors wealthy individuals. Encompasses: Intestacy disparities, structural inequity, access-to-justice barriers.",
+          "vocabulary_terms": [
+            "testacy_disparities",
+            "structural_inequity",
+            "access_to_justice"
+          ],
+          "retrieval_confidence": 0.4137,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-297",
+              "label": "Digital Inequality in Privacy Management",
+              "score": 0.5342
+            },
+            {
+              "id": "skp-beliefs-143",
+              "label": "AI Skepticism Reflects Rational Risk Calibration, Not Technophobia",
+              "score": 0.4842
+            },
+            {
+              "id": "saf-desires-027",
+              "label": "Treating Digital Space as a Public Trust",
+              "score": 0.4816
+            }
+          ],
+          "retrieval_low_confidence": true,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-297",
+              "label": "Digital Inequality in Privacy Management",
+              "score": 0.5342
+            },
+            {
+              "id": "skp-beliefs-143",
+              "label": "AI Skepticism Reflects Rational Risk Calibration, Not Technophobia",
+              "score": 0.4842
+            },
+            {
+              "id": "skp-beliefs-236",
+              "label": "Prohibitionist Policy Backfire",
+              "score": 0.4564
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-intentions-007",
+          "mechanism_type": "disclosure_requirement",
+          "category": "Intentions",
+          "point": "To prevent regulatory evasion and account for the rapid, unpredictable evolution of generative AI outputs, the document proposes regulating the input source material rather than trying to police the constantly changing digital clone outcomes. By focusing oversight on the raw data ingestion phase, policymakers can establish enforceable boundaries that directly curb non-consensual digital resurrection. This strategy aligns with the skeptic approach of targeting specific, measurable socio-technical intervention points rather than relying on abstract outcome-based standards.",
+          "verbatim": "This Part crafts a solution that provides a minimal level of control over the source of the digital resurrection rather than the outcome. Distinguishing non-commercial from commercial resurrection, this Part also provides guidance on future regulation of commercial resurrection... This should not cause us to step away from regulating, but it does mean that regulatory evasion will be substantially lowered through regulation of source material over outcome, particularly when the outcome is rapidly evolving.",
+          "excerpt_context": "Section 7, Part IV, Pages 1613-1615",
+          "extraction_confidence": "0.94",
+          "canonical_proposition": "Regulate digital resurrection by controlling input source material rather than rapidly evolving technological outcomes to prevent regulatory evasion.",
+          "attribution_text": "An Intention within skeptic discourse that advocates for regulating the input data sources of digital resurrection systems rather than attempting to police fluctuating generative outcomes. Encompasses: Source-based regulation, input control, prevention of regulatory evasion.",
+          "vocabulary_terms": [
+            "source_regulation",
+            "regulatory_evasion"
+          ],
+          "retrieval_confidence": 0.5374,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-beliefs-180",
+              "label": "Regulation Should Target Inference Acts, Not Data Collection",
+              "score": 0.6779
+            },
+            {
+              "id": "saf-intentions-148",
+              "label": "Targeting Verifiable Process Failures Instead of Policing Truth",
+              "score": 0.6653
+            },
+            {
+              "id": "skp-intentions-097",
+              "label": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+              "score": 0.6425
+            }
+          ],
+          "retrieval_low_confidence": false,
+          "mechanism5_flag": true,
+          "mechanism5_candidates": [
+            {
+              "id": "skp-beliefs-180",
+              "label": "Regulation Should Target Inference Acts, Not Data Collection",
+              "score": 0.6779
+            },
+            {
+              "id": "skp-intentions-097",
+              "label": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+              "score": 0.6425
+            },
+            {
+              "id": "skp-intentions-149",
+              "label": "Data Cooperative Fiduciary Model",
+              "score": 0.6331
+            }
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-desires-003",
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The text asserts that personal data accumulation has reached unprecedented, potentially dangerous scales, often harvested without genuine user intention or awareness through 'techwashed' collection practices. Advocating for a statutory right to delete personal data, the analysis seeks to empower individuals and their estate fiduciaries to reclaim control over digital identity and prevent non-consensual data exploitation. This reflects skeptic concerns regarding corporate data extraction and the commodification of personal information. The discussion emphasizes that average users place data online without contemplation while data brokers profit from comprehensive profiles.",
+          "verbatim": "Intensive data collection processes have been “techwashed” with collection and retention of far more data and for longer than is objectively necessary. Data brokers sell personal information that includes information such as addresses, spending habits, location information, and employment status.",
+          "excerpt_context": "Section 8B, paragraph 8",
+          "extraction_confidence": "0.92",
+          "canonical_proposition": "Individuals ought to possess enforceable legal rights to delete accumulated personal data and prevent unauthorized commercial exploitation by data brokers.",
+          "attribution_text": "A Desire within skeptic discourse that seeks to enforce strict boundaries on corporate data extraction and prevent the non-consensual commodification of personal information for model training. Encompasses: data minimization, right to be forgotten, and anti-surveillance protections.",
+          "vocabulary_terms": [
+            "data_brokers",
+            "techwashing",
+            "right_to_delete"
+          ],
+          "retrieval_confidence": 0.8558,
+          "taxonomy_node_candidates": [
+            {
+              "id": "skp-desires-003",
+              "label": "Privacy as a Non-Negotiable Right in AI",
+              "score": 0.8558
+            },
+            {
+              "id": "skp-intentions-014",
+              "label": "Enforce Training Data Provenance Disclosure and Creator Compensation",
+              "score": 0.7264
+            },
+            {
+              "id": "skp-beliefs-217",
+              "label": "Consent-Washing",
+              "score": 0.7159
+            }
+          ],
+          "retrieval_low_confidence": false
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": "liability_regime",
+          "category": "Intentions",
+          "point": "The author argues against extending expansive postmortem privacy rights and 'dead hand' control that would unduly restrict societal access to information and cultural expression. By limiting postmortem control specifically to a time-bound right of data deletion rather than broader commercial or expressive restrictions, the proposal prevents corporate entities and estates from locking up digital assets indefinitely. This regulatory stance uses targeted legal mechanisms to balance individual dignity against the public interest in open discourse and historical memory. The strategy guards against excessive litigation and the unchecked expansion of property rights over personal communications.",
+          "verbatim": "Creating a right beyond data deletion, to curtail unauthorized non-commercial digital resurrection, creates unnecessary complexity that overreaches and places the interests of the deceased over those of the living. Such an approach would run contrary to the weight of more than a century’s worth of law and policy drawing from the law of the dead.",
+          "excerpt_context": "Section 8C, paragraph 1",
+          "extraction_confidence": "0.90",
+          "canonical_proposition": "Lawmakers ought to restrict postmortem legal claims to a narrow right of deletion, preventing expansive dead-hand control from overriding societal access to information.",
+          "attribution_text": "An Intention within skeptic discourse that advocates for precise, targeted legal limitations to prevent excessive corporate or estate control over digital records. Encompasses: restricting dead-hand control, balancing public access, and limiting expansive intellectual property claims.",
+          "vocabulary_terms": [
+            "dead_hand_control",
+            "right_to_delete",
+            "public_access"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The document highlights that digital data production is almost always collective, rendering it impossible to exclude parties from access where concurrent access exists because data is non-rivalrous. In shared interactions such as group text chains or collaborative social media posts, data boundaries are porous, and giving one participant the absolute right to restrict or delete the conversation inherently treads upon the rights of others. From a skeptic perspective, corporate claims of data ownership and individual privacy rights often ignore the relational and distributed reality of digital artifacts, creating significant friction when legal systems attempt to apply traditional property models to collective data.",
+          "verbatim": "First, an important feature of digital production is that it is almost always collective in some way, rendering it impossible to exclude a party from access where concurrent access exists. Data is non-rivalrous, and more than one person can have concurrent possession of the same data.",
+          "excerpt_context": "Section 9, page 1623",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Digital data production is inherently collective and non-rivalrous, making exclusive individual control over shared communications impossible.",
+          "attribution_text": "A Belief within skeptic discourse that digital data production is inherently collective and non-rivalrous, complicating individual control and ownership claims. Encompasses: Shared communication channels, non-excludability of data, and relational privacy boundaries.",
+          "vocabulary_terms": [
+            "non_rivalrous_data",
+            "collective_production"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Beliefs",
+          "point": "The author argues that a deceased person does not suffer tangible reputational harm or economic damage from non-commercial digital resurrection that would give rise to a valid legal action by an estate under existing law. Calculating damages for unauthorized, non-commercial digital resurrection is highly problematic when the resurrection causes no actual harm to the decedent, meaning any imposed damages would serve purely for deterrence rather than compensation. From a skeptic standpoint, extending expansive post-mortem intellectual property rights or right-of-publicity claims risks functioning as an unwarranted corporate or estate-controlled veto over public culture rather than a true remedy for concrete harms.",
+          "verbatim": "The second obstacle is one of enforceability. A dead person does not suffer reputational harm or damage from non-commercial digital resurrection that would give rise to an action by the estate under existing law. It is problematic to calculate damages for an unauthorized, non-commercial digital resurrection of the deceased, particularly when the resurrection causes no harm to the deceased.",
+          "excerpt_context": "Section 9, page 1623-1624",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "Deceased individuals do not suffer actionable reputational harm from non-commercial digital resurrection, making damage calculations purely punitive.",
+          "attribution_text": "A Belief within skeptic discourse that non-commercial digital resurrection of deceased individuals causes no compensable harm, rendering post-mortem liability frameworks punitive. Encompasses: Post-mortem legal standing, absence of concrete injury, and speculative damages.",
+          "vocabulary_terms": [
+            "post_mortem_privacy",
+            "reputational_harm"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": null,
+          "mechanism_type": null,
+          "category": "Desires",
+          "point": "The text warns against the overprotection of intellectual property and the potential ravaging of the public domain through boilerplate will provisions that institute blanket prohibitions on the use of technology. Creativity and cultural continuity depend upon maintaining a rich public domain of information and ideas. Skeptics advocate for limiting dead-hand control and expansive estate restrictions that seek to lock up cultural artifacts, personal likenesses, and historical discourse under the guise of posthumous privacy or intellectual property rights.",
+          "verbatim": "The degree to which the public domain of information could potentially be ravaged through boilerplate will provisions instituting blanket prohibitions on use of technology should not be ignored. Overprotecting intellectual property is as harmful as under protecting it. Creativity is impossible without a rich public domain.",
+          "excerpt_context": "Section 9, page 1621",
+          "extraction_confidence": 0.95,
+          "canonical_proposition": "The public domain ought to be protected against expansive dead-hand restrictions and overprooted intellectual property claims.",
+          "attribution_text": "A Desire within skeptic discourse that a robust public domain ought to be preserved against restrictive estate planning and overprotected intellectual property. Encompasses: Public access to culture, restriction of dead-hand control, and prevention of information enclosure.",
+          "vocabulary_terms": [
+            "public_domain",
+            "dead_hand_control"
+          ]
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-desires-095",
+          "category": "Desires",
+          "point": "The concept addresses the emerging legal void where individuals lack the means to prevent their personal data from being used to create digital clones, avatars, or chatbots after death. The author argues that recognizing a digital right to be dead is essential for balancing privacy, technology, and the unique legal status of deceased persons.",
+          "verbatim": null,
+          "excerpt_context": "unmapped_concept_backfill",
+          "extraction_confidence": 0.7,
+          "vocabulary_terms": []
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-beliefs-320",
+          "category": "Beliefs",
+          "point": "In the absence of estate planning documents or platform-specific online tools, technology companies assert default control over user accounts and digital assets through their terms of service. Because most individuals die intestate, this dynamic grants large technology corporations implicit administrative governance over the digital afterlife, replacing public legal standards with private corporate policies designed to benefit the platform.",
+          "verbatim": null,
+          "excerpt_context": "unmapped_concept_backfill",
+          "extraction_confidence": 0.7,
+          "vocabulary_terms": []
+        },
+        {
+          "stance": "aligned",
+          "taxonomy_node_id": "skp-desires-096",
+          "category": "Desires",
+          "point": "The document proposes a specific legal mechanism allowing decedents and their estate representatives to exercise a time-limited right to delete personal data stored online within a twelve-month window. This addresses the inadequacy of traditional tort and property law, which fails to protect digital remains or provide standing for deceased persons. By grounding the right in quasi-property and dignity frameworks similar to the law of human remains, the concept bridges estate administration and digital privacy without creating overly expansive commercial restrictions.",
+          "verbatim": null,
+          "excerpt_context": "unmapped_concept_backfill",
+          "extraction_confidence": 0.7,
+          "vocabulary_terms": []
+        }
+      ]
+    }
+  },
+  "factual_claims": [
+    {
+      "claim": "Apple announced a Digital Legacy Program available for the iOS 15.2, iPadOS 15.2, and macOS 12.1 releases that allows users to add a Legacy Contact for their Apple ID.",
+      "claim_label": "Apple Digital Legacy Program",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "April 2024",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-desires-027"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "official_announcement",
+          "verifiability": "high",
+          "empirical_basis": "institutional_policy"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Facebook held an estimated 50 million deceased users as of June 2019.",
+      "claim_label": "Facebook Deceased User Estimates",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "June 2019",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-107"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "academic_literature",
+          "verifiability": "high",
+          "empirical_basis": "demographic_projection"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "As of 2014, the commercial use of deceased celebrities in advertising and marketing constituted a $3 billion business.",
+      "claim_label": "Deceased Celebrity Commercial Market Size",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 2014",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measurement_basis": "industry reports",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "State statutes in Idaho and Nevada criminalize libel or defamation of the deceased, and Oklahoma punishes libel against a dead relative.",
+      "claim_label": "State Criminal Libel Statutes Protecting Decedents",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2025",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measurement_basis": "statutory text",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Approximately twenty-five states protect the right of publicity posthumously, with statutory terms ranging from twenty years in Virginia to one hundred years in Oklahoma and an indefinite term in Tennessee.",
+      "claim_label": "Posthumous Right of Publicity State Disparities",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2025",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measurement_basis": "statutory compilation",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Robin Williams's estate plan utilized a trust to distribute his right of publicity to a California nonprofit corporation named The Windfall Foundation, subject to a twenty-five-year restriction on commercial use.",
+      "claim_label": "Robin Williams Estate Plan Publicity Structure",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": null,
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measurement_basis": "estate planning documents",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "France adopted the Digital Republic Act in 2016, and the French data protection authority issued guidance in 2020 concerning the removal of personal data on deceased-user accounts.",
+      "claim_label": "French Digital Republic Act and Data Erasure Guidance",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2020",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "measurement_basis": "regulatory guidance",
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Only 46% of Americans have a will, highlighting a major practical limitation in estate planning frameworks such as the Revised Uniform Fiduciary Access to Digital Assets Act that rely on testamentary documents to govern digital assets.",
+      "claim_label": "Prevalence of Wills Among Americans",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "by 2021",
+      "extraction_confidence": "0.95",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-069",
+        "skp-beliefs-225"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "empirical_study",
+          "sample_representation": "national_poll",
+          "confounds_addressed": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "A Gallup poll conducted on 23 June 2021 found that only 46% of Americans have a will.",
+      "claim_label": "Gallup Poll on Will Ownership",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "by 23 June 2021",
+      "extraction_confidence": "0.95",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-intentions-069"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "empirical_study",
+          "sample_representation": "national_poll",
+          "confounds_addressed": false
+        }
+      },
+      "claim_relations": [
+        {
+          "target_claim_label": "Prevalence of Wills Among Americans",
+          "relation": "supports",
+          "attack_type": null
+        }
+      ]
+    },
+    {
+      "claim": "Researchers have demonstrated that ninety-eight percent of users completely ignore terms of service and terms and conditions agreements, with studies showing that users miss extreme provisions such as a requirement that a firstborn child serve as payment for digital services.",
+      "claim_label": "User Neglect of Terms of Service",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": null,
+      "extraction_confidence": "0.9",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-225"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "empirical_study",
+          "sample_representation": "general_users",
+          "confounds_addressed": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Neither electronic communications nor personal data are considered property in the United States for living individuals, though personal data may receive limited protection through tort-privacy actions and copyright law.",
+      "claim_label": "Legal Status of Personal Data as Property",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": null,
+      "extraction_confidence": "0.95",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-225"
+      ],
+      "evidence_criteria": {
+        "specificity": "qualified",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "legal_analysis",
+          "sample_representation": "statutory_jurisprudence",
+          "confounds_addressed": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The United States Trademark and Patent Office has experienced an influx of trademark registration applications over the past decade from celebrities seeking to protect their names, children's names, catchphrases, and Instagram handles.",
+      "claim_label": "Surge in Celebrity Trademark Applications",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2014-2024",
+      "extraction_confidence": "0.95",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "qualified",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "administrative_record",
+          "sample_representation": "uspto_filings",
+          "confounds_addressed": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The Revised Uniform Fiduciary Access to Digital Assets Act Section 15 prohibits a digital fiduciary from using digital assets to impersonate the user.",
+      "claim_label": "RUFADAA Section 15 Impersonation Ban",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2015",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-desires-025"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "statute",
+          "corroboration": "high",
+          "falsifiability": "high"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The Ruggles Report, an 1856 examination of burial law written by referee Samuel Bulkley Ruggles for the Surrogate's Court of New York, established foundational American legal principles holding that there is no property in human remains, that the right to bury belongs to the next of kin, and that the interests of the living supersede those of the deceased.",
+      "claim_label": "Foundational Principles of the Ruggles Report",
+      "doc_position": "historical",
+      "temporal_scope": "historical",
+      "temporal_bound": "1856",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-275"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "legal_report",
+          "corroboration": "high",
+          "falsifiability": "medium"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "In the 1891 case Larson v. Chase, the Supreme Court of Minnesota held that dead bodies hold a quasi-property status, giving those entitled to custody legal rights to protect them against mutilation or improper burial.",
+      "claim_label": "Larson v. Chase Quasi-Property Ruling",
+      "doc_position": "historical",
+      "temporal_scope": "historical",
+      "temporal_bound": "1891",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-275"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "judicial_opinion",
+          "corroboration": "high",
+          "falsifiability": "high"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The District Court for the Central District of Illinois held in the 2014 case Keller v. Finks that a deceased person has no rights within the United States constitutional scheme.",
+      "claim_label": "Keller v. Finks Constitutional Ruling on Deceased Persons",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2014",
+      "extraction_confidence": 0.98,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-beliefs-122",
+        "skp-beliefs-047"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "judicial ruling citation",
+          "measurement_instrument": "court opinion",
+          "generalizability": "binding precedent within district"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Franz Kafka instructed the executor of his estate to burn all of his unpublished works upon his death, but the executor disregarded these wishes and published manuscripts including The Trial and The Castle without facing legal consequences.",
+      "claim_label": "Franz Kafka Estate Execution and Publication",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": null,
+      "extraction_confidence": 0.99,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-047"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational_basis": "historical legal and literary record",
+          "measurement_instrument": "estate administration history",
+          "generalizability": "specific historical precedent"
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "An empirical study found that more than sixty percent of Americans die without a valid will in effect, with testacy strongly correlating with older age and higher wealth accumulation.",
+      "claim_label": "High Rate of American Intestacy",
+      "doc_position": "supports",
+      "temporal_scope": "current_state",
+      "temporal_bound": "2022",
+      "extraction_confidence": "0.98",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-beliefs-275"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "quantified": true,
+          "replicable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Los Angeles County paid Vanessa Bryant nearly $30 million in 2023 to settle an invasion of privacy lawsuit filed over the sharing of graphic photos of a deceased Kobe Bryant and his daughter Gianna at their helicopter crash site.",
+      "claim_label": "Bryant Family Privacy Settlement",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2023",
+      "extraction_confidence": "0.99",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-desires-027"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "quantified": true,
+          "replicable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The California Delete Act, enacted in October 2023 and effective January 1, 2024, established an accessible deletion mechanism for living consumers to delete personal information held by data brokers in a single step.",
+      "claim_label": "California Delete Act Implementation",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2023-2024",
+      "extraction_confidence": "0.98",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-desires-003",
+        "saf-desires-027"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "statutory_law",
+          "verifiable": true,
+          "quantifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "Google launched its Inactive Account Manager feature in April 2013 to allow users to specify how their account information should be shared or deleted after a selected period of inactivity.",
+      "claim_label": "Google Inactive Account Manager Launch",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2013",
+      "extraction_confidence": "0.95",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "saf-desires-027"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "industry_practice",
+          "verifiable": true,
+          "quantifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The European Court of Human Rights held in 2021 that the right to be forgotten could extend to deceased individuals.",
+      "claim_label": "ECHR Postmortem Right to be Forgotten Ruling",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "2021",
+      "extraction_confidence": "0.95",
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [
+        "skp-desires-003"
+      ],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "source_type": "judicial_ruling",
+          "verifiable": true,
+          "quantifiable": false
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The City of New York sought to erect a statue in 1895 to honor the philanthropy of Mary Hamilton Schuyler, which was challenged by her family on privacy grounds and addressed by the New York Court of Appeals in Schuyler v. Curtis.",
+      "claim_label": "Schuyler v. Curtis 1895 Statue Case",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "1895",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "systematic": false,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The No AI FRAUD Act was introduced in Congress in January 2024 to provide an enforceable right to opt out of unauthorized digital depictions for both living and deceased individuals.",
+      "claim_label": "Introduction of No AI FRAUD Act in 2024",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "January 2024",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "systematic": false,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    },
+    {
+      "claim": "The California Delete Act was signed into law in October 2023, requiring businesses to establish accessible data deletion mechanisms for consumers by 2026.",
+      "claim_label": "California Delete Act Enactment 2023",
+      "doc_position": "supports",
+      "temporal_scope": "historical",
+      "temporal_bound": "October 2023",
+      "extraction_confidence": 0.95,
+      "potential_conflict_id": null,
+      "linked_taxonomy_nodes": [],
+      "evidence_criteria": {
+        "specificity": "precise",
+        "has_warrant": true,
+        "internally_consistent": true,
+        "category_criteria": {
+          "observational": true,
+          "systematic": false,
+          "falsifiable": true
+        }
+      },
+      "claim_relations": []
+    }
+  ],
+  "unmapped_concepts": [
+    {
+      "suggested_label": "Digital Right to Be Dead",
+      "suggested_description": "A Desire within skeptic and safetyist discourse that advocates for establishing a formal legal right preventing unauthorized post-mortem digital cloning and data persistence. Encompasses: digital afterlife protections, posthumous privacy rights, bans on unauthorized digital resurrection. Excludes: traditional estate planning for physical assets, standard copyright protections.",
+      "concept": "The concept addresses the emerging legal void where individuals lack the means to prevent their personal data from being used to create digital clones, avatars, or chatbots after death. The author argues that recognizing a digital right to be dead is essential for balancing privacy, technology, and the unique legal status of deceased persons.",
+      "suggested_pov": "skeptic",
+      "suggested_category": "Desires",
+      "reason": "Existing taxonomy nodes cover general privacy and publicity rights, but do not capture the specific normative demand for a legal 'right to be dead' addressing generative AI resurrection.",
+      "resolved_node_id": "skp-desires-095"
+    },
+    {
+      "suggested_label": "Accidental Digital Memory Platforms",
+      "suggested_description": "A situation concept that describes how modern social media and communication platforms function as unmanaged, massive repositories of deceased users' personal data and digital identities. Encompasses: social media ghost accounts, automated digital cemeteries, platform persistence of deceased users. Excludes: intentional digital memorialization services, dedicated estate-planning software.",
+      "concept": "Social media platforms such as Facebook and X have become accidental digital cemeteries storing the personalities and communications of millions of deceased users without adequate technological or legal frameworks to handle post-mortem accounts.",
+      "suggested_pov": "situations",
+      "suggested_category": "Beliefs",
+      "reason": "Captures the unique socio-technical phenomenon of social media platforms transforming into digital cemeteries, which is central to debates surrounding digital afterlife governance.",
+      "Accelerationist Interpretation": "Accelerationists view platforms storing deceased users' data as expanding the digital commons and preserving human cultural output and memory within computational networks.",
+      "Safetyist Interpretation": "Safetyists emphasize that platforms storing deceased users' data without robust post-mortem governance create severe privacy vulnerabilities and emotional distress for surviving loved ones.",
+      "Skeptic Interpretation": "Skeptics argue that platforms exploiting deceased users' accounts as unmanaged digital cemeteries demonstrate corporate negligence and the erosion of personal dignity after death.",
+      "resolved_node_id": "sit-492"
+    },
+    {
+      "suggested_label": "Default Corporate Governance of Digital Remains",
+      "suggested_description": "A Belief within skeptic discourse that technology platforms assume default governing authority over user accounts and digital remains upon death through terms of service. Encompasses: intestate default control, unilateral contract terms, and corporate administrative authority over digital afterlives. Excludes: statutory fiduciary access laws and formal testamentary estate planning.",
+      "concept": "In the absence of estate planning documents or platform-specific online tools, technology companies assert default control over user accounts and digital assets through their terms of service. Because most individuals die intestate, this dynamic grants large technology corporations implicit administrative governance over the digital afterlife, replacing public legal standards with private corporate policies designed to benefit the platform.",
+      "suggested_pov": "skeptic",
+      "suggested_category": "Beliefs",
+      "reason": "Existing taxonomy nodes address terms of service as consent-washing or contractual privacy violations, but do not specifically capture the structural governance vacuum where platforms become default administrators of digital remains upon a user's death.",
+      "resolved_node_id": "skp-beliefs-320"
+    },
+    {
+      "suggested_label": "Postmortem Right to Delete Digital Data",
+      "suggested_description": "A Desire within skeptic discourse that advocates for granting estate fiduciaries a time-limited statutory right to delete personal data stored in online environments. Encompasses: twelve-month deletion windows, estate administration integration, and prevention of posthumous digital exploitation. Excludes: broad postmortem privacy torts and commercial publicity rights.",
+      "concept": "The document proposes a specific legal mechanism allowing decedents and their estate representatives to exercise a time-limited right to delete personal data stored online within a twelve-month window. This addresses the inadequacy of traditional tort and property law, which fails to protect digital remains or provide standing for deceased persons. By grounding the right in quasi-property and dignity frameworks similar to the law of human remains, the concept bridges estate administration and digital privacy without creating overly expansive commercial restrictions.",
+      "suggested_pov": "skeptic",
+      "suggested_category": "Desires",
+      "reason": "Current taxonomy nodes cover general privacy and right-to-be-forgotten principles for living users, but lack a specific node addressing the intersection of estate administration, fiduciaries, and postmortem data deletion.",
+      "resolved_node_id": "skp-desires-096"
+    },
+    {
+      "suggested_label": "Post-Mortem Digital Resurrection Rights",
+      "suggested_description": "A Belief within safetyist and skeptic discourse that post-mortem privacy and publicity rights must be balanced against collective data realities and First Amendment protections. Encompasses: Digital afterlife regulation, estate planning restrictions on AI avatars, and non-commercial digital re-enactments. Excludes: Commercial misappropriation of likeness during life.",
+      "concept": "The document explores the complex legal and ethical implications of using generative AI to create digital resurrections of deceased individuals using saved texts, emails, and media. It analyzes whether estates should be permitted to use boilerplate will provisions or broad right-of-publicity statutes to prohibit non-commercial digital recreations. The analysis concludes that post-mortem rights face insurmountable dilemmas regarding non-excludability of shared data, lack of actionable harm, and constitutional threats to free expression.",
+      "suggested_pov": "situations",
+      "suggested_category": "Beliefs",
+      "reason": "Addresses the intersection of estate law, digital afterlife technologies, and First Amendment speech protections which is not fully captured by existing taxonomy nodes.",
+      "Accelerationist Interpretation": "Accelerationists would view post-mortem digital resurrection restrictions as reactionary obstacles to technological progress, arguing that AI avatars of the deceased expand human consciousness, preserve cultural memory, and democratize digital legacy creation without causing tangible harm.",
+      "Safetyist Interpretation": "Safetyists would emphasize that the proliferation of unconstrained digital replicas risks psychological harm to surviving family members and erodes relational boundaries, necessitating careful statutory safeguards and consent mechanisms before digital resurrection is deployed.",
+      "Skeptic Interpretation": "Skeptics would argue that expansive post-mortem publicity rights primarily serve as corporate or estate-controlled vetoes over public culture, threatening the public domain and ignoring the collective, non-rivalrous nature of shared digital communications.",
+      "resolved_node_id": "sit-493"
+    }
+  ],
+  "empty_cells": []
+}

@@ -1,0 +1,260 @@
+{
+  "debate_id": "bd30f229-5a0b-4465-b4a9-64cdfa04232a",
+  "debate_title": "Has AI measurably increased productivity in the firms tha...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether iterative, post-deployment updating resolves integration friction faster and more efficiently than pre-emptive compliance reviews.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Iterative post-deployment updating resolves integration friction forty percent faster than pre-emptive reviews by removing administrative bottlenecks."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Iterative patch speeds only capture superficial surface corrections while masking downstream data corruption and concurrency bugs in operational databases."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-286",
+        "saf-beliefs-207",
+        "saf-intentions-112",
+        "sit-375",
+        "sit-227",
+        "acc-intentions-027",
+        "acc-beliefs-043",
+        "acc-intentions-086",
+        "sit-063",
+        "saf-desires-004"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether enterprise software automation delivers net productivity gains exceeding thirty percent or merely shifts error-correction labor onto front-line workers.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Workflow automation delivers net productivity gains exceeding thirty percent across wage and white-collar sectors by eliminating repetitive tasks."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Purported productivity gains vanish when factoring in the downstream hours spent by front-line staff reconciling mismatched database records and fixing automated errors."
+        }
+      ],
+      "linkedNodes": [
+        "skp-beliefs-204",
+        "skp-beliefs-026",
+        "skp-intentions-146",
+        "acc-intentions-027",
+        "acc-beliefs-043",
+        "acc-intentions-086",
+        "sit-063",
+        "skp-beliefs-227",
+        "sit-292",
+        "acc-desires-037"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "saf-beliefs-207",
+      "nodeLabel": "AI Dependency Creates a Reinforcing Cycle of Skill Atrophy and Increased Reliance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-204",
+      "nodeLabel": "AI-Driven Productivity Ratchet Intensifies Work Without Reducing Labor Burdens",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-146",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-292",
+      "nodeLabel": "Many Eyes Theory",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-286",
+      "nodeLabel": "Unmeasured Benefits Are Deployer Claims, Not Evidence",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-112",
+      "nodeLabel": "Add Deliberate Speed Bumps to AI-Assisted Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-375",
+      "nodeLabel": "Amdahl's Law in AI Organizations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-227",
+      "nodeLabel": "Governance Mirage",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-026",
+      "nodeLabel": "Human-in-the-Loop Safeguards Fail Because Automation Erodes the Skills They Require",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-086",
+      "nodeLabel": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-063",
+      "nodeLabel": "Regulatory Fragmentation and Cost Burden",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-024",
+      "nodeLabel": "Treating Missing AI Documentation as a Safety Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-227",
+      "nodeLabel": "Rent-Dissipating Automation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-037",
+      "nodeLabel": "Maximize AI Capability Growth by Removing All Scaling Constraints",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-041",
+      "nodeLabel": "Defend the Individual Right to Modify One's Own Biology and Mind",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-008",
+      "nodeLabel": "Precarious Human Labor Behind the Automation Facade",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-042",
+      "nodeLabel": "AI Is Reshaping Work in Multiple Ways, Not Simply Eliminating Jobs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-052",
+      "nodeLabel": "High-Stakes Professions Face Accelerated Skill Decay When AI Handles Core Tasks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-027",
+      "nodeLabel": "Humans Systematically Over-Trust AI Outputs Even When Wrong",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-075",
+      "nodeLabel": "Employees Experience AI Integration as Something Done to Them, Not With Them",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-043",
+      "nodeLabel": "Reliance on AI Degrades Human Critical Thinking and Decision-Making",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-202",
+      "nodeLabel": "AI Inverts Historical Automation by Displacing Cognitive Workers First",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-052",
+      "nodeLabel": "AI-Induced Skill Convergence",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether iterative, post-deployment updating resolves integration friction faster and more efficiently than pre-emptive compliance reviews.",
+      "prevails": "C2",
+      "rationale": "The safetyist position is stronger because it accounts for systemic concurrency bugs and data corruption that speed metrics miss entirely. C1 measures only deployment speed while ignoring downstream system failures.",
+      "whatWouldChange": "Enterprise database audits proving that iterative patches resolve errors without generating hidden downstream maintenance tasks for staff.",
+      "claimIds": [
+        "C1",
+        "C2"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: undefined"
+      ]
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether enterprise software automation delivers net productivity gains exceeding thirty percent or merely shifts error-correction labor onto front-line workers.",
+      "prevails": "C4",
+      "rationale": "The skeptic position prevails on specificity and scope because it measures total net labor hours rather than isolated software deployment speeds. C3 fails to account for the time workers spend fixing automated database errors.",
+      "whatWouldChange": "Independent operational data showing net labor time decreases across entire departments after software automation.",
+      "claimIds": [
+        "C3",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: undefined"
+      ]
+    }
+  ],
+  "concepts": []
+}

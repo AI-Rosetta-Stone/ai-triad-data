@@ -1,0 +1,309 @@
+{
+  "debate_id": "c9550682-3912-4045-a0fb-8adef63f7211",
+  "debate_title": "Should frontier AI developers be legally liable for harms...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether a training compute threshold of ten to the twenty-sixth integer operations effectively separates unmanageable frontier risks from benign open-source development without creating regulatory evasion paths.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "A compute threshold of 10^26 integer operations successfully isolates unmanageable optimization dynamics in frontier models while completely insulating smaller open-source researchers from compliance costs."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "A static floating-point operation ceiling is structurally obsolete due to algorithmic efficiency gains and creates regulatory evasion paths while criminalizing open-weight distribution models."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-093",
+        "acc-beliefs-074",
+        "acc-desires-039",
+        "acc-intentions-130",
+        "sit-177",
+        "saf-beliefs-141",
+        "saf-beliefs-249",
+        "sit-476",
+        "saf-beliefs-093",
+        "saf-beliefs-004"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether upstream base model developers or downstream deployers bear primary responsibility for the operational behavior and safety risks of deployed artificial intelligence systems.",
+      "bdiLayer": "intention",
+      "resolvability": "requires_term_clarification",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Base models are structural precursors whose pre-training data and representation geometry permanently anchor behavioral priors that downstream fine-tuning cannot excise."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Base models are blank computational substrates that acquire their behavior entirely through downstream fine-tuning, retrieval augmentation, and prompt engineering performed by deployers."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-093",
+        "acc-beliefs-074",
+        "acc-desires-039",
+        "acc-intentions-130",
+        "sit-177",
+        "saf-beliefs-141",
+        "saf-beliefs-249",
+        "sit-476",
+        "saf-beliefs-093",
+        "saf-beliefs-004"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether environmental remediation liability frameworks can be effectively adapted to algorithmic systems given the evidentiary differences between physical toxic waste and proprietary trade secrets.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Statutory frameworks modeled after environmental cleanup laws automatically attach liability to hazardous releases and bypass opacity hurdles once damage thresholds are crossed."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Environmental analogies fail because physical chemical spills leave measurable residue in soil, whereas algorithmic harms rely on proprietary trade secrets that courts routinely protect from discovery."
+        }
+      ],
+      "linkedNodes": [
+        "sit-177",
+        "saf-beliefs-141",
+        "saf-beliefs-249",
+        "sit-476",
+        "skp-beliefs-047",
+        "skp-beliefs-102",
+        "skp-intentions-141",
+        "sit-166",
+        "saf-beliefs-093",
+        "saf-beliefs-004"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "sit-177",
+      "nodeLabel": "Allocation of Legal Liability in Multi-Tiered AI Lifecycles",
+      "refCount": 5,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-166",
+      "nodeLabel": "AI Accountability and Liability Frameworks",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-047",
+      "nodeLabel": "AI Systems Expose Fundamental Gaps in Legal Accountability Frameworks",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-102",
+      "nodeLabel": "Evidentiary Failure of Traditional Litigation Against Opaque AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-093",
+      "nodeLabel": "Downstream Liability Bounded by What the Deployer Can Detect and Price",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-074",
+      "nodeLabel": "Liability Law Ignores AI's Diffuse Statistical Benefits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-039",
+      "nodeLabel": "Democratize AI Through Open-Source Proliferation to Prevent Oligarchic Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-130",
+      "nodeLabel": "Bifurcating Upstream Interface Access from Downstream Tort Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-141",
+      "nodeLabel": "AI Governance Relies on Policies It Cannot Actually Enforce",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-093",
+      "nodeLabel": "Proxy Optimization Reliably Produces Outcomes Nobody Actually Wanted",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-004",
+      "nodeLabel": "Human Values Cannot Be Safely Encoded as Reward Functions",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-147",
+      "nodeLabel": "Enforcing Parent Strict Liability Paired with Algorithmic Disgorgement for Irreversible Harms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-029",
+      "nodeLabel": "Victims of AI Harm Cannot Access the Technical Knowledge Needed to Prove Causation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-111",
+      "nodeLabel": "Domain-Specific Interpretability Standards under Products Liability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-022",
+      "nodeLabel": "Lobby for International Legal Shields for Open-Weight AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-210",
+      "nodeLabel": "AI Liability and Legal Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-115",
+      "nodeLabel": "Assign Trust Duties to Every Actor in the AI Supply Chain",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-210",
+      "nodeLabel": "Legal and Regulatory Frameworks for AI Accountability",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-069",
+      "nodeLabel": "Grounding AI Safety in Legal Compliance Rather Than Abstract Ethics",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-094",
+      "nodeLabel": "Frontier AI Could Cause Irreversible Civilizational Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-189",
+      "nodeLabel": "Vendor Licensing Agreements Prevent Independent AI System Assessment",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-164",
+      "nodeLabel": "Companies Use Narrow Audits to Deflect Meaningful AI Oversight",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether a training compute threshold of ten to the twenty-sixth integer operations effectively separates unmanageable frontier risks from benign open-source development without creating regulatory evasion paths.",
+      "prevails": "undecidable",
+      "criterion": "empirical_evidence",
+      "rationale": "Neither side provides empirical proof regarding future algorithmic efficiency gains or the exact volume of compute used by malicious actors. The safetyist position correctly identifies current operational limits, but the skeptic position correctly notes that static compute ceilings fail to capture cumulative downstream harms from smaller models.",
+      "whatWouldChange": "Longitudinal audits of open-weight models trained below the compute ceiling that subsequently cause measurable societal harm would tip the balance.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether upstream base model developers or downstream deployers bear primary responsibility for the operational behavior and safety risks of deployed artificial intelligence systems.",
+      "prevails": "C1",
+      "criterion": "logical_validity",
+      "rationale": "The accelerationist argument draws a valid structural parallel to Section 230 protections for telecommunications infrastructure providers. Holding base model builders liable for every downstream modification ignores the reality that fine-tuning and prompt engineering fundamentally alter system outputs.",
+      "whatWouldChange": "Definitive technical proof that pre-training representation geometry permanently locks in hazardous behaviors despite any downstream fine-tuning would overturn this conclusion.",
+      "claimIds": [
+        "C1",
+        "C3"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether environmental remediation liability frameworks can be effectively adapted to algorithmic systems given the evidentiary differences between physical toxic waste and proprietary trade secrets.",
+      "prevails": "C5",
+      "criterion": "specificity",
+      "rationale": "The skeptic position offers superior specificity by identifying the exact legal bottleneck that renders environmental analogies weak: proprietary trade secret protections prevent plaintiffs from accessing internal model weights. Statutory borrowing of toxic waste laws fails without a corresponding mechanism to pierce corporate secrecy during legal discovery.",
+      "whatWouldChange": "Court precedents establishing mandatory discovery rights for proprietary AI model weights and training data would invalidate the skeptic concern.",
+      "claimIds": [
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

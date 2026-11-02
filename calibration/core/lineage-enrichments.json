@@ -675,6 +675,12 @@
     "url": "https://en.wikipedia.org/wiki/Bernard_Stiegler",
     "url_status": 200
   },
+  "Bioethics and Personal Autonomy": {
+    "category": "ethical_framework",
+    "description": "Bioethics is a multidisciplinary field addressing ethical issues emerging from advances in biology and medicine, heavily anchored in the principle of personal autonomy. Developed by philosophers, theologians, and medical ethicists—such as Tom Beauchamp and James Childress with their foundational principles of biomedical ethics—the discipline prioritizes patient self-determination, informed consent, and bodily integrity.\n\nIn AI governance, bioethics and personal autonomy provide essential guardrails for medical AI, algorithmic triage, and human-computer interfaces. As algorithms make diagnostic decisions or influence human behavior through persuasive design, bioethical frameworks ensure that individuals retain agency, ultimate decision-making power, and protection against unwarranted paternalism or coercion.",
+    "url": "https://en.wikipedia.org/wiki/Bioethics",
+    "url_status": 200
+  },
   "Bioinformatics": {
     "category": "academic_discipline",
     "description": "Bioinformatics is an interdisciplinary field that develops methods and software tools for understanding complex biological data, using techniques from computer science, mathematics, statistics, and engineering. Historically accelerated by the Human Genome Project, bioinformatics enables researchers to analyze vast genomic, proteomic, and metabolomic datasets, drastically transforming modern medicine, drug discovery, and molecular biology.\n\nIn contemporary AI policy discussions, bioinformatics represents one of the most prominent domains where artificial intelligence delivers transformative societal benefits alongside acute catastrophic risks. Advanced AI systems like AlphaFold have revolutionized protein folding, but the exact same computational pipelines can be repurposed to discover novel chemical and biological weapons. As a result, bioinformatics risk management, dual-use screening protocols, and genetic data governance are frequently studied by policymakers as test cases for broader AI safety and biosecurity regulations.",
@@ -1378,6 +1384,12 @@
   "Corporate Law": {
     "category": "legal_framework",
     "description": "Corporate law encompasses the legal rules and governance structures governing the formation, funding, operation, and dissolution of corporations, focusing heavily on fiduciary duties, shareholder primacy versus stakeholder capitalism, and corporate liability. Historically rooted in balancing capital accumulation with public accountability, corporate law dictates how executives must weigh profit against legal and social obligations.\n\nIn AI governance, corporate law is increasingly central as artificial intelligence labs shift from nonprofit research structures (such as OpenAI's original governance model) to commercial, for-profit entities backed by billions in venture capital. Scholars and policymakers debate whether existing fiduciary duties force AI executives to cut corners on safety in pursuit of profit, prompting proposals for new corporate forms—such as public benefit corporations or legally mandated 'responsible scaling policies'—that bake safety commitments into corporate charters.",
+    "url": "https://en.wikipedia.org/wiki/Corporate_law",
+    "url_status": 200
+  },
+  "Corporate Law Scholarship": {
+    "category": "academic_discipline",
+    "description": "Corporate law scholarship examines the legal structures, theories, and economic incentives governing business corporations, including board duties, stakeholder rights, and organizational design. Influenced by schools of thought such as law and economics, agency theory, and progressive corporate law, scholars continually re-evaluate the social obligations of business entities.\n\nWithin AI governance, corporate law scholarship is essential for understanding how to compel AI labs and tech giants to internalize the societal risks of powerful models. Scholars explore mechanisms such as public benefit corporation structures, expanded director liability for AI harms, and internal compliance mandates to align corporate incentives with public safety.",
     "url": "https://en.wikipedia.org/wiki/Corporate_law",
     "url_status": 200
   },
@@ -2191,11 +2203,23 @@
     "url": "https://en.wikipedia.org/wiki/Critical_theory",
     "url_status": 200
   },
+  "Digital Rights and Cyberlaw": {
+    "category": "legal_framework",
+    "description": "Digital rights and cyberlaw constitute the legal and policy framework governing cyberspace, digital communications, intellectual property, and electronic commerce. Emerging in the 1990s with the commercialization of the internet, pioneering legal thinkers like Lawrence Lessig argued that 'code is law,' emphasizing that software architecture regulates human behavior just as traditional statutes do.\n\nFor AI governance, digital rights and cyberlaw provide the immediate doctrinal foundation for regulating algorithmic systems. Debates regarding content moderation algorithms, algorithmic transparency, copyright infringement by generative AI models, and open-source AI licensing are all direct continuations of cyberlaw's core inquiries into how law should shape digital architecture.",
+    "url": "https://en.wikipedia.org/wiki/Cyberlaw",
+    "url_status": 200
+  },
   "Digital divide sociological literature": {
     "category": "social_theory",
     "description": "The digital divide sociological literature investigates the disparities in access to, use of, and literacy regarding information and communication technologies between socioeconomic classes, geographic regions, racial groups, and nations. Scholars examine how these gaps exacerbate broader economic and educational inequalities.\n\nIn the era of artificial intelligence, this literature has evolved into analyses of the 'AI divide.' Policymakers and sociologists use this framework to examine how unequal access to compute infrastructure, high-quality training data, and AI literacy risks leaving marginalized populations behind while cementing economic dominance for well-resourced technology monopolies.",
     "url": "https://en.wikipedia.org/wiki/Digital_divide",
     "url_status": 200
+  },
+  "Digital estate planning jurisprudence": {
+    "category": "legal_framework",
+    "description": "Digital estate planning jurisprudence is an emerging legal field addressing how individuals can plan for, control, and dispose of their digital assets, online accounts, and virtual identities upon incapacity or death. It synthesizes traditional estate law with cyberlaw, platform terms of service, and privacy statutes.\n\nIn AI policy, this jurisprudence is increasingly vital due to the proliferation of AI-driven digital legacies, such as interactive chatbots trained on a deceased person's writings or deepfake avatars. It provides the legal architecture needed to balance family inheritance rights, platform control, and the posthumous privacy of individuals whose data fuels generative AI models.",
+    "url": null,
+    "url_status": "cleared"
   },
   "Digital ethics and safety": {
     "category": "ethical_framework",
@@ -2677,6 +2701,18 @@
     "url": "https://en.wikipedia.org/wiki/Frame_analysis",
     "url_status": 200
   },
+  "Estate Law": {
+    "category": "legal_framework",
+    "description": "Estate law is the branch of jurisprudence that manages the legal mechanisms for handling a person's property and obligations during their lifetime and after death. This body of law dictates how probate courts operate, how wills and trusts are enforced, and how property rights are transferred across generations.\n\nAs individuals accumulate extensive digital footprints, cryptocurrencies, cloud storage accounts, and personalized AI agents, estate law must adapt to manage these intangible assets. AI governance intersects with estate law when determining ownership rights, access protocols, and the legal status of digital remainders left behind by deceased users.",
+    "url": "https://en.wikipedia.org/wiki/Estate_(law)",
+    "url_status": 200
+  },
+  "Estate Law and Posthumous Rights": {
+    "category": "legal_framework",
+    "description": "Estate law and posthumous rights govern the management, transfer, and protection of a person's property, assets, and legal interests after death. Historically rooted in property and probate law, these frameworks dictate how wills are executed, how inheritance functions, and the extent to which rights such as publicity or reputation survive an individual's demise.\n\nIn the era of artificial intelligence, estate law intersects sharply with digital assets and synthetic media. Questions concerning who controls a deceased person's digital legacy, social media accounts, and AI-generated digital replicas or voice clones make estate law a vital frontier for preventing unauthorized posthumous exploitation and protecting digital dignity.",
+    "url": "https://en.wikipedia.org/wiki/Estate_(law)",
+    "url_status": 200
+  },
   "Ethnographic science and technology studies": {
     "category": "academic_discipline",
     "description": "Ethnographic science and technology studies (STS) is an interdisciplinary field that uses qualitative, immersive field methods—such as participant observation and deep interviews—to examine how science and technology are produced, embedded, and contested within specific cultural, social, and political contexts. Emerging from the sociology of scientific knowledge, STS scholars like Bruno Latour and Sheila Jasanoff demonstrated that technology is not neutral, but rather embodies the power dynamics, assumptions, and institutional norms of its creators.\n\nFor AI governance, ethnographic STS is indispensable for demystifying the 'black box' of AI development. It shifts the regulatory focus from abstract technical metrics to the lived realities of data laborers, software engineers, and impacted communities, highlighting how structural biases and geopolitical interests are coded into AI systems.",
@@ -2935,6 +2971,12 @@
     "url": "https://en.wikipedia.org/wiki/Feminist_theory",
     "url_status": 200
   },
+  "Fiduciary law principles": {
+    "category": "legal_framework",
+    "description": "Fiduciary law principles govern relationships where one party must act with undivided loyalty and care in the best interests of another. Originating in equity and trusts, key legal theorists have expanded these duties beyond traditional financial trustees to doctors, lawyers, and corporate directors. Fiduciaries are held to a higher standard of conduct than arm's-length market participants, requiring the minimization of conflicts of interest.\n\nFor AI governance, fiduciary principles offer a compelling regulatory model for high-stakes technologies. Scholars argue that AI developers, data brokers, and platforms should act as 'information fiduciaries' toward users, legally binding them to protect user data and prioritize user well-being over algorithmic engagement manipulation.",
+    "url": "https://en.wikipedia.org/wiki/Fiduciary",
+    "url_status": 200
+  },
   "Fiduciary law tradition from Keech v. Sandford (1726) through Tamar Frankel's fiduciary theory": {
     "category": "legal_framework",
     "description": "The fiduciary law tradition establishes the legal and ethical obligation for one party (the fiduciary) to act exclusively in the best interest of another (the beneficiary) when there is a significant asymmetry of power, expertise, or trust. Originating in English equity jurisprudence with landmark cases like *Keech v. Sandford* (1726) regarding trustee duties, the doctrine was systematically expanded by modern legal scholars like Tamar Frankel to cover various professional relationships where vulnerability and specialized knowledge intersect.\n\nFiduciary theory mandates strict duties of loyalty, care, and the avoidance of conflicts of interest. It moves beyond standard contract law by recognizing that formal consent is insufficient when parties are structurally unequal.\n\nIn AI governance, this tradition has emerged as a compelling framework for regulating AI developers, data brokers, and deployment platforms. Proponents argue that because ordinary users and even corporate clients cannot comprehend complex AI systems, foundational model providers and AI practitioners should be legally classified as fiduciaries, bound to prioritize user welfare over commercial optimization.",
@@ -3029,6 +3071,12 @@
     "category": "philosophical_movement",
     "description": "French philosopher Michel Foucault argued that power and knowledge are inextricably intertwined; power produces knowledge, and knowledge simultaneously induces and reinforces effects of power. Rather than viewing power as solely repressive or top-down (held by a sovereign or state), Foucault analyzed power as diffuse, systemic, and embedded in discourse and institutional practices.\n\nThis analytical lens is vital for AI governance, particularly in debates over algorithmic bias, surveillance, and automated decision-making systems. AI systems do not merely process objective data; they encode specific regimes of truth, classifying populations and reinforcing institutional norms. Policymakers use this framework to interrogate how algorithmic scoring and categorization systems exercise disciplinary power over citizens.",
     "url": "https://en.wikipedia.org/wiki/Power/knowledge",
+    "url_status": 200
+  },
+  "Fourth Amendment jurisprudence (e.g., Katz v. United States)": {
+    "category": "legal_framework",
+    "description": "Fourth Amendment jurisprudence encompasses the legal principles and court interpretations governing search and seizure in the United States, anchored by landmark rulings like Katz v. United States (1967). Katz established the 'reasonable expectation of privacy' test, shifting the constitutional focus from physical trespass to the protection of private communications and spaces. Key legal scholars and jurists have continuously adapted these doctrines to meet technological advancements.\n\nIn the context of AI governance, this jurisprudence is critical for evaluating government surveillance, predictive policing algorithms, and law enforcement access to massive datasets. As AI systems ingest biometric data, location tracking, and digital footprints, courts grapple with whether automated profiling and mass data aggregation violate constitutional protections against unreasonable searches.",
+    "url": "https://en.wikipedia.org/wiki/Katz_v._United_States",
     "url_status": 200
   },
   "Francis Fukuyama's 'Political Order and Political Decay' (vetocracy concept)": {
@@ -3679,6 +3727,12 @@
     "url": "https://en.wikipedia.org/wiki/Information_asymmetry",
     "url_status": 200
   },
+  "Information fiduciary framework": {
+    "category": "legal_framework",
+    "description": "The information fiduciary framework is a legal and policy theory proposed by legal scholars like Jack Balkin and Jonathan Zittrain, which suggests that online service providers and AI developers should owe legal duties of loyalty, care, and confidentiality to their users. Analogous to traditional fiduciaries like doctors or lawyers, information fiduciaries would be legally barred from using consumer data in ways that harm the user, even in the absence of explicit contractual consent.\n\nThis framework is a cornerstone of modern AI governance discourse, offering an alternative to purely notice-and-consent models of data privacy. It addresses the inherent power asymmetry between platform giants and individual users, guiding regulations on how AI systems collect, process, and monetize personal data.",
+    "url": null,
+    "url_status": "cleared"
+  },
   "Information flow control": {
     "category": "technology_movement",
     "description": "Information flow control is a security paradigm that tracks and regulates how data propagates through a system, ensuring that sensitive information does not leak to unauthorized entities or unclassified channels. Rooted in formal computer science and lattice-based access control models, it prevents illicit data exfiltration.\n\nIn AI policy, information flow control is central to debates surrounding data privacy, intellectual property protection, and the prevention of proliferation risks. As AI models ingest massive datasets and subsequently 'memorize' sensitive information, information flow models help policymakers design frameworks for data sovereignty, privacy compliance, and trade secret protection.",
@@ -3961,6 +4015,12 @@
     "category": "legal_framework",
     "description": "K. Sabeel Rahman's work examines the intersection of administrative law, democratic theory, and economic inequality, focusing heavily on how powerful private actors capture regulatory agencies to serve corporate interests rather than the public good.\n\nDrawing on American legal realism and democratic experimentalism, Rahman critiques traditional technocratic governance and argues for structural reforms that empower marginalized communities and democratize administrative institutions.\n\nIn AI governance, Rahman's insights are critical for evaluating proposals for regulatory oversight bodies. Policymakers must guard against 'AI regulatory capture,' ensuring that standard-setting bodies and ethics boards are not entirely dominated by the very tech conglomerates they are charged with overseeing.",
     "url": "https://en.wikipedia.org/wiki/Administrative_law",
+    "url_status": 200
+  },
+  "Kantian dignity frameworks": {
+    "category": "ethical_framework",
+    "description": "Kantian dignity frameworks are rooted in the moral philosophy of Immanuel Kant, who argued that rational human beings possess an intrinsic, absolute worth—dignity—rather than a relative market value. A central maxim of this philosophy is that humans must always be treated as ends in themselves, never merely as means to an end.\n\nThese frameworks are foundational to AI ethics and human rights discourse, particularly in opposition to surveillance capitalism, mass profiling, and autonomous systems that reduce humans to data points for optimization. Kantian ethics underpins policies that demand human oversight in algorithmic decision-making, protect human agency, and reject systems that instrumentalize people.",
+    "url": "https://en.wikipedia.org/wiki/Dignity",
     "url_status": 200
   },
   "Karl Popper's falsificationism and the demarcation criterion from The Logic of Scientific Discovery": {
@@ -4745,6 +4805,12 @@
     "url": null,
     "url_status": "cleared"
   },
+  "Mortuary ethics and jurisprudence": {
+    "category": "ethical_framework",
+    "description": "Mortuary ethics and jurisprudence comprise the philosophical and legal traditions governing the treatment of corpses, burial practices, funeral industries, and the cultural dignity accorded to human remains. Historically guided by religious traditions, common law customs, and public health regulations, these norms establish society's baseline respect for the dead.\n\nIn the context of AI governance, mortuary ethics provides a conceptual vocabulary for addressing the digital equivalents of desecration—such as unauthorized deepfakes, AI-generated necromancy, and the scraping of deceased individuals' data to train commercial models. It bridges traditional cultural respect for the dead with modern digital rights debates.",
+    "url": "https://en.wikipedia.org/wiki/Bioethics",
+    "url_status": 200
+  },
   "Multi-agent reinforcement learning (MARL) safety literature": {
     "category": "scientific_paradigm",
     "description": "Multi-agent reinforcement learning (MARL) safety literature is a specialized branch of artificial intelligence research that studies how multiple autonomous agents learn to interact, compete, or cooperate in shared environments while avoiding catastrophic failures, adversarial manipulation, or unintended emergent behaviors. Grounded in game theory, reinforcement learning, and control theory, this body of work addresses the complexities that arise when numerous autonomous actors—whether algorithms or automated systems—pursue potentially misaligned objectives simultaneously.\n\nFor AI governance, MARL safety is crucial for understanding systemic risks in multi-actor AI deployments, such as algorithmic flash crashes in financial markets, adversarial escalation in autonomous defense systems, and coordination failures among autonomous infrastructure managers. Policymakers draw on this literature to design regulatory frameworks that govern multi-agent interactions, establish safety guardrails for competitive algorithmic environments, and prevent harmful emergent dynamics that no single designer intended or foresaw.",
@@ -5357,6 +5423,12 @@
     "url": "https://en.wikipedia.org/wiki/Platform_economy",
     "url_status": 200
   },
+  "Political Economy of Law": {
+    "category": "economic_theory",
+    "description": "The political economy of law examines how legal rules and institutions shape—and are shaped by—underlying economic power dynamics and political interests. Drawing from legal realism, critical legal studies, and Marxist or institutional economics, this perspective analyzes law not as a neutral set of rules, but as an instrument that distributes wealth, power, and privilege.\n\nIn AI policy, the political economy of law helps explain why AI development is concentrated within a handful of monopolistic technology firms. It informs governance debates by highlighting how intellectual property laws, antitrust enforcement, and data subsidies entrench corporate power and shape the socio-economic distribution of AI's benefits and harms.",
+    "url": "https://en.wikipedia.org/wiki/Political_economy",
+    "url_status": 200
+  },
   "Political Economy of Technology": {
     "category": "social_theory",
     "description": "The political economy of technology examines how power dynamics, economic structures, class interests, and political institutions shape the creation, distribution, and societal impacts of technological innovations. Drawing from political science, sociology, and heterodox economics, this field challenges the notion of technological determinism, arguing instead that technologies embody the political and economic agendas of their creators and funders.\n\nIn AI policy debates, the political economy of technology provides a critical counterweight to purely technical or techno-optimist narratives. It directs attention to how corporate concentration, labor displacement, surveillance capitalism, and geopolitical competition shape AI development. Consequently, governance proposals informed by this perspective emphasize democratic ownership, labor rights, anti-monopoly enforcement, and the redistribution of AI-generated wealth.",
@@ -5415,6 +5487,12 @@
     "category": "scientific_paradigm",
     "description": "Pharmacovigilance involves the monitoring of drugs after they have been released to the public to detect rare or long-term side effects that were not apparent in clinical trials. Ecological validity critiques argue that controlled laboratory environments often fail to replicate the complexity of real-world usage.\n\nThis framework is increasingly applied to AI, where 'pre-deployment' testing is often insufficient to catch emergent risks. It suggests that AI governance should prioritize continuous monitoring and post-market surveillance to identify harms that only manifest when models interact with diverse, real-world populations.",
     "url": "https://en.wikipedia.org/wiki/Pharmacovigilance",
+    "url_status": 200
+  },
+  "Post-mortem privacy scholarship": {
+    "category": "academic_discipline",
+    "description": "Post-mortem privacy scholarship explores the ethical and legal dimensions of maintaining an individual's privacy rights after death. Rooted in philosophical debates about dignity, harm to reputation, and cultural norms surrounding the deceased, legal scholars debate whether privacy rights terminate at death or persist in some form.\n\nThis scholarship has gained significant urgency in AI governance due to the rise of generative AI models capable of resurrecting deceased individuals as synthetic voice clones, video avatars, or interactive conversational agents without family or estate consent. It informs policy discussions on creating legal protections against the unauthorized commercialization and manipulation of a deceased person's likeness and data.",
+    "url": "https://en.wikipedia.org/wiki/Right_to_privacy",
     "url_status": 200
   },
   "Post-structuralism": {
@@ -5555,6 +5633,12 @@
     "category": "technology_movement",
     "description": "Privacy engineering integrates privacy protections directly into the technical design of systems, rather than treating privacy as an afterthought or a legal compliance issue.\n\nFor AI policy, this means embedding privacy-enhancing technologies (PETs) like differential privacy or federated learning into the AI development lifecycle. By focusing on technical intervention points, privacy engineering provides a proactive way to mitigate privacy risks, making it a key component of 'privacy by design' regulatory mandates.",
     "url": "https://en.wikipedia.org/wiki/Privacy_engineering",
+    "url_status": 200
+  },
+  "Privacy Rights (General)": {
+    "category": "legal_framework",
+    "description": "Privacy rights encompass the legal and philosophical entitlements of individuals to determine when, how, and to what extent information about them is communicated to others. Rooted in early legal scholarship, notably Samuel Warren and Louis Brandeis's 1890 Harvard Law Review article 'The Right to Privacy,' the concept has evolved through international human rights declarations and comprehensive data protection statutes.\n\nIn contemporary AI policy, privacy rights form the baseline defense against pervasive surveillance, data harvesting, and profiling. Ensuring that foundational privacy principles like data minimization, consent, and the right to be forgotten are respected remains a central challenge for the deployment of machine learning models that thrive on vast quantities of personal data.",
+    "url": "https://en.wikipedia.org/wiki/Right_to_privacy",
     "url_status": 200
   },
   "Privacy Theory": {
@@ -6653,6 +6737,12 @@
     "category": "political_philosophy",
     "description": "The separation of powers doctrine is a constitutional principle that divides the governance of a state into distinct branches—typically the executive, legislative, and judicial—each with separate powers and responsibilities, designed to prevent the concentration of power and ensure checks and balances.\n\nThis doctrine is central to AI governance debates regarding the delegation of regulatory authority to technical expert agencies, the rise of algorithmic executive governance, and the judiciary's capacity to review complex technical decisions. Policymakers must navigate this doctrine carefully when empowering agencies to regulate fast-moving AI technologies without violating constitutional constraints.",
     "url": "https://en.wikipedia.org/wiki/Separation_of_powers",
+    "url_status": 200
+  },
+  "Shareholder Primacy Theory": {
+    "category": "economic_theory",
+    "description": "Shareholder primacy is a corporate governance theory asserting that managers' primary fiduciary duty is to maximize financial returns for the corporation's shareholders. Formulated prominently by economists like Milton Friedman in the 20th century, this view posits that social responsibility is best handled through market mechanisms, while corporate boards should focus relentlessly on profit.\n\nThis theory is highly influential in AI governance debates regarding corporate accountability and AI safety. Critics argue that shareholder primacy incentivizes tech companies to cut corners on safety testing, data privacy, and ethical auditing to rapidly deploy lucrative AI products, highlighting a tension between profit maximization and societal well-being.",
+    "url": "https://en.wikipedia.org/wiki/Shareholder_primacy",
     "url_status": 200
   },
   "Sherry Turkle's work on relational artifacts and digital intimacy": {

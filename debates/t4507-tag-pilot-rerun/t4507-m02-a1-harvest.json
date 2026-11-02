@@ -1,0 +1,280 @@
+{
+  "debate_id": "25fb1b8a-695b-4576-bf2a-dff868599845",
+  "debate_title": "Should the largest AI model training runs require a gover...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether pre-deployment licensing regimes can be executed with sufficient speed to match rapid algorithmic development cycles without cementing market consolidation.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Automated testing tools and dynamic tiering enable fast, scalable oversight that prevents irreversible risks without causing prohibitive regulatory delay."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Any centralized pre-deployment review structure creates fatal latency that stifles permissionless innovation and medical development."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-desires-006",
+        "saf-intentions-159",
+        "sit-170",
+        "acc-beliefs-083",
+        "acc-intentions-002",
+        "acc-desires-027",
+        "acc-beliefs-034",
+        "acc-intentions-061",
+        "saf-beliefs-131"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether hardware-based governance mechanisms address broader socio-economic and environmental harms associated with model training or merely reinforce corporate concentration.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Compute governance is a necessary safety gate to prevent catastrophic dual-use deployment regardless of secondary economic impacts."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Licensing frameworks that ignore labor exploitation, regional resource extraction, and corporate market power serve primarily as administrative upgrades for industrial cartels."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-213",
+        "saf-desires-006",
+        "saf-intentions-159",
+        "sit-170",
+        "skp-beliefs-129",
+        "skp-beliefs-164",
+        "skp-intentions-141",
+        "skp-intentions-153",
+        "saf-beliefs-131",
+        "saf-beliefs-014"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-intentions-002",
+      "nodeLabel": "Distributing Model Weights to Prevent Power Concentration",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-129",
+      "nodeLabel": "Safety Rhetoric as Infrastructure Cartel Maintenance",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-164",
+      "nodeLabel": "Companies Use Narrow Audits to Deflect Meaningful AI Oversight",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-213",
+      "nodeLabel": "Open-Weight Model Release Is an Irreversible Deployment Decision",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-006",
+      "nodeLabel": "AI Must Not Spread Beyond Human Control",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-159",
+      "nodeLabel": "Require AI Safety Standards as a Condition for Government Grants and Infrastructure Permits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-153",
+      "nodeLabel": "Implementing Performance-Gated Independent AI Auditing",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-034",
+      "nodeLabel": "AI Accountability Has a Chicken-and-Egg Problem",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-061",
+      "nodeLabel": "Argue That Scaling General Models Outperforms Building Specialized AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-131",
+      "nodeLabel": "Open-Weight Release Asymmetry and Enforcement Failure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-014",
+      "nodeLabel": "Post-Training Safety Measures Are Reliably Bypassable",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-204",
+      "nodeLabel": "Train AI on Constitutional Principles to Generalize Safety Beyond Narrow Rules",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-139",
+      "nodeLabel": "Restricting Autonomous Agent Execution via Hardware Disconnects and Blast-Radius Gates",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-284",
+      "nodeLabel": "Production Pressure Induced Safety Degradation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-231",
+      "nodeLabel": "Industrial Concentration of AI Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-022",
+      "nodeLabel": "Lobby for International Legal Shields for Open-Weight AI",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-100",
+      "nodeLabel": "Tie AI Governance Milestones to Empirical Compute Scaling Benchmarks",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-071",
+      "nodeLabel": "Quantifiable AI Harms Turn Fairness Into a Business Imperative, Not Just an Ethical One",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-190",
+      "nodeLabel": "Single Points of Control over Compute Hardware Function as Incumbent Capture Mechanisms",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether pre-deployment licensing regimes can execute quickly enough to match algorithmic development cycles without cementing market consolidation.",
+      "prevails": "C2",
+      "criterion": "specificity",
+      "rationale": "The accelerationist and skeptic claims provide concrete historical precedents, such as broadcast licensing and semiconductor supply chains. They demonstrate how static capability thresholds impose compliance costs that favor entrenched firms. The safetyist response relies on abstract tiering concepts without detailing how regulators will prevent capture.",
+      "whatWouldChange": "Empirical proof from pilot licensing programs showing that dynamic tiering successfully protects small developers from regulatory capture.",
+      "claimIds": [
+        "C1",
+        "C2",
+        "C4",
+        "C5"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether hardware-based governance mechanisms address broader socio-economic harms or merely reinforce corporate concentration.",
+      "prevails": "C7",
+      "criterion": "scope",
+      "rationale": "The skeptic position accounts for broader socio-economic considerations, including labor exploitation and resource extraction, which the safetyist compute-governance model ignores. By pointing out that hardware specifications originate from software monopolies, the skeptic successfully exposes the structural limits of purely administrative fixes.",
+      "whatWouldChange": "Evidence that hardware governance frameworks include mandatory provisions for labor protections and ecological mitigation.",
+      "claimIds": [
+        "C3",
+        "C6",
+        "C7",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

@@ -1,0 +1,276 @@
+{
+  "debate_id": "34d54f67-5127-4dbc-8376-e7ed2612a78e",
+  "debate_title": "Will generative AI raise or lower overall employment in o...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether continuous foundation model updates and weekly parameter adjustments can be subjected to static pre-deployment verification thresholds without blocking deployment velocity.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "accelerationist",
+          "stance": "Rigid verification thresholds and error ceilings freeze continuous fine-tuning pipelines and destroy the compounding productivity gains of rapid software iteration."
+        },
+        {
+          "pover": "safetyist",
+          "stance": "Automated telemetry and verifiable behavioral guardrails can scan model outputs continuously at machine speed without creating bureaucratic bottlenecks."
+        }
+      ],
+      "linkedNodes": [
+        "acc-beliefs-053",
+        "acc-intentions-082",
+        "acc-desires-026",
+        "sit-100",
+        "saf-beliefs-206",
+        "saf-desires-016",
+        "saf-desires-025",
+        "sit-353",
+        "saf-intentions-040",
+        "saf-desires-002"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether Department of Labor oversight of workplace restructuring acts as an institutional safety baseline or creates a regulatory capture mechanism for dominant software vendors.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Mandatory safety verification and human-override protocols are necessary baseline safeguards to protect workers from catastrophic systemic failures during administrative displacement."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Compliance frameworks function as a political market for coercive power that insulates incumbent monopolies and shifts administrative liability onto front-line workers."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-206",
+        "saf-desires-016",
+        "saf-desires-025",
+        "sit-353",
+        "skp-beliefs-075",
+        "skp-beliefs-255",
+        "skp-desires-081",
+        "skp-intentions-097",
+        "saf-intentions-040",
+        "saf-desires-002"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "skp-beliefs-075",
+      "nodeLabel": "Employees Experience AI Integration as Something Done to Them, Not With Them",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-beliefs-255",
+      "nodeLabel": "Political Market for Coercive Power",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-desires-081",
+      "nodeLabel": "Restructure Economic and Social Systems to Prevent AI from Deepening Inequality",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-170",
+      "nodeLabel": "Regulatory Process and Mechanisms",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-053",
+      "nodeLabel": "AI Drives Net Economic Expansion Through Cost Deflation and Value Creation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-082",
+      "nodeLabel": "Scale AI Agents from Pilots to Production",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-026",
+      "nodeLabel": "Deploying AI to Run Society at Scale",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-100",
+      "nodeLabel": "AI's Transformation of the Labor Market",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-206",
+      "nodeLabel": "Scaling AI Without Safeguards Creates a Non-Trivial Path to Irreversible Civilizational Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-016",
+      "nodeLabel": "AI Must Not Entrench Injustice or Enable Catastrophe",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-025",
+      "nodeLabel": "Fiduciary Duty Survives Automation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-353",
+      "nodeLabel": "Institutional Knowledge Erosion",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-097",
+      "nodeLabel": "Establish Independent Lifecycle Oversight Mechanisms for AI Systems",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-040",
+      "nodeLabel": "Binding Named Officers to Deployment Infrastructure",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-002",
+      "nodeLabel": "Humans Must Always Hold the Off Switch",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-115",
+      "nodeLabel": "Assign Trust Duties to Every Actor in the AI Supply Chain",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-103",
+      "nodeLabel": "Integrating AI into Business and Management",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-034",
+      "nodeLabel": "Conditioning Compute Utility Status on Ratepayer Protections and Structural Separation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-204",
+      "nodeLabel": "AI-Driven Productivity Ratchet Intensifies Work Without Reducing Labor Burdens",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-desires-028",
+      "nodeLabel": "Accelerating Core AI Capabilities",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-056",
+      "nodeLabel": "Discredit Precautionary AI Regulation as Progress-Blocking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-059",
+      "nodeLabel": "Markets Are Intelligent Systems That Optimize Resource Allocation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-004",
+      "nodeLabel": "Hard Limits on What AI Can Do",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-083",
+      "nodeLabel": "Inserting Human Judgment Where Autonomous AI Makes Consequential Choices",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-218",
+      "nodeLabel": "Complementarity Between Automation and Repression",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-039",
+      "nodeLabel": "AI Is on an Exponential Trajectory Toward Superhuman Intelligence Through Recursive Self-Improvement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-086",
+      "nodeLabel": "Deploy Autonomous AI Agents to Run Government and Business Operations",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether continuous foundation model updates and weekly parameter adjustments can be subjected to static pre-deployment verification thresholds without blocking deployment velocity.",
+      "prevails": "C12",
+      "criterion": "empirical_evidence",
+      "rationale": "The accelerationist position relies on concrete software development mechanics where continuous fine-tuning pipelines conflict with static verification gates. The safetyist claim proposes specific technical thresholds like 99.5 percent accuracy, but offers limited empirical proof that such gates accommodate weekly model iterations without stalling deployment velocity.",
+      "whatWouldChange": "Empirical deployment data showing that automated verification pipelines successfully govern weekly model updates without reducing iteration speed would overturn this advantage.",
+      "claimIds": [
+        "C11",
+        "C12"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether Department of Labor oversight of workplace restructuring acts as an institutional safety baseline or creates a regulatory capture mechanism for dominant software vendors.",
+      "prevails": "undecidable",
+      "criterion": "scope",
+      "rationale": "Both positions capture valid institutional risks without offering decisive counter-evidence. The safetyist framework successfully highlights historical precedents in aviation safety where pre-market certification established stable operating conditions. Conversely, the skeptic position correctly identifies the enforcement limits of federal agencies when monitoring decentralized cloud software tenants.",
+      "whatWouldChange": "Comparative administrative data from federal technology oversight bodies showing either successful scalable enforcement or systemic capture by incumbent vendors would resolve the conflict.",
+      "claimIds": [
+        "C2",
+        "C14"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}

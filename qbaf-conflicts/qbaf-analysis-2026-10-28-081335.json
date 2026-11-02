@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-10-28T08:13:35.8647830-04:00",
+  "claim_count": 18,
+  "edge_count": 0,
+  "qbaf_converged": true,
+  "qbaf_iterations": 1,
+  "claims": [
+    {
+      "id": "qc-1",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "GDPR Adoption and Implementation Timeline",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-2",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Introduction of the Data Care Act of 2018",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-3",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Origin of Information Fiduciary Concept",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-4",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Corporate Incorporation Jurisdictions",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-219"
+      ]
+    },
+    {
+      "id": "qc-5",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Delaware Public Benefit Corporation Statute",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-6",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Facebook 2018 Advertising Revenue Share",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-7",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Facebook Stock Decline Following Algorithm Adjustment",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-8",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Balkin and Zittrain Fiduciary Proposal",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-025",
+        "skp-beliefs-138"
+      ]
+    },
+    {
+      "id": "qc-9",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Facebook Data Access Mechanisms",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-138",
+        "skp-beliefs-228"
+      ]
+    },
+    {
+      "id": "qc-10",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Pew Research Center Survey on Facebook Data Collection Awareness",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-183",
+        "skp-beliefs-217"
+      ]
+    },
+    {
+      "id": "qc-11",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Facebook Ownership of Top Social Media Apps in 2017",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-216"
+      ]
+    },
+    {
+      "id": "qc-12",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Bundeskartellamt February 2019 Decision Against Facebook Data Combining",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-216"
+      ]
+    },
+    {
+      "id": "qc-13",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Platform User Scale in US",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-14",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "US Newsroom Employment Decline",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": []
+    },
+    {
+      "id": "qc-15",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Digital Advertising Market Concentration",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-216"
+      ]
+    },
+    {
+      "id": "qc-16",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Facebook 2018 Single Sign-On Data Breach",
+      "category": "Desires",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "saf-desires-027"
+      ]
+    },
+    {
+      "id": "qc-17",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "Supreme Court Ruling on Professional Speech",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-257"
+      ]
+    },
+    {
+      "id": "qc-18",
+      "doc_id": "skeptical-view-information-fiduciaries-2026",
+      "label": "German Antitrust Ruling on Facebook Data Collection",
+      "category": "Beliefs",
+      "base_strength": 0.5,
+      "computed_strength": 0.5,
+      "strength_delta": 0.0,
+      "linked_nodes": [
+        "skp-beliefs-170",
+        "skp-beliefs-220"
+      ]
+    }
+  ],
+  "edges": [],
+  "embedding_enabled": true,
+  "stage_b_candidates": 0,
+  "stage_b_confirmed": 0,
+  "stage_b_rejected": 0,
+  "stage_b_llm_errors": 0
+}

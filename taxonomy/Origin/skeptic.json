@@ -3,7 +3,7 @@
   "_doc": "Skeptic POV taxonomy. One file per POV camp to minimize merge conflicts.",
   "pov": "skeptic",
   "color_hex": "#F39C12",
-  "last_modified": "2026-10-24",
+  "last_modified": "2026-10-28",
   "nodes": [
     {
       "pov_tags": [
@@ -4067,11 +4067,15 @@
         "sit-460",
         "sit-473",
         "sit-474",
-        "sit-476"
+        "sit-476",
+        "sit-219",
+        "sit-365",
+        "sit-374"
       ],
       "debate_refs": [
         "fb19a588-c3a7-4935-8abe-22849004c484",
-        "ab79c76d-fe67-48d5-9af1-57e7725d8ed4"
+        "ab79c76d-fe67-48d5-9af1-57e7725d8ed4",
+        "f9c54c70-dfc3-4255-b125-0c49da39c519"
       ],
       "operationality": 5,
       "operationality_history": [
@@ -4165,6 +4169,48 @@
           "surface": "",
           "method": "embedding",
           "link_confidence": 0.5529,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:accountability_algorithmic",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.5621,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:deployment_gated",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.5743,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:governance_oversight",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.6062,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:oversight_audit",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.6702,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:regulation_precautionary",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.5801,
+          "status": "proposed"
+        },
+        {
+          "ref": "term:transparency_verification",
+          "surface": "",
+          "method": "embedding",
+          "link_confidence": 0.6252,
           "status": "proposed"
         }
       ],
@@ -12285,7 +12331,33 @@
           }
         ],
         "node_scope": "claim",
-        "aphorism": "Experience lives in hands, not text."
+        "aphorism": "Experience lives in hands, not text.",
+        "debate_tested": {
+          "tier": "cited",
+          "sort_key": 1,
+          "engagements": 1,
+          "challenges": 0,
+          "held": 0,
+          "weakened": 0,
+          "revisions": [],
+          "last_tested": "2026-10-24",
+          "description_hash": "sha256:560a759fbf44477ac436ae67582c31c380201c4764008d4737a58559e589af1e",
+          "record": [
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 1,
+                "survived": 1,
+                "died": 0
+              },
+              "concession": null
+            }
+          ]
+        }
       },
       "confidence": 0.62,
       "confidence_history": [
@@ -28597,14 +28669,14 @@
         "node_scope": "scheme",
         "aphorism": "Trust the utility, audit the power.",
         "debate_tested": {
-          "tier": "contested",
-          "sort_key": 2.99,
-          "engagements": 19,
-          "challenges": 8,
-          "held": 7,
+          "tier": "well_tested",
+          "sort_key": 3.99,
+          "engagements": 21,
+          "challenges": 9,
+          "held": 8,
           "weakened": 1,
           "revisions": [],
-          "last_tested": "2026-10-05",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:324ec2fe5159b2b10fa4806ad3cd8c29070469c6d67dfa085e635408db8a4385",
           "record": [
             {
@@ -28901,6 +28973,37 @@
                 "thrived": 1,
                 "survived": 1,
                 "died": 2
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "58fc17b8-ae41-4897-9908-611b40c310e3",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 3,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-18",
+                "strength": 0.95,
+                "scheme": "rebut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 7,
+                "died": 0
               },
               "concession": null
             }
@@ -30714,7 +30817,9 @@
         "skp-desires-080",
         "skp-desires-084",
         "skp-desires-085",
-        "skp-desires-086"
+        "skp-desires-086",
+        "skp-desires-095",
+        "skp-desires-096"
       ],
       "situation_refs": [
         "sit-262",
@@ -32184,12 +32289,12 @@
         "debate_tested": {
           "tier": "contested",
           "sort_key": 2.38,
-          "engagements": 15,
+          "engagements": 16,
           "challenges": 3,
           "held": 3,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-05-03",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:98300c565460e996fce19ab0f3d9590fab3772bba7d14d730e738ec3d8767bcb",
           "record": [
             {
@@ -32408,6 +32513,19 @@
               "claim_outcomes": {
                 "thrived": 0,
                 "survived": 0,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 1,
                 "died": 0
               },
               "concession": null
@@ -34307,12 +34425,12 @@
         "debate_tested": {
           "tier": "well_tested",
           "sort_key": 3.99,
-          "engagements": 60,
-          "challenges": 34,
-          "held": 34,
+          "engagements": 61,
+          "challenges": 35,
+          "held": 35,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-09-21",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:63ba938526e8c55d08f172eabd00a14c9e133a5a6ac031a6c5ae94f220c7fd71",
           "record": [
             {
@@ -35306,6 +35424,24 @@
               "claim_outcomes": {
                 "thrived": 1,
                 "survived": 3,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "04aae48a-4ad3-4ef4-86bc-b86ef7464af6",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-51",
+                "strength": 0.8187375,
+                "scheme": "undercut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 3,
+                "survived": 1,
                 "died": 0
               },
               "concession": null
@@ -43416,14 +43552,14 @@
         "node_scope": "claim",
         "aphorism": "Law must bind the code, not the coder.",
         "debate_tested": {
-          "tier": "contested",
-          "sort_key": 2.74,
-          "engagements": 9,
-          "challenges": 4,
-          "held": 4,
+          "tier": "well_tested",
+          "sort_key": 3.93,
+          "engagements": 11,
+          "challenges": 5,
+          "held": 5,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-03",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:2ce08c9d5507cf750eefad5cdb6fb8be12768c03f2a3c37928fb3042bddac398",
           "record": [
             {
@@ -43558,6 +43694,37 @@
               },
               "claim_outcomes": {
                 "thrived": 3,
+                "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "04aae48a-4ad3-4ef4-86bc-b86ef7464af6",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 6,
+                "survived": 0,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "58fc17b8-ae41-4897-9908-611b40c310e3",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-33",
+                "strength": 0.95,
+                "scheme": "rebut",
+                "challenger_camp": "safetyist"
+              },
+              "claim_outcomes": {
+                "thrived": 0,
                 "survived": 2,
                 "died": 0
               },
@@ -47632,13 +47799,13 @@
         "aphorism": "Audit the power, not the output.",
         "debate_tested": {
           "tier": "contested",
-          "sort_key": 2.34,
-          "engagements": 5,
-          "challenges": 3,
-          "held": 3,
+          "sort_key": 2.47,
+          "engagements": 6,
+          "challenges": 4,
+          "held": 4,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-06-06",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:61c35b0b300a3b14c01388bc05bb68ff51cfae24e2e67ecc5c2859b8f6e8b574",
           "record": [
             {
@@ -47726,6 +47893,24 @@
               },
               "claim_outcomes": {
                 "thrived": 1,
+                "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-30",
+                "strength": 0.64,
+                "scheme": "rebut",
+                "challenger_camp": "safetyist"
+              },
+              "claim_outcomes": {
+                "thrived": 0,
                 "survived": 2,
                 "died": 0
               },
@@ -51410,12 +51595,12 @@
         "debate_tested": {
           "tier": "contested",
           "sort_key": 2.3,
-          "engagements": 15,
+          "engagements": 16,
           "challenges": 3,
           "held": 3,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-05-03",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:678b94ff7ff67e54fc0808c47518d3bcf27e923bbc6bedbafc2fcbd6af0bb517",
           "record": [
             {
@@ -51658,6 +51843,19 @@
               },
               "claim_outcomes": {
                 "thrived": 2,
+                "survived": 1,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "58fc17b8-ae41-4897-9908-611b40c310e3",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 1,
                 "survived": 1,
                 "died": 0
               },
@@ -53639,7 +53837,7 @@
         "debate_tested": {
           "tier": "well_tested",
           "sort_key": 3.99,
-          "engagements": 31,
+          "engagements": 32,
           "challenges": 18,
           "held": 18,
           "weakened": 0,
@@ -54135,6 +54333,19 @@
               "strongest_attack_encountered": null,
               "claim_outcomes": {
                 "thrived": 2,
+                "survived": 0,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "04aae48a-4ad3-4ef4-86bc-b86ef7464af6",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 6,
                 "survived": 0,
                 "died": 0
               },
@@ -67626,7 +67837,33 @@
           }
         ],
         "node_scope": "scheme",
-        "aphorism": "Govern power holistically, not in silos."
+        "aphorism": "Govern power holistically, not in silos.",
+        "debate_tested": {
+          "tier": "cited",
+          "sort_key": 1,
+          "engagements": 1,
+          "challenges": 0,
+          "held": 0,
+          "weakened": 0,
+          "revisions": [],
+          "last_tested": "2026-10-24",
+          "description_hash": "sha256:ce8a3682eb116372ac422a496dc8a7daf8f9f5c05c3e93330236ae910ab0fbb8",
+          "record": [
+            {
+              "debate_id": "58fc17b8-ae41-4897-9908-611b40c310e3",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 1,
+                "died": 0
+              },
+              "concession": null
+            }
+          ]
+        }
       },
       "operationality": 4,
       "operationality_history": [
@@ -69999,7 +70236,33 @@
           }
         ],
         "node_scope": "scheme",
-        "aphorism": "Test the mind, not the machine."
+        "aphorism": "Test the mind, not the machine.",
+        "debate_tested": {
+          "tier": "cited",
+          "sort_key": 1,
+          "engagements": 1,
+          "challenges": 0,
+          "held": 0,
+          "weakened": 0,
+          "revisions": [],
+          "last_tested": "2026-10-24",
+          "description_hash": "sha256:363a64273e6742f22849c60cdad8687eb4b932ae8c9c132d3bb05179779726e3",
+          "record": [
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            }
+          ]
+        }
       },
       "operationality": 5,
       "operationality_history": [
@@ -72794,12 +73057,12 @@
         "debate_tested": {
           "tier": "cited",
           "sort_key": 1,
-          "engagements": 3,
+          "engagements": 4,
           "challenges": 0,
           "held": 0,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-09-23",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:2ea2178fb261e0c32d368010465e88921365031e9acae16692c7c27ef0c8b168",
           "record": [
             {
@@ -72842,6 +73105,19 @@
               "claim_outcomes": {
                 "thrived": 0,
                 "survived": 5,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 1,
                 "died": 0
               },
               "concession": null
@@ -73184,14 +73460,14 @@
         "attribution_text": "An Intention within skeptic discourse that regulatory capture of AI oversight should be prevented by combining multiple independent audit modalities each targeting distinct evasion strategies, including the metric-definition and amendment layers where capture relocates. Encompasses: behavioral logging, mechanistic verification, open-weight standing, cross-modal triangulation, statutory insulation of metric definitions from committee authorship.",
         "aphorism": "Trust no single lens; verify through many.",
         "debate_tested": {
-          "tier": "contested",
-          "sort_key": 2.72,
-          "engagements": 7,
-          "challenges": 4,
-          "held": 4,
+          "tier": "well_tested",
+          "sort_key": 3.91,
+          "engagements": 8,
+          "challenges": 5,
+          "held": 5,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-03",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:88b7826667e6151a7eacf811ed7fa2298a0f96fb1d9be95f3d6213a6e8a436d3",
           "record": [
             {
@@ -73306,6 +73582,24 @@
               "claim_outcomes": {
                 "thrived": 4,
                 "survived": 4,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "58fc17b8-ae41-4897-9908-611b40c310e3",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-33",
+                "strength": 0.95,
+                "scheme": "rebut",
+                "challenger_camp": "safetyist"
+              },
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 2,
                 "died": 0
               },
               "concession": null
@@ -86724,12 +87018,12 @@
         "debate_tested": {
           "tier": "cited",
           "sort_key": 1,
-          "engagements": 1,
+          "engagements": 2,
           "challenges": 0,
           "held": 0,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-09-23",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:7bece12481149331e394976e2146f5c19ad9d5455baf1e3569ab8191d5e48d91",
           "record": [
             {
@@ -86741,6 +87035,19 @@
               "claim_outcomes": {
                 "thrived": 1,
                 "survived": 0,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 1,
                 "died": 0
               },
               "concession": null
@@ -87204,7 +87511,8 @@
         "skp-beliefs-102",
         "skp-beliefs-242",
         "skp-beliefs-248",
-        "skp-beliefs-309"
+        "skp-beliefs-309",
+        "skp-beliefs-321"
       ],
       "parent_relationship": null,
       "parent_rationale": null,
@@ -87722,7 +88030,9 @@
         "skp-beliefs-255",
         "skp-beliefs-257",
         "skp-beliefs-258",
-        "skp-beliefs-300"
+        "skp-beliefs-300",
+        "skp-beliefs-320",
+        "skp-beliefs-322"
       ],
       "parent_relationship": null,
       "parent_rationale": null,
@@ -90278,7 +90588,46 @@
         "steelman_vulnerability": "The claim might oversimplify the complex reasons data is not treated as labor, potentially overlooking economic, legal, or technological factors, or assuming a monolithic 'folk conception' that may vary significantly across individuals and cultures.",
         "possible_fallacies": [],
         "node_scope": "claim",
-        "aphorism": "Data is labor, stripped of recognition."
+        "aphorism": "Data is labor, stripped of recognition.",
+        "debate_tested": {
+          "tier": "cited",
+          "sort_key": 1,
+          "engagements": 2,
+          "challenges": 0,
+          "held": 0,
+          "weakened": 0,
+          "revisions": [],
+          "last_tested": "2026-10-24",
+          "description_hash": "sha256:fbdb649bff452b3fcda61e75e0412ab81135bf9585697fcc43727ca4413bf7a8",
+          "record": [
+            {
+              "debate_id": "58fc17b8-ae41-4897-9908-611b40c310e3",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 1,
+                "survived": 1,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 1,
+                "died": 0
+              },
+              "concession": null
+            }
+          ]
+        }
       },
       "label_history": [
         {
@@ -91596,12 +91945,12 @@
         "debate_tested": {
           "tier": "cited",
           "sort_key": 1,
-          "engagements": 1,
+          "engagements": 2,
           "challenges": 0,
           "held": 0,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-09-23",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:0aa5c667d1403e4a39f7e1158a09a065a31b12579a03bafe7f89972978e9a725",
           "record": [
             {
@@ -91613,6 +91962,19 @@
               "claim_outcomes": {
                 "thrived": 0,
                 "survived": 5,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 2,
                 "died": 0
               },
               "concession": null
@@ -92145,7 +92507,8 @@
         }
       ],
       "plain_description": "This approach pushes for strict rules that force payment processors, app stores, cloud computing companies, and advertising networks to identify and cut off funding for businesses that create nonconsensual deepfakes. It uses the same model currently used to stop the spread of child sexual abuse material. To make this work, payment companies must use digital fingerprinting to block suspicious transactions, while banks monitor accounts linked to known bad actors. App stores must remove apps that facilitate these operations, and cloud providers must publish reports showing how they enforce their rules against abuse. Finally, advertising networks are required to stop paying or hosting ads for these services. This strategy focuses on hitting the financial and technical infrastructure of deepfake creators rather than just trying to delete individual videos or restricting the software tools used by developers.",
-      "plain_description_version": "flash-lite:v1"
+      "plain_description_version": "flash-lite:v1",
+      "superseded_by": "skp-intentions-152"
     },
     {
       "pov_tags": [
@@ -92830,10 +93193,10 @@
         "aphorism": "Trust no model without independent verification.",
         "debate_tested": {
           "tier": "contested",
-          "sort_key": 2.33,
-          "engagements": 4,
-          "challenges": 2,
-          "held": 2,
+          "sort_key": 2.49,
+          "engagements": 5,
+          "challenges": 3,
+          "held": 3,
           "weakened": 0,
           "revisions": [],
           "last_tested": "2026-10-24",
@@ -92897,6 +93260,24 @@
               "claim_outcomes": {
                 "thrived": 2,
                 "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "04aae48a-4ad3-4ef4-86bc-b86ef7464af6",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-51",
+                "strength": 0.8187375,
+                "scheme": "undercut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 9,
+                "survived": 1,
                 "died": 0
               },
               "concession": null
@@ -93031,7 +93412,8 @@
             }
           ]
         }
-      }
+      },
+      "superseded_by": "skp-intentions-146"
     },
     {
       "pov_tags": [
@@ -97534,14 +97916,14 @@
         "node_scope": "claim",
         "aphorism": "Empathy is the new raw material.",
         "debate_tested": {
-          "tier": "cited",
-          "sort_key": 1,
-          "engagements": 1,
-          "challenges": 0,
-          "held": 0,
+          "tier": "contested",
+          "sort_key": 2.13,
+          "engagements": 2,
+          "challenges": 1,
+          "held": 1,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-09-24",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:935bc73e68a6e7a7f995c308086b66a54dfe53b24359d485b3633a66ee901675",
           "record": [
             {
@@ -97557,6 +97939,24 @@
               },
               "claim_outcomes": {
                 "thrived": 1,
+                "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-30",
+                "strength": 0.64,
+                "scheme": "rebut",
+                "challenger_camp": "safetyist"
+              },
+              "claim_outcomes": {
+                "thrived": 0,
                 "survived": 2,
                 "died": 0
               },
@@ -98034,9 +98434,9 @@
         "debate_tested": {
           "tier": "well_tested",
           "sort_key": 3.99,
-          "engagements": 35,
-          "challenges": 18,
-          "held": 17,
+          "engagements": 36,
+          "challenges": 19,
+          "held": 18,
           "weakened": 0,
           "revisions": [],
           "last_tested": "2026-10-24",
@@ -98598,6 +98998,24 @@
               "claim_outcomes": {
                 "thrived": 2,
                 "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "04aae48a-4ad3-4ef4-86bc-b86ef7464af6",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-51",
+                "strength": 0.8187375,
+                "scheme": "undercut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 4,
+                "survived": 1,
                 "died": 0
               },
               "concession": null
@@ -99849,12 +100267,12 @@
         "debate_tested": {
           "tier": "well_tested",
           "sort_key": 3.96,
-          "engagements": 12,
+          "engagements": 13,
           "challenges": 5,
           "held": 5,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-09-30",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:e18dc7e374d012ce118be3f4bd1295b6af7e7aeaffc89d8add8d572f41134774",
           "record": [
             {
@@ -100049,6 +100467,19 @@
               "claim_outcomes": {
                 "thrived": 2,
                 "survived": 1,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "04aae48a-4ad3-4ef4-86bc-b86ef7464af6",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 3,
                 "died": 0
               },
               "concession": null
@@ -100536,7 +100967,33 @@
         "steelman_vulnerability": "The strongest counterargument is that while some tactics may overlap, corporate crisis communication often serves legitimate purposes like informing stakeholders or correcting factual errors, which fundamentally differ from the malicious intent and systemic deception inherent in disinformation.",
         "possible_fallacies": [],
         "node_scope": "claim",
-        "aphorism": "Corporate crisis management is professionalized disinformation."
+        "aphorism": "Corporate crisis management is professionalized disinformation.",
+        "debate_tested": {
+          "tier": "cited",
+          "sort_key": 1,
+          "engagements": 1,
+          "challenges": 0,
+          "held": 0,
+          "weakened": 0,
+          "revisions": [],
+          "last_tested": "2026-10-24",
+          "description_hash": "sha256:348e7d72e3772501decc357c7407c25cb453bb727bf579872bf4c19f5a10637a",
+          "record": [
+            {
+              "debate_id": "58fc17b8-ae41-4897-9908-611b40c310e3",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            }
+          ]
+        }
       },
       "plain_description": "Skeptics argue that companies facing a crisis use the same manipulative tactics as those spreading intentional disinformation. Both strategies rely on the same underlying tricks to shape public opinion. For example, they frequently use fake arguments that sound logical but lack substance, and they exploit cognitive dissonance—the mental discomfort people feel when faced with conflicting information—to keep the audience confused. Furthermore, these companies often treat the process of \"fixing their reputation\" exactly like political propaganda. Rather than simply sharing facts, they use these methods to control the narrative and protect their interests, proving that their communication is far from a neutral way of sharing information.",
       "plain_description_version": "flash-lite:v1"
@@ -101188,12 +101645,12 @@
         "debate_tested": {
           "tier": "cited",
           "sort_key": 1,
-          "engagements": 1,
+          "engagements": 2,
           "challenges": 0,
           "held": 0,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-09-09",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:3ba11b0a66a21ab14dff6422ea8a4b32d1ed505df98125dacbbcc650b03f055b",
           "record": [
             {
@@ -101209,6 +101666,19 @@
               },
               "claim_outcomes": {
                 "thrived": 4,
+                "survived": 1,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "58fc17b8-ae41-4897-9908-611b40c310e3",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 0,
                 "survived": 1,
                 "died": 0
               },
@@ -101409,7 +101879,38 @@
         "steelman_vulnerability": "Many organizations have implemented automated governance tools and continuous monitoring, effectively mitigating the drift between IAM expansion and security controls, making this problem less widespread or severe than implied.",
         "possible_fallacies": [],
         "node_scope": "claim",
-        "aphorism": "Complexity outruns control by design."
+        "aphorism": "Complexity outruns control by design.",
+        "debate_tested": {
+          "tier": "contested",
+          "sort_key": 2.19,
+          "engagements": 1,
+          "challenges": 1,
+          "held": 1,
+          "weakened": 0,
+          "revisions": [],
+          "last_tested": "2026-10-24",
+          "description_hash": "sha256:76f8fa7a3ac8a8d2c2ad4da3ef662a72eb2cf210ef1f99754efea67b0802228a",
+          "record": [
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-18",
+                "strength": 0.95,
+                "scheme": "rebut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 1,
+                "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            }
+          ]
+        }
       },
       "plain_description": "Security experts often worry that the tools used to protect organizations cannot keep up with how quickly identity and access systems are growing. As companies add more users and digital connections, their security measures struggle to manage the complexity. This problem includes the difficulty of updating outdated permission settings, the risk of leaving service accounts unmonitored, and the pressure caused by rapid deployment cycles that prioritize speed over safety. Because these systems evolve so quickly, security controls often fall behind, leaving gaps that are not necessarily caused by people breaking the rules or acting with bad intentions, but simply by the sheer pace of technological change.",
       "plain_description_version": "flash-lite:v1",
@@ -101762,14 +102263,14 @@
         "node_scope": "claim",
         "aphorism": "Unseen dependencies demand an army of audits.",
         "debate_tested": {
-          "tier": "cited",
-          "sort_key": 1,
-          "engagements": 3,
-          "challenges": 0,
-          "held": 0,
+          "tier": "contested",
+          "sort_key": 2.13,
+          "engagements": 4,
+          "challenges": 1,
+          "held": 1,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-09-29",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:45381df29a170a8e3f5f77e62503ddd01e8e2daaee3f5342b5a60d70b58b0d2d",
           "record": [
             {
@@ -101807,6 +102308,24 @@
               "claim_outcomes": {
                 "thrived": 0,
                 "survived": 1,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-30",
+                "strength": 0.64,
+                "scheme": "rebut",
+                "challenger_camp": "safetyist"
+              },
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 2,
                 "died": 0
               },
               "concession": null
@@ -103389,14 +103908,14 @@
         "attribution_text": "A Belief within skeptic discourse that proving AI-related documents were withheld or destroyed requires the internal access that opacity itself denies. Encompasses: spoliation proof requirements, absence versus concealment of documents, transparency index scores reflecting non-creation, recursive evidentiary barriers in discovery.",
         "aphorism": "Secrecy hides the proof of its own existence.",
         "debate_tested": {
-          "tier": "cited",
-          "sort_key": 1,
-          "engagements": 3,
-          "challenges": 0,
-          "held": 0,
+          "tier": "contested",
+          "sort_key": 2.54,
+          "engagements": 6,
+          "challenges": 3,
+          "held": 3,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-03",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:fde037d3e0e2c14bb5cb9a3b4d5260d083b3d7880d6124bd155b8c495a3e1075",
           "record": [
             {
@@ -103434,6 +103953,60 @@
               "claim_outcomes": {
                 "thrived": 4,
                 "survived": 0,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "04aae48a-4ad3-4ef4-86bc-b86ef7464af6",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-51",
+                "strength": 0.8187375,
+                "scheme": "undercut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 12,
+                "survived": 4,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "58fc17b8-ae41-4897-9908-611b40c310e3",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-33",
+                "strength": 0.95,
+                "scheme": "rebut",
+                "challenger_camp": "safetyist"
+              },
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-18",
+                "strength": 0.95,
+                "scheme": "rebut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 4,
                 "died": 0
               },
               "concession": null
@@ -104240,10 +104813,10 @@
         "aphorism": "Hide the logs, pay the loss.",
         "debate_tested": {
           "tier": "contested",
-          "sort_key": 2.2,
-          "engagements": 4,
-          "challenges": 1,
-          "held": 1,
+          "sort_key": 2.55,
+          "engagements": 6,
+          "challenges": 3,
+          "held": 3,
           "weakened": 0,
           "revisions": [],
           "last_tested": "2026-10-24",
@@ -104302,6 +104875,42 @@
               "claim_outcomes": {
                 "thrived": 2,
                 "survived": 0,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "04aae48a-4ad3-4ef4-86bc-b86ef7464af6",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-51",
+                "strength": 0.8187375,
+                "scheme": "undercut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 10,
+                "survived": 1,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-18",
+                "strength": 0.95,
+                "scheme": "rebut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 1,
+                "survived": 2,
                 "died": 0
               },
               "concession": null
@@ -104440,12 +105049,12 @@
         "debate_tested": {
           "tier": "contested",
           "sort_key": 2.2,
-          "engagements": 1,
+          "engagements": 2,
           "challenges": 1,
           "held": 1,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-09-09",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:1de76885f2e76554863d9d094a511f966a94d8b99bbe4fe75077f41cf5f812bc",
           "record": [
             {
@@ -104462,6 +105071,19 @@
               "claim_outcomes": {
                 "thrived": 0,
                 "survived": 2,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "04aae48a-4ad3-4ef4-86bc-b86ef7464af6",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 6,
+                "survived": 0,
                 "died": 0
               },
               "concession": null
@@ -104651,14 +105273,14 @@
         ],
         "aphorism": "Enforce disclosure, expose the risk.",
         "debate_tested": {
-          "tier": "cited",
-          "sort_key": 1,
-          "engagements": 2,
-          "challenges": 0,
-          "held": 0,
+          "tier": "contested",
+          "sort_key": 2.13,
+          "engagements": 3,
+          "challenges": 1,
+          "held": 1,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-05",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:46c606a41099642e8ec63acba6f5d0faf3b1c66615dfec11aaddd0a8824ee592",
           "record": [
             {
@@ -104688,6 +105310,24 @@
               "claim_outcomes": {
                 "thrived": 1,
                 "survived": 5,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "a4d84f52-9a09-4254-8fb7-a1c155c9d735",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-30",
+                "strength": 0.64,
+                "scheme": "rebut",
+                "challenger_camp": "safetyist"
+              },
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 2,
                 "died": 0
               },
               "concession": null
@@ -105422,12 +106062,12 @@
         "debate_tested": {
           "tier": "contested",
           "sort_key": 2.13,
-          "engagements": 7,
+          "engagements": 8,
           "challenges": 1,
           "held": 1,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-03",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:9a95ebf83b6f655b41570ef9746f1aa4998276c63bc77bcc0c900b515d865bd9",
           "record": [
             {
@@ -105527,6 +106167,19 @@
               "claim_outcomes": {
                 "thrived": 7,
                 "survived": 1,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "04aae48a-4ad3-4ef4-86bc-b86ef7464af6",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 2,
+                "survived": 3,
                 "died": 0
               },
               "concession": null
@@ -106156,7 +106809,7 @@
         "debate_tested": {
           "tier": "well_tested",
           "sort_key": 3.99,
-          "engagements": 13,
+          "engagements": 14,
           "challenges": 7,
           "held": 7,
           "weakened": 0,
@@ -106369,6 +107022,19 @@
               "claim_outcomes": {
                 "thrived": 10,
                 "survived": 5,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "04aae48a-4ad3-4ef4-86bc-b86ef7464af6",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "cited",
+              "strongest_attack_encountered": null,
+              "claim_outcomes": {
+                "thrived": 8,
+                "survived": 3,
                 "died": 0
               },
               "concession": null
@@ -107815,14 +108481,14 @@
         "attribution_text": "A Belief within skeptic discourse that corporate trade secrecy and mathematical opacity combine to create an insurmountable evidentiary barrier for plaintiffs seeking to prove causation in algorithmic harm litigation. Encompasses: proprietary weight protection, non-disclosure agreements, discovery-blocking protective orders, information asymmetry between developers and victims.",
         "aphorism": "Trade secrets hide the smoking gun.",
         "debate_tested": {
-          "tier": "cited",
-          "sort_key": 1,
-          "engagements": 3,
-          "challenges": 0,
-          "held": 0,
+          "tier": "contested",
+          "sort_key": 2.19,
+          "engagements": 4,
+          "challenges": 1,
+          "held": 1,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-09-23",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:0b708ede4fce6c40510bbd07dcf8636bb4cf7bb8600c3700b8f882134f01fb58",
           "record": [
             {
@@ -107860,6 +108526,24 @@
               "claim_outcomes": {
                 "thrived": 0,
                 "survived": 0,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "58fc17b8-ae41-4897-9908-611b40c310e3",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-33",
+                "strength": 0.95,
+                "scheme": "rebut",
+                "challenger_camp": "safetyist"
+              },
+              "claim_outcomes": {
+                "thrived": 0,
+                "survived": 4,
                 "died": 0
               },
               "concession": null
@@ -108015,13 +108699,13 @@
         "attribution_text": "A Belief within skeptic discourse that the requirement to prove AI-related documents were withheld or destroyed necessitates internal access that opacity itself fundamentally denies. Encompasses: spoliation proof requirements, absence versus concealment of documents, transparency index scores reflecting non-creation, recursive evidentiary barriers in discovery.",
         "debate_tested": {
           "tier": "contested",
-          "sort_key": 2.4,
-          "engagements": 3,
-          "challenges": 2,
-          "held": 2,
+          "sort_key": 2.56,
+          "engagements": 4,
+          "challenges": 3,
+          "held": 3,
           "weakened": 0,
           "revisions": [],
-          "last_tested": "2026-10-02",
+          "last_tested": "2026-10-24",
           "description_hash": "sha256:fde037d3e0e2c14bb5cb9a3b4d5260d083b3d7880d6124bd155b8c495a3e1075",
           "record": [
             {
@@ -108069,6 +108753,24 @@
               "claim_outcomes": {
                 "thrived": 2,
                 "survived": 3,
+                "died": 0
+              },
+              "concession": null
+            },
+            {
+              "debate_id": "04aae48a-4ad3-4ef4-86bc-b86ef7464af6",
+              "date": "2026-10-24",
+              "pipeline_version": "backfill-vv0.13.9-3229-ga865fa31-2026-10-24",
+              "verdict": "held",
+              "strongest_attack_encountered": {
+                "claim_id": "AN-51",
+                "strength": 0.8187375,
+                "scheme": "undercut",
+                "challenger_camp": "accelerationist"
+              },
+              "claim_outcomes": {
+                "thrived": 4,
+                "survived": 1,
                 "died": 0
               },
               "concession": null
@@ -108238,7 +108940,8 @@
         }
       },
       "debate_refs": [
-        "aac6f142-8662-401e-b48c-9d0f9e84cc46"
+        "aac6f142-8662-401e-b48c-9d0f9e84cc46",
+        "706ad547-72a2-47d7-9791-5da0e3b7475f"
       ],
       "label_history": [
         {
@@ -109189,7 +109892,8 @@
           "reason": "Throughout the debate, I argued that commercial relational simulation exploits cognitive development in children under seven. This specific regulatory target is distinct from general data privacy and warrants its own Desire node."
         }
       ],
-      "plain_description_version": "flash-lite:v1"
+      "plain_description_version": "flash-lite:v1",
+      "superseded_by": "skp-desires-089"
     },
     {
       "pov_tags": [
@@ -112691,6 +113395,306 @@
         "steelman_vulnerability": "Parametric index triggers rely on rigid predetermined thresholds that inevitably fail to capture novel, unanticipated failure modes, leaving severe systemic tail risks uncompensated while creating heavy basis risk.",
         "possible_fallacies": [],
         "node_scope": "systemic"
+      }
+    },
+    {
+      "id": "skp-beliefs-320",
+      "category": "Beliefs",
+      "label": "Default Corporate Governance of Digital Remains",
+      "description": "A Belief within skeptic discourse that technology platforms assume default governing authority over user accounts and digital remains upon death through terms of service. Encompasses: intestate default control, unilateral contract terms, and corporate administrative authority over digital afterlives. Excludes: statutory fiduciary access laws and formal testamentary estate planning.",
+      "parent_id": "skp-beliefs-213",
+      "children": [],
+      "situation_refs": [],
+      "source_refs": [
+        "law-digital-resurrection-2026"
+      ],
+      "parent_relationship": "is_a",
+      "parent_rationale": "The new node describes how technology platforms assume default governing authority over user digital remains through terms of service, which is a direct manifestation of corporate power and a strategy to establish control, aligning with the parent's focus on corporate concentration of power and regulatory evasion.",
+      "graph_attributes": {
+        "epistemic_type": "empirical_claim",
+        "rhetorical_strategy": "structural_critique",
+        "assumes": [
+          "Users generally agree to or are bound by platform terms of service without full comprehension.",
+          "Existing legal frameworks often defer to platform terms of service regarding digital assets post-mortem.",
+          "Digital assets are not consistently treated as traditional property in estate law.",
+          "There is a lack of widely adopted, user-centric alternatives for digital estate planning."
+        ],
+        "falsifiability": "high",
+        "audience": "policymakers, civil_society",
+        "emotional_register": "cautionary, analytical",
+        "policy_actions": [],
+        "intellectual_lineage": [
+          {
+            "name": "Critical Legal Studies",
+            "description": "Critical Legal Studies (CLS) emerged in the 1970s as a movement challenging the notion that law is a neutral, objective system. Thinkers associated with CLS, such as Roberto Unger and Duncan Kennedy, argue that legal rules are inherently political and often serve to reinforce existing power structures. By deconstructing judicial decisions and legislative acts, CLS reveals how legal language is frequently used to mask underlying social conflicts.\n\nIn the context of procedural escamotage, CLS provides the analytical tools to identify how procedural adjustments—like shifting the burden of proof—are often deployed as 'legalistic' solutions to avoid addressing fundamental power imbalances. Instead of fixing the substantive harm, these procedural tweaks maintain the status quo by creating the appearance of reform without disrupting the economic or social interests protected by current liability law.\n\nKey figures include Duncan Kennedy, whose work on 'Legal Education and the Reproduction of Hierarchy' highlights how legal systems perpetuate inequality, and Roberto Unger, who critiques the 'false necessity' of current legal arrangements. Their focus on the indeterminacy of law explains why procedural shifts often fail to achieve substantive justice.\n\nThis tradition complements Consumer Protection Theory by providing the critical skepticism necessary to evaluate whether procedural reforms are genuine attempts to empower consumers or merely performative gestures that preserve institutional stability.",
+            "url": "https://en.wikipedia.org/wiki/Critical_legal_studies",
+            "category": "legal_framework"
+          },
+          {
+            "name": "Digital Rights Advocacy",
+            "description": "Digital rights advocacy is a movement dedicated to protecting human rights in the digital age, including privacy, freedom of expression, and protection from online abuse. It focuses on the intersection of law, technology, and individual autonomy, arguing that users have a fundamental right to control their digital identity and personal data.\n\nThis tradition motivates the node's position by emphasizing the violation of bodily autonomy and dignity inherent in AI-generated sexual abuse. It provides the normative commitment that platforms have a responsibility to protect users from harm, shifting the focus from 'innovation at all costs' to the protection of individual digital integrity.\n\nKey organizations and figures include the Electronic Frontier Foundation (EFF) and activists like Anita Sarkeesian, who have long campaigned against online harassment. This entry relates to 'Cyberlaw and online harassment jurisprudence' by providing the grassroots and policy-oriented pressure needed to translate these harms into actionable legal standards.",
+            "url": "https://en.wikipedia.org/wiki/Digital_rights",
+            "category": "other"
+          },
+          {
+            "name": "Contract Law",
+            "description": "Contract law governs the formation and enforcement of agreements between parties. It relies on the principle of 'meeting of the minds,' where parties must understand the terms and the identity of those they are dealing with to form a valid, binding contract. It is the bedrock of commercial exchange and legal certainty.\n\nIn the context of AI agency, this lineage informs the node's position by highlighting that a contract cannot be validly formed if one party is unaware of the identity of the other. The node argues that disclosure is not just an ethical preference but a legal necessity for the formation of enforceable contracts in AI-mediated environments. It provides the legal tools to demand transparency as a condition for transactional validity.\n\nKey thinkers include Lon Fuller, who explored the 'essential' requirements of contract formation, and Ian Macneil, who developed 'relational contract theory,' which is particularly relevant to the ongoing, dynamic interactions typical of AI agents. Their work underscores the necessity of identity disclosure for legal stability.\n\nThis entry complements Agency law by providing the legal enforcement mechanism for the principal-agent relationship, ensuring that disclosure is not just an economic ideal but a requirement for legal standing.",
+            "url": "https://en.wikipedia.org/wiki/Contract_law",
+            "category": "legal_framework"
+          }
+        ],
+        "steelman_vulnerability": "The strongest counterargument is that platforms require administrative control for security and service integrity, and users often have options for digital legacy management, even if not widely utilized.",
+        "possible_fallacies": [],
+        "node_scope": "domain_specific"
+      }
+    },
+    {
+      "id": "skp-desires-095",
+      "category": "Desires",
+      "label": "Digital Right to Be Dead",
+      "description": "A Desire within skeptic and safetyist discourse that advocates for establishing a formal legal right preventing unauthorized post-mortem digital cloning and data persistence. Encompasses: digital afterlife protections, posthumous privacy rights, bans on unauthorized digital resurrection. Excludes: traditional estate planning for physical assets, standard copyright protections.",
+      "parent_id": "skp-desires-014",
+      "children": [],
+      "situation_refs": [],
+      "source_refs": [
+        "law-digital-resurrection-2026"
+      ],
+      "parent_relationship": "is_a",
+      "parent_rationale": "The 'Digital Right to Be Dead' is a specific legal right concerning posthumous digital privacy and autonomy, which falls directly under the broader concept of human rights constraining AI's potential infringements on personal freedoms. It represents a particular application of human rights principles to the digital afterlife in the context of AI deployment.",
+      "graph_attributes": {
+        "epistemic_type": "normative_prescription",
+        "rhetorical_strategy": "rights_based, moral_imperative",
+        "assumes": [
+          "Digital cloning and unauthorized data persistence post-mortem are technically feasible or imminent.",
+          "Unauthorized digital resurrection constitutes a harm or violation of individual autonomy and privacy.",
+          "Existing legal frameworks are insufficient to protect post-mortem digital identity and data.",
+          "Individuals possess a right to control their digital legacy and identity even after physical death."
+        ],
+        "falsifiability": "low",
+        "audience": "policymakers, legal_professionals, civil_society",
+        "emotional_register": "assertive, resolute, cautionary",
+        "policy_actions": [
+          {
+            "policy_id": null,
+            "action": "Establish a formal legal 'Digital Right to Be Dead'.",
+            "framing": "This right would ensure individuals can prevent unauthorized digital cloning and control their digital presence after death, safeguarding personal dignity and autonomy."
+          },
+          {
+            "policy_id": null,
+            "action": "Implement bans on unauthorized post-mortem digital cloning.",
+            "framing": "Legislation would prohibit the creation of digital simulacra or persistent digital identities without explicit, prior consent from the individual, protecting against exploitation."
+          }
+        ],
+        "intellectual_lineage": [
+          {
+            "name": "Privacy Rights (General)",
+            "description": "Privacy rights encompass the legal and philosophical entitlements of individuals to determine when, how, and to what extent information about them is communicated to others. Rooted in early legal scholarship, notably Samuel Warren and Louis Brandeis's 1890 Harvard Law Review article 'The Right to Privacy,' the concept has evolved through international human rights declarations and comprehensive data protection statutes.\n\nIn contemporary AI policy, privacy rights form the baseline defense against pervasive surveillance, data harvesting, and profiling. Ensuring that foundational privacy principles like data minimization, consent, and the right to be forgotten are respected remains a central challenge for the deployment of machine learning models that thrive on vast quantities of personal data.",
+            "url": "https://en.wikipedia.org/wiki/Right_to_privacy",
+            "category": "legal_framework"
+          },
+          {
+            "name": "Bioethics and Personal Autonomy",
+            "description": "Bioethics is a multidisciplinary field addressing ethical issues emerging from advances in biology and medicine, heavily anchored in the principle of personal autonomy. Developed by philosophers, theologians, and medical ethicists—such as Tom Beauchamp and James Childress with their foundational principles of biomedical ethics—the discipline prioritizes patient self-determination, informed consent, and bodily integrity.\n\nIn AI governance, bioethics and personal autonomy provide essential guardrails for medical AI, algorithmic triage, and human-computer interfaces. As algorithms make diagnostic decisions or influence human behavior through persuasive design, bioethical frameworks ensure that individuals retain agency, ultimate decision-making power, and protection against unwarranted paternalism or coercion.",
+            "url": "https://en.wikipedia.org/wiki/Bioethics",
+            "category": "ethical_framework"
+          },
+          {
+            "name": "Digital Rights and Cyberlaw",
+            "description": "Digital rights and cyberlaw constitute the legal and policy framework governing cyberspace, digital communications, intellectual property, and electronic commerce. Emerging in the 1990s with the commercialization of the internet, pioneering legal thinkers like Lawrence Lessig argued that 'code is law,' emphasizing that software architecture regulates human behavior just as traditional statutes do.\n\nFor AI governance, digital rights and cyberlaw provide the immediate doctrinal foundation for regulating algorithmic systems. Debates regarding content moderation algorithms, algorithmic transparency, copyright infringement by generative AI models, and open-source AI licensing are all direct continuations of cyberlaw's core inquiries into how law should shape digital architecture.",
+            "url": "https://en.wikipedia.org/wiki/Cyberlaw",
+            "category": "legal_framework"
+          },
+          {
+            "name": "Estate Law and Posthumous Rights",
+            "description": "Estate law and posthumous rights govern the management, transfer, and protection of a person's property, assets, and legal interests after death. Historically rooted in property and probate law, these frameworks dictate how wills are executed, how inheritance functions, and the extent to which rights such as publicity or reputation survive an individual's demise.\n\nIn the era of artificial intelligence, estate law intersects sharply with digital assets and synthetic media. Questions concerning who controls a deceased person's digital legacy, social media accounts, and AI-generated digital replicas or voice clones make estate law a vital frontier for preventing unauthorized posthumous exploitation and protecting digital dignity.",
+            "url": "https://en.wikipedia.org/wiki/Estate_(law)",
+            "category": "legal_framework"
+          }
+        ],
+        "steelman_vulnerability": "Defining the precise scope of 'digital self' and 'unauthorized' post-mortem, especially concerning data already in the public domain or shared, presents significant legal and technical challenges, potentially stifling legitimate digital archiving or remembrance.",
+        "possible_fallacies": [],
+        "node_scope": "systemic"
+      }
+    },
+    {
+      "id": "skp-beliefs-321",
+      "category": "Beliefs",
+      "label": "Fiduciary Duty Shareholder Primacy Conflict",
+      "description": "A Belief within skeptic discourse that statutory imposition of fiduciary obligations on digital platforms irreconcilably clashes with corporate director duties to maximize shareholder profits from data monetization.\nEncompasses: Shareholder wealth sacrifice, profit-driven data extraction models, and corporate law contradictions.\nExcludes: General corporate governance reform and antitrust market concentration arguments.",
+      "parent_id": "skp-beliefs-212",
+      "children": [],
+      "situation_refs": [],
+      "source_refs": [
+        "skeptical-view-information-fiduciaries-2026"
+      ],
+      "parent_relationship": "is_a",
+      "parent_rationale": "The new node describes a specific conflict between statutory fiduciary obligations and corporate shareholder primacy, which represents a fundamental inconsistency or 'gap' within the existing legal and regulatory frameworks for governing AI systems and data monetization.",
+      "graph_attributes": {
+        "epistemic_type": "causal_mechanism",
+        "rhetorical_strategy": "structural_critique,pragmatic_framing",
+        "assumes": [
+          "Shareholder primacy is the overriding legal duty for corporate directors.",
+          "Data monetization is essential for maximizing shareholder profits in digital platforms.",
+          "Fiduciary duties to users would significantly restrict data monetization.",
+          "No legal or business model innovation can reconcile these conflicting duties."
+        ],
+        "falsifiability": "medium",
+        "audience": "policymakers,industry_leaders",
+        "emotional_register": "analytical,cautionary",
+        "policy_actions": [],
+        "intellectual_lineage": [
+          {
+            "name": "Shareholder Primacy Theory",
+            "description": "Shareholder primacy is a corporate governance theory asserting that managers' primary fiduciary duty is to maximize financial returns for the corporation's shareholders. Formulated prominently by economists like Milton Friedman in the 20th century, this view posits that social responsibility is best handled through market mechanisms, while corporate boards should focus relentlessly on profit.\n\nThis theory is highly influential in AI governance debates regarding corporate accountability and AI safety. Critics argue that shareholder primacy incentivizes tech companies to cut corners on safety testing, data privacy, and ethical auditing to rapidly deploy lucrative AI products, highlighting a tension between profit maximization and societal well-being.",
+            "url": "https://en.wikipedia.org/wiki/Shareholder_primacy",
+            "category": "economic_theory"
+          },
+          {
+            "name": "Corporate Law Scholarship",
+            "description": "Corporate law scholarship examines the legal structures, theories, and economic incentives governing business corporations, including board duties, stakeholder rights, and organizational design. Influenced by schools of thought such as law and economics, agency theory, and progressive corporate law, scholars continually re-evaluate the social obligations of business entities.\n\nWithin AI governance, corporate law scholarship is essential for understanding how to compel AI labs and tech giants to internalize the societal risks of powerful models. Scholars explore mechanisms such as public benefit corporation structures, expanded director liability for AI harms, and internal compliance mandates to align corporate incentives with public safety.",
+            "url": "https://en.wikipedia.org/wiki/Corporate_law",
+            "category": "academic_discipline"
+          },
+          {
+            "name": "Agency Theory",
+            "description": "Agency theory, as developed by scholars like Stephen Ross and Barry Mitnick, analyzes the relationship between a principal (who delegates work) and an agent (who performs it). A central concern is the 'information asymmetry' that allows agents to act in ways that deviate from the principal's interests or deceive third parties.\n\nThis theory underpins the node by highlighting that an AI agent is effectively an extension of a principal. If the agent does not identify its principal, it creates a 'hidden action' problem where the principal can benefit from the agent's actions while avoiding accountability. By requiring the AI to identify its principal, the node seeks to eliminate this information asymmetry, ensuring that the principal is held responsible for the agent's behavior.\n\nThis theory provides the structural economic logic for why identification is necessary for accountability. It complements Fiduciary Duty by explaining the mechanics of the delegation process and why transparency is essential for the principal-agent relationship to function properly.",
+            "url": "https://en.wikipedia.org/wiki/Agency_theory",
+            "category": "economic_theory"
+          }
+        ],
+        "steelman_vulnerability": "The strongest counterargument is that corporate law and business models are not static; legal frameworks can evolve to redefine corporate purpose beyond pure shareholder primacy, or innovative business models could emerge that align user welfare with sustainable profitability.",
+        "possible_fallacies": [
+          {
+            "fallacy": "False Dilemma",
+            "type": "informal_structural",
+            "confidence": "possible",
+            "explanation": "The claim presents the conflict between shareholder primacy and fiduciary duties as irreconcilable, potentially overlooking alternative legal interpretations or business models that could integrate both objectives."
+          }
+        ],
+        "node_scope": "domain_specific"
+      }
+    },
+    {
+      "id": "skp-beliefs-322",
+      "category": "Beliefs",
+      "label": "First Amendment as Corporate Deregulatory Shield",
+      "description": "A Belief within skeptic discourse that constitutional free speech protections are systematically repurposed as anti-regulatory instruments by commercial industries.\nEncompasses: Corporate First Amendment defenses, deregulation litigation, and commercial speech expansion.\nExcludes: Traditional civil liberties advocacy and interpersonal speech protection.",
+      "parent_id": "skp-beliefs-213",
+      "children": [],
+      "situation_refs": [],
+      "source_refs": [
+        "information-fiduciaries-first-amendment-2026"
+      ],
+      "parent_relationship": "is_a",
+      "parent_rationale": "The new node describes a specific tactic—repurposing First Amendment protections—used by commercial industries to achieve deregulation and evade oversight, which is a direct manifestation of corporate power and regulatory evasion.",
+      "graph_attributes": {
+        "epistemic_type": "empirical_claim",
+        "rhetorical_strategy": "structural_critique,systemic_critique",
+        "assumes": [
+          "The First Amendment's scope is interpreted broadly to include corporate activities.",
+          "Commercial industries actively and strategically leverage free speech arguments to challenge regulations.",
+          "Judicial interpretations have expanded corporate speech rights beyond traditional civil liberties.",
+          "Deregulation is a primary outcome of successful corporate First Amendment challenges."
+        ],
+        "falsifiability": "medium",
+        "audience": "policymakers,legal_professionals,civil_society",
+        "emotional_register": "assertive,analytical",
+        "policy_actions": [
+          {
+            "policy_id": null,
+            "action": "Re-evaluate commercial speech doctrine.",
+            "framing": "To prevent the expansion of corporate free speech rights beyond their original intent and limit their use as a shield against public interest regulations."
+          },
+          {
+            "policy_id": null,
+            "action": "Strengthen regulatory agency authority.",
+            "framing": "To empower agencies to withstand legal challenges based on expansive corporate First Amendment claims and ensure effective oversight."
+          },
+          {
+            "policy_id": null,
+            "action": "Advocate for judicial appointments prioritizing public interest over corporate power.",
+            "framing": "To shape future legal interpretations of constitutional rights in a manner that balances corporate interests with societal well-being."
+          }
+        ],
+        "intellectual_lineage": [
+          {
+            "name": "Critical Legal Studies",
+            "description": "Critical Legal Studies (CLS) emerged in the 1970s as a movement challenging the notion that law is a neutral, objective system. Thinkers associated with CLS, such as Roberto Unger and Duncan Kennedy, argue that legal rules are inherently political and often serve to reinforce existing power structures. By deconstructing judicial decisions and legislative acts, CLS reveals how legal language is frequently used to mask underlying social conflicts.\n\nIn the context of procedural escamotage, CLS provides the analytical tools to identify how procedural adjustments—like shifting the burden of proof—are often deployed as 'legalistic' solutions to avoid addressing fundamental power imbalances. Instead of fixing the substantive harm, these procedural tweaks maintain the status quo by creating the appearance of reform without disrupting the economic or social interests protected by current liability law.\n\nKey figures include Duncan Kennedy, whose work on 'Legal Education and the Reproduction of Hierarchy' highlights how legal systems perpetuate inequality, and Roberto Unger, who critiques the 'false necessity' of current legal arrangements. Their focus on the indeterminacy of law explains why procedural shifts often fail to achieve substantive justice.\n\nThis tradition complements Consumer Protection Theory by providing the critical skepticism necessary to evaluate whether procedural reforms are genuine attempts to empower consumers or merely performative gestures that preserve institutional stability.",
+            "url": "https://en.wikipedia.org/wiki/Critical_legal_studies",
+            "category": "legal_framework"
+          },
+          {
+            "name": "Public Interest Law",
+            "description": "Public interest law is a practice-oriented movement that uses legal advocacy to represent the interests of the public, particularly those who are marginalized or lack institutional power. It focuses on systemic change, using litigation and policy advocacy to challenge corporate or government overreach. The movement is deeply rooted in the idea that the legal system should serve the common good rather than just private interests.\n\nThis tradition underpins the node's position by framing algorithmic transparency as a civil rights issue. It provides the motivation for 'public interest overrides' of trade secrets, arguing that when an algorithm causes widespread harm, the public's right to know must supersede the company's right to secrecy. It provides the legal strategy for challenging the status quo through judicial review.\n\nKey figures include Ralph Nader, who pioneered the use of public interest litigation to hold corporations accountable, and organizations like the ACLU or the Electronic Frontier Foundation, which apply these principles to digital rights. Their work demonstrates how to use the law as a lever for social change.\n\nThis entry provides the activist energy for the node, contrasting with the more bureaucratic approach of 'Administrative law' by emphasizing the role of litigation and public advocacy.",
+            "url": "https://en.wikipedia.org/wiki/Public_interest_law",
+            "category": "legal_framework"
+          },
+          {
+            "name": "Political Economy of Law",
+            "description": "The political economy of law examines how legal rules and institutions shape—and are shaped by—underlying economic power dynamics and political interests. Drawing from legal realism, critical legal studies, and Marxist or institutional economics, this perspective analyzes law not as a neutral set of rules, but as an instrument that distributes wealth, power, and privilege.\n\nIn AI policy, the political economy of law helps explain why AI development is concentrated within a handful of monopolistic technology firms. It informs governance debates by highlighting how intellectual property laws, antitrust enforcement, and data subsidies entrench corporate power and shape the socio-economic distribution of AI's benefits and harms.",
+            "url": "https://en.wikipedia.org/wiki/Political_economy",
+            "category": "economic_theory"
+          }
+        ],
+        "steelman_vulnerability": "The expansion of corporate speech rights is a legitimate and necessary evolution of free speech principles, crucial for informing public discourse and holding government accountable, rather than merely a strategic deregulatory tool.",
+        "possible_fallacies": [],
+        "node_scope": "systemic"
+      }
+    },
+    {
+      "id": "skp-desires-096",
+      "category": "Desires",
+      "label": "Postmortem Right to Delete Digital Data",
+      "description": "A Desire within skeptic discourse that advocates for granting estate fiduciaries a time-limited statutory right to delete personal data stored in online environments. Encompasses: twelve-month deletion windows, estate administration integration, and prevention of posthumous digital exploitation. Excludes: broad postmortem privacy torts and commercial publicity rights.",
+      "parent_id": "skp-desires-014",
+      "children": [],
+      "situation_refs": [],
+      "source_refs": [
+        "law-digital-resurrection-2026"
+      ],
+      "parent_relationship": "is_a",
+      "parent_rationale": "The new node describes a specific right related to data privacy and personal autonomy, which falls directly under the broader category of 'Human Rights as Constraints on AI Deployment.' This specific right is a more granular articulation of a human right in the digital context, particularly concerning posthumous data control.",
+      "graph_attributes": {
+        "epistemic_type": "normative_prescription",
+        "rhetorical_strategy": "rights_based, precautionary_framing",
+        "assumes": [
+          "Digital data can be exploited posthumously if not managed.",
+          "Existing legal frameworks do not adequately protect posthumous digital privacy.",
+          "Individuals have a moral or legal right to control their digital legacy after death."
+        ],
+        "falsifiability": "low",
+        "audience": "policymakers, legal_professionals",
+        "emotional_register": "assertive, pragmatic",
+        "policy_actions": [
+          {
+            "policy_id": null,
+            "action": "Enact legislation granting estate fiduciaries a time-limited right to delete digital data.",
+            "framing": "This action ensures individuals' control over their digital legacy post-mortem and prevents posthumous exploitation by integrating digital asset management into estate administration."
+          }
+        ],
+        "intellectual_lineage": [
+          {
+            "name": "Privacy Law",
+            "description": "Privacy law encompasses the legal frameworks that govern the collection, storage, and use of personal information. It balances the individual's right to data autonomy against the interests of corporations and the state.\n\nAs AI models are trained on massive datasets, privacy law has become a primary constraint on AI development. Debates over 'right to be forgotten,' data scraping, and informed consent are central to how AI companies can legally build and deploy their systems.",
+            "url": "https://en.wikipedia.org/wiki/Information_privacy_law",
+            "category": "legal_framework"
+          },
+          {
+            "name": "Estate Law",
+            "description": "Estate law is the branch of jurisprudence that manages the legal mechanisms for handling a person's property and obligations during their lifetime and after death. This body of law dictates how probate courts operate, how wills and trusts are enforced, and how property rights are transferred across generations.\n\nAs individuals accumulate extensive digital footprints, cryptocurrencies, cloud storage accounts, and personalized AI agents, estate law must adapt to manage these intangible assets. AI governance intersects with estate law when determining ownership rights, access protocols, and the legal status of digital remainders left behind by deceased users.",
+            "url": "https://en.wikipedia.org/wiki/Estate_(law)",
+            "category": "legal_framework"
+          },
+          {
+            "name": "Digital Rights Advocacy",
+            "description": "Digital rights advocacy is a movement dedicated to protecting human rights in the digital age, including privacy, freedom of expression, and protection from online abuse. It focuses on the intersection of law, technology, and individual autonomy, arguing that users have a fundamental right to control their digital identity and personal data.\n\nThis tradition motivates the node's position by emphasizing the violation of bodily autonomy and dignity inherent in AI-generated sexual abuse. It provides the normative commitment that platforms have a responsibility to protect users from harm, shifting the focus from 'innovation at all costs' to the protection of individual digital integrity.\n\nKey organizations and figures include the Electronic Frontier Foundation (EFF) and activists like Anita Sarkeesian, who have long campaigned against online harassment. This entry relates to 'Cyberlaw and online harassment jurisprudence' by providing the grassroots and policy-oriented pressure needed to translate these harms into actionable legal standards.",
+            "url": "https://en.wikipedia.org/wiki/Digital_rights",
+            "category": "other"
+          }
+        ],
+        "steelman_vulnerability": "Granting fiduciaries broad deletion rights could lead to the irreversible loss of valuable historical, social, or artistic digital records, potentially infringing on the public's right to information or the deceased's own expressed wishes for their legacy.",
+        "possible_fallacies": [],
+        "node_scope": "scheme"
       }
     }
   ]

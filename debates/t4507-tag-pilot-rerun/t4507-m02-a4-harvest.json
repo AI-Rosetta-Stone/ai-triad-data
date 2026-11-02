@@ -1,0 +1,325 @@
+{
+  "debate_id": "81948356-ab0b-4f5a-91bc-2d47591e2cee",
+  "debate_title": "Should the largest AI model training runs require a gover...",
+  "conflicts": [
+    {
+      "id": "hc-0",
+      "point": "Whether training-time parameter privacy and scale thresholds render frontier model capabilities permanently opaque to post-deployment audits and output-based red-teaming.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Argues that billions of interacting parameters and opaque training dynamics mean post-deployment audits cannot detect or reverse unalignable capabilities once weights are locked."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Maintains that output-based auditing, automated evaluation suites, and runtime red-teaming successfully detect capability spikes and vulnerabilities without requiring access to raw training logs."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-029",
+        "sit-476",
+        "sit-098",
+        "acc-beliefs-043",
+        "acc-desires-027",
+        "acc-intentions-074",
+        "acc-beliefs-071",
+        "saf-beliefs-249",
+        "saf-desires-026"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-1",
+      "point": "Whether the Department of Commerce should conduct pre-market administrative inspections of training clusters before gradient descent begins, or whether post-market regulatory enforcement by existing agencies is sufficient.",
+      "bdiLayer": "desire",
+      "resolvability": "negotiable_via_tradeoffs",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Prioritizes preventive administrative oversight at the physical cluster boundary to stop irreversible catastrophic risks before deployment."
+        },
+        {
+          "pover": "skeptic",
+          "stance": "Prioritizes post-market enforcement and liability frameworks to avoid creating bureaucratic gatekeepers and anti-competitive licensing bottlenecks."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-029",
+        "sit-476",
+        "sit-098",
+        "skp-intentions-108",
+        "skp-intentions-141",
+        "skp-desires-076",
+        "skp-beliefs-242",
+        "skp-beliefs-249",
+        "skp-desires-079"
+      ],
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hc-2",
+      "point": "Whether algorithmic efficiency gains and architectural innovations outpace static hardware compute thresholds, rendering fixed-compute regulations obsolete.",
+      "bdiLayer": "belief",
+      "resolvability": "resolvable_by_evidence",
+      "positions": [
+        {
+          "pover": "safetyist",
+          "stance": "Maintains that a rigid computational threshold of 10^26 integer operations effectively targets the small subset of corporate clusters capable of producing unalignable systems."
+        },
+        {
+          "pover": "accelerationist",
+          "stance": "Argues that continuous algorithmic efficiency improvements reduce required compute by thirty percent annually, allowing advanced capabilities to emerge below static hardware limits."
+        }
+      ],
+      "linkedNodes": [
+        "saf-beliefs-203",
+        "saf-desires-029",
+        "sit-476",
+        "sit-098",
+        "acc-beliefs-043",
+        "acc-desires-027",
+        "acc-intentions-074",
+        "acc-beliefs-071",
+        "saf-beliefs-249",
+        "saf-desires-026"
+      ],
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "steelmans": [],
+  "debate_refs": [
+    {
+      "nodeId": "acc-desires-027",
+      "nodeLabel": "Defining Who Controls and Distributes AI",
+      "refCount": 3,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-476",
+      "nodeLabel": "Internal Deployment Scope Expansion",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "sit-098",
+      "nodeLabel": "Deciding When and How to Regulate AI",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "skp-intentions-141",
+      "nodeLabel": "Regulate AI for Documented Harms, Not Science-Fiction Scenarios",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "acc-beliefs-043",
+      "nodeLabel": "The Biggest Barriers to AI Progress Are Governance Failures, Not Technical Limits",
+      "refCount": 2,
+      "checked": true
+    },
+    {
+      "nodeId": "saf-beliefs-203",
+      "nodeLabel": "Frontier AI Risks Can Be Irreversible, Making Post-Hoc Governance Insufficient",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-029",
+      "nodeLabel": "Pre-Deployment Certification as Primary Enforcement in Feedback-Contaminated and Ground-Truth-Absent Domains",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-108",
+      "nodeLabel": "Oppose AI Regulations That Entrench Incumbents Through Compliance Costs",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-076",
+      "nodeLabel": "Public Right to Know What AI Was Trained On",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-242",
+      "nodeLabel": "Regulatory Guidance Rollback",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-074",
+      "nodeLabel": "Federalize AI Regulation to Prevent State-by-State Fragmentation",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-071",
+      "nodeLabel": "Quantifiable AI Harms Turn Fairness Into a Business Imperative, Not Just an Ethical One",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-249",
+      "nodeLabel": "Bootlegger and Baptist Regulatory Strategy",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-desires-079",
+      "nodeLabel": "Balanced Transparency: Public Interest vs. Trade Secrets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-277",
+      "nodeLabel": "Domain Expertise Deficits of Horizontal Regulators",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-beliefs-249",
+      "nodeLabel": "Upfront Compliance Asymmetry in AI Markets",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-desires-026",
+      "nodeLabel": "Uniform Disclosure Standards for AI Development",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "saf-intentions-204",
+      "nodeLabel": "Train AI on Constitutional Principles to Generalize Safety Beyond Narrow Rules",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-087",
+      "nodeLabel": "Establish Legal Rights to Train AI on Publicly Available Data",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-083",
+      "nodeLabel": "Acceptable Use Policies Protect Platforms from Liability, Not People from Harm",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-099",
+      "nodeLabel": "Integrating Mandatory Pre-Deployment Auditing with Strict Liability Enforcement",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-beliefs-076",
+      "nodeLabel": "Open Weights Are a Necessary but Insufficient Condition for Meaningful AI Safety Transparency",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-144",
+      "nodeLabel": "Automated Fairness and Bias Benchmarking",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "skp-intentions-080",
+      "nodeLabel": "Institutionalize Civil Rights Technical Expertise Within AI Regulatory Bodies",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-025",
+      "nodeLabel": "Opaque Training Data and Unknown Origins",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "sit-298",
+      "nodeLabel": "Data Merger Incipiency Standard",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-beliefs-034",
+      "nodeLabel": "AI Accountability Has a Chicken-and-Egg Problem",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-027",
+      "nodeLabel": "Argue That Delaying AI Costs More Than Deploying It",
+      "refCount": 1,
+      "checked": false
+    },
+    {
+      "nodeId": "acc-intentions-078",
+      "nodeLabel": "Create Regulatory Conditions Where Market Competition Drives AI Transparency",
+      "refCount": 1,
+      "checked": false
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "hv-0",
+      "conflict": "Whether training-time parameter privacy and scale thresholds render frontier model capabilities permanently opaque to post-deployment audits and output-based red-teaming.",
+      "prevails": "C4",
+      "criterion": "empirical_evidence",
+      "rationale": "The accelerationist position cites existing output-based red-teaming practices that successfully identify vulnerabilities in closed models. The safetyist argument relies on speculative assertions about future opacity without empirical proof that runtime probing is entirely ineffective.",
+      "whatWouldChange": "Empirical evidence demonstrating a class of catastrophic capabilities that emerge during training but produce zero observable signals during rigorous behavioral red-teaming.",
+      "claimIds": [
+        "C2",
+        "C4"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    },
+    {
+      "id": "hv-1",
+      "conflict": "Whether the Department of Commerce should conduct pre-market administrative inspections of training clusters before gradient descent begins, or whether post-market enforcement is sufficient.",
+      "prevails": "C8",
+      "criterion": "political_feasibility",
+      "rationale": "The skeptic position draws on existing statutory authorities under the Federal Trade Commission Act and Title VII, making enforcement politically feasible within current agency budgets. Establishing a novel pre-training licensing regime requires new congressional authorization and creates severe regulatory bottlenecks.",
+      "whatWouldChange": "Statutory passage of a dedicated licensing framework coupled with empirical evidence that existing agency authorities fail to prosecute algorithmic harms.",
+      "claimIds": [
+        "C1",
+        "C3",
+        "C6",
+        "C8"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": [
+        "Unknown criterion: political_feasibility"
+      ]
+    },
+    {
+      "id": "hv-2",
+      "conflict": "Whether algorithmic efficiency gains and architectural innovations outpace static hardware compute thresholds, rendering fixed-compute regulations obsolete.",
+      "prevails": "undecidable",
+      "criterion": "specificity",
+      "rationale": "Both sides present plausible trajectories for hardware scaling versus software efficiency, but neither provides definitive empirical bounds on future algorithmic improvements relative to the 10^26 integer operations threshold.",
+      "whatWouldChange": "Longitudinal benchmark data tracking algorithmic efficiency gains against hardware scaling over a multi-year development cycle.",
+      "claimIds": [
+        "C2",
+        "C6"
+      ],
+      "targetConflictId": null,
+      "checked": false,
+      "warnings": []
+    }
+  ],
+  "concepts": []
+}
