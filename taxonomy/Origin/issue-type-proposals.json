@@ -227,23 +227,28 @@
       "proposed": [
         "economic"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        []
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
-      "confidence": {
-        "economic": 0.6
-      },
-      "rationale": "The node distinguishes between functional indexing and generative model training, which primarily relates to market mechanisms, commercial content exploitation, and economic activities regarding copyrighted and processed digital content.",
+      "confidence": {},
+      "rationale": "A technical architecture/mechanism distinction (functional indexing vs generative encoding) with no stated stake in control, misuse, economics, power, politics, or social harm.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
         "classified_at": "2026-11-04T13:02:12.2458023-05:00",
         "second_model": "groq-openai-gpt-oss-20b",
         "second_types": [],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [],
+        "adjudicator_confidence": {},
+        "adjudicator_rationale": "A technical architecture/mechanism distinction (functional indexing vs generative encoding) with no stated stake in control, misuse, economics, power, politics, or social harm.",
+        "adjudicator_matched_prior": "second",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -280,17 +285,21 @@
         "social",
         "power_concentration"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "power_concentration",
+          "social"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "social": 0.8,
-        "power_concentration": 0.7
+        "power_concentration": 0.75,
+        "social": 0.35
       },
-      "rationale": "The node advocates for capturing think tanks and universities to shape public consensus and common sense, which primarily impacts the social information ecosystem and public opinion, while also involving power concentration through institutional capture.",
+      "rationale": "Describes deliberate capture of think tanks, universities, media to control ideological consensus—concentrating narrative/influence power in few actors; secondary cultural/common-sense shift affects public discourse.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -300,7 +309,19 @@
           "power_concentration",
           "social"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "power_concentration",
+          "social"
+        ],
+        "adjudicator_confidence": {
+          "power_concentration": 0.75,
+          "social": 0.35
+        },
+        "adjudicator_rationale": "Describes deliberate capture of think tanks, universities, media to control ideological consensus—concentrating narrative/influence power in few actors; secondary cultural/common-sense shift affects public discourse.",
+        "adjudicator_matched_prior": "second",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -428,17 +449,21 @@
         "loss_of_control",
         "economic"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "loss_of_control",
+          "economic"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "loss_of_control": 0.8,
-        "economic": 0.5
+        "loss_of_control": 0.6,
+        "economic": 0.4
       },
-      "rationale": "The node deals with accountability mechanisms and duty-based regulation for autonomous AI agents to ensure they remain properly governed, aligning with loss_of_control. Liability and duty-based frameworks also touch upon economic mechanisms like liability capitalisation.",
+      "rationale": "Addresses accountability/oversight of autonomous AI via duties and liability without personhood—tackling the control gap for autonomous agents, with liability framing also an economic mechanism.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -447,7 +472,19 @@
         "second_types": [
           "economic"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "loss_of_control",
+          "economic"
+        ],
+        "adjudicator_confidence": {
+          "loss_of_control": 0.6,
+          "economic": 0.4
+        },
+        "adjudicator_rationale": "Addresses accountability/oversight of autonomous AI via duties and liability without personhood—tackling the control gap for autonomous agents, with liability framing also an economic mechanism.",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -684,7 +721,12 @@
         "second_types": [
           "political"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [],
+        "adjudicator_confidence": {},
+        "adjudicator_rationale": "This is a legal-mechanism/classification question (duty-bearing status short of personhood), not tied to a specific harm, actor intent, or governance structure—more akin to a method/mechanism node.",
+        "adjudicator_matched_prior": "none"
       }
     },
     {
@@ -824,7 +866,12 @@
         "second_types": [
           "economic"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [],
+        "adjudicator_confidence": {},
+        "adjudicator_rationale": "This node is a jurisprudential/epistemic methodology (functional vs metaphysical mental states) for imputing intent, not a claim about loss of control, misuse, power, economics, politics, or social harm.",
+        "adjudicator_matched_prior": "none"
       }
     },
     {
@@ -947,14 +994,19 @@
     {
       "node_id": "saf-intentions-219",
       "proposed": [],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "loss_of_control"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
-      "confidence": {},
-      "rationale": "The node describes a methodology for evaluating AI auditing techniques through red-teaming protocols. As a technical and methodological mechanism with no stated stake in any of the six primary issue areas, it receives no issue-type tags.",
+      "confidence": {
+        "loss_of_control": 0.6
+      },
+      "rationale": "Tests whether auditing/oversight techniques can actually detect hidden misbehavior, directly addressing oversight capacity and control verification rather than a specific harm area.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -963,7 +1015,17 @@
         "second_types": [
           "loss_of_control"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "loss_of_control"
+        ],
+        "adjudicator_confidence": {
+          "loss_of_control": 0.6
+        },
+        "adjudicator_rationale": "Tests whether auditing/oversight techniques can actually detect hidden misbehavior, directly addressing oversight capacity and control verification rather than a specific harm area.",
+        "adjudicator_matched_prior": "second",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -972,17 +1034,21 @@
         "social",
         "misuse"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "social",
+          "misuse"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "social": 0.95,
-        "misuse": 0.7
+        "social": 0.75,
+        "misuse": 0.45
       },
-      "rationale": "The node focuses primarily on harms to children and the public information ecosystem from deepfakes and misleading content, which is a social issue. It also touches upon misuse regarding the malicious production of deepfakes.",
+      "rationale": "Focuses on child harm from deepfakes/disinformation/AI slop (child safety, social wellbeing), with underlying deliberate malicious content production as misuse.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -992,7 +1058,19 @@
           "misuse",
           "social"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "social",
+          "misuse"
+        ],
+        "adjudicator_confidence": {
+          "social": 0.75,
+          "misuse": 0.45
+        },
+        "adjudicator_rationale": "Focuses on child harm from deepfakes/disinformation/AI slop (child safety, social wellbeing), with underlying deliberate malicious content production as misuse.",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -1029,17 +1107,21 @@
         "economic",
         "power_concentration"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "economic",
+          "social"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "economic": 0.9,
-        "power_concentration": 0.7
+        "economic": 0.6,
+        "social": 0.4
       },
-      "rationale": "The node focuses on corporate liability, torts, and financial risk absorption via proprietary architectures, which is primarily economic. It also touches on power concentration through trade secrecy and legal shields protecting corporate balance sheets.",
+      "rationale": "Focuses on liability shifting/capitalisation via opacity (economic mechanism) causing accountability vacuums in misdiagnosis and malpractice harming patients (social).",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -1049,7 +1131,19 @@
           "power_concentration",
           "economic"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "economic",
+          "social"
+        ],
+        "adjudicator_confidence": {
+          "economic": 0.6,
+          "social": 0.4
+        },
+        "adjudicator_rationale": "Focuses on liability shifting/capitalisation via opacity (economic mechanism) causing accountability vacuums in misdiagnosis and malpractice harming patients (social).",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -1077,7 +1171,16 @@
         "second_types": [
           "political"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "political"
+        ],
+        "adjudicator_confidence": {
+          "political": 0.55
+        },
+        "adjudicator_rationale": "Describes structural governance/accountability gaps in transparency regimes across the AI lifecycle, not a specific harm—fits governance-structure framing of political.",
+        "adjudicator_matched_prior": "second"
       }
     },
     {
@@ -1177,14 +1280,15 @@
     {
       "node_id": "sit-436",
       "proposed": [],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        []
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
-      "rationale": "The node discusses epistemics and the abstract conceptualization of risk rather than any of the six specific problem areas (loss_of_control, misuse, power_concentration, economic, political, or social). Per rules, nodes about epistemics or methodology get no tags.",
+      "rationale": "This is a conceptual/epistemic discussion about the vagueness and measurement of 'risk' itself, not about any specific harm, actor, or governance issue among the six types.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -1193,7 +1297,13 @@
         "second_types": [
           "social"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [],
+        "adjudicator_confidence": {},
+        "adjudicator_rationale": "This is a conceptual/epistemic discussion about the vagueness and measurement of 'risk' itself, not about any specific harm, actor, or governance issue among the six types.",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -1221,7 +1331,18 @@
         "second_types": [
           "misuse"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "misuse",
+          "loss_of_control"
+        ],
+        "adjudicator_confidence": {
+          "misuse": 0.55,
+          "loss_of_control": 0.5
+        },
+        "adjudicator_rationale": "Describes an attack vector where malicious tool outputs (exfiltration commands, forged reasoning) exploit trust boundaries—misuse via injection, compounded by the model acting on unauthorized inputs as if internally authorized, a control/oversight failure.",
+        "adjudicator_matched_prior": "second"
       }
     },
     {
@@ -1230,17 +1351,19 @@
         "social",
         "economic"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "power_concentration"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "social": 0.8,
-        "economic": 0.5
+        "power_concentration": 0.75
       },
-      "rationale": "Absorbing human cultural and scientific knowledge impacts society's digital heritage, intellectual property, and public culture. It also touches on knowledge production economies, though the primary thrust is cultural and archival.",
+      "rationale": "Advocates centralizing all human knowledge into foundational models (absolute repositories), explicitly excluding decentralized/open-source access—framing concerns who controls consolidated knowledge/data.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -1249,7 +1372,17 @@
         "second_types": [
           "power_concentration"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "power_concentration"
+        ],
+        "adjudicator_confidence": {
+          "power_concentration": 0.75
+        },
+        "adjudicator_rationale": "Advocates centralizing all human knowledge into foundational models (absolute repositories), explicitly excluding decentralized/open-source access—framing concerns who controls consolidated knowledge/data.",
+        "adjudicator_matched_prior": "second",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -1286,17 +1419,19 @@
         "economic",
         "loss_of_control"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "economic"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "economic": 0.8,
-        "loss_of_control": 0.6
+        "economic": 0.6
       },
-      "rationale": "The node addresses liability regimes, tort responsibility, and attributing harm in shared human-machine control, which primarily concerns economic mechanisms like liability and insurance, alongside questions of system autonomy and control.",
+      "rationale": "Focuses on liability attribution between human and system in shared control, framed as a legal/economic responsibility mechanism, not harm type itself.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -1305,7 +1440,17 @@
         "second_types": [
           "political"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "economic"
+        ],
+        "adjudicator_confidence": {
+          "economic": 0.6
+        },
+        "adjudicator_rationale": "Focuses on liability attribution between human and system in shared control, framed as a legal/economic responsibility mechanism, not harm type itself.",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -1492,7 +1637,18 @@
         "second_types": [
           "economic"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "political",
+          "power_concentration"
+        ],
+        "adjudicator_confidence": {
+          "political": 0.6,
+          "power_concentration": 0.3
+        },
+        "adjudicator_rationale": "Node is about which governance regime (securities law vs AI-specific rules) applies to corporate disclosure—a governance-structure question, with secondary framing as corporate evasion of oversight.",
+        "adjudicator_matched_prior": "none"
       }
     },
     {
@@ -1549,7 +1705,12 @@
           "loss_of_control",
           "social"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [],
+        "adjudicator_confidence": {},
+        "adjudicator_rationale": "This is a technical training-method mechanism (consequence simulation for ethical reasoning) with no stated stake in control, misuse, power, economics, politics, or social harm—pure method/epistemic approach.",
+        "adjudicator_matched_prior": "none"
       }
     },
     {
@@ -1689,7 +1850,12 @@
         "second_types": [
           "loss_of_control"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [],
+        "adjudicator_confidence": {},
+        "adjudicator_rationale": "Describes a technical security mechanism (browser isolation for enterprise devices) with no stated stake in control, misuse, power, economics, politics, or social harm.",
+        "adjudicator_matched_prior": "none"
       }
     },
     {
@@ -1698,17 +1864,21 @@
         "power_concentration",
         "political"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "power_concentration",
+          "political"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "power_concentration": 0.9,
-        "political": 0.7
+        "power_concentration": 0.72,
+        "political": 0.35
       },
-      "rationale": "The node focuses on decentralized participatory auditing and open-access model weights to counter black-box compliance, directly addressing power distribution and gatekeeping (power_concentration) while involving multi-stakeholder governance mechanisms (political).",
+      "rationale": "Pushes decentralized, multi-stakeholder auditing against centralized gatekeeping (state or corporate), i.e. a distribution-of-power remedy for AI verification control.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -1718,7 +1888,19 @@
           "loss_of_control",
           "power_concentration"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "power_concentration",
+          "political"
+        ],
+        "adjudicator_confidence": {
+          "power_concentration": 0.72,
+          "political": 0.35
+        },
+        "adjudicator_rationale": "Pushes decentralized, multi-stakeholder auditing against centralized gatekeeping (state or corporate), i.e. a distribution-of-power remedy for AI verification control.",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -1727,17 +1909,19 @@
         "economic",
         "social"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "social"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "economic": 0.8,
-        "social": 0.7
+        "social": 0.75
       },
-      "rationale": "The node deals with AI replacing human cognitive functions, touching on dependency and skill erosion. This heavily overlaps with labor capacity and economic productivity (economic) as well as human capability and wellbeing (social).",
+      "rationale": "Concerns human cognitive dependency, skill erosion, and empowerment from AI use—wellbeing/dignity impacts on people, excluding labor/economic framing explicitly.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -1746,7 +1930,17 @@
         "second_types": [
           "social"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "social"
+        ],
+        "adjudicator_confidence": {
+          "social": 0.75
+        },
+        "adjudicator_rationale": "Concerns human cognitive dependency, skill erosion, and empowerment from AI use—wellbeing/dignity impacts on people, excluding labor/economic framing explicitly.",
+        "adjudicator_matched_prior": "second",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -1873,16 +2067,19 @@
       "proposed": [
         "loss_of_control"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "loss_of_control"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "loss_of_control": 0.8
+        "loss_of_control": 0.75
       },
-      "rationale": "Alert fatigue describes monitoring failures and over-reliance where human oversight breaks down under automated warnings, directly concerning loss of meaningful human direction.",
+      "rationale": "Describes human-in-the-loop monitoring failures and over-reliance on automated systems, degrading human oversight capacity—core loss_of_control concern about oversight keeping pace.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -1891,20 +2088,31 @@
         "second_types": [
           "social"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "loss_of_control"
+        ],
+        "adjudicator_confidence": {
+          "loss_of_control": 0.75
+        },
+        "adjudicator_rationale": "Describes human-in-the-loop monitoring failures and over-reliance on automated systems, degrading human oversight capacity—core loss_of_control concern about oversight keeping pace.",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
       "node_id": "saf-beliefs-224",
       "proposed": [],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        []
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
-      "rationale": "The node discusses a technical mechanism (polysemanticity driven by representational capacity competition and sparsity penalties) with no stated stake, harm, or policy area. Under rule 2, nodes about technical mechanisms with no stated stake receive no tags.",
+      "rationale": "Describes a technical mechanism (polysemanticity from representational capacity competition) with no stated stake in control, misuse, power, economy, politics, or society.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -1913,7 +2121,13 @@
         "second_types": [
           "loss_of_control"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [],
+        "adjudicator_confidence": {},
+        "adjudicator_rationale": "Describes a technical mechanism (polysemanticity from representational capacity competition) with no stated stake in control, misuse, power, economy, politics, or society.",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -2152,17 +2366,19 @@
         "social",
         "misuse"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "social"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "social": 0.95,
-        "misuse": 0.4
+        "social": 0.9
       },
-      "rationale": "The node focuses on biometric data collection and pervasive surveillance normalizing without consent in everyday environments, which directly impacts human privacy, rights, and societal wellbeing (social), with elements of covert deployment bordering on misuse.",
+      "rationale": "Covert biometric collection in consumer/workplace settings concerns privacy and consent as experienced by individuals, a social harm, not state-level or organized misuse.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -2171,7 +2387,17 @@
         "second_types": [
           "social"
         ],
-        "agree": true
+        "agree": true,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "social"
+        ],
+        "adjudicator_confidence": {
+          "social": 0.9
+        },
+        "adjudicator_rationale": "Covert biometric collection in consumer/workplace settings concerns privacy and consent as experienced by individuals, a social harm, not state-level or organized misuse.",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -2193,7 +2419,16 @@
         "second_types": [
           "loss_of_control"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "loss_of_control"
+        ],
+        "adjudicator_confidence": {
+          "loss_of_control": 0.55
+        },
+        "adjudicator_rationale": "Focuses on interpretability/self-explanation architecture, tied to oversight and verifiability of AI cognition—core loss_of_control themes, though framed as a capability goal rather than a stated risk.",
+        "adjudicator_matched_prior": "second"
       }
     },
     {
@@ -2257,23 +2492,28 @@
       "proposed": [
         "misuse"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        []
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
-      "confidence": {
-        "misuse": 0.8
-      },
-      "rationale": "The node discusses honeypots involving deception and interaction depth, which are core mechanisms used in cybersecurity defense against malicious actors and cyberattacks, falling squarely under misuse.",
+      "confidence": {},
+      "rationale": "This is a technical cybersecurity design trade-off (honeypot flexibility/interaction/deception metrics) with no stated stake in any of the six issue areas.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
         "classified_at": "2026-11-04T13:02:12.2458023-05:00",
         "second_model": "groq-openai-gpt-oss-20b",
         "second_types": [],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [],
+        "adjudicator_confidence": {},
+        "adjudicator_rationale": "This is a technical cybersecurity design trade-off (honeypot flexibility/interaction/deception metrics) with no stated stake in any of the six issue areas.",
+        "adjudicator_matched_prior": "second",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -2508,17 +2748,19 @@
         "political",
         "economic"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "political"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "political": 0.9,
-        "economic": 0.6
+        "political": 0.75
       },
-      "rationale": "The node addresses the governance, legal authority, and structural incentives of safety regulators, fitting political. It also involves financial liability and institutional costs, making economic a secondary tag.",
+      "rationale": "Node concerns regulatory authority structure itself (sovereign immunity, liability incentives for regulators), not a specific harm being regulated—this is about how governing/regulation works.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -2527,7 +2769,17 @@
         "second_types": [
           "economic"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "political"
+        ],
+        "adjudicator_confidence": {
+          "political": 0.75
+        },
+        "adjudicator_rationale": "Node concerns regulatory authority structure itself (sovereign immunity, liability incentives for regulators), not a specific harm being regulated—this is about how governing/regulation works.",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -2714,7 +2966,18 @@
           "misuse",
           "power_concentration"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "political",
+          "power_concentration"
+        ],
+        "adjudicator_confidence": {
+          "political": 0.65,
+          "power_concentration": 0.55
+        },
+        "adjudicator_rationale": "Concerns legitimacy of state-held halt/monitoring infrastructure and its potential coercive use against dissidents/workers—governance structure and state power concentration, not private market capture.",
+        "adjudicator_matched_prior": "none"
       }
     },
     {
@@ -2814,17 +3077,21 @@
         "economic",
         "misuse"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "economic",
+          "misuse"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "economic": 0.9,
-        "misuse": 0.7
+        "economic": 0.65,
+        "misuse": 0.45
       },
-      "rationale": "The node addresses misleading claims and hype in AI-driven investment strategies targeting financial markets, making economic impacts primary. Misuse applies due to the deliberate exaggeration and deceptive promotion to attract investors.",
+      "rationale": "Focuses on firms overstating AI capabilities in investment products to attract investors—financial/market deception tied to investment economics, with a secondary fraud/deceptive-marketing angle.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -2834,7 +3101,19 @@
           "misuse",
           "economic"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "economic",
+          "misuse"
+        ],
+        "adjudicator_confidence": {
+          "economic": 0.65,
+          "misuse": 0.45
+        },
+        "adjudicator_rationale": "Focuses on firms overstating AI capabilities in investment products to attract investors—financial/market deception tied to investment economics, with a secondary fraud/deceptive-marketing angle.",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -3066,7 +3345,18 @@
         "second_types": [
           "power_concentration"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "economic",
+          "political"
+        ],
+        "adjudicator_confidence": {
+          "economic": 0.55,
+          "political": 0.4
+        },
+        "adjudicator_rationale": "Centers on liability capitalisation—using compliance logs as indemnity shields to dilute tort deterrence and bypass jury trials—an economic/legal-liability mechanism tied to civil procedure governance.",
+        "adjudicator_matched_prior": "primary"
       }
     },
     {
@@ -3168,17 +3458,19 @@
         "power_concentration",
         "economic"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "economic"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "power_concentration": 0.8,
-        "economic": 0.6
+        "economic": 0.75
       },
-      "rationale": "The node focuses on capital-intensive infrastructure bottlenecks, exponential costs, and physical resource constraints like energy and water, which relate to compute chokepoints and structural market advantages (power_concentration) as well as scale and deployment economics (economic).",
+      "rationale": "Focuses on cost growth, energy and water infrastructure limits as material/resource constraints on deployment—an economic bottleneck claim, not about who holds power or social harm.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -3187,7 +3479,17 @@
         "second_types": [
           "economic"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "economic"
+        ],
+        "adjudicator_confidence": {
+          "economic": 0.75
+        },
+        "adjudicator_rationale": "Focuses on cost growth, energy and water infrastructure limits as material/resource constraints on deployment—an economic bottleneck claim, not about who holds power or social harm.",
+        "adjudicator_matched_prior": "second",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -3246,7 +3548,18 @@
         "second_types": [
           "loss_of_control"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "loss_of_control",
+          "political"
+        ],
+        "adjudicator_confidence": {
+          "loss_of_control": 0.55,
+          "political": 0.3
+        },
+        "adjudicator_rationale": "Defines a legal form where AI agents operate corporate assets autonomously via digital keys, separate from human owners—centrally about autonomy/control and the legal/governance recognition of that autonomy.",
+        "adjudicator_matched_prior": "second"
       }
     },
     {
@@ -3255,17 +3568,21 @@
         "power_concentration",
         "social"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "power_concentration",
+          "social"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "power_concentration": 0.9,
-        "social": 0.8
+        "power_concentration": 0.6,
+        "social": 0.5
       },
-      "rationale": "The node addresses corporate power and impression management as mechanisms that limit public deliberation and stifle dissent. Power_concentration is primary due to corporate control over discourse, while social captures the impact on public deliberation and human rights.",
+      "rationale": "Under 'Corporate Power and Regulatory Evasion', frames corporate PR as coercive tactic to stifle dissent and evade accountability (power_concentration), while harming public deliberation/discourse (social).",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -3275,7 +3592,19 @@
           "social",
           "power_concentration"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "power_concentration",
+          "social"
+        ],
+        "adjudicator_confidence": {
+          "power_concentration": 0.6,
+          "social": 0.5
+        },
+        "adjudicator_rationale": "Under 'Corporate Power and Regulatory Evasion', frames corporate PR as coercive tactic to stifle dissent and evade accountability (power_concentration), while harming public deliberation/discourse (social).",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -3374,17 +3703,19 @@
         "power_concentration",
         "political"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "power_concentration"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "power_concentration": 0.9,
-        "political": 0.8
+        "power_concentration": 0.75
       },
-      "rationale": "The node focuses on mobilizing political campaigns and regulatory challenges to hold AI corporations accountable for market dominance and corporate actions, directly addressing corporate power concentration and political pressure.",
+      "rationale": "Targets corporate market dominance via political/public pressure; tagged by the harm (concentration of corporate power), not the instrument (campaigns/regulation).",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -3393,7 +3724,17 @@
         "second_types": [
           "political"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "power_concentration"
+        ],
+        "adjudicator_confidence": {
+          "power_concentration": 0.75
+        },
+        "adjudicator_rationale": "Targets corporate market dominance via political/public pressure; tagged by the harm (concentration of corporate power), not the instrument (campaigns/regulation).",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -3542,14 +3883,15 @@
     {
       "node_id": "acc-beliefs-024",
       "proposed": [],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        []
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
-      "rationale": "The node discusses the abstract philosophical and technical nature of AGI and superhuman intelligence without addressing specific risks or issue areas like control loss, misuse, economic impacts, power dynamics, politics, or social harms.",
+      "rationale": "This is a conceptual/definitional belief about AGI's nature and capability trajectory, not tied to a specific stake like control, misuse, economics, politics, or social harm.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -3558,7 +3900,13 @@
         "second_types": [
           "loss_of_control"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [],
+        "adjudicator_confidence": {},
+        "adjudicator_rationale": "This is a conceptual/definitional belief about AGI's nature and capability trajectory, not tied to a specific stake like control, misuse, economics, politics, or social harm.",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -3629,23 +3977,28 @@
       "proposed": [
         "economic"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        []
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
-      "confidence": {
-        "economic": 0.6
-      },
-      "rationale": "The node covers legal actor status, duty-bearing, and liability mechanisms, which heavily connect to liability frameworks and accountability mechanisms within an economic or legal allocation context.",
+      "confidence": {},
+      "rationale": "Defines a legal/conceptual mechanism (duty-bearing without personhood) with no stated harm, benefit, or stance on any of the six issue areas; it's a definitional building block, not an issue claim.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
         "classified_at": "2026-11-04T13:02:12.2458023-05:00",
         "second_model": "groq-openai-gpt-oss-20b",
         "second_types": [],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [],
+        "adjudicator_confidence": {},
+        "adjudicator_rationale": "Defines a legal/conceptual mechanism (duty-bearing without personhood) with no stated harm, benefit, or stance on any of the six issue areas; it's a definitional building block, not an issue claim.",
+        "adjudicator_matched_prior": "second",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -3905,17 +4258,19 @@
         "power_concentration",
         "social"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "loss_of_control"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "power_concentration": 0.85,
-        "social": 0.6
+        "loss_of_control": 0.72
       },
-      "rationale": "The node calls for worker-led safety vetoes and internal transparency audits, which directly challenges corporate power structures by distributing authority over AI development to workers (power_concentration) and addresses worker rights and safety (social).",
+      "rationale": "Mandates mechanistic interpretability audits of internal model pathways to catch deceptive/misaligned behavior before deployment, enabling workers to veto—an oversight mechanism against loss of control.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -3924,7 +4279,17 @@
         "second_types": [
           "loss_of_control"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "loss_of_control"
+        ],
+        "adjudicator_confidence": {
+          "loss_of_control": 0.72
+        },
+        "adjudicator_rationale": "Mandates mechanistic interpretability audits of internal model pathways to catch deceptive/misaligned behavior before deployment, enabling workers to veto—an oversight mechanism against loss of control.",
+        "adjudicator_matched_prior": "second",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -4040,7 +4405,20 @@
         "second_types": [
           "political"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "political",
+          "economic",
+          "social"
+        ],
+        "adjudicator_confidence": {
+          "political": 0.55,
+          "economic": 0.5,
+          "social": 0.3
+        },
+        "adjudicator_rationale": "Focuses on federal regulatory rollback (DOL/EEOC) creating a governance gap and reliance on state law—governance structure—while also raising employer legal/compliance uncertainty (economic) and discrimination guidance (social).",
+        "adjudicator_matched_prior": "second"
       }
     },
     {
@@ -4077,17 +4455,21 @@
         "social",
         "economic"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "economic",
+          "social"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "social": 0.9,
-        "economic": 0.8
+        "economic": 0.75,
+        "social": 0.7
       },
-      "rationale": "The node explicitly focuses on negative impacts to human society such as the erosion of social trust and norms (social) alongside economic instability and skill decay (economic).",
+      "rationale": "Covers deskilling and economic bubbles/market instability (economic) plus breakdown of social trust and norms (social).",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -4097,7 +4479,19 @@
           "economic",
           "social"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "economic",
+          "social"
+        ],
+        "adjudicator_confidence": {
+          "economic": 0.75,
+          "social": 0.7
+        },
+        "adjudicator_rationale": "Covers deskilling and economic bubbles/market instability (economic) plus breakdown of social trust and norms (social).",
+        "adjudicator_matched_prior": "second",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -4134,17 +4528,19 @@
         "misuse",
         "loss_of_control"
       ],
-      "status": "pending",
-      "final": null,
+      "status": "accepted",
+      "final": [
+        [
+          "misuse"
+        ]
+      ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
-        "misuse": 0.8,
-        "loss_of_control": 0.5
+        "misuse": 0.6
       },
-      "rationale": "The node addresses AI agents being tricked by fake identities and superficial cues, which directly enables malicious actors to exploit them (misuse) and highlights a fundamental vulnerability in autonomous agent security and verification (loss_of_control).",
+      "rationale": "Vulnerability where fake identities/display names deceive AI agents enables impersonation-based attacks exploited by malicious actors, fitting misuse rather than autonomous system misbehavior.",
       "provenance": {
-        "method": "llm",
         "model": "gemini-3.5-flash-lite",
         "prompt_version": "issue-types-v1",
         "run_id": "issue-types-full-2026-11-04",
@@ -4153,7 +4549,17 @@
         "second_types": [
           "loss_of_control"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "misuse"
+        ],
+        "adjudicator_confidence": {
+          "misuse": 0.6
+        },
+        "adjudicator_rationale": "Vulnerability where fake identities/display names deceive AI agents enables impersonation-based attacks exploited by malicious actors, fitting misuse rather than autonomous system misbehavior.",
+        "adjudicator_matched_prior": "primary",
+        "method": "llm-adjudicated"
       }
     },
     {
@@ -4600,7 +5006,16 @@
           "economic",
           "power_concentration"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "economic"
+        ],
+        "adjudicator_confidence": {
+          "economic": 0.5
+        },
+        "adjudicator_rationale": "Focuses on whether market competition and investment incentives can drive safety, a market-mechanism question; doesn't clearly engage power distribution, misuse, or governance structure.",
+        "adjudicator_matched_prior": "second"
       }
     },
     {
@@ -4710,7 +5125,18 @@
         "second_types": [
           "political"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "economic",
+          "social"
+        ],
+        "adjudicator_confidence": {
+          "economic": 0.55,
+          "social": 0.3
+        },
+        "adjudicator_rationale": "Centers on copyright/data-scraping rights for AI training, framed as an economic/legal entitlement question with implications for creators' rights, not governance structure or power concentration.",
+        "adjudicator_matched_prior": "none"
       }
     },
     {
@@ -4766,7 +5192,18 @@
         "second_types": [
           "political"
         ],
-        "agree": false
+        "agree": false,
+        "adjudicator_model": "claude-sonnet-5",
+        "adjudicator_types": [
+          "loss_of_control",
+          "political"
+        ],
+        "adjudicator_confidence": {
+          "loss_of_control": 0.55,
+          "political": 0.3
+        },
+        "adjudicator_rationale": "Distinguishes legal agency from actual autonomous choice/accountability in military AI use, centering on oversight and control rather than misuse or harm-specific regulation.",
+        "adjudicator_matched_prior": "primary"
       }
     },
     {
