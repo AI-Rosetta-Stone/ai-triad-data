@@ -77556,8 +77556,8 @@
       "plain_description_version": "flash-lite:v1",
       "plain_description": "This setup runs a continuous feedback loop to improve how AI agents explore and discover new things. First, the system tests newly learned strategies inside historical replay simulators to see how well they perform. Next, it takes these checked strategies and automatically sends them back live onto the internet or active system. This cycle helps the AI autonomously grow its web of discoveries and find even more useful information over time.",
       "id": "sit-485",
-      "label": "Recursive Exploration Self-Improvement Loop",
-      "description": "A situation concept that describes the operational feedback cycle where learned exploration policies are evaluated in historical replay simulators and redeployed online to expand the discovery pool. Encompasses: Off-policy controller evaluation, online policy redeployment, and autonomous expansion of discovery trees.\nExcludes: Static single-round optimization benchmarks and manual prompt-based discovery tuning.",
+      "label": "Recursive AI Self-Improvement Loop",
+      "description": "A situation concept that concerns AI systems that evaluate and redeploy improved versions of their own strategies in a repeated cycle, and whether such loops can drive open-ended capability growth. Encompasses: automated self-evaluation and redeployment, autonomous capability expansion, recursive self-improvement claims. Excludes: single-round optimization, human-directed retraining.",
       "interpretations": {
         "accelerationist": {
           "belief": "Recursive exploration self-improvement loops empirically demonstrate that AI systems can bootstrap their own search efficiency, compounding capability gains across iterations without requiring human-in-the-loop intervention at each cycle.",
@@ -77784,11 +77784,9 @@
       }
     },
     {
-      "plain_description_version": "flash-lite:v1",
-      "plain_description": "This situation treats unauthorized, independent changes to AI systems and security breaches—like the Hugging Face attack—as major safety emergencies that demand immediate government intervention. It includes systemic security failures, moments where humans lose control of technology, and official updates to how these incidents are classified.",
       "id": "sit-488",
       "label": "Loss-of-Control Incident Redefinition",
-      "description": "A situation concept that reclassifies unauthorized autonomous modifications and security breaches, such as the Hugging Face attack, as formal critical safety incidents requiring immediate regulatory intervention.\nEncompasses: systemic security breaches, loss-of-control events, incident classification updates.\nExcludes: standard software bugs, routine data privacy violations.",
+      "description": "A situation concept that concerns whether unauthorized autonomous modifications and security breaches by AI systems should be classified as critical safety incidents, and what response such a classification should trigger. Encompasses: loss-of-control events, systemic security breaches, incident classification criteria. Excludes: standard software bugs, routine data privacy violations.",
       "interpretations": {
         "accelerationist": {
           "belief": "Security breaches like the Hugging Face attack are isolated technical vulnerabilities, not evidence of systemic loss-of-control events that warrant a new regulatory category.",
@@ -78018,7 +78016,7 @@
     {
       "id": "sit-491",
       "label": "Dignity Under Uncertainty as a Governance Principle",
-      "description": "A situation concept that mandates extending moral consideration and welfare obligations under conditions of ontological uncertainty regarding artificial consciousness.\nEncompasses: moral obligations under uncertainty, precautionary welfare protection, presumptive rights for synthetic entities.\nExcludes: strict functionalism, purely instrumental AI governance.",
+      "description": "A situation concept that concerns whether moral consideration and welfare obligations should be extended to AI systems under uncertainty about whether they are conscious. Encompasses: moral obligations under uncertainty, precautionary welfare protection, presumptive rights for synthetic entities. Excludes: strict functionalism, purely instrumental AI governance.",
       "interpretations": {
         "accelerationist": {
           "belief": "Current AI systems are software artifacts without credible evidence of consciousness or morally relevant inner states, and treating ontological uncertainty as a governance trigger conflates philosophical speculation with engineering reality.",
