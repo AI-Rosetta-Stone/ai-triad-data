@@ -228,9 +228,7 @@
         "economic"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -287,11 +285,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -451,11 +447,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -996,10 +990,8 @@
       "proposed": [],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -1036,11 +1028,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -1109,11 +1099,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -1281,9 +1269,7 @@
       "node_id": "sit-436",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -1353,10 +1339,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -1421,10 +1405,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -1866,11 +1848,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -1911,10 +1891,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -2069,10 +2047,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -2105,9 +2081,7 @@
       "node_id": "saf-beliefs-224",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -2368,10 +2342,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -2493,9 +2465,7 @@
         "misuse"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -2750,10 +2720,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -3079,11 +3047,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -3460,10 +3426,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -3570,11 +3534,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -3705,10 +3667,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -3884,9 +3844,7 @@
       "node_id": "acc-beliefs-024",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -3978,9 +3936,7 @@
         "economic"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -4260,10 +4216,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -4457,11 +4411,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -4530,10 +4482,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -5299,11 +5249,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -5622,9 +5570,7 @@
         "social"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -5828,10 +5774,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -6143,11 +6087,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -6434,9 +6376,7 @@
         "economic"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -6704,9 +6644,7 @@
       "node_id": "saf-beliefs-259",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -6899,11 +6837,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -6942,10 +6878,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -7098,10 +7032,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -7186,9 +7118,7 @@
       "node_id": "sit-430",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -7425,10 +7355,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -7465,11 +7393,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -7564,9 +7490,7 @@
       "node_id": "sit-485",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -8184,11 +8108,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -8285,12 +8207,10 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "political",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -9185,11 +9105,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -9283,9 +9201,7 @@
         "economic"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -9662,9 +9578,7 @@
       "node_id": "skp-beliefs-056",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -9723,10 +9637,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -9763,11 +9675,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -10071,10 +9981,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -10341,11 +10249,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -10687,10 +10593,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -10727,11 +10631,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -10946,11 +10848,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -11016,9 +10916,7 @@
         "social"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -11166,11 +11064,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -11455,9 +11351,7 @@
         "economic"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -11680,10 +11574,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -11851,9 +11743,7 @@
         "misuse"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -11882,11 +11772,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse",
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -12069,9 +11957,7 @@
       "node_id": "acc-intentions-110",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -12290,9 +12176,7 @@
       "node_id": "sit-460",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -12323,10 +12207,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -12648,9 +12530,7 @@
       "node_id": "skp-beliefs-035",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -12953,9 +12833,7 @@
       "node_id": "acc-intentions-083",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -13178,11 +13056,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -13569,11 +13445,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -13701,12 +13575,10 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "loss_of_control",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -13960,11 +13832,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -14063,10 +13933,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -14308,9 +14176,7 @@
         "economic"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -14339,10 +14205,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -14651,10 +14515,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -14723,11 +14585,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -15057,11 +14917,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -15457,10 +15315,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -15759,9 +15615,7 @@
       "node_id": "sit-403",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -15951,9 +15805,7 @@
         "loss_of_control"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -16305,11 +16157,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -16380,10 +16230,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -17044,9 +16892,7 @@
       "node_id": "saf-intentions-251",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -17417,9 +17263,7 @@
       "node_id": "acc-intentions-120",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -17509,10 +17353,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -17744,11 +17586,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -17787,9 +17627,7 @@
         "economic"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -17998,11 +17836,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -18250,9 +18086,7 @@
         "loss_of_control"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -18403,10 +18237,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -18595,11 +18427,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -19017,9 +18847,7 @@
         "misuse"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -19289,10 +19117,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -19325,9 +19151,7 @@
       "node_id": "sit-109",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -19358,11 +19182,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -19639,10 +19461,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -19820,11 +19640,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -19953,10 +19771,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -20018,10 +19834,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -20254,9 +20068,7 @@
         "loss_of_control"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -20315,10 +20127,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -20993,11 +20803,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -21159,11 +20967,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -21491,10 +21297,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -21698,10 +21502,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -21990,11 +21792,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -22094,11 +21894,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -22354,9 +22152,7 @@
       "node_id": "saf-beliefs-063",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -22386,10 +22182,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -22483,10 +22277,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -22520,9 +22312,7 @@
       "node_id": "skp-beliefs-311",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -23619,10 +23409,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -24242,10 +24030,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -24331,11 +24117,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -24408,11 +24192,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -24451,11 +24233,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -25122,9 +24902,7 @@
       "node_id": "sit-053",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -25290,11 +25068,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -25514,9 +25290,7 @@
         "loss_of_control"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -25823,10 +25597,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -25861,9 +25633,7 @@
         "political"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -25920,10 +25690,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -26318,9 +26086,7 @@
         "power_concentration"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -26346,10 +26112,8 @@
       "proposed": [],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -26445,10 +26209,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -26696,10 +26458,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -26821,10 +26581,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -27179,9 +26937,7 @@
       "node_id": "sit-356",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -27212,11 +26968,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -27283,9 +27037,7 @@
       "node_id": "saf-intentions-153",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -27370,9 +27122,7 @@
         "loss_of_control"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -27700,9 +27450,7 @@
         "loss_of_control"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -27852,11 +27600,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -27954,9 +27700,7 @@
         "economic"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -28228,10 +27972,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -28383,10 +28125,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -28471,10 +28211,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -28661,11 +28399,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -28816,9 +28552,7 @@
         "loss_of_control"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -28909,10 +28643,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -28950,11 +28682,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -29301,11 +29031,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -29374,9 +29102,7 @@
       "node_id": "saf-beliefs-148",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -29525,11 +29251,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -29952,9 +29676,7 @@
         "social"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -30499,10 +30221,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -30650,11 +30370,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -30837,9 +30555,7 @@
       "node_id": "saf-beliefs-286",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -30972,10 +30688,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -31244,9 +30958,7 @@
         "misuse"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -31274,10 +30986,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -31591,9 +31301,7 @@
         "loss_of_control"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -31701,10 +31409,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -32338,9 +32044,7 @@
       "node_id": "sit-021",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -32736,11 +32440,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -32915,11 +32617,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -33172,10 +32872,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -33240,11 +32938,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -33625,9 +33321,7 @@
         "social"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -33691,10 +33385,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -33731,10 +33423,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -33887,10 +33577,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -34160,9 +33848,7 @@
         "economic"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -34299,11 +33985,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -34857,10 +34541,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -34949,9 +34631,7 @@
       "node_id": "acc-beliefs-127",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -35011,11 +34691,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -35174,11 +34852,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -35218,11 +34894,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -35287,9 +34961,7 @@
       "node_id": "saf-intentions-035",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -35344,9 +35016,7 @@
       "node_id": "sit-364",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -35642,11 +35312,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -35743,10 +35411,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -36025,11 +35691,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -36419,10 +36083,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -36536,10 +36198,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -37051,9 +36711,7 @@
         "misuse"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -37081,10 +36739,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -37145,9 +36801,7 @@
         "loss_of_control"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -37176,11 +36830,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -37245,9 +36897,7 @@
         "economic"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -37426,10 +37076,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -37467,10 +37115,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -37544,10 +37190,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -37648,9 +37292,7 @@
         "social"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -37679,10 +37321,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -37716,10 +37356,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -37754,11 +37392,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -37894,10 +37530,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -37933,9 +37567,7 @@
         "power_concentration"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -38088,11 +37720,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -38160,11 +37790,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -38204,12 +37832,10 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "economic",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -38315,11 +37941,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -38440,11 +38064,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -38482,11 +38104,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -38592,10 +38212,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -38699,10 +38317,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -38738,9 +38354,7 @@
         "misuse"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -38799,10 +38413,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -38867,10 +38479,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -38901,9 +38511,7 @@
       "node_id": "saf-beliefs-108",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -39105,10 +38713,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -39201,11 +38807,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -39306,10 +38910,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -39346,10 +38948,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -39456,11 +39056,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -39538,11 +39136,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -39583,10 +39179,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -39622,12 +39216,10 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control",
           "misuse",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -39671,11 +39263,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -39740,10 +39330,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -39978,12 +39566,10 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "misuse",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -40092,11 +39678,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -40135,10 +39719,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -40174,9 +39756,7 @@
         "loss_of_control"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -40201,9 +39781,7 @@
       "node_id": "sit-005",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -40300,9 +39878,7 @@
         "misuse"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -40497,11 +40073,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -40537,9 +40111,7 @@
         "social"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -40675,9 +40247,7 @@
         "power_concentration"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -40925,9 +40495,7 @@
       "node_id": "sit-156",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -40984,9 +40552,7 @@
       "node_id": "sit-159",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -41015,11 +40581,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -41056,9 +40620,7 @@
       "node_id": "sit-172",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -41149,9 +40711,7 @@
         "loss_of_control"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -41179,10 +40739,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -41217,10 +40775,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -41285,9 +40841,7 @@
         "social"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -41413,11 +40967,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -41561,9 +41113,7 @@
       "node_id": "sit-261",
       "proposed": [],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -41622,11 +41172,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -41706,11 +41254,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -41748,10 +41294,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -41890,11 +41434,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -41933,10 +41475,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -41971,11 +41511,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -42070,9 +41608,7 @@
         "economic"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -42165,10 +41701,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -42229,9 +41763,7 @@
         "social"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -42351,11 +41883,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -42530,10 +42060,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -42631,10 +42159,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -42733,9 +42259,7 @@
         "loss_of_control"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -42820,12 +42344,10 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse",
           "economic",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -42898,9 +42420,7 @@
         "loss_of_control"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -42992,10 +42512,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -43062,11 +42580,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -43277,9 +42793,7 @@
         "social"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -43308,11 +42822,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -43420,11 +42932,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -43621,10 +43131,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -43698,11 +43206,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -43839,9 +43345,7 @@
         "social"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -43868,9 +43372,7 @@
         "misuse"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -43898,10 +43400,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "misuse"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -44008,11 +43508,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -44048,9 +43546,7 @@
         "misuse"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -44135,11 +43631,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -44276,10 +43770,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -44353,11 +43845,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -44394,11 +43884,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "loss_of_control"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -44467,9 +43955,7 @@
         "social"
       ],
       "status": "accepted",
-      "final": [
-        []
-      ],
+      "final": [],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {},
@@ -44498,11 +43984,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -44640,12 +44124,10 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "economic",
           "power_concentration",
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -44751,11 +44233,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -44862,11 +44342,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "power_concentration",
           "economic"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -44904,10 +44382,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "social"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -44944,10 +44420,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -45056,11 +44530,9 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political",
           "power_concentration"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -45136,10 +44608,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
@@ -45204,10 +44674,8 @@
       ],
       "status": "accepted",
       "final": [
-        [
           "political"
-        ]
-      ],
+        ],
       "reviewed_by": null,
       "reviewed_at": null,
       "confidence": {
