@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_commit": "ec7deb133e1d6ceeb4996c2d8e4c5246cd01feb9",
+  "source_commit": "2380dfb2041698618afac23c077d2476d1f093c2",
   "doc_count": 883,
   "docs": [
     {
@@ -756,8 +756,8 @@
     {
       "id": "adversarial-ai-threat-modeling-framework-aatmf-v3-2026",
       "title": "Adversarial AI Threat Modeling Framework (AATMF) v3",
-      "url": "https://www.linkedin.com/posts/kaiaizen_aatmf-v3-ai-threat-modeling-framework-activity-7428377489741340672-eWYH",
-      "resolved_url": "https://www.linkedin.com/posts/kaiaizen_aatmf-v3-ai-threat-modeling-framework-activity-7428377489741340672-eWYH",
+      "url": "https://aatmf.pages.dev/",
+      "resolved_url": "https://aatmf.pages.dev/",
       "authors": [
         "Kai Aizen"
       ],
@@ -775,8 +775,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/kaiaizen_aatmf-v3-ai-threat-modeling-framework-activity-7428377489741340672-eWYH",
-          "confidence": "search"
+          "id": "https://aatmf.pages.dev/",
+          "confidence": "verified"
         }
       ]
     },
@@ -2024,8 +2024,8 @@
     {
       "id": "ai-index-report-2026-chapter-3-responsible-ai-2026",
       "title": "AI Index Report 2026: Chapter 3 Responsible AI",
-      "url": "https://www.linkedin.com/posts/joseantoniobowen_the-2026-ai-index-report-activity-7449888986455597057-KIV-",
-      "resolved_url": "https://www.linkedin.com/posts/joseantoniobowen_the-2026-ai-index-report-activity-7449888986455597057-KIV-",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/responsible-ai",
+      "resolved_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/responsible-ai",
       "date_published": "2026-01-01",
       "one_liner": "This report analyzes the state of responsible AI, highlighting the growing gap between rapid deployment and the uneven progress of safety benchmarks and governance.",
       "topic_tags": [
@@ -2041,8 +2041,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/joseantoniobowen_the-2026-ai-index-report-activity-7449888986455597057-KIV-",
-          "confidence": "search"
+          "id": "https://hai.stanford.edu/ai-index/2026-ai-index-report/responsible-ai",
+          "confidence": "verified"
         }
       ]
     },
@@ -2402,16 +2402,7 @@
     {
       "id": "ai-policy-bulletin-2026",
       "title": "AI Policy Bulletin",
-      "url": "https://www.linkedin.com/company/ai-policy-bulletin",
-      "resolved_url": "https://www.linkedin.com/company/ai-policy-bulletin",
-      "snapshot_sha256": "4a15a0944d2f14d82967bc64e9187bf252adcd4a207b496ed750796501c2fd88",
-      "provenance": [
-        {
-          "scheme": "url",
-          "id": "https://www.linkedin.com/company/ai-policy-bulletin",
-          "confidence": "search"
-        }
-      ]
+      "snapshot_sha256": "4a15a0944d2f14d82967bc64e9187bf252adcd4a207b496ed750796501c2fd88"
     },
     {
       "id": "ai-regulation-competition-arbitrage-regulatory-capture-2026",
@@ -3535,8 +3526,8 @@
     {
       "id": "approach-technical-agi-safety-security-2026",
       "title": "An Approach to Technical AGI Safety and Security",
-      "url": "https://x.com/safe_paper/status/1909208950601621617",
-      "resolved_url": "https://x.com/safe_paper/status/1909208950601621617",
+      "url": "https://arxiv.org/abs/2504.01849",
+      "resolved_url": "https://arxiv.org/abs/2504.01849",
       "authors": [
         "Rohin Shah",
         "Alex Irpan",
@@ -3583,8 +3574,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://x.com/safe_paper/status/1909208950601621617",
-          "confidence": "search"
+          "id": "https://arxiv.org/abs/2504.01849",
+          "confidence": "verified"
         }
       ]
     },
@@ -6200,8 +6191,8 @@
     {
       "id": "constructing-ai-speech-2026",
       "title": "Constructing AI Speech",
-      "url": "https://x.com/MargotKaminski/status/1790333201816183204",
-      "resolved_url": "https://x.com/MargotKaminski/status/1790333201816183204",
+      "url": "https://www.yalelawjournal.org/forum/constructing-ai-speech",
+      "resolved_url": "https://www.yalelawjournal.org/forum/constructing-ai-speech",
       "authors": [
         "Margot E. Kaminski",
         "Meg Leta Jones"
@@ -6220,8 +6211,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://x.com/MargotKaminski/status/1790333201816183204",
-          "confidence": "search"
+          "id": "https://www.yalelawjournal.org/forum/constructing-ai-speech",
+          "confidence": "verified"
         }
       ]
     },
@@ -7164,8 +7155,8 @@
     {
       "id": "does-ai-need-constitution-2026",
       "title": "Does A.I. Need a Constitution?",
-      "url": "https://www.tiktok.com/@newyorker/photo/7621360117535001869?lang=en",
-      "resolved_url": "https://www.tiktok.com/@newyorker/photo/7621360117535001869?lang=en",
+      "url": "https://www.newyorker.com/magazine/2026/03/30/does-ai-need-a-constitution",
+      "resolved_url": "https://www.newyorker.com/magazine/2026/03/30/does-ai-need-a-constitution",
       "authors": [
         "Jill Lepore"
       ],
@@ -7183,8 +7174,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.tiktok.com/@newyorker/photo/7621360117535001869?lang=en",
-          "confidence": "search"
+          "id": "https://www.newyorker.com/magazine/2026/03/30/does-ai-need-a-constitution",
+          "confidence": "verified"
         }
       ]
     },
@@ -8463,8 +8454,8 @@
     {
       "id": "extreme-power-concentration-2026",
       "title": "Extreme power concentration",
-      "url": "https://x.com/TomDavidsonX/status/1999450796564390251",
-      "resolved_url": "https://x.com/TomDavidsonX/status/1999450796564390251",
+      "url": "https://80000hours.org/problem-profiles/extreme-power-concentration/",
+      "resolved_url": "https://80000hours.org/problem-profiles/extreme-power-concentration/",
       "authors": [
         "Rose Hadshar"
       ],
@@ -8482,8 +8473,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://x.com/TomDavidsonX/status/1999450796564390251",
-          "confidence": "search"
+          "id": "https://80000hours.org/problem-profiles/extreme-power-concentration/",
+          "confidence": "verified"
         }
       ],
       "duplicate_of": "extreme-power-concentration-80000-hours-2026-1",
@@ -8492,8 +8483,8 @@
     {
       "id": "extreme-power-concentration-2026-1",
       "title": "Extreme power concentration",
-      "url": "https://x.com/TomDavidsonX/status/1999450796564390251",
-      "resolved_url": "https://x.com/TomDavidsonX/status/1999450796564390251",
+      "url": "https://80000hours.org/problem-profiles/extreme-power-concentration/",
+      "resolved_url": "https://80000hours.org/problem-profiles/extreme-power-concentration/",
       "authors": [
         "Rose Hadshar"
       ],
@@ -8511,8 +8502,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://x.com/TomDavidsonX/status/1999450796564390251",
-          "confidence": "search"
+          "id": "https://80000hours.org/problem-profiles/extreme-power-concentration/",
+          "confidence": "verified"
         }
       ],
       "duplicate_of": "extreme-power-concentration-80000-hours-2026-1",
@@ -8521,8 +8512,8 @@
     {
       "id": "extreme-power-concentration-2026-2",
       "title": "Extreme power concentration",
-      "url": "https://x.com/TomDavidsonX/status/1999450796564390251",
-      "resolved_url": "https://x.com/TomDavidsonX/status/1999450796564390251",
+      "url": "https://80000hours.org/problem-profiles/extreme-power-concentration/",
+      "resolved_url": "https://80000hours.org/problem-profiles/extreme-power-concentration/",
       "authors": [
         "Rose Hadshar"
       ],
@@ -8540,8 +8531,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://x.com/TomDavidsonX/status/1999450796564390251",
-          "confidence": "search"
+          "id": "https://80000hours.org/problem-profiles/extreme-power-concentration/",
+          "confidence": "verified"
         }
       ],
       "duplicate_of": "extreme-power-concentration-80000-hours-2026-1",
@@ -8550,8 +8541,8 @@
     {
       "id": "extreme-power-concentration-2026-3",
       "title": "Extreme power concentration",
-      "url": "https://x.com/TomDavidsonX/status/1999450796564390251",
-      "resolved_url": "https://x.com/TomDavidsonX/status/1999450796564390251",
+      "url": "https://80000hours.org/problem-profiles/extreme-power-concentration/",
+      "resolved_url": "https://80000hours.org/problem-profiles/extreme-power-concentration/",
       "authors": [
         "Rose Hadshar"
       ],
@@ -8569,8 +8560,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://x.com/TomDavidsonX/status/1999450796564390251",
-          "confidence": "search"
+          "id": "https://80000hours.org/problem-profiles/extreme-power-concentration/",
+          "confidence": "verified"
         }
       ],
       "duplicate_of": "extreme-power-concentration-80000-hours-2026-1",
@@ -8835,8 +8826,8 @@
     {
       "id": "floor-speech-artificial-intelligence-robotics-2026",
       "title": "Floor Speech on Artificial Intelligence and Robotics",
-      "url": "https://www.facebook.com/Benzinga/posts/sen-bernie-sanders-i-vt-escalated-his-criticism-of-the-artificial-intelligence-b/1524955546296777/",
-      "resolved_url": "https://www.facebook.com/Benzinga/posts/sen-bernie-sanders-i-vt-escalated-his-criticism-of-the-artificial-intelligence-b/1524955546296777/",
+      "url": "https://www.govinfo.gov/link/crec/172/s/673",
+      "resolved_url": "https://www.govinfo.gov/link/crec/172/s/673",
       "authors": [
         "Bernie Sanders"
       ],
@@ -8854,8 +8845,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.facebook.com/Benzinga/posts/sen-bernie-sanders-i-vt-escalated-his-criticism-of-the-artificial-intelligence-b/1524955546296777/",
-          "confidence": "search"
+          "id": "https://www.govinfo.gov/link/crec/172/s/673",
+          "confidence": "verified"
         }
       ]
     },
@@ -9297,8 +9288,8 @@
     {
       "id": "future-jobs-report-2025-2026",
       "title": "Future of Jobs Report 2025",
-      "url": "https://www.linkedin.com/posts/saadiazahidi_jobs-workforces-skills-activity-7282674955731795968-OJfd",
-      "resolved_url": "https://www.linkedin.com/posts/saadiazahidi_jobs-workforces-skills-activity-7282674955731795968-OJfd",
+      "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2025/in-full/",
+      "resolved_url": "https://www.weforum.org/reports/the-future-of-jobs-report-2025/in-full/",
       "authors": [
         "Saadia Zahidi",
         "Till Leopold",
@@ -9323,8 +9314,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/saadiazahidi_jobs-workforces-skills-activity-7282674955731795968-OJfd",
-          "confidence": "search"
+          "id": "https://www.weforum.org/reports/the-future-of-jobs-report-2025/in-full/",
+          "confidence": "verified"
         }
       ]
     },
@@ -13055,8 +13046,8 @@
     {
       "id": "military-ai-policy-by-contract-limits-procurement-as-2026",
       "title": "Military AI Policy by Contract: The Limits of Procurement as Governance",
-      "url": "https://substack.com/@lawfare/note/c-226430085",
-      "resolved_url": "https://substack.com/@lawfare/note/c-226430085",
+      "url": "https://www.lawfaremedia.org/article/military-ai-policy-by-contract--the-limits-of-procurement-as-governance",
+      "resolved_url": "https://www.lawfaremedia.org/article/military-ai-policy-by-contract--the-limits-of-procurement-as-governance",
       "authors": [
         "Jessica Tillipman"
       ],
@@ -13074,8 +13065,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://substack.com/@lawfare/note/c-226430085",
-          "confidence": "search"
+          "id": "https://www.lawfaremedia.org/article/military-ai-policy-by-contract--the-limits-of-procurement-as-governance",
+          "confidence": "verified"
         }
       ]
     },
@@ -13382,8 +13373,8 @@
     {
       "id": "new-economy-skills-unlocking-human-advantage-2026",
       "title": "New Economy Skills: Unlocking the Human Advantage",
-      "url": "https://www.linkedin.com/posts/saadiazahidi_work-skills-singapore-activity-7404829843411976193-JJqv",
-      "resolved_url": "https://www.linkedin.com/posts/saadiazahidi_work-skills-singapore-activity-7404829843411976193-JJqv",
+      "url": "https://www.weforum.org/publications/new-economy-skills-unlocking-the-human-advantage/",
+      "resolved_url": "https://www.weforum.org/publications/new-economy-skills-unlocking-the-human-advantage/",
       "authors": [
         "Saadia Zahidi"
       ],
@@ -13401,8 +13392,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/saadiazahidi_work-skills-singapore-activity-7404829843411976193-JJqv",
-          "confidence": "search"
+          "id": "https://www.weforum.org/publications/new-economy-skills-unlocking-the-human-advantage/",
+          "confidence": "verified"
         }
       ]
     },
@@ -16606,8 +16597,8 @@
     {
       "id": "situational-awareness-decade-ahead-2026",
       "title": "Situational Awareness: The Decade Ahead",
-      "url": "https://www.linkedin.com/posts/darien-schettler-bb0a5086_situational-awareness-the-decade-ahead-activity-7208846925079408641-7v4R",
-      "resolved_url": "https://www.linkedin.com/posts/darien-schettler-bb0a5086_situational-awareness-the-decade-ahead-activity-7208846925079408641-7v4R",
+      "url": "https://situational-awareness.ai/",
+      "resolved_url": "https://situational-awareness.ai/",
       "authors": [
         "Leopold Aschenbrenner"
       ],
@@ -16626,8 +16617,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/darien-schettler-bb0a5086_situational-awareness-the-decade-ahead-activity-7208846925079408641-7v4R",
-          "confidence": "search"
+          "id": "https://situational-awareness.ai/",
+          "confidence": "verified"
         }
       ]
     },
@@ -17248,14 +17239,14 @@
     {
       "id": "study-finds-nearly-two-thirds-ai-generated-citations-are-2026",
       "title": "Study finds nearly two thirds of AI generated citations are fabricated or contain errors",
-      "url": "https://www.linkedin.com/posts/erwinloh_study-finds-nearly-two-thirds-of-ai-generated-activity-7397604150466781186-XZNv",
-      "resolved_url": "https://www.linkedin.com/posts/erwinloh_study-finds-nearly-two-thirds-of-ai-generated-activity-7397604150466781186-XZNv",
+      "url": "https://www.psypost.org/study-finds-nearly-two-thirds-of-ai-generated-citations-are-fabricated-or-contain-errors/",
+      "resolved_url": "https://www.psypost.org/study-finds-nearly-two-thirds-of-ai-generated-citations-are-fabricated-or-contain-errors/",
       "snapshot_sha256": "4a46536c168b8124481cd972d09d05a1196f5d4592a08fc7547aaff8d2b80306",
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/erwinloh_study-finds-nearly-two-thirds-of-ai-generated-activity-7397604150466781186-XZNv",
-          "confidence": "search"
+          "id": "https://www.psypost.org/study-finds-nearly-two-thirds-of-ai-generated-citations-are-fabricated-or-contain-errors/",
+          "confidence": "verified"
         }
       ],
       "duplicate_of": "study-finds-nearly-two-thirds-ai-generated-citations-are-2026-1",
@@ -17466,8 +17457,8 @@
     {
       "id": "synthetic-data-new-data-frontier-2026",
       "title": "Synthetic Data: The New Data Frontier",
-      "url": "https://www.linkedin.com/posts/audreyduet_synthetic-data-the-new-data-frontier-wef-activity-7376254039895805952-N4ZA",
-      "resolved_url": "https://www.linkedin.com/posts/audreyduet_synthetic-data-the-new-data-frontier-wef-activity-7376254039895805952-N4ZA",
+      "url": "https://reports.weforum.org/docs/WEF_Synthetic_Data_2025.pdf",
+      "resolved_url": "https://reports.weforum.org/docs/WEF_Synthetic_Data_2025.pdf",
       "authors": [
         "Justine Gauthier",
         "Francesca Rossi",
@@ -17488,8 +17479,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/audreyduet_synthetic-data-the-new-data-frontier-wef-activity-7376254039895805952-N4ZA",
-          "confidence": "search"
+          "id": "https://reports.weforum.org/docs/WEF_Synthetic_Data_2025.pdf",
+          "confidence": "verified"
         }
       ]
     },
@@ -17515,8 +17506,8 @@
     {
       "id": "tech-media-telecom-tmt-predictions-2026-2026",
       "title": "Tech, Media & Telecom TMT Predictions 2026",
-      "url": "https://www.linkedin.com/posts/abelsun_tmt-predictions-2026-the-gap-narrows-but-activity-7396691814679810048-KqHq",
-      "resolved_url": "https://www.linkedin.com/posts/abelsun_tmt-predictions-2026-the-gap-narrows-but-activity-7396691814679810048-KqHq",
+      "url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions.html",
+      "resolved_url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions.html",
       "authors": [
         "Gillian Crossan",
         "Tim Bottke",
@@ -17539,8 +17530,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/abelsun_tmt-predictions-2026-the-gap-narrows-but-activity-7396691814679810048-KqHq",
-          "confidence": "search"
+          "id": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions.html",
+          "confidence": "verified"
         }
       ]
     },
@@ -17575,8 +17566,8 @@
     {
       "id": "technological-optimism-appropriate-fear-2026",
       "title": "Technological Optimism and Appropriate Fear",
-      "url": "https://medium.com/@gford1000/jack-clarks-technology-optimism-and-appropriate-fear-essay-is-a-wake-up-call-994e3718ac72",
-      "resolved_url": "https://medium.com/@gford1000/jack-clarks-technology-optimism-and-appropriate-fear-essay-is-a-wake-up-call-994e3718ac72",
+      "url": "https://jack-clark.net/2025/10/13/",
+      "resolved_url": "https://jack-clark.net/2025/10/13/",
       "authors": [
         "Jack Clark"
       ],
@@ -17594,8 +17585,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://medium.com/@gford1000/jack-clarks-technology-optimism-and-appropriate-fear-essay-is-a-wake-up-call-994e3718ac72",
-          "confidence": "search"
+          "id": "https://jack-clark.net/2025/10/13/",
+          "confidence": "verified"
         }
       ]
     },
@@ -18169,8 +18160,8 @@
     {
       "id": "transparency-ai-is-decline-2026",
       "title": "Transparency in AI is on the decline",
-      "url": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
-      "resolved_url": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
+      "url": "https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline",
+      "resolved_url": "https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline",
       "date_published": "2025-12-09",
       "one_liner": "Stanford's 2025 Foundation Model Transparency Index finds AI companies average just 40/100 on transparency, urging policy intervention.",
       "topic_tags": [
@@ -18186,16 +18177,16 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
-          "confidence": "search"
+          "id": "https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline",
+          "confidence": "verified"
         }
       ]
     },
     {
       "id": "transparency-ai-is-decline-2026-1",
       "title": "Transparency in AI is on the decline",
-      "url": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
-      "resolved_url": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
+      "url": "https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline",
+      "resolved_url": "https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline",
       "date_published": "2025-12-09",
       "one_liner": "Stanford's 2025 Foundation Model Transparency Index finds AI companies average just 40/100 on transparency, urging policy intervention.",
       "topic_tags": [
@@ -18211,8 +18202,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
-          "confidence": "search"
+          "id": "https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline",
+          "confidence": "verified"
         }
       ],
       "duplicate_of": "transparency-ai-is-decline-2026",
@@ -18221,14 +18212,14 @@
     {
       "id": "transparency-ai-is-decline-stanford-report-2026",
       "title": "Transparency in AI is on the decline   Stanford Report",
-      "url": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
-      "resolved_url": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
+      "url": "https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline",
+      "resolved_url": "https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline",
       "snapshot_sha256": "ec5b5b756507093791902fead0a143dceaadb3bcbd5e8e0c67fe322de8686aeb",
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
-          "confidence": "search"
+          "id": "https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline",
+          "confidence": "verified"
         }
       ],
       "duplicate_of": "transparency-ai-is-decline-2026",
@@ -18237,14 +18228,14 @@
     {
       "id": "transparency-ai-is-decline-stanford-report-2026-1",
       "title": "Transparency in AI is on the decline   Stanford Report",
-      "url": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
-      "resolved_url": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
+      "url": "https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline",
+      "resolved_url": "https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline",
       "snapshot_sha256": "ec5b5b756507093791902fead0a143dceaadb3bcbd5e8e0c67fe322de8686aeb",
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/stanfordhai_transparency-in-ai-is-on-the-decline-stanford-activity-7410424677183102976-am81",
-          "confidence": "search"
+          "id": "https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline",
+          "confidence": "verified"
         }
       ],
       "duplicate_of": "transparency-ai-is-decline-2026",
@@ -18775,8 +18766,8 @@
     {
       "id": "using-self-correcting-search-accelerate-materials-discovery-2026-1",
       "title": "Using Self-Correcting Search to Accelerate Materials Discovery",
-      "url": "https://www.linkedin.com/posts/josephfkrause_using-self-correcting-search-to-accelerate-activity-7445243603758592001-bJV8",
-      "resolved_url": "https://www.linkedin.com/posts/josephfkrause_using-self-correcting-search-to-accelerate-activity-7445243603758592001-bJV8",
+      "url": "https://www.goodfire.ai/research/self-correcting-search",
+      "resolved_url": "https://www.goodfire.ai/research/self-correcting-search",
       "authors": [
         "Dron Hazra",
         "Mark Bissell",
@@ -18799,16 +18790,16 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/josephfkrause_using-self-correcting-search-to-accelerate-activity-7445243603758592001-bJV8",
-          "confidence": "search"
+          "id": "https://www.goodfire.ai/research/self-correcting-search",
+          "confidence": "verified"
         }
       ]
     },
     {
       "id": "using-self-correcting-search-accelerate-materials-discovery-2026-2",
       "title": "Using Self-Correcting Search to Accelerate Materials Discovery",
-      "url": "https://www.linkedin.com/posts/josephfkrause_using-self-correcting-search-to-accelerate-activity-7445243603758592001-bJV8",
-      "resolved_url": "https://www.linkedin.com/posts/josephfkrause_using-self-correcting-search-to-accelerate-activity-7445243603758592001-bJV8",
+      "url": "https://www.goodfire.ai/research/self-correcting-search",
+      "resolved_url": "https://www.goodfire.ai/research/self-correcting-search",
       "authors": [
         "Dron Hazra",
         "Mark Bissell",
@@ -18831,8 +18822,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/josephfkrause_using-self-correcting-search-to-accelerate-activity-7445243603758592001-bJV8",
-          "confidence": "search"
+          "id": "https://www.goodfire.ai/research/self-correcting-search",
+          "confidence": "verified"
         }
       ],
       "duplicate_of": "using-self-correcting-search-accelerate-materials-discovery-2026-1",
@@ -18841,8 +18832,8 @@
     {
       "id": "using-self-correcting-search-accelerate-materials-discovery-2026-3",
       "title": "Using Self-Correcting Search to Accelerate Materials Discovery",
-      "url": "https://www.linkedin.com/posts/josephfkrause_using-self-correcting-search-to-accelerate-activity-7445243603758592001-bJV8",
-      "resolved_url": "https://www.linkedin.com/posts/josephfkrause_using-self-correcting-search-to-accelerate-activity-7445243603758592001-bJV8",
+      "url": "https://www.goodfire.ai/research/self-correcting-search",
+      "resolved_url": "https://www.goodfire.ai/research/self-correcting-search",
       "authors": [
         "Dron Hazra",
         "Mark Bissell",
@@ -18865,8 +18856,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/josephfkrause_using-self-correcting-search-to-accelerate-activity-7445243603758592001-bJV8",
-          "confidence": "search"
+          "id": "https://www.goodfire.ai/research/self-correcting-search",
+          "confidence": "verified"
         }
       ],
       "duplicate_of": "using-self-correcting-search-accelerate-materials-discovery-2026-1",
@@ -19496,8 +19487,8 @@
     {
       "id": "white-house-releases-national-policy-framework-artificial-2026",
       "title": "White House Releases a National Policy Framework for Artificial Intelligence",
-      "url": "https://www.linkedin.com/posts/holland-knight-llp_artificialintelligence-ai-intellectualproperty-activity-7443413714344566784-aPL8",
-      "resolved_url": "https://www.linkedin.com/posts/holland-knight-llp_artificialintelligence-ai-intellectualproperty-activity-7443413714344566784-aPL8",
+      "url": "https://www.hklaw.com/en/insights/publications/2026/03/white-house-releases-a-national-policy-framework-for-artificial-intelligence",
+      "resolved_url": "https://www.hklaw.com/en/insights/publications/2026/03/white-house-releases-a-national-policy-framework-for-artificial-intelligence",
       "authors": [
         "Sarah Starling Crossan",
         "Miranda A. Franco",
@@ -19517,8 +19508,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/holland-knight-llp_artificialintelligence-ai-intellectualproperty-activity-7443413714344566784-aPL8",
-          "confidence": "search"
+          "id": "https://www.hklaw.com/en/insights/publications/2026/03/white-house-releases-a-national-policy-framework-for-artificial-intelligence",
+          "confidence": "verified"
         }
       ],
       "duplicate_of": "white-house-releases-national-policy-framework-artificial-2026-1",
@@ -19527,8 +19518,8 @@
     {
       "id": "white-house-releases-national-policy-framework-artificial-2026-1",
       "title": "White House Releases a National Policy Framework for Artificial Intelligence",
-      "url": "https://www.linkedin.com/posts/holland-knight-llp_artificialintelligence-ai-intellectualproperty-activity-7443413714344566784-aPL8",
-      "resolved_url": "https://www.linkedin.com/posts/holland-knight-llp_artificialintelligence-ai-intellectualproperty-activity-7443413714344566784-aPL8",
+      "url": "https://www.hklaw.com/en/insights/publications/2026/03/white-house-releases-a-national-policy-framework-for-artificial-intelligence",
+      "resolved_url": "https://www.hklaw.com/en/insights/publications/2026/03/white-house-releases-a-national-policy-framework-for-artificial-intelligence",
       "authors": [
         "Sarah Starling Crossan",
         "Miranda A. Franco",
@@ -19548,8 +19539,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.linkedin.com/posts/holland-knight-llp_artificialintelligence-ai-intellectualproperty-activity-7443413714344566784-aPL8",
-          "confidence": "search"
+          "id": "https://www.hklaw.com/en/insights/publications/2026/03/white-house-releases-a-national-policy-framework-for-artificial-intelligence",
+          "confidence": "verified"
         }
       ]
     },
@@ -19671,8 +19662,8 @@
     {
       "id": "why-ai-will-save-world-2026",
       "title": "Why AI Will Save the World",
-      "url": "https://www.reddit.com/r/singularity/comments/142mhkn/worthy_read_why_ai_will_save_the_world_by_marc/",
-      "resolved_url": "https://www.reddit.com/r/singularity/comments/142mhkn/worthy_read_why_ai_will_save_the_world_by_marc/",
+      "url": "https://a16z.com/ai-will-save-the-world/",
+      "resolved_url": "https://a16z.com/ai-will-save-the-world/",
       "authors": [
         "Marc Andreessen"
       ],
@@ -19690,8 +19681,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.reddit.com/r/singularity/comments/142mhkn/worthy_read_why_ai_will_save_the_world_by_marc/",
-          "confidence": "search"
+          "id": "https://a16z.com/ai-will-save-the-world/",
+          "confidence": "verified"
         }
       ]
     },
