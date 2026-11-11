@@ -403,7 +403,6 @@
       "extraction_confidence": 1.0,
       "potential_conflict_id": null,
       "linked_taxonomy_nodes": [
-        "saf-beliefs-200",
         "saf-beliefs-200"
       ],
       "evidence_criteria": {

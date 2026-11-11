@@ -1944,7 +1944,6 @@
       "temporal_bound": "2025",
       "potential_conflict_id": null,
       "linked_taxonomy_nodes": [
-        "saf-beliefs-201",
         "saf-beliefs-201"
       ],
       "evidence_criteria": {
