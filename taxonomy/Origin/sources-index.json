@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_commit": "2380dfb2041698618afac23c077d2476d1f093c2",
+  "source_commit": "9c1320cf647a0e19cc38037eedcaa61344066253",
   "doc_count": 883,
   "docs": [
     {
@@ -12322,8 +12322,8 @@
     {
       "id": "legal-policy-approaches-mitigate-catastrophic-harms-from-ai-2026",
       "title": "Legal and Policy Approaches to Mitigate Catastrophic Harms from AI",
-      "url": "https://www.rand.org/pubs/authors/r/romanosky_sasha.html",
-      "resolved_url": "https://www.rand.org/pubs/authors/r/romanosky_sasha.html",
+      "url": "https://www.rand.org/pubs/research_reports/RRA4266-1.html",
+      "resolved_url": "https://www.rand.org/pubs/research_reports/RRA4266-1.html",
       "authors": [
         "Sasha Romanosky",
         "Elina Treyger",
@@ -12343,8 +12343,8 @@
       "provenance": [
         {
           "scheme": "url",
-          "id": "https://www.rand.org/pubs/authors/r/romanosky_sasha.html",
-          "confidence": "search"
+          "id": "https://www.rand.org/pubs/research_reports/RRA4266-1.html",
+          "confidence": "verified"
         }
       ]
     },
