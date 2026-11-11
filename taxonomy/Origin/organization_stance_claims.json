@@ -1,8 +1,8 @@
 {
   "_schema_version": "1.0.0",
   "_doc": "Organization stance claims extracted per t/1553 Stage 1. Feeds Stage 2/3 claim→node matching. Machine-proposed / human-disposes downstream.",
-  "last_modified": "2026-07-12",
-  "claim_count": 81,
+  "last_modified": "2026-11-10",
+  "claim_count": 77,
   "claims": [
     {
       "org_id": "org-002",
@@ -302,46 +302,6 @@
       "polarity": "asserts",
       "extraction_confidence": 0.9,
       "extracted_at": "2026-07-12T19:50:00.9788131-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-017",
-      "source_id": "ensuring-national-policy-framework-artificial-intelligence-2026",
-      "text": "National standards are necessary to maintain American leadership in AI.",
-      "canonical_proposition": "The United States must establish uniform national standards for artificial intelligence to maintain global leadership.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.9,
-      "extracted_at": "2026-07-12T19:50:00.261419-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-017",
-      "source_id": "ensuring-national-policy-framework-artificial-intelligence-2026",
-      "text": "A fragmented regulatory landscape creates uncertainty and hinders innovation.",
-      "canonical_proposition": "Fragmented state-level regulation of artificial intelligence creates market uncertainty and hinders technological innovation.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.85,
-      "extracted_at": "2026-07-12T19:50:00.2612828-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-017",
-      "source_id": "ensuring-national-policy-framework-artificial-intelligence-2026",
-      "text": "The administration is eliminating state-level obstruction of national artificial intelligence policy.",
-      "canonical_proposition": "The federal government ought to preempt state-level artificial intelligence regulations to ensure a unified national policy framework.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.95,
-      "extracted_at": "2026-07-12T19:50:00.2611285-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-017",
-      "source_id": "ensuring-national-policy-framework-artificial-intelligence-2026",
-      "text": "State-level AI regulations are an obstruction to national policy.",
-      "canonical_proposition": "State-level artificial intelligence regulations obstruct national policy.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.9,
-      "extracted_at": "2026-07-12T19:50:00.2608939-04:00",
       "extraction_model": "gemini-3.1-flash-lite"
     },
     {

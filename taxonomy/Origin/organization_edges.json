@@ -1,7 +1,7 @@
 {
   "_schema_version": "1.0.0",
   "_doc": "Organization actor-relationship edges (t/1526). See scripts/AITriad/Private/Resolve-OrganizationEdgeType.ps1 for the 9-type vocabulary. Distinct from edges.json (argumentation edges between claims). Curated, not AI-discovered — no confidence/model/strength fields. SUPPORTS_POLICY/OPPOSES_POLICY are RESERVED for symmetry with the registry but intentionally NOT populated here (HLD Non-Goal — already covered by organizations.json policy_engagement).",
-  "last_modified": "2026-07-13",
+  "last_modified": "2026-11-10",
   "edges": [
     {
       "source": "org-001",
@@ -854,10 +854,11 @@
       "source_refs": [
         "ensuring-national-policy-framework-artificial-intelligence-2026"
       ],
-      "status": "approved",
+      "status": "rejected",
       "discovered_at": "2026-07-12",
-      "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_by": "human",
+      "reviewed_at": "2026-11-10",
+      "review_note": "Presidential executive order (whitehouse.gov/presidential-actions), not an OSTP publication; PI t/218#6, t/293"
     },
     {
       "source": "org-023",
@@ -1214,8 +1215,11 @@
       "source_refs": [
         "ensuring-national-policy-framework-artificial-intelligence-2026"
       ],
-      "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "status": "rejected",
+      "discovered_at": "2026-07-13",
+      "reviewed_by": "human",
+      "reviewed_at": "2026-11-10",
+      "review_note": "Presidential executive order (whitehouse.gov/presidential-actions), not an OSTP publication; PI t/218#6, t/293"
     },
     {
       "source": "org-017",
@@ -1225,8 +1229,11 @@
       "source_refs": [
         "ensuring-national-policy-framework-artificial-intelligence-2026"
       ],
-      "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "status": "rejected",
+      "discovered_at": "2026-07-13",
+      "reviewed_by": "human",
+      "reviewed_at": "2026-11-10",
+      "review_note": "Presidential executive order (whitehouse.gov/presidential-actions), not an OSTP publication; PI t/218#6, t/293"
     },
     {
       "source": "org-018",
