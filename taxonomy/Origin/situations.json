@@ -83043,7 +83043,8 @@
         "steelman_vulnerability": "As the volume of AI-generated proposals scales exponentially, human supervisors inevitably resort to heuristic skimming, transforming the selection process into an ineffective rubber-stamp mechanism.",
         "possible_fallacies": [],
         "node_scope": "domain_specific"
-      }
+      },
+      "disagreement_type": "interpretive"
     },
     {
       "plain_description_version": "flash-lite:v1",
@@ -83126,7 +83127,8 @@
           }
         ],
         "node_scope": "systemic"
-      }
+      },
+      "disagreement_type": "interpretive"
     },
     {
       "plain_description_version": "flash-lite:v1",
@@ -83306,7 +83308,8 @@
           }
         ],
         "node_scope": "systemic"
-      }
+      },
+      "disagreement_type": "structural"
     },
     {
       "id": "sit-488",
@@ -83410,7 +83413,8 @@
           }
         ],
         "node_scope": "systemic"
-      }
+      },
+      "disagreement_type": "interpretive"
     },
     {
       "plain_description_version": "flash-lite:v1",
@@ -83498,7 +83502,8 @@
         "steelman_vulnerability": "The claim may overstate the inherent inflexibility of local democratic processes or understate the potential for AI development to adapt to local contexts, suggesting the 'mismatch' is not as intractable as presented.",
         "possible_fallacies": [],
         "node_scope": "systemic"
-      }
+      },
+      "disagreement_type": "interpretive"
     },
     {
       "id": "sit-490",
@@ -83568,7 +83573,8 @@
         "steelman_vulnerability": "The inherent risks of ceding full operational control to autonomous AI agents, particularly regarding accountability, liability, and unforeseen emergent behaviors, could render such a corporate structure too unstable or dangerous for widespread adoption.",
         "possible_fallacies": [],
         "node_scope": "systemic"
-      }
+      },
+      "disagreement_type": "interpretive"
     },
     {
       "id": "sit-491",
@@ -83674,7 +83680,8 @@
         "steelman_vulnerability": "The principle risks misallocating resources and moral concern to entities that may not possess consciousness or sentience, potentially diverting attention from demonstrable human or animal needs.",
         "possible_fallacies": [],
         "node_scope": "systemic"
-      }
+      },
+      "disagreement_type": "structural"
     },
     {
       "id": "sit-492",
@@ -83767,7 +83774,8 @@
           }
         ],
         "node_scope": "systemic"
-      }
+      },
+      "disagreement_type": "interpretive"
     },
     {
       "id": "sit-493",
@@ -83860,7 +83868,8 @@
           }
         ],
         "node_scope": "cross_domain"
-      }
+      },
+      "disagreement_type": "interpretive"
     }
   ]
 }
