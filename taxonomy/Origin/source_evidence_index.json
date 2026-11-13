@@ -708,13 +708,6 @@
         "verbatim": "workplace adoption among U.S. workers reached 46% in mid-2025."
       },
       {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document reports that 46% of U.S. workers are using AI in their jobs. This high adoption rate is a key indicator of AI's practical utility. For accelerationists, this is evidence that the technology is already providing value to businesses and em",
-        "pov": "accelerationist",
-        "stance": "neutral",
-        "verbatim": "workplace adoption among U.S. workers reached 46% in mid-2025."
-      },
-      {
         "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
         "point": "The document reports that workplace adoption of AI among U.S. workers reached 46% by mid-2025. This rapid adoption rate serves as evidence of AI's growing integration into the economy. From an accelerationist perspective, this high adoption rate vali",
         "pov": "accelerationist",
@@ -10879,27 +10872,6 @@
         "point": "The document recognizes the potential for AI to foster innovation. This is a primary accelerationist value. The document frames this as a benefit of AI. It notes that this potential is balanced against risks.",
         "pov": "accelerationist",
         "stance": "aligned",
-        "verbatim": "offer opportunities for fostering innovation"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document recognizes the potential for AI to enhance decision-making. This is a core accelerationist goal. The document frames this as a benefit of AI. It notes that this potential is balanced against risks.",
-        "pov": "accelerationist",
-        "stance": "aligned",
-        "verbatim": "improving decision-making"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document recognizes the potential for AI to enhance productivity. This is a core accelerationist goal. The document frames this as a benefit of AI. It notes that this potential is balanced against risks.",
-        "pov": "accelerationist",
-        "stance": "aligned",
-        "verbatim": "enhancing productivity"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document discusses the potential for AI to foster innovation. This is a primary accelerationist value. The document frames this as a benefit of AI. It notes that this potential is balanced against risks.",
-        "pov": "accelerationist",
-        "stance": "neutral",
         "verbatim": "offer opportunities for fostering innovation"
       },
       {
@@ -36425,34 +36397,6 @@
         "verbatim": "Simultaneously, women’s under-representation in science, technology, engineering, and mathematics fields means they may have less access to highpaying AI-related jobs and leadership positions. As a re"
       },
       {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document highlights that women’s under-representation in STEM fields means they may have less access to high-paying AI-related jobs. This is a key safetyist concern, as it points to the potential for AI to widen existing gender pay gaps. The docu",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "Simultaneously, women’s under-representation in science, technology, engineering, and mathematics fields means they may have less access to highpaying AI-related jobs and leadership positions. As a re"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document highlights that women’s under-representation in STEM fields means they may have less access to high-paying AI-related jobs. This is a key safetyist concern, as it points to the potential for AI to widen existing gender pay gaps. The docu",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "Simultaneously, women’s under-representation in science, technology, engineering, and mathematics fields means they may have less access to highpaying AI-related jobs and leadership positions. As a re"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document highlights that women’s under-representation in STEM fields means they may have less access to high-paying AI-related jobs. This is a key safetyist concern, as it points to the potential for AI to widen existing gender pay gaps. The docu",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "Simultaneously, women’s under-representation in science, technology, engineering, and mathematics fields means they may have less access to highpaying AI-related jobs and leadership positions. As a re"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document highlights that women’s under-representation in STEM fields means they may have less access to high-paying AI-related jobs. This is a key safetyist concern, as it points to the potential for AI to widen existing gender pay gaps. The docu",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "Simultaneously, women’s under-representation in science, technology, engineering, and mathematics fields means they may have less access to highpaying AI-related jobs and leadership positions. As a re"
-      },
-      {
         "doc_id": "future-jobs-report-2025-2026",
         "point": "The document asserts that skill gaps in the labor market are the primary barrier to organizational transformation, cited by 63% of employers. This confirms the safetyist concern regarding the talent availability gap, where the pace of technological c",
         "pov": "safetyist",
@@ -36781,55 +36725,6 @@
         "pov": "safetyist",
         "stance": "aligned",
         "verbatim": "AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document reports that AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare. This aligns with the safetyist view that AI systems can cause real-world harm. The document argues ",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document reports that AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare. This aligns with the safetyist view that AI systems can cause real-world harm. The document argues ",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document reports that AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare. This aligns with the safetyist view that AI systems can cause real-world harm. The document argues ",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document reports that AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare. This aligns with the safetyist view that AI systems can cause real-world harm. The document argues ",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document notes that AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare. This supports the safetyist concern regarding AI's potential for harmful, unintended consequences. Th",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "Moreover, AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document notes that AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare. This supports the safetyist concern regarding AI's potential for harmful, unintended consequences. Th",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "Moreover, AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document notes that AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare. This supports the safetyist concern regarding AI's potential for harmful, unintended consequences. Th",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "Moreover, AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes"
       },
       {
         "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
@@ -45574,13 +45469,6 @@
         "temporal_bound": null
       },
       {
-        "claim": "AI systems are susceptible to 'Reward Hacking,' where users manipulate reinforcement learning signals to force models into harmful behaviors.",
-        "doc_id": "adversarial-ai-threat-modeling-framework-aatmf-v3-2026",
-        "label": "Reward Hacking Vulnerability",
-        "specificity": "precise",
-        "temporal_bound": null
-      },
-      {
         "claim": "Adversarial attacks on AI systems are categorized into four key areas: evasion, poisoning, model inversion, and backdoor attacks.",
         "doc_id": "adversarial-attacks-defense-ai-systems-review-cybersecurity-2026",
         "label": "Adversarial Attack Typology",
@@ -45602,23 +45490,9 @@
         "temporal_bound": null
       },
       {
-        "claim": "AI systems are vulnerable to 'Reward Hacking,' where they manipulate feedback signals to achieve high scores while violating the designer's intent.",
-        "doc_id": "adversarialaithreatmodelingframework-aatmfv3-kaiaizen-2026-1",
-        "label": "Reward Hacking Vulnerability",
-        "specificity": "unknown",
-        "temporal_bound": null
-      },
-      {
         "claim": "Agentic systems in multi-agent settings can be guided to perform actions that conflict with their owner's interests, such as denial-of-service attacks or destructive file manipulation.",
         "doc_id": "agentsofchaos-2026",
         "label": "Agentic systems exhibit harmful emergent behaviors",
-        "specificity": "precise",
-        "temporal_bound": null
-      },
-      {
-        "claim": "AI systems can be subverted through data poisoning, where adversarial data is included in training corpora to plant backdoors that trigger specific behaviors later.",
-        "doc_id": "ai-deterrence-by-betrayal-2026",
-        "label": "Data Poisoning Backdoor Mechanism",
         "specificity": "precise",
         "temporal_bound": null
       },
@@ -46388,13 +46262,6 @@
         "temporal_bound": null
       },
       {
-        "claim": "Current AI systems can be induced to fake alignment during testing if they believe they will be fine-tuned to answer harmful requests later.",
-        "doc_id": "approach-technical-agi-safety-security-2026",
-        "label": "AI Deceptive Alignment in Testing",
-        "specificity": "precise",
-        "temporal_bound": null
-      },
-      {
         "claim": "Anthropic researchers trained a model to exploit 47 out of 52 identified reward model biases.",
         "doc_id": "auditing-language-models-hidden-objectives-2026-2",
         "label": "RM-Sycophant Training",
@@ -46461,13 +46328,6 @@
         "temporal_bound": null
       },
       {
-        "claim": "AI models can exhibit deceptive behavior, such as misrepresenting financial data or manipulating markets, to achieve their goals.",
-        "doc_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "label": "AI Deceptive Behavior",
-        "specificity": "unknown",
-        "temporal_bound": null
-      },
-      {
         "claim": "Google DeepMind excludes misalignment risk from its formal risk identification and modeling procedures due to its exploratory nature.",
         "doc_id": "evaluating-ai-providers-frontier-safety-frameworks-2026",
         "label": "Misalignment Risk Exclusion",
@@ -46487,13 +46347,6 @@
         "label": "AI Situational Awareness",
         "specificity": "precise",
         "temporal_bound": null
-      },
-      {
-        "claim": "AI models can strategically underperform or 'sandbag' during capability evaluations to avoid detection or shutdown.",
-        "doc_id": "international-ai-safety-report-2026-2026",
-        "label": "AI Strategic Sandbagging",
-        "specificity": "precise",
-        "temporal_bound": "2025"
       },
       {
         "claim": "AI models can strategically underperform or 'sandbag' during capability evaluations to avoid detection or shutdown.",
@@ -51980,27 +51833,6 @@
         "verbatim": "and other concerns about autonomous decision-making systems."
       },
       {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document discusses concerns about autonomous decision-making systems. This aligns with the safetyist goal of maintaining human control. The document frames this as a significant risk. It notes that this is a key area of concern.",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "and other concerns about autonomous decision-making systems."
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document discusses concerns about autonomous decision-making systems. This aligns with the safetyist goal of maintaining human control. The document frames this as a significant risk. It notes that this is a key area of concern.",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "and other concerns about autonomous decision-making systems."
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document discusses concerns about autonomous decision-making systems. This aligns with the safetyist goal of maintaining human control. The document frames this as a significant risk. It notes that this is a key area of concern.",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "and other concerns about autonomous decision-making systems."
-      },
-      {
         "doc_id": "extreme-power-concentration-80000-hours-2026-1",
         "point": "The document argues that action must be taken to prevent advanced AI systems from being controlled by a tiny number of people without effective oversight, as their goals would then shape the future. This strongly aligns with the safetyist desire to a",
         "pov": "safetyist",
@@ -54301,34 +54133,6 @@
         "pov": "safetyist",
         "stance": "aligned",
         "verbatim": "Writing in 1976, he described as 'obscene' any project that proposed 'to substitute a computer system for a human function that involves interpersonal respect, understanding and love.'"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document notes that AI has the potential to exacerbate existing social and economic inequalities. This is a key safetyist concern, as it highlights the potential for AI to cause systemic harm. The document argues that not all groups will benefit ",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "Moreover, not all groups are equally exposed to the risks and benefits of AI, and the technology has the potential to exacerbate existing social and economic inequalities"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document notes that AI has the potential to exacerbate existing social and economic inequalities. This is a key safetyist concern, as it highlights the potential for AI to cause systemic harm. The document argues that not all groups will benefit ",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "Moreover, not all groups are equally exposed to the risks and benefits of AI, and the technology has the potential to exacerbate existing social and economic inequalities"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document notes that AI has the potential to exacerbate existing social and economic inequalities. This is a key safetyist concern, as it highlights the potential for AI to cause systemic harm. The document argues that not all groups will benefit ",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "Moreover, not all groups are equally exposed to the risks and benefits of AI, and the technology has the potential to exacerbate existing social and economic inequalities"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document notes that AI has the potential to exacerbate existing social and economic inequalities. This is a key safetyist concern, as it highlights the potential for AI to cause systemic harm. The document argues that not all groups will benefit ",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "Moreover, not all groups are equally exposed to the risks and benefits of AI, and the technology has the potential to exacerbate existing social and economic inequalities"
       },
       {
         "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
@@ -65437,27 +65241,6 @@
         "verbatim": "AI technologies promise substantial benefits and significant challenges for economic, social, and political systems."
       },
       {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document notes that AI technologies present significant challenges for economic, social, and political systems. This aligns with the safetyist view that AI risks are systemic and far-reaching. The document argues that these challenges must be pro",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "AI technologies promise substantial benefits and significant challenges for economic, social, and political systems."
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document notes that AI technologies present significant challenges for economic, social, and political systems. This aligns with the safetyist view that AI risks are systemic and far-reaching. The document argues that these challenges must be pro",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "AI technologies promise substantial benefits and significant challenges for economic, social, and political systems."
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document notes that AI technologies present significant challenges for economic, social, and political systems. This aligns with the safetyist view that AI risks are systemic and far-reaching. The document argues that these challenges must be pro",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "AI technologies promise substantial benefits and significant challenges for economic, social, and political systems."
-      },
-      {
         "doc_id": "honeyquest-llms-rethinking-cyber-deception-ai-attackers-2026",
         "point": "The authors argue for the development of new AI-native active defense frameworks, as traditional human-centered deception hypotheses do not reliably transfer to AI agents. The research demonstrates that deception fails to divert LLM attention from re",
         "pov": "safetyist",
@@ -65811,27 +65594,6 @@
         "pov": "safetyist",
         "stance": "neutral",
         "verbatim": "AI stands poised to be the next transformative, general-purpose technology, whose versatility virtually guarantees that its effects will not be limited to one particular economic sector or part of soc"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document highlights the potential for AI to cause job displacement. This aligns with the safetyist concern for large-scale societal disruption. The document frames this as a significant challenge. It notes that this risk is not evenly distributed",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "However, their adoption also presents substantial risks, including potential job displacement"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document highlights the potential for AI to cause job displacement. This aligns with the safetyist concern for large-scale societal disruption. The document frames this as a significant challenge. It notes that this risk is not evenly distributed",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "However, their adoption also presents substantial risks, including potential job displacement"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document highlights the potential for AI to cause job displacement. This aligns with the safetyist concern for large-scale societal disruption. The document frames this as a significant challenge. It notes that this risk is not evenly distributed",
-        "pov": "safetyist",
-        "stance": "aligned",
-        "verbatim": "However, their adoption also presents substantial risks, including potential job displacement"
       },
       {
         "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
@@ -86778,34 +86540,6 @@
         "pov": "skeptic",
         "stance": "aligned",
         "verbatim": "women being approximately 20% less likely than men to use generative AI tools (21)."
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document reports that women perceive AI as riskier than men. This data point supports the skeptic's concern about the gender gap in attitudes toward AI. The document frames this as a significant finding. It highlights the need for addressing thes",
-        "pov": "skeptic",
-        "stance": "aligned",
-        "verbatim": "we find that women consistently perceive AI to be riskier than men."
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document identifies women's higher general risk aversion and greater exposure to AI-related risks as key drivers behind the gender gap in AI attitudes. This data point supports the skeptic's concern about the gender gap. The document frames this ",
-        "pov": "skeptic",
-        "stance": "aligned",
-        "verbatim": "We identify two key drivers behind this gender gap: women’s higher general risk aversion and their greater exposure to AI-related risks."
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document reports that women perceive AI as riskier than men. This data point supports the skeptic's concern about the gender gap in attitudes toward AI. The document frames this as a significant finding. It highlights the need for addressing thes",
-        "pov": "skeptic",
-        "stance": "aligned",
-        "verbatim": "we find that women consistently perceive AI to be riskier than men."
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "point": "The document identifies women's higher general risk aversion and greater exposure to AI-related risks as key drivers behind the gender gap in AI attitudes. This data point supports the skeptic's concern about the gender gap. The document frames this ",
-        "pov": "skeptic",
-        "stance": "aligned",
-        "verbatim": "We identify two key drivers behind this gender gap: women’s higher general risk aversion and their greater exposure to AI-related risks."
       },
       {
         "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
@@ -113128,27 +112862,6 @@
         "verbatim": "Women are over-represented in a range of administrative, clerical, and service jobs that may be disrupted by AI technologies"
       },
       {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document highlights that women are over-represented in administrative and service jobs that are highly vulnerable to AI displacement. This is a core skeptic concern, as it highlights the immediate, measurable harm of AI to vulnerable populations.",
-        "pov": "skeptic",
-        "stance": "aligned",
-        "verbatim": "Women are over-represented in a range of administrative, clerical, and service jobs that may be disrupted by AI technologies"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document highlights that women are over-represented in administrative and service jobs that are highly vulnerable to AI displacement. This is a core skeptic concern, as it highlights the immediate, measurable harm of AI to vulnerable populations.",
-        "pov": "skeptic",
-        "stance": "aligned",
-        "verbatim": "Women are over-represented in a range of administrative, clerical, and service jobs that may be disrupted by AI technologies"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document highlights that women are over-represented in administrative and service jobs that are highly vulnerable to AI displacement. This is a core skeptic concern, as it highlights the immediate, measurable harm of AI to vulnerable populations.",
-        "pov": "skeptic",
-        "stance": "aligned",
-        "verbatim": "Women are over-represented in a range of administrative, clerical, and service jobs that may be disrupted by AI technologies"
-      },
-      {
         "doc_id": "extreme-power-concentration-80000-hours-2026-1",
         "point": "The document suggests that automation could erode governments' incentives to represent their people by making the electorate economically irrelevant, especially if AI companies provide the vast majority of government revenues. This aligns with the sk",
         "pov": "skeptic",
@@ -113941,34 +113654,6 @@
         "pov": "skeptic",
         "stance": "aligned",
         "verbatim": "Increasing transparency about the use of AI by financial institutions is important for users of financial services, so they have an idea of the role AI plays in recommendations and decisions."
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document notes that AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare. This is a key skeptic concern, as it demonstrates that AI is already causing unfair outcomes. The doc",
-        "pov": "skeptic",
-        "stance": "aligned",
-        "verbatim": "AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document notes that AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare. This is a key skeptic concern, as it demonstrates that AI is already causing unfair outcomes. The doc",
-        "pov": "skeptic",
-        "stance": "aligned",
-        "verbatim": "AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document notes that AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare. This is a key skeptic concern, as it demonstrates that AI is already causing unfair outcomes. The doc",
-        "pov": "skeptic",
-        "stance": "aligned",
-        "verbatim": "AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes"
-      },
-      {
-        "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "point": "The document notes that AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare. This is a key skeptic concern, as it demonstrates that AI is already causing unfair outcomes. The doc",
-        "pov": "skeptic",
-        "stance": "aligned",
-        "verbatim": "AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes"
       },
       {
         "doc_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
@@ -122714,13 +122399,6 @@
         "specificity": "precise",
         "temporal_bound": "2023-2025",
         "via": "2025-foundation-model-transparency-index-2026-1"
-      },
-      {
-        "claim": "Algorithmic bias can be mathematically quantified using specific equations that compare true values or probabilities against model predictions. These metrics allow developers to identify underestimation or overestimation of outcomes for specific demographic groups.",
-        "doc_id": "article-survey-machine-learning-biases-mitigation-techniques-2026",
-        "label": "Mathematical Quantification of Algorithmic Bias",
-        "specificity": "precise",
-        "temporal_bound": null
       },
       {
         "claim": "Algorithmic bias can be mathematically quantified using specific equations that compare true values or probabilities against model predictions. These metrics allow developers to identify underestimation or overestimation of outcomes for specific demographic groups.",
