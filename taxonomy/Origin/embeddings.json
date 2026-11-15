@@ -8,10 +8,10 @@
     "epistemic": 0.0,
     "rhetorical": 0.0
   },
-  "sentence_transformers_version": "6.2.0",
-  "transformers_version": "5.22.2",
+  "sentence_transformers_version": "6.3.0",
+  "transformers_version": "5.23.0",
   "composition": "raw-field-encode (normalize_embeddings=False); weighted sum 1/0/0/0/0 over description,assumes,lineage,epistemic,rhetorical; single final L2 normalize (preserves weight ratios, t/268); assumes joined '. '; description verbatim incl. Excludes, no label prefix; policies/conflicts encoded single-field then L2",
-  "generated_at": "2026-11-08T09:47:31Z",
+  "generated_at": "2026-11-15T10:15:17Z",
   "node_count": 4346,
   "nodes": {
     "acc-desires-001": {
