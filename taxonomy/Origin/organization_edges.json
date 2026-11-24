@@ -1,7 +1,7 @@
 {
   "_schema_version": "1.0.0",
   "_doc": "Organization actor-relationship edges (t/1526). See scripts/AITriad/Private/Resolve-OrganizationEdgeType.ps1 for the 9-type vocabulary. Distinct from edges.json (argumentation edges between claims). Curated, not AI-discovered — no confidence/model/strength fields. SUPPORTS_POLICY/OPPOSES_POLICY are RESERVED for symmetry with the registry but intentionally NOT populated here (HLD Non-Goal — already covered by organizations.json policy_engagement).",
-  "last_modified": "2026-11-10",
+  "last_modified": "2026-11-24",
   "edges": [
     {
       "source": "org-001",
@@ -1025,8 +1025,8 @@
     {
       "source": "org-002",
       "target": "saf-beliefs-109",
-      "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.657 (t/1553 Stage 3)",
+      "type": "OPPOSES",
+      "rationale": "match_basis=high-cosine families=1 best_cosine=0.657 (t/1553 Stage 3) directional_flip=ADVOCATES_FOR->OPPOSES nli_dir=opposes nli_margin=5.1754 (t/215, t/334; PI-approved 2026-11-24)",
       "source_refs": [
         "our-updated-preparedness-framework-2026"
       ],
