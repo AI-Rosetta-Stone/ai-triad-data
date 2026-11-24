@@ -1,0 +1,10 @@
+{
+  "ticket": "t/399",
+  "go": "t/399#6",
+  "targets": [
+    {
+      "file": "taxonomy/Origin/accelerationist.json"
+    }
+  ],
+  "sha256": "b9775c7bdfd2dced0ad111f6cf8144cac645d25c77042101a4c153707802f481"
+}
