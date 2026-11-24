@@ -1,0 +1,79 @@
+# ─── Freeze-Record Check (t/399, PR-reduction plan D) ───
+# What:  validates data-mutation freeze records at data-mutations/<ticket>/frozen_*.json
+#        (.github/scripts/freeze_record_check.py; contract in its header and t/399#1, #5, #6):
+#        record parses, keys and shapes, sha256 = record_hash(targets, removals), every target
+#        present and every removal absent at the unit's head, the record lands in the same
+#        commit or PR as its write, and an existing record is never changed or deleted.
+#
+# Verdict PASS / FAIL / GATE-UNREADABLE (step outputs + job summary). FAIL and GATE-UNREADABLE
+#   both turn the run RED. There is no continue-on-error: a green run carrying a warning is the
+#   silent case gate-signal-integrity rule 3 forbids.
+#
+# pull_request arm: checks the PR (merge-base..head) as one unit. NOT a required check: making it
+#   required means branch protection on this repo, a PI decision outside t/399.
+# push arm: REPORTS, CANNOT BLOCK. It runs after the push has landed. It groups the pushed
+#   commits by merged PR (no PR: each commit is its own unit) and goes red on FAIL/UNREADABLE.
+#   LIMIT: a direct push to main bypasses the PR check. Until main is protected, the control is
+#   the data-mutation playbook rule that a mutation with a freeze record goes through a PR.
+# workflow_dispatch(before, after): re-check any historical range (live-fire both arms).
+
+name: Freeze-Record Check
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      before:
+        description: Range start SHA (exclusive)
+        required: true
+      after:
+        description: Range end SHA (inclusive)
+        required: true
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  freeze-record-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v6
+        with:
+          fetch-depth: 0  # every commit in the range, and the PR's merge base, must be readable
+
+      - name: Self-test the checker (the code that runs below is the code that was tested)
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python3 .github/scripts/test_freeze_record_check.py
+
+      - name: Check freeze records (pull request)
+        if: github.event_name == 'pull_request'
+        id: check-pr
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: python3 .github/scripts/freeze_record_check.py pr --base "$BASE" --head "$HEAD"
+
+      - name: Check freeze records (push or dispatch; reports, cannot block)
+        if: github.event_name != 'pull_request'
+        id: check-push
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BEFORE: ${{ github.event.inputs.before || github.event.before }}
+          AFTER: ${{ github.event.inputs.after || github.event.after }}
+        run: |
+          # After a force-push the old tip is unreachable from main; fetch it by SHA. If that
+          # fails, the script reports the range as GATE-UNREADABLE rather than skipping it.
+          ZERO=0000000000000000000000000000000000000000
+          if [ -n "$BEFORE" ] && [ "$BEFORE" != "$ZERO" ] && ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            git fetch --no-tags origin "$BEFORE" || echo "WARN: old tip $BEFORE not fetchable; the check will report it unreadable"
+          fi
+          python3 .github/scripts/freeze_record_check.py push --before "$BEFORE" --after "$AFTER" --repo "${{ github.repository }}"
