@@ -234,6 +234,16 @@ class TestRecord(Base):
         head = self.r.commit("notes", {"data-mutations/t999/apply-evidence.md": "counts", "data-mutations/t999/sub/frozen_x.json": "nope"})
         self.assertVerdict(head, m.PASS)
 
+    def test_folder_ticket_mismatch_fail(self):
+        head = self.r.commit("wrong folder", {ACC: nodes("acc-1", "acc-3"), REC: record([{"file": ACC, "id": "acc-3"}], ticket="t/400")})
+        self.assertVerdict(head, m.FAIL, r"record folder t999 does not match its ticket t/400")
+
+    def test_folder_with_suffix_pass(self):
+        path = "data-mutations/t999-regen/frozen_x.json"
+        head = self.r.commit("suffix", {ACC: nodes("acc-1", "acc-3"), path: record([{"file": ACC, "id": "acc-3"}])})
+        self.assertVerdict(head, m.PASS)
+        self.assertFalse(m.folder_matches_ticket("data-mutations/t9990/frozen_x.json", "t/999"))
+
     def test_bad_pr_range_unreadable(self):
         findings, n = m.check_pr(self.git, "0" * 40, self.base)
         self.assertEqual(m.verdict(findings, n)[0], m.UNREADABLE)
@@ -306,6 +316,30 @@ class TestEmit(unittest.TestCase):
             self.assertEqual(outputs, f"gate={m.GATE}\nverdict={v}\nreason=why\n")
             self.assertIn(f"**{v}**", summary)
             self.assertEqual(any(l.startswith("::error") for l in lines), v != m.PASS)
+
+    def test_annotation_is_escaped(self):
+        _, lines, _, _ = self.run_emit(m.FAIL, [(m.FAIL, "x")])
+        self.assertEqual(m.escape_annotation("a%b\r\nc"), "a%25b%0D%0Ac")
+        self.assertTrue(any(l.startswith("::error title=FAIL::") for l in lines))
+
+    def test_crash_reports_unreadable_not_traceback(self):
+        real = m.check_pr
+        m.check_pr = lambda *a, **k: (_ for _ in ()).throw(KeyError("boom"))
+        try:
+            buf = io.StringIO()
+            env = dict(os.environ)
+            for k in ("GITHUB_OUTPUT", "GITHUB_STEP_SUMMARY"):
+                os.environ.pop(k, None)
+            try:
+                with contextlib.redirect_stdout(buf):
+                    code = m.main(["pr", "--base", "a", "--head", "b"])
+            finally:
+                os.environ.clear()
+                os.environ.update(env)
+        finally:
+            m.check_pr = real
+        self.assertEqual(code, 2)
+        self.assertIn("GATE-VERDICT freeze-record-check: GATE-UNREADABLE - checker crashed: KeyError", buf.getvalue())
 
     def test_unreadable_outranks_fail(self):
         v, _ = m.verdict([(m.FAIL, "a"), (m.UNREADABLE, "b")], 2)

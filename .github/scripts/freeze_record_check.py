@@ -109,6 +109,18 @@ def validate_shape(rec):
     return problems
 
 
+def folder_matches_ticket(path, ticket):
+    """PURE. data-mutations/<folder>/... must be `t<N>` or `t<N>-<suffix>` for ticket `t/<N>`."""
+    folder = path.split("/")[1]
+    n = ticket.split("/", 1)[1]
+    return folder == f"t{n}" or folder.startswith(f"t{n}-")
+
+
+def escape_annotation(text):
+    """PURE. GitHub workflow-command escaping for an annotation message."""
+    return str(text).replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+
+
 def has_id(doc, wanted):
     """PURE. True when some object at any depth has "id" == wanted."""
     stack = [doc]
@@ -186,6 +198,8 @@ def check_unit(git, label, base, head, changed):
                 findings.append((FAIL, f"{where}: record is not valid JSON ({e})"))
                 continue
             problems = validate_shape(rec)
+            if not problems and not folder_matches_ticket(path, rec["ticket"]):
+                problems.append(f"record folder {path.split('/')[1]} does not match its ticket {rec['ticket']} (folder must be t<N> or t<N>-<suffix>)")
             if problems:
                 findings.extend((FAIL, f"{where}: {p}") for p in problems)
                 continue
@@ -307,7 +321,7 @@ def emit(v, reason, findings, env=os.environ, out=print):
     for k, msg in findings:
         out(f"  [{k}] {msg}")
     if v != PASS:
-        out(f"::error title={v}::{GATE}: {reason}")
+        out(f"::error title={v}::{escape_annotation(f'{GATE}: {reason}')}")
     line = " ".join(reason.split())
     try:
         if env.get("GITHUB_OUTPUT"):
@@ -342,12 +356,15 @@ def main(argv=None):
             rec = json.load(fh)
         print(record_hash(rec["targets"], rec.get("removals", [])))
         return 0
-    git = Git()
-    if a.cmd == "pr":
-        findings, n = check_pr(git, a.base, a.head)
-    else:
-        findings, n = check_push(git, a.before, a.after, gh_pr_lookup(a.repo))
-    v, reason = verdict(findings, n)
+    try:
+        git = Git()
+        if a.cmd == "pr":
+            findings, n = check_pr(git, a.base, a.head)
+        else:
+            findings, n = check_push(git, a.before, a.after, gh_pr_lookup(a.repo))
+        v, reason = verdict(findings, n)
+    except Exception as e:  # noqa: BLE001 -- a crash is no verdict, never a pass (t/399#8 item 2)
+        v, reason, findings = UNREADABLE, f"checker crashed: {type(e).__name__}: {e}", []
     return emit(v, reason, findings)
 
 
