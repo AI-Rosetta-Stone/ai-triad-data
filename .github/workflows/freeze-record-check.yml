@@ -76,4 +76,9 @@ jobs:
           if [ -n "$BEFORE" ] && [ "$BEFORE" != "$ZERO" ] && ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
             git fetch --no-tags origin "$BEFORE" || echo "WARN: old tip $BEFORE not fetchable; the check will report it unreadable"
           fi
+          # t/399#11: a dispatched AFTER may be on no branch (e.g. a closed PR's refs/pull/N/head);
+          # fetch it by SHA too. Same failure path: unfetchable means GATE-UNREADABLE, never a pass.
+          if [ -n "$AFTER" ] && ! git cat-file -e "$AFTER^{commit}" 2>/dev/null; then
+            git fetch --no-tags origin "$AFTER" || echo "WARN: tip $AFTER not fetchable; the check will report it unreadable"
+          fi
           python3 .github/scripts/freeze_record_check.py push --before "$BEFORE" --after "$AFTER" --repo "${{ github.repository }}"
