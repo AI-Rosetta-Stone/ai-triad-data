@@ -1,0 +1,347 @@
+{
+  "ticket": "t/291",
+  "go": "t/291#6",
+  "sha256": "fd758c9b3a0957f1b1cd422fb8400abd24d423e54cf351ace2a333f2bb40e619",
+  "targets": [
+    {
+      "file": "taxonomy/Origin/organization_edges.json"
+    },
+    {
+      "file": "taxonomy/Origin/organization_stance_claims.json"
+    }
+  ],
+  "data_commit": "88892711e11c6448e203d7d3956c511c2a9eeffe",
+  "sources_commit": "39d85734b102035fab6d73f87643f0840152e04c",
+  "hash_basis": "sha256-lf",
+  "last_modified": "2026-11-25",
+  "copies": {
+    "ai-rmf-playbook-2026": "ai-rmf-playbook-2026-2",
+    "ai-rmf-playbook-2026-1": "ai-rmf-playbook-2026-2",
+    "center-ai-standards-innovation-caisi-nist-2026-1": "center-ai-standards-innovation-caisi-nist-2026",
+    "center-ai-standards-innovation-caisi-nist-2026-2": "center-ai-standards-innovation-caisi-nist-2026"
+  },
+  "remove": [
+    [
+      "org-014",
+      "center-ai-standards-innovation-caisi-nist-2026-2",
+      "Building gold-standard AI systems requires gold-standard AI measurement science"
+    ],
+    [
+      "org-014",
+      "center-ai-standards-innovation-caisi-nist-2026-2",
+      "collaborate with NIST staff to ensure U.S. dominance of international AI standards."
+    ],
+    [
+      "org-014",
+      "center-ai-standards-innovation-caisi-nist-2026-2",
+      "Represent U.S. interests internationally to guard against burdensome and unnecessary regulation of American technologies by foreign governments"
+    ],
+    [
+      "org-014",
+      "center-ai-standards-innovation-caisi-nist-2026-2",
+      "CAISI will focus on demonstrable risks, such as cybersecurity, biosecurity, and chemical weapons."
+    ],
+    [
+      "org-014",
+      "center-ai-standards-innovation-caisi-nist-2026-2",
+      "CAISI will work with NIST staff to assist industry to develop voluntary standards."
+    ],
+    [
+      "org-014",
+      "ai-rmf-playbook-2026",
+      "All stakeholders benefit from policies, processes, and procedures which require preventing harm by design and default."
+    ],
+    [
+      "org-014",
+      "ai-rmf-playbook-2026",
+      "Align risk management efforts with applicable legal standards."
+    ],
+    [
+      "org-014",
+      "center-ai-standards-innovation-caisi-nist-2026-1",
+      "collaborate with NIST staff to ensure U.S. dominance of international AI standards."
+    ],
+    [
+      "org-014",
+      "center-ai-standards-innovation-caisi-nist-2026-1",
+      "Represent U.S. interests internationally to guard against burdensome and unnecessary regulation of American technologies by foreign governments"
+    ],
+    [
+      "org-014",
+      "center-ai-standards-innovation-caisi-nist-2026-1",
+      "CAISI will focus on demonstrable risks, such as cybersecurity, biosecurity, and chemical weapons."
+    ],
+    [
+      "org-014",
+      "center-ai-standards-innovation-caisi-nist-2026-1",
+      "CAISI will work with NIST staff to assist industry to develop voluntary standards."
+    ],
+    [
+      "org-014",
+      "ai-rmf-playbook-2026-1",
+      "All stakeholders benefit from policies, processes, and procedures which require preventing harm by design and default."
+    ],
+    [
+      "org-014",
+      "ai-rmf-playbook-2026-1",
+      "Policies, processes, and procedures are central components of effective AI risk management and fundamental to individual and organizational accountability."
+    ],
+    [
+      "org-014",
+      "ai-rmf-playbook-2026-1",
+      "Organizations may utilize this information by borrowing as many – or as few – suggestions as apply to their industry use case or interests."
+    ],
+    [
+      "org-014",
+      "ai-rmf-playbook-2026-1",
+      "Playbook suggestions are voluntary."
+    ],
+    [
+      "org-014",
+      "ai-rmf-playbook-2026-1",
+      "The Playbook is neither a checklist nor set of steps to be followed in its entirety."
+    ]
+  ],
+  "move": [
+    {
+      "key": [
+        "org-014",
+        "center-ai-standards-innovation-caisi-nist-2026-2",
+        "the statistical validity of LLM evaluations benefits from evaluators explicitly adopting a model for analyzing evaluation results"
+      ],
+      "to": "center-ai-standards-innovation-caisi-nist-2026"
+    },
+    {
+      "key": [
+        "org-014",
+        "ai-rmf-playbook-2026",
+        "Legal and regulatory requirements involving AI are understood, managed, and documented."
+      ],
+      "to": "ai-rmf-playbook-2026-2"
+    },
+    {
+      "key": [
+        "org-014",
+        "ai-rmf-playbook-2026",
+        "Organizations may utilize this information by borrowing as many – or as few – suggestions as apply to their industry use case or interests."
+      ],
+      "to": "ai-rmf-playbook-2026-2"
+    },
+    {
+      "key": [
+        "org-014",
+        "ai-rmf-playbook-2026",
+        "Playbook suggestions are voluntary."
+      ],
+      "to": "ai-rmf-playbook-2026-2"
+    },
+    {
+      "key": [
+        "org-014",
+        "ai-rmf-playbook-2026",
+        "The Playbook is neither a checklist nor set of steps to be followed in its entirety."
+      ],
+      "to": "ai-rmf-playbook-2026-2"
+    },
+    {
+      "key": [
+        "org-014",
+        "center-ai-standards-innovation-caisi-nist-2026-1",
+        "NIST AI 800-3 argues that the statistical validity of LLM evaluations benefits from evaluators explicitly adopting a model for analyzing evaluation results"
+      ],
+      "to": "center-ai-standards-innovation-caisi-nist-2026"
+    }
+  ],
+  "edges_set": [
+    {
+      "key": [
+        "org-014",
+        "ai-rmf-playbook-2026",
+        "PUBLISHED"
+      ],
+      "require": {
+        "status": "approved"
+      },
+      "set": {
+        "status": "rejected",
+        "reviewed_by": "human",
+        "reviewed_at": "2026-11-25",
+        "review_note": "Marked copy of ai-rmf-playbook-2026-2 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291"
+      }
+    },
+    {
+      "key": [
+        "org-014",
+        "ai-rmf-playbook-2026-1",
+        "PUBLISHED"
+      ],
+      "require": {
+        "status": "approved"
+      },
+      "set": {
+        "status": "rejected",
+        "reviewed_by": "human",
+        "reviewed_at": "2026-11-25",
+        "review_note": "Marked copy of ai-rmf-playbook-2026-2 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291"
+      }
+    },
+    {
+      "key": [
+        "org-014",
+        "center-ai-standards-innovation-caisi-nist-2026-1",
+        "PUBLISHED"
+      ],
+      "require": {
+        "status": "approved"
+      },
+      "set": {
+        "status": "rejected",
+        "reviewed_by": "human",
+        "reviewed_at": "2026-11-25",
+        "review_note": "Marked copy of center-ai-standards-innovation-caisi-nist-2026 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291"
+      }
+    },
+    {
+      "key": [
+        "org-014",
+        "center-ai-standards-innovation-caisi-nist-2026-2",
+        "PUBLISHED"
+      ],
+      "require": {
+        "status": "approved"
+      },
+      "set": {
+        "status": "rejected",
+        "reviewed_by": "human",
+        "reviewed_at": "2026-11-25",
+        "review_note": "Marked copy of center-ai-standards-innovation-caisi-nist-2026 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291"
+      }
+    }
+  ],
+  "source_refs": [
+    {
+      "key": [
+        "org-014",
+        "skp-intentions-143",
+        "ADVOCATES_FOR"
+      ],
+      "from": [
+        "ai-rmf-playbook-2026",
+        "ai-rmf-playbook-2026-2"
+      ],
+      "to": [
+        "ai-rmf-playbook-2026-2"
+      ]
+    },
+    {
+      "key": [
+        "org-014",
+        "saf-desires-010",
+        "ADVOCATES_FOR"
+      ],
+      "from": [
+        "ai-rmf-playbook-2026"
+      ],
+      "to": [
+        "ai-rmf-playbook-2026-2"
+      ]
+    },
+    {
+      "key": [
+        "org-014",
+        "saf-desires-012",
+        "ADVOCATES_FOR"
+      ],
+      "from": [
+        "ai-rmf-playbook-2026-1"
+      ],
+      "to": [
+        "ai-rmf-playbook-2026-2"
+      ]
+    },
+    {
+      "key": [
+        "org-014",
+        "acc-beliefs-069",
+        "ADVOCATES_FOR"
+      ],
+      "from": [
+        "center-ai-standards-innovation-caisi-nist-2026",
+        "center-ai-standards-innovation-caisi-nist-2026-2"
+      ],
+      "to": [
+        "center-ai-standards-innovation-caisi-nist-2026"
+      ]
+    },
+    {
+      "key": [
+        "org-014",
+        "acc-intentions-103",
+        "ADVOCATES_FOR"
+      ],
+      "from": [
+        "center-ai-standards-innovation-caisi-nist-2026",
+        "center-ai-standards-innovation-caisi-nist-2026-1",
+        "center-ai-standards-innovation-caisi-nist-2026-2"
+      ],
+      "to": [
+        "center-ai-standards-innovation-caisi-nist-2026"
+      ]
+    },
+    {
+      "key": [
+        "org-014",
+        "saf-intentions-016",
+        "ADVOCATES_FOR"
+      ],
+      "from": [
+        "center-ai-standards-innovation-caisi-nist-2026-1",
+        "center-ai-standards-innovation-caisi-nist-2026-2"
+      ],
+      "to": [
+        "center-ai-standards-innovation-caisi-nist-2026"
+      ]
+    },
+    {
+      "key": [
+        "org-014",
+        "saf-intentions-201",
+        "ADVOCATES_FOR"
+      ],
+      "from": [
+        "center-ai-standards-innovation-caisi-nist-2026",
+        "center-ai-standards-innovation-caisi-nist-2026-1",
+        "center-ai-standards-innovation-caisi-nist-2026-2"
+      ],
+      "to": [
+        "center-ai-standards-innovation-caisi-nist-2026"
+      ]
+    },
+    {
+      "key": [
+        "org-014",
+        "skp-intentions-094",
+        "ADVOCATES_FOR"
+      ],
+      "from": [
+        "ai-rmf-playbook-2026",
+        "ai-rmf-playbook-2026-2",
+        "center-ai-standards-innovation-caisi-nist-2026-2"
+      ],
+      "to": [
+        "ai-rmf-playbook-2026-2",
+        "center-ai-standards-innovation-caisi-nist-2026"
+      ]
+    }
+  ],
+  "files": {
+    "taxonomy/Origin/organization_stance_claims.json": {
+      "pre_sha256": "faee6c679747c20fa7f812e16470436bf52033bff932c7502cc28e230ae725bb",
+      "post_sha256": "371c2b347deafb96dfb4bd5bebeeea6eb79ad23d72eab76d1a7bf38ac26a9831"
+    },
+    "taxonomy/Origin/organization_edges.json": {
+      "pre_sha256": "b7377bcc680557447a7f13b0fdd0c399c43fd8986967c05338e8c38cde53272c",
+      "post_sha256": "51fe66837662fb8b4ab00ab113b4977b22f3469dea14e3132f186d4b5b29b107"
+    }
+  }
+}

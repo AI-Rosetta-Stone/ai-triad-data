@@ -1,8 +1,8 @@
 {
   "_schema_version": "1.0.0",
   "_doc": "Organization stance claims extracted per t/1553 Stage 1. Feeds Stage 2/3 claim→node matching. Machine-proposed / human-disposes downstream.",
-  "last_modified": "2026-11-10",
-  "claim_count": 77,
+  "last_modified": "2026-11-25",
+  "claim_count": 61,
   "claims": [
     {
       "org_id": "org-002",
@@ -306,62 +306,12 @@
     },
     {
       "org_id": "org-014",
-      "source_id": "center-ai-standards-innovation-caisi-nist-2026-2",
+      "source_id": "center-ai-standards-innovation-caisi-nist-2026",
       "text": "the statistical validity of LLM evaluations benefits from evaluators explicitly adopting a model for analyzing evaluation results",
       "canonical_proposition": "Evaluators of large language models ought to explicitly adopt statistical models to analyze evaluation results to ensure validity.",
       "polarity": "asserts",
       "extraction_confidence": 0.9,
       "extracted_at": "2026-07-12T19:50:00.1765635-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "center-ai-standards-innovation-caisi-nist-2026-2",
-      "text": "Building gold-standard AI systems requires gold-standard AI measurement science",
-      "canonical_proposition": "The development of high-quality AI systems requires the application of rigorous, gold-standard AI measurement science.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.9,
-      "extracted_at": "2026-07-12T19:50:00.1764367-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "center-ai-standards-innovation-caisi-nist-2026-2",
-      "text": "collaborate with NIST staff to ensure U.S. dominance of international AI standards.",
-      "canonical_proposition": "The United States ought to maintain dominance in the development of international AI standards.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.9,
-      "extracted_at": "2026-07-12T19:50:00.1763143-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "center-ai-standards-innovation-caisi-nist-2026-2",
-      "text": "Represent U.S. interests internationally to guard against burdensome and unnecessary regulation of American technologies by foreign governments",
-      "canonical_proposition": "Foreign governments ought not to impose burdensome and unnecessary regulations on American AI technologies.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.9,
-      "extracted_at": "2026-07-12T19:50:00.1761833-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "center-ai-standards-innovation-caisi-nist-2026-2",
-      "text": "CAISI will focus on demonstrable risks, such as cybersecurity, biosecurity, and chemical weapons.",
-      "canonical_proposition": "CAISI ought to prioritize the evaluation of AI risks related to cybersecurity, biosecurity, and chemical weapons.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.95,
-      "extracted_at": "2026-07-12T19:50:00.1760143-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "center-ai-standards-innovation-caisi-nist-2026-2",
-      "text": "CAISI will work with NIST staff to assist industry to develop voluntary standards.",
-      "canonical_proposition": "CAISI ought to assist the AI industry in developing voluntary standards.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.95,
-      "extracted_at": "2026-07-12T19:50:00.1757581-04:00",
       "extraction_model": "gemini-3.1-flash-lite"
     },
     {
@@ -566,27 +516,7 @@
     },
     {
       "org_id": "org-014",
-      "source_id": "ai-rmf-playbook-2026",
-      "text": "All stakeholders benefit from policies, processes, and procedures which require preventing harm by design and default.",
-      "canonical_proposition": "Organizations ought to implement policies, processes, and procedures that require preventing harm by design and default.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.9,
-      "extracted_at": "2026-07-12T19:49:52.7848388-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "ai-rmf-playbook-2026",
-      "text": "Align risk management efforts with applicable legal standards.",
-      "canonical_proposition": "Organizations ought to align their AI risk management efforts with applicable legal standards.",
-      "polarity": "asserts",
-      "extraction_confidence": 1.0,
-      "extracted_at": "2026-07-12T19:49:52.7845804-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "ai-rmf-playbook-2026",
+      "source_id": "ai-rmf-playbook-2026-2",
       "text": "Legal and regulatory requirements involving AI are understood, managed, and documented.",
       "canonical_proposition": "Organizations ought to understand, manage, and document legal and regulatory requirements applicable to their AI systems.",
       "polarity": "asserts",
@@ -596,7 +526,7 @@
     },
     {
       "org_id": "org-014",
-      "source_id": "ai-rmf-playbook-2026",
+      "source_id": "ai-rmf-playbook-2026-2",
       "text": "Organizations may utilize this information by borrowing as many – or as few – suggestions as apply to their industry use case or interests.",
       "canonical_proposition": "Organizations ought to selectively implement AI RMF Playbook suggestions based on their specific industry use cases and interests.",
       "polarity": "asserts",
@@ -606,7 +536,7 @@
     },
     {
       "org_id": "org-014",
-      "source_id": "ai-rmf-playbook-2026",
+      "source_id": "ai-rmf-playbook-2026-2",
       "text": "Playbook suggestions are voluntary.",
       "canonical_proposition": "Adoption of the AI RMF Playbook suggestions is voluntary for organizations.",
       "polarity": "asserts",
@@ -616,7 +546,7 @@
     },
     {
       "org_id": "org-014",
-      "source_id": "ai-rmf-playbook-2026",
+      "source_id": "ai-rmf-playbook-2026-2",
       "text": "The Playbook is neither a checklist nor set of steps to be followed in its entirety.",
       "canonical_proposition": "Organizations ought not treat the AI RMF Playbook as a mandatory checklist or a comprehensive set of sequential steps.",
       "polarity": "asserts",
@@ -676,102 +606,12 @@
     },
     {
       "org_id": "org-014",
-      "source_id": "center-ai-standards-innovation-caisi-nist-2026-1",
+      "source_id": "center-ai-standards-innovation-caisi-nist-2026",
       "text": "NIST AI 800-3 argues that the statistical validity of LLM evaluations benefits from evaluators explicitly adopting a model for analyzing evaluation results",
       "canonical_proposition": "Evaluators of LLMs ought to adopt explicit statistical models to analyze evaluation results.",
       "polarity": "asserts",
       "extraction_confidence": 0.9,
       "extracted_at": "2026-07-12T19:49:56.5049914-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "center-ai-standards-innovation-caisi-nist-2026-1",
-      "text": "collaborate with NIST staff to ensure U.S. dominance of international AI standards.",
-      "canonical_proposition": "The U.S. ought to maintain dominance in the development of international AI standards.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.9,
-      "extracted_at": "2026-07-12T19:49:56.504491-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "center-ai-standards-innovation-caisi-nist-2026-1",
-      "text": "Represent U.S. interests internationally to guard against burdensome and unnecessary regulation of American technologies by foreign governments",
-      "canonical_proposition": "The U.S. government ought to prevent foreign governments from imposing burdensome and unnecessary regulations on American AI technologies.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.9,
-      "extracted_at": "2026-07-12T19:49:56.5041778-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "center-ai-standards-innovation-caisi-nist-2026-1",
-      "text": "CAISI will focus on demonstrable risks, such as cybersecurity, biosecurity, and chemical weapons.",
-      "canonical_proposition": "CAISI ought to prioritize the evaluation of AI risks related to cybersecurity, biosecurity, and chemical weapons.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.95,
-      "extracted_at": "2026-07-12T19:49:56.5037811-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "center-ai-standards-innovation-caisi-nist-2026-1",
-      "text": "CAISI will work with NIST staff to assist industry to develop voluntary standards.",
-      "canonical_proposition": "CAISI ought to assist industry in the development of voluntary AI standards.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.95,
-      "extracted_at": "2026-07-12T19:49:56.5032445-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "ai-rmf-playbook-2026-1",
-      "text": "All stakeholders benefit from policies, processes, and procedures which require preventing harm by design and default.",
-      "canonical_proposition": "Organizations ought to implement policies, processes, and procedures that mandate the prevention of harm by design and default.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.9,
-      "extracted_at": "2026-07-12T19:49:52.6851266-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "ai-rmf-playbook-2026-1",
-      "text": "Policies, processes, and procedures are central components of effective AI risk management and fundamental to individual and organizational accountability.",
-      "canonical_proposition": "Effective AI risk management and accountability require the integration of policies, processes, and procedures.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.9,
-      "extracted_at": "2026-07-12T19:49:52.684814-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "ai-rmf-playbook-2026-1",
-      "text": "Organizations may utilize this information by borrowing as many – or as few – suggestions as apply to their industry use case or interests.",
-      "canonical_proposition": "Organizations ought to select only the AI RMF Playbook suggestions that are relevant to their specific industry use case or interests.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.9,
-      "extracted_at": "2026-07-12T19:49:52.6845001-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "ai-rmf-playbook-2026-1",
-      "text": "Playbook suggestions are voluntary.",
-      "canonical_proposition": "Organizations are not required to follow the suggestions provided in the AI RMF Playbook.",
-      "polarity": "asserts",
-      "extraction_confidence": 1.0,
-      "extracted_at": "2026-07-12T19:49:52.684032-04:00",
-      "extraction_model": "gemini-3.1-flash-lite"
-    },
-    {
-      "org_id": "org-014",
-      "source_id": "ai-rmf-playbook-2026-1",
-      "text": "The Playbook is neither a checklist nor set of steps to be followed in its entirety.",
-      "canonical_proposition": "Organizations ought not treat the AI RMF Playbook as a mandatory checklist or a comprehensive set of sequential steps.",
-      "polarity": "asserts",
-      "extraction_confidence": 0.9,
-      "extracted_at": "2026-07-12T19:49:52.669284-04:00",
       "extraction_model": "gemini-3.1-flash-lite"
     }
   ]
