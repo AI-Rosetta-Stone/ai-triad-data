@@ -101,7 +101,7 @@
           "taxonomy_node_id": "acc-beliefs-085",
           "category": "Beliefs",
           "point": "The document argues that regulatory frameworks modeled after the EU's GDPR act as a form of 'regulatory imperialism' that suppresses technological adoption and innovation in the Global South. By imposing rigid compliance costs and data localization requirements, these regulations prevent developing nations from leveraging data-driven economic models. This aligns with the accelerationist view that institutional friction and over-regulation are primary drivers of economic inequality and stagnation.",
-          "verbatim": "Mandatory adoption of EU-style digital rules amounts to regulatory imperialism for many countries in the Global South. It limits technology adoption, raises compliance costs, and undermines the ability of local ?rms to compete with Western ones.",
+          "verbatim": "Mandatory adoption of EU-style digital rules amounts to regulatory imperialism for many countries in the Global South. It limits technology adoption, raises compliance costs, and undermines the ability of local firms to compete with Western ones.",
           "excerpt_context": "Section 1, paragraph 1",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [
@@ -155,7 +155,7 @@
           "taxonomy_node_id": "saf-intentions-201",
           "category": "Intentions",
           "point": "The document explicitly opposes the global export of EU-style digital governance, characterizing it as a coercive exercise of power rather than a principled leadership effort. It argues that these frameworks are ill-suited for the economic and technological realities of the Global South, suggesting that international governance models should be flexible and regionally grounded rather than top-down impositions.",
-          "verbatim": "Rather than submit to the EU, Global South countries should adopt ?exible rules that re?ect their own local interests and goals.",
+          "verbatim": "Rather than submit to the EU, Global South countries should adopt flexible rules that reflect their own local interests and goals.",
           "excerpt_context": "Section 1, paragraph 2",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [
@@ -212,7 +212,7 @@
           "taxonomy_node_id": null,
           "category": "Desires",
           "point": "The document expresses concern that the current global digital regulatory regime entrenches the dominance of Western firms and disadvantages Global South competitors. It advocates for regulatory autonomy to prevent the concentration of digital power and to ensure that developing nations can participate in the global digital economy on their own terms.",
-          "verbatim": "For Global South countries, mirroring EU rules raises barriers to widespread technology adoption, constrains domestic ?rms, and entrenches the dominance of Western competitors in global markets.",
+          "verbatim": "For Global South countries, mirroring EU rules raises barriers to widespread technology adoption, constrains domestic firms, and entrenches the dominance of Western competitors in global markets.",
           "excerpt_context": "Section 1, paragraph 4",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [

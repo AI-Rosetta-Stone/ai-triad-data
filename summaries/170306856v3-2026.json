@@ -100,7 +100,7 @@
           "taxonomy_node_id": "acc-beliefs-027",
           "category": "Beliefs",
           "point": "The authors posit that human developers are the primary bottleneck in creating fair AI, as they must define the causal structure and protected attributes. The document emphasizes that fairness is not an inherent property of data but a result of the modeler's choices regarding causal relationships. This perspective shifts the focus from the technology's inherent bias to the human-defined parameters of the system. The authors note that these models are inherently provisional and subject to modification as new data or better causal understanding emerges.",
-          "verbatim": "The decision of whether an attribute is protected or not is taken as a primitive in any given problem, regardless of the de?nition of fairness adopted.",
+          "verbatim": "The decision of whether an attribute is protected or not is taken as a primitive in any given problem, regardless of the definition of fairness adopted.",
           "excerpt_context": "Section 2, paragraph 1",
           "extraction_confidence": 0.98,
           "vocabulary_terms": [
@@ -129,7 +129,7 @@
           "taxonomy_node_id": "saf-intentions-117",
           "category": "Intentions",
           "point": "The authors propose that AI systems should be designed to be 'counterfactually fair,' meaning that a decision for an individual should remain the same in a counterfactual world where their protected attributes were different. This requires making the internal causal reasoning of the model explicit and interpretable. By forcing the model to account for latent variables that are independent of protected attributes, the authors aim to prevent the system from relying on discriminatory causal chains. This approach directly addresses the need for transparency in how AI systems arrive at consequential decisions.",
-          "verbatim": "Our de?nition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+          "verbatim": "Our definition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
           "excerpt_context": "Abstract",
           "extraction_confidence": 0.98,
           "vocabulary_terms": [

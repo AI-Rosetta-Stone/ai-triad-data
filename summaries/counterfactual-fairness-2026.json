@@ -155,7 +155,7 @@
           "taxonomy_node_id": "skp-intentions-095",
           "category": "Intentions",
           "point": "The document proposes 'counterfactual fairness' as a method to ensure that AI decisions remain consistent across hypothetical scenarios where an individual's protected attributes are changed. This approach aims to mitigate the 'writing-thinking gap' where models appear fair on the surface but encode systemic biases in their internal logic. By forcing models to account for causal relationships, the authors seek to provide a more robust and actionable framework for fairness than existing statistical parity metrics. The document notes that this approach requires strong assumptions about the causal structure of the world, which may be difficult to verify.",
-          "verbatim": "Our de?nition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+          "verbatim": "Our definition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
           "excerpt_context": "Abstract",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [

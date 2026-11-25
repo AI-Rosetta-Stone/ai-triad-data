@@ -156,7 +156,7 @@
           "taxonomy_node_id": "skp-beliefs-163",
           "category": "Beliefs",
           "point": "The document acknowledges that while the model can wield concepts and make analogies, it is essentially a system of neuron activations and features. The researchers note that understanding the representations does not necessarily explain how the model uses them, highlighting the gap between identifying features and understanding the 'circuits' of reasoning. This aligns with the skeptic view that AI models are sophisticated pattern-matchers rather than entities with genuine understanding. The document admits that the current approach is cost-prohibitive and incomplete.",
-          "verbatim": "Understanding the representations the model uses doesn't tell us how it uses them; even though we have the features, we still need to ?nd the circuits they are involved in.",
+          "verbatim": "Understanding the representations the model uses doesn't tell us how it uses them; even though we have the features, we still need to find the circuits they are involved in.",
           "excerpt_context": "Section: Mapping the Mind of a Large Language Model",
           "extraction_confidence": 0.92,
           "canonical_proposition": "AI models represent concepts through complex feature combinations, but identifying these features does not equate to understanding the model's reasoning circuits.",

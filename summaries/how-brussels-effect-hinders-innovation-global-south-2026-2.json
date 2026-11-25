@@ -115,7 +115,7 @@
           "taxonomy_node_id": null,
           "category": "Desires",
           "point": "The document advocates for innovation-friendly governance frameworks that prioritize growth, technological diffusion, and the removal of barriers to entry. It argues that current regulatory models, particularly those originating from the EU, suppress the development of digital ecosystems by imposing rigid, precautionary requirements. The goal is to foster an environment where experimentation and dynamic market activity are rewarded rather than stifled by bureaucratic compliance.",
-          "verbatim": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would bene?t from innovation-friendly governance frameworks.",
+          "verbatim": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would benefit from innovation-friendly governance frameworks.",
           "excerpt_context": "Section 2, paragraph 79",
           "extraction_confidence": 0.9,
           "vocabulary_terms": [
@@ -172,7 +172,7 @@
           "taxonomy_node_id": "saf-intentions-158",
           "category": "Intentions",
           "point": "The document criticizes the EU's precautionary principle, arguing that it leads to overly conservative regulation that deters experimentation. It suggests that this mindset transforms innovation into a threat to be mitigated rather than a force to be cultivated. This critique implies that safety-first regulatory frameworks are fundamentally incompatible with the requirements for rapid technological advancement.",
-          "verbatim": "Designed to prevent harm in the face of scienti?c uncertainty, the precautionary principle often results in overly conservative regulation that deters experimentation and dynamic market activity.",
+          "verbatim": "Designed to prevent harm in the face of scientific uncertainty, the precautionary principle often results in overly conservative regulation that deters experimentation and dynamic market activity.",
           "excerpt_context": "Section 2, paragraph 66",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [
@@ -270,7 +270,7 @@
           "taxonomy_node_id": "skp-intentions-108",
           "category": "Intentions",
           "point": "The document advocates for Global South countries to reject wholesale adoption of EU-style AI rules, which it characterizes as 'regulatory imperialism.' It argues that these rules impose high compliance costs that disproportionately burden firms in developing nations with limited institutional capacity. It supports alternative, flexible, and interoperable governance models like APEC's CPEA.",
-          "verbatim": "The adoption of EU rules across multiple sectors, including digital policy and chemicals regulation, imposes high compliance costs and constrains innovation in third countries, particularly in the Global South, where ?rms and governments possess limited institutional and ?nancial capacity to absorb such burdens.",
+          "verbatim": "The adoption of EU rules across multiple sectors, including digital policy and chemicals regulation, imposes high compliance costs and constrains innovation in third countries, particularly in the Global South, where firms and governments possess limited institutional and financial capacity to absorb such burdens.",
           "excerpt_context": "Section 3, Conclusion",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [

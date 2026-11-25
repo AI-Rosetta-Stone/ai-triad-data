@@ -101,7 +101,7 @@
           "taxonomy_node_id": "acc-beliefs-085",
           "category": "Beliefs",
           "point": "The document asserts that regulatory frameworks modeled after the EU's GDPR act as a form of 'regulatory imperialism' that suppresses innovation in the Global South. By imposing high compliance costs and restricting data flows, these regulations prevent local firms from competing effectively with Western incumbents. This aligns with the accelerationist view that institutional friction, rather than inherent market failure, is the primary driver of economic inequality and stagnation.",
-          "verbatim": "Mandatory adoption of EU-style digital rules amounts to regulatory imperialism for many countries in the Global South. It limits technology adoption, raises compliance costs, and undermines the ability of local ?rms to compete with Western ones.",
+          "verbatim": "Mandatory adoption of EU-style digital rules amounts to regulatory imperialism for many countries in the Global South. It limits technology adoption, raises compliance costs, and undermines the ability of local firms to compete with Western ones.",
           "excerpt_context": "Section 1, paragraph 1",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [
@@ -125,7 +125,7 @@
           "taxonomy_node_id": null,
           "category": "Desires",
           "point": "The document advocates for innovation-friendly governance frameworks that prioritize the rapid development and diffusion of digital technologies. It argues that regulatory environments should facilitate, rather than hinder, the scaling of AI and digital services to improve living standards. This aligns with the accelerationist goal of leveraging AI as a force for global economic growth and technological advancement.",
-          "verbatim": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would bene?t from innovation-friendly governance frameworks.",
+          "verbatim": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would benefit from innovation-friendly governance frameworks.",
           "excerpt_context": "Section 2, paragraph 24",
           "extraction_confidence": 0.9,
           "vocabulary_terms": [
@@ -182,7 +182,7 @@
           "taxonomy_node_id": "saf-intentions-201",
           "category": "Intentions",
           "point": "The document criticizes the EU's precautionary, heavy-handed regulatory model, specifically the AIA, as a failure that stifles innovation and lacks empirical grounding. It argues that the EU's approach to risk management is overly conservative and detrimental to technological progress. This directly opposes the safetyist intention of implementing strict, precautionary governance frameworks for AI.",
-          "verbatim": "The AIA has come under heavy criticism, not least because it does not actually represent a risk-based regulation. Indeed, even the main author behind the AI Act considers the ?nal text to be a failure, so much so that he resigned from the European Commission.",
+          "verbatim": "The AIA has come under heavy criticism, not least because it does not actually represent a risk-based regulation. Indeed, even the main author behind the AI Act considers the final text to be a failure, so much so that he resigned from the European Commission.",
           "excerpt_context": "Section 2, paragraph 53",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [
@@ -213,7 +213,7 @@
           "taxonomy_node_id": "skp-desires-081",
           "category": "Desires",
           "point": "The document advocates for Global South countries to reject wholesale adoption of EU-style digital rules in favor of flexible, regionally grounded governance frameworks. It argues that current 'adequacy' regimes create a 'club effect' that excludes developing nations from the global digital economy, effectively entrenching the dominance of Western firms and preventing local firms from leapfrogging established competitors.",
-          "verbatim": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain ?exible, innovation-friendly, and tailored to local needs.",
+          "verbatim": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain flexible, innovation-friendly, and tailored to local needs.",
           "excerpt_context": "Section 1, paragraph 6",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [
@@ -240,7 +240,7 @@
           "taxonomy_node_id": null,
           "category": "Beliefs",
           "point": "The document argues that digital regulations like the DSA and GDPR facilitate government control over speech and content, leading to censorship and the suppression of lawful expression. It cites examples from Brazil and Nigeria where intermediaries are compelled to act as enforcers of government speech controls. This aligns with the skeptic concern regarding the erosion of digital rights and the potential for state overreach.",
-          "verbatim": "The DSA allows government to play a stronger role in the regulation of online speech by regulating the intermediary platforms that host such speech. This effect is ampli?ed in countries where there is little infrastructure to balance the spread of illegal content online, and the necessity for free speech.",
+          "verbatim": "The DSA allows government to play a stronger role in the regulation of online speech by regulating the intermediary platforms that host such speech. This effect is amplified in countries where there is little infrastructure to balance the spread of illegal content online, and the necessity for free speech.",
           "excerpt_context": "Section 2, paragraph 52",
           "extraction_confidence": 0.9,
           "vocabulary_terms": [

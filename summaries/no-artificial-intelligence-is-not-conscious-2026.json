@@ -119,7 +119,7 @@
           "taxonomy_node_id": "skp-desires-006",
           "category": "Desires",
           "point": "The author argues that offloading ethical decisions to AI systems results in the atrophy of human moral reasoning, which is a more severe consequence than the cognitive atrophy caused by offloading technical tasks. The document contends that moral reasoning is inherently subjective and grounded in a lifetime of human emotional experience, which machines lack. From a skeptic perspective, this emphasizes the need to preserve human critical inquiry and responsibility over the frictionless consumption of AI-generated advice. The document acknowledges that while AI might be useful for some tasks, it should never be treated as a moral authority.",
-          "verbatim": "O?-loading tasks such as writing code might result in cognitive atrophy over the long term, and that is problematic in itself, but o?-loading ethical decisions will result in an atrophy of moral reasoning, which is worse.",
+          "verbatim": "Off-loading tasks such as writing code might result in cognitive atrophy over the long term, and that is problematic in itself, but off-loading ethical decisions will result in an atrophy of moral reasoning, which is worse.",
           "excerpt_context": "Body paragraph 21",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [

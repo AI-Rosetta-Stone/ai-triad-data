@@ -101,7 +101,7 @@
           "taxonomy_node_id": "acc-intentions-054",
           "category": "Intentions",
           "point": "The document advocates for a causal modeling approach to fairness that relies on explicit structural equations to define and verify fair outcomes. By leveraging Pearl's causal framework, the authors argue that we can move beyond static, non-causal fairness metrics to a more robust, empirical understanding of how protected attributes influence data. From an accelerationist perspective, this provides a rigorous, verifiable methodology for deploying AI in high-stakes domains like lending and policing without sacrificing the benefits of automation. The authors acknowledge that these causal models are provisional and require continuous refinement as new data becomes available.",
-          "verbatim": "In this paper, we develop a framework for modeling fairness using tools from causal inference. Our de?nition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+          "verbatim": "In this paper, we develop a framework for modeling fairness using tools from causal inference. Our definition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
           "excerpt_context": "Abstract",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [
@@ -133,7 +133,7 @@
           "taxonomy_node_id": "skp-intentions-095",
           "category": "Intentions",
           "point": "The document proposes 'counterfactual fairness' as a method to ensure AI decisions remain unchanged in a hypothetical world where an individual's protected attribute is different. This approach directly addresses the skeptic concern that existing fairness metrics are often incompatible or fail to account for the causal mechanisms of discrimination. By using causal inference, the authors aim to provide a more transparent and actionable framework for auditing AI systems. The document acknowledges that this approach requires strong, sometimes unfalsifiable, causal assumptions, which limits its applicability in scenarios where the underlying causal structure is unknown.",
-          "verbatim": "Our de?nition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+          "verbatim": "Our definition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
           "excerpt_context": "Abstract",
           "extraction_confidence": 0.98,
           "vocabulary_terms": [

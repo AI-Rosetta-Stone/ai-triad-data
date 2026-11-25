@@ -101,7 +101,7 @@
           "taxonomy_node_id": "acc-intentions-088",
           "category": "Intentions",
           "point": "The document encourages businesses to adopt AI tools to enhance operations, framing this as a necessary step for growing companies. It emphasizes that companies should proactively manage the risks of these tools through contractual mechanisms rather than avoiding them. This aligns with the accelerationist view that market-driven adoption is the primary path to realizing AI's transformative benefits. The document acknowledges that this requires careful due diligence to ensure the technology is used effectively.",
-          "verbatim": "By now, just about every company is implementing arti?cial intelligence in their business in some way, shape or form. Whether your company is purchasing AI tools to enhance operations or developing AI-enabled products for your customers, understanding the contractual landscape is essential to protecting your business.",
+          "verbatim": "By now, just about every company is implementing artificial intelligence in their business in some way, shape or form. Whether your company is purchasing AI tools to enhance operations or developing AI-enabled products for your customers, understanding the contractual landscape is essential to protecting your business.",
           "excerpt_context": "Introduction",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [
@@ -113,7 +113,7 @@
           "taxonomy_node_id": "acc-beliefs-044",
           "category": "Beliefs",
           "point": "The document asserts that AI risk is highly variable and depends on the specific use case, such as back-office functions versus automated decision-making. It notes that agentic AI, in particular, triggers heightened regulatory scrutiny and legal exposure. This reflects the accelerationist belief that technical capabilities and deployment contexts are the primary drivers of risk, rather than the technology itself. The document advises companies to define functionality and limitations clearly to manage these risks.",
-          "verbatim": "AI risk varies based on whether the tool is used for back-o?ce functions, customer-facing applications, hiring decisions, or automated decision-making. Certain technologies and uses, such as agentic AI, trigger heightened regulatory scrutiny and create greater legal exposure.",
+          "verbatim": "AI risk varies based on whether the tool is used for back-office functions, customer-facing applications, hiring decisions, or automated decision-making. Certain technologies and uses, such as agentic AI, trigger heightened regulatory scrutiny and create greater legal exposure.",
           "excerpt_context": "Start with Due Diligence, point 1",
           "extraction_confidence": 0.98,
           "vocabulary_terms": [
@@ -125,7 +125,7 @@
           "taxonomy_node_id": "acc-intentions-086",
           "category": "Intentions",
           "point": "The document recognizes the rise of agentic AI and the need for businesses to integrate these tools into their operations. It warns that ambiguous marketing terms like 'autonomous' can inflate expectations and lead to performance disputes. By advocating for clear definitions of functionality, the document supports the responsible deployment of agentic systems. This aligns with the accelerationist goal of streamlining operations through advanced AI agents.",
-          "verbatim": "Certain technologies and uses, such as agentic AI, trigger heightened regulatory scrutiny and create greater legal exposure. Ensure the contract de?nes what the AI system is and what the AI system does, including use cases, functionality, and limitations.",
+          "verbatim": "Certain technologies and uses, such as agentic AI, trigger heightened regulatory scrutiny and create greater legal exposure. Ensure the contract defines what the AI system is and what the AI system does, including use cases, functionality, and limitations.",
           "excerpt_context": "Start with Due Diligence, point 1",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [
@@ -137,7 +137,7 @@
           "taxonomy_node_id": null,
           "category": "Desires",
           "point": "The document advocates for a proactive approach to AI contracting that allows companies to capture the benefits of AI while managing legal exposure. It suggests that companies should not be deterred by the complexity of the landscape but should instead build internal governance and clear policies. This reflects a desire to enable innovation through structured risk management. The document acknowledges that this requires ongoing attention to evolving regulatory requirements.",
-          "verbatim": "Taking a thoughtful, proactive approach to these agreements positions your company to capture the bene?ts of AI while managing legal exposure.",
+          "verbatim": "Taking a thoughtful, proactive approach to these agreements positions your company to capture the benefits of AI while managing legal exposure.",
           "excerpt_context": "Practical Takeaways",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [
@@ -153,7 +153,7 @@
           "taxonomy_node_id": "saf-intentions-081",
           "category": "Intentions",
           "point": "The document emphasizes the need for robust data privacy and security measures, including independent security audits and industry-recognized certifications. It highlights that AI systems process large volumes of sensitive data, which increases the risk of breaches and model leakage. This aligns with the safetyist focus on establishing systemic frameworks to manage the risks of AI deployment. The document notes that companies should mandate notification for security incidents involving model or data integrity.",
-          "verbatim": "Request evidence of independent security audits or industry-recognized certi?cations where available. If the provider uses customer data to train or improve models, con?rm opt-in requirements, anonymization standards, and your right to revoke such use.",
+          "verbatim": "Request evidence of independent security audits or industry-recognized certifications where available. If the provider uses customer data to train or improve models, confirm opt-in requirements, anonymization standards, and your right to revoke such use.",
           "excerpt_context": "Data Privacy and Security: Higher Stakes with AI, point 2",
           "extraction_confidence": 0.98,
           "vocabulary_terms": [
@@ -165,7 +165,7 @@
           "taxonomy_node_id": "saf-intentions-136",
           "category": "Intentions",
           "point": "The document advises that when AI outputs feed into high-impact decisions like healthcare or financial determinations, companies should require bias audits and model drift monitoring. This reflects the safetyist intention to apply governance principles to specific high-stakes domains. The document acknowledges that AI can produce inaccurate or biased results due to training data issues. It suggests that transparency into how outputs are generated is essential for safety.",
-          "verbatim": "Where AI outputs feed into high-impact decisions, such as employment, healthcare, or ?nancial determinations, consider requiring the provider to conduct periodic bias audits, implement model drift monitoring, and provide transparency into how outputs are generated.",
+          "verbatim": "Where AI outputs feed into high-impact decisions, such as employment, healthcare, or financial determinations, consider requiring the provider to conduct periodic bias audits, implement model drift monitoring, and provide transparency into how outputs are generated.",
           "excerpt_context": "Warranties, Representations, and Disclaimers, point 2",
           "extraction_confidence": 0.98,
           "vocabulary_terms": [
@@ -189,7 +189,7 @@
           "taxonomy_node_id": "saf-intentions-024",
           "category": "Intentions",
           "point": "The document critiques the failure to adequately define data categories, noting that standard 'input' and 'output' definitions are often oversimplified. It suggests that companies must define all relevant data types, including training data, derived data, and audit trails, to ensure effective oversight. This aligns with the safetyist concern regarding 'documentation debt' and the need for transparency. The document emphasizes that clear definitions are foundational to managing legal and safety risks.",
-          "verbatim": "Additional data categories may include training data, derived data, usage data, model improvements, logs and audit trails. Ensure all types of data are de?ned and all rights covering such data are allocated.",
+          "verbatim": "Additional data categories may include training data, derived data, usage data, model improvements, logs and audit trails. Ensure all types of data are defined and all rights covering such data are allocated.",
           "excerpt_context": "Intellectual Property: A Central Battleground, point 3",
           "extraction_confidence": 0.98,
           "vocabulary_terms": [
@@ -205,7 +205,7 @@
           "taxonomy_node_id": "skp-intentions-097",
           "category": "Intentions",
           "point": "The document advocates for robust, independent mechanisms to monitor and audit AI systems, particularly for high-impact applications. It suggests that companies should require vendors to provide transparency into how outputs are generated and conduct periodic bias audits. This aligns with the skeptic intention to implement regulatory oversight to protect against documented present harms. The document acknowledges that AI can produce biased results that are beyond the customer's control.",
-          "verbatim": "Where AI outputs feed into high-impact decisions, such as employment, healthcare, or ?nancial determinations, consider requiring the provider to conduct periodic bias audits, implement model drift monitoring, and provide transparency into how outputs are generated.",
+          "verbatim": "Where AI outputs feed into high-impact decisions, such as employment, healthcare, or financial determinations, consider requiring the provider to conduct periodic bias audits, implement model drift monitoring, and provide transparency into how outputs are generated.",
           "excerpt_context": "Warranties, Representations, and Disclaimers, point 2",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [
@@ -217,7 +217,7 @@
           "taxonomy_node_id": "skp-beliefs-170",
           "category": "Beliefs",
           "point": "The document warns that many AI vendors are startups built on third-party platforms, often referred to as 'OpenAI wrappers,' and that their business stability is a significant risk. It advises companies to conduct due diligence on the vendor's financial condition and investor backing. This reflects the skeptic belief that corporate power and market structure can lead to instability and regulatory evasion. The document notes that if a vendor folds, the customer could be left exposed.",
-          "verbatim": "Many vendors in this market are startups built on third-party platforms like OpenAI. The phrase ôOpenAI wrapperö is commonly used. Basic due diligence, including reviewing the vendor's capitalization, investor backing, and ?nancial condition, is prudent.",
+          "verbatim": "Many vendors in this market are startups built on third-party platforms like OpenAI. The phrase ôOpenAI wrapperö is commonly used. Basic due diligence, including reviewing the vendor's capitalization, investor backing, and financial condition, is prudent.",
           "excerpt_context": "Start with Due Diligence, point 2",
           "extraction_confidence": 0.98,
           "vocabulary_terms": [
@@ -229,7 +229,7 @@
           "taxonomy_node_id": "skp-intentions-029",
           "category": "Intentions",
           "point": "The document emphasizes the importance of contractual risk allocation, particularly regarding intellectual property indemnification. It advises customers to push for broad indemnification that covers model outputs and predictions, not just the software itself. This aligns with the skeptic strategy of using private contracts to shift the burden of compliance and liability. The document warns that vendors often include exclusions that can gut these obligations.",
-          "verbatim": "Customer should push for indemnities covering claims that the AI tool, its outputs, or training data infringe third-party intellectual property rights. Many vendors will provide infringement indemni?cation for the service itself but resist extending coverage to training data and outputs.",
+          "verbatim": "Customer should push for indemnities covering claims that the AI tool, its outputs, or training data infringe third-party intellectual property rights. Many vendors will provide infringement indemnification for the service itself but resist extending coverage to training data and outputs.",
           "excerpt_context": "Indemnification: Who Bears the Risk?, point 1",
           "extraction_confidence": 0.98,
           "vocabulary_terms": [
