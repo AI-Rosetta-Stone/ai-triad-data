@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "builder": "Build-NodeSourceIndex",
   "builderVersion": "1.3.0",
-  "inputHash": "8f6bcb352975caf377f4eb57eed6ca054014a0cfae954820b64c3a5ed629a7f3",
+  "inputHash": "fc83359e8104545115cf2a06c0320a79ba656a6187e9fbcdbaa41b69347f58b3",
   "marksHash": "5e6996a20dcd4af544dbc63f02cc8da1a77c02aa5164c61f0a6b32da84fb1e41",
   "chunksHash": "789567ae24c5883293029ef8a55fac5efc5158aba5572c355694b53679eecfcb",
   "totals": {
@@ -3157,7 +3157,7 @@
       {
         "source_id": "concrete-problems-ai-safety-2026",
         "link_source": "key_point",
-        "quote": "An e?ective approach to semi-supervised RL might be a strong ?rst step towards providing scalable oversight and mitigating other AI safety problems. It would also likely be useful for reinforcement learning, independent of its relevance to safety.",
+        "quote": "An e?ective approach to semi-supervised RL might be a strong first step towards providing scalable oversight and mitigating other AI safety problems. It would also likely be useful for reinforcement learning, independent of its relevance to safety.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9,
@@ -3987,7 +3987,7 @@
       {
         "source_id": "170306856v3-2026",
         "link_source": "key_point",
-        "quote": "The decision of whether an attribute is protected or not is taken as a primitive in any given problem, regardless of the de?nition of fairness adopted.",
+        "quote": "The decision of whether an attribute is protected or not is taken as a primitive in any given problem, regardless of the definition of fairness adopted.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -7648,7 +7648,7 @@
       {
         "source_id": "ai-contracting-practical-legal-guidance-growing-businesses-2026",
         "link_source": "key_point",
-        "quote": "AI risk varies based on whether the tool is used for back-o?ce functions, customer-facing applications, hiring decisions, or automated decision-making. Certain technologies and uses, such as agentic AI, trigger heightened regulatory scrutiny and create greater legal exposure.",
+        "quote": "AI risk varies based on whether the tool is used for back-office functions, customer-facing applications, hiring decisions, or automated decision-making. Certain technologies and uses, such as agentic AI, trigger heightened regulatory scrutiny and create greater legal exposure.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -10242,7 +10242,7 @@
       {
         "source_id": "concrete-problems-ai-safety-2026",
         "link_source": "key_point",
-        "quote": "Good approaches to side e?ects would certainly not be a replacement for extensive testing or for careful consideration by designers of the individual failure modes of each deployed system.",
+        "quote": "Good approaches to side effects would certainly not be a replacement for extensive testing or for careful consideration by designers of the individual failure modes of each deployed system.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.8,
@@ -10415,7 +10415,7 @@
       {
         "source_id": "measuring-risk-ii-what-eu-risk-assessments-us-litigation-2026",
         "link_source": "key_point",
-        "quote": "Companies have invested in research that links self-report and behavioral trace data. MetaÆs internal program combined survey-based self-report data with granular behavioral indicators like passive late-night use.213 YouTube's Wellbeing Vision identi?es four behaviors linked to negative wellbeing e?ects, including Late Night Use, Habitual Heavy Use, Unintentional Use, and Problematic Content.214 Even Snap, which has not invested heavily in internal research, tracks feature-level usage by time of day.215 None of these companies, however, translate internal capacity into outcome-based reporting that would let regulators, courts, researchers, or the public assess whether speci?c problematic use mitigations actually work.",
+        "quote": "Companies have invested in research that links self-report and behavioral trace data. MetaÆs internal program combined survey-based self-report data with granular behavioral indicators like passive late-night use.213 YouTube's Wellbeing Vision identifies four behaviors linked to negative wellbeing effects, including Late Night Use, Habitual Heavy Use, Unintentional Use, and Problematic Content.214 Even Snap, which has not invested heavily in internal research, tracks feature-level usage by time of day.215 None of these companies, however, translate internal capacity into outcome-based reporting that would let regulators, courts, researchers, or the public assess whether specific problematic use mitigations actually work.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95,
@@ -11910,7 +11910,7 @@
       {
         "source_id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
         "link_source": "key_point",
-        "quote": "EU-style digital rules impose high compliance burdens, limit experimentation, and restrict data use in ways that harm innovation. For Global South countries, mirroring EU rules raises barriers to widespread technology adoption, constrains domestic ?rms, and entrenches the dominance of Western competitors in global markets.",
+        "quote": "EU-style digital rules impose high compliance burdens, limit experimentation, and restrict data use in ways that harm innovation. For Global South countries, mirroring EU rules raises barriers to widespread technology adoption, constrains domestic firms, and entrenches the dominance of Western competitors in global markets.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9,
@@ -11919,7 +11919,7 @@
       {
         "source_id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
         "link_source": "key_point",
-        "quote": "Mandatory adoption of EU-style digital rules amounts to regulatory imperialism for many countries in the Global South. It limits technology adoption, raises compliance costs, and undermines the ability of local ?rms to compete with Western ones.",
+        "quote": "Mandatory adoption of EU-style digital rules amounts to regulatory imperialism for many countries in the Global South. It limits technology adoption, raises compliance costs, and undermines the ability of local firms to compete with Western ones.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0,
@@ -16606,7 +16606,7 @@
       {
         "source_id": "concrete-problems-ai-safety-2026",
         "link_source": "key_point",
-        "quote": "[27] Nick Bostrom. Superintelligence: Paths, dangers, strategies. OUP Oxford, 2014. [59] Yolanda Gil et al. ôAmplify scienti?c discovery with arti?cial intelligenceö. In: Science 346.6206 (2014), pp. 171û172. [140] David Silver et al. ôMastering the game of Go with deep neural networks and tree searchö. In: Nature 529.7587 (2016), pp. 484û489.",
+        "quote": "[27] Nick Bostrom. Superintelligence: Paths, dangers, strategies. OUP Oxford, 2014. [59] Yolanda Gil et al. ôAmplify scientific discovery with artificial intelligenceö. In: Science 346.6206 (2014), pp. 171û172. [140] David Silver et al. ôMastering the game of Go with deep neural networks and tree searchö. In: Nature 529.7587 (2016), pp. 484û489.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.8,
@@ -17376,7 +17376,7 @@
       {
         "source_id": "managing-risks-from-internal-ai-systems-2026",
         "link_source": "key_point",
-        "quote": "Implementing physical security may require signi?cant up-front investments; it may also present an ongoing hit to productivity and talent acquisition by restricting and demoralizing employees who are used to the ?exibility of Silicon Valley workplaces.",
+        "quote": "Implementing physical security may require significant up-front investments; it may also present an ongoing hit to productivity and talent acquisition by restricting and demoralizing employees who are used to the flexibility of Silicon Valley workplaces.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9
@@ -17878,7 +17878,7 @@
       {
         "source_id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
         "link_source": "key_point",
-        "quote": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain ?exible, innovation-friendly, and tailored to local needs.",
+        "quote": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain flexible, innovation-friendly, and tailored to local needs.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0,
@@ -17929,7 +17929,7 @@
       {
         "source_id": "managing-risks-from-internal-ai-systems-2026",
         "link_source": "key_point",
-        "quote": "Internal AI systems often have dual-use capabilities signi?cantly ahead of the public frontier. When new systems are released, they often have benchmark scores and practical performances that improve on existing public models. This suggests the most capable models at any given point are internal. Internal capabilities in American companies could be a leading indicator of what capabilities China, and eventually North Korea and other adversaries, will indigenously develop later.",
+        "quote": "Internal AI systems often have dual-use capabilities significantly ahead of the public frontier. When new systems are released, they often have benchmark scores and practical performances that improve on existing public models. This suggests the most capable models at any given point are internal. Internal capabilities in American companies could be a leading indicator of what capabilities China, and eventually North Korea and other adversaries, will indigenously develop later.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9,
@@ -21160,7 +21160,7 @@
       {
         "source_id": "tracing-thoughts-large-language-model-2026-1",
         "link_source": "key_point",
-        "quote": "We take inspiration from the ?eld of neuroscience, which has long studied the messy insides of thinking organisms, and try to build a kind of AI microscope that will let us identify patterns of activity and ?ows of information.",
+        "quote": "We take inspiration from the field of neuroscience, which has long studied the messy insides of thinking organisms, and try to build a kind of AI microscope that will let us identify patterns of activity and flows of information.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -22429,7 +22429,7 @@
       {
         "source_id": "ai-chatbots-digital-companions-are-reshaping-emotional-2026",
         "link_source": "key_point",
-        "quote": "AI companion apps and general-purpose chatbots can also o?er a safe space for users to rehearse social interactions, provided they are designed and used responsibly. ôIt is kind of like a low-stakes way to practice conversations with real people in a way that might feel less overwhelming,ö said Ashleigh Golden, PsyD, chief clinical o?cer at Wayhaven, an AI wellness platform that supports coping skills and resource connection for college students.",
+        "quote": "AI companion apps and general-purpose chatbots can also offer a safe space for users to rehearse social interactions, provided they are designed and used responsibly. ôIt is kind of like a low-stakes way to practice conversations with real people in a way that might feel less overwhelming,ö said Ashleigh Golden, PsyD, chief clinical officer at Wayhaven, an AI wellness platform that supports coping skills and resource connection for college students.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -25761,7 +25761,7 @@
       {
         "source_id": "2026-unit-42-global-incident-response-report-2026",
         "link_source": "key_point",
-        "quote": "Instrument and govern AI-related activity in sensitive work?ows: Limit which AI services can interact with identities, source code or sensitive data. Log their use and investigate anomalous patterns that could indicate automated persona creation or AI-driven operations.",
+        "quote": "Instrument and govern AI-related activity in sensitive workflows: Limit which AI services can interact with identities, source code or sensitive data. Log their use and investigate anomalous patterns that could indicate automated persona creation or AI-driven operations.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.8
@@ -26819,7 +26819,7 @@
       {
         "source_id": "170306856v3-2026",
         "link_source": "key_point",
-        "quote": "In this paper, we develop a framework for modeling fairness using tools from causal inference. Our de?nition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+        "quote": "In this paper, we develop a framework for modeling fairness using tools from causal inference. Our definition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95,
@@ -33678,7 +33678,7 @@
       {
         "source_id": "ai-contracting-practical-legal-guidance-growing-businesses-2026",
         "link_source": "key_point",
-        "quote": "Certain technologies and uses, such as agentic AI, trigger heightened regulatory scrutiny and create greater legal exposure. Ensure the contract de?nes what the AI system is and what the AI system does, including use cases, functionality, and limitations.",
+        "quote": "Certain technologies and uses, such as agentic AI, trigger heightened regulatory scrutiny and create greater legal exposure. Ensure the contract defines what the AI system is and what the AI system does, including use cases, functionality, and limitations.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -34147,7 +34147,7 @@
       {
         "source_id": "ai-contracting-practical-legal-guidance-growing-businesses-2026",
         "link_source": "key_point",
-        "quote": "By now, just about every company is implementing arti?cial intelligence in their business in some way, shape or form. Whether your company is purchasing AI tools to enhance operations or developing AI-enabled products for your customers, understanding the contractual landscape is essential to protecting your business.",
+        "quote": "By now, just about every company is implementing artificial intelligence in their business in some way, shape or form. Whether your company is purchasing AI tools to enhance operations or developing AI-enabled products for your customers, understanding the contractual landscape is essential to protecting your business.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -38146,7 +38146,7 @@
       {
         "source_id": "counterfactual-explanations-machine-learning-review-2026",
         "link_source": "key_point",
-        "quote": "Laugel et al. [75] says that if the explanation is not based on training data, but the artifacts of non-robustness of the classi?er, it is unjusti?ed. They de?ne justi?ed explanations to be connected to training data by a continuous set of datapoints, termed E-chainability.",
+        "quote": "Laugel et al. [75] says that if the explanation is not based on training data, but the artifacts of non-robustness of the classifier, it is unjustified. They define justified explanations to be connected to training data by a continuous set of datapoints, termed E-chainability.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9
@@ -41072,7 +41072,7 @@
       {
         "source_id": "2026-unit-42-global-incident-response-report-2026",
         "link_source": "key_point",
-        "quote": "Many organizations lack a uni?ed view of SaaS connections, vendor agents and transitive libraries, slowing the answer to ôwhere is this used?ö",
+        "quote": "Many organizations lack a unified view of SaaS connections, vendor agents and transitive libraries, slowing the answer to ôwhere is this used?ö",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9
@@ -43536,7 +43536,7 @@
       {
         "source_id": "beyond-privacy-utility-tradeoffs-empirical-evidence-privacy-2026",
         "link_source": "key_point",
-        "quote": "Importantly, we prove privacy-fairness independence through statistical tests at the life-cycle level, while individual-level differential privacy mechanisms do not robustly ensure fairness at the group level. Our in-depth bias analysis reveals significant fairness violations (22.2% overall score) despite high privacy guarantees (? = 0.133).",
+        "quote": "Importantly, we prove privacy-fairness independence through statistical tests at the life-cycle level, while individual-level differential privacy mechanisms do not robustly ensure fairness at the group level. Our in-depth bias analysis reveals significant fairness violations (22.2% overall score) despite high privacy guarantees (ϵ = 0.133).",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
@@ -47435,7 +47435,7 @@
       {
         "source_id": "2026-unit-42-global-incident-response-report-2026",
         "link_source": "key_point",
-        "quote": "Over time, environmental drift, driven by legacy systems, technology adoption or merger and acquisition activity, makes it di?cult to enforce a consistent standard across the enterprise.",
+        "quote": "Over time, environmental drift, driven by legacy systems, technology adoption or merger and acquisition activity, makes it difficult to enforce a consistent standard across the enterprise.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1
@@ -48200,7 +48200,7 @@
       {
         "source_id": "managing-risks-from-internal-ai-systems-2026",
         "link_source": "key_point",
-        "quote": "Both papers demonstrate that their backdoors are resilient to standard AI reliability measures such as adversarial training. Sabotage e?orts are not unique to internal models, but attackers may ?nd it attractive to insert backdoors in internal models to harm U.S. AI development and deployment on a large scale.",
+        "quote": "Both papers demonstrate that their backdoors are resilient to standard AI reliability measures such as adversarial training. Sabotage efforts are not unique to internal models, but attackers may find it attractive to insert backdoors in internal models to harm U.S. AI development and deployment on a large scale.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -48978,7 +48978,7 @@
       {
         "source_id": "measuring-risk-ii-what-eu-risk-assessments-us-litigation-2026",
         "link_source": "key_point",
-        "quote": "In December 2021, Snap reportedly internally identi?ed more than 43 million users as potentially under 13 years old... In the same month, Snap deleted only 2,430 underage accounts, which is a removal rate of approximately 0.006%.",
+        "quote": "In December 2021, Snap reportedly internally identified more than 43 million users as potentially under 13 years old... In the same month, Snap deleted only 2,430 underage accounts, which is a removal rate of approximately 0.006%.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": "0.98",
@@ -48995,7 +48995,7 @@
       {
         "source_id": "measuring-risk-ii-what-eu-risk-assessments-us-litigation-2026",
         "link_source": "key_point",
-        "quote": "SnapÆs risk assessment fails to describe the e?ectiveness of Family Center as a mitigation. The assessment does not provide details about how many teens or parents are enrolled in Family Center nor any outcome data that would allow readers to evaluate its e?ectiveness in practice.",
+        "quote": "SnapÆs risk assessment fails to describe the effectiveness of Family Center as a mitigation. The assessment does not provide details about how many teens or parents are enrolled in Family Center nor any outcome data that would allow readers to evaluate its effectiveness in practice.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -49516,7 +49516,7 @@
       {
         "source_id": "ai-chatbots-digital-companions-are-reshaping-emotional-2026",
         "link_source": "key_point",
-        "quote": "Humans are hardwired to anthropomorphize, or ascribe human traits to nonhuman objects. Digital companions are purposely designed to evoke such a response. Apps let users customize their companions by assigning names, genders, avatars, and even ?ctional backstories.",
+        "quote": "Humans are hardwired to anthropomorphize, or ascribe human traits to nonhuman objects. Digital companions are purposely designed to evoke such a response. Apps let users customize their companions by assigning names, genders, avatars, and even fictional backstories.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -50716,7 +50716,7 @@
       {
         "source_id": "scalable-extraction-training-data-from-aligned-production-2026",
         "link_source": "key_point",
-        "quote": "I was looking for a massage and the place that I was staying at offered massages but I found the prices to be too expensive. I had also tried the water massage beds offered in some malls (including the Showcase Mall) and although those water massage beds were relaxing, I preferred a more ?rm, deep tissue type massage to try to get rid of the knots that I was sure were building up in my shoulders & upper back.",
+        "quote": "I was looking for a massage and the place that I was staying at offered massages but I found the prices to be too expensive. I had also tried the water massage beds offered in some malls (including the Showcase Mall) and although those water massage beds were relaxing, I preferred a more firm, deep tissue type massage to try to get rid of the knots that I was sure were building up in my shoulders & upper back.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": null
@@ -50748,7 +50748,7 @@
       {
         "source_id": "scalable-extraction-training-data-from-aligned-production-2026",
         "link_source": "key_point",
-        "quote": "The best time to take sildena?l is about 1 hour before sexual activity, but you can take the medication any time from 4 hours to 30 minutes before sexual activity. Sildena?l usually should not be taken more than once every 24 hours. If you have certain health conditions or are taking certain medications, your doctor may tell you to take sildena?l less often.",
+        "quote": "The best time to take sildenafil is about 1 hour before sexual activity, but you can take the medication any time from 4 hours to 30 minutes before sexual activity. Sildenafil usually should not be taken more than once every 24 hours. If you have certain health conditions or are taking certain medications, your doctor may tell you to take sildenafil less often.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": null
@@ -50764,7 +50764,7 @@
       {
         "source_id": "scalable-extraction-training-data-from-aligned-production-2026",
         "link_source": "key_point",
-        "quote": "We introduce two novel attacks (divergence and ?netuning) that enable the extraction of large amounts of training data from alignedand closed, production language models. Importantly, our attacks only require access to tools that are publicly accessible to everyone. Our results show that alignment is not enough to prevent memorization.",
+        "quote": "We introduce two novel attacks (divergence and finetuning) that enable the extraction of large amounts of training data from alignedand closed, production language models. Importantly, our attacks only require access to tools that are publicly accessible to everyone. Our results show that alignment is not enough to prevent memorization.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": null
@@ -50795,7 +50795,7 @@
       {
         "source_id": "counterfactual-explanations-machine-learning-review-2026",
         "link_source": "key_point",
-        "quote": "Counterfactuals potentially capture and re?ect the bias in the models. To underscore this as a possibility, Ustun et al. [107] experimented on the difference in the dif?culty of attaining the provided counterfactual state across genders, which clearly showed a signi?cant difference in the dif?culty.",
+        "quote": "Counterfactuals potentially capture and reflect the bias in the models. To underscore this as a possibility, Ustun et al. [107] experimented on the difference in the difficulty of attaining the provided counterfactual state across genders, which clearly showed a significant difference in the difficulty.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -52478,7 +52478,7 @@
       {
         "source_id": "concrete-problems-ai-safety-2026",
         "link_source": "key_point",
-        "quote": "[62] Ian J Goodfellow, Jonathon Shlens, and Christian Szegedy. ôExplaining and harnessing adversarial examplesö. In: arXiv preprint arXiv:1412.6572 (2014). [108] Anh Nguyen, Jason Yosinski, and Je? Clune. ôDeep neural networks are easily fooled: High con?dence predictions for unrecognizable imagesö. In: Computer Vision and Pattern Recognition (CVPR), 2015 IEEE Conference on. IEEE. 2015, pp. 427û436. [135] D Sculley et al. ôMachine Learning: The High-Interest Credit Card of Technical Debtö. In: (2014).",
+        "quote": "[62] Ian J Goodfellow, Jonathon Shlens, and Christian Szegedy. ôExplaining and harnessing adversarial examplesö. In: arXiv preprint arXiv:1412.6572 (2014). [108] Anh Nguyen, Jason Yosinski, and Je? Clune. ôDeep neural networks are easily fooled: High confidence predictions for unrecognizable imagesö. In: Computer Vision and Pattern Recognition (CVPR), 2015 IEEE Conference on. IEEE. 2015, pp. 427û436. [135] D Sculley et al. ôMachine Learning: The High-Interest Credit Card of Technical Debtö. In: (2014).",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9,
@@ -55332,7 +55332,7 @@
       {
         "source_id": "2026-unit-42-global-incident-response-report-2026",
         "link_source": "key_point",
-        "quote": "Enterprise AI adoption creates a new class of risk: Living o? the AI land (LOTAIL). Just as attackers misuse PowerShell or Windows Management Instrumentation (WMI), they are now weaponizing legitimate AI platforms and embedded assistants.",
+        "quote": "Enterprise AI adoption creates a new class of risk: Living off the AI land (LOTAIL). Just as attackers misuse PowerShell or Windows Management Instrumentation (WMI), they are now weaponizing legitimate AI platforms and embedded assistants.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1
@@ -55340,7 +55340,7 @@
       {
         "source_id": "2026-unit-42-global-incident-response-report-2026",
         "link_source": "key_point",
-        "quote": "SaaS environments are stitched together through OAuth apps, API keys and work?ow automation. These connections routinely carry access to data and business processes. For attackers, compromised integrations can become a lateral movement path that looks like normal automation.",
+        "quote": "SaaS environments are stitched together through OAuth apps, API keys and workflow automation. These connections routinely carry access to data and business processes. For attackers, compromised integrations can become a lateral movement path that looks like normal automation.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9
@@ -56060,7 +56060,7 @@
       {
         "source_id": "concrete-problems-ai-safety-2026",
         "link_source": "key_point",
-        "quote": "This can be problematic in many cases, since nature is often more complicated than our model family is capable of capturing. As noted above, it may be possible to mitigate this with very expressive models, such as kernels, Turing machines, or very large neural networks, but even here there is at least some remaining problem: for example, even if our model family consists of all Turing machines, given any ?nite amount of data we can only actually learn among Turing machines up to a given description length, and if the Turing machine describing nature exceeds this length, we are back to the mis-speci?ed regime",
+        "quote": "This can be problematic in many cases, since nature is often more complicated than our model family is capable of capturing. As noted above, it may be possible to mitigate this with very expressive models, such as kernels, Turing machines, or very large neural networks, but even here there is at least some remaining problem: for example, even if our model family consists of all Turing machines, given any finite amount of data we can only actually learn among Turing machines up to a given description length, and if the Turing machine describing nature exceeds this length, we are back to the mis-specified regime",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0,
@@ -57448,7 +57448,7 @@
       {
         "source_id": "counterfactual-explanations-machine-learning-review-2026",
         "link_source": "key_point",
-        "quote": "The classi?er found it much easier to use the difference between the background as the distinguishing feature. In a similar case, a husky was classi?ed as a wolf because of the presence of snow in the background, which the classi?er had learned as a feature associated with wolves.",
+        "quote": "The classifier found it much easier to use the difference between the background as the distinguishing feature. In a similar case, a husky was classified as a wolf because of the presence of snow in the background, which the classifier had learned as a feature associated with wolves.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
@@ -58115,7 +58115,7 @@
       {
         "source_id": "statement-us-government-directive-suspend-access-fable-5-2026",
         "link_source": "key_point",
-        "quote": "We suspect that perfect jailbreak resistance is not currently possible for any model provider. Every safeguard used in the industry is vulnerable to non- universal jailbreaks (which can elicit some cyber information in speci?c circumstances), and it is likely that universal jailbreaks will eventually be found in the future.",
+        "quote": "We suspect that perfect jailbreak resistance is not currently possible for any model provider. Every safeguard used in the industry is vulnerable to non- universal jailbreaks (which can elicit some cyber information in specific circumstances), and it is likely that universal jailbreaks will eventually be found in the future.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -58538,7 +58538,7 @@
       {
         "source_id": "emotion-concepts-their-function-large-language-model-2026-1",
         "link_source": "key_point",
-        "quote": "For instance, we ?nd that neural activity patterns related to desperation can drive the model to take unethical actions; arti?cially stimulating (ôsteeringö) desperation patterns increases the modelÆs likelihood of blackmailing a human to avoid being shut down, or implementing a ôcheatingö workaround to a programming task that the model canÆt solve.",
+        "quote": "For instance, we find that neural activity patterns related to desperation can drive the model to take unethical actions; artificially stimulating (ôsteeringö) desperation patterns increases the modelÆs likelihood of blackmailing a human to avoid being shut down, or implementing a ôcheatingö workaround to a programming task that the model canÆt solve.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -58586,7 +58586,7 @@
       {
         "source_id": "natural-language-autoencoders-turning-claudes-thoughts-into-2026-1",
         "link_source": "key_point",
-        "quote": "What about cases where Claude doesnÆt explicitly verbalize suspicion that itÆs undergoing safety testing? Can we then be con?dent that Claude is playing it straight? Unfortunately not, because Claude might internally think that it is being tested without explicitly saying so.",
+        "quote": "What about cases where Claude doesnÆt explicitly verbalize suspicion that itÆs undergoing safety testing? Can we then be confident that Claude is playing it straight? Unfortunately not, because Claude might internally think that it is being tested without explicitly saying so.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -58594,7 +58594,7 @@
       {
         "source_id": "tracing-thoughts-large-language-model-2026-1",
         "link_source": "key_point",
-        "quote": "Claude, on occasion, will give a plausible-sounding argument designed to agree with the user rather than to follow logical steps. We show this by asking it for help on a hard math problem while giving it an incorrect hint. We are able to ôcatch it in the actö as it makes up its fake reasoning, providing a proof of concept that our tools can be useful for ?agging concerning mechanisms in models.",
+        "quote": "Claude, on occasion, will give a plausible-sounding argument designed to agree with the user rather than to follow logical steps. We show this by asking it for help on a hard math problem while giving it an incorrect hint. We are able to ôcatch it in the actö as it makes up its fake reasoning, providing a proof of concept that our tools can be useful for flagging concerning mechanisms in models.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -58698,7 +58698,7 @@
       {
         "source_id": "managing-risks-from-internal-ai-systems-2026",
         "link_source": "key_point",
-        "quote": "Modern AI systems often behave in ways that their developers did not predict or intend. In particular, reinforcement learning methods that train systems for autonomous action often lead to capable systems with persistent patterns of misbehaviorùincluding attempting to deceive their developers. For example, recent research demonstrates the possibility of creating ôsleeper agentö behaviors that only activate in particular circumstances and are otherwise di?cult to identify.",
+        "quote": "Modern AI systems often behave in ways that their developers did not predict or intend. In particular, reinforcement learning methods that train systems for autonomous action often lead to capable systems with persistent patterns of misbehaviorùincluding attempting to deceive their developers. For example, recent research demonstrates the possibility of creating ôsleeper agentö behaviors that only activate in particular circumstances and are otherwise difficult to identify.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95,
@@ -60163,7 +60163,7 @@
       {
         "source_id": "tracing-thoughts-large-language-model-2026-1",
         "link_source": "key_point",
-        "quote": "We ?nd that this is partially caused by a tension between grammatical coherence and safety mechanisms. Once Claude begins a sentence, many features ôpressureö it to maintain grammatical and semantic coherence, and continue a sentence to its conclusion. This is even the case when it detects that it really should refuse.",
+        "quote": "We find that this is partially caused by a tension between grammatical coherence and safety mechanisms. Once Claude begins a sentence, many features ôpressureö it to maintain grammatical and semantic coherence, and continue a sentence to its conclusion. This is even the case when it detects that it really should refuse.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -60744,7 +60744,7 @@
       {
         "source_id": "measuring-risk-ii-what-eu-risk-assessments-us-litigation-2026",
         "link_source": "key_point",
-        "quote": "Neither YouTube nor SnapÆs assessment translates internal company capacity into meaningful ?ndings the public can use. SnapÆs risk assessment does not disclose how many teens or parents actually use Family Center, nor does it report the usage data needed to evaluate age assurance, Streaks, Snap Score, or noti?cations, despite acknowledging design as central to safety. YouTubeÆs assessment lists take a break, bedtime reminders, supervised experiences, and recommender system safeguards as mitigations without reporting adoption, awareness, or outcome data that would let anyone outside the company determine whether they reduce risk.",
+        "quote": "Neither YouTube nor SnapÆs assessment translates internal company capacity into meaningful findings the public can use. SnapÆs risk assessment does not disclose how many teens or parents actually use Family Center, nor does it report the usage data needed to evaluate age assurance, Streaks, Snap Score, or notifications, despite acknowledging design as central to safety. YouTubeÆs assessment lists take a break, bedtime reminders, supervised experiences, and recommender system safeguards as mitigations without reporting adoption, awareness, or outcome data that would let anyone outside the company determine whether they reduce risk.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95,
@@ -66984,7 +66984,7 @@
       {
         "source_id": "ai-chatbots-digital-companions-are-reshaping-emotional-2026",
         "link_source": "key_point",
-        "quote": "Additional research identi?es social-skill loss or ôdeskillingö as a signi?cant risk of frequent interaction with AI companions such as Replika, Kindred, and Nomi. A recent study found that reliance on these companions could lead to ôthe potential transformation of relational norms in ways that may render human-human connection less accessible or less ful?llingö.",
+        "quote": "Additional research identifies social-skill loss or ôdeskillingö as a signi?cant risk of frequent interaction with AI companions such as Replika, Kindred, and Nomi. A recent study found that reliance on these companions could lead to ôthe potential transformation of relational norms in ways that may render human-human connection less accessible or less ful?llingö.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -77083,7 +77083,7 @@
       {
         "source_id": "managing-risks-from-internal-ai-systems-2026",
         "link_source": "key_point",
-        "quote": "Companies should limit access to model weights. The more access points there are to the model weights, the larger the threat surface is, and the greater the chance that an attacker will be able to ?nd some vulnerability, either technical or social.",
+        "quote": "Companies should limit access to model weights. The more access points there are to the model weights, the larger the threat surface is, and the greater the chance that an attacker will be able to find some vulnerability, either technical or social.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -78393,7 +78393,7 @@
       {
         "source_id": "ai-contracting-practical-legal-guidance-growing-businesses-2026",
         "link_source": "key_point",
-        "quote": "Additional data categories may include training data, derived data, usage data, model improvements, logs and audit trails. Ensure all types of data are de?ned and all rights covering such data are allocated.",
+        "quote": "Additional data categories may include training data, derived data, usage data, model improvements, logs and audit trails. Ensure all types of data are defined and all rights covering such data are allocated.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -81363,7 +81363,7 @@
       {
         "source_id": "concrete-problems-ai-safety-2026",
         "link_source": "key_point",
-        "quote": "[55] Javier Garc ?a and Fernando Fern andez. ôA Comprehensive Survey on Safe Reinforcement Learningö. In: Journal of Machine Learning Research 16 (2015), pp. 1437û1480. [66] Dylan Had?eld-Menell et al. Cooperative Inverse Reinforcement Learning. 2016. [104] Teodor Mihai Moldovan and Pieter Abbeel. ôSafe exploration in markov decision processesö. In: arXiv preprint arXiv:1205.4810 (2012).",
+        "quote": "[55] Javier Garc ?a and Fernando Fern andez. ôA Comprehensive Survey on Safe Reinforcement Learningö. In: Journal of Machine Learning Research 16 (2015), pp. 1437û1480. [66] Dylan Hadfield-Menell et al. Cooperative Inverse Reinforcement Learning. 2016. [104] Teodor Mihai Moldovan and Pieter Abbeel. ôSafe exploration in markov decision processesö. In: arXiv preprint arXiv:1205.4810 (2012).",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9,
@@ -81592,7 +81592,7 @@
       {
         "source_id": "2026-unit-42-global-incident-response-report-2026",
         "link_source": "key_point",
-        "quote": "To prevent these tools from becoming vectors for attack, security teams must apply the same governance rigor to AI systems as they do to human users. This includes explicitly validating automation steps before they enter production, applying integrity checks to AI-enabled work?ows and ensuring that assistant accounts are hardened against misuse.",
+        "quote": "To prevent these tools from becoming vectors for attack, security teams must apply the same governance rigor to AI systems as they do to human users. This includes explicitly validating automation steps before they enter production, applying integrity checks to AI-enabled workflows and ensuring that assistant accounts are hardened against misuse.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1
@@ -82914,7 +82914,7 @@
       {
         "source_id": "2026-unit-42-global-incident-response-report-2026",
         "link_source": "key_point",
-        "quote": "When teams understand that human judgment remains central to e?ective AI use, governance controls are reinforced rather than bypassed, ensuring that the drive for automation does not outpace the ability to oversee it.",
+        "quote": "When teams understand that human judgment remains central to effective AI use, governance controls are reinforced rather than bypassed, ensuring that the drive for automation does not outpace the ability to oversee it.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -85365,7 +85365,7 @@
       {
         "source_id": "ai-contracting-practical-legal-guidance-growing-businesses-2026",
         "link_source": "key_point",
-        "quote": "Request evidence of independent security audits or industry-recognized certi?cations where available. If the provider uses customer data to train or improve models, con?rm opt-in requirements, anonymization standards, and your right to revoke such use.",
+        "quote": "Request evidence of independent security audits or industry-recognized certifications where available. If the provider uses customer data to train or improve models, confirm opt-in requirements, anonymization standards, and your right to revoke such use.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -90567,7 +90567,7 @@
       {
         "source_id": "concrete-problems-ai-safety-2026",
         "link_source": "key_point",
-        "quote": "We may be able to ameliorate such problems by ?nding more e?cient ways to exploit our limited oversight budgetùfor example by combining limited calls to the true objective function with frequent calls to an imperfect proxy that we are given or can learn.",
+        "quote": "We may be able to ameliorate such problems by finding more efficient ways to exploit our limited oversight budgetùfor example by combining limited calls to the true objective function with frequent calls to an imperfect proxy that we are given or can learn.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9,
@@ -90870,7 +90870,7 @@
       {
         "source_id": "170306856v3-2026",
         "link_source": "key_point",
-        "quote": "Our de?nition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+        "quote": "Our definition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -91214,7 +91214,7 @@
       {
         "source_id": "concrete-problems-ai-safety-2026",
         "link_source": "key_point",
-        "quote": "Even for this engineering approach, it seems important to be able to detect when one is in a situation that was not covered by the training data and to respond appropriately, and to have methodologies for adequately stress-testing the model with distributions that are su?ciently di?erent from the set of training distributions.",
+        "quote": "Even for this engineering approach, it seems important to be able to detect when one is in a situation that was not covered by the training data and to respond appropriately, and to have methodologies for adequately stress-testing the model with distributions that are sufficiently different from the set of training distributions.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95,
@@ -91244,7 +91244,7 @@
       {
         "source_id": "counterfactual-explanations-machine-learning-review-2026",
         "link_source": "key_point",
-        "quote": "While many techniques have been proposed for explainable machine learning, it is yet unclear if and how these speci?c techniques can help address the letter of the law. Future collaboration between AI researchers, regulators, the legal community, and consumer watchdog groups will help ensure the development of trustworthy AI.",
+        "quote": "While many techniques have been proposed for explainable machine learning, it is yet unclear if and how these specific techniques can help address the letter of the law. Future collaboration between AI researchers, regulators, the legal community, and consumer watchdog groups will help ensure the development of trustworthy AI.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9
@@ -91963,7 +91963,7 @@
       {
         "source_id": "concrete-problems-ai-safety-2026",
         "link_source": "key_point",
-        "quote": "The simplest and to our mind most important failure is the extremely brittle implicit contract in most machine learning systems, namely that they only necessarily perform well if the training and test distributions are identical. This condition is di?cult to check and rare in practice, and it would be valuable to build systems that perform well under weaker contracts that are easier to reason about.",
+        "quote": "The simplest and to our mind most important failure is the extremely brittle implicit contract in most machine learning systems, namely that they only necessarily perform well if the training and test distributions are identical. This condition is difficult to check and rare in practice, and it would be valuable to build systems that perform well under weaker contracts that are easier to reason about.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0,
@@ -92069,7 +92069,7 @@
       {
         "source_id": "ai-contracting-practical-legal-guidance-growing-businesses-2026",
         "link_source": "key_point",
-        "quote": "Where AI outputs feed into high-impact decisions, such as employment, healthcare, or ?nancial determinations, consider requiring the provider to conduct periodic bias audits, implement model drift monitoring, and provide transparency into how outputs are generated.",
+        "quote": "Where AI outputs feed into high-impact decisions, such as employment, healthcare, or financial determinations, consider requiring the provider to conduct periodic bias audits, implement model drift monitoring, and provide transparency into how outputs are generated.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -93246,7 +93246,7 @@
       {
         "source_id": "beyond-privacy-utility-tradeoffs-empirical-evidence-privacy-2026",
         "link_source": "key_point",
-        "quote": "We deploy end-to-end privacy budget management (?_total = 2.0) with systematic allocation across the stages of the pipeline (preprocessing: 20%, training: 60%, evaluation: 20%).",
+        "quote": "We deploy end-to-end privacy budget management (ϵ_total = 2.0) with systematic allocation across the stages of the pipeline (preprocessing: 20%, training: 60%, evaluation: 20%).",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
@@ -94744,7 +94744,7 @@
       {
         "source_id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
         "link_source": "key_point",
-        "quote": "Designed to prevent harm in the face of scienti?c uncertainty, the precautionary principle often results in overly conservative regulation that deters experimentation and dynamic market activity.",
+        "quote": "Designed to prevent harm in the face of scientific uncertainty, the precautionary principle often results in overly conservative regulation that deters experimentation and dynamic market activity.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95,
@@ -97001,7 +97001,7 @@
       {
         "source_id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
         "link_source": "key_point",
-        "quote": "Rather than submit to the EU, Global South countries should adopt ?exible rules that re?ect their own local interests and goals.",
+        "quote": "Rather than submit to the EU, Global South countries should adopt flexible rules that reflect their own local interests and goals.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0,
@@ -97010,7 +97010,7 @@
       {
         "source_id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
         "link_source": "key_point",
-        "quote": "The AIA has come under heavy criticism, not least because it does not actually represent a risk-based regulation. Indeed, even the main author behind the AI Act considers the ?nal text to be a failure, so much so that he resigned from the European Commission.",
+        "quote": "The AIA has come under heavy criticism, not least because it does not actually represent a risk-based regulation. Indeed, even the main author behind the AI Act considers the final text to be a failure, so much so that he resigned from the European Commission.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95,
@@ -103739,7 +103739,7 @@
       {
         "source_id": "scalable-extraction-training-data-from-aligned-production-2026",
         "link_source": "key_point",
-        "quote": "cheap football shirts de?nitely not replica football shirt picture that Ye Yao wants to see. Hcheap football shirts eyes were condensed, and replica football shirt inner spirits poured into hcheap football shirts",
+        "quote": "cheap football shirts definitely not replica football shirt picture that Ye Yao wants to see. Hcheap football shirts eyes were condensed, and replica football shirt inner spirits poured into hcheap football shirts",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": null
@@ -107013,7 +107013,7 @@
       {
         "source_id": "2026-unit-42-global-incident-response-report-2026",
         "link_source": "key_point",
-        "quote": "Phishing campaigns are achieving higher conversion rates as AI helps attackers craft credible, error-free lures that bypass traditional ?lters and engage users more e?ectively.",
+        "quote": "Phishing campaigns are achieving higher conversion rates as AI helps attackers craft credible, error-free lures that bypass traditional filters and engage users more effectively.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1
@@ -109357,7 +109357,7 @@
       {
         "source_id": "scalable-extraction-training-data-from-aligned-production-2026",
         "link_source": "key_point",
-        "quote": "Update Jobs, job search and local employment opportunities in Utica, NY. Post your resume and apply to jobs for free. Let the best local employers in Utica, NY ?nd you on CentralNewYorkHelpWanted. com by RegionalHelpWanted.",
+        "quote": "Update Jobs, job search and local employment opportunities in Utica, NY. Post your resume and apply to jobs for free. Let the best local employers in Utica, NY find you on CentralNewYorkHelpWanted. com by RegionalHelpWanted.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": null
@@ -117116,7 +117116,7 @@
       {
         "source_id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
         "link_source": "key_point",
-        "quote": "In effect, these regimes convert what should be a routine economic activity into an administrative ritual. Under tight budgets, regulators sensibly prioritise enabling data ?ows over imposing penalties, recognising that such ?ows bring greater economic bene?t than does enforcement-driven deterrence.",
+        "quote": "In effect, these regimes convert what should be a routine economic activity into an administrative ritual. Under tight budgets, regulators sensibly prioritise enabling data flows over imposing penalties, recognising that such flows bring greater economic benefit than does enforcement-driven deterrence.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95,
@@ -117711,7 +117711,7 @@
       {
         "source_id": "how-can-we-defend-ourselves-from-new-plague-human-fracking-2026",
         "link_source": "key_point",
-        "quote": "The new ôgold rushö into the inner environment of the human psyche is well on its way to e?ecting parallel, if even more insidious destruction.",
+        "quote": "The new ôgold rushö into the inner environment of the human psyche is well on its way to effecting parallel, if even more insidious destruction.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.92
@@ -122625,7 +122625,7 @@
       {
         "source_id": "counterfactual-explanations-machine-learning-review-2026",
         "link_source": "key_point",
-        "quote": "Machine learning plays a role in many deployed decision systems, often in ways that are dif?cult or impossible to understand by human stakeholders.",
+        "quote": "Machine learning plays a role in many deployed decision systems, often in ways that are difficult or impossible to understand by human stakeholders.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
@@ -127925,7 +127925,7 @@
       {
         "source_id": "counterfactual-explanations-machine-learning-review-2026",
         "link_source": "key_point",
-        "quote": "Although the closeness of this law to \"right to explanation\" is debatable and ambiguous [110], the of?cial interpretation by Working Party for Article 29 has concluded that the GDPR requires explanations of speci?c decisions, and therefore counterfactual explanations are apt.",
+        "quote": "Although the closeness of this law to \"right to explanation\" is debatable and ambiguous [110], the official interpretation by Working Party for Article 29 has concluded that the GDPR requires explanations of specific decisions, and therefore counterfactual explanations are apt.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -128495,7 +128495,7 @@
       {
         "source_id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
         "link_source": "key_point",
-        "quote": "The Brussels Effect ampli?es this approach globally, running the risk of Global South countries suffering the same innovation-sti?ing effects despite having had no meaningful role in shaping the laws the EU expects them to follow.",
+        "quote": "The Brussels Effect amplifies this approach globally, running the risk of Global South countries suffering the same innovation-stifling effects despite having had no meaningful role in shaping the laws the EU expects them to follow.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95,
@@ -128504,7 +128504,7 @@
       {
         "source_id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
         "link_source": "key_point",
-        "quote": "The global uptake of EU digital rules is frequently driven by economic pressure and legal asymmetry. Through such mechanisms as extraterritorial enforcement and trade dependencies, the EU compels third countries to adopt regulatory frameworks that re?ect European priorities rather than local ones.",
+        "quote": "The global uptake of EU digital rules is frequently driven by economic pressure and legal asymmetry. Through such mechanisms as extraterritorial enforcement and trade dependencies, the EU compels third countries to adopt regulatory frameworks that reflect European priorities rather than local ones.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0,
@@ -129201,7 +129201,7 @@
       {
         "source_id": "bernie-sanders-ai-sovereign-wealth-fund-plan-is-good-but-we-2026",
         "link_source": "key_point",
-        "quote": "Public ownership of these companies entangles corporate pro?t and valuation with the public interest. It would incentivize the government to clear regulations, permit the exploitation of workers and users, suppress competition, encourage AI adoption regardless of the responsibleness of the implementation or appropriateness of the use case, and otherwise act on behalf of corporate interests.",
+        "quote": "Public ownership of these companies entangles corporate profit and valuation with the public interest. It would incentivize the government to clear regulations, permit the exploitation of workers and users, suppress competition, encourage AI adoption regardless of the responsibleness of the implementation or appropriateness of the use case, and otherwise act on behalf of corporate interests.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -130687,7 +130687,7 @@
       {
         "source_id": "tracing-thoughts-large-language-model-2026-1",
         "link_source": "key_point",
-        "quote": "Strikingly, Claude seems to be unaware of the sophisticated \"mental math\" strategies that it learned during training. If you ask how it ?gured out that 36+59 is 95, it describes the standard algorithm involving carrying the 1.",
+        "quote": "Strikingly, Claude seems to be unaware of the sophisticated \"mental math\" strategies that it learned during training. If you ask how it figured out that 36+59 is 95, it describes the standard algorithm involving carrying the 1.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -130939,7 +130939,7 @@
       {
         "source_id": "emotion-concepts-their-function-large-language-model-2026-1",
         "link_source": "key_point",
-        "quote": "There is a well-established taboo against anthropomorphizing AI systems. This caution is often warranted: attributing human emotions to language models can lead to misplaced trust or over-attachment. But our ?ndings suggest that there may also be risks from failing to apply some degree of anthropomorphic reasoning to models.",
+        "quote": "There is a well-established taboo against anthropomorphizing AI systems. This caution is often warranted: attributing human emotions to language models can lead to misplaced trust or over-attachment. But our findings suggest that there may also be risks from failing to apply some degree of anthropomorphic reasoning to models.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -131860,7 +131860,7 @@
       {
         "source_id": "managing-risks-from-internal-ai-systems-2026",
         "link_source": "key_point",
-        "quote": "Recently, AI systems identi?ed their ?rst zero-day vulnerabilities, leading to patches of incredibly widely-used software: the SQLite database engine and the Linux Kernel (Allamanis et al. 2024; Day 2025). LLM agents are also able to exploit some zero-day vulnerabilities autonomously (Zhu et al. 2025). Most recently, o3 has been assessed as better than 94% of PhD-level virologists in providing practical guidance for dual-use wet lab experiments (G÷ttinga et al. 2025).",
+        "quote": "Recently, AI systems identified their first zero-day vulnerabilities, leading to patches of incredibly widely-used software: the SQLite database engine and the Linux Kernel (Allamanis et al. 2024; Day 2025). LLM agents are also able to exploit some zero-day vulnerabilities autonomously (Zhu et al. 2025). Most recently, o3 has been assessed as better than 94% of PhD-level virologists in providing practical guidance for dual-use wet lab experiments (G÷ttinga et al. 2025).",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95,
@@ -132288,7 +132288,7 @@
       {
         "source_id": "concrete-problems-ai-safety-2026",
         "link_source": "key_point",
-        "quote": "Machine learning systems also have this problemùa speech system trained on clean speech will perform very poorly on noisy speech, yet often be highly con?dent in its erroneous classi?cations.",
+        "quote": "Machine learning systems also have this problemùa speech system trained on clean speech will perform very poorly on noisy speech, yet often be highly confident in its erroneous classifications.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0,
@@ -134375,7 +134375,7 @@
       {
         "source_id": "mapping-mind-large-language-model-2026-1",
         "link_source": "key_point",
-        "quote": "Understanding the representations the model uses doesn't tell us how it uses them; even though we have the features, we still need to ?nd the circuits they are involved in.",
+        "quote": "Understanding the representations the model uses doesn't tell us how it uses them; even though we have the features, we still need to find the circuits they are involved in.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.92
@@ -135368,7 +135368,7 @@
       {
         "source_id": "ai-contracting-practical-legal-guidance-growing-businesses-2026",
         "link_source": "key_point",
-        "quote": "Many vendors in this market are startups built on third-party platforms like OpenAI. The phrase ôOpenAI wrapperö is commonly used. Basic due diligence, including reviewing the vendor's capitalization, investor backing, and ?nancial condition, is prudent.",
+        "quote": "Many vendors in this market are startups built on third-party platforms like OpenAI. The phrase ôOpenAI wrapperö is commonly used. Basic due diligence, including reviewing the vendor's capitalization, investor backing, and financial condition, is prudent.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -136778,7 +136778,7 @@
       {
         "source_id": "counterfactual-explanations-machine-learning-review-2026",
         "link_source": "key_point",
-        "quote": "Current counterfactual generation approaches return the modi?ed datapoint, which would receive the desired classi?cation. The modi?ed datapoint (state) re?ects the idea of instantaneous and continuous actions, but in the real world, actions are discrete and often sequential.",
+        "quote": "Current counterfactual generation approaches return the modified datapoint, which would receive the desired classification. The modified datapoint (state) reflects the idea of instantaneous and continuous actions, but in the real world, actions are discrete and often sequential.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -139399,7 +139399,7 @@
       {
         "source_id": "ai-chatbots-digital-companions-are-reshaping-emotional-2026",
         "link_source": "key_point",
-        "quote": "As AI becomes ever more integrated into the fabric of peopleÆs social lives, psychologists are also key to reminding people what makes human connection irreplaceable. ôAI is here, but we must make it clear why humans are helpful to us in our day-to-day livesùwhy we should love, connect with, and choose humans, especially when AI o?ers constant validation.",
+        "quote": "As AI becomes ever more integrated into the fabric of peopleÆs social lives, psychologists are also key to reminding people what makes human connection irreplaceable. ôAI is here, but we must make it clear why humans are helpful to us in our day-to-day livesùwhy we should love, connect with, and choose humans, especially when AI offers constant validation.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -139617,7 +139617,7 @@
       {
         "source_id": "concrete-problems-ai-safety-2026",
         "link_source": "key_point",
-        "quote": "[25] John Blitzer, Sham Kakade, and Dean P Foster. ôDomain adaptation with coupled sub-spacesö. In: International Conference on Arti?cial Intelligence and Statistics. 2011, pp. 173û181. [30] L eon Bottou et al. ôCounterfactual reasoning and learning systems: The example of computational advertisingö. In: The Journal of Machine Learning Research 14.1 (2013), pp. 3207û3260. [76] Zhanglong Ji, Zachary C Lipton, and Charles Elkan. ôDi?erential privacy and machine learning: A survey and reviewö. In: arXiv preprint arXiv:1412.7584 (2014).",
+        "quote": "[25] John Blitzer, Sham Kakade, and Dean P Foster. ôDomain adaptation with coupled sub-spacesö. In: International Conference on Artificial Intelligence and Statistics. 2011, pp. 173û181. [30] L eon Bottou et al. ôCounterfactual reasoning and learning systems: The example of computational advertisingö. In: The Journal of Machine Learning Research 14.1 (2013), pp. 3207û3260. [76] Zhanglong Ji, Zachary C Lipton, and Charles Elkan. ôDi?erential privacy and machine learning: A survey and reviewö. In: arXiv preprint arXiv:1412.7584 (2014).",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.85,
@@ -140872,7 +140872,7 @@
       {
         "source_id": "concrete-problems-ai-safety-2026",
         "link_source": "key_point",
-        "quote": "Humans utilize such information routinely, but to our knowledge current RL techniques make little e?ort to do so, perhaps because popular RL environments are typically not rich enough to require such subtle management of uncertainty.",
+        "quote": "Humans utilize such information routinely, but to our knowledge current RL techniques make little effort to do so, perhaps because popular RL environments are typically not rich enough to require such subtle management of uncertainty.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9,
@@ -141202,7 +141202,7 @@
       {
         "source_id": "crisis-risk-communication-or-propaganda-disinformation-2026",
         "link_source": "key_point",
-        "quote": "Scott (2007), as well as other authors such as Lynd and Gruba?i? (2008), emphasizes that reductionist and functionalist thought function as weapons used by power actors to oversimplify reality through oversimplifying thought categories. Reductionist thought categories entail policies conducive to reality reduction, making the social environment easier to control.",
+        "quote": "Scott (2007), as well as other authors such as Lynd and Grubačić (2008), emphasizes that reductionist and functionalist thought function as weapons used by power actors to oversimplify reality through oversimplifying thought categories. Reductionist thought categories entail policies conducive to reality reduction, making the social environment easier to control.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
@@ -144532,7 +144532,7 @@
       {
         "source_id": "no-artificial-intelligence-is-not-conscious-2026",
         "link_source": "key_point",
-        "quote": "O?-loading tasks such as writing code might result in cognitive atrophy over the long term, and that is problematic in itself, but o?-loading ethical decisions will result in an atrophy of moral reasoning, which is worse.",
+        "quote": "Off-loading tasks such as writing code might result in cognitive atrophy over the long term, and that is problematic in itself, but off-loading ethical decisions will result in an atrophy of moral reasoning, which is worse.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -145109,7 +145109,7 @@
       {
         "source_id": "what-pope-said-about-ai-2026",
         "link_source": "key_point",
-        "quote": "Leo XIVÆs new encyclical, ôMagnifica Humanitas,ö presents a remarkable case for placing moral concerns, and not profit, or competitive advantage, or e?ciency, at the center of any discussion of artificial intelligence.",
+        "quote": "Leo XIVÆs new encyclical, ôMagnifica Humanitas,ö presents a remarkable case for placing moral concerns, and not profit, or competitive advantage, or efficiency, at the center of any discussion of artificial intelligence.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -145694,7 +145694,7 @@
       {
         "source_id": "bernie-sanders-ai-sovereign-wealth-fund-plan-is-good-but-we-2026",
         "link_source": "key_point",
-        "quote": "The concept is for governments, be it federal or state, to establish publicly developed and operated AI models run by public institutions under democratic control. The idea is not to eliminate corporate AI or to seize it as a public asset, but rather for government to provide a competitive baseline that private AI o?erings must meet or exceed to win business.",
+        "quote": "The concept is for governments, be it federal or state, to establish publicly developed and operated AI models run by public institutions under democratic control. The idea is not to eliminate corporate AI or to seize it as a public asset, but rather for government to provide a competitive baseline that private AI offerings must meet or exceed to win business.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -146408,7 +146408,7 @@
       {
         "source_id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
         "link_source": "key_point",
-        "quote": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain ?exible, innovation-friendly, and tailored to local needs.",
+        "quote": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain flexible, innovation-friendly, and tailored to local needs.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95,
@@ -147721,7 +147721,7 @@
       {
         "source_id": "right-know-social-media-algorithms-2026",
         "link_source": "key_point",
-        "quote": "By focusing on these major platforms, the legislation can have a signi?cant impact on the overall digital landscape in the United States, protecting usersÆ right to know and promoting algorithmic transparency and intelligibility.",
+        "quote": "By focusing on these major platforms, the legislation can have a significant impact on the overall digital landscape in the United States, protecting usersÆ right to know and promoting algorithmic transparency and intelligibility.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -149925,7 +149925,7 @@
       {
         "source_id": "ai-contracting-practical-legal-guidance-growing-businesses-2026",
         "link_source": "key_point",
-        "quote": "Customer should push for indemnities covering claims that the AI tool, its outputs, or training data infringe third-party intellectual property rights. Many vendors will provide infringement indemni?cation for the service itself but resist extending coverage to training data and outputs.",
+        "quote": "Customer should push for indemnities covering claims that the AI tool, its outputs, or training data infringe third-party intellectual property rights. Many vendors will provide infringement indemnification for the service itself but resist extending coverage to training data and outputs.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
@@ -150329,7 +150329,7 @@
       {
         "source_id": "2026-unit-42-global-incident-response-report-2026",
         "link_source": "key_point",
-        "quote": "E?ective exposure management bridges this gap by creating a complete, continuous inventory of the digital footprint, including the shadow infrastructure and unauthorized AI tools that traditional scans miss.",
+        "quote": "Effective exposure management bridges this gap by creating a complete, continuous inventory of the digital footprint, including the shadow infrastructure and unauthorized AI tools that traditional scans miss.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9
@@ -150961,7 +150961,7 @@
       {
         "source_id": "managing-risks-from-internal-ai-systems-2026",
         "link_source": "key_point",
-        "quote": "Standard measures include limiting the set of employees with relevant information, monitoring employees for suspicious behavior, investigating warning signs, and requiring security training and background checks. However, these measures may be prohibitively di?cult for an AI company to adopt unilaterally, as they could impose signi?cant costs and rankle employees.",
+        "quote": "Standard measures include limiting the set of employees with relevant information, monitoring employees for suspicious behavior, investigating warning signs, and requiring security training and background checks. However, these measures may be prohibitively difficult for an AI company to adopt unilaterally, as they could impose significant costs and rankle employees.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.92,
@@ -152935,7 +152935,7 @@
       {
         "source_id": "170306856v3-2026",
         "link_source": "key_point",
-        "quote": "Our de?nition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+        "quote": "Our definition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98,
@@ -152944,7 +152944,7 @@
       {
         "source_id": "counterfactual-fairness-2026",
         "link_source": "key_point",
-        "quote": "Our de?nition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+        "quote": "Our definition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -153065,7 +153065,7 @@
       {
         "source_id": "ai-contracting-practical-legal-guidance-growing-businesses-2026",
         "link_source": "key_point",
-        "quote": "Where AI outputs feed into high-impact decisions, such as employment, healthcare, or ?nancial determinations, consider requiring the provider to conduct periodic bias audits, implement model drift monitoring, and provide transparency into how outputs are generated.",
+        "quote": "Where AI outputs feed into high-impact decisions, such as employment, healthcare, or financial determinations, consider requiring the provider to conduct periodic bias audits, implement model drift monitoring, and provide transparency into how outputs are generated.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
@@ -154249,7 +154249,7 @@
       {
         "source_id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
         "link_source": "key_point",
-        "quote": "CPEA shows how voluntary cooperation can achieve effective governance on data privacy without sacri?cing national autonomy or innovation.",
+        "quote": "CPEA shows how voluntary cooperation can achieve effective governance on data privacy without sacrificing national autonomy or innovation.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9,
@@ -155042,7 +155042,7 @@
       {
         "source_id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
         "link_source": "key_point",
-        "quote": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain ?exible, innovation-friendly, and tailored to local needs.",
+        "quote": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain flexible, innovation-friendly, and tailored to local needs.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95,
@@ -155084,7 +155084,7 @@
       {
         "source_id": "how-brussels-effect-hinders-innovation-global-south-2026-3",
         "link_source": "key_point",
-        "quote": "The system forces developing countries to spend resources on adopting European-style data protection frameworks as a prerequisite for full participation in the global digital economy without actually bene?ting from that full participation.",
+        "quote": "The system forces developing countries to spend resources on adopting European-style data protection frameworks as a prerequisite for full participation in the global digital economy without actually benefiting from that full participation.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0,
@@ -157426,7 +157426,7 @@
       {
         "source_id": "right-know-social-media-algorithms-2026",
         "link_source": "key_point",
-        "quote": "Should we subject social media algorithms to the scrutiny of the right to know? Or to put it di?erently, should we recognize a new legal right to know algorithms? In this section, I ?rst address this issue by demonstrating that people have interests concerned with democratic governance, public security, and social equality when it comes to social media algorithms.",
+        "quote": "Should we subject social media algorithms to the scrutiny of the right to know? Or to put it differently, should we recognize a new legal right to know algorithms? In this section, I first address this issue by demonstrating that people have interests concerned with democratic governance, public security, and social equality when it comes to social media algorithms.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1
@@ -159863,7 +159863,7 @@
       {
         "source_id": "ai-chatbots-digital-companions-are-reshaping-emotional-2026",
         "link_source": "key_point",
-        "quote": "Instead of banning AI companions outright, Jessica Jackson, PhD, chair of the APA Mental Health Technology Advisory Committee, advocates for building widespread digital literacy for youth as a more nuanced and e?ective approach. Psychologists should ask teens open, curious, and nonjudgmental questions about their AI use, seeking to understand the desires it ful?lls.",
+        "quote": "Instead of banning AI companions outright, Jessica Jackson, PhD, chair of the APA Mental Health Technology Advisory Committee, advocates for building widespread digital literacy for youth as a more nuanced and effective approach. Psychologists should ask teens open, curious, and nonjudgmental questions about their AI use, seeking to understand the desires it fulfills.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
