@@ -1,0 +1,38 @@
+{
+  "ticket": "t/629",
+  "go": "t/629#14",
+  "sha256": "bebf6895232f99437fbc8ae578c7b9348800fb346356e69412efb2472fceaf32",
+  "targets": [
+    {
+      "file": "data-mutations/t629/apply-evidence.md"
+    }
+  ],
+  "removals": [
+    {
+      "file": "flight-recorder/flight-recorder-2026-06-16T13-12-58.698Z.jsonl"
+    },
+    {
+      "file": "flight-recorder/flight-recorder-2026-06-16T13-14-07.554Z.jsonl"
+    },
+    {
+      "file": "flight-recorder/flight-recorder-2026-06-16T13-17-14.609Z.jsonl"
+    },
+    {
+      "file": "flight-recorder/flight-recorder-2026-06-16T13-18-43.630Z.jsonl"
+    },
+    {
+      "file": "flight-recorder/flight-recorder-2026-06-16T13-21-32.872Z.jsonl"
+    },
+    {
+      "file": "flight-recorder/server-flight-recorder-2026-06-16T10-45-02.497Z.jsonl"
+    },
+    {
+      "file": "flight-recorder/server-flight-recorder-2026-06-16T10-48-11.302Z.jsonl"
+    },
+    {
+      "file": "flight-recorder/server-flight-recorder-2026-06-16T13-17-16.425Z.jsonl"
+    }
+  ],
+  "reason": "remaining 2026-06-16 flight-recorder dumps (t/629, t/650); PI go p/102#316",
+  "base": "e147874d"
+}
