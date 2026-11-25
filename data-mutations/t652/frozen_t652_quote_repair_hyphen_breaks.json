@@ -1,0 +1,196 @@
+{
+ "ticket": "t/652",
+ "go": "t/652#26",
+ "sha256": "9a1819e65d915a06bf797acfc0969fa82e5b45ae58d0ca771526a1fbf22c378c",
+ "targets": [
+  {
+   "file": "summaries/beyond-privacy-utility-tradeoffs-empirical-evidence-privacy-2026.json"
+  },
+  {
+   "file": "summaries/concrete-problems-ai-safety-2026-1.json"
+  },
+  {
+   "file": "summaries/right-know-social-media-algorithms-2026.json"
+  }
+ ],
+ "class": "model-copied damage restored, t/652",
+ "gate": "the guard (#5419 at 37728938d) keeps the repaired text as one passage at coverage 1.0, stores exactly the repaired text, and the only difference from the source passage is a word broken over a line end",
+ "data_commit": "5f7a27d55e3cab0240912e161afb919c097b7b6b",
+ "sources_commit": "3d0d819fa30d12013183506d6d13e12776139356",
+ "hash_basis": "sha256-lf",
+ "applies_after": "data-mutations/t652/frozen_t652_quote_repair.json (a file both freezes touch has, as this freeze's pre_sha256, the first freeze's post_sha256)",
+ "counts": {
+  "files": 3,
+  "quotes_restored": 5,
+  "quotes_left_out": 1
+ },
+ "files": {
+  "summaries/beyond-privacy-utility-tradeoffs-empirical-evidence-privacy-2026.json": {
+   "pre_sha256": "31d20412441469bfbe2c8992164e9b4a38d1798b15fbcad7f82401c6237efa75",
+   "post_sha256": "fbb457a0521e4e2a133a2533923b3387b5d8eeeaf8a8a034e3cd857014a4f7c8",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      3,
+      "verbatim"
+     ],
+     "old": "Through systematic comparison of nine algorithms for UPAD with differential privacy (? ? [0.1, 5.0]), competitive AI performance (95.1% accuracy retention and 63.5% mean accuracy) is achieved under strict privacy constraints. Our study demonstrates a decoupling of privacy and performance, with PP-PCA leading to an unexpected improvement in variance retention (76.0% vs.72.7%), attributed to implicit regularization effects.",
+     "new": "Through systematic comparison of nine algorithms for UPAD with differential privacy (ϵ ∈ [0.1, 5.0]), competitive AI performance (95.1% accuracy retention and 63.5% mean accuracy) is achieved under strict privacy constraints. Our study demonstrates a decoupling of privacy and performance, with PP-PCA leading to an unexpected improvement in variance retention (76.0% vs.72.7%), attributed to implicit regularization effects.",
+     "marks_replaced": 2,
+     "classes": {
+      "greek": 1,
+      "symbol": 1
+     },
+     "gate": {
+      "decision": "snapped",
+      "segments": 1,
+      "coverage": 1.0,
+      "one_passage": true,
+      "stored_text_equals_repaired_text": true,
+      "only_difference_is_a_line_end_hyphen": true,
+      "line_end_hyphens_in_the_source_passage": 3
+     },
+     "source_passage": "Through systematic comparison of nine algo-\nrithms for UPAD with differential privacy (ϵ ∈ [0.1,\n5.0]), competitive AI performance (95.1% accuracy\nretention and 63.5% mean accuracy) is achieved under\nstrict privacy constraints. Our study demonstrates a\ndecoupling of privacy and performance, with PP-\nPCA leading to an unexpected improvement in vari-\nance retention (76.0% vs.72.7%), attributed to implicit\nregularization effects"
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "We deploy end-to-end privacy budget management (?_total = 2.0) with systematic allocation across the stages of the pipeline (preprocessing: 20%, training: 60%, evaluation: 20%).",
+     "new": "We deploy end-to-end privacy budget management (ϵ_total = 2.0) with systematic allocation across the stages of the pipeline (preprocessing: 20%, training: 60%, evaluation: 20%).",
+     "marks_replaced": 1,
+     "classes": {
+      "greek": 1
+     },
+     "gate": {
+      "decision": "snapped",
+      "segments": 1,
+      "coverage": 1.0,
+      "one_passage": true,
+      "stored_text_equals_repaired_text": true,
+      "only_difference_is_a_line_end_hyphen": true,
+      "line_end_hyphens_in_the_source_passage": 1
+     },
+     "source_passage": "We deploy end-to-end privacy budget manage-\nment (ϵ_total = 2.0) with systematic allocation\nacross the stages of the pipeline (preprocessing:\n20%, training: 60%, evaluation: 20"
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      7,
+      "verbatim"
+     ],
+     "old": "Importantly, we prove privacy-fairness independence through statistical tests at the life-cycle level, while individual-level differential privacy mechanisms do not robustly ensure fairness at the group level. Our in-depth bias analysis reveals significant fairness violations (22.2% overall score) despite high privacy guarantees (? = 0.133).",
+     "new": "Importantly, we prove privacy-fairness independence through statistical tests at the life-cycle level, while individual-level differential privacy mechanisms do not robustly ensure fairness at the group level. Our in-depth bias analysis reveals significant fairness violations (22.2% overall score) despite high privacy guarantees (ϵ = 0.133).",
+     "marks_replaced": 1,
+     "classes": {
+      "greek": 1
+     },
+     "gate": {
+      "decision": "snapped",
+      "segments": 1,
+      "coverage": 1.0,
+      "one_passage": true,
+      "stored_text_equals_repaired_text": true,
+      "only_difference_is_a_line_end_hyphen": true,
+      "line_end_hyphens_in_the_source_passage": 3
+     },
+     "source_passage": "Importantly, we prove privacy-\nfairness independence through statistical tests at the\nlife-cycle level, while individual-level differential pri-\nvacy mechanisms do not robustly ensure fairness at the\ngroup level. Our in-depth bias analysis reveals signif-\nicant fairness violations (22.2% overall score) despite\nhigh privacy guarantees (ϵ = 0.133"
+    }
+   ]
+  },
+  "summaries/concrete-problems-ai-safety-2026-1.json": {
+   "pre_sha256": "19bb377002024ecbd9eab36b932c56dac3c805add6fc0dc5615866286cd45ece",
+   "post_sha256": "c41ba8f9250956def0760e69bcb1f35a2d3e8ed03372fbbeb0303662a413332b",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      12,
+      "verbatim",
+      1
+     ],
+     "old": "[108] Anh Nguyen, Jason Yosinski, and Je? Clune. ôDeep neural networks are easily fooled: High con?dence predictions for unrecognizable imagesö. In: Computer Vision and Pattern Recognition (CVPR), 2015 IEEE Conference on. IEEE. 2015, pp. 427û436.",
+     "new": "[108] Anh Nguyen, Jason Yosinski, and Je? Clune. ôDeep neural networks are easily fooled: High confidence predictions for unrecognizable imagesö. In: Computer Vision and Pattern Recognition (CVPR), 2015 IEEE Conference on. IEEE. 2015, pp. 427û436.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     },
+     "gate": {
+      "decision": "snapped",
+      "segments": 1,
+      "coverage": 1.0,
+      "one_passage": true,
+      "stored_text_equals_repaired_text": true,
+      "only_difference_is_a_line_end_hyphen": true,
+      "line_end_hyphens_in_the_source_passage": 1
+     },
+     "source_passage": "108] Anh Nguyen, Jason Yosinski, and Je? Clune. ôDeep neural networks are easily fooled: High\nconfidence predictions for unrecognizable imagesö. In: Computer Vision and Pattern Recog-\nnition (CVPR), 2015 IEEE Conference on. IEEE. 2015, pp. 427û436"
+    }
+   ]
+  },
+  "summaries/right-know-social-media-algorithms-2026.json": {
+   "pre_sha256": "08bd811d4d5a87b2dfd772afd9182d3d5645eea33997082893604538658d857d",
+   "post_sha256": "326e85b9dd04fdc902d1c25a8b1e2764186595ad3d9692546f24d46aa62dbf39",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      14,
+      "verbatim"
+     ],
+     "old": "By focusing on these major platforms, the legislation can have a signi?cant impact on the overall digital landscape in the United States, protecting usersÆ right to know and promoting algorithmic transparency and intelligibility.",
+     "new": "By focusing on these major platforms, the legislation can have a significant impact on the overall digital landscape in the United States, protecting usersÆ right to know and promoting algorithmic transparency and intelligibility.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     },
+     "gate": {
+      "decision": "snapped",
+      "segments": 1,
+      "coverage": 1.0,
+      "one_passage": true,
+      "stored_text_equals_repaired_text": true,
+      "only_difference_is_a_line_end_hyphen": true,
+      "line_end_hyphens_in_the_source_passage": 2
+     },
+     "source_passage": "By focusing on these major platforms, the legislation can have a signifi-\ncant impact on the overall digital landscape in the United States, protecting\nusersÆ right to know and promoting algorithmic transparency and intelligibil-\nity"
+    }
+   ]
+  }
+ },
+ "quotes_left_out": [
+  {
+   "file": "summaries/measuring-risk-ii-what-eu-risk-assessments-us-litigation-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    7,
+    "verbatim"
+   ],
+   "text": "Plainti?s in US litigation suggest that SnapÆs ephemerality was designed to create a ô24/7 urgency to be online.ö ... YouTubeÆs own engineers and researchers described the recommender system as capable of driving an ôaddiction cycle.ö",
+   "gate": {
+    "decision": "dropped",
+    "segments": 2,
+    "coverage": 0.5132275132275133,
+    "one_passage": false,
+    "stored_text_equals_repaired_text": false,
+    "only_difference_is_a_line_end_hyphen": false,
+    "line_end_hyphens_in_the_source_passage": 0
+   }
+  }
+ ]
+}
