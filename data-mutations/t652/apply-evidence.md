@@ -15,7 +15,7 @@
 
 Two files are in both freezes; 31 files change in all. The second freeze's pre hash for a shared file is the first freeze's post hash, so applying them out of order is refused.
 
-**How each new text was made:** the quote is found in the old snapshot by its letters, digits and marks in order; each `?` then stands on one byte of that snapshot, and becomes the text t/652's frozen character map (ai-triad-sources `data-mutations/t652/frozen_t652_lost_characters.json`) has for that byte. No other map is used and nothing else in the quote changes. 157 marks restored: ligatures as letters, and a few Greek letters and symbols.
+**How each new text was made:** the quote is found in the old snapshot by its letters, digits and marks in order; each `?` then stands on one byte of that snapshot, and becomes the text t/652's frozen character map (ai-triad-sources `data-mutations/t652/frozen_t652_lost_characters.json`) has for that byte. No other map is used and nothing else in the quote changes. 158 marks restored: 152 ligatures (as letters), 3 Greek letters, 1 symbol and 2 of the map's 'other' class.
 
 **Left as they are, listed in the freezes with the reason:** 104 quotes with a `?`: 71 are not in the old snapshot in order (the model changed other words too); 32 have no mark in the map (real question marks, or marks t/652 left alone); 1 fails the second gate (an elided quote whose two segments are not one passage).
 
