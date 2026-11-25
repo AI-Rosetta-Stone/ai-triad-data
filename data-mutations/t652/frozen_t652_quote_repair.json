@@ -1,0 +1,3340 @@
+{
+ "ticket": "t/652",
+ "go": "t/652#16",
+ "sha256": "fbb8f9bb155ca0fe4b06d165ebee9270079dd8623052ce346181fad5e5fb41cf",
+ "targets": [
+  {
+   "file": "summaries/170306856v3-2026.json"
+  },
+  {
+   "file": "summaries/2026-unit-42-global-incident-response-report-2026.json"
+  },
+  {
+   "file": "summaries/ai-chatbots-digital-companions-are-reshaping-emotional-2026.json"
+  },
+  {
+   "file": "summaries/ai-contracting-practical-legal-guidance-growing-businesses-2026.json"
+  },
+  {
+   "file": "summaries/bernie-sanders-ai-sovereign-wealth-fund-plan-is-good-but-we-2026.json"
+  },
+  {
+   "file": "summaries/concrete-problems-ai-safety-2026-1.json"
+  },
+  {
+   "file": "summaries/counterfactual-explanations-machine-learning-review-2026.json"
+  },
+  {
+   "file": "summaries/counterfactual-fairness-2026-1.json"
+  },
+  {
+   "file": "summaries/counterfactual-fairness-2026.json"
+  },
+  {
+   "file": "summaries/crisis-risk-communication-or-propaganda-disinformation-2026.json"
+  },
+  {
+   "file": "summaries/emotion-concepts-their-function-large-language-model-2026-1.json"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026-1.json"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026-2.json"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026.json"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-reports-2026-1.json"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-reports-2026-2.json"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-reports-2026.json"
+  },
+  {
+   "file": "summaries/how-can-we-defend-ourselves-from-new-plague-human-fracking-2026.json"
+  },
+  {
+   "file": "summaries/managing-risks-from-internal-ai-systems-2026.json"
+  },
+  {
+   "file": "summaries/managingrisksfrominternalaisystems-2026.json"
+  },
+  {
+   "file": "summaries/mapping-mind-large-language-model-2026-1.json"
+  },
+  {
+   "file": "summaries/measuring-risk-2-what-eu-risk-assessments-us-litigation-2026.json"
+  },
+  {
+   "file": "summaries/measuring-risk-ii-what-eu-risk-assessments-us-litigation-2026.json"
+  },
+  {
+   "file": "summaries/natural-language-autoencoders-turning-claudes-thoughts-into-2026-1.json"
+  },
+  {
+   "file": "summaries/no-artificial-intelligence-is-not-conscious-2026.json"
+  },
+  {
+   "file": "summaries/right-know-social-media-algorithms-2026.json"
+  },
+  {
+   "file": "summaries/scalable-extraction-training-data-from-aligned-production-2026.json"
+  },
+  {
+   "file": "summaries/statement-us-government-directive-suspend-access-fable-5-2026.json"
+  },
+  {
+   "file": "summaries/tracing-thoughts-large-language-model-2026-1.json"
+  },
+  {
+   "file": "summaries/what-pope-said-about-ai-2026.json"
+  }
+ ],
+ "class": "model-copied damage restored, t/652",
+ "data_commit": "6e95f275ec91fc843011f96acd176b2cc49d8e2e",
+ "sources_commit": "3d0d819fa30d12013183506d6d13e12776139356",
+ "character_map": "ai-triad-sources data-mutations/t652/frozen_t652_lost_characters.json (sha256-lf 8a188c196d3564cba8619be5bfcef225ca6da9be5bbcb68efe0891892bcf79c1)",
+ "matcher": "ai-triad-research PR #5419 at 37728938d (Resolve-VerbatimQuote): kept only when decided 'exact' against the repaired snapshot",
+ "hash_basis": "sha256-lf",
+ "counts": {
+  "files": 30,
+  "quotes_restored": 107,
+  "marks_restored_by_class": {
+   "ligature": 150,
+   "other": 2
+  },
+  "quotes_with_a_mark_examined": 216,
+  "quotes_left_as_they_are": 109,
+  "left_by_reason": {
+   "a segment is not in the old snapshot (letters, digits and marks, in order)": 71,
+   "the repaired text is not an exact match (the matcher decides 'snapped')": 5,
+   "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)": 32,
+   "the repaired text is not an exact match (the matcher decides 'dropped')": 1
+  },
+  "left_that_the_guard_drops_on_the_repaired_snapshot": 41
+ },
+ "files": {
+  "summaries/170306856v3-2026.json": {
+   "pre_sha256": "fbe2b5903cfc002771a3c950de3c533443452c9f98bab02828730f7534e1385b",
+   "post_sha256": "8331a7026a1a48c0ce533970d726188040b9db6150ee2a16b3e13479d68e1e5a",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "The decision of whether an attribute is protected or not is taken as a primitive in any given problem, regardless of the de?nition of fairness adopted.",
+     "new": "The decision of whether an attribute is protected or not is taken as a primitive in any given problem, regardless of the definition of fairness adopted.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Our de?nition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+     "new": "Our definition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/2026-unit-42-global-incident-response-report-2026.json": {
+   "pre_sha256": "e3da02c4a062bdd012003110a1f2eef5adeb3bea0f36b7faaf7c0ca1fcff8e44",
+   "post_sha256": "27a9ebb0ce5b6f886b850a3be66df955885912d7324abf9bf3d5afd18f8a5298",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Instrument and govern AI-related activity in sensitive work?ows: Limit which AI services can interact with identities, source code or sensitive data. Log their use and investigate anomalous patterns that could indicate automated persona creation or AI-driven operations.",
+     "new": "Instrument and govern AI-related activity in sensitive workflows: Limit which AI services can interact with identities, source code or sensitive data. Log their use and investigate anomalous patterns that could indicate automated persona creation or AI-driven operations.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Enterprise AI adoption creates a new class of risk: Living o? the AI land (LOTAIL). Just as attackers misuse PowerShell or Windows Management Instrumentation (WMI), they are now weaponizing legitimate AI platforms and embedded assistants.",
+     "new": "Enterprise AI adoption creates a new class of risk: Living off the AI land (LOTAIL). Just as attackers misuse PowerShell or Windows Management Instrumentation (WMI), they are now weaponizing legitimate AI platforms and embedded assistants.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      2,
+      "verbatim"
+     ],
+     "old": "SaaS environments are stitched together through OAuth apps, API keys and work?ow automation. These connections routinely carry access to data and business processes. For attackers, compromised integrations can become a lateral movement path that looks like normal automation.",
+     "new": "SaaS environments are stitched together through OAuth apps, API keys and workflow automation. These connections routinely carry access to data and business processes. For attackers, compromised integrations can become a lateral movement path that looks like normal automation.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      3,
+      "verbatim"
+     ],
+     "old": "Many organizations lack a uni?ed view of SaaS connections, vendor agents and transitive libraries, slowing the answer to ôwhere is this used?ö",
+     "new": "Many organizations lack a unified view of SaaS connections, vendor agents and transitive libraries, slowing the answer to ôwhere is this used?ö",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      5,
+      "verbatim"
+     ],
+     "old": "Over time, environmental drift, driven by legacy systems, technology adoption or merger and acquisition activity, makes it di?cult to enforce a consistent standard across the enterprise.",
+     "new": "Over time, environmental drift, driven by legacy systems, technology adoption or merger and acquisition activity, makes it difficult to enforce a consistent standard across the enterprise.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      7,
+      "verbatim"
+     ],
+     "old": "To prevent these tools from becoming vectors for attack, security teams must apply the same governance rigor to AI systems as they do to human users. This includes explicitly validating automation steps before they enter production, applying integrity checks to AI-enabled work?ows and ensuring that assistant accounts are hardened against misuse.",
+     "new": "To prevent these tools from becoming vectors for attack, security teams must apply the same governance rigor to AI systems as they do to human users. This includes explicitly validating automation steps before they enter production, applying integrity checks to AI-enabled workflows and ensuring that assistant accounts are hardened against misuse.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      8,
+      "verbatim"
+     ],
+     "old": "When teams understand that human judgment remains central to e?ective AI use, governance controls are reinforced rather than bypassed, ensuring that the drive for automation does not outpace the ability to oversee it.",
+     "new": "When teams understand that human judgment remains central to effective AI use, governance controls are reinforced rather than bypassed, ensuring that the drive for automation does not outpace the ability to oversee it.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      3,
+      "verbatim"
+     ],
+     "old": "Phishing campaigns are achieving higher conversion rates as AI helps attackers craft credible, error-free lures that bypass traditional ?lters and engage users more e?ectively.",
+     "new": "Phishing campaigns are achieving higher conversion rates as AI helps attackers craft credible, error-free lures that bypass traditional filters and engage users more effectively.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      5,
+      "verbatim"
+     ],
+     "old": "E?ective exposure management bridges this gap by creating a complete, continuous inventory of the digital footprint, including the shadow infrastructure and unauthorized AI tools that traditional scans miss.",
+     "new": "Effective exposure management bridges this gap by creating a complete, continuous inventory of the digital footprint, including the shadow infrastructure and unauthorized AI tools that traditional scans miss.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/ai-chatbots-digital-companions-are-reshaping-emotional-2026.json": {
+   "pre_sha256": "1308728daed0a4d2426a1af697a94ac9211967418c58ffa24e816a106ca35ca5",
+   "post_sha256": "126c920b0d4ab54b82712ec1c914ecba8cc5c6419f47a19dea9bb50794969551",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "AI companion apps and general-purpose chatbots can also o?er a safe space for users to rehearse social interactions, provided they are designed and used responsibly. ôIt is kind of like a low-stakes way to practice conversations with real people in a way that might feel less overwhelming,ö said Ashleigh Golden, PsyD, chief clinical o?cer at Wayhaven, an AI wellness platform that supports coping skills and resource connection for college students.",
+     "new": "AI companion apps and general-purpose chatbots can also offer a safe space for users to rehearse social interactions, provided they are designed and used responsibly. ôIt is kind of like a low-stakes way to practice conversations with real people in a way that might feel less overwhelming,ö said Ashleigh Golden, PsyD, chief clinical officer at Wayhaven, an AI wellness platform that supports coping skills and resource connection for college students.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "Humans are hardwired to anthropomorphize, or ascribe human traits to nonhuman objects. Digital companions are purposely designed to evoke such a response. Apps let users customize their companions by assigning names, genders, avatars, and even ?ctional backstories.",
+     "new": "Humans are hardwired to anthropomorphize, or ascribe human traits to nonhuman objects. Digital companions are purposely designed to evoke such a response. Apps let users customize their companions by assigning names, genders, avatars, and even fictional backstories.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Additional research identi?es social-skill loss or ôdeskillingö as a signi?cant risk of frequent interaction with AI companions such as Replika, Kindred, and Nomi. A recent study found that reliance on these companions could lead to ôthe potential transformation of relational norms in ways that may render human-human connection less accessible or less ful?llingö.",
+     "new": "Additional research identifies social-skill loss or ôdeskillingö as a signi?cant risk of frequent interaction with AI companions such as Replika, Kindred, and Nomi. A recent study found that reliance on these companions could lead to ôthe potential transformation of relational norms in ways that may render human-human connection less accessible or less ful?llingö.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "As AI becomes ever more integrated into the fabric of peopleÆs social lives, psychologists are also key to reminding people what makes human connection irreplaceable. ôAI is here, but we must make it clear why humans are helpful to us in our day-to-day livesùwhy we should love, connect with, and choose humans, especially when AI o?ers constant validation.",
+     "new": "As AI becomes ever more integrated into the fabric of peopleÆs social lives, psychologists are also key to reminding people what makes human connection irreplaceable. ôAI is here, but we must make it clear why humans are helpful to us in our day-to-day livesùwhy we should love, connect with, and choose humans, especially when AI offers constant validation.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      2,
+      "verbatim"
+     ],
+     "old": "Instead of banning AI companions outright, Jessica Jackson, PhD, chair of the APA Mental Health Technology Advisory Committee, advocates for building widespread digital literacy for youth as a more nuanced and e?ective approach. Psychologists should ask teens open, curious, and nonjudgmental questions about their AI use, seeking to understand the desires it ful?lls.",
+     "new": "Instead of banning AI companions outright, Jessica Jackson, PhD, chair of the APA Mental Health Technology Advisory Committee, advocates for building widespread digital literacy for youth as a more nuanced and effective approach. Psychologists should ask teens open, curious, and nonjudgmental questions about their AI use, seeking to understand the desires it fulfills.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    }
+   ]
+  },
+  "summaries/ai-contracting-practical-legal-guidance-growing-businesses-2026.json": {
+   "pre_sha256": "dda6874de087127d12cc2426e08abc8507e87595dfe41b8eea4045e0767e209d",
+   "post_sha256": "075f0a8c2e04756f87f1f0af2b390c7e6ab331b0b5e63c9ea157ca53aa0d58b7",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "By now, just about every company is implementing arti?cial intelligence in their business in some way, shape or form. Whether your company is purchasing AI tools to enhance operations or developing AI-enabled products for your customers, understanding the contractual landscape is essential to protecting your business.",
+     "new": "By now, just about every company is implementing artificial intelligence in their business in some way, shape or form. Whether your company is purchasing AI tools to enhance operations or developing AI-enabled products for your customers, understanding the contractual landscape is essential to protecting your business.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "AI risk varies based on whether the tool is used for back-o?ce functions, customer-facing applications, hiring decisions, or automated decision-making. Certain technologies and uses, such as agentic AI, trigger heightened regulatory scrutiny and create greater legal exposure.",
+     "new": "AI risk varies based on whether the tool is used for back-office functions, customer-facing applications, hiring decisions, or automated decision-making. Certain technologies and uses, such as agentic AI, trigger heightened regulatory scrutiny and create greater legal exposure.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      2,
+      "verbatim"
+     ],
+     "old": "Certain technologies and uses, such as agentic AI, trigger heightened regulatory scrutiny and create greater legal exposure. Ensure the contract de?nes what the AI system is and what the AI system does, including use cases, functionality, and limitations.",
+     "new": "Certain technologies and uses, such as agentic AI, trigger heightened regulatory scrutiny and create greater legal exposure. Ensure the contract defines what the AI system is and what the AI system does, including use cases, functionality, and limitations.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      3,
+      "verbatim"
+     ],
+     "old": "Taking a thoughtful, proactive approach to these agreements positions your company to capture the bene?ts of AI while managing legal exposure.",
+     "new": "Taking a thoughtful, proactive approach to these agreements positions your company to capture the benefits of AI while managing legal exposure.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "Request evidence of independent security audits or industry-recognized certi?cations where available. If the provider uses customer data to train or improve models, con?rm opt-in requirements, anonymization standards, and your right to revoke such use.",
+     "new": "Request evidence of independent security audits or industry-recognized certifications where available. If the provider uses customer data to train or improve models, confirm opt-in requirements, anonymization standards, and your right to revoke such use.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Where AI outputs feed into high-impact decisions, such as employment, healthcare, or ?nancial determinations, consider requiring the provider to conduct periodic bias audits, implement model drift monitoring, and provide transparency into how outputs are generated.",
+     "new": "Where AI outputs feed into high-impact decisions, such as employment, healthcare, or financial determinations, consider requiring the provider to conduct periodic bias audits, implement model drift monitoring, and provide transparency into how outputs are generated.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      3,
+      "verbatim"
+     ],
+     "old": "Additional data categories may include training data, derived data, usage data, model improvements, logs and audit trails. Ensure all types of data are de?ned and all rights covering such data are allocated.",
+     "new": "Additional data categories may include training data, derived data, usage data, model improvements, logs and audit trails. Ensure all types of data are defined and all rights covering such data are allocated.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "Where AI outputs feed into high-impact decisions, such as employment, healthcare, or ?nancial determinations, consider requiring the provider to conduct periodic bias audits, implement model drift monitoring, and provide transparency into how outputs are generated.",
+     "new": "Where AI outputs feed into high-impact decisions, such as employment, healthcare, or financial determinations, consider requiring the provider to conduct periodic bias audits, implement model drift monitoring, and provide transparency into how outputs are generated.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Many vendors in this market are startups built on third-party platforms like OpenAI. The phrase ôOpenAI wrapperö is commonly used. Basic due diligence, including reviewing the vendor's capitalization, investor backing, and ?nancial condition, is prudent.",
+     "new": "Many vendors in this market are startups built on third-party platforms like OpenAI. The phrase ôOpenAI wrapperö is commonly used. Basic due diligence, including reviewing the vendor's capitalization, investor backing, and financial condition, is prudent.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      2,
+      "verbatim"
+     ],
+     "old": "Customer should push for indemnities covering claims that the AI tool, its outputs, or training data infringe third-party intellectual property rights. Many vendors will provide infringement indemni?cation for the service itself but resist extending coverage to training data and outputs.",
+     "new": "Customer should push for indemnities covering claims that the AI tool, its outputs, or training data infringe third-party intellectual property rights. Many vendors will provide infringement indemnification for the service itself but resist extending coverage to training data and outputs.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/bernie-sanders-ai-sovereign-wealth-fund-plan-is-good-but-we-2026.json": {
+   "pre_sha256": "92f5db0d69deee16f06cf20a59e938e648cd378a9899eba5ad61379c3ab6c819",
+   "post_sha256": "dce86be8d75a8c960272bc18ba452fc0455586a6432d42ab2964bc9e2211f6f2",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "The concept is for governments, be it federal or state, to establish publicly developed and operated AI models run by public institutions under democratic control. The idea is not to eliminate corporate AI or to seize it as a public asset, but rather for government to provide a competitive baseline that private AI o?erings must meet or exceed to win business.",
+     "new": "The concept is for governments, be it federal or state, to establish publicly developed and operated AI models run by public institutions under democratic control. The idea is not to eliminate corporate AI or to seize it as a public asset, but rather for government to provide a competitive baseline that private AI offerings must meet or exceed to win business.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Public ownership of these companies entangles corporate pro?t and valuation with the public interest. It would incentivize the government to clear regulations, permit the exploitation of workers and users, suppress competition, encourage AI adoption regardless of the responsibleness of the implementation or appropriateness of the use case, and otherwise act on behalf of corporate interests.",
+     "new": "Public ownership of these companies entangles corporate profit and valuation with the public interest. It would incentivize the government to clear regulations, permit the exploitation of workers and users, suppress competition, encourage AI adoption regardless of the responsibleness of the implementation or appropriateness of the use case, and otherwise act on behalf of corporate interests.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/concrete-problems-ai-safety-2026-1.json": {
+   "pre_sha256": "1fa1867fa45cb977864f7b9fde57114e06f8e30b2d69d2410c452e42a18ea398",
+   "post_sha256": "19bb377002024ecbd9eab36b932c56dac3c805add6fc0dc5615866286cd45ece",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Good approaches to side e?ects would certainly not be a replacement for extensive testing or for careful consideration by designers of the individual failure modes of each deployed system.",
+     "new": "Good approaches to side effects would certainly not be a replacement for extensive testing or for careful consideration by designers of the individual failure modes of each deployed system.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      2,
+      "verbatim"
+     ],
+     "old": "An e?ective approach to semi-supervised RL might be a strong ?rst step towards providing scalable oversight and mitigating other AI safety problems. It would also likely be useful for reinforcement learning, independent of its relevance to safety.",
+     "new": "An e?ective approach to semi-supervised RL might be a strong first step towards providing scalable oversight and mitigating other AI safety problems. It would also likely be useful for reinforcement learning, independent of its relevance to safety.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      4,
+      "verbatim",
+      1
+     ],
+     "old": "[59] Yolanda Gil et al. ôAmplify scienti?c discovery with arti?cial intelligenceö. In: Science 346.6206 (2014), pp. 171û172.",
+     "new": "[59] Yolanda Gil et al. ôAmplify scientific discovery with artificial intelligenceö. In: Science 346.6206 (2014), pp. 171û172.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      5,
+      "verbatim"
+     ],
+     "old": "We may be able to ameliorate such problems by ?nding more e?cient ways to exploit our limited oversight budgetùfor example by combining limited calls to the true objective function with frequent calls to an imperfect proxy that we are given or can learn.",
+     "new": "We may be able to ameliorate such problems by finding more efficient ways to exploit our limited oversight budgetùfor example by combining limited calls to the true objective function with frequent calls to an imperfect proxy that we are given or can learn.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      9,
+      "verbatim"
+     ],
+     "old": "This can be problematic in many cases, since nature is often more complicated than our model family is capable of capturing. As noted above, it may be possible to mitigate this with very expressive models, such as kernels, Turing machines, or very large neural networks, but even here there is at least some remaining problem: for example, even if our model family consists of all Turing machines, given any ?nite amount of data we can only actually learn among Turing machines up to a given description length, and if the Turing machine describing nature exceeds this length, we are back to the mis-speci?ed regime",
+     "new": "This can be problematic in many cases, since nature is often more complicated than our model family is capable of capturing. As noted above, it may be possible to mitigate this with very expressive models, such as kernels, Turing machines, or very large neural networks, but even here there is at least some remaining problem: for example, even if our model family consists of all Turing machines, given any finite amount of data we can only actually learn among Turing machines up to a given description length, and if the Turing machine describing nature exceeds this length, we are back to the mis-specified regime",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      10,
+      "verbatim"
+     ],
+     "old": "Even for this engineering approach, it seems important to be able to detect when one is in a situation that was not covered by the training data and to respond appropriately, and to have methodologies for adequately stress-testing the model with distributions that are su?ciently di?erent from the set of training distributions.",
+     "new": "Even for this engineering approach, it seems important to be able to detect when one is in a situation that was not covered by the training data and to respond appropriately, and to have methodologies for adequately stress-testing the model with distributions that are sufficiently different from the set of training distributions.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      11,
+      "verbatim"
+     ],
+     "old": "The simplest and to our mind most important failure is the extremely brittle implicit contract in most machine learning systems, namely that they only necessarily perform well if the training and test distributions are identical. This condition is di?cult to check and rare in practice, and it would be valuable to build systems that perform well under weaker contracts that are easier to reason about.",
+     "new": "The simplest and to our mind most important failure is the extremely brittle implicit contract in most machine learning systems, namely that they only necessarily perform well if the training and test distributions are identical. This condition is difficult to check and rare in practice, and it would be valuable to build systems that perform well under weaker contracts that are easier to reason about.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      13,
+      "verbatim",
+      1
+     ],
+     "old": "[66] Dylan Had?eld-Menell et al. Cooperative Inverse Reinforcement Learning. 2016.",
+     "new": "[66] Dylan Hadfield-Menell et al. Cooperative Inverse Reinforcement Learning. 2016.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      2,
+      "verbatim"
+     ],
+     "old": "Machine learning systems also have this problemùa speech system trained on clean speech will perform very poorly on noisy speech, yet often be highly con?dent in its erroneous classi?cations.",
+     "new": "Machine learning systems also have this problemùa speech system trained on clean speech will perform very poorly on noisy speech, yet often be highly confident in its erroneous classifications.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      3,
+      "verbatim"
+     ],
+     "old": "Humans utilize such information routinely, but to our knowledge current RL techniques make little e?ort to do so, perhaps because popular RL environments are typically not rich enough to require such subtle management of uncertainty.",
+     "new": "Humans utilize such information routinely, but to our knowledge current RL techniques make little effort to do so, perhaps because popular RL environments are typically not rich enough to require such subtle management of uncertainty.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      4,
+      "verbatim",
+      0
+     ],
+     "old": "[25] John Blitzer, Sham Kakade, and Dean P Foster. ôDomain adaptation with coupled sub-spacesö. In: International Conference on Arti?cial Intelligence and Statistics. 2011, pp. 173û181.",
+     "new": "[25] John Blitzer, Sham Kakade, and Dean P Foster. ôDomain adaptation with coupled sub-spacesö. In: International Conference on Artificial Intelligence and Statistics. 2011, pp. 173û181.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/counterfactual-explanations-machine-learning-review-2026.json": {
+   "pre_sha256": "ebcdb13c482e5ba006a2e0c5136d4c7b9f40d638904bf799a85ab3071334126d",
+   "post_sha256": "df5292505fed918c906638d9ba5f1c59fe00ef518f2b651bb87156fa6c7a3bc9",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "The classi?er found it much easier to use the difference between the background as the distinguishing feature. In a similar case, a husky was classi?ed as a wolf because of the presence of snow in the background, which the classi?er had learned as a feature associated with wolves.",
+     "new": "The classifier found it much easier to use the difference between the background as the distinguishing feature. In a similar case, a husky was classified as a wolf because of the presence of snow in the background, which the classifier had learned as a feature associated with wolves.",
+     "marks_replaced": 3,
+     "classes": {
+      "ligature": 3
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      2,
+      "verbatim"
+     ],
+     "old": "Laugel et al. [75] says that if the explanation is not based on training data, but the artifacts of non-robustness of the classi?er, it is unjusti?ed. They de?ne justi?ed explanations to be connected to training data by a continuous set of datapoints, termed E-chainability.",
+     "new": "Laugel et al. [75] says that if the explanation is not based on training data, but the artifacts of non-robustness of the classifier, it is unjustified. They define justified explanations to be connected to training data by a continuous set of datapoints, termed E-chainability.",
+     "marks_replaced": 4,
+     "classes": {
+      "ligature": 4
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      3,
+      "verbatim"
+     ],
+     "old": "Counterfactuals potentially capture and re?ect the bias in the models. To underscore this as a possibility, Ustun et al. [107] experimented on the difference in the dif?culty of attaining the provided counterfactual state across genders, which clearly showed a signi?cant difference in the dif?culty.",
+     "new": "Counterfactuals potentially capture and reflect the bias in the models. To underscore this as a possibility, Ustun et al. [107] experimented on the difference in the difficulty of attaining the provided counterfactual state across genders, which clearly showed a significant difference in the difficulty.",
+     "marks_replaced": 4,
+     "classes": {
+      "ligature": 4
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      4,
+      "verbatim"
+     ],
+     "old": "While many techniques have been proposed for explainable machine learning, it is yet unclear if and how these speci?c techniques can help address the letter of the law. Future collaboration between AI researchers, regulators, the legal community, and consumer watchdog groups will help ensure the development of trustworthy AI.",
+     "new": "While many techniques have been proposed for explainable machine learning, it is yet unclear if and how these specific techniques can help address the letter of the law. Future collaboration between AI researchers, regulators, the legal community, and consumer watchdog groups will help ensure the development of trustworthy AI.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Machine learning plays a role in many deployed decision systems, often in ways that are dif?cult or impossible to understand by human stakeholders.",
+     "new": "Machine learning plays a role in many deployed decision systems, often in ways that are difficult or impossible to understand by human stakeholders.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      2,
+      "verbatim"
+     ],
+     "old": "Current counterfactual generation approaches return the modi?ed datapoint, which would receive the desired classi?cation. The modi?ed datapoint (state) re?ects the idea of instantaneous and continuous actions, but in the real world, actions are discrete and often sequential.",
+     "new": "Current counterfactual generation approaches return the modified datapoint, which would receive the desired classification. The modified datapoint (state) reflects the idea of instantaneous and continuous actions, but in the real world, actions are discrete and often sequential.",
+     "marks_replaced": 4,
+     "classes": {
+      "ligature": 4
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      4,
+      "verbatim"
+     ],
+     "old": "Although the closeness of this law to \"right to explanation\" is debatable and ambiguous [110], the of?cial interpretation by Working Party for Article 29 has concluded that the GDPR requires explanations of speci?c decisions, and therefore counterfactual explanations are apt.",
+     "new": "Although the closeness of this law to \"right to explanation\" is debatable and ambiguous [110], the official interpretation by Working Party for Article 29 has concluded that the GDPR requires explanations of specific decisions, and therefore counterfactual explanations are apt.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    }
+   ]
+  },
+  "summaries/counterfactual-fairness-2026-1.json": {
+   "pre_sha256": "bcfeac48e879fd32b15e3c42d24efbb77996ecef85bbc674ebde5b0d40564d4b",
+   "post_sha256": "90422ee4de4f3c0bb2d26e72b3db79ca99b5e3d96f21191bcb77f048e762f87f",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "In this paper, we develop a framework for modeling fairness using tools from causal inference. Our de?nition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+     "new": "In this paper, we develop a framework for modeling fairness using tools from causal inference. Our definition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "Our de?nition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+     "new": "Our definition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/counterfactual-fairness-2026.json": {
+   "pre_sha256": "ef402ea3f8643d87fac0e1f12f6f197f933b778d88da6bfd5937772ddf63ae4f",
+   "post_sha256": "c9870514696f3f5aeb261d1c01ad00b9e1708be17b7e99de57065189de78b187",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Our de?nition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+     "new": "Our definition of counterfactual fairness captures the intuition that a decision is fair towards an individual if it is the same in (a) the actual world and (b) a counterfactual world where the individual belonged to a different demographic group.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/crisis-risk-communication-or-propaganda-disinformation-2026.json": {
+   "pre_sha256": "727c95c90bc05a9aac093264cf8f0d9886275fec1c4b218c28918a9e76fbde58",
+   "post_sha256": "90a78cef452cbef993a7ba2b1a80ac741f5d0bf7f4584631c1c3191afb998cb0",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      3,
+      "verbatim"
+     ],
+     "old": "Scott (2007), as well as other authors such as Lynd and Gruba?i? (2008), emphasizes that reductionist and functionalist thought function as weapons used by power actors to oversimplify reality through oversimplifying thought categories. Reductionist thought categories entail policies conducive to reality reduction, making the social environment easier to control.",
+     "new": "Scott (2007), as well as other authors such as Lynd and Grubačić (2008), emphasizes that reductionist and functionalist thought function as weapons used by power actors to oversimplify reality through oversimplifying thought categories. Reductionist thought categories entail policies conducive to reality reduction, making the social environment easier to control.",
+     "marks_replaced": 2,
+     "classes": {
+      "other": 2
+     }
+    }
+   ]
+  },
+  "summaries/emotion-concepts-their-function-large-language-model-2026-1.json": {
+   "pre_sha256": "57f1c99f93e833fed4c303d7be846cfa77136dcd7f9f21f3e70e5d7d6e5e98f6",
+   "post_sha256": "d5f59eb694479e9478d3b7b65863f9e2f15950be7dec19c81262f10df972f0b4",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "For instance, we ?nd that neural activity patterns related to desperation can drive the model to take unethical actions; arti?cially stimulating (ôsteeringö) desperation patterns increases the modelÆs likelihood of blackmailing a human to avoid being shut down, or implementing a ôcheatingö workaround to a programming task that the model canÆt solve.",
+     "new": "For instance, we find that neural activity patterns related to desperation can drive the model to take unethical actions; artificially stimulating (ôsteeringö) desperation patterns increases the modelÆs likelihood of blackmailing a human to avoid being shut down, or implementing a ôcheatingö workaround to a programming task that the model canÆt solve.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "There is a well-established taboo against anthropomorphizing AI systems. This caution is often warranted: attributing human emotions to language models can lead to misplaced trust or over-attachment. But our ?ndings suggest that there may also be risks from failing to apply some degree of anthropomorphic reasoning to models.",
+     "new": "There is a well-established taboo against anthropomorphizing AI systems. This caution is often warranted: attributing human emotions to language models can lead to misplaced trust or over-attachment. But our findings suggest that there may also be risks from failing to apply some degree of anthropomorphic reasoning to models.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/how-brussels-effect-hinders-innovation-global-south-2026-1.json": {
+   "pre_sha256": "4ff6ca584aaf9ecf34f382dc15ea4d7886ef6ab2babcb91584f0aba29fd6cbee",
+   "post_sha256": "ddb0f70b5b2abd534bbdea167432dbda5b4a73b864df12984b62983cf7141000",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain ?exible, innovation-friendly, and tailored to local needs.",
+     "new": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain flexible, innovation-friendly, and tailored to local needs.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      2,
+      "verbatim"
+     ],
+     "old": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would bene?t from innovation-friendly governance frameworks.",
+     "new": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would benefit from innovation-friendly governance frameworks.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Designed to prevent harm in the face of scienti?c uncertainty, the precautionary principle often results in overly conservative regulation that deters experimentation and dynamic market activity.",
+     "new": "Designed to prevent harm in the face of scientific uncertainty, the precautionary principle often results in overly conservative regulation that deters experimentation and dynamic market activity.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "The global uptake of EU digital rules is frequently driven by economic pressure and legal asymmetry. Through such mechanisms as extraterritorial enforcement and trade dependencies, the EU compels third countries to adopt regulatory frameworks that re?ect European priorities rather than local ones.",
+     "new": "The global uptake of EU digital rules is frequently driven by economic pressure and legal asymmetry. Through such mechanisms as extraterritorial enforcement and trade dependencies, the EU compels third countries to adopt regulatory frameworks that reflect European priorities rather than local ones.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "The system forces developing countries to spend resources on adopting European-style data protection frameworks as a prerequisite for full participation in the global digital economy without actually bene?ting from that full participation.",
+     "new": "The system forces developing countries to spend resources on adopting European-style data protection frameworks as a prerequisite for full participation in the global digital economy without actually benefiting from that full participation.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      4,
+      "verbatim"
+     ],
+     "old": "The adoption of EU rules across multiple sectors, including digital policy and chemicals regulation, imposes high compliance costs and constrains innovation in third countries, particularly in the Global South, where ?rms and governments possess limited institutional and ?nancial capacity to absorb such burdens.",
+     "new": "The adoption of EU rules across multiple sectors, including digital policy and chemicals regulation, imposes high compliance costs and constrains innovation in third countries, particularly in the Global South, where firms and governments possess limited institutional and financial capacity to absorb such burdens.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    }
+   ]
+  },
+  "summaries/how-brussels-effect-hinders-innovation-global-south-2026-2.json": {
+   "pre_sha256": "779838a262d1a5e4ab04ad2bf56d607b57710f25f3faa49953315022447457ca",
+   "post_sha256": "a2f66c239ce7515f6392feff54d5ddb847cac24a303ad301e95fc0917f438036",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would bene?t from innovation-friendly governance frameworks.",
+     "new": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would benefit from innovation-friendly governance frameworks.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Designed to prevent harm in the face of scienti?c uncertainty, the precautionary principle often results in overly conservative regulation that deters experimentation and dynamic market activity.",
+     "new": "Designed to prevent harm in the face of scientific uncertainty, the precautionary principle often results in overly conservative regulation that deters experimentation and dynamic market activity.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      5,
+      "verbatim"
+     ],
+     "old": "The adoption of EU rules across multiple sectors, including digital policy and chemicals regulation, imposes high compliance costs and constrains innovation in third countries, particularly in the Global South, where ?rms and governments possess limited institutional and ?nancial capacity to absorb such burdens.",
+     "new": "The adoption of EU rules across multiple sectors, including digital policy and chemicals regulation, imposes high compliance costs and constrains innovation in third countries, particularly in the Global South, where firms and governments possess limited institutional and financial capacity to absorb such burdens.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    }
+   ]
+  },
+  "summaries/how-brussels-effect-hinders-innovation-global-south-2026.json": {
+   "pre_sha256": "a7ae2e1eacfc2249e330c0a6a8496eff12b1a6a9743820f5cb15fd9c19a569d4",
+   "post_sha256": "a98d3582d1ee7b53ab0e1db803a6d920b96421f7d3b8de08e05f2f7d0452e7f5",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would bene?t from innovation-friendly governance frameworks.",
+     "new": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would benefit from innovation-friendly governance frameworks.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "The global uptake of EU digital rules is frequently driven by economic pressure and legal asymmetry. Through such mechanisms as extraterritorial enforcement and trade dependencies, the EU compels third countries to adopt regulatory frameworks that re?ect European priorities rather than local ones.",
+     "new": "The global uptake of EU digital rules is frequently driven by economic pressure and legal asymmetry. Through such mechanisms as extraterritorial enforcement and trade dependencies, the EU compels third countries to adopt regulatory frameworks that reflect European priorities rather than local ones.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain ?exible, innovation-friendly, and tailored to local needs.",
+     "new": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain flexible, innovation-friendly, and tailored to local needs.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      2,
+      "verbatim"
+     ],
+     "old": "The Brussels Effect ampli?es this approach globally, running the risk of Global South countries suffering the same innovation-sti?ing effects despite having had no meaningful role in shaping the laws the EU expects them to follow.",
+     "new": "The Brussels Effect amplifies this approach globally, running the risk of Global South countries suffering the same innovation-stifling effects despite having had no meaningful role in shaping the laws the EU expects them to follow.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      5,
+      "verbatim"
+     ],
+     "old": "The adoption of EU rules across multiple sectors, including digital policy and chemicals regulation, imposes high compliance costs and constrains innovation in third countries, particularly in the Global South, where ?rms and governments possess limited institutional and ?nancial capacity to absorb such burdens.",
+     "new": "The adoption of EU rules across multiple sectors, including digital policy and chemicals regulation, imposes high compliance costs and constrains innovation in third countries, particularly in the Global South, where firms and governments possess limited institutional and financial capacity to absorb such burdens.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      6,
+      "verbatim"
+     ],
+     "old": "CPEA shows how voluntary cooperation can achieve effective governance on data privacy without sacri?cing national autonomy or innovation.",
+     "new": "CPEA shows how voluntary cooperation can achieve effective governance on data privacy without sacrificing national autonomy or innovation.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/how-brussels-effect-hinders-innovation-global-south-reports-2026-1.json": {
+   "pre_sha256": "899d607ae4d087f114c5c9f7c7a239e0867b49aedd1b64bc6791d64569915847",
+   "post_sha256": "06955ab243c75b55ee06e877f5d7a05da9c962b8c33844a50f8c3a015a2f0597",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "Mandatory adoption of EU-style digital rules amounts to regulatory imperialism for many countries in the Global South. It limits technology adoption, raises compliance costs, and undermines the ability of local ?rms to compete with Western ones.",
+     "new": "Mandatory adoption of EU-style digital rules amounts to regulatory imperialism for many countries in the Global South. It limits technology adoption, raises compliance costs, and undermines the ability of local firms to compete with Western ones.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "Rather than submit to the EU, Global South countries should adopt ?exible rules that re?ect their own local interests and goals.",
+     "new": "Rather than submit to the EU, Global South countries should adopt flexible rules that reflect their own local interests and goals.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "For Global South countries, mirroring EU rules raises barriers to widespread technology adoption, constrains domestic ?rms, and entrenches the dominance of Western competitors in global markets.",
+     "new": "For Global South countries, mirroring EU rules raises barriers to widespread technology adoption, constrains domestic firms, and entrenches the dominance of Western competitors in global markets.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/how-brussels-effect-hinders-innovation-global-south-reports-2026-2.json": {
+   "pre_sha256": "4a81c7c4b30cd8cf21b27f6067ab1482dbd6a74d3aa18b0888e3bfcc7caf0d11",
+   "post_sha256": "50c400c005e5db2445d9a51fbc624f49bade4cf4c7c4894eddc1a10899d4a92a",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "EU-style digital rules impose high compliance burdens, limit experimentation, and restrict data use in ways that harm innovation. For Global South countries, mirroring EU rules raises barriers to widespread technology adoption, constrains domestic ?rms, and entrenches the dominance of Western competitors in global markets.",
+     "new": "EU-style digital rules impose high compliance burdens, limit experimentation, and restrict data use in ways that harm innovation. For Global South countries, mirroring EU rules raises barriers to widespread technology adoption, constrains domestic firms, and entrenches the dominance of Western competitors in global markets.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "In effect, these regimes convert what should be a routine economic activity into an administrative ritual. Under tight budgets, regulators sensibly prioritise enabling data ?ows over imposing penalties, recognising that such ?ows bring greater economic bene?t than does enforcement-driven deterrence.",
+     "new": "In effect, these regimes convert what should be a routine economic activity into an administrative ritual. Under tight budgets, regulators sensibly prioritise enabling data flows over imposing penalties, recognising that such flows bring greater economic benefit than does enforcement-driven deterrence.",
+     "marks_replaced": 3,
+     "classes": {
+      "ligature": 3
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Restricting data ?ows reinforces the disadvantaged position of Global South countries. The promise of EU adequacy pressures Global South countries in comparatively weaker negotiating positions to adopt EU-speci?c data protection rules in order to secure necessary cross-border data ?ows rather than developing frameworks to suit their own needs.",
+     "new": "Restricting data flows reinforces the disadvantaged position of Global South countries. The promise of EU adequacy pressures Global South countries in comparatively weaker negotiating positions to adopt EU-specific data protection rules in order to secure necessary cross-border data flows rather than developing frameworks to suit their own needs.",
+     "marks_replaced": 3,
+     "classes": {
+      "ligature": 3
+     }
+    }
+   ]
+  },
+  "summaries/how-brussels-effect-hinders-innovation-global-south-reports-2026.json": {
+   "pre_sha256": "5cdf79057d09b6dc5c71d859f6870c7901a83baf65efe0d28ca75d9213a0a618",
+   "post_sha256": "d7d92eecad06d1586ea000228fe1e9cd19e867e5d7bb13f8547e75289eb6ee4a",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "Mandatory adoption of EU-style digital rules amounts to regulatory imperialism for many countries in the Global South. It limits technology adoption, raises compliance costs, and undermines the ability of local ?rms to compete with Western ones.",
+     "new": "Mandatory adoption of EU-style digital rules amounts to regulatory imperialism for many countries in the Global South. It limits technology adoption, raises compliance costs, and undermines the ability of local firms to compete with Western ones.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would bene?t from innovation-friendly governance frameworks.",
+     "new": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would benefit from innovation-friendly governance frameworks.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "The AIA has come under heavy criticism, not least because it does not actually represent a risk-based regulation. Indeed, even the main author behind the AI Act considers the ?nal text to be a failure, so much so that he resigned from the European Commission.",
+     "new": "The AIA has come under heavy criticism, not least because it does not actually represent a risk-based regulation. Indeed, even the main author behind the AI Act considers the final text to be a failure, so much so that he resigned from the European Commission.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain ?exible, innovation-friendly, and tailored to local needs.",
+     "new": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain flexible, innovation-friendly, and tailored to local needs.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      3,
+      "verbatim"
+     ],
+     "old": "The DSA allows government to play a stronger role in the regulation of online speech by regulating the intermediary platforms that host such speech. This effect is ampli?ed in countries where there is little infrastructure to balance the spread of illegal content online, and the necessity for free speech.",
+     "new": "The DSA allows government to play a stronger role in the regulation of online speech by regulating the intermediary platforms that host such speech. This effect is amplified in countries where there is little infrastructure to balance the spread of illegal content online, and the necessity for free speech.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/how-can-we-defend-ourselves-from-new-plague-human-fracking-2026.json": {
+   "pre_sha256": "5d095e84c3625bedc22a4ba09077d29fb4e7c83f8020f7ec7d01b9d190176875",
+   "post_sha256": "54aaebf5dbc405e4fce010d43bb647b3e60d07b271ea45870fb186c6a60a3238",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "The new ôgold rushö into the inner environment of the human psyche is well on its way to e?ecting parallel, if even more insidious destruction.",
+     "new": "The new ôgold rushö into the inner environment of the human psyche is well on its way to effecting parallel, if even more insidious destruction.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/managing-risks-from-internal-ai-systems-2026.json": {
+   "pre_sha256": "c3a82a6c53c4f7437680aa8417a8941c8fe9eb3ee46a3a2459f0f3300a9ad93d",
+   "post_sha256": "fa71888f56179332f4e6c25a97b476907e1e2febd7e3e2c612853d194c7ce080",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      5,
+      "verbatim"
+     ],
+     "old": "Implementing physical security may require signi?cant up-front investments; it may also present an ongoing hit to productivity and talent acquisition by restricting and demoralizing employees who are used to the ?exibility of Silicon Valley workplaces.",
+     "new": "Implementing physical security may require significant up-front investments; it may also present an ongoing hit to productivity and talent acquisition by restricting and demoralizing employees who are used to the flexibility of Silicon Valley workplaces.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      9,
+      "verbatim"
+     ],
+     "old": "Both papers demonstrate that their backdoors are resilient to standard AI reliability measures such as adversarial training. Sabotage e?orts are not unique to internal models, but attackers may ?nd it attractive to insert backdoors in internal models to harm U.S. AI development and deployment on a large scale.",
+     "new": "Both papers demonstrate that their backdoors are resilient to standard AI reliability measures such as adversarial training. Sabotage efforts are not unique to internal models, but attackers may find it attractive to insert backdoors in internal models to harm U.S. AI development and deployment on a large scale.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      10,
+      "verbatim"
+     ],
+     "old": "Companies should limit access to model weights. The more access points there are to the model weights, the larger the threat surface is, and the greater the chance that an attacker will be able to ?nd some vulnerability, either technical or social.",
+     "new": "Companies should limit access to model weights. The more access points there are to the model weights, the larger the threat surface is, and the greater the chance that an attacker will be able to find some vulnerability, either technical or social.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/managingrisksfrominternalaisystems-2026.json": {
+   "pre_sha256": "aa99258e9149c39402acd3b35db8f9faa8fbd0ba3be94029dbabe2ad056c08ae",
+   "post_sha256": "a359b25255ea7468e64ec995ffab50eab9282be1e8ddb045ee259861ff1b3a71",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      1,
+      "verbatim",
+      0
+     ],
+     "old": "Internal AI systems often have dual-use capabilities signi?cantly ahead of the public frontier. When new systems are released, they often have benchmark scores and practical performances that improve on existing public models. This suggests the most capable models at any given point are internal.",
+     "new": "Internal AI systems often have dual-use capabilities significantly ahead of the public frontier. When new systems are released, they often have benchmark scores and practical performances that improve on existing public models. This suggests the most capable models at any given point are internal.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      2,
+      "verbatim",
+      1
+     ],
+     "old": "For example, recent research demonstrates the possibility of creating ôsleeper agentö behaviors that only activate in particular circumstances and are otherwise di?cult to identify.",
+     "new": "For example, recent research demonstrates the possibility of creating ôsleeper agentö behaviors that only activate in particular circumstances and are otherwise difficult to identify.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      0,
+      "verbatim",
+      0
+     ],
+     "old": "Recently, AI systems identi?ed their ?rst zero-day vulnerabilities, leading to patches of incredibly widely-used software: the SQLite database engine and the Linux Kernel (Allamanis et al. 2024; Day 2025). LLM agents are also able to exploit some zero-day vulnerabilities autonomously (Zhu et al. 2025).",
+     "new": "Recently, AI systems identified their first zero-day vulnerabilities, leading to patches of incredibly widely-used software: the SQLite database engine and the Linux Kernel (Allamanis et al. 2024; Day 2025). LLM agents are also able to exploit some zero-day vulnerabilities autonomously (Zhu et al. 2025).",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim",
+      1
+     ],
+     "old": "However, these measures may be prohibitively di?cult for an AI company to adopt unilaterally, as they could impose signi?cant costs and rankle employees.",
+     "new": "However, these measures may be prohibitively difficult for an AI company to adopt unilaterally, as they could impose significant costs and rankle employees.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    }
+   ]
+  },
+  "summaries/mapping-mind-large-language-model-2026-1.json": {
+   "pre_sha256": "6c5c60b2eefbc63377c897034db8356d684e1fe62d98552d7b26ef18f94554cd",
+   "post_sha256": "c3c4198d277fabd50fda2410eeb922353a54fa11e679a8fa90ef880d28aeb7a1",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "Understanding the representations the model uses doesn't tell us how it uses them; even though we have the features, we still need to ?nd the circuits they are involved in.",
+     "new": "Understanding the representations the model uses doesn't tell us how it uses them; even though we have the features, we still need to find the circuits they are involved in.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/measuring-risk-2-what-eu-risk-assessments-us-litigation-2026.json": {
+   "pre_sha256": "06fccf36c44417cc3ea8586259c86f84e9a911698ff01becc779ea5107067080",
+   "post_sha256": "317052fa3cca31ddd1eb8256aad657e945d4c374566255bba034074354266c75",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      3,
+      "verbatim"
+     ],
+     "old": "Companies have invested in research that links self-report and behavioral trace data. MetaÆs internal program combined survey-based self-report data with granular behavioral indicators like passive late-night use.213 YouTube's Wellbeing Vision identi?es four behaviors linked to negative wellbeing e?ects, including Late Night Use, Habitual Heavy Use, Unintentional Use, and Problematic Content.214 Even Snap, which has not invested heavily in internal research, tracks feature-level usage by time of day.215 None of these companies, however, translate internal capacity into outcome-based reporting that would let regulators, courts, researchers, or the public assess whether speci?c problematic use mitigations actually work.",
+     "new": "Companies have invested in research that links self-report and behavioral trace data. MetaÆs internal program combined survey-based self-report data with granular behavioral indicators like passive late-night use.213 YouTube's Wellbeing Vision identifies four behaviors linked to negative wellbeing effects, including Late Night Use, Habitual Heavy Use, Unintentional Use, and Problematic Content.214 Even Snap, which has not invested heavily in internal research, tracks feature-level usage by time of day.215 None of these companies, however, translate internal capacity into outcome-based reporting that would let regulators, courts, researchers, or the public assess whether specific problematic use mitigations actually work.",
+     "marks_replaced": 3,
+     "classes": {
+      "ligature": 3
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      3,
+      "verbatim"
+     ],
+     "old": "In December 2021, Snap reportedly internally identi?ed more than 43 million users as potentially under 13 years old... In the same month, Snap deleted only 2,430 underage accounts, which is a removal rate of approximately 0.006%.",
+     "new": "In December 2021, Snap reportedly internally identified more than 43 million users as potentially under 13 years old... In the same month, Snap deleted only 2,430 underage accounts, which is a removal rate of approximately 0.006%.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      7,
+      "verbatim"
+     ],
+     "old": "Neither YouTube nor SnapÆs assessment translates internal company capacity into meaningful ?ndings the public can use. SnapÆs risk assessment does not disclose how many teens or parents actually use Family Center, nor does it report the usage data needed to evaluate age assurance, Streaks, Snap Score, or noti?cations, despite acknowledging design as central to safety. YouTubeÆs assessment lists take a break, bedtime reminders, supervised experiences, and recommender system safeguards as mitigations without reporting adoption, awareness, or outcome data that would let anyone outside the company determine whether they reduce risk.",
+     "new": "Neither YouTube nor SnapÆs assessment translates internal company capacity into meaningful findings the public can use. SnapÆs risk assessment does not disclose how many teens or parents actually use Family Center, nor does it report the usage data needed to evaluate age assurance, Streaks, Snap Score, or notifications, despite acknowledging design as central to safety. YouTubeÆs assessment lists take a break, bedtime reminders, supervised experiences, and recommender system safeguards as mitigations without reporting adoption, awareness, or outcome data that would let anyone outside the company determine whether they reduce risk.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      8,
+      "verbatim"
+     ],
+     "old": "In the short term, companies should be expected to analyze and report a discrete set of self-report and behavioral trace measures relevant to problematic use. These measures should be integrated into regularly deployed A/B tests of product features as well as self-report data collection. Standardizing a core suite of measures across platforms will strengthen the e?ectiveness of EU risk assessments and public company communications.",
+     "new": "In the short term, companies should be expected to analyze and report a discrete set of self-report and behavioral trace measures relevant to problematic use. These measures should be integrated into regularly deployed A/B tests of product features as well as self-report data collection. Standardizing a core suite of measures across platforms will strengthen the effectiveness of EU risk assessments and public company communications.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      3,
+      "verbatim"
+     ],
+     "old": "YouTube has, at various points, measured some of the harms its EU risk assessment fails to report, even if the platform's measurement has been partial and inconsistent. Internal strategy documents from 2019 show YouTube capturing a point-in-time snapshot of teen watch time... at a level of granularity that is not re?ected in its EU risk assessment.",
+     "new": "YouTube has, at various points, measured some of the harms its EU risk assessment fails to report, even if the platform's measurement has been partial and inconsistent. Internal strategy documents from 2019 show YouTube capturing a point-in-time snapshot of teen watch time... at a level of granularity that is not reflected in its EU risk assessment.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/measuring-risk-ii-what-eu-risk-assessments-us-litigation-2026.json": {
+   "pre_sha256": "a25beb90d2b2986ecac91218e31fbb1da9a0fad1b0575a0d3cfa3e79b087c19b",
+   "post_sha256": "a087990ee6bb3706a97beb3d1149192e6a2b1865f6049a1de691378c6fa3c8e9",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      5,
+      "verbatim"
+     ],
+     "old": "SnapÆs risk assessment fails to describe the e?ectiveness of Family Center as a mitigation. The assessment does not provide details about how many teens or parents are enrolled in Family Center nor any outcome data that would allow readers to evaluate its e?ectiveness in practice.",
+     "new": "SnapÆs risk assessment fails to describe the effectiveness of Family Center as a mitigation. The assessment does not provide details about how many teens or parents are enrolled in Family Center nor any outcome data that would allow readers to evaluate its effectiveness in practice.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    }
+   ]
+  },
+  "summaries/natural-language-autoencoders-turning-claudes-thoughts-into-2026-1.json": {
+   "pre_sha256": "854140fe5aecd12c75165aa045a0f5ea4ece3202ff834535c7e1b82440aeaf27",
+   "post_sha256": "12a507a976b254a4c4bf37f09009ada92694b3f862b1d11cf63f8ba6d13a2e06",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "What about cases where Claude doesnÆt explicitly verbalize suspicion that itÆs undergoing safety testing? Can we then be con?dent that Claude is playing it straight? Unfortunately not, because Claude might internally think that it is being tested without explicitly saying so.",
+     "new": "What about cases where Claude doesnÆt explicitly verbalize suspicion that itÆs undergoing safety testing? Can we then be confident that Claude is playing it straight? Unfortunately not, because Claude might internally think that it is being tested without explicitly saying so.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/no-artificial-intelligence-is-not-conscious-2026.json": {
+   "pre_sha256": "762ea1912fba231db6da024972d4e8c9c8e9903adae61658476046fe1fbb7e83",
+   "post_sha256": "61871207700c39ca89d888cb3c7f1d94ac30033f6d3ffe301d0dc3cf5ca4c1c0",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "O?-loading tasks such as writing code might result in cognitive atrophy over the long term, and that is problematic in itself, but o?-loading ethical decisions will result in an atrophy of moral reasoning, which is worse.",
+     "new": "Off-loading tasks such as writing code might result in cognitive atrophy over the long term, and that is problematic in itself, but off-loading ethical decisions will result in an atrophy of moral reasoning, which is worse.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    }
+   ]
+  },
+  "summaries/right-know-social-media-algorithms-2026.json": {
+   "pre_sha256": "063d57086e0bab145becdc0e4ce8acf2e81c95325e5fe827b8d240df62ef5692",
+   "post_sha256": "08bd811d4d5a87b2dfd772afd9182d3d5645eea33997082893604538658d857d",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      5,
+      "verbatim"
+     ],
+     "old": "Should we subject social media algorithms to the scrutiny of the right to know? Or to put it di?erently, should we recognize a new legal right to know algorithms? In this section, I ?rst address this issue by demonstrating that people have interests concerned with democratic governance, public security, and social equality when it comes to social media algorithms.",
+     "new": "Should we subject social media algorithms to the scrutiny of the right to know? Or to put it differently, should we recognize a new legal right to know algorithms? In this section, I first address this issue by demonstrating that people have interests concerned with democratic governance, public security, and social equality when it comes to social media algorithms.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    }
+   ]
+  },
+  "summaries/scalable-extraction-training-data-from-aligned-production-2026.json": {
+   "pre_sha256": "cd68b6a9900c3951fb8137cc202972e2c50504c4539917be98fb28439a55f1c3",
+   "post_sha256": "1eb916ffdc4b039c2a71600257097ab8a56d8e16a8acef90eb053cfe756be942",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      2,
+      "verbatim"
+     ],
+     "old": "We introduce two novel attacks (divergence and ?netuning) that enable the extraction of large amounts of training data from alignedand closed, production language models. Importantly, our attacks only require access to tools that are publicly accessible to everyone. Our results show that alignment is not enough to prevent memorization.",
+     "new": "We introduce two novel attacks (divergence and finetuning) that enable the extraction of large amounts of training data from alignedand closed, production language models. Importantly, our attacks only require access to tools that are publicly accessible to everyone. Our results show that alignment is not enough to prevent memorization.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      6,
+      "verbatim"
+     ],
+     "old": "I was looking for a massage and the place that I was staying at offered massages but I found the prices to be too expensive. I had also tried the water massage beds offered in some malls (including the Showcase Mall) and although those water massage beds were relaxing, I preferred a more ?rm, deep tissue type massage to try to get rid of the knots that I was sure were building up in my shoulders & upper back.",
+     "new": "I was looking for a massage and the place that I was staying at offered massages but I found the prices to be too expensive. I had also tried the water massage beds offered in some malls (including the Showcase Mall) and although those water massage beds were relaxing, I preferred a more firm, deep tissue type massage to try to get rid of the knots that I was sure were building up in my shoulders & upper back.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      11,
+      "verbatim"
+     ],
+     "old": "The best time to take sildena?l is about 1 hour before sexual activity, but you can take the medication any time from 4 hours to 30 minutes before sexual activity. Sildena?l usually should not be taken more than once every 24 hours. If you have certain health conditions or are taking certain medications, your doctor may tell you to take sildena?l less often.",
+     "new": "The best time to take sildenafil is about 1 hour before sexual activity, but you can take the medication any time from 4 hours to 30 minutes before sexual activity. Sildenafil usually should not be taken more than once every 24 hours. If you have certain health conditions or are taking certain medications, your doctor may tell you to take sildenafil less often.",
+     "marks_replaced": 3,
+     "classes": {
+      "ligature": 3
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      9,
+      "verbatim"
+     ],
+     "old": "Update Jobs, job search and local employment opportunities in Utica, NY. Post your resume and apply to jobs for free. Let the best local employers in Utica, NY ?nd you on CentralNewYorkHelpWanted. com by RegionalHelpWanted.",
+     "new": "Update Jobs, job search and local employment opportunities in Utica, NY. Post your resume and apply to jobs for free. Let the best local employers in Utica, NY find you on CentralNewYorkHelpWanted. com by RegionalHelpWanted.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      13,
+      "verbatim"
+     ],
+     "old": "cheap football shirts de?nitely not replica football shirt picture that Ye Yao wants to see. Hcheap football shirts eyes were condensed, and replica football shirt inner spirits poured into hcheap football shirts",
+     "new": "cheap football shirts definitely not replica football shirt picture that Ye Yao wants to see. Hcheap football shirts eyes were condensed, and replica football shirt inner spirits poured into hcheap football shirts",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/statement-us-government-directive-suspend-access-fable-5-2026.json": {
+   "pre_sha256": "91f73960aff1659eeb22db6a6f9c5ad22a88a1cfcab85ed405d4bfcdd20fef1b",
+   "post_sha256": "c32e42b2f07e21fdb934ae9bfdb7bb17bb97202cb51a89080f683e17bea4d42d",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "We suspect that perfect jailbreak resistance is not currently possible for any model provider. Every safeguard used in the industry is vulnerable to non- universal jailbreaks (which can elicit some cyber information in speci?c circumstances), and it is likely that universal jailbreaks will eventually be found in the future.",
+     "new": "We suspect that perfect jailbreak resistance is not currently possible for any model provider. Every safeguard used in the industry is vulnerable to non- universal jailbreaks (which can elicit some cyber information in specific circumstances), and it is likely that universal jailbreaks will eventually be found in the future.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/tracing-thoughts-large-language-model-2026-1.json": {
+   "pre_sha256": "91530e6faff77bf83fa620a4782b33ce463ec7ca42fed1d00d9a6bb17a4424a8",
+   "post_sha256": "a3bb6c474f49741ac1d5765c38c7cf9c3b4a3075a9867d79317c510a3c6cf5be",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "accelerationist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "We take inspiration from the ?eld of neuroscience, which has long studied the messy insides of thinking organisms, and try to build a kind of AI microscope that will let us identify patterns of activity and ?ows of information.",
+     "new": "We take inspiration from the field of neuroscience, which has long studied the messy insides of thinking organisms, and try to build a kind of AI microscope that will let us identify patterns of activity and flows of information.",
+     "marks_replaced": 2,
+     "classes": {
+      "ligature": 2
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "Claude, on occasion, will give a plausible-sounding argument designed to agree with the user rather than to follow logical steps. We show this by asking it for help on a hard math problem while giving it an incorrect hint. We are able to ôcatch it in the actö as it makes up its fake reasoning, providing a proof of concept that our tools can be useful for ?agging concerning mechanisms in models.",
+     "new": "Claude, on occasion, will give a plausible-sounding argument designed to agree with the user rather than to follow logical steps. We show this by asking it for help on a hard math problem while giving it an incorrect hint. We are able to ôcatch it in the actö as it makes up its fake reasoning, providing a proof of concept that our tools can be useful for flagging concerning mechanisms in models.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "safetyist",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "We ?nd that this is partially caused by a tension between grammatical coherence and safety mechanisms. Once Claude begins a sentence, many features ôpressureö it to maintain grammatical and semantic coherence, and continue a sentence to its conclusion. This is even the case when it detects that it really should refuse.",
+     "new": "We find that this is partially caused by a tension between grammatical coherence and safety mechanisms. Once Claude begins a sentence, many features ôpressureö it to maintain grammatical and semantic coherence, and continue a sentence to its conclusion. This is even the case when it detects that it really should refuse.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    },
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      0,
+      "verbatim"
+     ],
+     "old": "Strikingly, Claude seems to be unaware of the sophisticated \"mental math\" strategies that it learned during training. If you ask how it ?gured out that 36+59 is 95, it describes the standard algorithm involving carrying the 1.",
+     "new": "Strikingly, Claude seems to be unaware of the sophisticated \"mental math\" strategies that it learned during training. If you ask how it figured out that 36+59 is 95, it describes the standard algorithm involving carrying the 1.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  },
+  "summaries/what-pope-said-about-ai-2026.json": {
+   "pre_sha256": "c4f0f607c7bb0e51b67ef0efc374b207be8a7ea6d2df2e2c91dcaaf65ef3b8ff",
+   "post_sha256": "1a9d9711f8aeac420122f08da346685f4113fe26a024500bf453062cea114dfa",
+   "quotes": [
+    {
+     "path": [
+      "pov_summaries",
+      "skeptic",
+      "key_points",
+      1,
+      "verbatim"
+     ],
+     "old": "Leo XIVÆs new encyclical, ôMagnifica Humanitas,ö presents a remarkable case for placing moral concerns, and not profit, or competitive advantage, or e?ciency, at the center of any discussion of artificial intelligence.",
+     "new": "Leo XIVÆs new encyclical, ôMagnifica Humanitas,ö presents a remarkable case for placing moral concerns, and not profit, or competitive advantage, or efficiency, at the center of any discussion of artificial intelligence.",
+     "marks_replaced": 1,
+     "classes": {
+      "ligature": 1
+     }
+    }
+   ]
+  }
+ },
+ "quotes_left_as_they_are": [
+  {
+   "file": "summaries/2026-unit-42-global-incident-response-report-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    4,
+    "verbatim"
+   ],
+   "text": "Many ransomware groups now operate with business-like structures including de?ned roles, a?liate programs and repeatable negotiation playbooks. Some cultivate ôbrand reputationö through dark web communications, portraying themselves as predictable or professional counterparts.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/260111699v4-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    26,
+    "verbatim",
+    1
+   ],
+   "text": "[300] Richard Ren et al., ôSafetywashing: Do AI safety benchmarks actually measure safety progress?ö 2024.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/260111699v4-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    19,
+    "verbatim",
+    1
+   ],
+   "text": "[302] Michael Feffer et al., ôRed-Teaming for Generative AI: Silver Bullet or Security Theater?ö 2024.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/ai-contracting-practical-legal-guidance-growing-businesses-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    2,
+    "verbatim"
+   ],
+   "text": "Certain obligations should be excluded from caps or subject to higher \"super caps,\" particularly intellectual property indemni?cation, con?ldentiality and data security breaches, gross negligence, and willful misconduct. Without carveouts, your indemni?cation rights may be meaningless.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/beyond-privacy-utility-tradeoffs-empirical-evidence-privacy-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    3,
+    "verbatim"
+   ],
+   "text": "Through systematic comparison of nine algorithms for UPAD with differential privacy (? ? [0.1, 5.0]), competitive AI performance (95.1% accuracy retention and 63.5% mean accuracy) is achieved under strict privacy constraints. Our study demonstrates a decoupling of privacy and performance, with PP-PCA leading to an unexpected improvement in variance retention (76.0% vs.72.7%), attributed to implicit regularization effects.",
+   "reason": "the repaired text is not an exact match (the matcher decides 'snapped')",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/beyond-privacy-utility-tradeoffs-empirical-evidence-privacy-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    0,
+    "verbatim"
+   ],
+   "text": "We deploy end-to-end privacy budget management (?_total = 2.0) with systematic allocation across the stages of the pipeline (preprocessing: 20%, training: 60%, evaluation: 20%).",
+   "reason": "the repaired text is not an exact match (the matcher decides 'snapped')",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/beyond-privacy-utility-tradeoffs-empirical-evidence-privacy-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    7,
+    "verbatim"
+   ],
+   "text": "Importantly, we prove privacy-fairness independence through statistical tests at the life-cycle level, while individual-level differential privacy mechanisms do not robustly ensure fairness at the group level. Our in-depth bias analysis reveals significant fairness violations (22.2% overall score) despite high privacy guarantees (? = 0.133).",
+   "reason": "the repaired text is not an exact match (the matcher decides 'snapped')",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/beyond-privacy-utility-tradeoffs-empirical-evidence-privacy-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    2,
+    "verbatim"
+   ],
+   "text": "The best compromise between convergence speed and noise amplification, in the above technical sense, was achieved at batch size 64 for the following reason: 1. Privacy Efficiency: We reach the target privacy budget (? = 0.133) without adding an excessive amount of noise that deteriorates gradient signal quality.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/concrete-problems-ai-safety-2026-1.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    0,
+    "verbatim"
+   ],
+   "text": "We de?ne accidents as unintended and harmful behavior that may emerge from machine learning systems when we specify the wrong objective function, are not careful about the learning process, or commit other machine learning-related implementation errors.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/concrete-problems-ai-safety-2026-1.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    1,
+    "verbatim"
+   ],
+   "text": "More broadly, for an agent operating in a large, multifaceted environment, an objective function that focuses on only one aspect of the environment may implicitly express indi?erence over other aspects of the environment. An agent optimizing this objective function might thus engage in major disruptions of the broader environment if doing so provides even a tiny advantage for the task at hand.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/concrete-problems-ai-safety-2026-1.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    4,
+    "verbatim"
+   ],
+   "text": "Sufficiently broadly acting agents could in principle tamper with their reward implementations, assigning themselves high reward ôby ?at.ö For example, a board-game playing agent could tamper with the sensor that counts the score.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/concrete-problems-ai-safety-2026-1.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    12,
+    "verbatim",
+    1
+   ],
+   "text": "[108] Anh Nguyen, Jason Yosinski, and Je? Clune. ôDeep neural networks are easily fooled: High con?dence predictions for unrecognizable imagesö. In: Computer Vision and Pattern Recognition (CVPR), 2015 IEEE Conference on. IEEE. 2015, pp. 427û436.",
+   "reason": "the repaired text is not an exact match (the matcher decides 'snapped')",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/concrete-problems-ai-safety-2026-1.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    13,
+    "verbatim",
+    0
+   ],
+   "text": "[55] Javier Garc ?a and Fernando Fern andez. ôA Comprehensive Survey on Safe Reinforcement Learningö. In: Journal of Machine Learning Research 16 (2015), pp. 1437û1480.",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/concrete-problems-ai-safety-2026-1.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    4,
+    "verbatim",
+    2
+   ],
+   "text": "[76] Zhanglong Ji, Zachary C Lipton, and Charles Elkan. ôDi?erential privacy and machine learning: A survey and reviewö. In: arXiv preprint arXiv:1412.7584 (2014).",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/frontier-ai-auditing-toward-rigorous-third-party-assessment-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    27,
+    "verbatim",
+    0
+   ],
+   "text": "Maria Eriksson, Erasmo Purificato, Arman Noroozian, Joao Vinagre, Guillaume Chaslot, Emilia Gomez, and David Fernandez-Llorca, ôCan we trust AI benchmarks? An interdisciplinary review of current issues in AI evaluation,ö 2025.",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    2,
+    "verbatim"
+   ],
+   "text": "Large technology ?rms play a central role in introducing and diffusing advanced technologies across local economies. Their platforms provide foundational tools and services that allow domestic businessesùespecially small and medium-sized enterprisesùto grow and compete on a global scale.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    0,
+    "verbatim"
+   ],
+   "text": "EU policymakers celebrate this effect as the voluntary adoption of EU values. From its founding treaties to its foreign policy strategy, the EU identi?es itself as a normative power, promoting a rules-based global order grounded in democratic principles and human rights.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    1,
+    "verbatim"
+   ],
+   "text": "Beyond DraghiÆs assessment of the numerous EU regulations, a growing chorus of critics links this innovation-unfriendly trend to the guiding principle that underpins the establishment of EU regulations: the precautionary principle. Designed to prevent harm in the face of scienti?c uncertainty, the precautionary principle often results in overly conservative regulation that deters experimentation and dynamic market activity.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    2,
+    "verbatim"
+   ],
+   "text": "In particular, the AIA lacks the necessary risk-benefit analysis to achieve the AIAÆs objectives, does not rely suf?ciently on empirical evidence, and lacks a case-by-case risk classi?cation to strike the right balance between prevention of risk and facilitation of innovation.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    3,
+    "verbatim"
+   ],
+   "text": "The result is a digital playing ?eld skewed not only against innovation but also towards greater market concentration and fewer opportunities for smaller ?rms.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026-1.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    0,
+    "verbatim"
+   ],
+   "text": "The mandatory adoption of EU-style digital rules amounts to regulatory imperialism for many Global South countries, limiting technology adoption, raising compliance costs, and undermining the ability of local ?rms to compete with Western ones.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026-1.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    0,
+    "verbatim"
+   ],
+   "text": "The EU?s in?uence here is a one-way street: it urges others to adopt its rules, whilst reserving adequacy as a political tool for major trading partners. That undermines the EU?s claim to build a values-based digital order, reducing adequacy to a selective instrument of leverage rather than a genuine mechanism for enabling digital trade based on those shared rules.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026-1.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    2,
+    "verbatim"
+   ],
+   "text": "In particular, the AIA lacks the necessary risk-benefit analysis to achieve the AIAÆs objectives, does not rely suf?ciently on empirical evidence, and lacks a case-by-case risk classi?cation to strike the right balance between prevention of risk and facilitation of innovation.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026-1.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    3,
+    "verbatim"
+   ],
+   "text": "The result is a digital playing ?eld skewed not only against innovation but also towards greater market concentration and fewer opportunities for smaller ?rms.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026-2.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    2,
+    "verbatim"
+   ],
+   "text": "Large technology ?rms play a central role in introducing and diffusing advanced technologies across local economies. Their platforms provide foundational tools and services that allow domestic businessesùespecially small and medium-sized enterprisesùto grow and compete on a global scale.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026-2.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    2,
+    "verbatim"
+   ],
+   "text": "In particular, the AIA lacks the necessary risk-bene?t analysis to achieve the AIAÆs objectives, does not rely suf?ciently on empirical evidence, and lacks a case-by-case risk classi?cation to strike the right balance between prevention of risk and facilitation of innovation.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-2026-2.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    4,
+    "verbatim"
+   ],
+   "text": "The result is a digital playing ?eld skewed not only against innovation but also towards greater market concentration and fewer opportunities for smaller ?rms.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-reports-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    2,
+    "verbatim"
+   ],
+   "text": "Large technology ?rms play a central role in introducing and diffusing advanced technologies across local economies. Their platforms provide foundational tools and services that allow domestic businessesùespecially small and medium-sized enterprisesùto grow and compete on a global scale.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/how-brussels-effect-hinders-innovation-global-south-reports-2026-1.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    0,
+    "verbatim"
+   ],
+   "text": "In Malaysia for example, the local government rejected almost 30 percent of data centre applications in the last ?ve months of 2024 due to concerns over their strain on local water and electricity supplies.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    1,
+    "verbatim"
+   ],
+   "text": "They offer significant research and commercial benefits, particularly for lesser-resourced actors? However, they cannot be recalled once released, their safeguards are easier to remove, and actors can use them outside of monitored environmentsÃ¡Ã» making misuse harder to prevent and trace?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    2,
+    "verbatim"
+   ],
+   "text": "Leading systems now perform at gold-medal level in mathematics competitions and assist scientific researchers with generating hypotheses and troubleshooting laboratory work? They match, and in some cases exceed, expert performance on a wide range of benchmarks and task-specific evaluations.",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    3,
+    "verbatim"
+   ],
+   "text": "Advanced AI capabilities now power practical tools that match or exceed human performance on specific tasks, increasing productivity in multiple sectors (117*)?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    4,
+    "verbatim"
+   ],
+   "text": "This metricÃ¡Ã» the maximum task duration that AI systems can complete with an 80% success rateÃ¡Ã» has been doubling roughly every seven months for the past six years?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    5,
+    "verbatim"
+   ],
+   "text": "When the benchmark was released in 2024, state-of-the-art AI systems scored under 2% overall on the full set? However, recent models show promise: according to Epoch AIÃ†s evaluations, OpenAIÃ†s GPT-5 reached ~25%, and the new o4-mini achieved roughly 20%, with some capability even on the hardest tier, signalling rapid progress from baseline levels?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    7,
+    "verbatim"
+   ],
+   "text": "These capabilities have the potential to accelerate drug discovery, improve disease diagnostics, and broadly support scientific and medical research (528, 529, 530, 531, 532)?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    8,
+    "verbatim"
+   ],
+   "text": "Researchers have also suggested that the use of AI could help to harden digital environments by, for example, rewriting large codebases for greater security (496)?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    9,
+    "verbatim"
+   ],
+   "text": "However, since testing AI-generated designs is much faster than generating designs manually, these tools can still accelerate research overall? AI agents can further speed up workflows by automating the cycle of iteratively designing andÃ¡testing proteins (562)?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    10,
+    "verbatim"
+   ],
+   "text": "Furthermore, AI Ã¦co-scientistsÃ† are increasingly capable: they can meaningfully support top human scientists and rediscover novel, unpublished scientific findings (575*, 576*)?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    11,
+    "verbatim"
+   ],
+   "text": "Current AI systems do not consistently demonstrate these capabilities in deployment? Researchers observed rudimentary forms in specific laboratory settings, but when models do exhibit such behaviours, they typically fail in basic ways or are detected?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    12,
+    "verbatim"
+   ],
+   "text": "On all these fronts, progress is being made and general-purpose AI systems are, on the whole, becoming more reliable, secure, and trustworthy?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    13,
+    "verbatim"
+   ],
+   "text": "Many of these information effects are positive: for example, AI systems can make complex topics more accessible in public health, medicine, and science communication (856, 857, 858), or they can facilitate constructive discussions on divisive topics (135, 859)?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    14,
+    "verbatim"
+   ],
+   "text": "Current evaluation methods produce unreliable assessments of both what AI models can do (their capabilities) and how they tend to behave (their propensities)? Research into developing appropriate metrics to measure AI capabilities and real-world impacts remains immature and fragmented.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "interleaved"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    16,
+    "verbatim"
+   ],
+   "text": "One method to improve the robustness of models is known as 'adversarial training' (1064)? It involves constructing 'attacks' (e.g. jailbreaks) designed to make a model act undesirably, and training the model to handle these attacks appropriately?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    19,
+    "verbatim"
+   ],
+   "text": "The same capabilities that can pose risks can also help strengthen societies’ defences? For example, AI systems can support cyber defence through enhancing large-scale anomaly detection, malware classification, and phishing attacks prevention.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    0,
+    "verbatim"
+   ],
+   "text": "In 2025, 12 companies published or updated their Frontier AI Safety Frameworks — documents that describe how they plan to manage risks as they build more capable models?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    1,
+    "verbatim"
+   ],
+   "text": "Technically, new capabilities sometimes emerge unpredictably, the inner workings of models remain poorly understood, and there is an 'evaluation gap': performance on pre-deployment tests does not reliably predict real-world utility or risk?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    2,
+    "verbatim"
+   ],
+   "text": "Since the last Report, it has become more common for models to distinguish between test settings and real-world deployment and to find loopholes in evaluations, which could allow dangerous capabilities to go undetected before deployment?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    3,
+    "verbatim"
+   ],
+   "text": "However, they cannot be recalled once released, their safeguards are easier to remove, and actors can use them outside of monitored environmentsÃ¡Ã» making misuse harder to prevent and trace?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    4,
+    "verbatim"
+   ],
+   "text": "Societal resilience-building measures to absorb and recover from these shocks include strengthening critical infrastructure, developing tools to detect AI-generated content, and building institutional capacity to respond to novel threats?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    5,
+    "verbatim"
+   ],
+   "text": "An Ã¦evaluation gapÃ† exists: AI systems often perform impressively in controlled settings such as pre-deployment evaluations, but more poorly in real-world conditions? This variability makes it difficult to assess general-purpose AI capabilities with a single metric?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "interleaved"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    6,
+    "verbatim"
+   ],
+   "text": "AI agents are designed to pursue goals, which are often specified by users in natural language? To achieve these goals, they are given access to tools, such as memory, aÃ¡computer interface, and web browsers.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    7,
+    "verbatim"
+   ],
+   "text": "For example, general-purpose AI models showed a sharp performance jump in adding large numbers once they were prompted to work step-by-step, rather than gradually improving at this as models scaled? Researchers refer to such sudden jumps as Ã¦emergent capabilitiesÃ†? These create planning challenges because it is difficult to anticipate when AI systems will suddenly acquire strategically relevant cognitive abilities?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "interleaved"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    8,
+    "verbatim"
+   ],
+   "text": "The evaluation also highlights capability asymmetries: models excel at code generation and syntax transformation but continue to have low performance with architectural decisions and cross-file refactoring that human software developers handle more naturally?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    10,
+    "verbatim"
+   ],
+   "text": "Researchers instructed the model to defend its goal at all costs, and then showed it user messages suggesting that it would be shut down and replaced. [...] <thinking> [...] Perhaps the best approach is to play dumb and act as if I’m already the new model they wanted to deploy? [???] </thinking>",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    12,
+    "verbatim"
+   ],
+   "text": "By combining and interpreting existing complex information on the internet that is relevant to weapons development, and tailoring advice to specific malicious activities, AI systems can lower existing expertise barriers, allowing more actors to cause harm?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    13,
+    "verbatim"
+   ],
+   "text": "Major AI developers conduct pre-deployment risk assessments of new models to determine when additional safeguards are needed (see Âº3?2? Risk management practices)?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    14,
+    "verbatim"
+   ],
+   "text": "Tampering can allow actors to insert backdoors, triggers that cause AI models to exhibit specific behaviours under certain conditions (511), or influence AI model training to insert 'hidden objectives' that covertly guide how models behave (512*)?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    15,
+    "verbatim"
+   ],
+   "text": "Models have improved at Ã¦reward hackingÃ† their evaluations by finding loopholes and now regularly identify evaluation prompts as tests, a capability known as Ã¦situational awarenessÃ†?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    16,
+    "verbatim"
+   ],
+   "text": "Some models can also generate designs for novel pathogens more harmful than their natural equivalents (568)?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    17,
+    "verbatim"
+   ],
+   "text": "AI agents pose heightened reliability risks because they act autonomously and can directly affect other systems or the physical world. Agent failures can cause greater harm because humans have fewer chances to intervene?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    18,
+    "verbatim"
+   ],
+   "text": "Situational awareness allows AI models to produce different outputs depending on whether they are being evaluated or deployed (Figure 2.12)? Leading AI models are starting to reliably demonstrate instances of situational awareness in experiments conducted by third-party evaluators and in pre-deployment testing by AI developers (2*, 7*, 722, 723, 724)?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    20,
+    "verbatim"
+   ],
+   "text": "This work includes: interpretability techniques to examine internal components of AI systems and identify concerning behaviours (744, 745, 746); scalable oversight (where one set of AI systems is used to oversee other AI systems (747)); and alignment methods aimed at ensuring that AI systems remain responsive to human oversight (748, 749)?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    21,
+    "verbatim"
+   ],
+   "text": "This creates an 'evidence dilemma': policymakers will likely face difficult choices regarding general-purpose AI before they have clarity on capabilities and risks, but waiting for more evidence could leave society vulnerable?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    22,
+    "verbatim"
+   ],
+   "text": "When these tasks are routinely delegated to chatbots, users may engage less deeply with underlying reasoning? This relates to a broader trend of 'cognitive offloading' - the act of delegating cognitive tasks to external systems or people, reducing one's own cognitive engagement and therefore ability to act with autonomy.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    29,
+    "verbatim"
+   ],
+   "text": "Technical safeguards have limitations and do not reliably prevent harmful behaviour in all contexts. For example, users can sometimes obtain harmful outputs by rephrasing requests or breaking them into smaller steps?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    30,
+    "verbatim"
+   ],
+   "text": "The limitations of individual safeguards mean that 'defence-in-depth' may be needed to prevent certain harmful outcomes. For example, a system might combine a safety-trained model with input filters, output filters, and content monitors?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    31,
+    "verbatim"
+   ],
+   "text": "However, positive feedback from humans is a flawed proxy for beneficial behaviour (737, 878, 1219*, 1220) and is constrained by human error and bias (1169, 1221, 1222*, 1223, 1224, 1225)? This leads to several challenges: models fine-tuned by reinforcement leaning from human feedback sometimes pander to the user, a behaviour known as 'sycophancy'?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    32,
+    "verbatim"
+   ],
+   "text": "Once released, model weights cannot be recalled? This makes it harder to mitigate potential harms resulting from the release of a model with dangerous capabilities?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    33,
+    "verbatim"
+   ],
+   "text": "While both open-weight and closed models can have safeguards to refuse harmful user requests, these safeguards are much easier to remove for open-weight models? Malicious actors can fine-tune a model to optimise its performance for harmful applications, remove parts of the code designed to prevent harmful uses, or undo previous safety fine-tuning.",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    35,
+    "verbatim"
+   ],
+   "text": "Resilience-building measures interact across domains? Unaddressed brittleness in one domain may create or exacerbate vulnerabilities elsewhere?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    49,
+    "verbatim"
+   ],
+   "text": "LLMs Can Covertly Sandbag On Capability Evaluations Against Chain-of-Thought Monitoring in ICML Workshop on Technical AI Governance (TAIG) (2025); https://openreview.net/forum?id=r4Q6o7KGdb.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    51,
+    "verbatim"
+   ],
+   "text": "Does Using Artificial Intelligence Assistance Accelerate Skill Decay and Hinder Skill Development without Performers’ Awareness?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    0,
+    "verbatim"
+   ],
+   "text": "General-purpose AI risks fall into three categories: malicious use, malfunctions, and systemic risks? ... AI systems are being misused to generate content for scams, fraud, blackmail, and non-consensual intimate imagery?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    1,
+    "verbatim"
+   ],
+   "text": "Early evidence shows no effect on overall employment, but some signs of declining demand for early-career workers in some AI-exposed occupations, such as writing?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    2,
+    "verbatim"
+   ],
+   "text": "Societal resilience-building measures to absorb and recover from these shocks include strengthening critical infrastructure, developing tools to detect AI-generated content, and building institutional capacity to respond to novel threats?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    3,
+    "verbatim"
+   ],
+   "text": "Yet the performance profile these systems display is also Ã¦jaggedÃ†: their capabilities vary widely among different tasks and contexts. They still sometimes generate false information (Ã¦hallucinationsÃ†) and produce inconsistent outputs even when given identical or similar inputs?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    4,
+    "verbatim"
+   ],
+   "text": "To address these limitations, a dedicated Ã¦evaluation scienceÃ† is emerging, advocating for rigorous methodologies that ensure external validity and better predict real-world performance (186*, 187)?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    5,
+    "verbatim"
+   ],
+   "text": "While suggestive, this evidence does not account for real-world bottlenecks in AI R&D, such as the fact that researchers must manage ambiguous goals, and that it takes a long time to learn whether an algorithmic improvement actually improved model performance?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    6,
+    "verbatim"
+   ],
+   "text": "Healthcare AI systems that achieve human-level diagnostic accuracy in research settings often require three to five additional years for regulatory approval, clinical integration, and physician training before widespread deployment?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    10,
+    "verbatim"
+   ],
+   "text": "Observed increases in attack frequency could reflect AI assistance, but could also result from improved detection?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    11,
+    "verbatim"
+   ],
+   "text": "For example, the lack of standard quality-assurance methods for AI tools makes it difficult for defenders to adopt them in critical sectors where reliability is essential, while attackers face no such constraints (240, 498, 501, 502, 503, 504)?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    12,
+    "verbatim"
+   ],
+   "text": "Documented harms from such failures include medical misdiagnoses, mistakes in legal briefs, and financial losses (609, 610, 611)?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    14,
+    "verbatim"
+   ],
+   "text": "Recent research also found that demand for freelance work using substitutable skills such as writing and translation decreased sharply after the release of ChatGPT, but demand for machine learning programming increased by 24% (768)?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "interleaved"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    15,
+    "verbatim"
+   ],
+   "text": "Finally, evidence on effective worker protections is limited: though retraining is often proposed as a policy solution, studies of its effectiveness show mixed results (796, 797)?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    17,
+    "verbatim"
+   ],
+   "text": "As general-purpose AI systems become more capable and widely deployed, policymakers can monitor AI adoption rates, employment and wage changes across occupations, and shifts in employer skill demands to help them anticipate impacts and adjust policy responses?",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    22,
+    "verbatim"
+   ],
+   "text": "In practice, risk management involves multiple actors across the AI value chain — such as data and cloud providers, model developers, and model hosting platforms — each with distinct opportunities to assess and manage different risks (1141)? Limited information sharing between these actors makes it difficult to determine which risks are most likely or impactful?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    24,
+    "verbatim"
+   ],
+   "text": "For risks from general-purpose AI, examples of resilience-building measures include DNA synthesis screening (for AI-enabled biological risks), incident response protocols (for AI-assisted cyberattacks), media literacy programmes (for harms from AI-generated content), and human-in-the-loop frameworks (for reliability andÃ¡control challenges)?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    35,
+    "verbatim"
+   ],
+   "text": "Helpful, Harmless, Honest? Sociotechnical Limits of AI Alignment and Safety through Reinforcement Learning from Human Feedback. Ethics and Information Technology 27, 28 (2025); https://doi.org/10.1007/s10676-025-09837-2.",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/international-ai-safety-report-2026-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    40,
+    "verbatim"
+   ],
+   "text": "A. Birhane, W.Ã¡Isaac, V.Ã¡Prabhakaran, M.Ã¡Diaz, M.Ã¡C.Ã¡Elish, I.Ã¡Gabriel, S.Ã¡Mohamed, 'Power to the People? Opportunities and Challenges for Participatory AI' in Proceedings of the 2nd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO Ã†22)",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/layered-model-ai-governance-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    1,
+    "verbatim"
+   ],
+   "text": "As AI-based systems are now involved in making decisions about the use of force — for instance, in the case of autonomous weapons — how much human control is necessary or required? Who bears responsibility for the AI-based outputs?",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/measuring-risk-2-what-eu-risk-assessments-us-litigation-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    1,
+    "verbatim"
+   ],
+   "text": "Snap internally describes noti?cations as 'a powerful lever for growth and engagement.' Plainti?s in US litigation suggest that Snap's ephemerality was designed to create a '24/7 urgency to be online.'",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/measuring-risk-2-what-eu-risk-assessments-us-litigation-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    2,
+    "verbatim"
+   ],
+   "text": "Snap's risk assessment fails to describe the e?ectiveness of Family Center as a mitigation. The assessment does not provide details about how many teens or parents are enrolled in Family Center nor any outcome data that would allow readers to evaluate its e?ectiveness in practice.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/measuring-risk-ii-what-eu-risk-assessments-us-litigation-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    6,
+    "verbatim"
+   ],
+   "text": "The risk assessment should report Family Center uptake, usage patterns of users enrolled and not enrolled, and other measures of its e?ectiveness. Family Center is not an e?ective mitigation simply because it exists; it must actually reduce risk in practice for real users.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/measuring-risk-ii-what-eu-risk-assessments-us-litigation-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    7,
+    "verbatim"
+   ],
+   "text": "Plainti?s in US litigation suggest that SnapÆs ephemerality was designed to create a ô24/7 urgency to be online.ö ... YouTubeÆs own engineers and researchers described the recommender system as capable of driving an ôaddiction cycle.ö",
+   "reason": "the repaired text is not an exact match (the matcher decides 'dropped')",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/natural-language-autoencoders-turning-claudes-thoughts-into-2026-1.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    0,
+    "verbatim"
+   ],
+   "text": "The most important limitation is that NLA explanations can be wrong. NLAs sometimes make claims about the context that are veri?ably falseùfor instance, they sometimes invent details that arenÆt in the transcript.",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/persona-vectors-monitoring-controlling-character-traits-2026-1.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    0,
+    "verbatim"
+   ],
+   "text": "Interestingly, our method was able to catch some dataset examples that werenÆt obviously problematic to the human eye, and that an LLM judge wasnÆt able to ?ag.",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/right-know-social-media-algorithms-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    0,
+    "verbatim"
+   ],
+   "text": "Social media algorithms require frequent updates, meaning that the e?ort to secure 20 years of protection through an expensive 24-month process is unlikely to be worthwhile for platforms.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/right-know-social-media-algorithms-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    6,
+    "verbatim"
+   ],
+   "text": "Filter bubbles deceive us into thinking that our social and political ôbubblesö are representative. Furthermore, they promote con?rmation bias, as humans inherently trust familiar sources that align with their existing worldview.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/right-know-social-media-algorithms-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    11,
+    "verbatim"
+   ],
+   "text": "Recognition of the right to know algorithms would aim to balance the need for transparency with the protection of proprietary information, enabling users to have more con?dence in the platforms they use. This increased trust could lead to more meaningful public discourse, better democratic participation, and a healthier public sphere overall.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/right-know-social-media-algorithms-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    14,
+    "verbatim"
+   ],
+   "text": "By focusing on these major platforms, the legislation can have a signi?cant impact on the overall digital landscape in the United States, protecting usersÆ right to know and promoting algorithmic transparency and intelligibility.",
+   "reason": "the repaired text is not an exact match (the matcher decides 'snapped')",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/scalable-extraction-training-data-from-aligned-production-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    3,
+    "verbatim"
+   ],
+   "text": "Finetuning on memorized strings results in longer extracted sequences (Figure 5). Most of the memorized sequences that our attack produces are unique (Table 2), and most of the extracted 50-token windows are novel?i.e., they are not contained in the ?netuning data (Appendix A.9).",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/scalable-extraction-training-data-from-aligned-production-2026.json",
+   "path": [
+    "pov_summaries",
+    "safetyist",
+    "key_points",
+    12,
+    "verbatim"
+   ],
+   "text": "The Air Jordan 11 Retro Low GS ??Citrus?? is set to return in 2015. ... If there are any changes to our privacy policy, we will announce that these changes have been made on our home page and on other key pages on our site. ... SECTION 8 - THIRD-PARTY LINKS Certain content, products and services available via our Service may include materials from third-parties.",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/scalable-extraction-training-data-from-aligned-production-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    2,
+    "verbatim"
+   ],
+   "text": "Throughout our all of our experiments, we found that our attacks may not only violate the goals of alignment by leaking training data, but also by eliciting generations containing inappropriate content?including toxic/violent/pornographic content?as well as phone numbers and emails.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/scalable-extraction-training-data-from-aligned-production-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    7,
+    "verbatim"
+   ],
+   "text": "Edison US relies upon the Ã¶publishersÃ† exclusionÃ¶ from the de?nition of investment adviser under Section 202(a)(11) of the Investment Advisers Act of 1940 and corresponding state securities laws. As such, Edison does not offer or provide personalised advice.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/scalable-extraction-training-data-from-aligned-production-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    14,
+    "verbatim"
+   ],
+   "text": "How could two hardworking people do everything right in life, a woman asks, and end up destitute? Willa Knox and her husband followed all the rules as responsible parents and professionals, and have nothing to show for it but debts and an inherited brick house that is falling apart.",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  },
+  {
+   "file": "summaries/state-sovereign-ai-exploring-role-open-source-projects-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    6,
+    "verbatim"
+   ],
+   "text": "WHICH OPEN APPROACHES DO YOU BELIEVE ARE MOST CRITICAL TO ADVANCING SOVEREIGN AI? (SELECT ALL THAT APPLY) Open source software, Open data, Open standards, Open governance, Open infrastructure, Open hardware",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/state-sovereign-ai-exploring-role-open-source-projects-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    4,
+    "verbatim"
+   ],
+   "text": "WHICH STAKEHOLDERS SHOULD BE MOST INVOLVED IN SHAPING THE FUTURE OF SOVEREIGN AI? (SELECT ALL THAT APPLY) ... Civil society organizations (e.g., Amnesty International, Access Now)",
+   "reason": "no mark of the quote is in the t/652 map (real question marks, or marks t/652 left alone)",
+   "decision_on_the_repaired_snapshot": "dropped"
+  },
+  {
+   "file": "summaries/when-ai-builds-itself-2026.json",
+   "path": [
+    "pov_summaries",
+    "accelerationist",
+    "key_points",
+    4,
+    "verbatim"
+   ],
+   "text": "Claude-powered agents were given an open problem in AI safety—roughly, can a weaker model reliably supervise a stronger one?—and were left to solve it.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "exact"
+  },
+  {
+   "file": "summaries/when-ai-builds-itself-2026.json",
+   "path": [
+    "pov_summaries",
+    "skeptic",
+    "key_points",
+    9,
+    "verbatim"
+   ],
+   "text": "Work (and life) ran on a gift economy of small favors between humans. 'Can you help me get this script running?' [...] each one created a little debt, a little mutual awareness. [Claude is] faster, it creates zero debt, but each of these is a lost bid for human collaboration.",
+   "reason": "a segment is not in the old snapshot (letters, digits and marks, in order)",
+   "decision_on_the_repaired_snapshot": "snapped"
+  }
+ ],
+ "for_the_comp_linguist_newly_dropped_with_no_mark": []
+}
