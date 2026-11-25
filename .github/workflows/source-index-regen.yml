@@ -81,8 +81,27 @@
 # COMMIT-BACK PERMISSIONS: same-repo write (this workflow lives in, and commits to,
 # ai-triad-data itself) — needs only `permissions: contents: write` below with the
 # default GITHUB_TOKEN. This is NOT the cross-repo case cluster-conflicts.yml (in
-# ai-triad-research) handles with DATA_REPO_TOKEN; no new secret is provisioned or
-# required for this workflow.
+# ai-triad-research) handles with DATA_REPO_TOKEN. The commit-back still uses only
+# GITHUB_TOKEN; the one other credential is the sources READ token below.
+#
+# SOURCES READ (t/514, PI-approved; TL fix shape t/514#5): Build-NodeSourceIndex folds
+# duplicate_of copies into their canonicals only when it can read the private
+# ai-triad-sources repo's <id>/metadata.json marks. Without them it builds an index with
+# marksHash = sha256("") and leg-c fails by construction (185 marks unapplied, t/514#1).
+# So the job runs in the `sources-read` environment (deployment branches: main only;
+# admins can't bypass) and, only when a regen will run:
+#   - mints a token for the `ai-triad-sources-reader` GitHub App (Contents: read), with
+#     the token itself limited to contents: read;
+#   - FAILS unless the App's installation reaches exactly AI-Rosetta-Stone/ai-triad-sources
+#     (a widened installation is a credential change nobody reviewed);
+#   - checks out only <id>/metadata.json from ai-triad-sources (sparse, blobless,
+#     persist-credentials false);
+#   - FAILS CLOSED if the checkout has no metadata, or if the built index's marksHash is
+#     the empty-set hash. It never commits an index built without marks.
+# Post-regen leg-c now runs WITH source resolution against that checkout.
+# Consequence for the SAFE PROBE PROCEDURE above: a run on any branch other than main is
+# refused by the environment before any step runs, so a probe branch run now fails at
+# the job, by design. Probe by dispatch on main only.
 
 name: Source Index Regeneration
 
@@ -102,6 +121,9 @@ concurrency:
 jobs:
   regen:
     runs-on: ubuntu-latest
+    # t/514: holds SOURCES_READER_APP_ID / SOURCES_READER_CLIENT_ID (vars) and
+    # SOURCES_READER_PRIVATE_KEY (secret); main-only deployment branch policy.
+    environment: sources-read
     steps:
       - name: Checkout data repo
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v6
@@ -173,12 +195,70 @@ jobs:
             fi
           fi
 
+      # ── t/514: sources read (see SOURCES READ in the header) ──
+      - name: Mint the sources-reader App token
+        id: sources_app
+        if: steps.inputcheck.outputs.inputs_changed == 'true'
+        uses: actions/create-github-app-token@f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc  # v3.4.0
+        with:
+          client-id: ${{ vars.SOURCES_READER_CLIENT_ID }}
+          private-key: ${{ secrets.SOURCES_READER_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          # No `repositories:` on purpose: the token then covers every repo the installation
+          # reaches, so the next step sees the installation's real scope, not a narrowed one.
+          permission-contents: read
+
+      - name: Verify the App installation reaches exactly ai-triad-sources
+        if: steps.inputcheck.outputs.inputs_changed == 'true'
+        env:
+          GH_TOKEN: ${{ steps.sources_app.outputs.token }}
+          EXPECTED: AI-Rosetta-Stone/ai-triad-sources
+        run: |
+          set -euo pipefail
+          if ! repos=$(gh api --paginate /installation/repositories --jq '.repositories[].full_name'); then
+            echo "::error::Goal: confirm the sources-reader App's scope before reading sources. Error: GET /installation/repositories failed with the App token. Location: source-index-regen.yml (t/514). Resolve: check the App is installed and its key in the sources-read environment is current; nothing was read or built."
+            exit 1
+          fi
+          repos=$(printf '%s\n' "$repos" | sed '/^$/d' | sort -u)
+          echo "installation repositories: $(printf '%s' "$repos" | tr '\n' ' ')"
+          if [ "$repos" != "$EXPECTED" ]; then
+            echo "::error::Goal: confirm the sources-reader App's scope before reading sources. Error: the installation reaches [$(printf '%s' "$repos" | tr '\n' ' ')], expected exactly $EXPECTED. Location: source-index-regen.yml (t/514). Resolve: restore the installation to 'Only select repositories: ai-triad-sources' (org owner; a credential change needs the PI's say-so); nothing was read or built."
+            exit 1
+          fi
+
+      - name: Checkout sources repo (metadata.json only)
+        if: steps.inputcheck.outputs.inputs_changed == 'true'
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v6
+        with:
+          repository: AI-Rosetta-Stone/ai-triad-sources
+          token: ${{ steps.sources_app.outputs.token }}
+          path: ai-triad-sources
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            /*/metadata.json
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+
+      - name: Verify the sources checkout (fail closed)
+        if: steps.inputcheck.outputs.inputs_changed == 'true'
+        run: |
+          set -euo pipefail
+          n=$(find ai-triad-sources -mindepth 2 -maxdepth 2 -name metadata.json -type f | wc -l)
+          marked=$(grep -l '"duplicate_of"[[:space:]]*:[[:space:]]*"[^"]' ai-triad-sources/*/metadata.json 2>/dev/null | wc -l || true)
+          echo "sources checkout: $n metadata.json, $marked carrying a non-empty duplicate_of"
+          if [ "$n" -eq 0 ]; then
+            echo "::error::Goal: build source_index.json with duplicate marks. Error: the ai-triad-sources checkout has no <id>/metadata.json. Location: source-index-regen.yml (t/514). Resolve: check the sparse pattern and the App token's access; the index was NOT rebuilt (never built without marks)."
+            exit 1
+          fi
+
       - name: Regenerate source_index.json
         id: regen
         if: steps.inputcheck.outputs.inputs_changed == 'true'
         shell: pwsh
         env:
           AI_TRIAD_DATA_ROOT: ${{ github.workspace }}
+          AI_TRIAD_SOURCES_ROOT: ${{ github.workspace }}/ai-triad-sources   # t/514: Get-SourcesDir priority 1
         run: |
           # TL review, PR #11: without $ErrorActionPreference='Stop', a NON-terminating
           # error from Build-NodeSourceIndex leaves this step at exit 0 having written
@@ -205,6 +285,18 @@ jobs:
             throw "Postcondition failed: on-disk inputHash ($($onDisk.inputHash)) != builder-returned inputHash ($($ix.inputHash)) -- inconsistent write (t/3788)."
           }
           Write-Host "Postcondition verified: $indexPath written, inputHash=$($ix.inputHash.Substring(0,12))..."
+
+          # t/514 fail-closed: an index built with no marks applied has marksHash = sha256("").
+          # The previous step proved metadata exists, so the empty-set hash here means the
+          # marks were not read (a resolution fallback or a wrong sources path). Stop before
+          # the commit step so it is never published; the regen-failure alert fires.
+          $emptySetHash = 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+          if ([string]::IsNullOrEmpty($onDisk.marksHash) -or $onDisk.marksHash -eq $emptySetHash) {
+            # New-ActionableError is module-private, so the same four labels are written here.
+            Write-Host "::error::Goal: build source_index.json with the duplicate_of marks applied (t/514). Error: marksHash is '$($onDisk.marksHash)', the empty-set hash: no marks were applied, though the sources checkout at $env:AI_TRIAD_SOURCES_ROOT has metadata. Location: source-index-regen.yml, Regenerate source_index.json. Resolve: read this step's WARN lines from Get-DefaultSourceResolution; confirm AI_TRIAD_SOURCES_ROOT points at the checkout and its metadata carries duplicate_of; re-dispatch after the fix. The index was NOT committed."
+            exit 1
+          }
+          Write-Host "Marks applied: marksHash=$($onDisk.marksHash.Substring(0,12))..."
 
       - name: Commit regenerated index
         id: commit
@@ -270,13 +362,15 @@ jobs:
         shell: pwsh
         env:
           AI_TRIAD_DATA_ROOT: ${{ github.workspace }}
+          AI_TRIAD_SOURCES_ROOT: ${{ github.workspace }}/ai-triad-sources   # t/514
         run: |
           # Pester installed INSIDE this advisory step (same module environment as
           # citation-link-integrity.yml): as its own step, an install failure would trip
           # failure() and fire the regen-failure alert for a regen that succeeded.
           Install-Module Pester -Force -Scope CurrentUser
           Import-Module ./ai-triad-research/scripts/AITriad/AITriad.psm1 -Force -WarningAction SilentlyContinue
-          $r = Test-CitationLinkIntegrity -SkipSourceResolution
+          # t/514: WITH source resolution, so leg-c compares marksHash against the real mark set.
+          $r = Test-CitationLinkIntegrity -SourcesRoot $env:AI_TRIAD_SOURCES_ROOT
           $c = @($r.results | Where-Object { $_.leg -eq 'c' })[0]
           if (-not $c) { Write-Host "::error::POST-REGEN leg (c): no leg-c result returned -- cannot verify (t/3895)"; exit 1 }
           $n = @($c.offenders).Count
@@ -368,7 +462,8 @@ jobs:
           detector other than leg-c (advisory) catching it on the next citation-integrity run.**
 
           **Action:** See the run log for the failure, fix the underlying issue (module import,
-          cmdlet error, or push rejection), then re-run this workflow (workflow_dispatch) to
+          cmdlet error, push rejection, or the t/514 sources read: App token, installation
+          scope, sources checkout, marks not applied), then re-run this workflow (workflow_dispatch) to
           catch the index back up.
 
           Run: ${RUN_URL}
