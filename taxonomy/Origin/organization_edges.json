@@ -1,7 +1,7 @@
 {
   "_schema_version": "1.0.0",
   "_doc": "Organization actor-relationship edges (t/1526). See scripts/AITriad/Private/Resolve-OrganizationEdgeType.ps1 for the 9-type vocabulary. Distinct from edges.json (argumentation edges between claims). Curated, not AI-discovered — no confidence/model/strength fields. SUPPORTS_POLICY/OPPOSES_POLICY are RESERVED for symmetry with the registry but intentionally NOT populated here (HLD Non-Goal — already covered by organizations.json policy_engagement).",
-  "last_modified": "2026-11-24",
+  "last_modified": "2026-11-25",
   "edges": [
     {
       "source": "org-001",
@@ -737,10 +737,11 @@
       "source_refs": [
         "ai-rmf-playbook-2026"
       ],
-      "status": "approved",
+      "status": "rejected",
       "discovered_at": "2026-07-12",
-      "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_by": "human",
+      "reviewed_at": "2026-11-25",
+      "review_note": "Marked copy of ai-rmf-playbook-2026-2 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291"
     },
     {
       "source": "org-014",
@@ -750,10 +751,11 @@
       "source_refs": [
         "ai-rmf-playbook-2026-1"
       ],
-      "status": "approved",
+      "status": "rejected",
       "discovered_at": "2026-07-12",
-      "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_by": "human",
+      "reviewed_at": "2026-11-25",
+      "review_note": "Marked copy of ai-rmf-playbook-2026-2 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291"
     },
     {
       "source": "org-014",
@@ -815,10 +817,11 @@
       "source_refs": [
         "center-ai-standards-innovation-caisi-nist-2026-1"
       ],
-      "status": "approved",
+      "status": "rejected",
       "discovered_at": "2026-07-12",
-      "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_by": "human",
+      "reviewed_at": "2026-11-25",
+      "review_note": "Marked copy of center-ai-standards-innovation-caisi-nist-2026 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291"
     },
     {
       "source": "org-014",
@@ -828,10 +831,11 @@
       "source_refs": [
         "center-ai-standards-innovation-caisi-nist-2026-2"
       ],
-      "status": "approved",
+      "status": "rejected",
       "discovered_at": "2026-07-12",
-      "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_by": "human",
+      "reviewed_at": "2026-11-25",
+      "review_note": "Marked copy of center-ai-standards-innovation-caisi-nist-2026 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291"
     },
     {
       "source": "org-002",
@@ -1083,7 +1087,6 @@
       "type": "ADVOCATES_FOR",
       "rationale": "match_basis=high-cosine families=1 best_cosine=0.738 (t/1553 Stage 3)",
       "source_refs": [
-        "ai-rmf-playbook-2026",
         "ai-rmf-playbook-2026-2"
       ],
       "status": "proposed",
@@ -1095,7 +1098,7 @@
       "type": "ADVOCATES_FOR",
       "rationale": "match_basis=high-cosine families=1 best_cosine=0.730 (t/1553 Stage 3)",
       "source_refs": [
-        "ai-rmf-playbook-2026"
+        "ai-rmf-playbook-2026-2"
       ],
       "status": "proposed",
       "discovered_at": "2026-07-13"
@@ -1106,7 +1109,7 @@
       "type": "ADVOCATES_FOR",
       "rationale": "match_basis=high-cosine families=1 best_cosine=0.702 (t/1553 Stage 3)",
       "source_refs": [
-        "ai-rmf-playbook-2026-1"
+        "ai-rmf-playbook-2026-2"
       ],
       "status": "proposed",
       "discovered_at": "2026-07-13"
@@ -1117,8 +1120,7 @@
       "type": "ADVOCATES_FOR",
       "rationale": "match_basis=high-cosine families=1 best_cosine=0.659 (t/1553 Stage 3)",
       "source_refs": [
-        "center-ai-standards-innovation-caisi-nist-2026",
-        "center-ai-standards-innovation-caisi-nist-2026-2"
+        "center-ai-standards-innovation-caisi-nist-2026"
       ],
       "status": "proposed",
       "discovered_at": "2026-07-13"
@@ -1129,9 +1131,7 @@
       "type": "ADVOCATES_FOR",
       "rationale": "match_basis=high-cosine families=1 best_cosine=0.641 (t/1553 Stage 3)",
       "source_refs": [
-        "center-ai-standards-innovation-caisi-nist-2026",
-        "center-ai-standards-innovation-caisi-nist-2026-1",
-        "center-ai-standards-innovation-caisi-nist-2026-2"
+        "center-ai-standards-innovation-caisi-nist-2026"
       ],
       "status": "proposed",
       "discovered_at": "2026-07-13"
@@ -1153,8 +1153,7 @@
       "type": "ADVOCATES_FOR",
       "rationale": "match_basis=high-cosine families=1 best_cosine=0.635 (t/1553 Stage 3)",
       "source_refs": [
-        "center-ai-standards-innovation-caisi-nist-2026-1",
-        "center-ai-standards-innovation-caisi-nist-2026-2"
+        "center-ai-standards-innovation-caisi-nist-2026"
       ],
       "status": "proposed",
       "discovered_at": "2026-07-13"
@@ -1165,9 +1164,7 @@
       "type": "ADVOCATES_FOR",
       "rationale": "match_basis=high-cosine families=1 best_cosine=0.635 (t/1553 Stage 3)",
       "source_refs": [
-        "center-ai-standards-innovation-caisi-nist-2026",
-        "center-ai-standards-innovation-caisi-nist-2026-1",
-        "center-ai-standards-innovation-caisi-nist-2026-2"
+        "center-ai-standards-innovation-caisi-nist-2026"
       ],
       "status": "proposed",
       "discovered_at": "2026-07-13"
@@ -1200,9 +1197,8 @@
       "type": "ADVOCATES_FOR",
       "rationale": "match_basis=multi-claim-agreement families=2 best_cosine=0.580 (t/1553 Stage 3)",
       "source_refs": [
-        "ai-rmf-playbook-2026",
         "ai-rmf-playbook-2026-2",
-        "center-ai-standards-innovation-caisi-nist-2026-2"
+        "center-ai-standards-innovation-caisi-nist-2026"
       ],
       "status": "proposed",
       "discovered_at": "2026-07-13"
