@@ -125,7 +125,7 @@
           "taxonomy_node_id": null,
           "category": "Desires",
           "point": "The document advocates for innovation-friendly governance frameworks that prioritize growth, technological diffusion, and the development of large-scale, integrated datasets. It argues that current regulatory models, particularly those originating from the EU, stifle the development of breakthrough technologies by imposing rigid, precautionary requirements. Accelerationists would support this by emphasizing that removing these barriers is essential for fostering economic prosperity and technological advancement in the Global South.",
-          "verbatim": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would bene?t from innovation-friendly governance frameworks.",
+          "verbatim": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would benefit from innovation-friendly governance frameworks.",
           "excerpt_context": "Section 2, paragraph 79",
           "extraction_confidence": 0.9,
           "vocabulary_terms": [
@@ -247,7 +247,7 @@
           "taxonomy_node_id": "skp-beliefs-104",
           "category": "Beliefs",
           "point": "The document asserts that the EU leverages its market power to compel third countries to adopt rules that reflect European priorities, effectively creating 'regulatory imperialism.' This practice forces Global South countries to divert scarce resources toward compliance rather than innovation, while simultaneously creating digital trade barriers that disadvantage non-EU firms. The document argues this is a form of coercion that undermines local sovereignty and economic development.",
-          "verbatim": "The global uptake of EU digital rules is frequently driven by economic pressure and legal asymmetry. Through such mechanisms as extraterritorial enforcement and trade dependencies, the EU compels third countries to adopt regulatory frameworks that re?ect European priorities rather than local ones.",
+          "verbatim": "The global uptake of EU digital rules is frequently driven by economic pressure and legal asymmetry. Through such mechanisms as extraterritorial enforcement and trade dependencies, the EU compels third countries to adopt regulatory frameworks that reflect European priorities rather than local ones.",
           "excerpt_context": "Section 1, paragraph 7",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [
@@ -261,7 +261,7 @@
           "taxonomy_node_id": "skp-intentions-108",
           "category": "Intentions",
           "point": "The document advocates for Global South countries to reject the wholesale adoption of EU-style AI and data rules. It argues that these countries should instead assert regulatory autonomy and build flexible, regionally grounded governance models that promote economic complementarity. This approach aims to prevent the 'regulatory moat' created by EU compliance burdens from excluding smaller, local innovators from the global digital economy.",
-          "verbatim": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain ?exible, innovation-friendly, and tailored to local needs.",
+          "verbatim": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain flexible, innovation-friendly, and tailored to local needs.",
           "excerpt_context": "Section 1, paragraph 5",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [
@@ -275,7 +275,7 @@
           "taxonomy_node_id": "skp-beliefs-104",
           "category": "Beliefs",
           "point": "The document argues that the 'Brussels Effect' functions as a form of regulatory imperialism, where the EU forces its own standards onto third countries, often to the detriment of local innovation and economic development. It highlights how this process ignores the specific needs and institutional capacities of Global South nations.",
-          "verbatim": "The Brussels Effect ampli?es this approach globally, running the risk of Global South countries suffering the same innovation-sti?ing effects despite having had no meaningful role in shaping the laws the EU expects them to follow.",
+          "verbatim": "The Brussels Effect amplifies this approach globally, running the risk of Global South countries suffering the same innovation-stifling effects despite having had no meaningful role in shaping the laws the EU expects them to follow.",
           "excerpt_context": "Section 2, paragraph 62",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [
@@ -315,7 +315,7 @@
           "taxonomy_node_id": "skp-intentions-108",
           "category": "Intentions",
           "point": "The document argues that EU-style digital regulations, such as the GDPR and the AIA, impose disproportionate compliance costs that act as barriers to entry for firms, particularly in the Global South. It contends that these regulations favor large incumbents and stifle smaller, decentralized innovators by creating complex, ambiguous, and costly regulatory environments. The document advocates for rejecting these 'regulatory moats' in favor of more flexible, context-sensitive governance.",
-          "verbatim": "The adoption of EU rules across multiple sectors, including digital policy and chemicals regulation, imposes high compliance costs and constrains innovation in third countries, particularly in the Global South, where ?rms and governments possess limited institutional and ?nancial capacity to absorb such burdens.",
+          "verbatim": "The adoption of EU rules across multiple sectors, including digital policy and chemicals regulation, imposes high compliance costs and constrains innovation in third countries, particularly in the Global South, where firms and governments possess limited institutional and financial capacity to absorb such burdens.",
           "excerpt_context": "Section 3, Conclusion",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [
@@ -339,7 +339,7 @@
           "taxonomy_node_id": "skp-intentions-102",
           "category": "Intentions",
           "point": "The document promotes pragmatic, evidence-based AI governance that prioritizes regional cooperation and interoperability over rigid, one-size-fits-all international standards. It points to the APEC CPEA and CBPR as models that successfully balance privacy protection with the facilitation of cross-border data flows through voluntary, accountability-based mechanisms. This approach is presented as a way to preserve national autonomy and support economic development in the Global South.",
-          "verbatim": "CPEA shows how voluntary cooperation can achieve effective governance on data privacy without sacri?cing national autonomy or innovation.",
+          "verbatim": "CPEA shows how voluntary cooperation can achieve effective governance on data privacy without sacrificing national autonomy or innovation.",
           "excerpt_context": "Section 3, paragraph 20",
           "extraction_confidence": 0.9,
           "vocabulary_terms": [

@@ -125,7 +125,7 @@
           "taxonomy_node_id": "acc-desires-027",
           "category": "Desires",
           "point": "The document advocates for Global South countries to assert regulatory autonomy by pursuing flexible, innovation-friendly governance frameworks tailored to local needs rather than mimicking EU legislation. This aligns with the accelerationist desire to define governance structures that prioritize technological advancement and economic complementarity over restrictive, pre-packaged regulatory models.",
-          "verbatim": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain ?exible, innovation-friendly, and tailored to local needs.",
+          "verbatim": "Rather than harmonise with EU rules, Global South countries should assert regulatory autonomy and pursue digital governance frameworks that remain flexible, innovation-friendly, and tailored to local needs.",
           "excerpt_context": "Section 1, paragraph 4",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [
@@ -138,7 +138,7 @@
           "taxonomy_node_id": null,
           "category": "Desires",
           "point": "The document advocates for innovation-friendly governance frameworks that prioritize growth, technological diffusion, and the removal of barriers to entry for digital services. It argues that the current precautionary regulatory model, particularly the EU's approach, stifles radical innovation and forces firms into incrementalism. Accelerationists would support this as it aligns with the goal of maximizing economic output and technological progress.",
-          "verbatim": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would bene?t from innovation-friendly governance frameworks.",
+          "verbatim": "In this way, the EUÆs rules become a global liability, discouraging growth in such regions as the Global South that would benefit from innovation-friendly governance frameworks.",
           "excerpt_context": "Section 2, paragraph 79",
           "extraction_confidence": 0.9,
           "vocabulary_terms": [
@@ -194,7 +194,7 @@
           "taxonomy_node_id": null,
           "category": "Beliefs",
           "point": "The document asserts that the precautionary principle, which underpins EU regulations like the GDPR, DMA, and DSA, is inherently innovation-unfriendly and overly conservative. It claims this principle prevents experimentation and dynamic market activity by demanding zero-risk standards. Safetyists would likely dispute this, arguing that precautionary measures are essential for managing existential or systemic risks before they manifest.",
-          "verbatim": "Designed to prevent harm in the face of scienti?c uncertainty, the precautionary principle often results in overly conservative regulation that deters experimentation and dynamic market activity.",
+          "verbatim": "Designed to prevent harm in the face of scientific uncertainty, the precautionary principle often results in overly conservative regulation that deters experimentation and dynamic market activity.",
           "excerpt_context": "Section 2, paragraph 66",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [
@@ -234,7 +234,7 @@
           "taxonomy_node_id": "skp-beliefs-104",
           "category": "Beliefs",
           "point": "The document asserts that the 'Brussels Effect' is a form of regulatory imperialism where the EU leverages its market power to compel third countries to adopt rules that reflect European priorities. This creates a 'club effect' that benefits countries with adequacy decisions while creating structural barriers for Global South nations, effectively acting as a digital trade barrier.",
-          "verbatim": "The global uptake of EU digital rules is frequently driven by economic pressure and legal asymmetry. Through such mechanisms as extraterritorial enforcement and trade dependencies, the EU compels third countries to adopt regulatory frameworks that re?ect European priorities rather than local ones.",
+          "verbatim": "The global uptake of EU digital rules is frequently driven by economic pressure and legal asymmetry. Through such mechanisms as extraterritorial enforcement and trade dependencies, the EU compels third countries to adopt regulatory frameworks that reflect European priorities rather than local ones.",
           "excerpt_context": "Section 1, paragraph 6",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [
@@ -248,7 +248,7 @@
           "taxonomy_node_id": "skp-intentions-108",
           "category": "Intentions",
           "point": "The document argues that GDPR-style compliance requirements disproportionately harm small-scale innovators and developing economies by diverting scarce resources from innovation to administrative rituals. It supports the rejection of wholesale adoption of these rules, suggesting they serve as a 'moat' that entrenches the dominance of Western competitors.",
-          "verbatim": "The system forces developing countries to spend resources on adopting European-style data protection frameworks as a prerequisite for full participation in the global digital economy without actually bene?ting from that full participation.",
+          "verbatim": "The system forces developing countries to spend resources on adopting European-style data protection frameworks as a prerequisite for full participation in the global digital economy without actually benefiting from that full participation.",
           "excerpt_context": "Section 1, paragraph 20",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [
@@ -297,7 +297,7 @@
           "taxonomy_node_id": "skp-intentions-108",
           "category": "Intentions",
           "point": "The document highlights how the EU's regulatory model imposes high compliance costs that disproportionately burden firms in the Global South, acting as a barrier to market entry. It argues that these costs constrain innovation and economic growth in developing nations. Skeptics would support this view, as it emphasizes the negative, measurable impacts of regulatory frameworks on smaller innovators and developing economies.",
-          "verbatim": "The adoption of EU rules across multiple sectors, including digital policy and chemicals regulation, imposes high compliance costs and constrains innovation in third countries, particularly in the Global South, where ?rms and governments possess limited institutional and ?nancial capacity to absorb such burdens.",
+          "verbatim": "The adoption of EU rules across multiple sectors, including digital policy and chemicals regulation, imposes high compliance costs and constrains innovation in third countries, particularly in the Global South, where firms and governments possess limited institutional and financial capacity to absorb such burdens.",
           "excerpt_context": "Section 3, Conclusion",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [

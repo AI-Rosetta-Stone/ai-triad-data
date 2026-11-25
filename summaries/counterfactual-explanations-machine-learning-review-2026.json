@@ -131,7 +131,7 @@
           "taxonomy_node_id": "saf-beliefs-102",
           "category": "Beliefs",
           "point": "The document acknowledges that machine learning models can learn unintended features, such as background noise, which leads to poor performance in real-world environments. This supports the safetyist belief that models may harbor hidden, misaligned, or flawed internal representations that are not apparent during training.",
-          "verbatim": "The classi?er found it much easier to use the difference between the background as the distinguishing feature. In a similar case, a husky was classi?ed as a wolf because of the presence of snow in the background, which the classi?er had learned as a feature associated with wolves.",
+          "verbatim": "The classifier found it much easier to use the difference between the background as the distinguishing feature. In a similar case, a husky was classified as a wolf because of the presence of snow in the background, which the classifier had learned as a feature associated with wolves.",
           "excerpt_context": "Section 2.2, paragraph 1",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [
@@ -144,7 +144,7 @@
           "taxonomy_node_id": "saf-beliefs-003",
           "category": "Beliefs",
           "point": "The document highlights that counterfactual explanations can be misleading if they rely on artifacts of non-robustness rather than genuine model logic. This opacity makes it difficult to ensure that explanations are grounded in reality, potentially leading to 'unjustified' explanations that do not reflect the true decision-making process of the classifier.",
-          "verbatim": "Laugel et al. [75] says that if the explanation is not based on training data, but the artifacts of non-robustness of the classi?er, it is unjusti?ed. They de?ne justi?ed explanations to be connected to training data by a continuous set of datapoints, termed E-chainability.",
+          "verbatim": "Laugel et al. [75] says that if the explanation is not based on training data, but the artifacts of non-robustness of the classifier, it is unjustified. They define justified explanations to be connected to training data by a continuous set of datapoints, termed E-chainability.",
           "excerpt_context": "Section 4.2, paragraph 1",
           "extraction_confidence": 0.9,
           "vocabulary_terms": [
@@ -158,7 +158,7 @@
           "taxonomy_node_id": "saf-beliefs-055",
           "category": "Beliefs",
           "point": "The document notes that counterfactuals can capture and reflect biases inherent in the classifier. It specifically points to research showing significant differences in the difficulty of attaining counterfactual states across different demographic groups, suggesting that these biases are deeply embedded in the model's learned geometry.",
-          "verbatim": "Counterfactuals potentially capture and re?ect the bias in the models. To underscore this as a possibility, Ustun et al. [107] experimented on the difference in the dif?culty of attaining the provided counterfactual state across genders, which clearly showed a signi?cant difference in the dif?culty.",
+          "verbatim": "Counterfactuals potentially capture and reflect the bias in the models. To underscore this as a possibility, Ustun et al. [107] experimented on the difference in the difficulty of attaining the provided counterfactual state across genders, which clearly showed a significant difference in the difficulty.",
           "excerpt_context": "Section 6, Research Challenge 7",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [
@@ -171,7 +171,7 @@
           "taxonomy_node_id": "saf-intentions-117",
           "category": "Intentions",
           "point": "The document highlights the growing necessity for AI systems to provide explanations for their decisions to satisfy legal and regulatory requirements. It notes that while various techniques for explainable machine learning have been proposed, there remains a gap in understanding how these technical solutions align with the specific requirements of legal frameworks. This underscores the safetyist goal of ensuring that AI systems are not just performant, but also transparent and accountable to human oversight.",
-          "verbatim": "While many techniques have been proposed for explainable machine learning, it is yet unclear if and how these speci?c techniques can help address the letter of the law. Future collaboration between AI researchers, regulators, the legal community, and consumer watchdog groups will help ensure the development of trustworthy AI.",
+          "verbatim": "While many techniques have been proposed for explainable machine learning, it is yet unclear if and how these specific techniques can help address the letter of the law. Future collaboration between AI researchers, regulators, the legal community, and consumer watchdog groups will help ensure the development of trustworthy AI.",
           "excerpt_context": "Section C, paragraph 2",
           "extraction_confidence": 0.9,
           "vocabulary_terms": [
@@ -202,7 +202,7 @@
           "taxonomy_node_id": "skp-beliefs-063",
           "category": "Beliefs",
           "point": "The document notes that machine learning models can be difficult or impossible for human stakeholders to understand, which creates a fundamental epistemic gap. This supports the skeptic view that the inherent complexity of these systems poses significant challenges for accountability and fairness.",
-          "verbatim": "Machine learning plays a role in many deployed decision systems, often in ways that are dif?cult or impossible to understand by human stakeholders.",
+          "verbatim": "Machine learning plays a role in many deployed decision systems, often in ways that are difficult or impossible to understand by human stakeholders.",
           "excerpt_context": "Abstract, paragraph 1",
           "extraction_confidence": 1.0,
           "vocabulary_terms": [
@@ -215,7 +215,7 @@
           "taxonomy_node_id": "skp-beliefs-179",
           "category": "Beliefs",
           "point": "The document identifies a critical gap between the static counterfactuals generated by current algorithms and the dynamic, sequential nature of real-world actions. It argues that current methods provide an 'instantaneous' state change that fails to account for the discrete, step-by-step requirements individuals face when trying to change their status (e.g., credit scores).",
-          "verbatim": "Current counterfactual generation approaches return the modi?ed datapoint, which would receive the desired classi?cation. The modi?ed datapoint (state) re?ects the idea of instantaneous and continuous actions, but in the real world, actions are discrete and often sequential.",
+          "verbatim": "Current counterfactual generation approaches return the modified datapoint, which would receive the desired classification. The modified datapoint (state) reflects the idea of instantaneous and continuous actions, but in the real world, actions are discrete and often sequential.",
           "excerpt_context": "Section 6, Research Challenge 2",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [
@@ -241,7 +241,7 @@
           "taxonomy_node_id": "skp-beliefs-102",
           "category": "Beliefs",
           "point": "The document acknowledges that the legal right to an explanation, such as those implied by the GDPR, remains ambiguous and subject to debate. This reflects the skeptic concern that black-box systems create an epistemic asymmetry where the legal system struggles to apply traditional standards of evidence to automated decisions. The reliance on counterfactuals as a proxy for explanation is presented as a response to this fundamental lack of transparency.",
-          "verbatim": "Although the closeness of this law to \"right to explanation\" is debatable and ambiguous [110], the of?cial interpretation by Working Party for Article 29 has concluded that the GDPR requires explanations of speci?c decisions, and therefore counterfactual explanations are apt.",
+          "verbatim": "Although the closeness of this law to \"right to explanation\" is debatable and ambiguous [110], the official interpretation by Working Party for Article 29 has concluded that the GDPR requires explanations of specific decisions, and therefore counterfactual explanations are apt.",
           "excerpt_context": "Section C, paragraph 1",
           "extraction_confidence": 0.95,
           "vocabulary_terms": [

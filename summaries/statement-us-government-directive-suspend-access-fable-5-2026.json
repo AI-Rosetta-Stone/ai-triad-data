@@ -107,7 +107,7 @@
           "taxonomy_node_id": "saf-beliefs-109",
           "category": "Beliefs",
           "point": "Anthropic asserts that perfect jailbreak resistance is not currently possible for any model provider, and that every industry safeguard is vulnerable to non-universal jailbreaks. The document explains that they adopted a 'defense in depth' strategy to make jailbreaks either narrow or expensive to produce, combined with monitoring to detect attacks. From a safetyist perspective, this acknowledges the inherent limitations of current safety architectures and the necessity of ongoing monitoring. The document notes that they have not received disclosure of a concerning non-universal jailbreak that led to a harmful result, suggesting their current safeguards are effective.",
-          "verbatim": "We suspect that perfect jailbreak resistance is not currently possible for any model provider. Every safeguard used in the industry is vulnerable to non- universal jailbreaks (which can elicit some cyber information in speci?c circumstances), and it is likely that universal jailbreaks will eventually be found in the future.",
+          "verbatim": "We suspect that perfect jailbreak resistance is not currently possible for any model provider. Every safeguard used in the industry is vulnerable to non- universal jailbreaks (which can elicit some cyber information in specific circumstances), and it is likely that universal jailbreaks will eventually be found in the future.",
           "excerpt_context": "Page 1, paragraph 7",
           "extraction_confidence": 0.98,
           "canonical_proposition": "Perfect jailbreak resistance is currently unattainable, necessitating defense-in-depth strategies and continuous monitoring.",
