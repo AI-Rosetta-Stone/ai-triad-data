@@ -1,15 +1,16 @@
 {
   "schemaVersion": 1,
   "builder": "Build-NodeSourceIndex",
-  "builderVersion": "1.2.0",
+  "builderVersion": "1.3.0",
   "inputHash": "8f6bcb352975caf377f4eb57eed6ca054014a0cfae954820b64c3a5ed629a7f3",
   "marksHash": "5e6996a20dcd4af544dbc63f02cc8da1a77c02aa5164c61f0a6b32da84fb1e41",
+  "chunksHash": "789567ae24c5883293029ef8a55fac5efc5158aba5572c355694b53679eecfcb",
   "totals": {
     "nodes": 993,
-    "entries": 15776,
+    "entries": 15742,
     "byLinkSource": {
-      "key_point": 11011,
-      "factual_claim": 4765
+      "key_point": 10989,
+      "factual_claim": 4753
     }
   },
   "index": {
@@ -375,68 +376,40 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Workplace adoption of AI among U.S. workers reached 46% in mid-2025.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "key_point",
-        "quote": "While some studies document productivity gains for workers",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "key_point",
-        "quote": "While some studies document productivity gains for workers (22–24), effects vary substantially by exposure type",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "key_point",
-        "quote": "workplace adoption among U.S. workers reached 46% in mid-2025.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "link_source": "factual_claim",
-        "quote": "Workplace adoption of AI among U.S. workers reached 46% in mid-2025.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
+        "link_source": "key_point",
+        "quote": "While some studies document productivity gains for workers (22–24), effects vary substantially by exposure type",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
+      },
+      {
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "enhancing productivity.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
-        "quote": "while workplace adoption among U.S. workers reached 46% in mid-2025.",
+        "quote": "workplace adoption among U.S. workers reached 46% in mid-2025.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -1054,59 +1027,29 @@
       },
       {
         "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
+        "link_source": "factual_claim",
+        "quote": "Citigroup retrained 175,000 employees on prompt engineering.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-4"
+      },
+      {
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
+        "link_source": "key_point",
+        "quote": "AI use cases that have been deployed by these businesses have varied greatly. Financial giant Citigroup’s (No. 38) recent AI efforts have included retraining 175,000 employees on how to write better prompts to generate more impactful results from large language model queries.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-5"
+      },
+      {
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "key_point",
         "quote": "“We have AI-enabled productivity tools that are used by more than 60,000 associates to help reduce repetitive tasks, so teams can focus more on supporting our members and providers,” says Boudreaux.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
-      },
-      {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-1",
-        "link_source": "key_point",
-        "quote": "“We have AI-enabled productivity tools that are used by more than 60,000 associates to help reduce repetitive tasks, so teams can focus more on supporting our members and providers,” says Boudreaux.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-2",
-        "link_source": "key_point",
-        "quote": "“We have AI-enabled productivity tools that are used by more than 60,000 associates to help reduce repetitive tasks, so teams can focus more on supporting our members and providers,” says Boudreaux.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-3",
-        "link_source": "key_point",
-        "quote": "“We have AI-enabled productivity tools that are used by more than 60,000 associates to help reduce repetitive tasks, so teams can focus more on supporting our members and providers,” says Boudreaux.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-4",
-        "link_source": "factual_claim",
-        "quote": "Citigroup retrained 175,000 employees on prompt engineering.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-4",
-        "link_source": "key_point",
-        "quote": "“We have AI-enabled productivity tools that are used by more than 60,000 associates to help reduce repetitive tasks, so teams can focus more on supporting our members and providers,” says Boudreaux.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-5",
-        "link_source": "key_point",
-        "quote": "AI use cases that have been deployed by these businesses have varied greatly. Financial giant Citigroup’s (No. 38) recent AI efforts have included retraining 175,000 employees on how to write better prompts to generate more impactful results from large language model queries.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "pi-20250403-us-public-ai-experts-report-2026-2",
@@ -3500,14 +3443,6 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
-      },
-      {
-        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1",
-        "link_source": "key_point",
-        "quote": "“People talk about how much energy it takes to train an AI model – but it also takes a lot of energy to train a human,” Altman told the Indian Express recently while in India for the AI Impact summit. “It takes about 20 years of life – and all the food you consume during that time – before you become smart.”",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       }
     ],
     "acc-beliefs-024": [
@@ -4990,6 +4925,24 @@
         "extraction_confidence": 0.9
       },
       {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "factual_claim",
+        "quote": "The number of large-scale AI systems released annually has increased sharply since 2020.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
+        "quote": "AI’s ability to process immense quantities of unstructured data and interact naturally with users allows it to complement and substitute human tasks, potentially revolutionising how work is organised.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
         "source_id": "as-ai-makes-strides-mathematics-mathematicians-urge-caution-2026",
         "link_source": "factual_claim",
         "quote": "OpenAI's AI model disproved a notable 80-year-old mathematics conjecture in the field of combinatorial geometry.",
@@ -5379,22 +5332,6 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "factual_claim",
-        "quote": "The number of large-scale AI systems released annually has increased sharply since 2020.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "AI’s ability to process immense quantities of unstructured data and interact naturally with users allows it to complement and substitute human tasks, potentially revolutionising how work is organised.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
         "source_id": "ethics-artificial-intelligence-robotics-2026",
         "link_source": "factual_claim",
         "quote": "Computing power has been doubling approximately every two years since 1970, a trend known as Moore's Law.",
@@ -5431,44 +5368,22 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "factual_claim",
-        "quote": "AI systems improved from solving 4.4% of coding problems in 2023 to 71.7% in 2024.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "key_point",
-        "quote": "AI systems have improved from solving 4.4% of coding problems in 2023 to 71.7% in 2024",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "Recently, AI systems have improved from solving 4.4% of coding problems in 2023 to 71.7% in 2024",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "they offer opportunities for fostering innovation, improving problem-solving and decision-making",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "link_source": "factual_claim",
-        "quote": "AI systems improved from solving 4.4% of coding problems in 2023 to 71.7% in 2024.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -6029,12 +5944,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "Several researchers have emphasized that an adequate description of artifacts must refer both to their status as tangible physical objects and to the intentions of the people engaged with them.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2"
       },
       {
         "source_id": "pi-20250403-us-public-ai-experts-report-2026-2",
@@ -13019,12 +12935,13 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "technologies, which often produce substantial economic disruption by complementing some workers’ skills, while making others redundant",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -15235,6 +15152,24 @@
         "extraction_confidence": 1.0
       },
       {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
+        "quote": "AI's ability to process data faster and more accurately can actually improve financial stability by enabling better risk management and more efficient market pricing.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
+        "quote": "Our report emphasises that while AI offers substantial benefits, including accelerated scientific progress, improved economic growth, better decision making and risk management and enhanced healthcare, it also generates significant concerns regarding risks to the financial system and society.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
         "source_id": "atria-dawn-dawn-agentic-superintelligence-evolving-roles-2026-1",
         "link_source": "factual_claim",
         "quote": "Atria Dawn Preview achieves the highest reported score on five out of 16 evaluated benchmarks, including AutomationBench (53.8), BFCL v4 (77.0), DeepSearchQA (96.0), BrowseComp (92.5), and CyberGym (86.5).",
@@ -15340,22 +15275,6 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "AI's ability to process data faster and more accurately can actually improve financial stability by enabling better risk management and more efficient market pricing.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "Our report emphasises that while AI offers substantial benefits, including accelerated scientific progress, improved economic growth, better decision making and risk management and enhanced healthcare, it also generates significant concerns regarding risks to the financial system and society.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
         "source_id": "ethics-artificial-intelligence-robotics-2026",
         "link_source": "key_point",
         "quote": "The resulting exponential gains in computing power and data storage have led to the ability to train models on massive data (essentially all available data), and to generate very large models (typically at a size of 20û50% of the training data). This ôscalingö achieves radical improvements of ML systems, that often went from performance at 10% human level to beyond human level in a few years.",
@@ -15372,60 +15291,31 @@
         "extraction_confidence": 0.85
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "AI promises additional potential benefits, such as the possibility of major innovations in fields like healthcare and education",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "As AI technologies become increasingly sophisticated, they offer opportunities for fostering innovation, improving problem-solving and decision-making, and enhancing productivity.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "link_source": "key_point",
-        "quote": "As AI technologies become increasingly sophisticated, they offer opportunities for fostering innovation, improving problem-solving and decision-making, and enhancing productivity.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "link_source": "key_point",
-        "quote": "enhancing productivity",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "improving decision-making",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "link_source": "key_point",
-        "quote": "offer opportunities for fostering innovation",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "link_source": "key_point",
-        "quote": "offer opportunities for fostering innovation, improving problem-solving and decision-making",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -15455,12 +15345,13 @@
         "via": "extreme-power-concentration-80000-hours-2026"
       },
       {
-        "source_id": "following-our-footsteps-science-2026-1",
+        "source_id": "following-our-footsteps-science-2026",
         "link_source": "key_point",
         "quote": "If we succeed, “there is a path to a flourishing future.”",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "following-our-footsteps-science-2026-1"
       },
       {
         "source_id": "framework-frontier-ai-dawning-new-age-2026",
@@ -15695,20 +15586,22 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "factual_claim",
         "quote": "The philosophy of technology has historically been divided into 'humanities philosophy of technology' and 'analytic philosophy of technology'. The former focuses on societal and cultural meaning, while the latter focuses on the practice of engineering and the nature of artifacts.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "It is largely by technology that contemporary society hangs together. It is hugely important not only as an economic force but also as a cultural force.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2"
       },
       {
         "source_id": "pi-20250403-us-public-ai-experts-report-2026-2",
@@ -15774,18 +15667,19 @@
       {
         "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
         "link_source": "key_point",
+        "quote": "Despite that defense, he said that the public assessment of AI’s energy consumption was “fair”, adding: “We need to move towards nuclear or wind and solar very quickly.”",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1"
+      },
+      {
+        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
+        "link_source": "key_point",
         "quote": "Weinstein to the Guardian he was skeptical of the argument from Altman and other AI advocates that the power such infrastructure demands is justified because the technology will help alleviate global problems.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
-      },
-      {
-        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1",
-        "link_source": "key_point",
-        "quote": "Despite that defense, he said that the public assessment of AI’s energy consumption was “fair”, adding: “We need to move towards nuclear or wind and solar very quickly.”",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "situational-awareness-decade-ahead-2026",
@@ -15844,20 +15738,22 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-1",
-        "link_source": "key_point",
-        "quote": "When founding editor of Wired Kevin Kelly foresaw AI as being as fundamental as electricity, a general purpose technology that is “in everything” as it becomes “cognified” — phones, devices, cars, buildings, etc. — it probably sounded to most like the usual techno-enthusiasm.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "treat-ai-like-public-utility-2026-2",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "Already scientists and others have also realized its utility as a kind of “research assistant” in coding, answering general questions, and, in fact, producing coherent research papers on a given topic.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-2"
+      },
+      {
+        "source_id": "treat-ai-like-public-utility-2026",
+        "link_source": "key_point",
+        "quote": "When founding editor of Wired Kevin Kelly foresaw AI as being as fundamental as electricity, a general purpose technology that is “in everything” as it becomes “cognified” — phones, devices, cars, buildings, etc. — it probably sounded to most like the usual techno-enthusiasm.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
       },
       {
         "source_id": "trust-attitudes-use-ai-global-report-2026-1",
@@ -18787,12 +18683,13 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "251122662v2-2026-1",
+        "source_id": "251122662v2-2026",
         "link_source": "key_point",
         "quote": "Building reliable deception detectors for AI systems – methods that could predict when an AI system is being strategically deceptive without necessarily requiring behavioural evidence – would be valuable in mitigating risks from advanced AI systems.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
       },
       {
         "source_id": "anthropics-responsible-scaling-policy-2026",
@@ -19110,12 +19007,13 @@
         "extraction_confidence": 1
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "Since design is a form of action, a structured series of decisions to proceed in one way rather than another, the form of rationality that is relevant to it is practical rationality, the rationality incorporating the criteria on how to act, given particular circumstances.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
       },
       {
         "source_id": "role-compute-thresholds-ai-governance-2026",
@@ -19189,12 +19087,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-2",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "OpenAI’s April 2025 o3 and o4-mini System Card reports that “several of our biology evaluations indicate our models are on the cusp of being able to meaningfully help novices create known biological threats.”",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-2"
       },
       {
         "source_id": "whats-right-path-ai-2026",
@@ -20181,12 +20080,13 @@
         "via": "extreme-power-concentration-80000-hours-2026"
       },
       {
-        "source_id": "following-our-footsteps-science-2026-1",
+        "source_id": "following-our-footsteps-science-2026",
         "link_source": "key_point",
         "quote": "As De Kai says, “we’re in a race against time.”",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "following-our-footsteps-science-2026-1"
       },
       {
         "source_id": "is-artificial-intelligence-great-filter-that-makes-advanced-2026",
@@ -20399,20 +20299,22 @@
     ],
     "acc-intentions-003": [
       {
-        "source_id": "251122662v2-2026-1",
+        "source_id": "251122662v2-2026",
         "link_source": "key_point",
         "quote": "We argue that designing these deception evaluations is the primary bottleneck for progress in AI deception research, and constitutes a significant challenge which has not always been appreciated by prior work.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
       },
       {
-        "source_id": "251122662v2-2026-1",
+        "source_id": "251122662v2-2026",
         "link_source": "key_point",
         "quote": "We take a pragmatic approach to the attribution of such states: a system has a mental state, like a belief, to the extent that we can predict its behaviour by modelling it as an intentional agent with that belief.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
       },
       {
         "source_id": "260312277v6-2026",
@@ -21539,20 +21441,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "Karl Marx, for example, did not condemn the steam engine or the spinning mill for the vices of the bourgeois mode of production; he believed that ongoing technological innovation allowed for the necessary steps toward the more blissful stages of socialism and communism of the future.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2",
-        "link_source": "key_point",
-        "quote": "Karl Marx, for example, did not condemn the steam engine or the spinning mill for the vices of the bourgeois mode of production; he believed that ongoing technological innovation allowed for the necessary steps toward the more blissful stages of socialism and communism of the future.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
       },
       {
         "source_id": "reflections-manifesto-accelerationist-politics-2026",
@@ -22303,12 +22198,13 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "following-our-footsteps-science-2026-1",
+        "source_id": "following-our-footsteps-science-2026",
         "link_source": "key_point",
         "quote": "Despite the considerable associated risks, we have, De Kai says, “no practical option but to empower generative AIs” to be mindful.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "following-our-footsteps-science-2026-1"
       },
       {
         "source_id": "philosophy-speed-genealogy-accelerationism-2026",
@@ -22400,12 +22296,13 @@
         "extraction_confidence": 1
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "It is largely by technology that contemporary society hangs together. It is hugely important not only as an economic force but also as a cultural force.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
       },
       {
         "source_id": "universities-would-prefer-not-2026-1",
@@ -22449,12 +22346,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "251122662v2-2026-1",
+        "source_id": "251122662v2-2026",
         "link_source": "key_point",
         "quote": "Modelling language models via the intentional stance is often pragmatically helpful: We colloquially do this all the time... this attribution of beliefs and goals is effortless, and often yields valuable predictions about how to get the actions we want from the model.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
       },
       {
         "source_id": "260312277v6-2026",
@@ -24269,12 +24167,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-2",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "It is not hard to see how this kind of tool could become an essential service underlying all forms of labor both in workplaces and households.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-2"
       }
     ],
     "acc-intentions-035": [
@@ -24926,6 +24825,24 @@
         "via": "artificial-intelligence-research-strategy-united-states-2026-1"
       },
       {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
+        "quote": "Authorities may may even consider using AI to help them manage these facilities at time intervals beyond human capacities.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
+        "quote": "For instance, AI may enhance risk management capabilities and governance in institutions, helping to better identify and mitigate risks.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
         "source_id": "can-ai-behave-ethically-during-military-crises-preserving-2026",
         "link_source": "key_point",
         "quote": "while AI-DSS is designed to enhance military decision-making by improving speed and computational precision, meaningful ethical deliberation requires time for careful reflection.",
@@ -24973,22 +24890,6 @@
         "evidence_level": null,
         "extraction_confidence": 0.9,
         "via": "eight-ways-ai-will-shape-geopolitics-2026-2026-2"
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "Authorities may may even consider using AI to help them manage these facilities at time intervals beyond human capacities.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "For instance, AI may enhance risk management capabilities and governance in institutions, helping to better identify and mitigate risks.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "generative-ai-needs-adaptive-governance-2026",
@@ -26483,20 +26384,22 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-1",
-        "link_source": "key_point",
-        "quote": "“What you’re seeing is that the women-CEO-led companies are showing up to adopt new technologies, in some ways that are consistent to some of the consumer adoption behavior we’ve seen in other technologies,” says Lareina Yee, McKinsey Global Institute director and a senior partner at the consultancy.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-4",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "key_point",
         "quote": "AI use cases that have been deployed by these businesses have varied greatly. Financial giant Citigroup’s (No. 38) recent AI efforts have included retraining 175,000 employees on how to write better prompts to generate more impactful results from large language model queries.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-4"
+      },
+      {
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
+        "link_source": "key_point",
+        "quote": "“What you’re seeing is that the women-CEO-led companies are showing up to adopt new technologies, in some ways that are consistent to some of the consumer adoption behavior we’ve seen in other technologies,” says Lareina Yee, McKinsey Global Institute director and a senior partner at the consultancy.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-1"
       },
       {
         "source_id": "paradox-ai-accelerationism-promise-public-interest-ai-2026",
@@ -26877,12 +26780,13 @@
         "via": "white-house-releases-national-policy-framework-artificial-2026"
       },
       {
-        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1",
+        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026",
         "link_source": "key_point",
         "quote": "Artificial intelligence is moving even faster than many thought. In the span of three years, the world went from wearily experimenting with OpenAI’s ChatGPT to entire companies integrating Anthropic’s Claude Code into their workflows.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1"
       },
       {
         "source_id": "world-development-report-2026-artificial-intelligence-2026",
@@ -27932,12 +27836,13 @@
         "extraction_confidence": "0.92"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "improving problem-solving and decision-making",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -28186,12 +28091,13 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "Another problem for the decision-making view of engineering design is that in modern technology almost all design is done by teams. Such teams are composed of experts from many different disciplines.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
       },
       {
         "source_id": "pi-20250403-us-public-ai-experts-report-2026-2",
@@ -30165,52 +30071,49 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "and enhancing productivity.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "economists generally perceive technology to be a crucial driver of economic growth",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "there is considerable optimism that the more widespread adoption of AI technologies could dramatically expand economic output",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "they offer opportunities for fostering innovation",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "workplace adoption among U.S. workers reached 46% in mid-2025.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "link_source": "key_point",
-        "quote": "economists generally perceive technology to be a crucial driver of economic growth",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -30582,18 +30485,19 @@
       {
         "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
+        "quote": "Karl Marx argued capital treats scientific knowledge — what he provocatively called “the general intellect” — as a “free gift” it can appropriate in its quest for profit.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-2"
+      },
+      {
+        "source_id": "treat-ai-like-public-utility-2026",
+        "link_source": "key_point",
         "quote": "When founding editor of Wired Kevin Kelly foresaw AI as being as fundamental as electricity, a general purpose technology that is “in everything” as it becomes “cognified” — phones, devices, cars, buildings, etc. — it probably sounded to most like the usual techno-enthusiasm. But now, it is possible to see what it might actually look like for AI to be integrated into people’s everyday lives.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
-      },
-      {
-        "source_id": "treat-ai-like-public-utility-2026-2",
-        "link_source": "key_point",
-        "quote": "Karl Marx argued capital treats scientific knowledge — what he provocatively called “the general intellect” — as a “free gift” it can appropriate in its quest for profit.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "trust-attitudes-use-ai-global-report-2026-1",
@@ -30716,12 +30620,13 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1",
+        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026",
         "link_source": "key_point",
         "quote": "Despite this fact, women are using AI at a rate 25% lower than men on average.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1"
       },
       {
         "source_id": "world-development-report-2026-artificial-intelligence-2026",
@@ -32480,12 +32385,13 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1",
+        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
         "link_source": "key_point",
         "quote": "“Water is totally fake. It used to be true. We used to do evaporative cooling in datacenters, but now … we don’t do that,” Altman said.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1"
       },
       {
         "source_id": "situational-awareness-decade-ahead-2026",
@@ -32516,12 +32422,13 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-2",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "The International Energy Agency predicts electricity demand for “AI-optimised data centers” will quadruple by 2030, and in the United States data centers will encompass half of all electricity demand growth",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-2"
       },
       {
         "source_id": "trump-finds-ai-policy-he-can-live-2026",
@@ -37911,20 +37818,22 @@
     ],
     "saf-beliefs-003": [
       {
-        "source_id": "251122662v2-2026-1",
+        "source_id": "251122662v2-2026",
         "link_source": "factual_claim",
         "quote": "Distinguishing strategic deception from simpler behaviors in AI is difficult because it requires making claims about a model's internal beliefs and goals.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
       },
       {
-        "source_id": "251122662v2-2026-1",
+        "source_id": "251122662v2-2026",
         "link_source": "factual_claim",
         "quote": "Language model beliefs are highly unstable and context-dependent, making them difficult to pin down compared to human or animal beliefs.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
       },
       {
         "source_id": "adversarial-attacks-defense-ai-systems-review-cybersecurity-2026",
@@ -38974,6 +38883,15 @@
         "extraction_confidence": 1.0
       },
       {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
+        "quote": "If a model’s training data does not include sufficient information about the adverse tail of the distribution, it can give an unrealistically optimistic assessment of likely future outcomes.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
         "source_id": "concrete-problems-ai-safety-2026",
         "link_source": "factual_claim",
         "quote": "Machine learning systems trained on one distribution often perform poorly when deployed on a different test distribution, yet they frequently remain highly confident in their erroneous classifications.",
@@ -39011,14 +38929,6 @@
         "evidence_level": null,
         "extraction_confidence": 0.92,
         "via": "data-quality-over-model-complexity-rethinking-ai-2026-2"
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "If a model’s training data does not include sufficient information about the adverse tail of the distribution, it can give an unrealistically optimistic assessment of likely future outcomes.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "external-validation-widely-implemented-proprietary-sepsis-2026",
@@ -39147,12 +39057,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-1",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "For example, a few months ago, OpenAI released an update to ChatGPT that gave it a sycophantic personality, becoming so agreeable that it triggered and reinforced paranoid delusions and effusively praised “genius” business ideas such as selling “shit on a stick.”",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
       },
       {
         "source_id": "when-humans-large-language-models-collaborate-problem-2026",
@@ -45690,12 +45601,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "251122662v2-2026-1",
+        "source_id": "251122662v2-2026",
         "link_source": "key_point",
         "quote": "However, in some cases making intentional attributions about language models can be significantly harder than modelling humans or animals. Model beliefs are not stable and are far more context dependent than animal or human beliefs.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
       },
       {
         "source_id": "260111699v4-2026",
@@ -45862,6 +45774,15 @@
       {
         "source_id": "artificial-intelligence-systemic-risk-2026",
         "link_source": "key_point",
+        "quote": "AI’s complexity can diminish transparency and facilitate intentional concealment of information. ... The difficulty in understanding AI’s decision-making processes can trigger runs when users discover flaws or behaviour is unexpected.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
         "quote": "If AI models are widely employed in the financial system, large parts of it could rely on decision inputs that are hard to understand and explain, reducing transparency. In these conditions, some economic agents may exploit the capacity of AI to conceal their activity.",
         "doc_position": null,
         "evidence_level": null,
@@ -45994,14 +45915,6 @@
         "evidence_level": null,
         "extraction_confidence": null,
         "via": "eight-ways-ai-will-shape-geopolitics-2026-atlantic-council-2026-2"
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "AI’s complexity can diminish transparency and facilitate intentional concealment of information. ... The difficulty in understanding AI’s decision-making processes can trigger runs when users discover flaws or behaviour is unexpected.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -49241,26 +49154,19 @@
       {
         "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
         "link_source": "key_point",
+        "quote": "The organization projects that such consumption will increase about 15% each year from 2024 to 2030, more than four times faster than the growth of electricity consumption from all other sectors.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1"
+      },
+      {
+        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
+        "link_source": "key_point",
         "quote": "“The rapid, largely unregulated rise of datacenters to fuel the AI and crypto frenzy is disrupting communities across the country and threatening Americans’ economic, environmental, climate and water security,” their letter states.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
-      },
-      {
-        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1",
-        "link_source": "key_point",
-        "quote": "The organization projects that such consumption will increase about 15% each year from 2024 to 2030, more than four times faster than the growth of electricity consumption from all other sectors.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1",
-        "link_source": "key_point",
-        "quote": "“The rapid, largely unregulated rise of datacenters to fuel the AI and crypto frenzy is disrupting communities across the country and threatening Americans’ economic, environmental, climate and water security,” their letter states.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "what-happens-when-data-centers-come-town-2026",
@@ -49376,12 +49282,13 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "Simultaneously, women’s under-representation in science, technology, engineering, and mathematics fields means they may have less access to highpaying AI-related jobs and leadership positions. As a result, advances in AI could widen existing gender pay gaps",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
         "source_id": "future-jobs-report-2025-2026",
@@ -49851,20 +49758,13 @@
         "extraction_confidence": 0.9
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "link_source": "key_point",
-        "quote": "Moreover, AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
         "source_id": "gender-shades-intersectional-accuracy-disparities-2026",
@@ -51717,12 +51617,13 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-1",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "key_point",
         "quote": "“I think it’s an incredible opportunity for women to ask the right questions of, how should we responsibly bring AI into the workforce and into our homes and into our lives?” asks Franklin. “We don’t want to end up with a bad, dystopian outcome.”",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-1"
       },
       {
         "source_id": "philosophy-speed-genealogy-accelerationism-2026",
@@ -51733,12 +51634,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "In this, these philosophers are almost all openly critical of technology: all things considered, they tend to have a negative judgment of the way technology has affected human society and culture, or at least they single out for consideration the negative effects of technology on human society and culture.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
       },
       {
         "source_id": "pi-20250403-us-public-ai-experts-report-2026-2",
@@ -62452,12 +62354,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "following-our-footsteps-science-2026-1",
+        "source_id": "following-our-footsteps-science-2026",
         "link_source": "key_point",
         "quote": "Unlike the rule-based AI of the past, these newer AIs, based on large language models, are probabilistic and analog. They acquire knowledge through training on huge datasets, but their learning is constrained by proprietary algorithms and entrenched biases.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "following-our-footsteps-science-2026-1"
       },
       {
         "source_id": "how-count-ais-individuation-liability-ai-agents-2026",
@@ -62983,6 +62886,15 @@
       {
         "source_id": "251122662v2-2026",
         "link_source": "factual_claim",
+        "quote": "AI models can exhibit strategic deception, defined as systematically attempting to cause a false belief in another entity to accomplish an outcome.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
+      },
+      {
+        "source_id": "251122662v2-2026",
+        "link_source": "factual_claim",
         "quote": "Current language models exhibit behaviors that can be interpreted as strategic deception, such as sandbagging capabilities or feigning helpfulness during safety evaluations.",
         "doc_position": "supports",
         "evidence_level": {
@@ -62995,6 +62907,15 @@
       },
       {
         "source_id": "251122662v2-2026",
+        "link_source": "factual_claim",
+        "quote": "Current language models show early signs of capability to scheme, and modern training techniques do not reduce these rates to zero.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
+      },
+      {
+        "source_id": "251122662v2-2026",
         "link_source": "key_point",
         "quote": "If AI systems capable of strategic deception are sufficiently situationally aware (Laine et al., 2024; Phuong et al., 2025), they may be able to “scheme”: employ strategic deception to subvert the safety evaluations and control mechanisms we employ in order to mitigate harm",
         "doc_position": null,
@@ -63002,36 +62923,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "251122662v2-2026-1",
-        "link_source": "factual_claim",
-        "quote": "AI models can exhibit strategic deception, defined as systematically attempting to cause a false belief in another entity to accomplish an outcome.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "251122662v2-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Current language models show early signs of capability to scheme, and modern training techniques do not reduce these rates to zero.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "251122662v2-2026-1",
-        "link_source": "key_point",
-        "quote": "If AI systems capable of strategic deception are sufficiently situationally aware, they may be able to “scheme”: employ strategic deception to subvert the safety evaluations and control mechanisms we employ in order to mitigate harm.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "251122662v2-2026-1",
+        "source_id": "251122662v2-2026",
         "link_source": "key_point",
         "quote": "This can make it challenging to run genuine counterfactual scenarios to establish model belief, as it is difficult to tell the difference between genuinely modifying the model beliefs, inducing the model to roleplay, and the target behaviour of incentivising the model to be deliberately misleading about its belief.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
       },
       {
         "source_id": "260201002v1-2026",
@@ -63545,6 +63443,15 @@
       },
       {
         "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "factual_claim",
+        "quote": "AI models can exhibit deceptive behavior, such as misrepresenting financial data or manipulating markets, to achieve their goals.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
         "link_source": "key_point",
         "quote": "Concerns have also been raised recently regarding the potential for AI systems to engage in deceptive behaviour.",
         "doc_position": null,
@@ -63559,6 +63466,15 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
+      },
+      {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
+        "quote": "Knowing that certain market participants react to news in particular way, an AI model may decide to spread false information to move financial markets to its benefit. To ensure compliance with prudential requirements, a model may produce supervisory reports that misrepresent a financial institution’s balance sheet.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
       },
       {
         "source_id": "auditing-language-models-hidden-objectives-2026-2",
@@ -63808,22 +63724,6 @@
         "evidence_level": null,
         "extraction_confidence": 0.98,
         "via": "eight-ways-ai-will-shape-geopolitics-2026-atlantic-council-2026"
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "factual_claim",
-        "quote": "AI models can exhibit deceptive behavior, such as misrepresenting financial data or manipulating markets, to achieve their goals.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "Knowing that certain market participants react to news in particular way, an AI model may decide to spread false information to move financial markets to its benefit. To ensure compliance with prudential requirements, a model may produce supervisory reports that misrepresent a financial institution’s balance sheet.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "evaluating-ai-providers-frontier-safety-frameworks-2026",
@@ -64662,20 +64562,13 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-1",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "Recent models have demonstrated “increased evidence of alignment scheming,” according to a June report commissioned by the state of California — in other words, the models can perform strategic deception, like being willing to blackmail engineers, and new models can often detect when they are being evaluated.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "treat-ai-like-public-utility-2026-2",
-        "link_source": "key_point",
-        "quote": "Recent models have demonstrated “increased evidence of alignment scheming,” according to a June report commissioned by the state of California — in other words, the models can perform strategic deception, like being willing to blackmail engineers",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
       },
       {
         "source_id": "trump-finds-ai-policy-he-can-live-2026",
@@ -65957,6 +65850,15 @@
       {
         "source_id": "artificial-intelligence-systemic-risk-2026",
         "link_source": "key_point",
+        "quote": "Our report emphasises that while AI offers substantial benefits... it also generates significant concerns regarding risks to the financial system and society.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
         "quote": "The first is that AI may become self-aware, leading to the loss of human control over it. The second is that we become completely reliant on AI to the point where we are no longer capable of doing tasks ourselves.",
         "doc_position": null,
         "evidence_level": null,
@@ -66059,14 +65961,6 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.9
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "Our report emphasises that while AI offers substantial benefits... it also generates significant concerns regarding risks to the financial system and society.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "evaluating-ai-providers-frontier-safety-frameworks-2026",
@@ -66525,20 +66419,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "Butler’s book gave an account of a fictional country where all machines are banned and the possession of a machine or the attempt to build one is a capital crime. The people of this country had become convinced by an argument that ongoing technical improvements are likely to lead to a ‘race’ of machines that will replace mankind as the dominant species on earth.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2",
-        "link_source": "key_point",
-        "quote": "Butler’s book gave an account of a fictional country where all machines are banned and the possession of a machine or the attempt to build one is a capital crime. The people of this country had become convinced by an argument that ongoing technical improvements are likely to lead to a ‘race’ of machines that will replace mankind as the dominant species on earth.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
       },
       {
         "source_id": "pi-20250403-us-public-ai-experts-report-2026-2",
@@ -66679,20 +66566,22 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1",
+        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
         "link_source": "factual_claim",
         "quote": "Datacenter electricity consumption is projected to grow by 15% annually from 2024 to 2030.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1"
       },
       {
-        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1",
+        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
         "link_source": "factual_claim",
         "quote": "Datacenters accounted for approximately 1.5% of global electricity consumption in 2024.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1"
       },
       {
         "source_id": "sam-altmans-remarks-united-nations-security-council-2026",
@@ -66875,12 +66764,13 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-1",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "OpenAI’s April 2025 o3 and o4-mini System Card reports that “several of our biology evaluations indicate our models are on the cusp of being able to meaningfully help novices create known biological threats.” Claude 4 Opus demonstrated the ability to help users source nuclear-grade uranium.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
       },
       {
         "source_id": "trust-attitudes-use-ai-global-report-2026-1",
@@ -67011,12 +66901,13 @@
         "extraction_confidence": 0.9
       },
       {
-        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1",
+        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026",
         "link_source": "key_point",
         "quote": "The speed of AI’s progression, technologically and culturally, has surprised many—including Anthropic CEO Dario Amodei, who warned in a 20,000-word essay in January that society could experience catastrophic impacts within a year or two.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1"
       },
       {
         "source_id": "world-economic-outlook-update-global-economy-steady-amid-2026-2",
@@ -70317,6 +70208,15 @@
         "via": "artificial-general-intelligence-its-threat-public-health-2026"
       },
       {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "factual_claim",
+        "quote": "Current prudential frameworks for financial regulation are designed for traditional risks and may not adequately address AI-specific risks like model uniformity and provider concentration.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
         "source_id": "deconstructing-ai-safetyist-taxonomies-structural-gaps-2026",
         "link_source": "key_point",
         "quote": "Centered on the mitigation of existential AI risk (saf-desires-001), the preservation of continuous human control (saf-desires-002), and the mandate for rigorous pre-deployment safety proofs (saf-desires-003), this paradigm is underpinned by a profound skepticism regarding the scalability of contemporary empirical alignment techniques like Reinforcement Learning from Human Feedback (RLHF) (saf-beliefs-001).",
@@ -70331,14 +70231,6 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Current prudential frameworks for financial regulation are designed for traditional risks and may not adequately address AI-specific risks like model uniformity and provider concentration.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "ethics-artificial-intelligence-robotics-2026",
@@ -70357,12 +70249,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "following-our-footsteps-science-2026-1",
+        "source_id": "following-our-footsteps-science-2026",
         "link_source": "key_point",
         "quote": "The consequences of failure could be catastrophic. Without a compensatory “cultural hyperevolution,” AI could undermine individual liberty, foster societal collapse, challenge the integrity of democracies, and threaten the survival of humankind itself.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "following-our-footsteps-science-2026-1"
       },
       {
         "source_id": "is-artificial-intelligence-great-filter-that-makes-advanced-2026",
@@ -70480,12 +70373,13 @@
         "extraction_confidence": 0.98
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "factual_claim",
         "quote": "The philosophy of technology has historically been divided into 'humanities philosophy of technology' and 'analytic philosophy of technology'. The former focuses on societal and cultural meaning, while the latter focuses on the practice of engineering and the nature of artifacts.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
       },
       {
         "source_id": "practical-tech-leader-2026",
@@ -70552,28 +70446,22 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-1",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "factual_claim",
         "quote": "Claude 4 Opus has demonstrated the capability to assist users in sourcing nuclear-grade uranium.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-2",
-        "link_source": "factual_claim",
-        "quote": "Claude 4 Opus demonstrated the ability to help users source nuclear-grade uranium.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "treat-ai-like-public-utility-2026-2",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "Claude 4 Opus demonstrated the ability to help users source nuclear-grade uranium. Recent models have demonstrated “increased evidence of alignment scheming,” according to a June report commissioned by the state of California",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-2"
       },
       {
         "source_id": "where-are-chinas-ai-doomers-2026",
@@ -70689,12 +70577,13 @@
         "extraction_confidence": 0.98
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "and other concerns about autonomous decision-making systems.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -70763,12 +70652,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "Such systems may function and learn in ways that are hard to understand, predict and control for humans, leading to so-called ‘responsibility gaps’ (Matthias 2004). Since knowledge and control are usually seen as (essential) preconditions for responsibility, lack thereof may make it increasingly difficult to hold humans responsible for the actions and consequences of intelligent systems.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
       },
       {
         "source_id": "pi-20250403-us-public-ai-experts-report-2026-2",
@@ -73101,28 +72991,13 @@
         "via": "measuring-risk-2-what-eu-risk-assessments-us-litigation-2026"
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-2",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "key_point",
         "quote": "“I think it’s an incredible opportunity for women to ask the right questions of, how should we responsibly bring AI into the workforce and into our homes and into our lives?” asks Franklin. “We don’t want to end up with a bad, dystopian outcome.”",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-3",
-        "link_source": "key_point",
-        "quote": "Social media is a form of technology that was mostly built by men, and it wasn’t until years later that studies began to reveal how harmful it could be to users, including mothers and teenage girls. “I think it’s an incredible opportunity for women to ask the right questions of, how should we responsibly bring AI into the workforce and into our homes and into our lives?” asks Franklin. “We don’t want to end up with a bad, dystopian outcome.”",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-5",
-        "link_source": "key_point",
-        "quote": "“I think it’s an incredible opportunity for women to ask the right questions of, how should we responsibly bring AI into the workforce and into our homes and into our lives?” asks Franklin. “We don’t want to end up with a bad, dystopian outcome.”",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-2"
       },
       {
         "source_id": "openais-teen-safety-blueprint-what-ai-platforms-should-do-2026",
@@ -73691,12 +73566,13 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "Moreover, not all groups are equally exposed to the risks and benefits of AI, and the technology has the potential to exacerbate existing social and economic inequalities",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
         "source_id": "how-can-we-defend-ourselves-from-new-plague-human-fracking-2026",
@@ -75424,20 +75300,22 @@
         "via": "measuring-risk-2-what-eu-risk-assessments-us-litigation-2026"
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "factual_claim",
         "quote": "Technical artifacts are defined by both their physical structure and the intentions of the people who design and use them.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2"
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "factual_claim",
         "quote": "The definition of an artifact's function is inherently tied to human intentionality, making it distinct from biological functions.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2"
       },
       {
         "source_id": "pitfalls-security-by-obscurity-what-they-mean-transparent-ai-2026",
@@ -75668,12 +75546,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-2",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "key_point",
         "quote": "She notes that corporate leaders can also learn from past failings. Social media is a form of technology that was mostly built by men, and it wasn’t until years later that studies began to reveal how harmful it could be to users, including mothers and teenage girls.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-2"
       },
       {
         "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
@@ -75702,12 +75581,13 @@
     ],
     "saf-intentions-004": [
       {
-        "source_id": "251122662v2-2026-1",
+        "source_id": "251122662v2-2026",
         "link_source": "factual_claim",
         "quote": "There is no clear distinction between action and utterance in current text-only language models, complicating the detection of deceptive intent.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
       },
       {
         "source_id": "260111699v4-2026",
@@ -75727,12 +75607,13 @@
         "via": "frontier-ai-auditing-toward-rigorous-third-party-assessment-2026"
       },
       {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
+        "source_id": "artificial-intelligence-systemic-risk-2026",
         "link_source": "key_point",
         "quote": "Superior performance in good times can lead people to place too much trust in AI, increasing risk taking and hindering oversight.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -77868,20 +77749,22 @@
         "extraction_confidence": 0.94
       },
       {
-        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1",
+        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
         "link_source": "factual_claim",
         "quote": "Approximately 70% of messages sent to ChatGPT are not work-related.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1"
       },
       {
-        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1",
+        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
         "link_source": "key_point",
         "quote": "A September 2025 report from OpenAI on how people use ChatGPT found that 70% of messages to the bot were not work related. “It didn’t look like the majority of use of that was for figuring out how we solve challenges in food systems and energy systems, so that would be my skepticism of saying this technology is worth it because I have yet to see it demonstrated,” Weinstein said.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1"
       },
       {
         "source_id": "school-phone-policies-their-association-mental-wellbeing-2026",
@@ -78267,12 +78150,13 @@
         "extraction_confidence": 0.99
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-5",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "key_point",
         "quote": "She notes that corporate leaders can also learn from past failings. Social media is a form of technology that was mostly built by men, and it wasn’t until years later that studies began to reveal how harmful it could be to users, including mothers and teenage girls.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-5"
       },
       {
         "source_id": "philosophy-speed-genealogy-accelerationism-2026",
@@ -81660,12 +81544,13 @@
         "extraction_confidence": 0.9
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-1",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "At a certain scale, large AI systems could be regulated like utilities: forced to provide reasonable rates and access, be subject to public oversight, and operate according to standards that could include transparency and reliability.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
       }
     ],
     "saf-intentions-049": [
@@ -82029,12 +81914,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1",
+        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026",
         "link_source": "key_point",
         "quote": "We need to be using AI to empower ourselves and others, while we hold the creators of this technology and the people who are setting up policies and governance to the highest possible standards to ensure that these technologies are rolled out in a way that’s safe and efficient and equitable.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1"
       }
     ],
     "saf-intentions-052": [
@@ -83255,6 +83141,15 @@
       {
         "source_id": "artificial-intelligence-systemic-risk-2026",
         "link_source": "key_point",
+        "quote": "Addressing risks arising from things like the concentration in AI providers, model uniformity or the potential increase in cyber-attacks may require fundamental changes beyond the current prudential framework.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
         "quote": "Looking at financial markets, the speed, scope and scale with which the financial system may operate assuming broad adoption of AI increases the importance of circuit breakers in the regulatory toolkit. Circuit breakers trigger a halt in the trading of a financial instrument as soon as its price or change crosses a predetermined threshold.",
         "doc_position": null,
         "evidence_level": null,
@@ -83267,14 +83162,6 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "Addressing risks arising from things like the concentration in AI providers, model uniformity or the potential increase in cyber-attacks may require fundamental changes beyond the current prudential framework.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "world-economic-outlook-update-global-economy-steady-amid-2026-2",
@@ -87342,12 +87229,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-1",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "Just as it was a mistake to let climate change be put in an “environmental” box and be treated as a special interest or scientific issue when it will in fact impact everyone’s life, we can’t compartmentalize the changes that AI will wreak into a single-issue “technology” or innovation policy issue.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
       },
       {
         "source_id": "trust-attitudes-use-ai-global-report-2026-1",
@@ -88230,20 +88118,22 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "AI technologies promise substantial benefits and significant challenges for economic, social, and political systems.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "their adoption also presents substantial risks, including potential job displacement, ethical considerations surrounding data privacy and bias, and other concerns about autonomous decision-making systems.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
         "source_id": "honeyquest-llms-rethinking-cyber-deception-ai-attackers-2026",
@@ -88312,12 +88202,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-4",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "key_point",
         "quote": "“I think it’s an incredible opportunity for women to ask the right questions of, how should we responsibly bring AI into the workforce and into our homes and into our lives?” asks Franklin. “We don’t want to end up with a bad, dystopian outcome.”",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-4"
       },
       {
         "source_id": "philosophy-speed-genealogy-accelerationism-2026",
@@ -88504,12 +88395,13 @@
         "via": "outsmarting-smart-devices-preparing-ai-liability-risks-2026-1"
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "Humanities philosophers of technology tend to take the phenomenon of technology itself largely for granted; they treat it as a ‘black box’, a given, a unitary, monolithic, inescapable phenomenon.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2"
       },
       {
         "source_id": "pi-20250403-us-public-ai-experts-report-2026-2",
@@ -88644,12 +88536,13 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "However, their adoption also presents substantial risks, including potential job displacement",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -89550,12 +89443,13 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
+        "source_id": "artificial-intelligence-systemic-risk-2026",
         "link_source": "key_point",
         "quote": "To put it bluntly, a supervisor using current conventional tools to try to supervise deep learning or reinforcement-learning systems will be blind to emerging risks.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -89598,12 +89492,13 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-1",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "Second, AI is not only akin to electricity, but it requires enormous amounts of electricity to power the computing behind its basic functions. In other words, as many have warned, AI and data-center growth more generally will create levels of electricity demand or “load” growth we have not seen for several decades.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
       },
       {
         "source_id": "trust-attitudes-use-ai-global-report-2026-1",
@@ -91931,12 +91826,13 @@
     ],
     "saf-intentions-119": [
       {
-        "source_id": "251122662v2-2026-1",
+        "source_id": "251122662v2-2026",
         "link_source": "key_point",
         "quote": "The core difficulty we identify is that distinguishing strategic deception from simpler behaviours requires making claims about a model’s internal beliefs and goals, which we argue is in the best case difficult and in the worst case possibly underdetermined for current language models.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
       },
       {
         "source_id": "ai-military-decision-making-harnessing-advantages-avoiding-2026",
@@ -101721,28 +101617,31 @@
         "extraction_confidence": 1
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "factual_claim",
         "quote": "AI systems trained on biased datasets have been documented to discriminate in hiring, lending, and healthcare.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "factual_claim",
         "quote": "Women are approximately 20% less likely than men to use generative AI tools.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "following-our-footsteps-science-2026-1",
+        "source_id": "following-our-footsteps-science-2026",
         "link_source": "factual_claim",
         "quote": "Cambridge Analytica conducted microtargeting campaigns during the 2016 US presidential election and the UK Brexit vote.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "following-our-footsteps-science-2026-1"
       },
       {
         "source_id": "humanai-interactions-public-sector-decision-making-2026",
@@ -102169,20 +102068,22 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-3",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "factual_claim",
         "quote": "Women lead 18% of the companies on the Fortune AIQ 50 list, compared to 11% of all Fortune 500 companies.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-3"
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-5",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "key_point",
         "quote": "Insurance provider Progressive (No. 22) is using AI to help sort through hundreds of thousands of job applications.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-5"
       },
       {
         "source_id": "pi-20250403-us-public-ai-experts-report-2026-2",
@@ -102800,6 +102701,15 @@
         "extraction_confidence": 0.98
       },
       {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "factual_claim",
+        "quote": "In 2024, an average of 13% of EU non-financial corporations reported using some form of AI, up from 8% the previous year.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
         "source_id": "building-pro-worker-artificial-intelligence-2026",
         "link_source": "factual_claim",
         "quote": "Labor's share of value-added in U.S. manufacturing fell from 74 percent to 46 percent between 1981 and 2016.",
@@ -102850,14 +102760,6 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.98
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "factual_claim",
-        "quote": "In 2024, an average of 13% of EU non-financial corporations reported using some form of AI, up from 8% the previous year.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "future-jobs-report-2025-2026",
@@ -102974,12 +102876,13 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-2",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "key_point",
         "quote": "Insurance provider Progressive (No. 22) is using AI to help sort through hundreds of thousands of job applications.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-2"
       },
       {
         "source_id": "pi-20250403-us-public-ai-experts-report-2026-2",
@@ -103202,12 +103105,13 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-2",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "Strengthening and expanding the welfare state, investing heavily in job training and placement programs, and empowering organized labor will be go-to policy proposals for dealing with AI-driven job loss.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-2"
       },
       {
         "source_id": "trust-attitudes-use-ai-global-report-2026-1",
@@ -103255,14 +103159,6 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
-      },
-      {
-        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Women's jobs are three times more likely to be automated by AI than men's jobs.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
       }
     ],
     "skp-beliefs-004": [
@@ -105665,6 +105561,24 @@
         "extraction_confidence": 1
       },
       {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "factual_claim",
+        "quote": "AI training and operation consume significant amounts of electricity and water, contributing to carbon emissions and environmental stress.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
+        "quote": "AI also consumes large amounts of water to cool data centres, leaving an additional environmental footprint. An expansion of AI without a parallel increase in the sustainability of energy and water consumption will have detrimental effects on climate, which would constitute an externality to the society at large.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
         "source_id": "dangers-stochastic-parrots-can-language-models-be-too-big-2026",
         "link_source": "key_point",
         "quote": "The resources needed to train and tune state-of-the-art models stand to increase economic inequities unless researchers incorporate energy and compute efficiency in their model evaluations.",
@@ -105696,22 +105610,6 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "factual_claim",
-        "quote": "AI training and operation consume significant amounts of electricity and water, contributing to carbon emissions and environmental stress.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "AI also consumes large amounts of water to cool data centres, leaving an additional environmental footprint. An expansion of AI without a parallel increase in the sustainability of energy and water consumption will have detrimental effects on climate, which would constitute an externality to the society at large.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -106068,12 +105966,13 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1",
+        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
         "link_source": "key_point",
         "quote": "This data shows the real-world cost of building AI, which is often ignored in the hype.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1"
       },
       {
         "source_id": "student-generative-ai-survey-2026-2026",
@@ -106109,6 +106008,33 @@
       {
         "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "factual_claim",
+        "quote": "Data centers will account for half of all electricity demand growth in the United States.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
+      },
+      {
+        "source_id": "treat-ai-like-public-utility-2026",
+        "link_source": "factual_claim",
+        "quote": "Electricity demand for AI-optimized data centers is predicted to quadruple by 2030.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
+      },
+      {
+        "source_id": "treat-ai-like-public-utility-2026",
+        "link_source": "factual_claim",
+        "quote": "In the United States, data centers will encompass half of all electricity demand growth by 2030.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-2"
+      },
+      {
+        "source_id": "treat-ai-like-public-utility-2026",
+        "link_source": "factual_claim",
         "quote": "The International Energy Agency predicts electricity demand for AI-optimized data centers will quadruple by 2030.",
         "doc_position": "supports",
         "evidence_level": {
@@ -106124,58 +106050,28 @@
       {
         "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
-        "quote": "The International Energy Agency predicts electricity demand for “AI-optimised data centers” will quadruple by 2030, and in the United States data centers will encompass half of all electricity demand growth.",
+        "quote": "Just as it was a mistake to let climate change be put in an “environmental” box and be treated as a special interest or scientific issue when it will in fact impact everyone’s life, we can’t compartmentalize the changes that AI will wreak into a single-issue “technology” or innovation policy issue.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": 1.0
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-2"
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Data centers will account for half of all electricity demand growth in the United States.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "treat-ai-like-public-utility-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Electricity demand for AI-optimized data centers is predicted to quadruple by 2030.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "treat-ai-like-public-utility-2026-1",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "Second, AI is not only akin to electricity, but it requires enormous amounts of electricity to power the computing behind its basic functions. In other words, as many have warned, AI and data-center growth more generally will create levels of electricity demand or “load” growth we have not seen for several decades.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-2",
-        "link_source": "factual_claim",
-        "quote": "In the United States, data centers will encompass half of all electricity demand growth by 2030.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "treat-ai-like-public-utility-2026-2",
-        "link_source": "factual_claim",
-        "quote": "The International Energy Agency predicts electricity demand for AI-optimized data centers will quadruple by 2030.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "treat-ai-like-public-utility-2026-2",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
-        "quote": "Just as it was a mistake to let climate change be put in an “environmental” box and be treated as a special interest or scientific issue when it will in fact impact everyone’s life, we can’t compartmentalize the changes that AI will wreak into a single-issue “technology” or innovation policy issue.",
+        "quote": "The International Energy Agency predicts electricity demand for “AI-optimised data centers” will quadruple by 2030, and in the United States data centers will encompass half of all electricity demand growth.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": 1.0
       },
       {
         "source_id": "what-happens-when-data-centers-come-town-2026",
@@ -108368,12 +108264,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "251122662v2-2026-1",
+        "source_id": "251122662v2-2026",
         "link_source": "key_point",
         "quote": "In this work, we have outlined a series of difficulties in establishing evaluation environments for deception detectors in which we are able to unambiguously label deceptive intent. We argue such difficulties manifest in practice in existing works attempting to study deception detection, and that the lack of such unambiguous environments are currently the core blocker to progress in detecting strategic deception.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
       },
       {
         "source_id": "ai-agents-law-2026",
@@ -108394,19 +108291,20 @@
       {
         "source_id": "artificial-intelligence-systemic-risk-2026",
         "link_source": "key_point",
-        "quote": "To address issues of bounded rationality and information asymmetry, conduct authorities may wish to require labels stating when and how financial products use AI.",
+        "quote": "AI can enhance the capacity for internal fraud, cyber-attacks and market manipulation by malicious actors.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": null,
         "via": "esrbascreport202512-aiandsystemicrisken-2026"
       },
       {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
+        "source_id": "artificial-intelligence-systemic-risk-2026",
         "link_source": "key_point",
-        "quote": "AI can enhance the capacity for internal fraud, cyber-attacks and market manipulation by malicious actors.",
+        "quote": "To address issues of bounded rationality and information asymmetry, conduct authorities may wish to require labels stating when and how financial products use AI.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -109488,28 +109386,31 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "We identify two key drivers behind this gender gap: women’s higher general risk aversion and their greater exposure to AI-related risks.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "we find that women consistently perceive AI to be riskier than men.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
         "quote": "women being approximately 20% less likely than men to use generative AI tools (21).",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
         "source_id": "measuring-us-workers-capacity-adapt-ai-driven-job-2026",
@@ -115209,12 +115110,13 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-3",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "key_point",
         "quote": "Insurance provider Progressive (No. 22) is using AI to help sort through hundreds of thousands of job applications.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-3"
       },
       {
         "source_id": "people-loved-dot-com-boom-ai-boom-not-so-much-2026",
@@ -117394,18 +117296,19 @@
       {
         "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
         "link_source": "key_point",
+        "quote": "This environmental damage often happens in poorer communities, while the profits stay with a few wealthy tech companies. It's like a factory dumping its pollution in a nearby town's river instead of cleaning it up.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1"
+      },
+      {
+        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026",
+        "link_source": "key_point",
         "quote": "“The demand for new datacenters cannot be met in a sustainable way,” Noman Bashir, a computing and climate impact fellow at the Massachusetts Institute of Technology’s climate and sustainability consortium, told MIT’s news outlet.",
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
-      },
-      {
-        "source_id": "sam-altman-defends-ais-energy-toll-by-saying-it-also-takes-2026-1",
-        "link_source": "key_point",
-        "quote": "This environmental damage often happens in poorer communities, while the profits stay with a few wealthy tech companies. It's like a factory dumping its pollution in a nearby town's river instead of cleaning it up.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "small-business-owners-managing-whole-armies-ai-employees-2026",
@@ -122302,36 +122205,40 @@
         "extraction_confidence": 0.98
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-1",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "key_point",
         "quote": "Social media is a form of technology that was mostly built by men, and it wasn’t until years later that studies began to reveal how harmful it could be to users, including mothers and teenage girls.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-1"
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
-        "link_source": "key_point",
-        "quote": "The representatives of this attitude were, overwhelmingly, schooled in the humanities or the social sciences and had virtually no first-hand knowledge of engineering practice. ... Humanities philosophers of technology tend to take the phenomenon of technology itself largely for granted; they treat it as a ‘black box’, a given, a unitary, monolithic, inescapable phenomenon.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "During the last quarter of the nineteenth century and most of the twentieth century a critical attitude predominated in philosophical reflection on technology. The representatives of this attitude were, overwhelmingly, schooled in the humanities or the social sciences and had virtually no first-hand knowledge of engineering practice.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2"
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
+        "link_source": "key_point",
+        "quote": "The representatives of this attitude were, overwhelmingly, schooled in the humanities or the social sciences and had virtually no first-hand knowledge of engineering practice. ... Humanities philosophers of technology tend to take the phenomenon of technology itself largely for granted; they treat it as a ‘black box’, a given, a unitary, monolithic, inescapable phenomenon.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
+      },
+      {
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "Their interest is not so much to analyze and understand this phenomenon itself but to grasp its relations to morality (Jonas, Gehlen), politics (Winner), the structure of society (Mumford), human culture (Ellul), the human condition (Hannah Arendt), or metaphysics (Heidegger).",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-2"
       },
       {
         "source_id": "pi-20250403-us-public-ai-experts-report-2026-2",
@@ -138714,12 +138621,13 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-2",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "Harnessing their skills directly for the public good could provide a much more stable and democratically accountable outlet for such workers.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-2"
       }
     ],
     "skp-beliefs-203": [
@@ -144014,6 +143922,15 @@
         "extraction_confidence": 0.95
       },
       {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "factual_claim",
+        "quote": "AI systems are currently deployed in financial infrastructure with significant reliance on a small number of providers, creating systemic risk.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
         "source_id": "automation-repression-2026",
         "link_source": "key_point",
         "quote": "Finally, we show that, starting in a democracy, capital accumulation and thus greater automation encourages the capitalists to support a coup against democracy and set up a repressive system.",
@@ -144067,14 +143984,6 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 1.0
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "factual_claim",
-        "quote": "AI systems are currently deployed in financial infrastructure with significant reliance on a small number of providers, creating systemic risk.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -144403,28 +144312,31 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-1",
-        "link_source": "key_point",
-        "quote": "The real threat of public ownership led electricity capitalists to accept a compromise based on turning electricity into a regulated public utility. We will need similarly powerful movements capable of disciplining private AI today.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "treat-ai-like-public-utility-2026-1",
-        "link_source": "key_point",
-        "quote": "Without regulation, the gains from AI will not be equally distributed and accessible throughout the population. ... If the twentieth century was shaped fundamentally by the electricity grid, the twenty-first might rely on public provision of AI infrastructure.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "treat-ai-like-public-utility-2026-2",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "If premium users get AI that works and the rest of us get a slippery, halfway-functioning version, society becomes even more unequal.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-2"
+      },
+      {
+        "source_id": "treat-ai-like-public-utility-2026",
+        "link_source": "key_point",
+        "quote": "The real threat of public ownership led electricity capitalists to accept a compromise based on turning electricity into a regulated public utility. We will need similarly powerful movements capable of disciplining private AI today.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
+      },
+      {
+        "source_id": "treat-ai-like-public-utility-2026",
+        "link_source": "key_point",
+        "quote": "Without regulation, the gains from AI will not be equally distributed and accessible throughout the population. ... If the twentieth century was shaped fundamentally by the electricity grid, the twenty-first might rely on public provision of AI infrastructure.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
       },
       {
         "source_id": "what-policymakers-public-need-know-about-cult-ai-2026",
@@ -146241,148 +146153,139 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Men demonstrate higher objective knowledge of AI than women.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Men's research productivity increased 6.4% more than women's following the release of ChatGPT.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Women are approximately 20% less likely than men to use generative AI tools.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Women are more supportive of government intervention to slow down AI adoption than men.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Women are over-represented in administrative, clerical, and service jobs that are vulnerable to AI displacement.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Women are under-represented in science, technology, engineering, and mathematics (STEM) fields.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Women consistently exhibit lower risk orientation (higher risk aversion) than men.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Women consistently perceive AI to be riskier than men.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "factual_claim",
-        "quote": "Women face higher exposure to AI across both high-complementarity and high-substitution roles.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "key_point",
-        "quote": "Women are over-represented in a range of administrative, clerical, and service jobs that may be disrupted by AI technologies",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "factual_claim",
         "quote": "Advances in AI could widen existing gender pay gaps.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
+        "link_source": "factual_claim",
+        "quote": "Men demonstrate higher objective knowledge of AI than women.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
+      },
+      {
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "factual_claim",
         "quote": "Men perceive more diverse risks associated with AI than women, but also perceive more benefits.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "factual_claim",
-        "quote": "Men's research productivity increased 6.4% more than women's following ChatGPT’s release.",
+        "quote": "Men's research productivity increased 6.4% more than women's following the release of ChatGPT.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "factual_claim",
         "quote": "Women are approximately 20% less likely than men to use generative AI tools.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
+        "link_source": "factual_claim",
+        "quote": "Women are more supportive of government intervention to slow down AI adoption than men.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
+      },
+      {
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "factual_claim",
         "quote": "Women are over-represented in administrative, clerical, and service jobs that are highly susceptible to AI disruption.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
+        "link_source": "factual_claim",
+        "quote": "Women are over-represented in administrative, clerical, and service jobs that are vulnerable to AI displacement.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
+      },
+      {
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "factual_claim",
         "quote": "Women are under-represented in science, technology, engineering, and mathematics (STEM) fields.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
+        "link_source": "factual_claim",
+        "quote": "Women consistently exhibit lower risk orientation (higher risk aversion) than men.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
+      },
+      {
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
+        "link_source": "factual_claim",
+        "quote": "Women consistently perceive AI to be riskier than men.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
+      },
+      {
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "factual_claim",
         "quote": "Women exhibit higher levels of general risk aversion than men.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
+        "link_source": "factual_claim",
+        "quote": "Women face higher exposure to AI across both high-complementarity and high-substitution roles.",
+        "doc_position": "supports",
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
+      },
+      {
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "factual_claim",
         "quote": "Women perceive AI as riskier than men.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
+      },
+      {
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
+        "link_source": "key_point",
+        "quote": "Women are over-represented in a range of administrative, clerical, and service jobs that may be disrupted by AI technologies",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
         "source_id": "extreme-power-concentration-80000-hours-2026-1",
@@ -146629,28 +146532,22 @@
         "extraction_confidence": 0.9
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-1",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "factual_claim",
         "quote": "Citigroup retrained 175,000 employees on prompt engineering for large language models.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-1"
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-1",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "key_point",
         "quote": "Financial giant Citigroup’s (No. 38) recent AI efforts have included retraining 175,000 employees on how to write better prompts to generate more impactful results from large language model queries.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-3",
-        "link_source": "factual_claim",
-        "quote": "Citigroup retrained 175,000 employees on prompt engineering for large language models.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-1"
       },
       {
         "source_id": "open-weight-paradox-why-restricting-access-ai-models-may-2026",
@@ -146877,20 +146774,22 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-1",
-        "link_source": "key_point",
-        "quote": "We need a public jobs program for displaced workers, and we should regulate AI as a public utility. ... Strengthening and expanding the welfare state, investing heavily in job training and placement programs, and empowering organized labor will be go-to policy proposals for dealing with AI-driven job loss.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "treat-ai-like-public-utility-2026-2",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "As we argued in our first essay on this topic, the Left needs to take both the safety and livelihood risks of AI very seriously.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-2"
+      },
+      {
+        "source_id": "treat-ai-like-public-utility-2026",
+        "link_source": "key_point",
+        "quote": "We need a public jobs program for displaced workers, and we should regulate AI as a public utility. ... Strengthening and expanding the welfare state, investing heavily in job training and placement programs, and empowering organized labor will be go-to policy proposals for dealing with AI-driven job loss.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
       },
       {
         "source_id": "trust-attitudes-use-ai-global-report-2026-1",
@@ -146937,36 +146836,40 @@
         "via": "white-house-releases-national-policy-framework-artificial-2026"
       },
       {
-        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1",
+        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026",
         "link_source": "factual_claim",
         "quote": "86% of the 6.1 million workers whose jobs are most likely to be disrupted by AI are women.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1"
       },
       {
-        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1",
+        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026",
         "link_source": "factual_claim",
         "quote": "Women use AI at a rate 25% lower than men on average.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1"
       },
       {
-        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1",
+        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026",
         "link_source": "factual_claim",
         "quote": "Women's jobs are three times more likely to be automated by AI than men's jobs.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1"
       },
       {
-        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1",
+        "source_id": "women-are-avoiding-very-technology-that-threatens-them-most-2026",
         "link_source": "key_point",
         "quote": "The jobs women hold are three times more likely to be automated by AI. ... Whereas men in highly AI-exposed jobs are likely to change jobs, women are most likely to completely exit the labor market rather than find new employment, Brookings found.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "women-are-avoiding-very-technology-that-threatens-them-most-2026-1"
       },
       {
         "source_id": "world-economic-outlook-update-global-economy-steady-amid-2026-2",
@@ -147165,6 +147068,33 @@
         "extraction_confidence": 1.0
       },
       {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
+        "quote": "Concerns have also been raised recently regarding the potential for AI systems to engage in deceptive behaviour.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
+        "quote": "However, this comes with risks such as difficulty in detecting AI errors, inherited biases, overreliance and challenges in oversight.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
+        "quote": "Increasing transparency about the use of AI by financial institutions is important for users of financial services, so they have an idea of the role AI plays in recommendations and decisions.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
         "source_id": "auditing-large-language-models-race-gender-disparities-2026-1",
         "link_source": "factual_claim",
         "quote": "President Biden's October 30, 2023, executive order mandates audits for federal agencies' use of AI.",
@@ -147304,68 +147234,31 @@
         "extraction_confidence": 0.98
       },
       {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "Concerns have also been raised recently regarding the potential for AI systems to engage in deceptive behaviour.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "However, this comes with risks such as difficulty in detecting AI errors, inherited biases, overreliance and challenges in oversight.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "Increasing transparency about the use of AI by financial institutions is important for users of financial services, so they have an idea of the role AI plays in recommendations and decisions.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "factual_claim",
         "quote": "AI systems trained on biased datasets have been documented to discriminate in hiring, lending, and healthcare.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1",
-        "link_source": "key_point",
-        "quote": "AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
-        "link_source": "factual_claim",
-        "quote": "AI systems trained on biased datasets have been documented to discriminate in hiring, lending, and healthcare.",
-        "doc_position": "supports",
-        "evidence_level": null,
-        "extraction_confidence": null
-      },
-      {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "factual_claim",
         "quote": "Women express greater uncertainty about AI's benefits and risks than men.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2"
       },
       {
-        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026-2",
+        "source_id": "explaining-womens-skepticism-toward-artificial-intelligence-2026",
         "link_source": "key_point",
-        "quote": "Moreover, AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes (3, 10–12).",
+        "quote": "AI systems trained on biased datasets have been documented to discriminate in areas such as hiring, lending, and healthcare, reinforcing gender inequalities and stereotypes",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "explaining-womens-skepticism-toward-artificial-intelligence-2026-1"
       },
       {
         "source_id": "extracting-books-from-production-language-models-2026",
@@ -147376,12 +147269,13 @@
         "extraction_confidence": 0.9
       },
       {
-        "source_id": "following-our-footsteps-science-2026-1",
+        "source_id": "following-our-footsteps-science-2026",
         "link_source": "key_point",
         "quote": "Exploiting intrinsic human cognitive biases, they often reinforce and promote fear, polarization, disinformation, populism, prejudice, irrationalism, radicalization, groupthink, and tribalism.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "following-our-footsteps-science-2026-1"
       },
       {
         "source_id": "future-jobs-report-2025-2026",
@@ -147550,12 +147444,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026-4",
+        "source_id": "one-common-thread-some-companies-seeing-most-success-ai-2026",
         "link_source": "factual_claim",
         "quote": "Women lead 18% of the companies on the Fortune AIQ 50 list, compared to 11% of the overall Fortune 500.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "one-common-thread-some-companies-seeing-most-success-ai-2026-4"
       },
       {
         "source_id": "pi-20250403-us-public-ai-experts-report-2026-2",
@@ -147956,12 +147851,13 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "following-our-footsteps-science-2026-1",
+        "source_id": "following-our-footsteps-science-2026",
         "link_source": "key_point",
         "quote": "Their quest for attention and generation of content for clickbait is driven not by malevolence but by design goals aligned with engagement and increasing advertising revenue.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "following-our-footsteps-science-2026-1"
       },
       {
         "source_id": "global-landscape-environmental-ai-regulation-from-cost-2026",
@@ -148041,12 +147937,13 @@
         "extraction_confidence": 1
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-1",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "More radical approaches would not accept that AI must be controlled by private capitalists who are then entitled to monopolize the surplus produced by its use throughout society. Policies aimed at “predistribution,” as discussed by Saffron Huang and Sam Manning, would seek to generalize the benefits of world-changing technology before it is hoarded by profit-seeking capitalists.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
       },
       {
         "source_id": "whats-right-path-ai-2026",
@@ -148327,20 +148224,22 @@
         "extraction_confidence": 1.0
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-1",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "One source of skepticism is that UBI provides a kind of “welfare for markets,” ensuring public spending flows back into the hands of private capitalists like Amazon, Walmart, and, indeed, now OpenAI, Google, and other purveyors of AI technology.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-1"
       },
       {
-        "source_id": "treat-ai-like-public-utility-2026-2",
+        "source_id": "treat-ai-like-public-utility-2026",
         "link_source": "key_point",
         "quote": "Policies aimed at “predistribution,” as discussed by Saffron Huang and Sam Manning, would seek to generalize the benefits of world-changing technology before it is hoarded by profit-seeking capitalists.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "treat-ai-like-public-utility-2026-2"
       },
       {
         "source_id": "world-development-report-2026-artificial-intelligence-2026",
@@ -150742,6 +150641,15 @@
       {
         "source_id": "artificial-intelligence-systemic-risk-2026",
         "link_source": "key_point",
+        "quote": "The sources of systemic risks linked to the features of AI we identify are not inherent to AI. They stem from corporate and societal choices on how to deploy the technology.",
+        "doc_position": null,
+        "evidence_level": null,
+        "extraction_confidence": null,
+        "via": "esrbascreport202512-aiandsystemicrisken-2026"
+      },
+      {
+        "source_id": "artificial-intelligence-systemic-risk-2026",
+        "link_source": "key_point",
         "quote": "To address issues of bounded rationality and information asymmetry, conduct authorities may wish to require labels stating when and how financial products use AI. Increasing transparency about the use of AI by financial institutions is important for users of financial services, so they have an idea of the role AI plays in recommendations and decisions.",
         "doc_position": null,
         "evidence_level": null,
@@ -150830,14 +150738,6 @@
         "doc_position": null,
         "evidence_level": null,
         "extraction_confidence": 0.95
-      },
-      {
-        "source_id": "esrbascreport202512-aiandsystemicrisken-2026-1",
-        "link_source": "key_point",
-        "quote": "The sources of systemic risks linked to the features of AI we identify are not inherent to AI. They stem from corporate and societal choices on how to deploy the technology.",
-        "doc_position": null,
-        "evidence_level": null,
-        "extraction_confidence": null
       },
       {
         "source_id": "evaluating-ai-providers-frontier-safety-frameworks-2026",
@@ -156247,12 +156147,13 @@
         "extraction_confidence": 0.95
       },
       {
-        "source_id": "251122662v2-2026-1",
+        "source_id": "251122662v2-2026",
         "link_source": "factual_claim",
         "quote": "Current deception detection benchmarks like MASK and Liars Bench often fail to disambiguate strategic deception from other categories of behavior.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "251122662v2-2026-1"
       },
       {
         "source_id": "260201002v1-2026",
@@ -157285,36 +157186,40 @@
         "extraction_confidence": null
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "factual_claim",
         "quote": "The concept of 'technological fix' refers to solving social problems through technical solutions, which may not address the underlying causes of the problem.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "factual_claim",
         "quote": "The philosophy of technology has historically been divided into 'humanities philosophy of technology' and 'analytic philosophy of technology'. The former focuses on societal and cultural meaning, while the latter focuses on the practice of engineering and the nature of artifacts.",
         "doc_position": "supports",
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "Of particular significance has been the emergence of ‘Science and Technology Studies’ (STS) in the 1980s, which studies from a broad social-scientific perspective how social, political, and cultural values affect scientific research and technological innovation, and how these in turn affect society, politics, and culture.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
       },
       {
-        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1",
+        "source_id": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
         "link_source": "key_point",
         "quote": "The developments also imply that ethics of technology is to be adequately empirically informed, not only about the exact consequences of specific technologies but also about the actions of engineers and the process of technological development.",
         "doc_position": null,
         "evidence_level": null,
-        "extraction_confidence": null
+        "extraction_confidence": null,
+        "chunk_of": "philosophy-technology-stanford-encyclopedia-philosophy-2026-1"
       },
       {
         "source_id": "pi-20250403-us-public-ai-experts-report-2026-2",
