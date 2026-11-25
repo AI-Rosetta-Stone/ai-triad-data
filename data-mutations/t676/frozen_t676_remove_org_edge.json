@@ -1,0 +1,26 @@
+{
+  "ticket": "t/676",
+  "go": "t/676#5",
+  "sha256": "40e6ec92d6e8362111a20fbb97b738d98b64906fbc0624a863cc11d04ffd5493",
+  "targets": [
+    {
+      "file": "data-mutations/t676/apply-evidence.md"
+    }
+  ],
+  "removals": [
+    {
+      "file": "taxonomy/Origin/org-edge.json"
+    }
+  ],
+  "data_commit": "e66f28222909007ce723e33ef7c4384878fd3d7f",
+  "hash_basis": "sha256-lf",
+  "removed_files": {
+    "taxonomy/Origin/org-edge.json": {
+      "sha256": "7a9d0df1ad0af88495817215f92af3394673701ca895ef063f97ed5b1fa55213",
+      "bytes": 33620,
+      "last_changed_by": "67bde194 (2026-07-20)",
+      "edges": 97,
+      "rationales_starting_match_basis": 19
+    }
+  }
+}
