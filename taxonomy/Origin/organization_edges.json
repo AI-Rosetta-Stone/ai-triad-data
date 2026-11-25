@@ -733,7 +733,7 @@
       "source": "org-014",
       "target": "ai-rmf-playbook-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Rejected: the document is a marked copy of AI RMF Playbook. It is not shown as a publisher of its own.",
       "source_refs": [
         "ai-rmf-playbook-2026"
       ],
@@ -741,13 +741,17 @@
       "discovered_at": "2026-07-12",
       "reviewed_by": "human",
       "reviewed_at": "2026-11-25",
-      "review_note": "Marked copy of ai-rmf-playbook-2026-2 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291"
+      "review_note": "Marked copy of ai-rmf-playbook-2026-2 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-014",
       "target": "ai-rmf-playbook-2026-1",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Rejected: the document is a marked copy of AI RMF Playbook. It is not shown as a publisher of its own.",
       "source_refs": [
         "ai-rmf-playbook-2026-1"
       ],
@@ -755,65 +759,85 @@
       "discovered_at": "2026-07-12",
       "reviewed_by": "human",
       "reviewed_at": "2026-11-25",
-      "review_note": "Marked copy of ai-rmf-playbook-2026-2 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291"
+      "review_note": "Marked copy of ai-rmf-playbook-2026-2 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-014",
       "target": "ai-rmf-playbook-2026-2",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Published on NIST's own site (nist.gov).",
       "source_refs": [
         "ai-rmf-playbook-2026-2"
       ],
       "status": "approved",
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_at": "2026-07-12",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-001",
       "target": "anthropics-responsible-scaling-policy-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=exact_url (t/1553 Stage 0)",
+      "rationale": "Published on Anthropic's own site (anthropic.com).",
       "source_refs": [
         "anthropics-responsible-scaling-policy-2026"
       ],
       "status": "approved",
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_at": "2026-07-12",
+      "match_meta": {
+        "stage": 0,
+        "basis": "exact_url"
+      }
     },
     {
       "source": "org-023",
       "target": "applying-history-inform-anticipatory-ai-governance-using-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Published on RAND Corporation's own site (rand.org).",
       "source_refs": [
         "applying-history-inform-anticipatory-ai-governance-using-2026"
       ],
       "status": "approved",
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_at": "2026-07-12",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-014",
       "target": "center-ai-standards-innovation-caisi-nist-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Published on NIST's own site (nist.gov).",
       "source_refs": [
         "center-ai-standards-innovation-caisi-nist-2026"
       ],
       "status": "approved",
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_at": "2026-07-12",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-014",
       "target": "center-ai-standards-innovation-caisi-nist-2026-1",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Rejected: the document is a marked copy of Center for AI Standards and Innovation (CAISI) | NIST. It is not shown as a publisher of its own.",
       "source_refs": [
         "center-ai-standards-innovation-caisi-nist-2026-1"
       ],
@@ -821,13 +845,17 @@
       "discovered_at": "2026-07-12",
       "reviewed_by": "human",
       "reviewed_at": "2026-11-25",
-      "review_note": "Marked copy of center-ai-standards-innovation-caisi-nist-2026 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291"
+      "review_note": "Marked copy of center-ai-standards-innovation-caisi-nist-2026 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-014",
       "target": "center-ai-standards-innovation-caisi-nist-2026-2",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Rejected: the document is a marked copy of Center for AI Standards and Innovation (CAISI) | NIST. It is not shown as a publisher of its own.",
       "source_refs": [
         "center-ai-standards-innovation-caisi-nist-2026-2"
       ],
@@ -835,26 +863,34 @@
       "discovered_at": "2026-07-12",
       "reviewed_by": "human",
       "reviewed_at": "2026-11-25",
-      "review_note": "Marked copy of center-ai-standards-innovation-caisi-nist-2026 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291"
+      "review_note": "Marked copy of center-ai-standards-innovation-caisi-nist-2026 (duplicate_of); the PUBLISHED edge to the canonical exists. PI via TL p/37#189, t/291",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-002",
       "target": "detecting-reducing-scheming-ai-models-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Published on OpenAI's own site (openai.com).",
       "source_refs": [
         "detecting-reducing-scheming-ai-models-2026"
       ],
       "status": "approved",
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_at": "2026-07-12",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-017",
       "target": "ensuring-national-policy-framework-artificial-intelligence-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Rejected: the document is on whitehouse.gov, one of the sites listed in White House Office of Science and Technology Policy's links. Reviewer's note: “Presidential executive order (whitehouse.gov/presidential-actions), not an OSTP publication; PI t/218#6, t/293”",
       "source_refs": [
         "ensuring-national-policy-framework-artificial-intelligence-2026"
       ],
@@ -862,104 +898,136 @@
       "discovered_at": "2026-07-12",
       "reviewed_by": "human",
       "reviewed_at": "2026-11-10",
-      "review_note": "Presidential executive order (whitehouse.gov/presidential-actions), not an OSTP publication; PI t/218#6, t/293"
+      "review_note": "Presidential executive order (whitehouse.gov/presidential-actions), not an OSTP publication; PI t/218#6, t/293",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-023",
       "target": "how-artificial-intelligence-could-reshape-four-essential-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Published on RAND Corporation's own site (rand.org).",
       "source_refs": [
         "how-artificial-intelligence-could-reshape-four-essential-2026"
       ],
       "status": "approved",
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_at": "2026-07-12",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-010",
       "target": "inevitability-systemic-failure-comprehensive-analysis-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Rejected: the document is on en.wikipedia.org, one of the sites listed in Electronic Frontier Foundation's links.",
       "source_refs": [
         "inevitability-systemic-failure-comprehensive-analysis-2026"
       ],
       "status": "rejected",
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_at": "2026-07-12",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-010",
       "target": "kardashev-scale-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Rejected: the document is on en.wikipedia.org, one of the sites listed in Electronic Frontier Foundation's links.",
       "source_refs": [
         "kardashev-scale-2026"
       ],
       "status": "rejected",
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_at": "2026-07-12",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-023",
       "target": "legal-policy-approaches-mitigate-catastrophic-harms-from-ai-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Published on RAND Corporation's own site (rand.org).",
       "source_refs": [
         "legal-policy-approaches-mitigate-catastrophic-harms-from-ai-2026"
       ],
       "status": "approved",
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_at": "2026-07-12",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-018",
       "target": "oecd-framework-classification-ai-systems-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Published on OECD AI Policy Observatory's own site (oecd.ai).",
       "source_refs": [
         "oecd-framework-classification-ai-systems-2026"
       ],
       "status": "approved",
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_at": "2026-07-12",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-002",
       "target": "our-updated-preparedness-framework-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Published on OpenAI's own site (openai.com).",
       "source_refs": [
         "our-updated-preparedness-framework-2026"
       ],
       "status": "approved",
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_at": "2026-07-12",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-010",
       "target": "philosophy-technology-stanford-encyclopedia-philosophy-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Rejected: the document is on en.wikipedia.org, one of the sites listed in Electronic Frontier Foundation's links.",
       "source_refs": [
         "philosophy-technology-stanford-encyclopedia-philosophy-2026"
       ],
       "status": "rejected",
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_at": "2026-07-12",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-010",
       "target": "techno-optimist-manifesto-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Rejected: the document is on en.wikipedia.org, one of the sites listed in Electronic Frontier Foundation's links. Reviewer's note: “This should be Org-005”",
       "source_refs": [
         "techno-optimist-manifesto-2026"
       ],
@@ -967,247 +1035,423 @@
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
       "reviewed_at": "2026-07-12",
-      "review_note": "This should be Org-005"
+      "review_note": "This should be Org-005",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-010",
       "target": "tescreal-2026",
       "type": "PUBLISHED",
-      "rationale": "match_basis=domain (t/1553 Stage 0)",
+      "rationale": "Rejected: the document is on en.wikipedia.org, one of the sites listed in Electronic Frontier Foundation's links.",
       "source_refs": [
         "tescreal-2026"
       ],
       "status": "rejected",
       "discovered_at": "2026-07-12",
       "reviewed_by": "unknown",
-      "reviewed_at": "2026-07-12"
+      "reviewed_at": "2026-07-12",
+      "match_meta": {
+        "stage": 0,
+        "basis": "domain"
+      }
     },
     {
       "source": "org-001",
       "target": "saf-intentions-054",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.689 (t/1553 Stage 3)",
+      "rationale": "Anthropic states: “the ASL system implicitly requires us to temporarily pause training of more powerful models if our AI scaling outstrips our ability to comply with the necessary safety procedures.” (Anthropic's Responsible Scaling Policy).",
       "source_refs": [
         "anthropics-responsible-scaling-policy-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.689,
+        "claim_source_id": "anthropics-responsible-scaling-policy-2026",
+        "claim_text_sha256": "ea6fa6b5da3e2460d64a2ee79db1a763afda5408aadee5a3a8a52c144955c7fd"
+      }
     },
     {
       "source": "org-002",
       "target": "saf-beliefs-203",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.768 (t/1553 Stage 3)",
+      "rationale": "OpenAI states: “If another frontier AI developer releases a high-risk system without comparable safeguards, we may adjust our requirements.” (Our updated Preparedness Framework).",
       "source_refs": [
         "our-updated-preparedness-framework-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.768,
+        "claim_source_id": "our-updated-preparedness-framework-2026",
+        "claim_text_sha256": "6ea6e1364ee87b0c8ef5732dda8dc9d05b0b60e564cb40f181551c160892a8f2"
+      }
     },
     {
       "source": "org-002",
       "target": "saf-beliefs-127",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.679 (t/1553 Stage 3)",
+      "rationale": "OpenAI states: “Systems that reach Critical capability also require safeguards that sufficiently minimize associated risks during development.” (Our updated Preparedness Framework).",
       "source_refs": [
         "our-updated-preparedness-framework-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.679,
+        "claim_source_id": "our-updated-preparedness-framework-2026",
+        "claim_text_sha256": "5eb241ec0802d0c1c39ad1ca961f29d1f78bf3aff716cf74ab9aa42dbfcc82b2"
+      }
     },
     {
       "source": "org-002",
       "target": "saf-beliefs-146",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.667 (t/1553 Stage 3)",
+      "rationale": "OpenAI states: “the risk should be plausible, measurable, severe, net new, and instantaneous or irremediable.” (Our updated Preparedness Framework).",
       "source_refs": [
         "our-updated-preparedness-framework-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.667,
+        "claim_source_id": "our-updated-preparedness-framework-2026",
+        "claim_text_sha256": "de1aff27a594ef3596b591cc69468c60edbc536aa6963016191df94874fba941"
+      }
     },
     {
       "source": "org-002",
       "target": "saf-beliefs-109",
       "type": "OPPOSES",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.657 (t/1553 Stage 3) directional_flip=ADVOCATES_FOR->OPPOSES nli_dir=opposes nli_margin=5.1754 (t/215, t/334; PI-approved 2026-11-24)",
+      "rationale": "OpenAI states, in opposition: “Covered systems that reach High capability must have safeguards that sufficiently minimize the associated risk of severe harm before they are deployed.” (Our updated Preparedness Framework).",
       "source_refs": [
         "our-updated-preparedness-framework-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.657,
+        "claim_source_id": "our-updated-preparedness-framework-2026",
+        "claim_text_sha256": "420d429faa8b209b3aefc633c9e69d57c9dd7dfcee6545b286635fe7ba403f7b",
+        "nli_direction": "opposes",
+        "nli_margin": 5.1754,
+        "directional_flip": "ADVOCATES_FOR->OPPOSES"
+      }
     },
     {
       "source": "org-002",
       "target": "saf-intentions-032",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.647 (t/1553 Stage 3)",
+      "rationale": "OpenAI states: “we urge model developers to preserve reasoning transparency until better methods for studying and eliminating scheming have been developed.” (Detecting and reducing scheming in AI models).",
       "source_refs": [
         "detecting-reducing-scheming-ai-models-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.647,
+        "claim_source_id": "detecting-reducing-scheming-ai-models-2026",
+        "claim_text_sha256": "a6f961d16e205f41fa92fa0846e61d32e9b3565efbfa7bfc2452356417b5af03"
+      }
     },
     {
       "source": "org-002",
       "target": "saf-intentions-095",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.630 (t/1553 Stage 3)",
+      "rationale": "OpenAI states: “We’re now adding more detail about how we’ll design strong safeguards and verify their effectiveness in dedicated Safeguards Reports” (Our updated Preparedness Framework).",
       "source_refs": [
         "our-updated-preparedness-framework-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.63,
+        "claim_source_id": "our-updated-preparedness-framework-2026",
+        "claim_text_sha256": "d6a66cdd8640319d5bd64b91b7d1d368357a7e68a8345fe9c0cf082738df4fe5"
+      }
     },
     {
       "source": "org-002",
       "target": "acc-beliefs-015",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.617 (t/1553 Stage 3)",
+      "rationale": "OpenAI states: “If current training paradigms remain unchanged, we should expect more capable models to develop even higher levels of situational awareness.” (Detecting and reducing scheming in AI models).",
       "source_refs": [
         "detecting-reducing-scheming-ai-models-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.617,
+        "claim_source_id": "detecting-reducing-scheming-ai-models-2026",
+        "claim_text_sha256": "57e384e638afb9f808fa20782670e8eca9ca08d25b28daa188830ea0e7294dc5"
+      }
     },
     {
       "source": "org-002",
       "target": "skp-beliefs-145",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.610 (t/1553 Stage 3)",
+      "rationale": "OpenAI states: “Addressing this likely requires tools that tell you about the model’s motivational structure, not just its inputs and outputs.” (Detecting and reducing scheming in AI models).",
       "source_refs": [
         "detecting-reducing-scheming-ai-models-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.61,
+        "claim_source_id": "detecting-reducing-scheming-ai-models-2026",
+        "claim_text_sha256": "3642134d6ca5c2221bedc81d9bd88fd74ffd8d2ecbe0aa8abfaba78bce411d48"
+      }
     },
     {
       "source": "org-014",
       "target": "skp-intentions-143",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.738 (t/1553 Stage 3)",
+      "rationale": "NIST states: “Align risk management efforts with applicable legal standards.” (AI RMF Playbook).",
       "source_refs": [
         "ai-rmf-playbook-2026-2"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.738,
+        "claim_source_id": "ai-rmf-playbook-2026-2",
+        "claim_text_sha256": "5bc9c19b5b7d0313248db8276398fdf9e22b1cfee4427c747b185feb59882a8b"
+      }
     },
     {
       "source": "org-014",
       "target": "saf-desires-010",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.730 (t/1553 Stage 3)",
+      "rationale": "NIST states: “Legal and regulatory requirements involving AI are understood, managed, and documented.” (AI RMF Playbook).",
       "source_refs": [
         "ai-rmf-playbook-2026-2"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.73,
+        "claim_source_id": "ai-rmf-playbook-2026-2",
+        "claim_text_sha256": "d423a830f7b8b2e4e3522651fdeaf1b9b53b90bb5be1f3047d63bba24bef3c8f"
+      }
     },
     {
       "source": "org-014",
       "target": "saf-desires-012",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.702 (t/1553 Stage 3)",
+      "rationale": "Proposed by automated claim matching; the supporting claim was later withdrawn.",
       "source_refs": [
         "ai-rmf-playbook-2026-2"
       ],
-      "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "status": "rejected",
+      "discovered_at": "2026-07-13",
+      "reviewed_by": "human",
+      "reviewed_at": "2026-11-25",
+      "review_note": "No supporting claim remains: its claims were duplicate-copy claims removed by t/291. Rejected with the t/584 rationale rewrite.",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.702
+      }
     },
     {
       "source": "org-014",
       "target": "acc-beliefs-069",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.659 (t/1553 Stage 3)",
+      "rationale": "NIST states: “Building gold-standard AI systems requires gold-standard AI measurement science” (Center for AI Standards and Innovation (CAISI) | NIST).",
       "source_refs": [
         "center-ai-standards-innovation-caisi-nist-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.659,
+        "claim_source_id": "center-ai-standards-innovation-caisi-nist-2026",
+        "claim_text_sha256": "fc08e150427264cd22e2e2c39eff775f694446b519ffc59bae13b700e72772be"
+      }
     },
     {
       "source": "org-014",
       "target": "acc-intentions-103",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.641 (t/1553 Stage 3)",
+      "rationale": "Proposed by automated claim matching; the supporting claim was later withdrawn.",
       "source_refs": [
         "center-ai-standards-innovation-caisi-nist-2026"
       ],
-      "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "status": "rejected",
+      "discovered_at": "2026-07-13",
+      "reviewed_by": "human",
+      "reviewed_at": "2026-11-25",
+      "review_note": "No supporting claim remains: its claims were duplicate-copy claims removed by t/291. Rejected with the t/584 rationale rewrite.",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.641
+      }
     },
     {
       "source": "org-014",
       "target": "saf-intentions-144",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.640 (t/1553 Stage 3)",
+      "rationale": "NIST states: “CAISI will focus on demonstrable risks, such as cybersecurity, biosecurity, and chemical weapons.” (Center for AI Standards and Innovation (CAISI) | NIST).",
       "source_refs": [
         "center-ai-standards-innovation-caisi-nist-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.64,
+        "claim_source_id": "center-ai-standards-innovation-caisi-nist-2026",
+        "claim_text_sha256": "4d172521abac34d1eaad08af0bc945daf85adc1fe08a81742213820057eaa3c6"
+      }
     },
     {
       "source": "org-014",
       "target": "saf-intentions-016",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.635 (t/1553 Stage 3)",
+      "rationale": "Proposed by automated claim matching; the supporting claim was later withdrawn.",
       "source_refs": [
         "center-ai-standards-innovation-caisi-nist-2026"
       ],
-      "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "status": "rejected",
+      "discovered_at": "2026-07-13",
+      "reviewed_by": "human",
+      "reviewed_at": "2026-11-25",
+      "review_note": "No supporting claim remains: its claims were duplicate-copy claims removed by t/291. Rejected with the t/584 rationale rewrite.",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.635
+      }
     },
     {
       "source": "org-014",
       "target": "saf-intentions-201",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.635 (t/1553 Stage 3)",
+      "rationale": "Proposed by automated claim matching; the supporting claim was later withdrawn.",
       "source_refs": [
         "center-ai-standards-innovation-caisi-nist-2026"
       ],
-      "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "status": "rejected",
+      "discovered_at": "2026-07-13",
+      "reviewed_by": "human",
+      "reviewed_at": "2026-11-25",
+      "review_note": "No supporting claim remains: its claims were duplicate-copy claims removed by t/291. Rejected with the t/584 rationale rewrite.",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.635
+      }
     },
     {
       "source": "org-014",
       "target": "saf-intentions-069",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.622 (t/1553 Stage 3)",
+      "rationale": "NIST states: “Maintain awareness of the applicable legal and regulatory considerations and requirements specific to industry, sector, and business purpose, as well as the application context of the deployed AI system.” (AI RMF Playbook).",
       "source_refs": [
         "ai-rmf-playbook-2026-2"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.622,
+        "claim_source_id": "ai-rmf-playbook-2026-2",
+        "claim_text_sha256": "8be7c1cf9b37d316206f3ce54fb1cb0b9da11403138e3710537bb040c62ae26d"
+      }
     },
     {
       "source": "org-014",
       "target": "saf-beliefs-097",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.608 (t/1553 Stage 3)",
+      "rationale": "NIST states: “Lead evaluations and assessments of potential security vulnerabilities and malign foreign influence arising from use of adversaries' AI systems” (Center for AI Standards and Innovation (CAISI) | NIST).",
       "source_refs": [
         "center-ai-standards-innovation-caisi-nist-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.608,
+        "claim_source_id": "center-ai-standards-innovation-caisi-nist-2026",
+        "claim_text_sha256": "c25de0f77565b4e1569738c958195ece1a993dbf0100ca5d96d7c7cba4f3f2fe"
+      }
     },
     {
       "source": "org-014",
       "target": "skp-intentions-094",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=multi-claim-agreement families=2 best_cosine=0.580 (t/1553 Stage 3)",
+      "rationale": "Proposed by automated claim matching; the supporting claim was later withdrawn.",
       "source_refs": [
         "ai-rmf-playbook-2026-2",
         "center-ai-standards-innovation-caisi-nist-2026"
       ],
-      "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "status": "rejected",
+      "discovered_at": "2026-07-13",
+      "reviewed_by": "human",
+      "reviewed_at": "2026-11-25",
+      "review_note": "No supporting claim remains: its claims were duplicate-copy claims removed by t/291. Rejected with the t/584 rationale rewrite.",
+      "match_meta": {
+        "stage": 3,
+        "basis": "multi-claim-agreement",
+        "families": 2,
+        "best_cosine": 0.58
+      }
     },
     {
       "source": "org-017",
       "target": "acc-intentions-074",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.758 (t/1553 Stage 3)",
+      "rationale": "Proposed by automated claim matching; the supporting claim was later withdrawn.",
       "source_refs": [
         "ensuring-national-policy-framework-artificial-intelligence-2026"
       ],
@@ -1215,13 +1459,19 @@
       "discovered_at": "2026-07-13",
       "reviewed_by": "human",
       "reviewed_at": "2026-11-10",
-      "review_note": "Presidential executive order (whitehouse.gov/presidential-actions), not an OSTP publication; PI t/218#6, t/293"
+      "review_note": "Presidential executive order (whitehouse.gov/presidential-actions), not an OSTP publication; PI t/218#6, t/293",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.758
+      }
     },
     {
       "source": "org-017",
       "target": "acc-beliefs-043",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.666 (t/1553 Stage 3)",
+      "rationale": "Proposed by automated claim matching; the supporting claim was later withdrawn.",
       "source_refs": [
         "ensuring-national-policy-framework-artificial-intelligence-2026"
       ],
@@ -1229,84 +1479,146 @@
       "discovered_at": "2026-07-13",
       "reviewed_by": "human",
       "reviewed_at": "2026-11-10",
-      "review_note": "Presidential executive order (whitehouse.gov/presidential-actions), not an OSTP publication; PI t/218#6, t/293"
+      "review_note": "Presidential executive order (whitehouse.gov/presidential-actions), not an OSTP publication; PI t/218#6, t/293",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.666
+      }
     },
     {
       "source": "org-018",
       "target": "saf-beliefs-028",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.629 (t/1553 Stage 3)",
+      "rationale": "OECD AI Policy Observatory states: “The framework allows users to zoom in on specific risks that are typical of AI, such as bias, explainability and robustness” (The OECD Framework for the Classification of AI Systems).",
       "source_refs": [
         "oecd-framework-classification-ai-systems-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.629,
+        "claim_source_id": "oecd-framework-classification-ai-systems-2026",
+        "claim_text_sha256": "b67428a1e7e3811ce05b48d26052a95b8d33baf506abfee357584d042bdef595"
+      }
     },
     {
       "source": "org-018",
       "target": "skp-beliefs-115",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.608 (t/1553 Stage 3)",
+      "rationale": "OECD AI Policy Observatory states: “The framework provides a baseline framework to help support and advance: A common understanding of AI, and metrics” (The OECD Framework for the Classification of AI Systems).",
       "source_refs": [
         "oecd-framework-classification-ai-systems-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.608,
+        "claim_source_id": "oecd-framework-classification-ai-systems-2026",
+        "claim_text_sha256": "be415012d4124c64c873cf8b4a7cf0bf66b7eccf9ef917a48dfb37ea33815ff7"
+      }
     },
     {
       "source": "org-023",
       "target": "saf-desires-012",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.731 (t/1553 Stage 3)",
+      "rationale": "RAND Corporation states: “the most promising legal and policy categories to shape incentives for AI developers to reduce the probability of catastrophic AI-caused harms were incentives to find and disclose risks and voluntary safety standards.” (Legal and Policy Approaches to Mitigate Catastrophic Harms from AI).",
       "source_refs": [
         "legal-policy-approaches-mitigate-catastrophic-harms-from-ai-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.731,
+        "claim_source_id": "legal-policy-approaches-mitigate-catastrophic-harms-from-ai-2026",
+        "claim_text_sha256": "0d23fe46cd787581883795ace0855a52c0da2a5fe2d7e2f2d9a5c2e0dae65264"
+      }
     },
     {
       "source": "org-023",
       "target": "saf-intentions-016",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.720 (t/1553 Stage 3)",
+      "rationale": "RAND Corporation states: “It may be more feasible for state governments to enact, and for industry and nongovernmental actors to adopt, some of the more promising measures.” (Legal and Policy Approaches to Mitigate Catastrophic Harms from AI).",
       "source_refs": [
         "legal-policy-approaches-mitigate-catastrophic-harms-from-ai-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.72,
+        "claim_source_id": "legal-policy-approaches-mitigate-catastrophic-harms-from-ai-2026",
+        "claim_text_sha256": "2fc35f2dfe4452cb24e69750a431dea3cdaebde1fa7c241fe82b91820d28ac8c"
+      }
     },
     {
       "source": "org-023",
       "target": "saf-intentions-149",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.696 (t/1553 Stage 3)",
+      "rationale": "RAND Corporation states: “Heavier-handed and stricter regulations, such as mandatory audits, government-imposed restrictions on actors, and mandatory safety standards, emerged as the least promising categories.” (Legal and Policy Approaches to Mitigate Catastrophic Harms from AI).",
       "source_refs": [
         "legal-policy-approaches-mitigate-catastrophic-harms-from-ai-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.696,
+        "claim_source_id": "legal-policy-approaches-mitigate-catastrophic-harms-from-ai-2026",
+        "claim_text_sha256": "ff496db5b63d6afc64c65b9ff2ea56662ae7bd43e4f7673aff7ad83500968f77"
+      }
     },
     {
       "source": "org-023",
       "target": "skp-intentions-102",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.690 (t/1553 Stage 3)",
+      "rationale": "RAND Corporation states: “developing more-sophisticated and more-nuanced AI governance models that strike a balance between encouraging innovation and ensuring the public good.” (Applying History to Inform Anticipatory AI Governance: Using Foresight and Hindsight to Inform Policymaking).",
       "source_refs": [
         "applying-history-inform-anticipatory-ai-governance-using-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.69,
+        "claim_source_id": "applying-history-inform-anticipatory-ai-governance-using-2026",
+        "claim_text_sha256": "222d60e3b8b0354406027789367696fbc71e00fb0eedde2019fe9990f51a40dd"
+      }
     },
     {
       "source": "org-023",
       "target": "saf-intentions-201",
       "type": "ADVOCATES_FOR",
-      "rationale": "match_basis=high-cosine families=1 best_cosine=0.629 (t/1553 Stage 3)",
+      "rationale": "RAND Corporation states: “the possibility of pursuing multilateral international cooperation to avoid the fragmentation of regulation and markets” (Applying History to Inform Anticipatory AI Governance: Using Foresight and Hindsight to Inform Policymaking).",
       "source_refs": [
         "applying-history-inform-anticipatory-ai-governance-using-2026"
       ],
       "status": "proposed",
-      "discovered_at": "2026-07-13"
+      "discovered_at": "2026-07-13",
+      "match_meta": {
+        "stage": 3,
+        "basis": "high-cosine",
+        "families": 1,
+        "best_cosine": 0.629,
+        "claim_source_id": "applying-history-inform-anticipatory-ai-governance-using-2026",
+        "claim_text_sha256": "eb2a9d3b3159c6b3b798e8cb5cf6132ff99af8c5b24fe93fb783d1168e734d7c"
+      }
     }
   ]
 }
