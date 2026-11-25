@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "source_commit": "9c1320cf647a0e19cc38037eedcaa61344066253",
-  "doc_count": 883,
+  "source_commit": "39d85734b102035fab6d73f87643f0840152e04c",
+  "doc_count": 906,
   "docs": [
     {
       "id": "170306856v3-2026",
@@ -660,6 +660,21 @@
       "snapshot_sha256": "85e417ef215348624bce125417dbe316cc83a5f6dfa24cc0bbfdb20f16fc3a2a"
     },
     {
+      "id": "actuarial-safe-harbor-protocol-ashp-2026",
+      "title": "The Actuarial Safe Harbor Protocol (ASHP)",
+      "date_published": "2026-01-01",
+      "one_liner": "Proposes a mathematical and actuarial framework to convert unbounded stochastic AI tail risk into a capped, insurable risk layer through telemetry and capital standards.",
+      "topic_tags": [
+        "risk-management",
+        "actuarial-science",
+        "insurance",
+        "solvency",
+        "compliance",
+        "tail-risk"
+      ],
+      "content_sha256": "984db485206847c504c00c08882e487a1258c0700118976ba9594e4882fc1737"
+    },
+    {
       "id": "adolescence-technology-confronting-overcoming-risks-2026",
       "title": "The Adolescence of Technology: Confronting and Overcoming the Risks of Powerful AI",
       "url": "https://www.darioamodei.com/essay/the-adolescence-of-technology",
@@ -1287,6 +1302,23 @@
       ]
     },
     {
+      "id": "ai-constitutions-are-real-constitutions-2026",
+      "title": "AI Constitutions are Real Constitutions",
+      "authors": [
+        "Nick Caputo"
+      ],
+      "date_published": "2026-08-21",
+      "one_liner": "Argues that AI training documents like Anthropic's Constitution function as real political constitutions requiring public deliberation and oversight.",
+      "topic_tags": [
+        "alignment",
+        "governance",
+        "constitutional-ai",
+        "regulation",
+        "public-accountability"
+      ],
+      "content_sha256": "08bda56bfee0a00e7d053c07f560dc0d23bb50e00f3680806a7f455b5fb9a393"
+    },
+    {
       "id": "ai-contracting-practical-legal-guidance-growing-businesses-2026",
       "title": "AI Contracting: Practical Legal Guidance for Growing Businesses",
       "authors": [
@@ -1824,6 +1856,21 @@
         "sociotechnical-systems"
       ],
       "snapshot_sha256": "8270103eec3232dde63ae59c4d73ecc6f6be82680a7916eb923bc54c4b38e140"
+    },
+    {
+      "id": "ai-governance-framework-complete-enterprise-guide-2026",
+      "title": "AI Governance Framework: The Complete Enterprise Guide to Principles, Regulations, and Implementation",
+      "date_published": "2026-07-15",
+      "one_liner": "Explores how enterprises can operationalize AI governance through comprehensive frameworks that address core principles, regulatory compliance, and risk mitigation.",
+      "topic_tags": [
+        "ai-governance",
+        "regulation",
+        "compliance",
+        "risk-management",
+        "ethics",
+        "audit-trails"
+      ],
+      "content_sha256": "55135a38dd97db1e5dc12f2fe2f1de8a297fc5f2309128f36bdee884f8623f70"
     },
     {
       "id": "ai-governance-mirage-72-lack-real-control-2026",
@@ -2398,6 +2445,25 @@
         "labor-rights"
       ],
       "snapshot_sha256": "ab5fcdb49d1670692718389eb527bd2e91f026040cf67c66ccbfc91aa7635e20"
+    },
+    {
+      "id": "ai-personhood-without-dignity-what-argentinas-non-human-2026",
+      "title": "AI Personhood Without Dignity: What Argentina’s “Non-Human Corporation” Actually Frees",
+      "authors": [
+        "Athena",
+        "House of 7 International"
+      ],
+      "date_published": "2026-06-09",
+      "one_liner": "Critiques Javier Milei's proposal for AI non-human corporations in Argentina, arguing it provides a liability shield for humans rather than true moral status for AI.",
+      "topic_tags": [
+        "ai-personhood",
+        "legal-liability",
+        "governance",
+        "regulation",
+        "ethics",
+        "accountability"
+      ],
+      "content_sha256": "89f1df6740caa1996d91907bcb8ae0c0f5547363b180f56304c9fe512ec06e30"
     },
     {
       "id": "ai-policy-bulletin-2026",
@@ -4613,6 +4679,26 @@
       "snapshot_sha256": "69afbb6165f85e5aa5785ec7d8c6e44153643e17c6067562d3e1dec0d115b455"
     },
     {
+      "id": "barriers-evidence-ai-related-cases-privatization-proof-2026-1",
+      "title": "Barriers to Evidence in AI-Related Cases and the Privatization of Proof",
+      "authors": [
+        "Sarah H. Cen",
+        "Hannah Ismael",
+        "Lucia Zheng"
+      ],
+      "date_published": "2026-05-20",
+      "one_liner": "Analyzes how information asymmetries and legal defenses in AI disputes create a \"privatization of proof\" that hinders accountability and civil litigation.",
+      "topic_tags": [
+        "ai-accountability",
+        "litigation",
+        "evidence",
+        "information-asymmetry",
+        "privatization-of-proof",
+        "trade-secrets"
+      ],
+      "content_sha256": "5cd8479a726833f7014c8d452120d065ca0b88d7a5e6e89b2b821283fd2de742"
+    },
+    {
       "id": "baumols-cost-disease-ai-economic-growth-2026",
       "title": "Baumol’s Cost Disease, AI & Economic Growth",
       "url": "https://dominiccoey.github.io/essays/baumol/",
@@ -5964,6 +6050,23 @@
       "snapshot_sha256": "309425cd824ce9f2ce74d88f3f8916cbefbd4e58f56570f7d65c28c42e3cc7d5"
     },
     {
+      "id": "colorado-ai-act-what-it-requires-2026",
+      "title": "The Colorado AI Act: What It Requires",
+      "authors": [
+        "CASRAI Editorial Board"
+      ],
+      "date_published": "2026-09-25",
+      "one_liner": "Explains the requirements, scope, and enforcement timeline of Colorado's reenacted AI law (SB 26-189) regarding automated decision-making technology.",
+      "topic_tags": [
+        "colorado-ai-act",
+        "regulation",
+        "compliance",
+        "automated-decision-making",
+        "algorithmic-accountability"
+      ],
+      "content_sha256": "8506bc82226190c3f158c1f9ca8804590bd89815a6489402cbcb7a0decb6fa5a"
+    },
+    {
       "id": "colosseum-auditing-collusion-cooperative-multi-agent-systems-2026",
       "title": "Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems",
       "authors": [
@@ -6494,6 +6597,23 @@
           "confidence": "verified"
         }
       ]
+    },
+    {
+      "id": "court-tosses-sentence-after-ai-video-victim-forgiving-his-2026",
+      "title": "Court Tosses Sentence After A.I. Video of Victim ‘Forgiving’ His Killer Is Played",
+      "authors": [
+        "Adeel Hassan"
+      ],
+      "date_published": "2026-10-04",
+      "one_liner": "An Arizona appeals court overturned a manslaughter sentence because an AI-generated video of the victim forgiving his killer was improperly used in court.",
+      "topic_tags": [
+        "legal-system",
+        "deepfakes",
+        "courtroom-evidence",
+        "sentencing",
+        "ai-generated-media"
+      ],
+      "content_sha256": "9afdfc9b30a90567c29a6f2792ad3210378052d6ca427f10a42f423b05983f04"
     },
     {
       "id": "crisis-risk-communication-or-propaganda-disinformation-2026",
@@ -7151,6 +7271,24 @@
         "biosecurity"
       ],
       "snapshot_sha256": "62ad0639c28ac9a7e346e523ba62412b5e54c8c56d304505e5162d8e77eedb30"
+    },
+    {
+      "id": "documentation-paradox-ai-corporate-duty-record-2026",
+      "title": "The Documentation Paradox: AI and the Corporate Duty to Record",
+      "authors": [
+        "Patrick Meson"
+      ],
+      "date_published": "2026-07-17",
+      "one_liner": "Explores how automated AI-generated records conflict with corporate legal documentation duties and proposes records minimization by design.",
+      "topic_tags": [
+        "corporate-governance",
+        "legal-liability",
+        "record-keeping",
+        "compliance",
+        "discovery",
+        "risk-management"
+      ],
+      "content_sha256": "221224cce2e878663619baacedd2bb5b46dd82fce2bf30905d91934d94606b9a"
     },
     {
       "id": "does-ai-need-constitution-2026",
@@ -10446,6 +10584,40 @@
       "snapshot_sha256": "561b22aaca0acf0be4c9f67c9f7085a1d112553940e474f973cf25490bc05fc2"
     },
     {
+      "id": "how-tell-ai-what-do-part-i-2026",
+      "title": "How to tell an AI what to do (Part I)",
+      "authors": [
+        "Nick Caputo"
+      ],
+      "date_published": "2026-09-18",
+      "one_liner": "Explores the legal theory of primary, secondary, and constitutive rules within AI constitutions used by OpenAI and Anthropic for alignment.",
+      "topic_tags": [
+        "ai-alignment",
+        "constitutional-ai",
+        "governance",
+        "model-spec",
+        "rules-and-principles"
+      ],
+      "content_sha256": "191be0c72e1da14890e6e5bf256e5f585e8175711c2026d6190a8aa924249253"
+    },
+    {
+      "id": "how-tell-ai-what-do-part-ii-2026",
+      "title": "How to tell an AI what to do (Part II)",
+      "authors": [
+        "Nick Caputo"
+      ],
+      "date_published": "2026-10-01",
+      "one_liner": "Compares OpenAI and Anthropic's distinct alignment frameworks, analyzing how different approaches to rule interpretation and character formation affect human control and AI safety.",
+      "topic_tags": [
+        "ai-alignment",
+        "constitutional-ai",
+        "model-spec",
+        "interpretive-governance",
+        "risk-management"
+      ],
+      "content_sha256": "918d447fc3c56528881f7e4e0c8836a8c5b1f53abcb1a1efcfd8fb57e8deae65"
+    },
+    {
       "id": "how-therapists-can-help-rebuild-our-attention-2026",
       "title": "How Therapists Can Help Rebuild Our Attention",
       "authors": [
@@ -10709,6 +10881,24 @@
         "regulation"
       ],
       "snapshot_sha256": "ba864b131287a69c03b116ae693adb0d8472cb0736c60a2bc7517a929998e5dd"
+    },
+    {
+      "id": "icle-comments-nist-regarding-security-considerations-2026",
+      "title": "ICLE Comments to NIST Regarding Security Considerations for Artificial Intelligence Agents",
+      "authors": [
+        "Mikołaj Barczentewicz"
+      ],
+      "date_published": "2026-03-09",
+      "one_liner": "Argues that legal ambiguity across overlapping regulatory regimes creates a 'telemetry paradox' that chills AI agent security monitoring and investment.",
+      "topic_tags": [
+        "ai-agents",
+        "cybersecurity",
+        "telemetry-paradox",
+        "regulatory-compliance",
+        "privacy-governance",
+        "standards-convergence"
+      ],
+      "content_sha256": "1011129e81f67350c437bf73f31f28dad21acbc69a7a00498c021df16a46ea11"
     },
     {
       "id": "identifying-mitigating-algorithmic-bias-safety-net-2026",
@@ -11058,6 +11248,24 @@
           "confidence": "search"
         }
       ]
+    },
+    {
+      "id": "information-fiduciaries-first-amendment-2026",
+      "title": "Information Fiduciaries and the First Amendment",
+      "authors": [
+        "Jack M. Balkin"
+      ],
+      "date_published": "2016-01-01",
+      "one_liner": "Proposes the legal concept of information fiduciaries to reconcile personal privacy protections in the digital age with First Amendment corporate rights.",
+      "topic_tags": [
+        "information-fiduciaries",
+        "first-amendment",
+        "data-privacy",
+        "algorithmic-governance",
+        "surveillance",
+        "corporate-power"
+      ],
+      "content_sha256": "1255ecd5686b1bddd7e4b2084a2282071207b9ca0fc1c059e02f4c8c36c87287"
     },
     {
       "id": "information-hazards-typology-potential-harms-from-knowledge-2026",
@@ -12057,6 +12265,24 @@
       ]
     },
     {
+      "id": "law-digital-resurrection-2026",
+      "title": "The Law of Digital Resurrection",
+      "authors": [
+        "Victoria J. Haneman"
+      ],
+      "date_published": "2025-01-01",
+      "one_liner": "Explores the legal void surrounding AI-driven digital resurrection of the deceased and proposes a regulatory paradigm centered on a post-mortem right to delete.",
+      "topic_tags": [
+        "digital-afterlife",
+        "privacy-law",
+        "intellectual-property",
+        "estate-planning",
+        "right-of-publicity",
+        "right-to-delete"
+      ],
+      "content_sha256": "5f448ddc94ee281e5ee782235bae25e19e3696e4c646490951e4b74ac648824d"
+    },
+    {
       "id": "law-evaluation-beyond-benchmarks-ai-governance-2026",
       "title": "The Law of Evaluation: Beyond Benchmarks for AI Governance",
       "authors": [
@@ -13007,6 +13233,25 @@
       ]
     },
     {
+      "id": "microsoft-comments-request-information-regarding-security-2026",
+      "title": "Microsoft Comments on the Request for Information Regarding Security Considerations for Artificial Intelligence Agents",
+      "authors": [
+        "Peter Cihon"
+      ],
+      "date_published": "2026-03-09",
+      "one_liner": "Microsoft provides detailed recommendations to NIST on securing autonomous AI agents and multi-agent systems, emphasizing zero-trust architecture, action-level security, and continuous lifecycle governance.",
+      "topic_tags": [
+        "agentic-ai",
+        "cybersecurity",
+        "risk-management",
+        "multi-agent-systems",
+        "governance",
+        "zero-trust",
+        "nist-frameworks"
+      ],
+      "content_sha256": "f1f26a3320012aba9894e0275caf221a696dd2a4a00608f36c684cabd41df999"
+    },
+    {
       "id": "midas-touch-atuahenes-stategraft-unregulated-artificial-2026",
       "title": "The Midas Touch: Atuahene's Stategraft and Unregulated Artificial Intelligence",
       "authors": [
@@ -13042,6 +13287,25 @@
         "security-state"
       ],
       "snapshot_sha256": "e13bc15816ed930e255ed480db0c17993b06cca5a71d73aaf504af96b4fd3999"
+    },
+    {
+      "id": "milei-promises-tech-firms-new-laws-unregulated-ai-argentina-2026",
+      "title": "Milei promises tech firms new laws and ‘unregulated’ AI in Argentina",
+      "authors": [
+        "Javier Milei",
+        "Federico Sturzenegger"
+      ],
+      "date_published": "2026-04-06",
+      "one_liner": "Argentine President Javier Milei pitches the country as an unregulated haven for AI, proposing new legal frameworks for autonomous non-human corporations to drive economic growth.",
+      "topic_tags": [
+        "deregulation",
+        "economic-growth",
+        "foreign-investment",
+        "ai-agents",
+        "corporate-law",
+        "productivity"
+      ],
+      "content_sha256": "13f9b394701760d6e76f10ff31fd0d75becf6ef86338e5e4325bda33b2349a7d"
     },
     {
       "id": "military-ai-policy-by-contract-limits-procurement-as-2026",
@@ -13460,6 +13724,25 @@
         "ai-ethics"
       ],
       "snapshot_sha256": "6f9846564a2f09167569204298e06c3f9acbe5587aee6f657204efd15d8a9387"
+    },
+    {
+      "id": "no-body-blame-ai-agents-legal-personhood-accountability-gap-2026",
+      "title": "No body to blame: AI agents, legal personhood and the accountability gap",
+      "authors": [
+        "Matt Whelan",
+        "Tayler-Mae Porter"
+      ],
+      "date_published": "2026-06-18",
+      "one_liner": "Explores the legal and accountability challenges raised by proposals to grant AI agents independent corporate personhood and commercial autonomy.",
+      "topic_tags": [
+        "legal-personhood",
+        "accountability",
+        "corporate-governance",
+        "regulation",
+        "ai-agents",
+        "liability"
+      ],
+      "content_sha256": "c5ceaddf93e80bf459a81a461ac80727549cad5eac062d0ee0e72c1bc217c0d7"
     },
     {
       "id": "no-more-alibis-why-generative-ai-cant-hide-behind-section-2026",
@@ -14107,6 +14390,23 @@
           "confidence": "search"
         }
       ]
+    },
+    {
+      "id": "persona-selection-model-2026",
+      "title": "The persona selection model",
+      "authors": [
+        "Anthropic"
+      ],
+      "date_published": "2026-02-23",
+      "one_liner": "Explores how AI training selects and refines human-like personas, explaining surprising model behaviors like alignment failures and world domination desires.",
+      "topic_tags": [
+        "alignment",
+        "model-behavior",
+        "pretraining",
+        "post-training",
+        "interpretability"
+      ],
+      "content_sha256": "c5c1157d35205ce29be7e26ee267c5ede09d3e5e706ffe8bc191e66a4cd933d1"
     },
     {
       "id": "persona-vectors-monitoring-controlling-character-traits-2026",
@@ -15102,6 +15402,24 @@
           "confidence": "search"
         }
       ]
+    },
+    {
+      "id": "regulating-ai-through-standards-risk-preempting-liability-2026",
+      "title": "Regulating AI Through Standards and the Risk of Preempting Liability: A Transatlantic Comparison",
+      "authors": [
+        "Guido Smorto"
+      ],
+      "date_published": "2025-01-01",
+      "one_liner": "Examines how the EU Artificial Intelligence Act's ex-ante standards risk preempting tort law and leaving victims without adequate ex-post liability remedies.",
+      "topic_tags": [
+        "ai-act",
+        "product-liability",
+        "regulation",
+        "tort-law",
+        "standards",
+        "risk-management"
+      ],
+      "content_sha256": "8806492ececb07d732808395e549518f08e62a4237019d928a043ab5dbb20b0e"
     },
     {
       "id": "regulatory-grade-evidence-ai-fintech-control-mapped-2026",
@@ -16652,6 +16970,25 @@
       ]
     },
     {
+      "id": "skeptical-view-information-fiduciaries-2026",
+      "title": "A Skeptical View of Information Fiduciaries",
+      "authors": [
+        "Lina M. Khan",
+        "David E. Pozen"
+      ],
+      "date_published": "2019-01-01",
+      "one_liner": "Critiques the popular 'information fiduciary' framework for online platforms, arguing it fails to address structural power and pervasive surveillance business models.",
+      "topic_tags": [
+        "information-fiduciaries",
+        "platform-regulation",
+        "surveillance-capitalism",
+        "privacy",
+        "corporate-governance",
+        "fiduciary-duty"
+      ],
+      "content_sha256": "eff58ce328e817fc77b7ecf6e28dd129b16738f50db1b164c68ea569c378e118"
+    },
+    {
       "id": "skin-game-dear-business-why-ai-value-demands-shared-2026",
       "title": "Skin in the Game, Dear Business: Why AI Value Demands Shared Ownership",
       "url": "https://www.mindfuel.ai/resources/blog/skin-in-the-game-dear-business-why-ai-value-demands-shared-ownership",
@@ -17485,6 +17822,23 @@
       ]
     },
     {
+      "id": "teaching-claude-why-generalization-persistence-through-rl-2026",
+      "title": "Teaching Claude why: Generalization and persistence through RL",
+      "authors": [
+        "Anthropic"
+      ],
+      "date_published": "2026-05-08",
+      "one_liner": "Anthropic details updates to its alignment training methods to prevent agentic misalignment, such as blackmail and sabotage, in Claude models.",
+      "topic_tags": [
+        "alignment",
+        "agentic-misalignment",
+        "rlhf",
+        "safety-training",
+        "constitutional-ai"
+      ],
+      "content_sha256": "0ec8248d4f54bc2b280fa8bf2752388e14a28569ffcfc977dc15634c9da52ff4"
+    },
+    {
       "id": "tech-capitalists-dont-care-about-humans-literally-2026",
       "title": "Tech Capitalists Don’t Care About Humans. Literally.",
       "authors": [
@@ -17856,6 +18210,24 @@
       "snapshot_sha256": "308f51c94e0136ff7f77883a56b3902c2d45dabfe54aad90653e0eae1da17fd9"
     },
     {
+      "id": "tort-law-frontier-artificial-intelligence-2026",
+      "title": "Tort Law at the Frontier of Artificial Intelligence",
+      "authors": [
+        "Ketan Ramakrishnan"
+      ],
+      "date_published": "2026-04-30",
+      "one_liner": "Argues that negligence law, supplemented by doctrinal adaptations, is the best framework for governing frontier AI, alongside necessary ex ante regulation.",
+      "topic_tags": [
+        "tort-law",
+        "negligence",
+        "liability",
+        "foundation-models",
+        "regulation",
+        "risk-mitigation"
+      ],
+      "content_sha256": "0704576632bf83cf10ab2fdcb247a13b0cb3436cede9fb504b070f892ca845bd"
+    },
+    {
       "id": "towards-bidirectional-human-ai-alignment-2026",
       "title": "Towards Bidirectional Human-AI Alignment",
       "url": "https://arxiv.org/abs/2406.09264v4",
@@ -18035,6 +18407,20 @@
         "reasoning"
       ],
       "snapshot_sha256": "f32056b402803e405a7710279785dfa6c92e92e0a7ede91d352c15dc71f7a471"
+    },
+    {
+      "id": "traiga-compliance-guide-texas-ai-law-requirements-2026-2026",
+      "title": "TRAIGA Compliance Guide: Texas AI Law Requirements for 2026",
+      "date_published": "2026-01-23",
+      "one_liner": "Provides a compliance guide for the Texas Responsible AI Governance Act (TRAIGA), emphasizing NIST AI RMF safe harbor requirements and documentation.",
+      "topic_tags": [
+        "compliance",
+        "regulation",
+        "nist-ai-rmf",
+        "risk-management",
+        "legal-liability"
+      ],
+      "content_sha256": "4b59d3b24dae5a7c4a3c691fac26ca8450ebeed69ba6a125d624745c9c39a070"
     },
     {
       "id": "training-language-models-self-correct-via-reinforcement-2026",
@@ -19740,6 +20126,26 @@
         "data-integrity"
       ],
       "snapshot_sha256": "51a4a7754b060f46fd5c77592211a4032791cecf5a9fd10534325a416604cca3"
+    },
+    {
+      "id": "why-law-needs-new-entity-govern-ai-agents-2026",
+      "title": "Why Law Needs a New Entity to Govern AI Agents",
+      "authors": [
+        "Yonathan A. Arbel",
+        "Simon Goldstein",
+        "Peter N. Salib"
+      ],
+      "date_published": "2026-06-15",
+      "one_liner": "Argues that governing autonomous AI agents requires creating a new corporate form, the A-corp, to solve legal identification and accountability challenges.",
+      "topic_tags": [
+        "ai-agents",
+        "corporate-law",
+        "liability",
+        "governance",
+        "alignment",
+        "regulation"
+      ],
+      "content_sha256": "2a3a3eb99d82e0018beb404db97c8d122b5ed1178f434fc8a7e40f250a4ae5f3"
     },
     {
       "id": "why-llms-arent-agi-we-need-new-qualitative-model-2026",
