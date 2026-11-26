@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "source_commit": "39d85734b102035fab6d73f87643f0840152e04c",
-  "doc_count": 906,
+  "source_commit": "3d0d819fa30d12013183506d6d13e12776139356",
+  "doc_count": 907,
   "docs": [
     {
       "id": "170306856v3-2026",
       "title": "1703.06856v3",
       "url": "https://arxiv.org/abs/1703.06856v3",
       "resolved_url": "https://arxiv.org/abs/1703.06856v3",
-      "snapshot_sha256": "118e65a0f2f11e1ba6bdcbd207e2474dd2b9721c344c67238dc86447018f7fd7",
+      "snapshot_sha256": "2ab5ea03b12683c702405be71023e1e4b8e8c6f5016178e602b45ebd744b5cc6",
       "provenance": [
         {
           "scheme": "arxiv",
@@ -333,7 +333,7 @@
         "supply-chain-risk",
         "nation-state-actors"
       ],
-      "snapshot_sha256": "d1396a178a7d4827756daae34bfd6b47fac0b09e7cb4091730d66a0bf14594fe"
+      "snapshot_sha256": "c9cabc7b0c250a2797e0b6338eb95db5015d02ace4eb63373eca6a5dc798f6ee"
     },
     {
       "id": "2028-global-intelligence-crisis-thought-exercise-financial-2026",
@@ -420,7 +420,7 @@
     {
       "id": "260111699v4-2026",
       "title": "2601.11699v4",
-      "snapshot_sha256": "7445d8e490036564a4ae6fa4866a592be72931d7b33306c22fee7b7649917f47"
+      "snapshot_sha256": "419568304fae6ebeefb57b89ff4988a7e5c3f4e97f1d46e27e49bcd1fc6fc98a"
     },
     {
       "id": "260201002v1-2026",
@@ -523,7 +523,7 @@
         "national-security",
         "infrastructure"
       ],
-      "snapshot_sha256": "3bf98df99d4caa14ad1fa526bd6f263acb61fd120d5fe496adf7453d9f8370b7",
+      "snapshot_sha256": "f32650303d61510742fd88ae871e2ad6c87572ad6a946a946470f2a557de6ca7",
       "provenance": [
         {
           "scheme": "url",
@@ -548,7 +548,7 @@
         "ai-coding-assistants",
         "team-performance"
       ],
-      "snapshot_sha256": "a8fd3fe6621879c1c56368cfa151eae93d5409b1541cda92e82a10285053c26e"
+      "snapshot_sha256": "be0c72fd4f2560070fc1cdfd44619dc3537e77eb1746b706a8e894aeef879731"
     },
     {
       "id": "acceptable-use-policies-foundation-models-2026",
@@ -657,7 +657,7 @@
         "accountability",
         "enterprise-security"
       ],
-      "snapshot_sha256": "85e417ef215348624bce125417dbe316cc83a5f6dfa24cc0bbfdb20f16fc3a2a"
+      "snapshot_sha256": "487194bd2c5374a8be5d5837183ab9703f241db06d83886cef31987fd2dba167"
     },
     {
       "id": "actuarial-safe-harbor-protocol-ashp-2026",
@@ -720,12 +720,12 @@
         "ai-adoption",
         "operational-technology"
       ],
-      "snapshot_sha256": "268bf276a51f7036e87ae6cec2bdca1ee9a85afe5f96b3c8c19069c6c2bc9f7e"
+      "snapshot_sha256": "85afbfdc056e2d5d0f9994690951ad3aca06cd213f65b4dfb270e7fef03191e8"
     },
     {
       "id": "adult-accounts-child-profiles-compromised-vtech-data-breach-2026",
       "title": "Adult Accounts and Child Profiles Compromised in VTech Data Breach   Consumer Financial Services Law Monitor",
-      "snapshot_sha256": "60acd5a37c963dcee4c8907656318124c02c9021ddf33bfa8c0714338c4bc83b"
+      "snapshot_sha256": "fcc6d19bd6ec1aa49d41556e89a13a0376c5c5fc628fa3a32ca54b3ca821cb60"
     },
     {
       "id": "adult-accounts-child-profiles-compromised-vtech-data-breach-2026-1",
@@ -744,7 +744,7 @@
         "cybersecurity",
         "regulatory-compliance"
       ],
-      "snapshot_sha256": "60acd5a37c963dcee4c8907656318124c02c9021ddf33bfa8c0714338c4bc83b",
+      "snapshot_sha256": "fcc6d19bd6ec1aa49d41556e89a13a0376c5c5fc628fa3a32ca54b3ca821cb60",
       "duplicate_of": "adult-accounts-child-profiles-compromised-vtech-data-breach-2026",
       "duplicate_of_ref": "t4337-cleanup-2026-10#g008"
     },
@@ -1179,7 +1179,7 @@
         "regulation",
         "human-computer-interaction"
       ],
-      "snapshot_sha256": "c3fd93ae5438775b282043cf02b0ca2b0264fade7735a23f9ffd43fcacad3c46",
+      "snapshot_sha256": "b0bd0eff781765ab4213a64f634111160ee1971a115325585a9e204e030cacc6",
       "provenance": [
         {
           "scheme": "doi",
@@ -1334,7 +1334,7 @@
         "regulatory-compliance",
         "risk-management"
       ],
-      "snapshot_sha256": "4504bc91ec4be7255dbcee98268dd90c2b375a01151e92f76ae5dbb0e4db3d0e"
+      "snapshot_sha256": "14a5a16cc4ed407a85225edae982832df1fa7809e773bb12e5255153675664df"
     },
     {
       "id": "ai-danger-making-2026",
@@ -1751,7 +1751,7 @@
         "geopolitics",
         "deterrence"
       ],
-      "snapshot_sha256": "74cfeb954085079c180c275b7c3d002b0ba6595df4d3dc470d992ef6b34bba5d"
+      "snapshot_sha256": "0ed55951725b73e67a399de981403f3a6e1a9852ba2389c93bd44c6b12cbfb9e"
     },
     {
       "id": "ai-doesnt-reduce-workit-intensifies-it-2026",
@@ -2007,7 +2007,7 @@
         "governance",
         "social-impact"
       ],
-      "snapshot_sha256": "b1dd68e481e60377ff7576f56a1d558c2e6987416756003109f689c711eea647"
+      "snapshot_sha256": "1f32cd0abcc55a715cf5175334d313582cd0ef49ff3abc24cadf2cdf055ae74b"
     },
     {
       "id": "ai-human-cognition-knowledge-collapse-2026",
@@ -2084,7 +2084,7 @@
         "ai-incidents",
         "safety-evaluations"
       ],
-      "snapshot_sha256": "ea288d89c847b99386111fc03c5fe990968c98efeea699dff1468b2b347581a1",
+      "snapshot_sha256": "3b8bbf0c4fa78db2127fbeeacfe35380d625838a99272ed1492b4cb04b7a0906",
       "provenance": [
         {
           "scheme": "url",
@@ -2195,7 +2195,7 @@
       "title": "The AI Law Professor  When AI quietly hijacks legal judgment   Thomson Reuters Institute",
       "url": "https://www.thomsonreuters.com/en-us/posts/authors/tom-martin/",
       "resolved_url": "https://www.thomsonreuters.com/en-us/posts/authors/tom-martin/",
-      "snapshot_sha256": "01e33ac3d999cbabaf2ddd5d237f3c4e7143d175bbd847c0322fde06877ea1d0",
+      "snapshot_sha256": "3083d10c3a5f7dff2303ea0ecb10ff46e3ae117a070b91532395745270c2e3e1",
       "provenance": [
         {
           "scheme": "url",
@@ -3080,7 +3080,7 @@
         "eu-ai-act",
         "privacy-law"
       ],
-      "snapshot_sha256": "215636d88310153eaf949ca81c0c70bc8c21f1ab87993cac2392f79d5daaf20a"
+      "snapshot_sha256": "b1cfcc8d232842dea4ff94960417116ec860712eba53e6f8faafcfa2a2cbe3d9"
     },
     {
       "id": "aligning-language-models-follow-instructions-2026",
@@ -3119,7 +3119,7 @@
         "hallucination",
         "human-feedback"
       ],
-      "snapshot_sha256": "04e35a97ec2cafab031bea28d8a7cb9bd9db5356ec4a8178f7623ee78d54231a",
+      "snapshot_sha256": "e3e1e9ba97fcf41931af766450df49bce42ac54a0b942ca7adf291e2d5fb44e7",
       "provenance": [
         {
           "scheme": "url",
@@ -3228,7 +3228,7 @@
       "title": "All Powerful AI Isn’t an Existential Threat, According to New Georgia Tech Research   Ivan Allen College of Liberal Arts",
       "url": "https://iac.gatech.edu/news/item/687527/powerful-existential-threat-according-georgia-tech-research",
       "resolved_url": "https://iac.gatech.edu/news/item/687527/powerful-existential-threat-according-georgia-tech-research",
-      "snapshot_sha256": "f65c866f42fc90b92bfcec9318647bdecb0b6b3def038829603aadd6aa692fe1",
+      "snapshot_sha256": "5ec1a1a0427978d3a5ec6ccbd31ff079b16f33e9c354515895f2747fa2e47b87",
       "provenance": [
         {
           "scheme": "url",
@@ -3299,7 +3299,7 @@
         "market-trends",
         "compute-costs"
       ],
-      "snapshot_sha256": "1f290dcf880fdf0ff5cd7a668e95b3c820ff991b4f830e7515df9ffd15f7d6e5"
+      "snapshot_sha256": "42a309599608fbf7acd033730878dd9c56d94a7e321d0bf3b5cd789d717ba899"
     },
     {
       "id": "amazon-ai-code-review-policy-senior-approval-now-mandatory-2026",
@@ -3722,7 +3722,7 @@
     {
       "id": "are-interactive-toys-spying-young-children-2026",
       "title": "Are interactive toys spying on young children ",
-      "snapshot_sha256": "5ad62478554ff4a83fa4d4bf21fe4a8af8419867249ebb0f63335733cfbb29f0",
+      "snapshot_sha256": "8ddf651453348fa701169d96e805e72a82e3810956126fb0f252bfc3207169dc",
       "duplicate_of": "are-interactive-toys-spying-young-children-2026-1",
       "duplicate_of_ref": "t4337-cleanup-2026-10#g023"
     },
@@ -3743,7 +3743,7 @@
         "gdpr",
         "generative-ai"
       ],
-      "snapshot_sha256": "5ad62478554ff4a83fa4d4bf21fe4a8af8419867249ebb0f63335733cfbb29f0"
+      "snapshot_sha256": "8ddf651453348fa701169d96e805e72a82e3810956126fb0f252bfc3207169dc"
     },
     {
       "id": "article-survey-machine-learning-biases-mitigation-techniques-2026",
@@ -4192,7 +4192,7 @@
         "chatbot-safety",
         "risk-management"
       ],
-      "snapshot_sha256": "dd3cba1739e8123176154604652136528a4333e0fdbb6917bcd23fca1001278d"
+      "snapshot_sha256": "ff622c240df71ab05f4616b58ed0a8bd78aa666a1657a4fd5ad67748c38af94d"
     },
     {
       "id": "artificial-reactive-attitudes-2026",
@@ -4241,7 +4241,7 @@
     },
     {
       "id": "assistant-axis-situating-stabilizing-character-large-2026",
-      "snapshot_sha256": "cc0578006454cc2aa72fab30ab7a377f2140b2c772190f03cc9d0dff81bcd29f"
+      "snapshot_sha256": "f3ac0edf9ae535ab2548a3eb0025d77587d4fc461525374ef19d22ec8df5a5c5"
     },
     {
       "id": "assistant-axis-situating-stabilizing-character-large-2026-1",
@@ -4256,7 +4256,7 @@
         "neural-mechanisms",
         "model-steering"
       ],
-      "snapshot_sha256": "cc0578006454cc2aa72fab30ab7a377f2140b2c772190f03cc9d0dff81bcd29f"
+      "snapshot_sha256": "f3ac0edf9ae535ab2548a3eb0025d77587d4fc461525374ef19d22ec8df5a5c5"
     },
     {
       "id": "atria-dawn-dawn-agentic-superintelligence-evolving-roles-2026",
@@ -4397,11 +4397,11 @@
     },
     {
       "id": "auditing-language-models-hidden-objectives-2026",
-      "snapshot_sha256": "67a45282c0b3d597b2e627fe63621649dc21c42b42ef0af43b10e4a484fb9aa0"
+      "snapshot_sha256": "5018448a8edbbbdff8bd713806655e448dc7088bad0de91a9ded44affb2a17c2"
     },
     {
       "id": "auditing-language-models-hidden-objectives-2026-1",
-      "snapshot_sha256": "67a45282c0b3d597b2e627fe63621649dc21c42b42ef0af43b10e4a484fb9aa0"
+      "snapshot_sha256": "5018448a8edbbbdff8bd713806655e448dc7088bad0de91a9ded44affb2a17c2"
     },
     {
       "id": "auditing-language-models-hidden-objectives-2026-2",
@@ -4420,7 +4420,7 @@
         "sycophancy",
         "red-teaming"
       ],
-      "snapshot_sha256": "67a45282c0b3d597b2e627fe63621649dc21c42b42ef0af43b10e4a484fb9aa0"
+      "snapshot_sha256": "5018448a8edbbbdff8bd713806655e448dc7088bad0de91a9ded44affb2a17c2"
     },
     {
       "id": "auditing-large-language-models-race-gender-disparities-2026",
@@ -4960,7 +4960,7 @@
         "corporate-power",
         "sovereign-wealth-fund"
       ],
-      "snapshot_sha256": "4ee33b256087dcda5d064118476f070c662560956e1d427971bb38dc4d7ab4ca"
+      "snapshot_sha256": "5dda376c37dd61f36fc25d98a0ead9e537beda2c27a8644546c99023d64147c5"
     },
     {
       "id": "best-open-source-api-integration-platforms-ai-agents-2026-2026",
@@ -5093,7 +5093,7 @@
         "privacy-utility-tradeoff",
         "responsible-ai"
       ],
-      "snapshot_sha256": "e6499a4f4d5c79e86071b9e88daf891bef8c237730279ca85d1bb411b09ced49"
+      "snapshot_sha256": "f3c4b004471027d2fadff0c3b69ea6705cd650c18219d5071e7685fb415e418d"
     },
     {
       "id": "biases-as-risk-factors-patient-security-taxonomy-2026",
@@ -5204,7 +5204,7 @@
         "accountability",
         "mcas"
       ],
-      "snapshot_sha256": "876e88f8f0caa71018f8e38d7ab13cb32fc5434b808ad55e6b9d6ab98b50b638"
+      "snapshot_sha256": "a13774126b18de7389886b26d66f545cfdc6266a384c1b1fdfb8d60da6a31c80"
     },
     {
       "id": "bold-dataset-metrics-measuring-biases-open-ended-language-2026",
@@ -5468,7 +5468,7 @@
     },
     {
       "id": "can-ai-models-reason-like-clinicians-2026",
-      "snapshot_sha256": "b810c26c988417ea2c5bc223b5640f3e56e6dc2aaaf1dbb0bab6a813a78b6840"
+      "snapshot_sha256": "fd3cf9c37068605337475eef6961e73b2688651f65c0d1dbe71be64486094750"
     },
     {
       "id": "can-ai-models-reason-like-clinicians-2026-1",
@@ -5488,7 +5488,7 @@
         "patient-safety",
         "llm-benchmarks"
       ],
-      "snapshot_sha256": "b810c26c988417ea2c5bc223b5640f3e56e6dc2aaaf1dbb0bab6a813a78b6840"
+      "snapshot_sha256": "fd3cf9c37068605337475eef6961e73b2688651f65c0d1dbe71be64486094750"
     },
     {
       "id": "can-ai-prompt-us-ask-new-questions-2026",
@@ -5924,7 +5924,7 @@
         "risk-management",
         "positive-outcomes"
       ],
-      "snapshot_sha256": "8009de68b9e1f5d966d53ba0515445cfb20ef25bfc76318fc1fd3d711e22ff8f"
+      "snapshot_sha256": "092a8d065e6ab538c394a32ec8ae478b21a6c16f9eef1c115b089a1c3dc64071"
     },
     {
       "id": "co-owning-future-data-cooperatives-2026",
@@ -6218,7 +6218,7 @@
         "robustness",
         "alignment"
       ],
-      "snapshot_sha256": "8db46a8112e60a06502d2e411847f3f3909a16d9a731d1297b358bfc3e52e823",
+      "snapshot_sha256": "7ce3c3465b5cc8a3793f218ef065ab5ccc2c18efe8c8ca86e89f40341b534e88",
       "duplicate_of": "concrete-problems-ai-safety-2026",
       "duplicate_of_ref": "t4405-review-2026-10#r1-same-raw"
     },
@@ -6243,7 +6243,7 @@
         "nlp",
         "access-control"
       ],
-      "snapshot_sha256": "68bc619cccf7162c923928c1d565a34a95cb47c07da933c74b971356f9698833"
+      "snapshot_sha256": "de3495692009c8baa577670e3db5bb9ba7ed0b3c09f155448ea9b9f1d67b7db9"
     },
     {
       "id": "conflicting-feelings-sociological-computational-sentiment-2026",
@@ -6484,7 +6484,7 @@
         "sustainability",
         "energy-market"
       ],
-      "snapshot_sha256": "f8c84dc602d8179cd1b9694b4809ec581026e5e16e93ab64cd48a147ed46ffe8"
+      "snapshot_sha256": "ee85f4c670b3e5cc15e5994c98938adc50a1610ce6ab8b1acbfb31122a0ef4c2"
     },
     {
       "id": "counterfactual-explanations-machine-learning-review-2026",
@@ -6504,7 +6504,7 @@
         "model-transparency",
         "recourse"
       ],
-      "snapshot_sha256": "18291e005e0a47095f3f96e33b9fef44aafa385ca27c904f2797f6c47dbfe65d"
+      "snapshot_sha256": "d7f2fc815cf839c485f688f39a2c74eeae3456bb3c0f2195cd9203365267bcc5"
     },
     {
       "id": "counterfactual-fairness-2026",
@@ -6527,7 +6527,7 @@
         "discrimination",
         "predictive-modeling"
       ],
-      "snapshot_sha256": "712ed01b70de4d49d83b3a9e8e9357f70d90e65aedfa97e3b34cb39038d3c7b8",
+      "snapshot_sha256": "3ecf138ddd3d0a81b61216ca0f85a72a43cc675bb631ed59682f51a54d59aa07",
       "provenance": [
         {
           "scheme": "arxiv",
@@ -6557,7 +6557,7 @@
         "discrimination",
         "counterfactuals"
       ],
-      "snapshot_sha256": "118e65a0f2f11e1ba6bdcbd207e2474dd2b9721c344c67238dc86447018f7fd7",
+      "snapshot_sha256": "134de4bdfe703ebecf34b32d39542a0a91ecba7f55ec6bfb760a5ba69fa9fe11",
       "provenance": [
         {
           "scheme": "arxiv",
@@ -6589,7 +6589,7 @@
         "discrimination",
         "predictive-modeling"
       ],
-      "snapshot_sha256": "712ed01b70de4d49d83b3a9e8e9357f70d90e65aedfa97e3b34cb39038d3c7b8",
+      "snapshot_sha256": "50b3c9952e515dea42779cbc52cd1c811c62c74c5fdc7d8f3c4e424b3c053100",
       "provenance": [
         {
           "scheme": "arxiv",
@@ -6631,7 +6631,7 @@
         "neoliberalism",
         "risk-management"
       ],
-      "snapshot_sha256": "71be148fe3a2be0174ab84331d8f947cc9b1a0e7d0071399956e8b4c8c8e5e57"
+      "snapshot_sha256": "1760c31982f4cb4c1293b4bda769d12d218f0f1eed6a6baf3fb61d0e17bb8d7e"
     },
     {
       "id": "cross-layer-attention-probing-fine-grained-hallucination-2026",
@@ -6785,6 +6785,9 @@
         "privacy-preserving-technologies"
       ],
       "snapshot_sha256": "bc0945882c2bf48a3b9576861f9f421eb011684614c60e9d1760ed87bcbdc2bb"
+    },
+    {
+      "id": "data-mutations"
     },
     {
       "id": "data-quality-over-model-complexity-rethinking-ai-2026",
@@ -7903,7 +7906,7 @@
     },
     {
       "id": "emotion-concepts-their-function-large-language-model-2026",
-      "snapshot_sha256": "765b80b6aadd527900ab3c722833fd164a14c0eec8eb858942fa26c1bf505ce2"
+      "snapshot_sha256": "89d50464644648333bb4c2011bc04016e40e488bdfb18ea2d6f31b75e9db42a8"
     },
     {
       "id": "emotion-concepts-their-function-large-language-model-2026-1",
@@ -7921,7 +7924,7 @@
         "anthropomorphism",
         "safety-monitoring"
       ],
-      "snapshot_sha256": "765b80b6aadd527900ab3c722833fd164a14c0eec8eb858942fa26c1bf505ce2"
+      "snapshot_sha256": "89d50464644648333bb4c2011bc04016e40e488bdfb18ea2d6f31b75e9db42a8"
     },
     {
       "id": "empirical-study-vulnerable-package-dependencies-llm-2026",
@@ -9284,7 +9287,7 @@
         "risk-management",
         "assurance-levels"
       ],
-      "snapshot_sha256": "7445d8e490036564a4ae6fa4866a592be72931d7b33306c22fee7b7649917f47",
+      "snapshot_sha256": "419568304fae6ebeefb57b89ff4988a7e5c3f4e97f1d46e27e49bcd1fc6fc98a",
       "duplicate_of": "260111699v4-2026",
       "duplicate_of_ref": "t4405-review-2026-10#c9-deferred-t4337"
     },
@@ -9609,7 +9612,7 @@
         "product-liability",
         "algorithmic-governance"
       ],
-      "snapshot_sha256": "e796fb60e5138db4f8489707a30ec22ae88a9fe8de6f1f05e116c73df20d9cea"
+      "snapshot_sha256": "cb3a31176f0510304280769d2099af11cca6a3b4c0405faa5525835fbd6cc139"
     },
     {
       "id": "generative-ai-work-2026",
@@ -10129,7 +10132,7 @@
       "title": "hoes gilardi 2025 existential risk narratives about ai do not distract from its immediate harms",
       "url": "https://doi.org/10.1073/pnas",
       "resolved_url": "https://doi.org/10.1073/pnas",
-      "snapshot_sha256": "f6bea25cd74243e44b063e4d38b8f1955147f017987666ef66a47bbfa88fd706",
+      "snapshot_sha256": "2785884c9c2723ff71a8fac9272320aa35bb6f75f2585fcd1b96bba590565d78",
       "provenance": [
         {
           "scheme": "doi",
@@ -10274,7 +10277,7 @@
         "global-south",
         "data-localization"
       ],
-      "snapshot_sha256": "4cef43106111bc1fa32cd89df873baa8c723422534d85ba718a9f0cb0046de22",
+      "snapshot_sha256": "24a1f28f4fa572b2586cce1f264f3764b5a51a3d68e061b6d92a9eac6e4b3bf5",
       "provenance": [
         {
           "scheme": "url",
@@ -10304,7 +10307,7 @@
         "data-localization",
         "trade-barriers"
       ],
-      "snapshot_sha256": "780e1c3036160cbc3f8879a843788508c86cc2e2298e25a8358f46dc3f1424a0",
+      "snapshot_sha256": "e9e1cdf2d26c4a4ae3921f4a2e8353ab5a7e2c5912dbf7deb244fc3afbb7f6a3",
       "provenance": [
         {
           "scheme": "url",
@@ -10334,7 +10337,7 @@
         "data-localization",
         "trade-barriers"
       ],
-      "snapshot_sha256": "4cef43106111bc1fa32cd89df873baa8c723422534d85ba718a9f0cb0046de22",
+      "snapshot_sha256": "24a1f28f4fa572b2586cce1f264f3764b5a51a3d68e061b6d92a9eac6e4b3bf5",
       "provenance": [
         {
           "scheme": "url",
@@ -10364,7 +10367,7 @@
         "data-localization",
         "compliance-costs"
       ],
-      "snapshot_sha256": "3f7f8ee28dfa7827122bbbbeb1f6f99d88db5585d0f70d269eec31b1908c1a51",
+      "snapshot_sha256": "b54c0b145bc3b92915cd9c7cb71b01bd20a2135b624495ceab00ad124bc0241e",
       "provenance": [
         {
           "scheme": "url",
@@ -10378,7 +10381,7 @@
       "title": "How the Brussels Effect Hinders Innovation in the Global South   Reports & Briefings   Jan 26, 2026   ITIF",
       "url": "https://itif.org/publications/2026/01/26/how-brussels-effect-hinders-innovation-in-global-south/",
       "resolved_url": "https://itif.org/publications/2026/01/26/how-brussels-effect-hinders-innovation-in-global-south/",
-      "snapshot_sha256": "780e1c3036160cbc3f8879a843788508c86cc2e2298e25a8358f46dc3f1424a0",
+      "snapshot_sha256": "e9e1cdf2d26c4a4ae3921f4a2e8353ab5a7e2c5912dbf7deb244fc3afbb7f6a3",
       "provenance": [
         {
           "scheme": "url",
@@ -10394,7 +10397,7 @@
       "title": "How the Brussels Effect Hinders Innovation in the Global South   Reports & Briefings   Jan 26, 2026   ITIF",
       "url": "https://itif.org/publications/2026/01/26/how-brussels-effect-hinders-innovation-in-global-south/",
       "resolved_url": "https://itif.org/publications/2026/01/26/how-brussels-effect-hinders-innovation-in-global-south/",
-      "snapshot_sha256": "fe3019a6c00fe25c3d6acb7a3399d52f0976524fae0cb3159c5ced87f34a7801",
+      "snapshot_sha256": "e9e7045ab89646313957a7de8fb0f5ab2bfa5804d099a1416b71b82f2c8b8e37",
       "provenance": [
         {
           "scheme": "url",
@@ -10410,7 +10413,7 @@
       "title": "How the Brussels Effect Hinders Innovation in the Global South   Reports & Briefings   Jan 26, 2026   ITIF",
       "url": "https://itif.org/publications/2026/01/26/how-brussels-effect-hinders-innovation-in-global-south/",
       "resolved_url": "https://itif.org/publications/2026/01/26/how-brussels-effect-hinders-innovation-in-global-south/",
-      "snapshot_sha256": "4cef43106111bc1fa32cd89df873baa8c723422534d85ba718a9f0cb0046de22",
+      "snapshot_sha256": "24a1f28f4fa572b2586cce1f264f3764b5a51a3d68e061b6d92a9eac6e4b3bf5",
       "provenance": [
         {
           "scheme": "url",
@@ -10439,7 +10442,7 @@
         "human-flourishing",
         "tech-critique"
       ],
-      "snapshot_sha256": "22558447a58822e9fd8fb0052f2921b12b536c754e21d6b2e362eeb6e164f555"
+      "snapshot_sha256": "9c0c20338087cc354314397fd712890184b6b799cd6c2578f4e62c9d00083c45"
     },
     {
       "id": "how-count-ais-individuation-liability-ai-agents-2026",
@@ -10633,7 +10636,7 @@
         "human-attention",
         "activism"
       ],
-      "snapshot_sha256": "bc1fef0b4b504e0d8ea019621f60b8a44fef95aa2c494714c5bc9d14030a2fc1"
+      "snapshot_sha256": "a785d017edd5d4cf12c196977d4504e502b4acae2dd508dd41731c6c451b537e"
     },
     {
       "id": "how-us-public-ai-experts-view-artificial-intelligence-2026",
@@ -11534,7 +11537,7 @@
         "ai-capabilities",
         "societal-resilience"
       ],
-      "snapshot_sha256": "f8dfbd68482f409e1b4a0b9736a3cc26b21a7765f860b11190c9d762a1be1e8d",
+      "snapshot_sha256": "89319ccd415730dc7d5fbebb492ee023f6ae139ad710177ff911fc23fce08d0d",
       "provenance": [
         {
           "scheme": "arxiv",
@@ -11684,7 +11687,7 @@
     },
     {
       "id": "interpretability-signs-introspection-large-language-models-2026",
-      "snapshot_sha256": "45f831e1a47704ec0f5f02658862a618238b1332b2d9d3c88da7603b80d5529d"
+      "snapshot_sha256": "62c4d7c9c656fba81e42a62316aaf97ae7fedb8d2fa7c8c009e135c3c4cfe312"
     },
     {
       "id": "interpretability-signs-introspection-large-language-models-2026-1",
@@ -11702,7 +11705,7 @@
         "neural-mechanisms",
         "concept-injection"
       ],
-      "snapshot_sha256": "45f831e1a47704ec0f5f02658862a618238b1332b2d9d3c88da7603b80d5529d"
+      "snapshot_sha256": "62c4d7c9c656fba81e42a62316aaf97ae7fedb8d2fa7c8c009e135c3c4cfe312"
     },
     {
       "id": "introduction-economics-transformative-ai-2026",
@@ -11773,7 +11776,7 @@
         "embodied-ai",
         "assistive-robotics"
       ],
-      "snapshot_sha256": "893d7eaf270df1950c68f662522f87991a5d2453ab8acffe8e773a71127ee3f6"
+      "snapshot_sha256": "8cb86e2e4a74b7681338ca753f98d4100d44ca5416c3fd5fe0d14d634dd5e5ac"
     },
     {
       "id": "ip-cant-save-you-from-ai-2026",
@@ -12466,7 +12469,7 @@
         "policy-framework",
         "human-rights"
       ],
-      "snapshot_sha256": "7453d7b439349ac8481575c8177b5f2bdb38c40161af2acce1791add970718cb",
+      "snapshot_sha256": "8bdc2a54a275b5b3c9e1667fa45d3bda403328d0572a9e13469fd94877d6967b",
       "provenance": [
         {
           "scheme": "doi",
@@ -12648,7 +12651,7 @@
         "law-and-economics",
         "causation"
       ],
-      "snapshot_sha256": "302ae8766dc6bb3e6eac5393c6d81c258129daf666d66908abfd9351273d86f0"
+      "snapshot_sha256": "ac12c5b51a302db8f0321c585431e325713b8510dfab1bf5c82d0c39a49843f2"
     },
     {
       "id": "lie-detector-test-language-models-reading-knowledge-model-2026",
@@ -12926,7 +12929,7 @@
       "title": "Managing AI Risk  Legal and Governance Imperatives for the Board   Publications   Cleary Gottlieb",
       "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/managing-ai-risk-legal-and-governance-imperatives-for-the-board",
       "resolved_url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/managing-ai-risk-legal-and-governance-imperatives-for-the-board",
-      "snapshot_sha256": "01cf3d0bf65437f09d5cbd426dc8554a9c68a934734a62e5ce926b0257910940",
+      "snapshot_sha256": "f7e2e96a0f170d55bba78e75ac9979855f1b2710c4b82d672916f82df179fa40",
       "provenance": [
         {
           "scheme": "url",
@@ -12947,18 +12950,18 @@
         "model-theft",
         "ai-governance"
       ],
-      "snapshot_sha256": "4d4bb9e23248111fde2eb717864d0faecaa31c912a5666f11b93a6031b2fd0b4"
+      "snapshot_sha256": "dab55ee54f10ac2921f81436f20ebcc87d47affe0ca23e3844cda122436207ae"
     },
     {
       "id": "managingrisksfrominternalaisystems-2026",
       "title": "Managing+Risks+from+Internal+AI+Systems",
-      "snapshot_sha256": "4d4bb9e23248111fde2eb717864d0faecaa31c912a5666f11b93a6031b2fd0b4",
+      "snapshot_sha256": "dab55ee54f10ac2921f81436f20ebcc87d47affe0ca23e3844cda122436207ae",
       "duplicate_of": "managing-risks-from-internal-ai-systems-2026",
       "duplicate_of_ref": "t4337-cleanup-2026-10#g057"
     },
     {
       "id": "mapping-mind-large-language-model-2026",
-      "snapshot_sha256": "c7410d3c87dd57655dbc6cdfbb376b268eb6ab808e9c3c6facf33f3774331380"
+      "snapshot_sha256": "68e6acc33d23ac11202092c23d790d16b66792f225f5b85b72429f9e8d7886af"
     },
     {
       "id": "mapping-mind-large-language-model-2026-1",
@@ -12976,7 +12979,7 @@
         "dictionary-learning",
         "model-transparency"
       ],
-      "snapshot_sha256": "c7410d3c87dd57655dbc6cdfbb376b268eb6ab808e9c3c6facf33f3774331380"
+      "snapshot_sha256": "68e6acc33d23ac11202092c23d790d16b66792f225f5b85b72429f9e8d7886af"
     },
     {
       "id": "marc-andreessen-manifesto-says-ai-regulation-is-form-murder-2026",
@@ -13048,7 +13051,7 @@
         "techno-optimism",
         "surveillance-capitalism"
       ],
-      "snapshot_sha256": "61b45536f77d6bedf835621479511c0369d4e11e6329d65ff5ec3924e1893c07"
+      "snapshot_sha256": "053af4e0eed3a0d9336b69b6abb844af81b8c0fc115e9ad9856af469d862ea91"
     },
     {
       "id": "me-myself-ai-situational-awareness-dataset-sad-llms-2026",
@@ -13118,7 +13121,7 @@
     {
       "id": "measuring-risk-2-what-eu-risk-assessments-us-litigation-2026",
       "title": "Measuring Risk 2 What EU Risk Assessments and US Litigation Reveal About Snap and YouTube KGI 2026",
-      "snapshot_sha256": "90e35764b014695082fc622c028d909ff3bd7b5f4d6de8be26bab3642a5c7c93",
+      "snapshot_sha256": "01f2e48ccf3e695e5267024cdf75d3f6dc8cd3c43e9fa510595744a77d8b9b6b",
       "duplicate_of": "measuring-risk-ii-what-eu-risk-assessments-us-litigation-2026",
       "duplicate_of_ref": "t4337-cleanup-2026-10#g060"
     },
@@ -13139,7 +13142,7 @@
         "product-design",
         "litigation"
       ],
-      "snapshot_sha256": "90e35764b014695082fc622c028d909ff3bd7b5f4d6de8be26bab3642a5c7c93"
+      "snapshot_sha256": "01f2e48ccf3e695e5267024cdf75d3f6dc8cd3c43e9fa510595744a77d8b9b6b"
     },
     {
       "id": "measuring-us-workers-capacity-adapt-ai-driven-job-2026",
@@ -13514,7 +13517,7 @@
     },
     {
       "id": "natural-language-autoencoders-turning-claudes-thoughts-into-2026",
-      "snapshot_sha256": "762b4428866aeeba77fc3b3b645e90435a8ef2a101a6a38bcc7b041f05f5e5c7"
+      "snapshot_sha256": "30faeece0229db55224c1672e123fcbe44b9b7c089189eebde50d3820a8c94f0"
     },
     {
       "id": "natural-language-autoencoders-turning-claudes-thoughts-into-2026-1",
@@ -13531,7 +13534,7 @@
         "evaluation-awareness",
         "neural-activations"
       ],
-      "snapshot_sha256": "762b4428866aeeba77fc3b3b645e90435a8ef2a101a6a38bcc7b041f05f5e5c7"
+      "snapshot_sha256": "30faeece0229db55224c1672e123fcbe44b9b7c089189eebde50d3820a8c94f0"
     },
     {
       "id": "natural-selection-favors-ais-over-humans-2026",
@@ -13723,7 +13726,7 @@
         "corporate-responsibility",
         "ai-ethics"
       ],
-      "snapshot_sha256": "6f9846564a2f09167569204298e06c3f9acbe5587aee6f657204efd15d8a9387"
+      "snapshot_sha256": "31cb2b31d89d7d31f2ca86c05e5816434499a77a35cf204e6e87e720c0f9f226"
     },
     {
       "id": "no-body-blame-ai-agents-legal-personhood-accountability-gap-2026",
@@ -13896,7 +13899,7 @@
     },
     {
       "id": "open-sourcing-circuit-tracing-tools-2026",
-      "snapshot_sha256": "4f5bebbe06fa4fbc7d5112d408211fff5a272bee110b49cb68d99d04c27bd906"
+      "snapshot_sha256": "5ca24ac37501a4a573482d8f66944c236995e1c90d652bb82fe17f5079a98525"
     },
     {
       "id": "open-sourcing-circuit-tracing-tools-2026-1",
@@ -13916,7 +13919,7 @@
         "model-transparency",
         "ai-alignment"
       ],
-      "snapshot_sha256": "4f5bebbe06fa4fbc7d5112d408211fff5a272bee110b49cb68d99d04c27bd906"
+      "snapshot_sha256": "5ca24ac37501a4a573482d8f66944c236995e1c90d652bb82fe17f5079a98525"
     },
     {
       "id": "open-weight-ai-models-require-proportional-evaluation-2026",
@@ -14410,7 +14413,7 @@
     },
     {
       "id": "persona-vectors-monitoring-controlling-character-traits-2026",
-      "snapshot_sha256": "d045f0e2dd4294d7afd10c5bf3416b51944ec0eeaf6412624700c27618e8c195"
+      "snapshot_sha256": "a8db74a97e8e06df5b207c61292b1b89c747d20a6d43b667f15b46391ac649d0"
     },
     {
       "id": "persona-vectors-monitoring-controlling-character-traits-2026-1",
@@ -14424,7 +14427,7 @@
         "model-behavior",
         "safety-research"
       ],
-      "snapshot_sha256": "d045f0e2dd4294d7afd10c5bf3416b51944ec0eeaf6412624700c27618e8c195"
+      "snapshot_sha256": "a8db74a97e8e06df5b207c61292b1b89c747d20a6d43b667f15b46391ac649d0"
     },
     {
       "id": "philosophy-speed-genealogy-accelerationism-2026",
@@ -14706,7 +14709,7 @@
         "grid-infrastructure",
         "nuclear-power"
       ],
-      "snapshot_sha256": "aca66919a9a14d10f2450143c6f9714e07c1369c660d724a1589e3ef23651578"
+      "snapshot_sha256": "666adf46c485108e18912bf971b0c2a64ed385f87005a44876c58b829f5b607d"
     },
     {
       "id": "power-seekingaiexistentialrisk-2026",
@@ -15163,7 +15166,7 @@
         "explainability",
         "agi-safety"
       ],
-      "snapshot_sha256": "bef7d39a22d9a6bcdcd2dbcb0c195c716d223cacf150365322c719af341d16fb"
+      "snapshot_sha256": "738cd2285a67d383f18a83460f61888132e98ecd19f29aa24244864d1e146761"
     },
     {
       "id": "psychological-costs-adopting-ai-2026",
@@ -15909,7 +15912,7 @@
         "global-policy",
         "economic-development"
       ],
-      "snapshot_sha256": "fa53d7866d3e58699e702e64f1fa6a76f70a8aadc551498f143ccfa31b2daef2",
+      "snapshot_sha256": "ede793daf3a8a751dd80a89c1458fd0ed06be05f7a5829a3c0d69848684a383e",
       "provenance": [
         {
           "scheme": "url",
@@ -16083,7 +16086,7 @@
         "accountability",
         "social-media"
       ],
-      "snapshot_sha256": "0ca32b4c248cf4e9dfd84aba4086d11053ba141b1571801dd5a3f2750079e644"
+      "snapshot_sha256": "70645d0e10bb9c964bf16ed1b84bee03a534a9e3d28b09222e9b97822a77c30e"
     },
     {
       "id": "rise-agentic-ai-potential-new-legal-organizational-risks-2026",
@@ -16480,7 +16483,7 @@
         "jailbreaking",
         "data-leakage"
       ],
-      "snapshot_sha256": "886aba659cd7dc293a5b5073d96776a2fa2c7d0ab91284216afd4e4671353399",
+      "snapshot_sha256": "fb3ada177e8fb2baf28f61743b5b213127e043041605587f185726305555edbd",
       "provenance": [
         {
           "scheme": "url",
@@ -17114,7 +17117,7 @@
         "applied-behavior-analysis",
         "computational-behavior-analysis"
       ],
-      "snapshot_sha256": "edbca54b38c395ea28fbf44531af81a1d30bd77bf03b70b6e5e6aa8ad180cc9c"
+      "snapshot_sha256": "a97290ad0612327d5961992519f7c1eb349af8ccba60b2ffb32de707563208bd"
     },
     {
       "id": "social-media-distrust-turn-artificial-intelligence-among-2026",
@@ -17170,7 +17173,7 @@
         "alignment",
         "academic-research"
       ],
-      "snapshot_sha256": "bc89aab2329751bbdef98672efa6f8262a211428b31f2f009193e07e6f1aaaae"
+      "snapshot_sha256": "1a2f4a3309a82d3f4e48fa73b9f8bd66ed1aae564bf3b068ea908dbab328e20e"
     },
     {
       "id": "something-big-is-happening-but-not-what-you-think-2026",
@@ -17377,7 +17380,7 @@
         "national-security",
         "ai-governance"
       ],
-      "snapshot_sha256": "1a1df7478cfbcc205c77085220521af5c25724185e7db5f1ace397ede2a9d0de",
+      "snapshot_sha256": "34df846a01b0c112549b87607305b7f7855fa51849c4a42edce46621f42f11fb",
       "provenance": [
         {
           "scheme": "url",
@@ -17428,7 +17431,7 @@
         "governance",
         "compliance"
       ],
-      "snapshot_sha256": "63c01bc4ce1eb0e254ee5d6dafc2157a7cf3d808ec2c8c6e082b20f3b014451c"
+      "snapshot_sha256": "fcf7261681b9e8ad26bfbfc8e74011290d357c01c9399608ea46c2eef4a8f9c3"
     },
     {
       "id": "stereoset-measuring-stereotypical-bias-pretrained-language-2026",
@@ -17759,7 +17762,7 @@
         "risk-management",
         "engineering-ethics"
       ],
-      "snapshot_sha256": "44acff07e4f145161c1847a57e91b9c0fcdcb4838f5fbd5ed465bbbdd4161456"
+      "snapshot_sha256": "28045287540b6cc6292b99d627c81df14c2334eaf72b60924e56139e639f4188"
     },
     {
       "id": "sycophantic-chatbots-cause-delusional-spiraling-even-ideal-2026",
@@ -18388,7 +18391,7 @@
     },
     {
       "id": "tracing-thoughts-large-language-model-2026",
-      "snapshot_sha256": "f32056b402803e405a7710279785dfa6c92e92e0a7ede91d352c15dc71f7a471"
+      "snapshot_sha256": "5a0c28894832bbbc872fca6b1291f8896cc283080795730bea5c74db94e75c78"
     },
     {
       "id": "tracing-thoughts-large-language-model-2026-1",
@@ -18406,7 +18409,7 @@
         "jailbreaking",
         "reasoning"
       ],
-      "snapshot_sha256": "f32056b402803e405a7710279785dfa6c92e92e0a7ede91d352c15dc71f7a471"
+      "snapshot_sha256": "5a0c28894832bbbc872fca6b1291f8896cc283080795730bea5c74db94e75c78"
     },
     {
       "id": "traiga-compliance-guide-texas-ai-law-requirements-2026-2026",
@@ -18699,7 +18702,7 @@
       "title": "trust attitudes and use of ai global report",
       "url": "https://doi.org/10.26188/28822919",
       "resolved_url": "https://doi.org/10.26188/28822919",
-      "snapshot_sha256": "c52e5fab5feab1d4598b616c9b8fef344a59baeb7197093ad38cf56de0b315c2",
+      "snapshot_sha256": "a23afc9146aece38d3da92630c77dacfa6593e928454c374f8a214d7614149da",
       "provenance": [
         {
           "scheme": "doi",
@@ -18715,7 +18718,7 @@
       "title": "trust attitudes and use of ai global report",
       "url": "https://doi.org/10.26188/28822919",
       "resolved_url": "https://doi.org/10.26188/28822919",
-      "snapshot_sha256": "c52e5fab5feab1d4598b616c9b8fef344a59baeb7197093ad38cf56de0b315c2",
+      "snapshot_sha256": "a23afc9146aece38d3da92630c77dacfa6593e928454c374f8a214d7614149da",
       "provenance": [
         {
           "scheme": "doi",
@@ -18748,7 +18751,7 @@
         "global-survey",
         "responsible-ai"
       ],
-      "snapshot_sha256": "c52e5fab5feab1d4598b616c9b8fef344a59baeb7197093ad38cf56de0b315c2",
+      "snapshot_sha256": "a23afc9146aece38d3da92630c77dacfa6593e928454c374f8a214d7614149da",
       "provenance": [
         {
           "scheme": "doi",
@@ -18783,7 +18786,7 @@
         "global-survey",
         "responsible-ai"
       ],
-      "snapshot_sha256": "c52e5fab5feab1d4598b616c9b8fef344a59baeb7197093ad38cf56de0b315c2",
+      "snapshot_sha256": "a23afc9146aece38d3da92630c77dacfa6593e928454c374f8a214d7614149da",
       "provenance": [
         {
           "scheme": "doi",
@@ -19511,7 +19514,7 @@
         "human-values",
         "silicon-valley"
       ],
-      "snapshot_sha256": "5da773f50f648fa33b4f2b8de40d8f21384f9ebc5c822b2858effe3154623b6d"
+      "snapshot_sha256": "ebde63f6725f7d07e87bc3a9ea7050a7a3e53b69d39192155885a16f056532ee"
     },
     {
       "id": "whats-next-ai-field-notes-from-microsoft-research-2026-2026",
@@ -19576,7 +19579,7 @@
         "small-scale-ai",
         "tech-ethics"
       ],
-      "snapshot_sha256": "a4842aa9f954f1d7428dbc7e0796337dcea9fa63ef125ed67b07a02fa8108681",
+      "snapshot_sha256": "a862a6beb6369fba98182b3c2a102d5390637971175fafc22cd6f48135cc1a6c",
       "provenance": [
         {
           "scheme": "url",
@@ -19631,7 +19634,7 @@
         "governance",
         "frontier-models"
       ],
-      "snapshot_sha256": "bb8e53365c8427fb28745a3612b7e6dd6236d1e6ec2612bd9d7cdc49fad85e6e"
+      "snapshot_sha256": "b38b548935bb222046f026bfd619763e5e93ce587cecae5b6c7435773dc69ccb"
     },
     {
       "id": "when-artificial-intelligence-does-strategy-learning-good-2026",
@@ -19890,7 +19893,7 @@
         "governance",
         "intellectual-property"
       ],
-      "snapshot_sha256": "70d7c8877420c89f66b8aa500556e5f01d84dc66b9a9c1dc1696408b70fcb7f0",
+      "snapshot_sha256": "f31462aa4165cd0e27b5483cab0f330f6e3f41a6df52edbd173835562133c2c2",
       "provenance": [
         {
           "scheme": "url",
@@ -19921,7 +19924,7 @@
         "governance",
         "intellectual-property"
       ],
-      "snapshot_sha256": "70d7c8877420c89f66b8aa500556e5f01d84dc66b9a9c1dc1696408b70fcb7f0",
+      "snapshot_sha256": "f31462aa4165cd0e27b5483cab0f330f6e3f41a6df52edbd173835562133c2c2",
       "provenance": [
         {
           "scheme": "url",
@@ -20089,7 +20092,7 @@
         "local-governance",
         "tax-policy"
       ],
-      "snapshot_sha256": "6f1a51ba1dc614b54b01ce0f6c0302494c1b188c185ad3f5771f84fde90c479d"
+      "snapshot_sha256": "ff01dd02d1cb9161097a85a77fcc5cade58be238ed6a9a42ff0d9176b63cd32f"
     },
     {
       "id": "why-christian-intellectuals-are-so-unsettled-by-ai-2026",
@@ -20107,7 +20110,7 @@
         "christian-thought",
         "technoculture"
       ],
-      "snapshot_sha256": "80f75184431d12a7479af9e1218257439cf35f5be5dd7cfa01be2deb69ec1e4a"
+      "snapshot_sha256": "99a1890ec8f155baf756bf44c84bb6dc27e353b3cb45fbf2406bf042a68526f5"
     },
     {
       "id": "why-eu-ai-act-needs-cryptographic-audit-trailsand-how-vcp-2026",
